@@ -21,7 +21,7 @@
   }
   // KEY_LOCAL is the existing app's data key, separate from the public API key.
   const KEY_LOCAL='reading-garden-v1';
-  function status(message){el('syncStatus').textContent=message;}
+  function status(message,quiet=false){const node=el('syncStatus');node.hidden=quiet;if(!quiet&&node.textContent!==message)node.textContent=message;}
   function controls(){
     el('cloudLogin').hidden=!!session;
     el('cloudLogout').hidden=!session;
@@ -106,7 +106,7 @@
     if(busy||!session||(!manual&&paused))return;
     if(!active){try{await activate()}catch(error){status(describe(error))}return;}
     if(!navigator.onLine){status('Offline: changes are saved on this device.');return;}
-    busy=true;const ticket=generation;status('Syncing…');
+    busy=true;const ticket=generation;status('Syncing…',true);
     try{
       for(let attempt=0;attempt<4;attempt++){
         const fetched=await remote();if(ticket!==generation)return;
@@ -128,7 +128,7 @@
         const current=snapshot();const next=core.merge(local,current,accepted.data,'local').data;
         setData(next);saveBase(accepted.data,accepted.revision);paused=false;
         const pending=!core.equal(next,base);
-        status(pending?'Saved locally · syncing remaining changes…':'Synced · '+new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}));
+        status(pending?'Saved locally · syncing remaining changes…':'Synced',true);
         if(pending)schedule();return;
       }
       throw Error('Another device is still updating. Try again.');
@@ -158,7 +158,7 @@
     if(!confirm('Merge this device’s local-mode papers, ideas, and checklist into your private cloud library? Existing cloud records will be retained.'))return;
     try{setData(core.importRecords(snapshot(),readLocal('')));schedule();toast('Local records merged. Syncing to your other device…');}catch{toast('Could not read local records. Export a backup before continuing.');}
   };
-  document.addEventListener('reading-garden:changed',()=>{if(active&&!applying){status('Saved on this device · sync pending');schedule();}});
+  document.addEventListener('reading-garden:changed',()=>{if(active&&!applying){status('Saved on this device · sync pending',true);schedule();}});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)sync(false);});
   addEventListener('online',()=>sync(false));
   setInterval(()=>{if(!document.hidden)sync(false)},15000);
