@@ -1,0 +1,20 @@
+{
+  "id": "/reading-garden/",
+  "name": "Reading Garden · My Paper Library",
+  "short_name": "Reading Garden",
+  "description": "A quiet personal library for the papers you read.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#f8f7f2",
+  "theme_color": "#386b52",
+  "categories": ["productivity", "education"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
