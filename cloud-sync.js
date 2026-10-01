@@ -21,11 +21,11 @@
   }
   // KEY_LOCAL is the existing app's data key, separate from the public API key.
   const KEY_LOCAL='reading-garden-v1';
-  function status(message,quiet=false){const node=el('syncStatus');node.hidden=quiet;if(!quiet&&node.textContent!==message)node.textContent=message;}
+  function status(message,quiet=false){const node=el('syncStatus');node.hidden=quiet;const button=el('cloudNow');button.hidden=!session||!paused;button.textContent='Resolve conflict';if(!quiet&&node.textContent!==message)node.textContent=message;}
   function controls(){
     el('cloudLogin').hidden=!!session;
     el('cloudLogout').hidden=!session;
-    el('cloudNow').hidden=!session;
+    el('cloudNow').hidden=!session||!paused;el('cloudNow').textContent='Resolve conflict';
     el('cloudImport').hidden=!active;
   }
   function setData(data){
@@ -42,7 +42,7 @@
   function describe(error){
     if(['PGRST205','PGRST202','42P01','42883'].includes(error?.code))return 'Cloud setup needed: run setup.sql in Supabase.';
     if(error?.code==='42501')return 'Cloud access denied. Check the owner account and database setup.';
-    return navigator.onLine?'Sync failed. Your changes remain on this device; try Sync now.':'Offline: changes are saved on this device.';
+    return navigator.onLine?'Sync failed. Your changes remain on this device; automatic sync will retry.':'Offline: changes are saved on this device.';
   }
   async function sdk(){
     if(client)return client;
@@ -112,7 +112,7 @@
         const fetched=await remote();if(ticket!==generation)return;
         const local=snapshot();let merged=core.merge(base,local,fetched.data);
         if(merged.conflicts.length){
-          if(!manual){paused=true;status('Conflicting edits: click Sync now to choose which version to keep.');return;}
+          if(!manual){paused=true;status('Conflicting edits: click Resolve conflict to choose which version to keep.');return;}
           const keepLocal=confirm('The same record was edited or deleted on both devices. OK: keep this device’s version of conflicting records. Cancel: use the cloud version. Other records will be merged.');
           merged=core.merge(base,local,fetched.data,keepLocal?'local':'remote');
         }
