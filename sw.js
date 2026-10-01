@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261001-delete-v1';
-const ASSETS = ['./', './index.html', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261001-cloud-v1';
+const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -15,7 +15,16 @@ self.addEventListener('activate', e => {
 
 self.addEventListener('fetch', e => {
   const req = e.request;
-  if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  if (req.method !== 'GET') return;
+  // Cache only the public SDK, never Supabase auth or private API responses.
+  if (req.url === 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2') {
+    e.respondWith(caches.match(req).then(hit => hit || fetch(req).then(r => {
+      if (r.ok) { const copy = r.clone(); e.waitUntil(caches.open(CACHE).then(c => c.put(req, copy))); }
+      return r;
+    })));
+    return;
+  }
+  if (new URL(req.url).origin !== location.origin) return;
   // Pages are network-first so a redeploy lands immediately; cache is the offline fallback.
   if (req.mode === 'navigate') {
     e.respondWith(fetch(req, {cache: 'no-cache'})
