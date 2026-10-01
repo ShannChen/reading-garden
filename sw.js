@@ -1,4 +1,4 @@
-const CACHE = 'reading-garden-20261001-classification-v3';
+const CACHE = 'reading-garden-20261001-quiet-sync-v4';
 const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
