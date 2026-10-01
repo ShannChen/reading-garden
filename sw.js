@@ -1,4 +1,4 @@
-const CACHE = 'reading-garden-20261001-status-v1';
+const CACHE = 'reading-garden-20261001-delete-v1';
 const ASSETS = ['./', './index.html', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
