@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261001-private-pdf-v6';
-const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './pdf.js', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261001-figure1-v7';
+const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './pdf.js', './figures.js', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -38,4 +38,5 @@ self.addEventListener('fetch', e => {
     return r;
   })));
 });
+
 
