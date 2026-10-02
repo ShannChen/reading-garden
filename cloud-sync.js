@@ -167,6 +167,27 @@
   addEventListener('storage',event=>{
     if(active&&event.key?.startsWith(namespace+':')&&event.key!==metaKey){try{setData(core.merge(base,snapshot(),readLocal(namespace),'remote').data);schedule()}catch{status('Local records changed in another tab. Reload after exporting a backup.');}}
   });
+  // The private file API shares the existing owner session. Never store signed URLs.
+  window.ReadingGardenFiles={
+    ready:()=>active&&session?.user.id===OWNER,
+    upload:async(paperId,file)=>{
+      if(!active||session?.user.id!==OWNER)throw Error('Sign in to upload private PDFs.');
+      const ticket=generation;const path=OWNER+'/'+crypto.randomUUID()+'.pdf';
+      const {error}=await client.storage.from('reading-garden-pdfs').upload(path,file,{contentType:'application/pdf',upsert:false});
+      if(error)throw Error('Private PDF upload failed. If storage is not configured yet, run pdf-storage.sql in your Supabase SQL Editor.');
+      if(ticket!==generation||!active)throw Error('Your sign-in changed during upload. Reopen the paper and try again.');
+      return {path,name:file.name,size:file.size};
+    },
+    open:async(path)=>{
+      if(!active||session?.user.id!==OWNER)throw Error('Sign in to read your private PDF.');
+      if(typeof path!=='string'||!path.startsWith(OWNER+'/')||path.includes('..'))throw Error('Invalid private PDF reference.');
+      const ticket=generation;const {data,error}=await client.storage.from('reading-garden-pdfs').createSignedUrl(path,300);
+      if(error||!data?.signedUrl)throw Error('Could not open this PDF. Check that the file exists in your private storage.');
+      if(ticket!==generation||!active)throw Error('Your sign-in changed. Please try again.');
+      return data.signedUrl;
+    }
+  };
   controls();
   if(localStorage.getItem('reading-garden-auth'))sdk().then(api=>api.auth.getSession()).then(({data})=>handleSession(data.session)).catch(()=>status('Sign-in service unavailable. Local records are still available.'));
 })();
+
