@@ -9,10 +9,10 @@
   let base=core.empty(),revision=0,session=null,generation=0;
   const el=id=>document.getElementById(id);
   const copy=data=>JSON.parse(JSON.stringify(data));
-  const snapshot=()=>copy({papers,ideas,tasks});
+  const snapshot=()=>copy({papers,ideas,tasks,feedSettings:window.ReadingGardenFeeds?.exportState()||[]});
   function readLocal(prefix){
     const result=core.empty();
-    for(const [collection,key] of [['papers',KEY_LOCAL],['ideas',IDEAS_KEY],['tasks',TASKS_KEY]]){
+    for(const [collection,key] of [['papers',KEY_LOCAL],['ideas',IDEAS_KEY],['tasks',TASKS_KEY],['feedSettings','reading-garden-feed-settings-v1']]){
       const raw=localStorage.getItem(prefix?prefix+':'+key:key);
       if(raw!==null){const records=JSON.parse(raw);if(!Array.isArray(records))throw Error('Invalid saved records');result[collection]=records;}
     }
@@ -30,7 +30,7 @@
   }
   function setData(data){
     applying=true;
-    try{papers=copy(data.papers);ideas=copy(data.ideas);tasks=copy(data.tasks);persist();}
+    try{papers=copy(data.papers);ideas=copy(data.ideas);tasks=copy(data.tasks);window.ReadingGardenFeeds?.setState(data.feedSettings||[]);persist();}
     finally{applying=false}
   }
   function saveBase(data,version){
