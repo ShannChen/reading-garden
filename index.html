@@ -51,10 +51,10 @@ aside{overflow-y:auto}
 @media(prefers-reduced-motion:reduce){.person-card-inner{transition:none}}
 
 .person-front{position:relative}
-.person-star{width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;padding:0;border:0;border-radius:7px;background:transparent;color:#8b948e;font-size:27px;line-height:1;cursor:pointer}
+.person-star{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;padding:0;border:1px solid #d5dcd6;border-radius:9px;background:#f8faf7;color:#63776b;font-size:27px;line-height:1;cursor:pointer}
 .person-star:hover{background:#f7f0da}
-.person-star.is-starred{color:#d69c17}
-#peopleCards .person-front>.person-star{position:absolute;top:9px;right:10px}
+.person-star.is-starred{color:#c78a00;background:#fff5d8;border-color:#ebcf82}
+#peopleCards .person-front>.person-star{position:absolute;top:9px;right:10px;z-index:2}
 #peopleCards .person-front>.cardbottom{padding-top:28px}
 .person-back-actions{display:flex;align-items:center;gap:5px;flex-direction:row-reverse}
 .person-back-header>div:first-child{flex:1;min-width:0}
@@ -273,13 +273,13 @@ render();
 
 </script>
 <dialog id="feedSettingsDialog" aria-labelledby="feedSettingsTitle"><div style="display:flex;justify-content:space-between;gap:16px;align-items:center"><h2 id="feedSettingsTitle">Customize feed</h2><button type="button" id="closeFeedSettings" class="secondary" aria-label="Close feed settings">×</button></div><p class="small">Choose your topics and journals. Settings sync with your account. Default subscriptions update in the background daily; custom subscriptions check automatically once a day while the app is open.</p><div id="subscriptionList"></div><button type="button" id="newSubscription" class="secondary" style="margin:16px 0">＋ New subscription</button><form id="subscriptionForm"><h3 id="subscriptionFormTitle">New subscription</h3><div class="formgrid"><label class="wide">Topic name<input name="name" required maxlength="80" placeholder="e.g., Lipidomics"></label><label class="wide">Keywords<textarea name="keywords" required rows="2" placeholder="lipidomics, lipidomic, lipid profiling"></textarea><span class="small">Match any keyword · Separate with commas · Up to 8 keywords</span></label><fieldset class="wide"><legend>Journal families</legend><div class="family-options"><label><input type="checkbox" name="family" value="nature"> Nature Portfolio</label><label><input type="checkbox" name="family" value="cell"> Cell Press</label><label><input type="checkbox" name="family" value="science"> Science family</label><label><input type="checkbox" name="family" value="est"> ES&T / ES&T Letters</label></div></fieldset><label class="wide">Specific journals (optional)<textarea name="journals" rows="3" placeholder="Nature Metabolism&#10;Environmental Health Perspectives"></textarea><span class="small">Enter the full journal title, one per line. Up to 10 journals. Clear the family checkboxes to follow only these journals.</span></label></div><p id="subscriptionError" class="small" role="alert" style="color:#9b4c40"></p><button id="subscriptionSave" class="primary" type="submit">Add subscription</button></form></dialog>
-<script src="feed-preferences.js"></script>
-<script src="paper-feed.js"></script>
+<script src="feed-preferences.js?v=20261005-23"></script>
+<script src="paper-feed.js?v=20261005-23"></script>
 <dialog id="personEditor" aria-labelledby="personDialogTitle"><div style="display:flex;justify-content:space-between;align-items:center;gap:16px"><h2 id="personDialogTitle">Add person</h2><button type="button" id="closePerson" class="secondary" aria-label="Close person editor">×</button></div><p id="personSource" class="small"></p><form id="personForm"><div class="formgrid"><label class="wide">Name<input name="name" required maxlength="160"></label><label class="wide">Institution / University<input name="institution" maxlength="500" placeholder="University, institute or organization"></label><label class="wide">Research areas<textarea name="fields" rows="2" placeholder="Metabolomics, Microbiome, Proteomics"></textarea><span class="small">Separate areas with commas. You can edit all suggested areas.</span></label><label class="wide">Google Scholar profile<input name="scholarUrl" type="url" placeholder="https://scholar.google.com/citations?user=…"><span class="small">Optional. Paste the confirmed profile URL.</span></label><div class="wide" style="display:flex;gap:18px;flex-wrap:wrap"><a id="personScholarSearch" target="_blank" rel="noopener noreferrer" hidden>Find on Google Scholar ↗</a><a id="personOpenAlex" target="_blank" rel="noopener noreferrer" hidden>View academic profile ↗</a></div><label class="wide">Notes<textarea name="notes" rows="3" maxlength="10000" placeholder="Why their work interests you, papers to read, or questions to discuss"></textarea></label></div><p id="personError" class="small" role="alert" style="color:#9b4c40"></p><div style="display:flex;justify-content:space-between;gap:12px;margin-top:18px"><button id="deletePerson" type="button" class="secondary" hidden>Delete person</button><button type="submit" class="primary">Save Person</button></div></form></dialog>
-<script src="people-core.js"></script>
-<script src="people.js"></script>
-<script src="sync-core.js"></script>
-<script src="cloud-sync.js"></script>
+<script src="people-core.js?v=20261005-23"></script>
+<script src="people.js?v=20261005-23"></script>
+<script src="sync-core.js?v=20261005-23"></script>
+<script src="cloud-sync.js?v=20261005-23"></script>
 </body></html>
 
 

@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261005-starred-people-no-checklist-v22';
-const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './paper-feed.js', './feed-preferences.js', './people-core.js', './people.js', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261005-visible-stars-versioned-assets-v23';
+const ASSETS = ['./', './index.html', './sync-core.js?v=20261005-23', './cloud-sync.js?v=20261005-23', './paper-feed.js?v=20261005-23', './feed-preferences.js?v=20261005-23', './people-core.js?v=20261005-23', './people.js?v=20261005-23', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
