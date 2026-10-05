@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-05T06:04:47.799429+00:00",
+  "checkedAt": "2026-10-05T06:09:19.049538+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -130,6 +130,40 @@
       "link": "https://doi.org/10.1038/s41522-026-01170-w",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
+    },
+    {
+      "doi": "10.1126/sciimmunol.aeb9068",
+      "title": "Multiomic analysis of malignant ascites defines RORC -expressing dendritic cells at sites of metastasis",
+      "authors": "Steven M. Blum, Thomas L. Chan, Neal P. Smith, Courtney Ambrose, Katherine H. Xu, Alice Tirard, Nandini Samanta, Sidney Martin, Roya Best, Elizabeth Tuttle, Christopher T. Stueber, Yuhui Song, Vaishnavi R. Yalala, Haley Barnes, Sean T. Bannon, Chloe Simms, Benjamin Y. Arnold, Mushriq Al-Jazrawe, Joseph J. Zhao, Kamil Slowikowski, Jessica Tantivit, Kasidet Manakongtreecheep, Lukas M. Altenburger, Simon Knott, Matthew R. Strickland, Michael G. Drage, Linda T. Nieman, Jesse S. Boehm, Raghav Sundar, Gary Reynolds, Samuel J. Klempner, Alexandra-Chloé Villani",
+      "journal": "Science Immunology",
+      "published": "2026-10-02",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciimmunol.aeb9068",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aef9864",
+      "title": "Speech clocks decode dementia phenotypes, social exposome, and biological aging",
+      "authors": "Hernan Hernandez, Lizeth Katherine Pedraza, Hernando Santamaria-Garcia, Sebastian Moguilner, Agustina Legaz, Pavel Prado, Jhosmary Cuadros, Lucía Amoruso, Liset Gonzalez, Damián Dellavale, Juan Pablo Espinoza–Puelles, Javier Palma Espinosa, Cecilia Jarne, Fabio Mattiussi, Matías Caccia, Alejandro Sosa Welford, Nicolás Pelella, Jeremías Inchauspe, Franco J. Ferrante, Gonzalo Pérez, Marcelo Adrián Maito, Guido Rocatti, Maria Eugenia Godoy, Joaquin Migeot, Paulina Orellana, Ariel Caviedes, Martin Bruno, Leonel Takada, Andrea Slachevsky, Maria I Behrens, Bárbara Bruna, David Aguillon, Lina Zapata, Jose Alberto Avila-Funes, Nilton Custodio, Bruce Miller, Maria Luisa Gorno-Tempini, Stefanie Pina Escudero, Pablo Reyes, Kun Hu, Maira Okada de Oliveira, Carlos Coronel-Oliveros, Josephine Cruzat, Juan Felipe Cardona, Michael Corley, Irene B. Meier, Vaibhav A. Narayan, Enzo Tagliazucchi, Sandra Baez, Claudia Duran-Aniotz, Adolfo M. García, Agustin Ibanez",
+      "journal": "Science Advances",
+      "published": "2026-10-02",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aef9864",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
     },
     {
       "doi": "10.1038/s41598-026-74055-9",
@@ -1886,6 +1920,43 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
+      "doi": "10.1126/sciadv.aei6934",
+      "title": "Microbiota-derived indole limits Campylobacter jejuni colonization by inhibiting respiration and metabolism",
+      "authors": "Ritam Sinha, Barsha Bhattarai, Cristina Kraemer Zimpel, Elizabeth Ottosen, Rhiannon M. LeVeque, Pallavi Singh, Victor J. DiRita",
+      "journal": "Science Advances",
+      "published": "2026-09-18",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aei6934",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aeh0260",
+      "title": "Multiomics profiling identifies molecular and cellular signatures of regular exercise in human peripheral blood",
+      "authors": "Xuemei Song, Jingzhi Lv, Siliang Ge, Sihan Xu, Yisha Wu, Yuhui Zheng, Wenwen Zhou, Lifeng Li, Yan Zhang, Jiaqiang Zhang, Zhen-xia Chen, Peng Gao, Pengbin Yin, Jianhua Yin, Chuanyu Liu",
+      "journal": "Science Advances",
+      "published": "2026-09-18",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aeh0260",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
       "doi": "10.1038/s42255-026-01591-z",
       "title": "m6A mRNA methylation regulates pancreatic α-cell plasticity",
       "authors": "Dario F. De Jesus, Natalie K. Brown, Garrett Fogarty, Guilherme Gabriel, Shirong Wang, Shen Wang, Lenee Shrestha, Kristin Kendall, Lily Young, Jiang Hu, Jermaine Austin, Joan Sabadell-Basallote, Sevim Kahraman, Ling Xiao, Rohit N. Kulkarni",
@@ -2792,6 +2863,23 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
+      "doi": "10.1126/scitranslmed.aeb1331",
+      "title": "Proteomics identify disease-associated variants in patients with rare diseases undiagnosed after genome sequencing",
+      "authors": "Julia Carrasco-Zanini, Jorge Andrade, Maik Pietzner, Athanasios Kousathanas, Julius O. B. Jacobsen, Jenny Lord, Narasimha Telugu, Sebastian Diecke, Michael Mülleder, Dominik Bierbaum, Letizia Vestito, Peter N. Robinson, Markus Ralser, Diana Baralle, Nicholas J. Wareham, Greg Elgar, Michael Potente, Matthew A. Brown, Mark Caulfield, Damian Smedley, Claudia Langenberg",
+      "journal": "Science Translational Medicine",
+      "published": "2026-09-09",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/scitranslmed.aeb1331",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-70540-3",
       "title": "Divergent metal bioaccumulation and toxicity responses under metal-antibiotic co-exposure are associated with gut microbiota shifts in Eisenia fetida",
       "authors": "Xin Xiong, Qiuyun Xu, Liwei Yang, Xuan Zhou, Liuxuan Fang, Jinyang Yu, Fei Yao, Xueli Tian",
@@ -3464,6 +3552,42 @@
       "link": "https://doi.org/10.1038/s41523-026-01046-4",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
+    },
+    {
+      "doi": "10.1126/science.aed6452",
+      "title": "Longitudinal dynamics of gene expression and metabolomics in an aging population cohort",
+      "authors": "Julia S. El-Sayed Moustafa, Anna Ramisch, Yasrab N. Raza, Gwenael G. R. Leday, Yunlong Jiao, Dongmeng Wang, Michael Stevens, Amy L. Roberts, Max Tomlinson, Xinyu Yan, Elizabeth Ing-Simmons, Samuel Wadge, Moustafa Abdalla, Mario Falchi, Christopher C. Holmes, Cristina Menni, George Nicholson, Mark I. McCarthy, Emmanouil T. Dermitzakis, Sylvia Richardson, Tim D. Spector, Kerrin S. Small",
+      "journal": "Science",
+      "published": "2026-09-03",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/science.aed6452",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/science.adw0855",
+      "title": "Spatially resolved single-cell atlas reveals the macroevolutionary trajectory of animal hearts",
+      "authors": "Shanshan Lian, Wei Wang, Yaoxin Liu, Meina Lu, Wentao Han, Jiaxin Luo, Xuejiao Zhang, Yue Pang, Yuru Li, Yufeng Li, Xin Dang, Peiyan Wang, Yating Qin, Ning Tan, Fang Zhang, Jin Zhang, Shuai Gao, Runyi Zhang, Lidong Guo, Lei Jiang, Pengchong Zhang, Yuehuan Zhang, Zhe Qu, Shanshan Pan, Yue Zhang, Naina Hu, Yadong Chen, Yun Cao, Wenbin Li, Xiaomei Chen, Junjie Shi, Shuaiqi Yang, Yiran Li, Qiuyun Song, Lisui Bao, Yuli Li, Xiawei Liu, Jing Wang, Lingling Zhang, Rui Li, Xin Yu, Tao Yang, Jing Chen, Ling Li, Mengqi Zhang, Lei Li, Ruihua Zhang, Hongyan Li, Ying Gu, Xun Xu, Huanming Yang, Zhenmin Bao, C. Geoffrey Burns, Caroline E. Burns, Robert G. Kelly, Jianxun Wang, Yang Zhao, Ying Su, Guangyi Fan, Qun Liu, Shi Wang, Ji-Feng Fei, Silin Pan, Long Zhao",
+      "journal": "Science",
+      "published": "2026-09-03",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/science.adw0855",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
     },
     {
       "doi": "10.1038/s42003-026-10858-w",
@@ -5837,6 +5961,74 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
+      "doi": "10.1126/sciadv.aed6318",
+      "title": "Mitochondrial profiling across macrophage states reveals inhibition of IL-4/IL-13 reprogramming by the integrated stress response",
+      "authors": "Joan Blanco-Fernandez, Miriam Lisci, Mads M. Foged, Chloé Chapuis, Tim Pflästerer, Tatjana Kleele, Alexis A. Jourdain",
+      "journal": "Science Advances",
+      "published": "2026-08-21",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aed6318",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aec5478",
+      "title": "Reconstructing pathogen-specific antibody binding epitopes and age-dependent immune signatures from proteomic-scale peptide libraries",
+      "authors": "Everlyn Kamau, Nikolina Walas, Minlu Zhang, Kathy Kamath, Jack Reifert, John Shon, Shahjahan Ali, Md Ziaur Rahman, Abul K. Shoab, Syeda L. Famida, Salma Akther, Md Saheen Hossen, Palash Mutsuddi, Mahbubur Rahman, Jessica A. Grembi, Andrew N. Mertens, Richelle C. Charles, Daniel T. Leung, Stephen Luby, Audrie Lin, Benjamin F. Arnold",
+      "journal": "Science Advances",
+      "published": "2026-08-21",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aec5478",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aec5063",
+      "title": "Large-scale proteomics to identify novel biomarkers linking social determinants of health to heart failure risk",
+      "authors": "Diego Ramonfaur, Rani Zierath, Yimin Yang, Victoria Lamberson, Brian Claggett, Tiffany M. Powell-Wiley, Tammy Leonard, Anna Kucharska-Newton, Keenan A. Walker, Patricia P. Chang, Nrupen Bhavsar, Ganga Bey, Kenneth Butler, Chiadi Ndumele, Josef Coresh, Bing Yu, James S. Floyd, Michelle C. Odden, Amil M. Shah",
+      "journal": "Science Advances",
+      "published": "2026-08-21",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aec5063",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aeb1346",
+      "title": "Geneformer-guided multiomics integration identifies Pbx1 as a network hub of hematopoietic stem cell aging",
+      "authors": "Hiroshi Kobayashi, Shintaro Watanuki, Yusuke Shiozawa, Motohiko Oshima, Shuhei Koide, Naoya Takayama, Takayuki Morikawa, Miho Haraguchi, Shinpei Tamaki, Takayoshi Asakura, Toshio Miyata, Atsushi Iwama, Seishi Ogawa, Keiyo Takubo",
+      "journal": "Science Advances",
+      "published": "2026-08-21",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aeb1346",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
       "doi": "10.1038/s42255-026-01601-0",
       "title": "A proteomic atlas of obesity and weight loss",
       "authors": "Natasha D. Suriani, Matthew J. Watt",
@@ -6758,6 +6950,40 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
+      "doi": "10.1126/sciadv.aee2632",
+      "title": "Ingestible probes for breath-based monitoring of drug-metabolizing activity from the microbiome",
+      "authors": "Vishal A. Manickam, Carly E. Kimpling, Khoi N. Le, Madeleine E. Troussé, Amy Kang, Aarsh S. Patel, Leslie W. Chan",
+      "journal": "Science Advances",
+      "published": "2026-08-14",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aee2632",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aec9180",
+      "title": "Distinct postnatal trajectories of mouse dendritic epidermal T cells and Langerhans cells independent of microbiota",
+      "authors": "David Obwegs, Alexander Oschwald, Lara M. Koetter, Cylia Crisand, Sidney Doerr, Kerstin Bruder, Solveig Runge, Nisreen Ghanem, Vidmante Fuchs, Marleen Eckert, Christian Koengeter, Anna-Maria Schaffer, Lukas Amann, Sophia Papaioannou, Tim Rollenske, Julia Kolter, Daniel Erny, Marco Prinz, Susana Minguet, Wolfgang W. Schamel, Philipp Henneke, Stephan P. Rosshart, Katrin Kierdorf, Sagar",
+      "journal": "Science Advances",
+      "published": "2026-08-14",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aec9180",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
       "doi": "10.1038/s41467-026-76696-w",
       "title": "Column switching liquid chromatography dual mass spectrometry system for simultaneous untargeted metabolomics and targeted exposomics",
       "authors": "Yuting Wang, Daidi Hou, Yuan Yuan, Pengwei Guan, Tiantian Chen, Xingyu Guo, Xin You, Xianzhe Shi, Xiaolin Wang, Qi Wang, Xinyu Liu, Guowang Xu",
@@ -7447,6 +7673,23 @@
       "link": "https://doi.org/10.1038/s41467-026-76422-6",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
+    },
+    {
+      "doi": "10.1126/scitranslmed.aee3263",
+      "title": "Fecal microbiome transplant in food allergy in humans and mice identifies a role for bile acid metabolites in oral tolerance",
+      "authors": "Rima Rachid, Monica Martinez-Blanco, Gavin A. Kuziel, Emmanuel Stephen-Victor, Mathieu Groussin, Askarbek Orakov, George Russell, Le Thanh Tu Nguyen, Mathilde Poyet, Zhussipbek Mukhatayev, Christina S. K. Yee, Sultan Albuhairi, Rayan Kteish, Ebla Abdel Rahman, Farida Abi Farraj, Ziwei Wang, Suzanne Dahlberg, Morgan Ryan, Meghan Fitzgerald, Wendy Elverson, John J. Lee, Lynda Schneider, Andrew MacGinnitie, Elena Crestani, Dianna Queheillalt, Elizabeth Burke-Roberts, Jonathan Watson, Ryan J. Elliott, Wing Fei Wong, Majdi Osman, Robert Voyksner, Elizabeth Hohmann, Curtis Huttenhower, Eric Alm, Seth Rakoff-Nahoum, Talal A. Chatila",
+      "journal": "Science Translational Medicine",
+      "published": "2026-08-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/scitranslmed.aee3263",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
     },
     {
       "doi": "10.1038/s42003-026-10723-w",
@@ -8653,6 +8896,23 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
+      "doi": "10.1126/science.adz7928",
+      "title": "Spatiotemporal multiomics uncover tumor ecosystem dynamics during metastatic colonization",
+      "authors": "Yunfan Sun, Yu Zhong, Shang Liu, Zefan Zhang, Chunqing Wang, Yang Liu, Junbing Chen, Wei Guo, Xiaoying Gu, Keqiang Rao, Zifei Wang, Muzi Cao, Yue Wang, Waidong Huang, Xuanxuan Zou, Xi Chen, Shuangjian Qiu, Yinhong Shi, Huichuan Sun, Xiaohu Huang, Yuhang Wang, Jiyan Wang, Zhifang Wu, Ru Tian, Yuanhang Zhang, Jie Gu, Miaomiao Jiang, Yinqi Bai, Guibo Li, Min Xie, Feng Xi, Lihua Peng, Shiping Liu, Shuang Yang, Yu Zhang, Miguel A. Esteban, Xin Jin, Ao Chen, Jian Wang, Yong Cang, David H. Peng, Xun Xu, Jian Zhou, Liang Wu, Jia Fan",
+      "journal": "Science",
+      "published": "2026-07-30",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/science.adz7928",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
       "doi": "10.1038/s43587-026-01183-2",
       "title": "Plasma proteomics framework predicts metabolic dysfunction-associated steatotic liver disease up to 16 years before onset",
       "authors": "Shiyi Yu, Chunling Chen, Jing Feng, Qinming Li, Shuo Chen, Ruijie Zeng, Dongling Luo, Wentao Huang, Kexin Zhang, Yuying Ma, Lijun Zhang, Meijun Meng, Yanjun Wu, Dong Chen, Qizhou Lian, Felix W. Leung, Chusi Wang, Weihong Sha, Hao Chen",
@@ -8994,6 +9254,23 @@
       "link": "https://doi.org/10.1038/s41467-026-76120-3",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
+    },
+    {
+      "doi": "10.1126/scisignal.aee6812",
+      "title": "A reduction in A-to-I RNA editing by ADAR disrupts Pumilio-mediated inhibition of MAPK signaling to drive intestinal stem cell aging",
+      "authors": "Qian Zhang, Yuedan Zhu, Yi Chen, Wenhao Hou, Aolong Sun, La Yan, Xingzhu Liu, Yu Yuan, Chaoxin Gao, Junfeng Xie, Rui Zhang, Haiyang Chen",
+      "journal": "Science Signaling",
+      "published": "2026-07-28",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1126/scisignal.aee6812",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
     },
     {
       "doi": "10.1038/s41698-026-01569-w",
@@ -9406,6 +9683,23 @@
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
+      "doi": "10.1126/sciadv.aef1760",
+      "title": "Energy-assisted CRISPR cleavage and probiotic vesicle signaling platform: Microbiome reprogramming for homeostasis",
+      "authors": "Zilin Zhou, Yingming Yang, Fangjie Zhou, Kunneng Liang, Tao Gong, Xinxuan Zhou, Jianshu Li, Jun Luo, Jiyao Li, Jiaojiao Yang",
+      "journal": "Science Advances",
+      "published": "2026-07-24",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aef1760",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
       "doi": "10.1038/s42003-026-10724-9",
       "title": "BMI-driven multi-omics analysis profiles the molecular mechanism of psycho-metabolic nexus and contributes to risk stratification",
       "authors": "Xiaonan Guo, Yu Feng, Peng Huang, Ningning Jia, Zeyu Qin, Lingzhuo Kong, Yiqing Chen, Shuxiang Yang, Jiayi Zhang, Sheng Yang, Shaohua Hu",
@@ -9523,6 +9817,57 @@
       "link": "https://doi.org/10.1038/s41467-026-75810-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
+    },
+    {
+      "doi": "10.1126/science.adz1652",
+      "title": "Single-cell multiomics connects 3D genome and transcriptome alterations in Alzheimer’s disease",
+      "authors": "Yang Zhang, Xinyue Lu, Alexander K. Kunisky, Shahul Alam, Junjie Tang, Ruochi Zhang, Shike Wang, Han Zhang, Jude Baroudi, Walid Ichcho, Deyong Jia, Sahar Ghorbanikalateh, Sahel Ghorbanikalateh, Shihan Wang, David A. Bennett, Hansruedi Mathys, Zhijun Duan, Jian Ma",
+      "journal": "Science",
+      "published": "2026-07-23",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/science.adz1652",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/science.ady6893",
+      "title": "Single-cell multiomics and chromatin structure reveal gene-regulatory dynamics in heart failure",
+      "authors": "Yang Xie, Luca Tucciarone, Elie N. Farah, Lei Chang, Qian Yang, Thirupura S. Shankar, Weston Elison, Shaina Tran, Jovina Djulamsah, Audrey Lie, Timothy Loe, Alyssa R. Holman, Sierra Corban, Justin Buchanan, Sainath Mamde, Haowen Zhou, Ruth M. Elgamal, Eleni Tseliou, Vincent Huang, Zhaoning Wang, Jeffrey Huey-Chuan Chiu, Rebecca Melton, Emily Griffin, Qingquan Zhang, Jacinta Lucero, Sutip Navankasattusas, Daofeng Li, Chanrung Seng, Eugin Destici, Craig H. Selzman, Agnieszka D’Antonio-Chronowska, Ting Wang, Allen Wang, Stavros G. Drakos, Kyle J. Gaulton, Bing Ren, Neil C. Chi",
+      "journal": "Science",
+      "published": "2026-07-23",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/science.ady6893",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/science.adx0673",
+      "title": "Human body single-cell atlas of three-dimensional genome organization and DNA methylation",
+      "authors": "Jingtian Zhou, Yue Wu, Hanqing Liu, Wei Tian, Rosa G. Castanon, Anna Bartlett, Zuolong Zhang, Guocong Yao, Dengxiaoyu Shi, Ben Clock, Samantha Marcotte, Joseph R. Nery, Michelle Liem, Naomi Claffey, Lara Boggeman, Cesar Barragan, Rafael Arrojo e Drigo, Annika K. Weimer, Minyi Shi, Johnathan Cooper-Knock, Sai Zhang, Michael P. Snyder, Sebastian Preissl, Bing Ren, Carolyn O’Connor, Shengbo Chen, Chongyuan Luo, Jesse R. Dixon, Joseph R. Ecker",
+      "journal": "Science",
+      "published": "2026-07-23",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/science.adx0673",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
     },
     {
       "doi": "10.1038/s41698-026-01620-w",
@@ -10091,6 +10436,74 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
+      "doi": "10.1126/sciadv.aee6237",
+      "title": "NicheProt: Cell-type-resolved proteomics of tissue compartments",
+      "authors": "Yi-Chien Wu, Dylan Schwartz, Elie Abi Khalil, Aditi Upadhye, Jalees Rehman, Steve Seung-Young Lee",
+      "journal": "Science Advances",
+      "published": "2026-07-17",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aee6237",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aee1278",
+      "title": "Central nervous system B cell multiomics reveals a legacy of immune dysregulation in long-term treated HIV infection",
+      "authors": "Paraskevas Filippidis, Chang Lu, Benjamin Orlinick, Alina Pang, Allison Nelson, Serena Spudich, Francisco Machiavello Roman, Dagmar Zigackova, Niharika Singareddy, Sameet Mehta, Leah H. Rubin, Steven H. Kleinstein, Michael J. Corley, Shelli F. Farhadian",
+      "journal": "Science Advances",
+      "published": "2026-07-17",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aee1278",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aee0143",
+      "title": "Spaceflight multi-omics reveals vulnerabilities of human germ cell development",
+      "authors": "Ying Li, Hui Gao, Jie Xiong, Nan Wang, Yongchun Yuan, Linjun Wang, Jinzhong Xu, Wenze Huang, Gikin Tan, Xiaojuan He, Qiangfeng Cliff Zhang, Tao Zhang, Kehkooi Kee",
+      "journal": "Science Advances",
+      "published": "2026-07-17",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aee0143",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aec6749",
+      "title": "Single-cell and spatial omics reveals region-specific plasticity and therapeutic vulnerabilities in metastatic high-risk neuroblastoma",
+      "authors": "Lai Man Natalie Wu, Janet L. Oblinger, Dazhuan Xin, Rohit Rao, Feng Zhang, Mike Adam, Oscar Lopez-Nunez, Sara Szabo, Daniel von Allmen, Long-Sheng Chang, Brian D. Weiss, Qing Richard Lu",
+      "journal": "Science Advances",
+      "published": "2026-07-17",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aec6749",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-60691-8",
       "title": "Alternative to invasive bronchoscopy: validating tracheal aspirates for microbiome profiling in intensive care unit pneumonia patients",
       "authors": "Parshatd Govindasamy, Jun Yeun Cho, Jiyoul Yang, Bumhee Yang, Sun-Hyung Kim, Ki Man Lee, Kang Hyeon Choe, Ok-Jun Lee, Eung-Gook Kim, Kalai Mathee, Giri Narasimhan, Yoon Mi Shin",
@@ -10310,6 +10723,23 @@
       "link": "https://doi.org/10.1038/s41467-026-75399-6",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
+    },
+    {
+      "doi": "10.1126/scitranslmed.aec4847",
+      "title": "Culturomics reveals Fusobacterium - Prevotella mutualism as a hallmark of nasopharyngeal tumor microbiota",
+      "authors": "Ying-Qi Lu, Jia-Hao Dai, Yu-Fei Duan, Guan-Jie Qin, Sai-Wei Huang, Li Lin, Xi-Rong Tan, Xun-Hua Zhu, Qing-Mei He, Jing-Yun Wang, Mei-Yin Zhang, Sen-Yu Feng, Shi-Wei He, Nan Si, Jia-Qi Wu, Guan-Lin Lv, Ye-Lin Liang, Jun-Yan Li, Sha Gong, Ying-Qin Li, Lili Li, Jun Ma, Jia-Xing Yue, Na Liu",
+      "journal": "Science Translational Medicine",
+      "published": "2026-07-15",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/scitranslmed.aec4847",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
     },
     {
       "doi": "10.1038/s41598-026-62479-2",
