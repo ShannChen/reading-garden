@@ -1,4 +1,4 @@
-const CACHE = 'reading-garden-20261005-people-v18';
+const CACHE = 'reading-garden-20261005-person-flip-v19';
 const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './paper-feed.js', './feed-preferences.js', './people-core.js', './people.js', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
