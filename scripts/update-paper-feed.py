@@ -7,7 +7,7 @@ from urllib.parse import urlencode
 
 OUTPUT = Path('data/paper-feed.json')
 QUERIES = ['metabolomics', 'metabolomic', 'microbiome', 'microbiota', 'proteomics', 'proteomic', 'exposome', 'exposomics', 'exposomic', 'epitranscriptomics', 'epitranscriptomic', 'RNA methylation', 'RNA modification', 'm6A', 'pseudouridylation', 'multiomics', 'multi-omics', 'multiomic', 'multi-omic', 'integrated omics']
-PREFIXES = ['10.1038', '10.1016', '10.1021']
+PREFIXES = ['10.1038', '10.1016', '10.1021', '10.1126']
 CELL = {'cell', 'cancer cell', 'developmental cell', 'molecular cell', 'cell metabolism', 'cell host & microbe', 'cell stem cell', 'cell systems', 'cell chemical biology', 'cell reports', 'cell reports medicine', 'cell reports methods', 'cell reports physical science', 'cell reports sustainability', 'cell genomics', 'cell biomaterials', 'cell'+'ular and molecular gastroenterology and hepatology', 'immunity', 'neuron', 'current biology', 'iscience', 'med', 'joule', 'matter', 'chem', 'chem catalysis', 'one earth', 'device', 'patterns', 'structure', 'heliyon', 'biophysical journal', 'the american journal of human genetics', 'molecular plant', 'molecular therapy', 'molecular therapy nucleic acids', 'molecular therapy methods & clinical development', 'molecular therapy oncology', 'plant communications', 'stem cell reports', 'trends in biochemical sciences', 'trends in biotechnology', 'trends in cell biology', 'trends in chemistry', 'trends in cognitive sciences', 'trends in ecology & evolution', 'trends in endocrinology & metabolism', 'trends in genetics', 'trends in immunology', 'trends in microbiology', 'trends in molecular medicine', 'trends in neurosciences', 'trends in parasitology', 'trends in pharmacological sciences', 'trends in plant science'}
 
 def plain(value):
@@ -19,6 +19,8 @@ def journal_allowed(journal, doi):
         return name == 'nature' or name.startswith(('nature ', 'npj ', 'communications ')) or name in {'scientific reports', 'scientific data'}
     if doi.lower().startswith('10.1016/'):
         return name in CELL or name.startswith('cell reports ') or name.startswith('molecular therapy ')
+    if doi.lower().startswith('10.1126/'):
+        return name in {'science', 'science advances', 'science immunology', 'science translational medicine', 'science robotics', 'science signaling'}
     if doi.lower().startswith('10.1021/'):
         return name in {'environmental science & technology', 'environmental science & technology letters'}
     return False
