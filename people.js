@@ -7,7 +7,7 @@
   function setState(rows){if(!validate(rows))throw Error('Invalid people records');people=copy(rows);renderPeople();}
   function saveLocal(){localStorage.setItem(storageKey(KEY),JSON.stringify(people));}
   window.ReadingGardenPeople={exportState:()=>copy(people),setState,saveLocal,validateState:validate,importState:rows=>{if(!validate(rows))throw Error('Invalid people records');const map=new Map(people.map(p=>[p.id,p]));for(const p of rows){const old=map.get(p.id);if((!old||p.updated>old.updated)&&!core.duplicate([...map.values()],p,p.id))map.set(p.id,p);}setState([...map.values()]);},close:()=>{el('personEditor').close();editing=null;candidate=null;editorToken++;stopSearch();flipped.clear();recent.clear();pendingRecent.clear();recentGeneration++;}};
-  function scholarSearch(p){const u=new URL('https://scholar.google.com/citations');u.searchParams.set('view_op','search_authors');u.searchParams.set('mauthors',String(p.name||'').trim());u.searchParams.set('hl','en');return u.href;}
+  function scholarSearch(p){const u=new URL('https://scholar.google.com/citations');u.searchParams.set('view_op','search_authors');const parts=String(p.name||'').trim().split(/\s+/);const name=parts.filter((part,i)=>i===0||i===parts.length-1||! /^[A-Za-z]\.?$/.test(part)).join(' ');u.searchParams.set('mauthors',name);u.searchParams.set('hl','en');return u.href;}
   function renderPeople(){
     el('peopleView').hidden=view!=='people';el('peopleNav').classList.toggle('active',view==='people');el('peopleCount').textContent=people.length;
     const q=el('peopleSearch').value.trim().toLowerCase();const rows=people.filter(p=>[p.name,p.institution,...p.fields,p.notes].join(' ').toLowerCase().includes(q)).sort((a,b)=>a.name.localeCompare(b.name));
