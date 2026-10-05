@@ -77,7 +77,7 @@ def main():
             cursor='*'; seen=set(); count=0
             try:
                 while True:
-                    params={'filter': f'prefix:{prefix},type:journal-article,from-pub-date:{(today-timedelta(days=120)).isoformat()},until-pub-date:{today.isoformat()}', 'query':query, 'rows':1000, 'cursor':cursor}
+                    params={'filter': f'prefix:{prefix},type:journal-article,from-pub-date:{(today-timedelta(days=120)).isoformat()},until-pub-date:{today.isoformat()}', 'query':query, 'select':'DOI,title,author,container-title,published,published-online,published-print,issued,abstract,subject', 'rows':1000, 'cursor':cursor}
                     message=get_json('https://api.crossref.org/works?'+urlencode(params))['message']
                     items=message.get('items', [])
                     for work in items:
