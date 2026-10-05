@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-05T06:09:19.049538+00:00",
+  "checkedAt": "2026-10-05T21:31:19.317816+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-74500-9",
+      "title": "Plasma proteomics identifies an endoplasmic reticulum stress-associated molecular signature across cardiovascular-kidney-metabolic syndrome stages",
+      "authors": "Ana Checa-Ros, Óscar Arias-Mutis, Luis D’Marco",
+      "journal": "Scientific Reports",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74500-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-74417-3",
       "title": "Shared genetic architecture underlying cataract and cardiovascular disease: insights from multi-omics analyses",
@@ -25,6 +42,93 @@
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-74182-3",
+      "title": "Multi-omics-based analysis of the N6-methyladenosine regulatory network in hemoglobin H-constant spring disease and functional prediction of IGF2BP2 target genes",
+      "authors": "Rui Qin, Qiongfen Fang, Xiaoqian Pan, Xiaoli Zhang, Lihong Pang, Heyun Ruan",
+      "journal": "Scientific Reports",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "epitranscriptomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74182-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73499-3",
+      "title": "Fecal microbiome dynamics across reproductive stages in primiparous Świniarka sheep: a longitudinal study",
+      "authors": "Paulina Cholewinska, Konrad Wojnarowski, Paulina Nazar, Monika Greguła-Kania, Andrzej Junkuszew, Witold Rant, Aurelia Radzik-Rant, Natalia Szeligowska, Robert Bodkowski",
+      "journal": "Scientific Reports",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73499-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73181-8",
+      "title": "Beverage-type ultra-processed food-related metabolomic signature and risk of incident colorectal cancer",
+      "authors": "Jinfen Tang, Yingming Jin, Yangyang Xie, Jianfen Xu",
+      "journal": "Scientific Reports",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73181-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-71623-x",
+      "title": "Phosphoprotein-enriched proteomics identifies heat shock cognate 71 protein as a host factor supporting chikungunya virus replication in macrophages",
+      "authors": "Nattaya Kamchompoo, Songkran Thongon, Artittaya Athipanyasilp, Tipparat Thiangtrongjit, Kawin Chantima, Onrapak Reamtong, Kobporn Boonnak",
+      "journal": "Scientific Reports",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-71623-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-71279-7",
+      "title": "Gene expression, Antioxidant Responses, and metabolomic Profiling Reveal Chlorella vulgaris Mediated Protection against acetaminophen and microplastic Co-toxicity in Oreochromis niloticus",
+      "authors": "Sally M. Salaah, Mohamed S. Kishta, Dina S. Ghallab",
+      "journal": "Scientific Reports",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-71279-7",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-68234-x",
       "title": "Exploring the relationship between gut microbiota and pan-cancer: a meta-analysis of Mendelian randomization studies",
       "authors": "Fangying Chen, Yuxuan Wu, Yu Zhang, Jiaqi Bi, Enqiang Chang",
@@ -40,6 +144,108 @@
       "link": "https://doi.org/10.1038/s41598-026-68234-x",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
+    },
+    {
+      "doi": "10.1038/s41576-026-01015-4",
+      "title": "Decoding epithelial–mesenchymal transitions with multi-omics",
+      "authors": "Nitin Narwade, M. Angela Nieto",
+      "journal": "Nature Reviews Genetics",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41576-026-01015-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41575-026-01268-8",
+      "title": "Antifungal therapy reshapes the gut microbiota in IBD",
+      "authors": "Jordan Hindson",
+      "journal": "Nature Reviews Gastroenterology & Hepatology",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41575-026-01268-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02499-w",
+      "title": "Thiamine cross-feeding drives microbial coexistence in the leaf microbiome",
+      "authors": "Yiheng Hu, Johanna Bode, Daniel Gómez-Pérez, Marco Alexandre Guerreiro, Alfredo Mari, Kun Wang, Sinja Niemann, Maryam Mahmoudi, Ariane Kemen, Paloma Duran, Oskar Wacker, Daniel Straub, Sven Nahnsen, Benjamin Schwessinger, Fabrice Roux, Carlos Alonso-Blanco, Jon Ågren, Stéphane Hacquard, Eva H. Stukenbrock, Eric Kemen",
+      "journal": "Nature Microbiology",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02499-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41541-026-01593-8",
+      "title": "Multi-omics and bioinformatics pipelines for personalized neoantigen discovery: current frameworks, challenges, and clinical translation",
+      "authors": "Tassanee Lerksuthirat, Wararat Chiangjong, Suradej Hongeng, Somchai Chutipongtanate",
+      "journal": "npj Vaccines",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41541-026-01593-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01561-y",
+      "title": "Multi-omics of host–gut metabolic crosstalk in Parkinson’s disease",
+      "authors": "Tzi Shin Toh, Chun Wie Chong, Mun Fai Loke, Lei Cheng Lit, Vimala Balakrishnan, Zhuangzhuang Pan, Sze Looi Song, Cindy Shuan Ju Teh, Shen-Yang Lim, Ai Huey Tan",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01561-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78432-w",
+      "title": "Large-scale proteomics identifies circulating markers of pulmonary pressure and pulmonary hypertension risk",
+      "authors": "Fernando R. Giugni, Mario Santos, Yimin Yang, Victoria Lamberson, Brian Claggett, Ron Hoogeveen, Christie Ballantyne, David Systrom, Aaron Waxman, Leo Buckley, Bing Yu, Raúl San José Estépar, Sheila M. Hegde, Amil M. Shah",
+      "journal": "Nature Communications",
+      "published": "2026-10-05",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78432-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T21:31:19.317816+00:00"
     },
     {
       "doi": "10.1038/s41598-026-74246-4",
@@ -522,6 +728,23 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.isci.2026.117043",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cub.2026.09.003",
+      "title": "The teneurin TEN-1 and its ligand LRON-11 support microbiota-induced neuroprotection and mechanosensory function in C. elegans",
+      "authors": "Jingxian Li, Juan Pablo Castillo, Shouqiang Cheng, Indya Weathers, Wioletta I. Nawrocka, Jorge Alvarado, Minglei Zhao, Andrea Calixto, Engin Özkan, Demet Araç",
+      "journal": "Current Biology",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cub.2026.09.003",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
@@ -4582,23 +4805,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.isci.2026.117072",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.cub.2026.09.003",
-      "title": "The teneurin TEN-1 and its ligand LRON-11 support microbiota-induced neuroprotection and mechanosensory function in C. elegans",
-      "authors": "Jingxian Li, Juan Pablo Castillo, Shouqiang Cheng, Indya Weathers, Wioletta I. Nawrocka, Jorge Alvarado, Minglei Zhao, Andrea Calixto, Engin Özkan, Demet Araç",
-      "journal": "Current Biology",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.cub.2026.09.003",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
