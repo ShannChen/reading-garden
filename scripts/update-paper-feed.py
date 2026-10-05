@@ -34,10 +34,12 @@ def publication_date(work):
     # Online publication takes precedence over a future print issue.
     for key in ['published-online', 'published', 'issued', 'published-print']:
         parts = work.get(key, {}).get('date-parts', [[]])[0]
-        if len(parts) >= 3:
-            try: return date(*parts[:3]).isoformat()
+        if parts:
+            try:
+                validated=date(parts[0],parts[1] if len(parts)>1 else 1,parts[2] if len(parts)>2 else 1).isoformat()
+                return validated[:10 if len(parts)>=3 else 7 if len(parts)==2 else 4]
             except (ValueError, TypeError): pass
-    return None  # Do not invent a day when only a year/month is supplied.
+    return None
 
 def paper(work, today):
     doi = work.get('DOI', '').lower().strip()
@@ -63,7 +65,7 @@ def main():
     now=datetime.now(timezone.utc); today=now.date()
     old=json.loads(OUTPUT.read_text()) if OUTPUT.exists() else {'papers': []}
     records={p['doi']:p for p in old.get('papers', []) if p.get('published','') >= (today-timedelta(days=90)).isoformat()}
-    errors=[]; successful=0
+    errors=[]; successful=0; diagnostic=[]
     for prefix in PREFIXES:
         for query in QUERIES:
             cursor='*'; seen=set(); count=0
@@ -73,6 +75,8 @@ def main():
                     message=get_json('https://api.crossref.org/works?'+urlencode(params))['message']
                     items=message.get('items', [])
                     for work in items:
+                        if prefix=='10.1016' and journal_allowed((work.get('container-title') or [''])[0],work.get('DOI','')) and len(diagnostic)<5:
+                            diagnostic.append({'journal':work.get('container-title'),'dates':{k:work.get(k) for k in ['published-online','published','issued','published-print']},'doi':work.get('DOI')})
                         p=paper(work, today)
                         if p:
                             p['firstSeen']=records.get(p['doi'], {}).get('firstSeen', now.isoformat())
@@ -92,5 +96,6 @@ def main():
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     tmp=OUTPUT.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');tmp.replace(OUTPUT)
     print('Saved',len(records),'papers;',len(errors),'failed queries')
+    print('Cell date diagnostics:',json.dumps(diagnostic))
 
 if __name__ == '__main__': main()
