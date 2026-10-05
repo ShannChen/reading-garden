@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261002-status-v11';
-const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261005-new-papers-v12';
+const ASSETS = ['./', './index.html', './sync-core.js', './cloud-sync.js', './paper-feed.js', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 

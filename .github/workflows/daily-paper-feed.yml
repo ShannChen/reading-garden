@@ -1,0 +1,36 @@
+name: Update new papers daily
+on:
+  schedule:
+    - cron: '23 14 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-paper-feed.py
+      - .github/workflows/daily-paper-feed.yml
+permissions:
+  contents: write
+concurrency:
+  group: daily-paper-feed
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check published papers
+        run: python scripts/update-paper-feed.py
+      - name: Save public article metadata
+        run: |
+          git config user.name 'Reading Garden'
+          git config user.email 'reading-garden@users.noreply.github.com'
+          git add data/paper-feed.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public new-paper feed"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
