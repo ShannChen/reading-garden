@@ -6,7 +6,7 @@ from urllib.request import Request, urlopen
 from urllib.parse import urlencode
 
 OUTPUT = Path('data/paper-feed.json')
-QUERIES = ['metabolomics', 'metabolomic', 'microbiome', 'microbiota', 'proteomics', 'proteomic', 'exposome', 'exposomics', 'exposomic']
+QUERIES = ['metabolomics', 'metabolomic', 'microbiome', 'microbiota', 'proteomics', 'proteomic', 'exposome', 'exposomics', 'exposomic', 'epitranscriptomics', 'epitranscriptomic', 'RNA methylation', 'RNA modification', 'm6A', 'pseudouridylation', 'multiomics', 'multi-omics', 'multiomic', 'multi-omic', 'integrated omics']
 PREFIXES = ['10.1038', '10.1016', '10.1021']
 CELL = {'cell', 'cancer cell', 'developmental cell', 'molecular cell', 'cell metabolism', 'cell host & microbe', 'cell stem cell', 'cell systems', 'cell chemical biology', 'cell reports', 'cell reports medicine', 'cell reports methods', 'cell reports physical science', 'cell reports sustainability', 'cell genomics', 'cell biomaterials', 'cell'+'ular and molecular gastroenterology and hepatology', 'immunity', 'neuron', 'current biology', 'iscience', 'med', 'joule', 'matter', 'chem', 'chem catalysis', 'one earth', 'device', 'patterns', 'structure', 'heliyon', 'biophysical journal', 'the american journal of human genetics', 'molecular plant', 'molecular therapy', 'molecular therapy nucleic acids', 'molecular therapy methods & clinical development', 'molecular therapy oncology', 'plant communications', 'stem cell reports', 'trends in biochemical sciences', 'trends in biotechnology', 'trends in cell biology', 'trends in chemistry', 'trends in cognitive sciences', 'trends in ecology & evolution', 'trends in endocrinology & metabolism', 'trends in genetics', 'trends in immunology', 'trends in microbiology', 'trends in molecular medicine', 'trends in neurosciences', 'trends in parasitology', 'trends in pharmacological sciences', 'trends in plant science'}
 
@@ -28,6 +28,10 @@ def topics(work):
     tags = []
     for label, pattern in [('Metabolomics', r'\bmetabolom\w*'), ('Microbiome', r'\b(microbiom\w*|microbiota|metagenom\w*)'), ('Proteomics', r'\bproteom\w*'), ('Exposomics', r'\bexposom\w*')]:
         if re.search(pattern, text): tags.append(label)
+    if re.search(r'\bepitranscriptom\w*|\brna (?:methylation|modification\w*)|\bpseudouridylation\b|\bn6[ -]methyladenosine\b', text) or (re.search(r'\bm[156]a\b|\bm5c\b',text) and re.search(r'\b(?:rna|mrna|trna|rrna)\b',text)):
+        tags.append('Epitranscriptomics')
+    if re.search(r'\bmulti[\s\-‐‑–]?omic\w*|\bintegrat\w* (?:\w+ ){0,2}omics\b', text):
+        tags.append('Multiomics')
     return tags
 
 def publication_date(work):
@@ -50,7 +54,7 @@ def paper(work, today):
     if not title or not tags or not journal_allowed(journal, doi) or not published or published > today.isoformat(): return None
     if published < (today-timedelta(days=90)).isoformat(): return None
     authors = ', '.join(plain(' '.join(filter(None, [a.get('given'), a.get('family')])) or a.get('name', '')) for a in work.get('author', []))
-    return {'doi': doi, 'title': title, 'authors': authors, 'journal': plain(journal), 'published': published, 'year': published[:4], 'tags': tags, 'groups': [g for g, yes in [('metabolomics', bool(set(tags)&{'Metabolomics','Microbiome'})), ('proteomics', 'Proteomics' in tags), ('exposomics', 'Exposomics' in tags)] if yes], 'link': 'https://doi.org/'+doi, 'matchSource': 'Title, abstract and metadata subjects' if work.get('abstract') else 'Title and available metadata subjects'}
+    return {'doi': doi, 'title': title, 'authors': authors, 'journal': plain(journal), 'published': published, 'year': published[:4], 'tags': tags, 'groups': [g for g, yes in [('metabolomics', bool(set(tags)&{'Metabolomics','Microbiome'})), ('proteomics', 'Proteomics' in tags), ('exposomics', 'Exposomics' in tags), ('epitranscriptomics', 'Epitranscriptomics' in tags), ('multiomics', 'Multiomics' in tags)] if yes], 'link': 'https://doi.org/'+doi, 'matchSource': 'Title, abstract and metadata subjects' if work.get('abstract') else 'Title and available metadata subjects'}
 
 def get_json(url):
     for attempt in range(4):

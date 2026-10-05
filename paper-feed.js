@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  const groups={metabolomics:'Metabolomics & Microbiome',proteomics:'Proteomics',exposomics:'Exposome & Exposomics'};
+  const groups={metabolomics:'Metabolomics & Microbiome',proteomics:'Proteomics',exposomics:'Exposome & Exposomics',epitranscriptomics:'Epitranscriptomics',multiomics:'Multiomics'};
   const el=id=>document.getElementById(id), cacheKey='reading-garden-public-feed-v1';
   let feed=null,group='metabolomics',loading=false;
   const doi=value=>{try{return decodeURIComponent(String(value||'').trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i,'').replace(/^doi:\s*/i,'')).toLowerCase();}catch{return '';}};
