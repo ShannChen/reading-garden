@@ -9,10 +9,10 @@
   let base=core.empty(),revision=0,session=null,generation=0;
   const el=id=>document.getElementById(id);
   const copy=data=>JSON.parse(JSON.stringify(data));
-  const snapshot=()=>copy({papers,ideas,tasks,feedSettings:window.ReadingGardenFeeds?.exportState()||[]});
+  const snapshot=()=>copy({papers,ideas,tasks,feedSettings:window.ReadingGardenFeeds?.exportState()||[],people:window.ReadingGardenPeople?.exportState()||[]});
   function readLocal(prefix){
     const result=core.empty();
-    for(const [collection,key] of [['papers',KEY_LOCAL],['ideas',IDEAS_KEY],['tasks',TASKS_KEY],['feedSettings','reading-garden-feed-settings-v1']]){
+    for(const [collection,key] of [['papers',KEY_LOCAL],['ideas',IDEAS_KEY],['tasks',TASKS_KEY],['feedSettings','reading-garden-feed-settings-v1'],['people','reading-garden-people-v1']]){
       const raw=localStorage.getItem(prefix?prefix+':'+key:key);
       if(raw!==null){const records=JSON.parse(raw);if(!Array.isArray(records))throw Error('Invalid saved records');result[collection]=records;}
     }
@@ -30,7 +30,7 @@
   }
   function setData(data){
     applying=true;
-    try{papers=copy(data.papers);ideas=copy(data.ideas);tasks=copy(data.tasks);window.ReadingGardenFeeds?.setState(data.feedSettings||[]);persist();}
+    try{papers=copy(data.papers);ideas=copy(data.ideas);tasks=copy(data.tasks);window.ReadingGardenFeeds?.setState(data.feedSettings||[]);window.ReadingGardenPeople?.setState(data.people||[]);persist();}
     finally{applying=false}
   }
   function saveBase(data,version){
@@ -83,7 +83,7 @@
     if(ticket!==generation)return;
     // Preserve the old browser-only records. Uploading them is explicit.
     storageNamespace=namespace;active=true;paused=false;
-    for(const id of ['editor','ideaEditor'])el(id).close();editing=null;ideaEditing=null;
+    for(const id of ['editor','ideaEditor'])el(id).close();editing=null;ideaEditing=null;window.ReadingGardenPeople?.close();
     setData(local);saveBase(base,revision);controls();
     status('Cloud connected. Use Import local records to bring over this device’s existing library.');
     await sync(false);
@@ -94,7 +94,7 @@
     }
     if(!next){
       generation++;session=null;active=false;paused=false;clearTimeout(timer);storageNamespace='';
-      for(const id of ['editor','ideaEditor'])el(id).close();editing=null;ideaEditing=null;
+      for(const id of ['editor','ideaEditor'])el(id).close();editing=null;ideaEditing=null;window.ReadingGardenPeople?.close();
       try{setData(readLocal(''))}catch{status('Could not read local records. Export a backup before continuing.');return;}
       controls();status('Local mode · saved only on this device');return;
     }
