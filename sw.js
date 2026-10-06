@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261006-books-editor-colors-v29';
-const ASSETS = ['./', './index.html', './book-lookup.js?v=20261006-29', './sync-core.js?v=20261006-29', './cloud-sync.js?v=20261006-29', './paper-feed.js?v=20261006-29', './feed-preferences.js?v=20261006-29', './people-core.js?v=20261006-29', './people.js?v=20261006-29', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261006-color-dots-v30';
+const ASSETS = ['./', './index.html', './book-lookup.js?v=20261006-30', './sync-core.js?v=20261006-30', './cloud-sync.js?v=20261006-30', './paper-feed.js?v=20261006-30', './feed-preferences.js?v=20261006-30', './people-core.js?v=20261006-30', './people.js?v=20261006-30', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
