@@ -1,6 +1,6 @@
 # Reading Garden
 
-English paper library, Ideas notebook, People directory and customizable New
+English paper library and Books shelf, Ideas notebook, People directory and customizable New
 Papers feeds hosted on GitHub Pages. Browser-only mode works without signing in.
 
 ## Multi-user setup
@@ -78,3 +78,19 @@ preservation when reading status changes. Color marks use a separate private
 collection, sync per account, and are included in version 8 backups. Existing
 backups and payloads without color marks remain supported. Each color has a text
 label; card edge colors supplement rather than replace those labels.
+
+## Books and color codes
+
+Books use the same private library storage with `kind: "book"`, and are shown
+only in Books. Existing records without a kind remain papers. The book editor
+searches Open Library by title; exact unique titles can fill author and first
+publication year, while ambiguous matches require selection. Publisher is filled
+only when a single publisher is listed. Users can correct all details manually.
+Crossref paper lookup is disabled for books. Books retain reading status, tags,
+notes, color codes, account sync and backup import/export.
+
+Color selection appears below notes in the create/edit dialog. Cards show a color
+edge but no color dropdown, including New Papers cards. Existing color marks remain
+intact. `node tests/book-lookup-test.cjs` verifies book lookup and stale-response
+isolation; the account test also covers Books separation, creation, reading status,
+cloud payloads, backup kind preservation and deletion without removing papers.

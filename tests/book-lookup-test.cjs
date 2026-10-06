@@ -1,0 +1,16 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+const listeners={},nodes={},requests=[];let docs=[],resolvePending=null;
+const node=id=>nodes[id]||=({id,innerHTML:'',textContent:'',hidden:false,value:'',dataset:{},open:true,addEventListener(n,f){(listeners[id+':'+n]??=[]).push(f)},replaceChildren(){this.innerHTML=''},querySelectorAll(selector){const attr=selector.slice(1,-1),key=attr.slice(5).replace(/-([a-z])/g,(_,c)=>c.toUpperCase());return this.buttons??=( [...this.innerHTML.matchAll(new RegExp(attr+'="(\\d+)"','g'))].map(m=>({dataset:{[key]:m[1]}})));}});
+const form=node('paperForm');form.dataset.kind='book';form.elements={};for(const key of ['title','authors','journal','year','link'])form.elements[key]=node(key);
+const ctx=vm.createContext({document:{getElementById:node},URL,AbortController,confirm:()=>true,esc:s=>String(s).replace(/[<>]/g,''),setTimeout:(fn,ms)=>{if(ms===800)Promise.resolve().then(fn);return 1},clearTimeout(){},fetch:async u=>{requests.push(String(u));if(resolvePending==='wait')return new Promise(r=>resolvePending=r);return {ok:true,json:async()=>({docs})};}});
+vm.runInContext(fs.readFileSync('book-lookup.js','utf8'),ctx);
+const emit=(id,event)=>{node(id).buttons=null;for(const f of listeners[id+':'+event]||[])f()};const tick=()=>new Promise(r=>setImmediate(r));
+(async()=>{
+ docs=[{key:'/works/OL123W',title:'The Book',author_name:['Jane Author'],first_publish_year:2001,publisher:['Example Press']}];form.elements.title.value='The Book';emit('title','input');await tick();assert.equal(form.elements.authors.value,'Jane Author');assert.equal(form.elements.year.value,'2001');assert.equal(form.elements.link.value,'https://openlibrary.org/works/OL123W');assert.equal(form.elements.journal.value,'Example Press');assert.match(requests[0],/openlibrary.org\/search.json/);
+ form.elements.authors.value='My author';emit('title','input');await tick();assert.equal(form.elements.authors.value,'My author');
+ docs=[{key:'OL456W',title:'Another title',author_name:['Other Author'],first_publish_year:2010},{key:'/works/OL789W',title:'A similar book',author_name:['Second Author']}];form.elements.title.value='Another';emit('title','input');await tick();const choice=node('lookupResults').querySelectorAll('[data-book-result]')[0];choice.onclick();assert.equal(form.elements.title.value,'Another title');assert.equal(form.elements.authors.value,'Other Author');
+ docs=[];form.elements.title.value='Unknown';emit('title','input');await tick();assert.match(node('lookupStatus').textContent,/No matching book/);
+ const before=requests.length;form.dataset.kind='paper';form.elements.title.value='A scientific paper';emit('title','input');await tick();assert.equal(requests.length,before);
+ form.dataset.kind='book';form.elements.title.value='Pending book';resolvePending='wait';emit('title','input');await tick();form.dataset.kind='paper';emit('paperForm','reset');resolvePending({ok:true,json:async()=>({docs:[{key:'OL333W',title:'Pending book',author_name:['Stale Author']}]})});await tick();assert.notEqual(form.elements.authors.value,'Stale Author');
+ console.log('PASS: book title lookup, author/year/link fill, manual field preservation, multiple-match selection, missing titles, article isolation and stale response rejection');
+})().catch(e=>{console.error(e);process.exitCode=1});
