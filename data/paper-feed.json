@@ -1,12 +1,131 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-05T21:31:19.317816+00:00",
+  "checkedAt": "2026-10-06T19:37:48.629580+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44454-026-00067-9",
+      "title": "Photoaging-driven amplification of polystyrene microplastic toxicity in wheat: physiological and multi-omics insights",
+      "authors": "Muhammad Riaz, Sadam Khan, Xiaowei Wu, Shichen Wei, Shoaib Akhtar, Chenyi Luo, Peng Liu, Hanzhong Jia",
+      "journal": "npj Emerging Contaminants",
+      "published": "2026-10-06",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s44454-026-00067-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1038/s43587-026-01258-0",
+      "title": "Author Correction: Age-, sex- and proximal–distal-resolved multi-omics identifies regulators of intestinal aging in non-human primates",
+      "authors": "Xinyuan Wang, Yaru Luo, Siyu He, Ying Lu, Yanqiu Gong, Li Gao, Shengqiang Mao, Xiaohui Liu, Na Jiang, Qianlun Pu, Dan Du, Yang Shu, Shan Hai, Shuangqing Li, Hai-Ning Chen, Yi Zhao, Dan Xie, Shiqian Qi, Peng Lei, Hongbo Hu, Heng Xu, Zong-Guang Zhou, Biao Dong, Huiyuan Zhang, Yan Zhang, Lunzhi Dai",
+      "journal": "Nature Aging",
+      "published": "2026-10-06",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s43587-026-01258-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1038/s43587-026-01248-2",
+      "title": "Longitudinal multiomics reveals personalized aging trajectories",
+      "authors": "Hannah Walters",
+      "journal": "Nature Aging",
+      "published": "2026-10-06",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s43587-026-01248-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-74648-4",
+      "title": "Retraction Note: Gut microbiome and dietary patterns in different Saudi populations and monkeys",
+      "authors": "Emmanouil Angelakis, Muhammad Yasir, Dipankar Bachar, Esam I. Azhar, Jean-Christophe Lagier, Fehmida Bibi, Asif A. Jiman-Fatani, Maha Alawi, Marwan A. Bakarman, Catherine Robert, Didier Raoult",
+      "journal": "Scientific Reports",
+      "published": "2026-10-06",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74648-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08423-5",
+      "title": "A multi-omics dataset of pancreatic cancer-associated cell lines under chronic hypoxia",
+      "authors": "Wenhao Hou, Zicang Li, Shifang Liang, Xiaoyu Li, Tong Wang, Dongying Huang, Huaiwang Jia, Kemiao Zhen, Xiaoran Liu, Xiaohong Qian, Mingchao Wang, Wantao Ying",
+      "journal": "Scientific Data",
+      "published": "2026-10-06",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08423-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1038/s41589-026-02328-5",
+      "title": "Cell-cycle-driven noncanonical ubiquitination of METTL14 orchestrates RNA methylation",
+      "authors": "Jie Cao, Xiner Ying, Lili Zhou, Qingyi Zhang, Chenyang Huang, Tong Dai, Xiao Shu, Minsong Gao, Yujie Mi, Xiaojin Wu, Fengqin Wang, Long Zhang, Fangfang Zhou, Xin-Hua Feng, Jianzhao Liu",
+      "journal": "Nature Chemical Biology",
+      "published": "2026-10-06",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41589-026-02328-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78217-1",
+      "title": "Large-scale metagenomic characterization of the vaginal microbiome and uropathogens in women with recent bacterial vaginosis and urinary tract infections",
+      "authors": "Sonia N. Whang, Xinyue Wang, Krystal J. Thomas-White, Genevieve Olmschenk, John E. Garza, Pita Navarro, Nicole M. Gilbert",
+      "journal": "Nature Communications",
+      "published": "2026-10-06",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78217-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-74500-9",
       "title": "Plasma proteomics identifies an endoplasmic reticulum stress-associated molecular signature across cardiovascular-kidney-metabolic syndrome stages",
@@ -596,6 +715,23 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
+      "doi": "10.1016/j.tree.2026.06.004",
+      "title": "The host–microbiome dimension of ecological regime shifts",
+      "authors": "Luca Rindi, Alexander H. McGrath, Ezequiel M. Marzinelli, Lisandro Benedetti-Cecchi",
+      "journal": "Trends in Ecology & Evolution",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.tree.2026.06.004",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
       "doi": "10.1016/j.tibs.2026.05.007",
       "title": "Single-cell proteomics: When individual cells tell population stories",
       "authors": "Aline M.A. Martins, John R. Yates, Alysson R. Muotri, Paulo C. Carvalho",
@@ -747,6 +883,57 @@
       "link": "https://doi.org/10.1016/j.cub.2026.09.003",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cmet.2026.08.021",
+      "title": "Diet-microbiome interactions enhance cancer immunotherapy in obesity",
+      "authors": "Allard W.J. van Renterghem, Emile E. Voest",
+      "journal": "Cell Metabolism",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cmet.2026.08.021",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1016/j.cmet.2026.08.002",
+      "title": "The microbiota at the interface of environmental toxicants and the brain",
+      "authors": "Rie Matsuzaki, W. Michael Caudle, Timothy R. Sampson",
+      "journal": "Cell Metabolism",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cmet.2026.08.002",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cmet.2026.06.004",
+      "title": "The interplay between the microbiome and immune cells in metabolic homeostasis and disease",
+      "authors": "Hagit Shapiro, Birgit Jickeli, Idan Niv, Ben Ernan, Eran Elinav",
+      "journal": "Cell Metabolism",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cmet.2026.06.004",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
     },
     {
       "doi": "10.1016/j.celrep.2026.118115",
@@ -8641,23 +8828,6 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
-      "doi": "10.1016/j.cmet.2026.08.002",
-      "title": "The microbiota at the interface of environmental toxicants and the brain",
-      "authors": "Rie Matsuzaki, W. Michael Caudle, Timothy R. Sampson",
-      "journal": "Cell Metabolism",
-      "published": "2026-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.cmet.2026.08.002",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
       "doi": "10.1016/j.cmet.2026.04.011",
       "title": "Gut microbiota-derived deoxycholic acid shapes an immunosuppressive tumor microenvironment and promotes breast cancer progression",
       "authors": "Lili Li, Chenghui Yang, Zhen Wang, Bangyi Zhou, Yixin Zhang, Huiying Liu, Shanshan Sun, Mengyao Chen, Xiaoxiao Hu, Fang Jia, Sangsang Zhu, Miner Shao, Jun Pan, Leyi Zhang, Xinyi Zhang, Shuyan Yuan, Jingxuan Zhu, I. Situ, Jian Huang, Fuming Qiu",
@@ -11888,110 +12058,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-75176-5",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s42004-026-02106-3",
-      "title": "msBayesImpute as a versatile framework for addressing missing values in biomedical mass spectrometry proteomics data",
-      "authors": "Jiaojiao He, Barbara Helm, Franziska Gödtel, Katharina Büchner, Marcel Schilling, Marc A. Schneider, Laura V. Klotz, Jana Braunger, Hauke Winter, Britta Velten, Ursula Klingmüller, Junyan Lu",
-      "journal": "Communications Chemistry",
-      "published": "2026-07-07",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s42004-026-02106-3",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61047-y",
-      "title": "Human gut microbiota from acute coronary syndrome patients promotes plaque vulnerability in a mouse model of atherosclerosis",
-      "authors": "Riccardo Nieri, Anna Severino, Eleonora Foglio, Flavio De Maio, Daniele Santoni, Maria Luisa Savo Sardaro, Giovanni Fancello, Luca Masucci, Alessia D’Aiello, Sofia Morini, Dalila Tarquini, Jacopo Gervasoni, Lavinia Santucci, Omar Leoni, Caterina Mammi, Daniela Pedicino, Antonella Mangoni, Katherine Ryan Amato, Matteo Antonio Russo, Filippo Crea, Giovanna Liuzzo, Federica Limana",
-      "journal": "Scientific Reports",
-      "published": "2026-07-07",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61047-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60743-z",
-      "title": "Influence of smoking on the human ocular surface microbiome and tear proteome",
-      "authors": "Federico A. O. Studer Silva Gutierrez, Sophia C. Morandi, Nina Eldridge, Martin S. Zinkernagel, Denise C. Zysset-Burri",
-      "journal": "Scientific Reports",
-      "published": "2026-07-07",
-      "year": "2026",
-      "tags": [
-        "Microbiome",
-        "Proteomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60743-z",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41591-026-04511-6",
-      "title": "Longitudinal multiomics profiling of extracorporeal cross-circulation with pig liver xenografts in human decedents",
-      "authors": "Qian Guo, Chan Wang, Vincent Mauduit, Alexey Stukalov, Maede Mohebnasab, Alex Sagar, Susanna Vikman, Simon H. Williams, Berk Maden, Tal Eitan, Krista Barone, Jennifer D. Motter, Alexa K. Dowdell, Fred L. Robinson, Cyrille Guillot-Tantay, Zasha Zayas, Justin P. Little, Kleio-Maria Verrou, Ángel Gálvez-Merchán, Peng Guo, Kiana Moi, Emmry Stimson, Hui Gao, Diana Argibay, Leah Wu, Austin G. Holmes, Alexandra Q. Bartlett, Dong Xin, Hannah Futeran, Serafim Batzoglou, Shreyas Joshi, Mercy Rophina, Francesca Zanoni, Mohamed A. Elzawahry, John I. Fallon, Syed Hussain Abbas, Kim M. Olthoff, Charles S. Abrams, Sagar Chhangawala, Adam Griesemer, Peter Friend, Asim Siddiqui, Eloi Schmauch, Brian D. Piening, Abraham Shaked, Brendan J. Keating",
-      "journal": "Nature Medicine",
-      "published": "2026-07-07",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41591-026-04511-6",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41588-026-02663-2",
-      "title": "Mapping the path to clinical implementation of multi-omics",
-      "authors": "Said I. Ismail, Chadi Saad, Mohamed A. Elrayess, Ahmad A. L. khleifat, Nagham Nafiz Hendi, Yasser AlSarraj, Radja Messai Badji, Wadha A. A. L. Muftah",
-      "journal": "Nature Genetics",
-      "published": "2026-07-07",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41588-026-02663-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-00973-7",
-      "title": "Volatile flavoromics and metabolomics reveal quality evolution mechanism of Zhenghe white peony tea during storage",
-      "authors": "Wenlong Li, Yashu Wei, Wenmiao Wu, Yaqi Zhao, Feng Yang, Jian Chen, Juan Zhang, Zheng Peng",
-      "journal": "npj Science of Food",
-      "published": "2026-07-07",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-00973-7",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
