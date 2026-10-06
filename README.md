@@ -32,7 +32,7 @@ available before migration; the previous owner-only backend policy still applies
 
 ## Data and sync
 
-- Papers, Ideas, People (including stars) and feed preferences belong to individual
+- Papers, paper color codes, Ideas, People (including stars) and feed preferences belong to individual
   accounts. Public New Papers metadata is shared. Legacy task records remain in
   backups and sync payloads, though Daily Checklist has been removed from the UI.
 - Each account has separate browser caches and merge state. The original owner's
@@ -71,3 +71,10 @@ It does not replace live database/RLS, email-delivery or browser UI verification
 
 Keep database passwords, project management tokens, SMTP credentials, secret
 keys and service-role keys out of this repository.
+
+`node tests/paper-colors-test.cjs` and `node tests/paper-feed-colors-test.cjs`
+check color selection, clearing, DOI identity across feed and saved papers, and
+preservation when reading status changes. Color marks use a separate private
+collection, sync per account, and are included in version 8 backups. Existing
+backups and payloads without color marks remain supported. Each color has a text
+label; card edge colors supplement rather than replace those labels.

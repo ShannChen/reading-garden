@@ -73,8 +73,9 @@ const settle=async()=>{for(let i=0;i<40;i++)await Promise.resolve()};
   // A second user gets an empty private account, no owner's cached records.
   nextLogin=FRIEND;form.elements.password.value='strong-test-only';await form.onsubmit({preventDefault(){},target:form});await settle();
   assert.equal(vm.runInContext('storageNamespace',ctx),'reading-garden-owner-'+FRIEND);assert.equal(vm.runInContext('papers.length',ctx),0);
+  vm.runInContext("setPaperColor('doi:10.1234/private','blue')",ctx);
   vm.runInContext("papers.push({id:'friend-paper',title:'Friend private paper',tags:[],status:'todo',updated:2});persist()",ctx);await node('cloudNow').onclick();
-  assert.equal(friendServer.payload.papers[0].id,'friend-paper');assert(!server.payload.papers.some(p=>p.id==='friend-paper'));
+  assert.equal(friendServer.payload.paperColors[0].color,'blue');assert.equal(server.payload.paperColors?.length||0,0);assert.equal(friendServer.payload.papers[0].id,'friend-paper');assert(!server.payload.papers.some(p=>p.id==='friend-paper'));
   // An in-flight response for A cannot apply to B. Switching immediately clears
   // the old account's visible records before B's first network request completes.
   nextLogin=OWNER;await form.onsubmit({preventDefault(){},target:form});await settle();assert(vm.runInContext("papers.some(p=>p.id==='guest')",ctx));
@@ -98,6 +99,10 @@ const settle=async()=>{for(let i=0;i<40;i++)await Promise.resolve()};
   node('cloudLogin').onclick();node('cloudToggle').onclick();form.elements.password.value='strong-test-only';form.elements.confirmPassword.value='strong-test-only';signupConfirmed=true;
   await form.onsubmit({preventDefault(){},target:form});await settle();assert.equal(vm.runInContext('papers[0].id',ctx),'friend-paper');
   assert(storage.has(prefix+':reading-garden-v1'));assert(storage.has('reading-garden-owner-'+FRIEND+':reading-garden-v1'));
+  // Backup import keeps color marks, and rejects malformed marks before mutation.
+  vm.runInContext("setPaperColor('doi:10.1234/backup','purple')",ctx);const marks=JSON.parse(vm.runInContext('JSON.stringify(paperColors)',ctx));vm.runInContext('paperColors=[];persist()',ctx);
+  const backup={version:8,papers:[],ideas:[],tasks:[],paperColors:marks};await node('file').onchange({target:{files:[{size:200,text:async()=>JSON.stringify(backup)}],value:'backup'}});assert.equal(vm.runInContext("paperColor({doi:'10.1234/backup'})",ctx),'purple');
+  const prior=vm.runInContext('JSON.stringify(paperColors)',ctx);await node('file').onchange({target:{files:[{size:200,text:async()=>JSON.stringify({...backup,paperColors:[{id:'doi:10.1234/backup',color:'invalid',updated:1}]})}],value:'bad'}});assert.equal(vm.runInContext('JSON.stringify(paperColors)',ctx),prior);
   console.log('PASS: registration gate and validation, confirmed/unconfirmed signup, legacy owner cache, per-account isolation, account switching, stale reads and token-bound writes, sync/merge/delete/races, logout and local mode');
 
 })().catch(e=>{console.error(e);process.exit(1)});

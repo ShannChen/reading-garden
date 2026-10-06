@@ -9,10 +9,10 @@
   let base=core.empty(),revision=0,session=null,generation=0;
   const el=id=>document.getElementById(id);
   const copy=data=>JSON.parse(JSON.stringify(data));
-  const snapshot=()=>copy({papers,ideas,tasks,feedSettings:window.ReadingGardenFeeds?.exportState()||[],people:window.ReadingGardenPeople?.exportState()||[]});
+  const snapshot=()=>copy({papers,ideas,tasks,paperColors,feedSettings:window.ReadingGardenFeeds?.exportState()||[],people:window.ReadingGardenPeople?.exportState()||[]});
   function readLocal(prefix){
     const result=core.empty();
-    for(const [collection,key] of [['papers',KEY_LOCAL],['ideas',IDEAS_KEY],['tasks',TASKS_KEY],['feedSettings','reading-garden-feed-settings-v1'],['people','reading-garden-people-v1']]){
+    for(const [collection,key] of [['papers',KEY_LOCAL],['ideas',IDEAS_KEY],['tasks',TASKS_KEY],['paperColors',COLORS_KEY],['feedSettings','reading-garden-feed-settings-v1'],['people','reading-garden-people-v1']]){
       const raw=localStorage.getItem(prefix?prefix+':'+key:key);
       if(raw!==null){const records=JSON.parse(raw);if(!Array.isArray(records))throw Error('Invalid saved records');result[collection]=records;}
     }
@@ -30,7 +30,7 @@
   }
   function setData(data,save=true){
     applying=true;
-    try{papers=copy(data.papers);ideas=copy(data.ideas);tasks=copy(data.tasks);window.ReadingGardenFeeds?.setState(data.feedSettings||[]);window.ReadingGardenPeople?.setState(data.people||[]);if(save)persist();else render();}
+    try{papers=copy(data.papers);ideas=copy(data.ideas);tasks=copy(data.tasks);paperColors=copy(data.paperColors||[]);window.ReadingGardenFeeds?.setState(data.feedSettings||[]);window.ReadingGardenPeople?.setState(data.people||[]);if(save)persist();else render();}
     finally{applying=false}
   }
   function saveBase(data,version){
