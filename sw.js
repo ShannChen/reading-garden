@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261005-bare-people-stars-v26';
-const ASSETS = ['./', './index.html', './sync-core.js?v=20261005-26', './cloud-sync.js?v=20261005-26', './paper-feed.js?v=20261005-26', './feed-preferences.js?v=20261005-26', './people-core.js?v=20261005-26', './people.js?v=20261005-26', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261006-multi-user-v27';
+const ASSETS = ['./', './index.html', './sync-core.js?v=20261006-27', './cloud-sync.js?v=20261006-27', './paper-feed.js?v=20261006-27', './feed-preferences.js?v=20261006-27', './people-core.js?v=20261006-27', './people.js?v=20261006-27', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -38,5 +38,3 @@ self.addEventListener('fetch', e => {
     return r;
   })));
 });
-
-
