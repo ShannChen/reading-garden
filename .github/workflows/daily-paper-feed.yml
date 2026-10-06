@@ -1,7 +1,8 @@
 name: Update new papers daily
 on:
   schedule:
-    - cron: '23 14 * * *'
+    # Multiple check windows provide retries if a scheduled run is delayed or skipped.
+    - cron: '23 2,8,14,20 * * *'
   workflow_dispatch:
   push:
     branches: [main]
