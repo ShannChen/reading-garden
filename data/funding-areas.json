@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Chemical biology & Small molecules",
+    "keywords": [
+      "small molecule",
+      "chemical biology"
+    ]
+  },
+  {
+    "name": "Drug discovery & Pharmacology",
+    "keywords": [
+      "drug discovery",
+      "pharmacology"
+    ]
+  },
+  {
+    "name": "Biochemistry & Structural biology",
+    "keywords": [
+      "biochemistry",
+      "structural biology"
+    ]
+  },
+  {
+    "name": "Molecular & Cell biology",
+    "keywords": [
+      "molecular biology",
+      "cell biology"
+    ]
+  },
+  {
+    "name": "Genetics, Genomics & Epigenetics",
+    "keywords": [
+      "genomics",
+      "epigenetics",
+      "genetics",
+      "epitranscriptomics"
+    ]
+  },
+  {
+    "name": "Metabolomics, Proteomics & Multiomics",
+    "keywords": [
+      "metabolomics",
+      "proteomics",
+      "multiomics",
+      "multi-omics"
+    ]
+  },
+  {
+    "name": "Microbiome & Microbiology",
+    "keywords": [
+      "microbiome",
+      "microbiology"
+    ]
+  },
+  {
+    "name": "Immunology & Cancer biology",
+    "keywords": [
+      "immunology",
+      "cancer research"
+    ]
+  },
+  {
+    "name": "Neuroscience",
+    "keywords": [
+      "neuroscience"
+    ]
+  },
+  {
+    "name": "Biomedical & Translational research",
+    "keywords": [
+      "biomedical",
+      "translational research"
+    ]
+  },
+  {
+    "name": "Environmental health & Exposomics",
+    "keywords": [
+      "environmental health",
+      "exposome"
+    ]
+  },
+  {
+    "name": "Computational biology & Bioinformatics",
+    "keywords": [
+      "computational biology",
+      "bioinformatics"
+    ]
+  },
+  {
+    "name": "Broad STEM / Interdisciplinary",
+    "keywords": [
+      "life sciences",
+      "STEM"
+    ]
+  }
+]

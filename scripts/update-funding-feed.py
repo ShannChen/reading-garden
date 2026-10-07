@@ -14,9 +14,8 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data/funding-feed.json'
 CATALOG = ROOT / 'data/funding-sources.json'
-SEARCHES = [('small molecule', 'Small molecules'), ('drug discovery', 'Small molecules'),
-            ('chemical biology', 'Biochemistry'), ('biochemistry', 'Biochemistry'),
-            ('biomedical', 'Medicine'), ('medical research', 'Medicine')]
+AREAS = json.loads((ROOT / 'data/funding-areas.json').read_text())
+SEARCHES = [(keyword, area['name']) for area in AREAS for keyword in area['keywords']]
 MONTHS = {m.lower(): i for i, m in enumerate(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], 1)}
 DATE_RE = re.compile(r'\b(' + '|'.join(MONTHS) + r')\s+(\d{1,2})(?:st|nd|rd|th)?\s*,?\s*(20\d{2})\b', re.I)
 DEADLINE_RE = re.compile(r'\b(deadline|applications? due|apply by|applications? close|open until|due on)\b', re.I)
@@ -196,7 +195,7 @@ def discover(source, page):
             continue
         results.append({'id': 'stanford-' + hashlib.sha256(url.encode()).hexdigest()[:16], 'title': title,
             'kind': 'grant', 'scope': 'stanford', 'provider': 'Stanford Sarafan ChEM-H', 'url': url,
-            'fields': ['Small molecules', 'Biochemistry', 'Medicine'], 'eligibility': 'See this Stanford program for affiliation, project and investigator requirements.',
+            'fields': ['Chemical biology & Small molecules', 'Drug discovery & Pharmacology', 'Biochemistry & Structural biology', 'Biomedical & Translational research'], 'eligibility': 'See this Stanford program for affiliation, project and investigator requirements.',
             'summary': 'Discovered on the official Stanford ChEM-H funding directory.'})
     return list({r['url']: r for r in results}.values())[:20]
 

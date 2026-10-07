@@ -3,9 +3,13 @@
   const el=id=>document.getElementById(id),copy=x=>JSON.parse(JSON.stringify(x));
   const publicKey='reading-garden-public-funding-v1',starsKey='reading-garden-funding-stars-v1';
   let stars=[],feed=null,section='grant',page=0,loading=false,lastAttempt=0,fetchFailed=false;
+  const areaLabels=["Chemical biology & Small molecules", "Drug discovery & Pharmacology", "Biochemistry & Structural biology", "Molecular & Cell biology", "Genetics, Genomics & Epigenetics", "Metabolomics, Proteomics & Multiomics", "Microbiome & Microbiology", "Immunology & Cancer biology", "Neuroscience", "Biomedical & Translational research", "Environmental health & Exposomics", "Computational biology & Bioinformatics", "Broad STEM / Interdisciplinary"];
+  const selectedAreas=new Set();
+  const legacyFields={'Small molecules':areaLabels[0],'Biochemistry':areaLabels[2],'Medicine':areaLabels[9]};
+  const areasFor=r=>[...new Set(r.fields.map(f=>legacyFields[f]||f))];
   const labels={grant:'Grants',postdoc:'Postdoc Fellowships',phd:'PhD Fellowships'};
   function validStars(rows){return Array.isArray(rows)&&rows.length<=10000&&rows.every(r=>r&&typeof r.id==='string'&&r.id.length>0&&r.id.length<=200&&typeof r.starred==='boolean'&&Number.isFinite(r.updated))&&new Set(rows.map(r=>r.id)).size===rows.length;}
-  function validFeed(d){return d?.version===1&&Array.isArray(d.opportunities)&&d.opportunities.length<=5000&&d.opportunities.every(r=>r&&typeof r.id==='string'&&typeof r.title==='string'&&typeof r.provider==='string'&&['grant','postdoc','phd'].includes(r.kind)&&['stanford','national'].includes(r.scope)&&Array.isArray(r.fields)&&r.fields.every(f=>typeof f==='string')&&Array.isArray(r.dates)&&r.dates.every(date=>/^\d{4}-\d{2}-\d{2}$/.test(date))&&typeof r.url==='string'&&/^https:\/\//.test(r.url));}
+  function validFeed(d){return d?.version===1&&Array.isArray(d.opportunities)&&d.opportunities.length<=20000&&d.opportunities.every(r=>r&&typeof r.id==='string'&&typeof r.title==='string'&&typeof r.provider==='string'&&['grant','postdoc','phd'].includes(r.kind)&&['stanford','national'].includes(r.scope)&&Array.isArray(r.fields)&&r.fields.every(f=>typeof f==='string')&&Array.isArray(r.dates)&&r.dates.every(date=>/^\d{4}-\d{2}-\d{2}$/.test(date))&&typeof r.url==='string'&&/^https:\/\//.test(r.url));}
   const starred=id=>stars.find(r=>r.id===id)?.starred===true;
   function saveLocal(){localStorage.setItem(storageKey(starsKey),JSON.stringify(stars));}
   function setState(rows){if(!validStars(rows))throw Error('Invalid funding stars');stars=copy(rows);renderFunding();}
@@ -16,17 +20,17 @@
   function card(r,today){
     const isStarred=starred(r.id),dates=[...r.dates.filter(d=>d>=today),...r.dates.filter(d=>d<today)].slice(0,3),expired=r.dates.length&&r.dates.every(d=>d<today);
     const status=r.sourceStatus==='unavailable'?'Source check incomplete':r.sourceStatus==='pending'?'Source check pending':expired?'Listed dates have passed':r.status==='posted'?'Posted':r.status==='forecasted'?'Forecasted':'Application cycle to verify';
-    return '<article class="card"><div class="cardtop"><span class="funding-badge '+(expired?'expired':'')+'">'+esc(status)+'</span><button type="button" class="person-star '+(isStarred?'is-starred':'')+'" data-funding-star="'+esc(r.id)+'" aria-label="'+esc((isStarred?'Unstar ':'Star ')+r.title)+'" aria-pressed="'+isStarred+'">'+(isStarred?'★':'☆')+'</button></div><h2><a href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">'+esc(r.title)+'</a></h2><div class="meta">'+esc(r.provider)+' · '+(r.scope==='stanford'?'Stanford':'National')+'</div><p class="meta" style="margin-top:12px">'+esc(r.summary||'Review the official announcement for project requirements.')+'</p><div class="tags" style="margin-top:12px">'+r.fields.map(f=>'<span class="tag">'+esc(f)+'</span>').join('')+'</div><div class="funding-date">'+(dates.length?(r.dateType==='official-closing-date'?'Closing date: ':'Dates listed on page: ')+dates.map(esc).join(' · '):'Dates: check the current official announcement')+'</div><p class="funding-eligibility"><strong>Eligibility</strong><br>'+esc(r.eligibility||'Check the official program’s current requirements.')+'</p><div class="cardbottom"><a class="small" href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">Official page ↗</a><span class="small">'+esc(checked(r.checkedAt))+'</span></div></article>';
+    return '<article class="card"><div class="cardtop"><span class="funding-badge '+(expired?'expired':'')+'">'+esc(status)+'</span><button type="button" class="person-star '+(isStarred?'is-starred':'')+'" data-funding-star="'+esc(r.id)+'" aria-label="'+esc((isStarred?'Unstar ':'Star ')+r.title)+'" aria-pressed="'+isStarred+'">'+(isStarred?'★':'☆')+'</button></div><h2><a href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">'+esc(r.title)+'</a></h2><div class="meta">'+esc(r.provider)+' · '+(r.scope==='stanford'?'Stanford':'National')+'</div><p class="meta" style="margin-top:12px">'+esc(r.summary||'Review the official announcement for project requirements.')+'</p><div class="tags" style="margin-top:12px">'+areasFor(r).map(f=>'<span class="tag">'+esc(f)+'</span>').join('')+'</div><div class="funding-date">'+(dates.length?(r.dateType==='official-closing-date'?'Closing date: ':'Dates listed on page: ')+dates.map(esc).join(' · '):'Dates: check the current official announcement')+'</div><p class="funding-eligibility"><strong>Eligibility</strong><br>'+esc(r.eligibility||'Check the official program’s current requirements.')+'</p><div class="cardbottom"><a class="small" href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">Official page ↗</a><span class="small">'+esc(checked(r.checkedAt))+'</span></div></article>';
   }
   function renderFunding(){
     const active=view==='funding';el('fundingView').hidden=!active;
     document.querySelectorAll('[data-funding]').forEach(b=>b.classList.toggle('active',active&&b.dataset.funding===section));
     if(!active)return;
-    const [kind,scope]=section.split(':'),today=new Date().toLocaleDateString('sv-SE',{timeZone:'America/Los_Angeles'});
-    el('fundingTitle').textContent=labels[kind]+(scope?' · '+(scope==='stanford'?'Stanford':'National'):'');el('fundingScope').hidden=!!scope;
+    const kind=section,today=new Date().toLocaleDateString('sv-SE',{timeZone:'America/Los_Angeles'});
+    el('fundingTitle').textContent=labels[kind];el('fundingScope').hidden=false;
     el('fundingChecked').textContent=(fetchFailed?'Could not fetch the latest feed · Showing saved programs · ':'')+(feed?.checkedAt?'Last source check '+checked(feed.checkedAt)+(feed.partial?' · Some sources could not be fully checked':''):loading?'Loading monitored programs…':'Initial automatic source check pending');
-    const q=el('fundingSearch').value.trim().toLowerCase(),field=el('fundingField').value,scopeFilter=scope||el('fundingScope').value,status=el('fundingStatus').value,onlyStarred=el('fundingStarred').checked;
-    const rows=(feed?.opportunities||[]).filter(r=>r.kind===kind&&(!scopeFilter||r.scope===scopeFilter)&&(!field||r.fields.includes(field))&&(!status||r.status===status)&&(!onlyStarred||starred(r.id))&&[r.title,r.provider,r.summary,r.eligibility,...r.fields].join(' ').toLowerCase().includes(q));
+    const q=el('fundingSearch').value.trim().toLowerCase(),scopeFilter=el('fundingScope').value,status=el('fundingStatus').value,onlyStarred=el('fundingStarred').checked;
+    const rows=(feed?.opportunities||[]).filter(r=>r.kind===kind&&(!scopeFilter||r.scope===scopeFilter)&&(!selectedAreas.size||areasFor(r).some(f=>selectedAreas.has(f))||areasFor(r).includes(areaLabels[12]))&&(!status||r.status===status)&&(!onlyStarred||starred(r.id))&&[r.title,r.provider,r.summary,r.eligibility,...r.fields].join(' ').toLowerCase().includes(q));
     // Prioritize stars and future dates; retain annual programs with past cycles for monitoring.
     const nextDate=r=>r.dates.filter(d=>d>=today).sort()[0]||'9999';
     rows.sort((a,b)=>Number(starred(b.id))-Number(starred(a.id))||nextDate(a).localeCompare(nextDate(b))||a.title.localeCompare(b.title));
@@ -51,7 +55,11 @@
   });
   document.querySelectorAll('[data-funding]').forEach(b=>b.onclick=()=>{section=b.dataset.funding;page=0;view='funding';el('fundingSearch').value='';el('fundingScope').value='';render();refresh();});
   const filterChanged=()=>{page=0;renderFunding();};el('fundingPrevious').onclick=()=>{page=Math.max(0,page-1);renderFunding();};el('fundingNext').onclick=()=>{page++;renderFunding();};
-  el('fundingSearch').addEventListener('input',filterChanged);['fundingField','fundingScope','fundingStatus','fundingStarred'].forEach(id=>el(id).addEventListener('change',filterChanged));
+  el('fundingSearch').addEventListener('input',filterChanged);['fundingScope','fundingStatus','fundingStarred'].forEach(id=>el(id).addEventListener('change',filterChanged));
+  el('fundingAreaOptions').innerHTML=areaLabels.map((name,i)=>'<label><input type="checkbox" data-funding-area="'+i+'">'+esc(name)+'</label>').join('');
+  function updateAreas(){el('fundingAreasSummary').textContent='Research areas · '+(selectedAreas.size?selectedAreas.size+' selected':'All');el('fundingAreasAll').setAttribute('aria-pressed',String(!selectedAreas.size));filterChanged();}
+  document.querySelectorAll('#fundingAreaOptions [data-funding-area]').forEach(b=>b.onchange=()=>{const name=areaLabels[Number(b.dataset.fundingArea)];if(b.checked)selectedAreas.add(name);else selectedAreas.delete(name);updateAreas();});
+  el('fundingAreasAll').onclick=()=>{selectedAreas.clear();document.querySelectorAll('#fundingAreaOptions [data-funding-area]').forEach(b=>b.checked=false);updateAreas();};
   const previousRender=render;render=function(){previousRender();renderFunding();};
   addEventListener('storage',e=>{if(e.key===storageKey(starsKey))loadStars();});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});addEventListener('online',()=>{lastAttempt=0;refresh();});setInterval(()=>{if(!document.hidden)refresh();},600000);

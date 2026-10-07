@@ -9,6 +9,7 @@ on:
     paths:
       - scripts/update-funding-feed.py
       - data/funding-sources.json
+      - data/funding-areas.json
       - .github/workflows/daily-funding-feed.yml
 permissions:
   contents: write

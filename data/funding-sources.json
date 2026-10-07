@@ -7,9 +7,13 @@
     "provider": "Stanford Sarafan ChEM-H",
     "url": "https://chemh.stanford.edu/opportunities/funding-opportunities",
     "fields": [
-      "Small molecules",
-      "Biochemistry",
-      "Medicine"
+      "Chemical biology & Small molecules",
+      "Drug discovery & Pharmacology",
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Metabolomics, Proteomics & Multiomics",
+      "Biomedical & Translational research",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Funding directory for chemistry, biology and human health research.",
     "eligibility": "Check the official page for current citizenship, career-stage, sponsor and institutional requirements.",
@@ -23,9 +27,13 @@
     "provider": "Stanford Sarafan ChEM-H",
     "url": "https://chemh.stanford.edu/training-education/postdoc-programs/postdocs-interface-seed-grant",
     "fields": [
-      "Small molecules",
-      "Biochemistry",
-      "Medicine"
+      "Chemical biology & Small molecules",
+      "Drug discovery & Pharmacology",
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Metabolomics, Proteomics & Multiomics",
+      "Biomedical & Translational research",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Collaborative projects connecting chemistry or engineering with biomedical research.",
     "eligibility": "Check Stanford affiliation, collaborator and project requirements on the official page."
@@ -38,8 +46,16 @@
     "provider": "Stanford School of Medicine",
     "url": "https://postdocs.stanford.edu/current/fellowship/deans",
     "fields": [
-      "Biochemistry",
-      "Medicine"
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Metabolomics, Proteomics & Multiomics",
+      "Microbiome & Microbiology",
+      "Immunology & Cancer biology",
+      "Neuroscience",
+      "Biomedical & Translational research",
+      "Computational biology & Bioinformatics",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Early postdoctoral research support.",
     "eligibility": "School of Medicine appointment, faculty sponsor and stipend-compatible visa requirements apply; some appointments are excluded."
@@ -52,8 +68,11 @@
     "provider": "Stanford School of Medicine",
     "url": "https://postdocs.stanford.edu/current/fellowship/walter-v-and-idun-berry-postdoctoral-fellowship-program",
     "fields": [
-      "Biochemistry",
-      "Medicine"
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Immunology & Cancer biology",
+      "Neuroscience",
+      "Biomedical & Translational research"
     ],
     "summary": "Postdoctoral research related to children’s health and disease.",
     "eligibility": "School of Medicine affiliation and sponsor requirements apply; consult the current application cycle."
@@ -66,8 +85,16 @@
     "provider": "Stanford Medicine",
     "url": "https://propel.stanford.edu/",
     "fields": [
-      "Biochemistry",
-      "Medicine"
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Metabolomics, Proteomics & Multiomics",
+      "Microbiome & Microbiology",
+      "Immunology & Cancer biology",
+      "Neuroscience",
+      "Biomedical & Translational research",
+      "Computational biology & Bioinformatics",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Stanford postdoctoral training program. Review current recruitment information.",
     "eligibility": "Check the official page for current citizenship, career-stage, sponsor and institutional requirements."
@@ -80,8 +107,16 @@
     "provider": "Stanford Bio-X",
     "url": "https://biox.stanford.edu/research/phd-fellows",
     "fields": [
-      "Biochemistry",
-      "Medicine"
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Metabolomics, Proteomics & Multiomics",
+      "Microbiome & Microbiology",
+      "Immunology & Cancer biology",
+      "Neuroscience",
+      "Biomedical & Translational research",
+      "Computational biology & Bioinformatics",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Interdisciplinary graduate research with multiple faculty mentors.",
     "eligibility": "For eligible Stanford PhD students; review current nomination and mentor requirements.",
@@ -97,9 +132,16 @@
     "provider": "Stanford VPGE",
     "url": "https://vpge.stanford.edu/fellowships-funding/vpge-fellowships/sigf-stanford-interdisciplinary-graduate-fellowship",
     "fields": [
-      "Small molecules",
-      "Biochemistry",
-      "Medicine"
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Metabolomics, Proteomics & Multiomics",
+      "Microbiome & Microbiology",
+      "Immunology & Cancer biology",
+      "Neuroscience",
+      "Biomedical & Translational research",
+      "Computational biology & Bioinformatics",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Graduate funding across disciplinary boundaries.",
     "eligibility": "For eligible Stanford doctoral students; requirements vary by research area and competition."
@@ -112,9 +154,13 @@
     "provider": "Stanford Sarafan ChEM-H",
     "url": "https://chemh.stanford.edu/training-education/graduate-student-programs/sigf-affiliated-chem-h",
     "fields": [
-      "Small molecules",
-      "Biochemistry",
-      "Medicine"
+      "Chemical biology & Small molecules",
+      "Drug discovery & Pharmacology",
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Metabolomics, Proteomics & Multiomics",
+      "Biomedical & Translational research",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Graduate research at the chemistry, biology and engineering interface.",
     "eligibility": "For eligible Stanford graduate students; review the coordinated Bio-X, Wu Tsai and ChEM-H application."
@@ -127,8 +173,16 @@
     "provider": "Life Sciences Research Foundation",
     "url": "https://lsrf.org/apply/",
     "fields": [
-      "Biochemistry",
-      "Medicine"
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Metabolomics, Proteomics & Multiomics",
+      "Microbiome & Microbiology",
+      "Immunology & Cancer biology",
+      "Neuroscience",
+      "Biomedical & Translational research",
+      "Computational biology & Bioinformatics",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Postdoctoral support for basic life-sciences research.",
     "eligibility": "Citizenship, work location, degree date, laboratory and supervisor restrictions apply; consult the current cycle."
@@ -141,9 +195,13 @@
     "provider": "Damon Runyon Cancer Research Foundation",
     "url": "https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship/forms",
     "fields": [
-      "Small molecules",
-      "Biochemistry",
-      "Medicine"
+      "Chemical biology & Small molecules",
+      "Drug discovery & Pharmacology",
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Immunology & Cancer biology",
+      "Biomedical & Translational research"
     ],
     "summary": "Postdoctoral training connected to cancer research.",
     "eligibility": "Degree date, sponsor, laboratory start date and other fellowship support restrictions apply."
@@ -156,8 +214,13 @@
     "provider": "Jane Coffin Childs Memorial Fund",
     "url": "https://www.jccfund.org/eligibilty-criteria/",
     "fields": [
-      "Biochemistry",
-      "Medicine"
+      "Chemical biology & Small molecules",
+      "Drug discovery & Pharmacology",
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Immunology & Cancer biology",
+      "Biomedical & Translational research"
     ],
     "summary": "Fundamental biomedical research related to human disease.",
     "eligibility": "Early postdoctoral experience, degree timing and existing fellowship restrictions apply; review the full eligibility criteria."
@@ -170,8 +233,7 @@
     "provider": "National Science Foundation",
     "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
     "fields": [
-      "Small molecules",
-      "Biochemistry"
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Graduate support in NSF-supported STEM fields.",
     "eligibility": "Citizenship, graduate stage and eligible research-field restrictions apply; clinical research eligibility differs from basic science."
@@ -184,8 +246,7 @@
     "provider": "Hertz Foundation",
     "url": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
     "fields": [
-      "Small molecules",
-      "Biochemistry"
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Graduate funding for applied sciences and related research.",
     "eligibility": "Check the official page for current citizenship, career-stage, sponsor and institutional requirements."
@@ -198,9 +259,7 @@
     "provider": "Paul & Daisy Soros Fellowships",
     "url": "https://pdsoros.org/application-process/",
     "fields": [
-      "Small molecules",
-      "Biochemistry",
-      "Medicine"
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Graduate and professional study across disciplines.",
     "eligibility": "New American status, age and graduate-stage restrictions apply; check the official eligibility guide."
@@ -213,8 +272,16 @@
     "provider": "Stanford Bio-X",
     "url": "https://biox.stanford.edu/stanford-bio-x-postdoctoral-fellowships",
     "fields": [
-      "Biochemistry",
-      "Medicine"
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Metabolomics, Proteomics & Multiomics",
+      "Microbiome & Microbiology",
+      "Immunology & Cancer biology",
+      "Neuroscience",
+      "Biomedical & Translational research",
+      "Computational biology & Bioinformatics",
+      "Broad STEM / Interdisciplinary"
     ],
     "summary": "Interdisciplinary postdoctoral research in the life sciences.",
     "eligibility": "Check Stanford affiliation, mentor and current competition requirements on the official page."

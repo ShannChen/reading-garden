@@ -27,12 +27,12 @@ class FundingTest(unittest.TestCase):
             return json.dumps({'errorcode':0,'data':{'hitCount':102,'oppHits':hits}})
         with patch.object(f.time,'sleep'):
             records,failures=f.government(fetch,'2026-10-07')
-        self.assertEqual(len(records),101);self.assertEqual(failures,[]);self.assertEqual(len(records[0]['fields']),3);self.assertEqual(records[0]['dates'],['2026-11-02'])
+        self.assertEqual(len(records),101);self.assertEqual(failures,[]);self.assertEqual(len(records[0]['fields']),13);self.assertEqual(records[0]['dates'],['2026-11-02'])
     def test_partial_source_failure(self):
         def fetch(*args):raise OSError()
         with patch.object(f.time,'sleep'):
             records,failures=f.government(fetch,'2026-10-07')
-        self.assertEqual(records,[]);self.assertEqual(len(failures),6)
+        self.assertEqual(records,[]);self.assertEqual(len(failures),len(f.SEARCHES))
     def test_discovery_official_host_only(self):
         source={'url':'https://chemh.stanford.edu/opportunities/funding-opportunities','discover':True}
         p=f.Page();p.feed('<a href="/opportunities/2027-seed-grant">2027 ChEM-H Seed Grant</a><a href="https://evil.example/opportunities/seed-grant">Biochemistry seed grant</a><a href="javascript:alert(1)">Seed grant</a>')
