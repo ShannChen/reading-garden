@@ -195,7 +195,7 @@ def monitor(source, previous, fetch=read):
         if len(' '.join(lines)) < 80:
             raise ValueError('Empty or script-only source')
         digest = hashlib.sha256('\n'.join(lines).encode()).hexdigest()
-        record.update(dates=[] if source.get('discover') else deadline_candidates(lines), checkedAt=now, sourceStatus='checked', fingerprint=digest,
+        record.update(dates=[] if source.get('discover') or source.get('recordType') == 'resource' else deadline_candidates(lines), checkedAt=now, sourceStatus='checked', fingerprint=digest,
             updatedAt=previous.get('updatedAt', now) if previous.get('fingerprint') == digest else now)
         return record, page
     except Exception:
