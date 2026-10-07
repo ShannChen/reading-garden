@@ -38,7 +38,7 @@
     const body=payload(query,offset),wait=Math.max(0,nextRequest-Date.now());nextRequest=Math.max(Date.now(),nextRequest)+1100;
     if(wait)await new Promise(resolve=>setTimeout(resolve,wait));
     if(options.signal?.aborted)throw Error('Search cancelled');
-    const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:options.signal||AbortSignal.timeout(25000)});
+    const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify(body),signal:options.signal||AbortSignal.timeout(25000)});
     if(!response.ok)throw Error(response.status===429?'NIH is busy. Please wait a moment and try again.':'NIH RePORTER could not be reached. Please try again.');
     const data=await response.json();if(!Array.isArray(data.results)||!Number.isFinite(Number(data.meta?.total)))throw Error('Unexpected NIH response. Please try again.');
     const url=String(data.meta?.search_url||data.meta?.url||'');

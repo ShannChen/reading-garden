@@ -5,12 +5,7 @@ from urllib.request import Request, urlopen
 
 origin='https://shannchen.github.io'
 endpoint='https://api.reporter.nih.gov/v2/projects/search'
-headers={'Content-Type':'application/json','Origin':origin,'User-Agent':'ReadingGarden-IntegrationCheck/1.0'}
-preflight=Request(endpoint,headers={'Origin':origin,'Access-Control-Request-Method':'POST','Access-Control-Request-Headers':'content-type'},method='OPTIONS')
-with urlopen(preflight,timeout=30) as r:
-    allowed=r.headers.get('Access-Control-Allow-Origin','')
-    if allowed not in ('*',origin):raise ValueError('NIH browser origin is not allowed')
-    if 'POST' not in r.headers.get('Access-Control-Allow-Methods','').upper():raise ValueError('NIH browser POST is not allowed')
+headers={'Content-Type':'text/plain','Origin':origin,'User-Agent':'ReadingGarden-IntegrationCheck/1.0'}
 for criteria in [
     {'advanced_text_search':{'operator':'and','search_field':'all','search_text':'chemical biology'},'include_active_projects':True,'exclude_subprojects':True},
     {'pi_names':[{'first_name':'Benjamin','last_name':'Cravatt'}],'include_active_projects':True,'exclude_subprojects':True}
