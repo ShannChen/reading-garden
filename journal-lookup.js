@@ -9,14 +9,17 @@
     {title:'Nature',publisher:'Springer Nature',ISSN:['0028-0836','1476-4687']},
     {title:'Cell',publisher:'Elsevier / Cell Press',ISSN:['0092-8674','1097-4172']},
     {title:'Science',publisher:'AAAS',ISSN:['0036-8075','1095-9203']},
+    {title:'Environmental Science & Technology',aliases:['ES&T','EST','Environmental Science and Technology'],publisher:'American Chemical Society',ISSN:['0013-936X','1520-5851']},
     {title:'Proceedings of the National Academy of Sciences',aliases:['PNAS','Proc Natl Acad Sci','Proceedings of the National Academy of Sciences of the United States of America'],publisher:'National Academy of Sciences',ISSN:['0027-8424','1091-6490']}
   ];
-  const isExact=(j,query)=>[j.title,...(j.aliases||[])].some(name=>norm(name)===norm(query));
+  const journalKey=s=>norm(s).split(' ').filter(word=>word!=='and').join(' ');
+  const searchText=s=>s.replace(/&|\band\b/gi,' ').replace(/\s+/g,' ').trim();
+  const isExact=(j,query)=>[j.title,...(j.aliases||[])].some(name=>journalKey(name)===journalKey(query));
   const known=query=>exactJournals.filter(j=>isExact(j,query));
   function show(items,query){
-    const seen=new Set(),q=norm(query);
-    const rank=j=>isExact(j,query)?0:norm(j.title).startsWith(q+' ')?1:norm(j.title).includes(q)?2:3;
-    choices=items.filter(j=>{if(typeof j.title!=='string'||!j.title.trim()||j.title.length>150||seen.has(norm(j.title)))return false;seen.add(norm(j.title));return true;})
+    const seen=new Set(),q=journalKey(query);
+    const rank=j=>isExact(j,query)?0:journalKey(j.title).startsWith(q+' ')?1:journalKey(j.title).includes(q)?2:3;
+    choices=items.filter(j=>{if(typeof j.title!=='string'||!j.title.trim()||j.title.length>150||seen.has(journalKey(j.title)))return false;seen.add(journalKey(j.title));return true;})
       .sort((a,b)=>rank(a)-rank(b)).slice(0,12).map(j=>({title:j.title.trim(),publisher:typeof j.publisher==='string'?j.publisher:'',aliases:j.aliases||[],issn:Array.isArray(j.ISSN)?j.ISSN.filter(x=>typeof x==='string').join(', '):''}));
     results.innerHTML=choices.map((j,i)=>'<button type="button" class="journal-suggestion" data-journal-index="'+i+'"><strong>'+escape(j.title)+'</strong><span class="small">'+escape([j.aliases?.[0],j.publisher,j.issn?'ISSN '+j.issn:''].filter(Boolean).join(' · '))+'</span></button>').join('');
     results.hidden=!choices.length;input.setAttribute('aria-expanded',String(choices.length>0));
@@ -39,12 +42,17 @@
     controller=new AbortController();const current=controller;const timeout=setTimeout(()=>current.abort(),15000);
     try{
       const match=known(query),url=new URL('https://api.crossref.org/journals');
-      url.searchParams.set('query',match[0]?.title||query);url.searchParams.set('rows','100');
+      url.searchParams.set('query',searchText(match[0]?.title||query));url.searchParams.set('rows','100');
       const jobs=[fetch(url,{signal:current.signal}).then(async r=>{if(!r.ok)throw Error();const data=await r.json();if(!Array.isArray(data.message?.items))throw Error();return data.message.items;})];
-      // For short names not in the verified alias list, inspect publisher-supplied journal abbreviations.
-      if(!match.length&&/^[a-z. &-]{2,12}$/i.test(query)&&query.replace(/[^a-z]/gi,'').length<=6){
-        const works=new URL('https://api.crossref.org/works');works.searchParams.set('query',query);works.searchParams.set('filter','type:journal-article');works.searchParams.set('rows','30');works.searchParams.set('select','container-title,short-container-title,ISSN,publisher');
-        jobs.push(fetch(works,{signal:current.signal}).then(async r=>{if(!r.ok)throw Error();const data=await r.json();if(!Array.isArray(data.message?.items))throw Error();return data.message.items.filter(w=>[...(w['short-container-title']||[]),...(w['container-title']||[])].some(t=>norm(t)===norm(query))).flatMap(w=>(w['container-title']||[]).map(title=>({title,aliases:w['short-container-title']||[],publisher:w.publisher,ISSN:w.ISSN})));}));
+      // Search publication titles in article metadata as a second source for all non-catalog queries.
+      if(!match.length){
+        const works=new URL('https://api.crossref.org/works');works.searchParams.set('query.container-title',searchText(query));works.searchParams.set('filter','type:journal-article');works.searchParams.set('rows','30');works.searchParams.set('select','container-title,short-container-title,ISSN,publisher');
+        jobs.push(fetch(works,{signal:current.signal}).then(async r=>{if(!r.ok)throw Error();const data=await r.json();if(!Array.isArray(data.message?.items))throw Error();return data.message.items.flatMap(w=>{
+          const titles=Array.isArray(w['container-title'])?w['container-title'].filter(t=>typeof t==='string'):[],aliases=Array.isArray(w['short-container-title'])?w['short-container-title'].filter(t=>typeof t==='string'):[];
+          const tokens=journalKey(query).split(' ').filter(Boolean);
+          const alias=aliases.some(a=>journalKey(a)===journalKey(query));
+          return titles.filter(t=>alias||tokens.every(word=>journalKey(t).split(' ').some(part=>part.startsWith(word)))).map(title=>({title,aliases,publisher:w.publisher,ISSN:w.ISSN}));
+        });}));
       }
       const responses=await Promise.allSettled(jobs);if(request!==ticket)return;
       const good=responses.filter(r=>r.status==='fulfilled');if(!good.length)throw Error();
@@ -62,6 +70,7 @@
   el('addJournalManual').onclick=()=>{const title=input.value.trim();if(!title){status.textContent='Enter a full journal title first.';return;}choices=[known(title)[0]||{title}];choose(0);};
   form.addEventListener('reset',reset);el('feedSettingsDialog').addEventListener('close',reset);
 })();
+
 
 
 
