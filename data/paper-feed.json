@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-07T08:51:32.764911+00:00",
+  "checkedAt": "2026-10-07T20:01:26.417883+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/scitranslmed.aee9049",
+      "title": "A multiomic atlas reveals distinct immune landscapes in preterm and term chronic placental inflammation",
+      "authors": "Dustyn Levenson, Roberto Romero, Roger Pique-Regi, Yi Xu, Jose Galaz, Riddhishrree Badhan, Eva Kareus, Seungbaek Lee, Hajime Ino, Sarah Niesen, Francesco Monticolo, Jian Shu, Luke Myers, Kristine M. Wylie, Gaurav Bhatti, Adi L. Tarca, Nardhy Gomez-Lopez",
+      "journal": "Science Translational Medicine",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/scitranslmed.aee9049",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-07T20:01:26.417883+00:00"
+    },
+    {
+      "doi": "10.1126/scitranslmed.adx6147",
+      "title": "Early-life microbiota direct an epithelial S100 program required for neonatal immunity",
+      "authors": "Shikha Negi, Seika Hashimoto-Hill, Amanda Waddell, Laura Engleman, Maggie Lutz, Taylor Rice, Lee A. Denson, Bruce A. Vallance, Nurit P. Azouz, Philippe A. Tessier, Sergei I. Grivennikov, Hitesh Deshmukh, Theresa Alenghat",
+      "journal": "Science Translational Medicine",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/scitranslmed.adx6147",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-07T20:01:26.417883+00:00"
+    },
     {
       "doi": "10.1038/s44485-026-00004-z",
       "title": "Cover crop diversity generates complex rhizo-microbiome networks by improving soil properties",
@@ -44,6 +78,23 @@
       "firstSeen": "2026-10-07T08:51:32.764911+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-73488-6",
+      "title": "Exploratory synovial fluid metabolomics suggests formate as a potential player in post-traumatic osteoarthritis: an 8-year case series report",
+      "authors": "João Pedro Oliveira, Ana Capitão, Cátia Sousa, Luís Mendes, Bruno Neves, Iola F. Duarte, Paulo Coelho, Fernando Fonseca, Alexandrina Ferreira Mendes",
+      "journal": "Scientific Reports",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73488-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-07T20:01:26.417883+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-73252-w",
       "title": "Maternal SARS-CoV-2 exposure and neonatal metabolic maturation during the first month of life: a longitudinal urinary metabolomics study",
       "authors": "Federico Cannas, Natalia Zuddas, Daniela Gianotti, Alida Kindt, Elena Esposito, Vassilios Fanos, Flaminia Cesare Marincola",
@@ -77,6 +128,42 @@
       "link": "https://doi.org/10.1038/s41467-026-78216-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-07T08:51:32.764911+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78113-8",
+      "title": "Multi-omics reveals the DR5-FXR-CHPT1 axis governs hepatocyte pyroptosis via glycerophospholipid remodeling after major partial hepatectomy in male mice",
+      "authors": "Yongsheng Tang, Xu Lu, Xi Luo, Qinghai Lian, Yingqiu Song, Manqiu Kang, Zihan Qiao, Zhihua Rao, Linsen Ye, Zenan Yuan, Changchang Jia, Hua Li",
+      "journal": "Nature Communications",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78113-8",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-07T20:01:26.417883+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c06063",
+      "title": "Enrofloxacin Disrupts Microbiota–Gut–Brain Axes in Marine Medaka: Mechanistic Insights from Multiomics and Germ-Free Models",
+      "authors": "Bian-Hao Zeng, Ping Li, Bin Liu, Tengzhou Li, Haiyang Yin, Le Sun, Ling Liu, Zhi-Hua Li",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c06063",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-07T20:01:26.417883+00:00"
     },
     {
       "doi": "10.1038/s44454-026-00067-9",
@@ -801,6 +888,23 @@
       "link": "https://doi.org/10.1016/j.tree.2026.06.004",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1016/j.tibtech.2026.02.006",
+      "title": "In vitro platforms for reconstructing skin–microbiome interactions",
+      "authors": "Jimin Park, Jeongmin Kim, Sungchan Cho, Woojung Shin",
+      "journal": "Trends in Biotechnology",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.tibtech.2026.02.006",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-07T20:01:26.417883+00:00"
     },
     {
       "doi": "10.1016/j.tibs.2026.05.007",
