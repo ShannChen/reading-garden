@@ -1,0 +1,40 @@
+name: Update grants and fellowships daily
+on:
+  schedule:
+    # Retry windows help when a source or scheduled run is temporarily unavailable.
+    - cron: '47 5,17 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-funding-feed.py
+      - data/funding-sources.json
+      - .github/workflows/daily-funding-feed.yml
+permissions:
+  contents: write
+concurrency:
+  group: daily-funding-feed
+  cancel-in-progress: true
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test funding collection
+        run: python -m unittest discover -s tests -p 'funding_collector_test.py'
+      - name: Check public funding sources
+        run: python scripts/update-funding-feed.py
+      - name: Save public funding metadata
+        run: |
+          git config user.name 'Reading Garden'
+          git config user.email 'reading-garden@users.noreply.github.com'
+          git add data/funding-feed.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public grants and fellowship feed"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

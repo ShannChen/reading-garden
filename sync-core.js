@@ -1,14 +1,14 @@
 (function(root){
   'use strict';
-  const collections=['papers','ideas','tasks','feedSettings','people','paperColors'];
-  const empty=()=>({papers:[],ideas:[],tasks:[],feedSettings:[],people:[],paperColors:[]});
+  const collections=['papers','ideas','tasks','feedSettings','people','paperColors','fundingStars'];
+  const empty=()=>({papers:[],ideas:[],tasks:[],feedSettings:[],people:[],paperColors:[],fundingStars:[]});
   function stable(value){
     if(Array.isArray(value))return '['+value.map(stable).join(',')+']';
     if(value&&typeof value==='object')return '{'+Object.keys(value).sort().map(k=>JSON.stringify(k)+':'+stable(value[k])).join(',')+'}';
     return JSON.stringify(value);
   }
   const equal=(a,b)=>stable(a)===stable(b);
-  function valid(data){return data&&collections.every(k=>(['feedSettings','people','paperColors'].includes(k)&&data[k]===undefined)||(Array.isArray(data[k])&&data[k].every(r=>r&&typeof r.id==='string')))}
+  function valid(data){return data&&collections.every(k=>(['feedSettings','people','paperColors','fundingStars'].includes(k)&&data[k]===undefined)||(Array.isArray(data[k])&&data[k].every(r=>r&&typeof r.id==='string')))}
   // A missing row is a deletion. Comparing against a saved base prevents
   // a stale offline device from resurrecting a record deleted elsewhere.
   function merge(base,local,remote,preference){

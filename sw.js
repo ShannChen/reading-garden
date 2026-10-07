@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261007-journal-families-v41';
-const ASSETS = ['./', './index.html', './book-lookup.js?v=20261007-41', './sync-core.js?v=20261007-41', './cloud-sync.js?v=20261007-41', './paper-feed.js?v=20261007-41', './pubmed-feed.js?v=20261007-41', './journal-lookup.js?v=20261007-41', './feed-preferences.js?v=20261007-41', './people-core.js?v=20261007-41', './people.js?v=20261007-41', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261007-funding-v42';
+const ASSETS = ['./', './index.html', './funding-feed.js?v=20261007-42', './data/funding-feed.json', './book-lookup.js?v=20261007-42', './sync-core.js?v=20261007-42', './cloud-sync.js?v=20261007-42', './paper-feed.js?v=20261007-42', './pubmed-feed.js?v=20261007-42', './journal-lookup.js?v=20261007-42', './feed-preferences.js?v=20261007-42', './people-core.js?v=20261007-42', './people.js?v=20261007-42', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -28,9 +28,15 @@ self.addEventListener('fetch', e => {
   // Pages are network-first so a redeploy lands immediately; cache is the offline fallback.
   if (req.mode === 'navigate') {
     e.respondWith(fetch(req, {cache: 'no-cache'})
-      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', copy)); return r; })
+      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './funding-feed.js?v=20261007-42', './data/funding-feed.json', copy)); return r; })
       .catch(() => caches.match('./index.html').then(hit => hit || caches.match('./'))));
     return;
+  }
+  if (new URL(req.url).pathname.endsWith('/data/funding-feed.json')) {
+    e.respondWith(fetch(req, {cache: 'no-store'}).then(r => {
+      if (!r.ok) throw new Error('Funding feed unavailable');
+      const copy=r.clone();e.waitUntil(caches.open(CACHE).then(c=>c.put(req,copy)));return r;
+    }).catch(()=>caches.match(req)));return;
   }
   // Static assets are cache-first.
   e.respondWith(caches.match(req).then(hit => hit || fetch(req).then(r => {
