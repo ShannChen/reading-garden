@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261006-library-card-grid-v31';
-const ASSETS = ['./', './index.html', './book-lookup.js?v=20261006-31', './sync-core.js?v=20261006-31', './cloud-sync.js?v=20261006-31', './paper-feed.js?v=20261006-31', './feed-preferences.js?v=20261006-31', './people-core.js?v=20261006-31', './people.js?v=20261006-31', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261007-personal-feed-v32';
+const ASSETS = ['./', './index.html', './book-lookup.js?v=20261007-32', './sync-core.js?v=20261007-32', './cloud-sync.js?v=20261007-32', './paper-feed.js?v=20261007-32', './feed-preferences.js?v=20261007-32', './people-core.js?v=20261007-32', './people.js?v=20261007-32', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -38,3 +38,4 @@ self.addEventListener('fetch', e => {
     return r;
   })));
 });
+
