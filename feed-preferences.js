@@ -28,10 +28,10 @@
     'proceedings of the national academy of sciences of the united states of america':'0027-8424',
     'environmental science technology':'0013-936X'
   })[journalNorm(j)];
-  const signature=s=>JSON.stringify({version:2,name:s.name,keywords:terms(s).map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
+  const signature=s=>JSON.stringify({version:3,name:s.name,keywords:terms(s).map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
   const standard=s=>{const d=defaults.find(d=>d.id===s.id);return d&&signature(s)===signature(d);};
   function scoped(p,s){
-    if(s.journals.some(j=>journalNorm(j)===journalNorm(p.journal)))return true;
+    if(s.journals.some(j=>journalNorm(j)===journalNorm(p.journal)||(journalISSN(j)&&((p.issn||[]).includes(journalISSN(j))||journalISSN(j)===journalISSN(p.journal)))))return true;
     const j=norm(p.journal);
     return s.families.some(f=>p.doi.startsWith(families[f].prefix+'/')&&(f==='nature'?/^(nature(?: |$)|npj |communications |scientific reports$|scientific data$)/.test(j):f==='science'?['science','science advances','science immunology','science translational medicine','science robotics','science signaling'].includes(j):f==='est'?['environmental science technology','environmental science technology letters'].includes(j):/^(cell(?: |$)|molecular cell$|cancer cell$|developmental cell$|trends in |molecular therapy)/.test(j)||['immunity','neuron','current biology','iscience','med','joule','matter','chem','chem catalysis','one earth','device','patterns','structure','heliyon','biophysical journal','the american journal of human genetics','molecular plant','plant communications','stem cell reports'].includes(j)));
   }
@@ -48,5 +48,6 @@
   const api={families,defaults,norm,terms,journalNorm,journalISSN,valid,validState,validJournals,sharedState,signature,standard,scoped,matches,fromWork};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.ReadingGardenFeedPreferences=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
+
 
 

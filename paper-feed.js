@@ -27,7 +27,7 @@
     el('feedView').hidden=view!=='feed';if(!subscription())group=settings.subscriptions.find(s=>s.enabled)?.id||'';bindNav();if(view!=='feed')return;
     const s=subscription();el('feedTitle').textContent=s?.name||'Your research subscriptions';
     const cache=s&&custom[s.id],isDefault=s&&prefs.standard(s);
-    el('feedChecked').textContent=s&&!s.journals.length&&!s.families.length?'Add journals in Customize feed to check this topic.':!s?'Add or enable a subscription in Customize feed.':isDefault?'Last checked '+displayDate(feed?.checkedAt)+(feed?.partial?' · Some source queries were incomplete':''):cache?.signature===prefs.signature(s)?'Last checked '+displayDate(cache.checkedAt)+(cache.partial?' · Showing saved / partial results; automatic retry pending':''):'Checking this subscription automatically…';
+    el('feedChecked').textContent=s&&!s.journals.length&&!s.families.length?'Add journals in Customize feed to check this topic.':!s?'Add or enable a subscription in Customize feed.':isDefault?'Last checked '+displayDate(feed?.checkedAt)+(feed?.partial?' · Some source queries were incomplete':''):cache?.signature===prefs.signature(s)?'Last checked '+displayDate(cache.checkedAt)+(cache.pubmedStatus?' · PubMed '+cache.pubmedStatus:'')+(cache.partial?' · Showing saved / partial results; automatic retry pending':''):'Checking this subscription automatically…';
     const all=rowsFor(s),incomplete=s&&cache?.signature===prefs.signature(s)&&cache.partial,checking=s&&!isDefault&&cache?.signature!==prefs.signature(s)&&s.journals.length,filter=el('feedJournal'),previous=filter.value;
     const journals=[...new Set([...(s?.journals||[]),...all.map(p=>p.journal)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
     filter.innerHTML='<option value="">All journals</option>'+journals.map(j=>'<option value="'+esc(j)+'">'+esc(j)+'</option>').join('');
@@ -54,19 +54,45 @@
   async function refresh(){if(loading)return;loading=true;try{const r=await fetch('https://raw.githubusercontent.com/ShannChen/reading-garden/main/data/paper-feed.json',{cache:'no-store',signal:AbortSignal.timeout(20000)});if(!r.ok)throw Error();const d=await r.json();if(d?.version!==1||!Array.isArray(d.papers)||!d.papers.every(p=>typeof p.doi==='string'&&/^10\.\d{4,9}\/\S+$/.test(p.doi)&&typeof p.title==='string'&&Array.isArray(p.tags)&&Array.isArray(p.groups)))throw Error();feed=d;try{localStorage.setItem(publicKey,JSON.stringify(feed));}catch{}renderFeed();}catch{}finally{loading=false;}}
   async function checkCustom(){
     if(running||navigator.onLine===false)return;running=true;const ticket=generation;
-    try{for(const s of settings.subscriptions.filter(s=>s.enabled&&!prefs.standard(s)&&(s.journals.length||s.families.length))){
-      const signature=prefs.signature(s),cached=custom[s.id];if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?300000:86400000))continue;
-      const found=new Map(cached?.signature===signature?cached.papers.map(p=>[p.doi,p]):[]);let failed=0,success=0;
-      const today=new Date().toISOString().slice(0,10),start=new Date();start.setUTCDate(start.getUTCDate()-120);
-      const sources=s.families.map(f=>'prefix:'+prefs.families[f].prefix).concat(s.journals.map(j=>prefs.journalISSN(j)?'issn:'+prefs.journalISSN(j):'container-title:'+j));
-      for(const source of sources){for(const term of prefs.terms(s)){if(ticket!==generation)return;
-        try{const u=new URL('https://api.crossref.org/works');u.searchParams.set('filter',source+',type:journal-article,from-pub-date:'+start.toISOString().slice(0,10)+',until-pub-date:'+today);u.searchParams.set('query',term);u.searchParams.set('rows','200');u.searchParams.set('select','DOI,title,author,container-title,published,published-online,published-print,issued,abstract,subject');
-          const r=await fetch(u,{signal:AbortSignal.timeout(25000)});if(!r.ok)throw Error();const json=await r.json();if(ticket!==generation)return;const message=json.message;if(!Array.isArray(message?.items))throw Error();for(const w of message.items){const p=prefs.fromWork(w,s,today);if(p&&prefs.scoped(p,s))found.set(p.doi,p);}success++;if(message['total-results']>200)failed++;
-        }catch{failed++;}
-      }}
-      if(ticket!==generation)return;
-      {custom[s.id]={signature,checkedAt:new Date().toISOString(),partial:failed>0||!success,papers:[...found.values()]};try{localStorage.setItem(resultsKey(),JSON.stringify(custom));}catch{}renderFeed();}
-    }}finally{running=false;if(ticket!==generation)queueMicrotask(checkCustom);}
+    const current=()=>ticket===generation;
+    function publish(item,partial=true){
+      if(!current())return;
+      custom[item.s.id]={signature:item.signature,checkedAt:new Date().toISOString(),partial,papers:[...item.found.values()],pubmedStatus:item.pubmedStatus};
+      try{localStorage.setItem(resultsKey(),JSON.stringify(custom));}catch{}renderFeed();
+    }
+    try{
+      const pending=settings.subscriptions.filter(s=>s.enabled&&!prefs.standard(s)&&(s.journals.length||s.families.length)).map(s=>{
+        const signature=prefs.signature(s),cached=custom[s.id];
+        if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?300000:86400000))return null;
+        return {s,signature,found:new Map(cached?.signature===signature?cached.papers.map(p=>[p.doi,p]):[]),failed:0,success:0,pubmedStatus:s.journals.length?'checking':'not applicable'};
+      }).filter(Boolean);
+      // Check every topic in PubMed first; slow Crossref requests must not block the next topic.
+      for(const item of pending){
+        if(!current())return;
+        if(window.ReadingGardenPubMed&&item.s.journals.length){
+          try{
+            publish(item);
+            const result=await window.ReadingGardenPubMed.papers(item.s,undefined,{isCurrent:current,onBatch:batch=>{for(const p of batch.papers)item.found.set(p.doi,p);publish(item);}});
+            if(!current())return;for(const p of result.papers)item.found.set(p.doi,p);item.success++;item.pubmedStatus=result.partial?'partial':'checked';if(result.partial)item.failed++;
+          }catch{item.failed++;item.pubmedStatus='unavailable';}
+          publish(item);
+        }else if(item.s.journals.length){item.failed++;item.pubmedStatus='unavailable';}
+      }
+      for(const item of pending){
+        const {s}=item,today=new Date().toISOString().slice(0,10),start=new Date();start.setUTCDate(start.getUTCDate()-120);
+        const sources=s.families.map(f=>'prefix:'+prefs.families[f].prefix).concat(s.journals.map(j=>prefs.journalISSN(j)?'issn:'+prefs.journalISSN(j):'container-title:'+j));
+        for(const source of sources){for(const term of prefs.terms(s)){
+          if(!current())return;
+          try{
+            const u=new URL('https://api.crossref.org/works');u.searchParams.set('filter',source+',type:journal-article,from-pub-date:'+start.toISOString().slice(0,10)+',until-pub-date:'+today);u.searchParams.set('query',term);u.searchParams.set('rows','200');u.searchParams.set('select','DOI,title,author,container-title,published,published-online,published-print,issued,abstract,subject');
+            const r=await fetch(u,{signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error();const json=await r.json();if(!current())return;const message=json.message;if(!Array.isArray(message?.items))throw Error();
+            for(const w of message.items){const p=prefs.fromWork(w,s,today);if(p&&prefs.scoped(p,s))item.found.set(p.doi,p);}item.success++;if(message['total-results']>200)item.failed++;
+          }catch{item.failed++;}
+          publish(item);
+        }}
+        publish(item,item.failed>0||!item.success);
+      }
+    }finally{running=false;if(!current())queueMicrotask(checkCustom);}
   }
   const previousRender=render;render=function(){previousRender();renderFeed();if(el('feedSettingsDialog').open)renderSettings();};
   el('feedSearch').addEventListener('input',renderFeed);el('feedJournal').addEventListener('change',renderFeed);
@@ -74,6 +100,7 @@
   addEventListener('storage',e=>{if(e.key===localKey()){loadLocal();checkCustom();}});setInterval(()=>{if(!document.hidden){refresh();checkCustom();}},300000);
   try{const cached=JSON.parse(localStorage.getItem(publicKey)||'null');if(cached?.version===1&&Array.isArray(cached.papers))feed=cached;}catch{}loadLocal();refresh();checkCustom();
 })();
+
 
 
 

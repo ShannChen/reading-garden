@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261007-custom-feed-recovery-v39';
-const ASSETS = ['./', './index.html', './book-lookup.js?v=20261007-39', './sync-core.js?v=20261007-39', './cloud-sync.js?v=20261007-39', './paper-feed.js?v=20261007-39', './journal-lookup.js?v=20261007-39', './feed-preferences.js?v=20261007-39', './people-core.js?v=20261007-39', './people.js?v=20261007-39', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261007-pubmed-feed-v40';
+const ASSETS = ['./', './index.html', './book-lookup.js?v=20261007-40', './sync-core.js?v=20261007-40', './cloud-sync.js?v=20261007-40', './paper-feed.js?v=20261007-40', './pubmed-feed.js?v=20261007-40', './journal-lookup.js?v=20261007-40', './feed-preferences.js?v=20261007-40', './people-core.js?v=20261007-40', './people.js?v=20261007-40', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -38,6 +38,7 @@ self.addEventListener('fetch', e => {
     return r;
   })));
 });
+
 
 
 
