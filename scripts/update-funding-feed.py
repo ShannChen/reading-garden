@@ -28,6 +28,11 @@ class Page(HTMLParser):
         self.parts = []
         self.links = []
         self.main_links = []
+        self.section_links = []
+        self.section = ''
+        self.heading = None
+        self.rows = []
+        self.row = None
         self.anchor = None
         self.main = False
         self.main_seen = False
@@ -47,8 +52,12 @@ class Page(HTMLParser):
             self.flush(); self.main = True; self.main_seen = True
         if tag in ('p', 'div', 'h1', 'h2', 'h3', 'h4', 'li', 'tr', 'br'):
             self.flush()
+        if tag in ('h1', 'h2', 'h3'):
+            self.heading = [tag, []]
+        if tag == 'tr':
+            self.row = {'parts':[], 'links':[]}
         if tag == 'a':
-            self.anchor = [attrs.get('href', ''), [], self.main]
+            self.anchor = [attrs.get('href', ''), [], self.main, self.section]
     def handle_endtag(self, tag):
         if tag in ('script', 'style', 'noscript'):
             self.skip = max(0, self.skip - 1)
@@ -56,16 +65,28 @@ class Page(HTMLParser):
             self.flush()
         if tag == 'main':
             self.flush(); self.main = False
+        if self.heading and tag == self.heading[0]:
+            self.section = re.sub(r'\s+', ' ', ' '.join(self.heading[1])).strip()
+            self.heading = None
         if tag == 'a' and self.anchor:
             link = (self.anchor[0], re.sub(r'\s+', ' ', ' '.join(self.anchor[1])).strip())
             self.links.append(link)
             if self.anchor[2]: self.main_links.append(link)
+            self.section_links.append((*link, self.anchor[3]))
+            if self.row is not None: self.row['links'].append(link)
             self.anchor = None
+        if tag == 'tr' and self.row is not None:
+            self.rows.append({'text':re.sub(r'\s+', ' ', ' '.join(self.row['parts'])).strip(), 'links':self.row['links']})
+            self.row = None
     def handle_data(self, data):
         if not self.skip:
             self.parts.append(data)
             if self.anchor:
                 self.anchor[1].append(data)
+            if self.heading:
+                self.heading[1].append(data)
+            if self.row is not None:
+                self.row['parts'].append(data)
     def text_lines(self):
         self.flush()
         return self.main_lines if self.main_seen and self.main_lines else self.lines
@@ -187,6 +208,8 @@ def discover(source, page):
         return []
     if source.get('discover') in ('stanford-postdoc', 'stanford-mchri'):
         return discover_stanford_postdocs(source, page)
+    if source.get('discover') in ('stanford-vpge', 'stanford-other-phd'):
+        return discover_stanford_phd(source, page)
     results = []
     for href, title in page.main_links if page.main_seen else page.links:
         url = urljoin(source['url'], href)
@@ -248,7 +271,38 @@ def url_key(url):
     parsed = urlparse(url)
     host = (parsed.hostname or '').lower().removeprefix('www.')
     path = parsed.path.replace('/content/sm/', '/') if host == 'med.stanford.edu' else parsed.path
+    if host == 'vpge.stanford.edu':
+        path = path.removesuffix('/details')
+        if 'sigf-stanford-interdisciplinary-graduate-fellowship' in path: path = '/fellowships-funding/sigf'
     return host + path.removesuffix('.html').rstrip('/')
+
+def discover_stanford_phd(source, page):
+    results = {}
+    vpge = source.get('discover') == 'stanford-vpge'
+    if vpge:
+        candidates = [(href,title,row['text']) for row in page.rows if 'doctoral' in row['text'].lower() for href,title in row['links'][:1]]
+    else:
+        sections = ('Science & Engineering','Social Sciences & Humanities','Community Engaged Funding Opportunities','Open to all Disciplines and Departments')
+        candidates = [(href,title,section) for href,title,section in page.section_links if section in sections]
+    for href, title, context in candidates:
+        url = urljoin(source['url'],href); parsed = urlparse(url)
+        if parsed.scheme != 'https' or not (parsed.hostname or '').endswith('.stanford.edu') or parsed.query or parsed.fragment:
+            continue
+        if url_key(url) == url_key(source['url']) or not title or re.search(r'news|alumni|awardees|FAQ|polic|current.*fellow',title,re.I):
+            continue
+        route = 'nomination' if re.search(r'by nomination',context,re.I) else 'direct' if re.search(r'by application',context,re.I) else 'verify'
+        fields = ['All disciplines']
+        if 'Science & Engineering' in context or re.search(r'ARCS|SGF:|Bio.?X|ChEM|CIRM|TomKat',title,re.I): fields = ['Broad STEM / Interdisciplinary']
+        if 'Social Sciences & Humanities' in context or re.search(r'CCSRE|Zhang',title,re.I): fields = ['Humanities & Social sciences'] if 'Zhang' not in title else ['Physical sciences & Engineering']
+        if re.search(r'Woods|TomKat',title,re.I): fields = ['Environmental health & Exposomics','Broad STEM / Interdisciplinary']
+        if re.search(r'Data Science',title,re.I): fields = ['Computational biology & Bioinformatics','Broad STEM / Interdisciplinary']
+        resource = not vpge and not re.search(r'fellowship|scholar|training|graduate',title,re.I)
+        results[url_key(url)] = {'id':'stanford-phd-' + hashlib.sha256(url_key(url).encode()).hexdigest()[:16],
+            'title':title, 'kind':'phd', 'scope':'stanford', 'provider':'Stanford University', 'url':url,
+            'fields':fields, 'sourceDirectory':source['url'], 'applicationRoute':route, 'recordType':'resource' if resource else 'program',
+            'summary':'Listed in Stanford’s official graduate funding directory. '+('This is a funding resource, not a confirmed individual PhD fellowship; check its linked programs.' if resource else 'Confirm current doctoral eligibility and the application cycle on the official page.'),
+            'eligibility':('Department or school nomination is required.' if route=='nomination' else 'Apply through the program’s application process.' if route=='direct' else 'Application or nomination process: verify on the official page.')+' '+('Incoming doctoral students are included in the directory’s eligibility listing. ' if 'Incoming Doctoral' in context else '')+'Check research-field, student-stage and citizenship requirements.'}
+    return list(results.values())[:60]
 
 def main():
     old = {}
@@ -266,7 +320,7 @@ def main():
         record, page = monitor(source, old.get(source['id'], {})); records.append(record)
         if record['sourceStatus'] != 'checked':
             failures.append(source['title'])
-            if source.get('discover') in ('stanford-postdoc', 'stanford-mchri'):
+            if source.get('discover') in ('stanford-postdoc', 'stanford-mchri', 'stanford-vpge', 'stanford-other-phd'):
                 pending.extend({**r, 'sourceStatus':'unavailable'} for r in old.values() if r.get('sourceDirectory') == source['url'])
         pending.extend(discover(source, page))
         time.sleep(.2)

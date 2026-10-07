@@ -59,5 +59,17 @@ class FundingTest(unittest.TestCase):
         body='<main><h1>Directory</h1><p>Application deadline November 2, 2026</p><p>Another program application deadline December 3, 2026</p></main>'
         record,_=f.monitor({'id':'directory','url':'https://example.org','discover':'stanford-postdoc'}, {}, lambda *_:body)
         self.assertEqual(record['dates'],[])
+    def test_vpge_table_route_and_navigation_exclusion(self):
+        source={'url':'https://vpge.stanford.edu/fellowships-funding/vpge-fellowships','discover':'stanford-vpge'}
+        p=f.Page();p.feed('<nav><a href="/fellowships-funding/sgf/news">SGF News</a></nav><main><table><tr><th>Fellowship</th><th>Eligibility</th></tr><tr><td><a href="/fellowships-funding/sgf">SGF</a></td><td>Incoming Doctoral Students</td><td>by Nomination</td></tr><tr><td><a href="/fellowships-funding/raise">RAISE</a></td><td>Doctoral Students</td><td>by Application</td></tr><tr><td><a href="https://evil.example/fship">External</a></td><td>Doctoral Students</td></tr></table></main>')
+        rows=f.discover(source,p);self.assertEqual(len(rows),2)
+        self.assertEqual([r['applicationRoute'] for r in rows],['nomination','direct'])
+        self.assertEqual(rows[0]['kind'],'phd')
+    def test_other_grad_directory_content_sections(self):
+        source={'url':'https://vpge.stanford.edu/other','discover':'stanford-other-phd'}
+        p=f.Page();p.feed('<a href="https://nav.stanford.edu">Navigation Fellowship</a><h2>Science &amp; Engineering</h2><a href="https://chemh-cbi.stanford.edu/">ChEM-H Training Program</a><h2>Social Sciences &amp; Humanities</h2><a href="https://shc.stanford.edu/">Humanities Center</a><h2>Related Links</h2><a href="https://bad.stanford.edu/">Funding Policy</a>')
+        rows=f.discover(source,p);self.assertEqual(len(rows),2)
+        self.assertEqual(rows[1]['recordType'],'resource')
+        self.assertEqual(rows[1]['fields'],['Humanities & Social sciences'])
 
 if __name__=='__main__':unittest.main()

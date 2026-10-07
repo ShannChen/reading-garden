@@ -122,7 +122,10 @@
     "eligibility": "For eligible Stanford PhD students; review current nomination and mentor requirements.",
     "fallbackUrls": [
       "https://bioxapps.stanford.edu/app/main/login.asp"
-    ]
+    ],
+    "applicationRoute": "direct",
+    "applicationGroup": "bio-x-wu-tsai-chem-h",
+    "applicationGroupLabel": "Shared Bio-X / Wu Tsai / ChEM-H application"
   },
   {
     "id": "sigf",
@@ -144,7 +147,8 @@
       "Broad STEM / Interdisciplinary"
     ],
     "summary": "Graduate funding across disciplinary boundaries.",
-    "eligibility": "For eligible Stanford doctoral students; requirements vary by research area and competition."
+    "eligibility": "For eligible Stanford doctoral students; requirements vary by research area and competition.",
+    "applicationRoute": "direct"
   },
   {
     "id": "chemh-sigf",
@@ -163,7 +167,10 @@
       "Broad STEM / Interdisciplinary"
     ],
     "summary": "Graduate research at the chemistry, biology and engineering interface.",
-    "eligibility": "For eligible Stanford graduate students; review the coordinated Bio-X, Wu Tsai and ChEM-H application."
+    "eligibility": "For eligible Stanford graduate students; review the coordinated Bio-X, Wu Tsai and ChEM-H application.",
+    "applicationRoute": "direct",
+    "applicationGroup": "bio-x-wu-tsai-chem-h",
+    "applicationGroupLabel": "Shared Bio-X / Wu Tsai / ChEM-H application"
   },
   {
     "id": "lsrf",
@@ -341,5 +348,213 @@
     ],
     "summary": "Support for translational stem cell research by eligible Stanford postdoctoral scholars.",
     "eligibility": "Review postdoctoral training-year limits, concurrent fellowship restrictions and translational stem cell research requirements on the official page."
+  },
+  {
+    "id": "stanford-vpge-phd-directory",
+    "title": "Stanford VPGE Doctoral Fellowship Directory",
+    "url": "https://vpge.stanford.edu/fellowships-funding/vpge-fellowships",
+    "fields": [
+      "Funding directory"
+    ],
+    "eligibility": "Directory of university-wide doctoral fellowships; each program has its own nomination or application process.",
+    "applicationRoute": "verify",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University",
+    "recordType": "resource",
+    "discover": "stanford-vpge"
+  },
+  {
+    "id": "stanford-other-phd-directory",
+    "title": "Other Stanford Graduate Fellowships and Funding",
+    "url": "https://vpge.stanford.edu/fellowships-funding/graduate-student-funding/other-stanford-fellowships",
+    "fields": [
+      "Funding directory"
+    ],
+    "eligibility": "Graduate funding directory spanning institutes and disciplines; verify doctoral eligibility in each linked program.",
+    "applicationRoute": "verify",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University",
+    "recordType": "resource",
+    "discover": "stanford-other-phd"
+  },
+  {
+    "id": "stanford-sgf",
+    "title": "SGF: Stanford Graduate Fellowship in Science & Engineering",
+    "url": "https://vpge.stanford.edu/fellowships-funding/sgf",
+    "fields": [
+      "Broad STEM / Interdisciplinary"
+    ],
+    "eligibility": "Eligible incoming and continuing doctoral students must be nominated by their degree program.",
+    "applicationRoute": "nomination",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-arcs",
+    "title": "ARCS: Achievement Rewards for College Scientists",
+    "url": "https://vpge.stanford.edu/fellowships-funding/vpge-fellowships/arcs-achievement-rewards-college-scientists",
+    "fields": [
+      "Broad STEM / Interdisciplinary"
+    ],
+    "eligibility": "School nomination required. US citizenship, eligible science/engineering degree program, academic performance, financial need and doctoral-stage requirements apply.",
+    "applicationRoute": "nomination",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-lieberman",
+    "title": "Gerald J. Lieberman Fellowship",
+    "url": "https://vpge.stanford.edu/fellowships-funding/vpge-fellowships/gerald-j-lieberman-fellowship",
+    "fields": [
+      "All disciplines"
+    ],
+    "eligibility": "Nomination required for doctoral students; consult your school or department and the current selection criteria.",
+    "applicationRoute": "nomination",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-dissertation-completion",
+    "title": "Dissertation Completion Fellowship",
+    "url": "https://vpge.stanford.edu/fellowships-funding/vpge-fellowships/dissertation-completion",
+    "fields": [
+      "All disciplines"
+    ],
+    "eligibility": "Nomination required. Intended for doctoral students completing their dissertation; check stage and institutional requirements.",
+    "applicationRoute": "nomination",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-raise",
+    "title": "RAISE Doctoral Fellowship",
+    "url": "https://vpge.stanford.edu/fellowships-funding/raise",
+    "fields": [
+      "All disciplines"
+    ],
+    "eligibility": "Doctoral students pursuing research with community engagement and societal impact; consult the current application requirements.",
+    "applicationRoute": "direct",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-wutsai-sigf",
+    "title": "SIGF affiliated with Wu Tsai Neurosciences Institute",
+    "url": "https://neuroscience.stanford.edu/programs/programs-and-fellowships-trainees/stanford-interdisciplinary-graduate-fellowships-sigfs",
+    "fields": [
+      "Neuroscience",
+      "Biomedical & Translational research"
+    ],
+    "eligibility": "For eligible interdisciplinary neuroscience doctoral research; shares the Bio-X, Wu Tsai and Sarafan ChEM-H application process.",
+    "applicationRoute": "direct",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University",
+    "applicationGroup": "bio-x-wu-tsai-chem-h",
+    "applicationGroupLabel": "Shared Bio-X / Wu Tsai / ChEM-H application"
+  },
+  {
+    "id": "stanford-chemh-cbi",
+    "title": "Sarafan ChEM-H Chemistry/Biology Interface Training Program",
+    "url": "https://chemh-cbi.stanford.edu/",
+    "fields": [
+      "Chemical biology & Small molecules",
+      "Biochemistry & Structural biology",
+      "Molecular & Cell biology",
+      "Biomedical & Translational research"
+    ],
+    "eligibility": "Incoming PhD students and MSTP students in the specified early training stages only; consult current application details.",
+    "applicationRoute": "direct",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-tomkat-grad",
+    "title": "TomKat Graduate Fellowships for Translational Research",
+    "url": "https://tomkat.stanford.edu/fellowships/graduate-fellowships",
+    "fields": [
+      "Environmental health & Exposomics",
+      "Broad STEM / Interdisciplinary"
+    ],
+    "eligibility": "For eligible doctoral students doing translational sustainability research; check degree stage, faculty endorsement, concurrent funding and current application requirements.",
+    "applicationRoute": "direct",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-khs",
+    "title": "Knight-Hennessy Scholars",
+    "url": "https://knight-hennessy.stanford.edu/",
+    "fields": [
+      "All disciplines"
+    ],
+    "eligibility": "Admission-stage funding for eligible incoming graduate students, including PhD programs. Requires separate KHS and Stanford degree-program applications; review degree-date and application requirements.",
+    "applicationRoute": "direct",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University"
+  },
+  {
+    "id": "stanford-biosciences-funding",
+    "title": "Stanford Biosciences Graduate Funding and Training Resources",
+    "url": "https://med.stanford.edu/sbsa/resources/funding-and-training.html",
+    "fields": [
+      "Broad STEM / Interdisciplinary"
+    ],
+    "eligibility": "Directory only: includes Stanford training opportunities and external sponsors with different citizenship and degree-stage rules.",
+    "applicationRoute": "verify",
+    "summary": "Graduate funding at Stanford; confirm the current cycle and full eligibility on the official page.",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University",
+    "recordType": "resource"
+  },
+  {
+    "id": "stanford-ccsre-emerging",
+    "title": "CCSRE Emerging Scholars Graduate Fellowship",
+    "url": "https://vpge.stanford.edu/fellowships-funding/vpge-fellowships/ccsre-center-comparative-studies-race-and-ethnicity-emerging",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford VPGE",
+    "fields": [
+      "Humanities & Social sciences"
+    ],
+    "applicationRoute": "nomination",
+    "summary": "Graduate fellowship for incoming doctoral students studying race, ethnicity and inequality.",
+    "eligibility": "Incoming doctoral students; institutional nomination required. Confirm eligible research interests and current nomination rules."
+  },
+  {
+    "id": "stanford-zhang",
+    "title": "Shoucheng Zhang Graduate Fellowship",
+    "url": "https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford VPGE",
+    "fields": [
+      "Physical sciences & Engineering"
+    ],
+    "applicationRoute": "nomination",
+    "summary": "Graduate fellowship for interdisciplinary quantum science and engineering research.",
+    "eligibility": "For eligible incoming doctoral students; degree-program nomination required. Review participating departments and current requirements."
   }
 ]
