@@ -43,7 +43,7 @@ class FundingTest(unittest.TestCase):
         self.assertEqual(f.stage('Pathway to Independence Award (K99/R00)'), 'grant')
     def test_stanford_directory_discovery(self):
         source={'url':'https://postdocs.stanford.edu/fellowships','discover':'stanford-postdoc'}
-        p=f.Page();p.feed('<a href="https://neuroscience.stanford.edu/awards">Wu Tsai Neurosciences Postdoctoral Scholar Awards</a><a href="/current/fellowship/mccormick">Katharine McCormick Committee</a><a href="https://evil-stanford.edu/fellowship">Postdoctoral Fellowship</a><a href="/policy">Postdoc Policy on Fellowships</a><a href="https://shc.stanford.edu/fellowship">Mellon Fellowship of Scholars in the Humanities</a>')
+        p=f.Page();p.feed('<nav><a href="https://unrelated.stanford.edu/fellowship">Navigation Fellowship</a></nav><main><a href="https://neuroscience.stanford.edu/awards">Wu Tsai Neurosciences Postdoctoral Scholar Awards</a><a href="/current/fellowship/mccormick">Katharine McCormick Committee</a><a href="https://evil-stanford.edu/fellowship">Postdoctoral Fellowship</a><a href="/policy">Postdoc Policy on Fellowships</a><a href="/current/postdoc-resources">Postdoc Resources</a><a href="https://shc.stanford.edu/fellowship">Mellon Fellowship of Scholars in the Humanities</a></main>')
         rows=f.discover(source,p)
         self.assertEqual(len(rows),3)
         self.assertTrue(all(r['kind']=='postdoc' for r in rows))

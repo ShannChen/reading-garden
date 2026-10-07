@@ -27,6 +27,7 @@ class Page(HTMLParser):
         self.lines = []
         self.parts = []
         self.links = []
+        self.main_links = []
         self.anchor = None
         self.main = False
         self.main_seen = False
@@ -47,7 +48,7 @@ class Page(HTMLParser):
         if tag in ('p', 'div', 'h1', 'h2', 'h3', 'h4', 'li', 'tr', 'br'):
             self.flush()
         if tag == 'a':
-            self.anchor = [attrs.get('href', ''), []]
+            self.anchor = [attrs.get('href', ''), [], self.main]
     def handle_endtag(self, tag):
         if tag in ('script', 'style', 'noscript'):
             self.skip = max(0, self.skip - 1)
@@ -56,7 +57,9 @@ class Page(HTMLParser):
         if tag == 'main':
             self.flush(); self.main = False
         if tag == 'a' and self.anchor:
-            self.links.append((self.anchor[0], re.sub(r'\s+', ' ', ' '.join(self.anchor[1])).strip()))
+            link = (self.anchor[0], re.sub(r'\s+', ' ', ' '.join(self.anchor[1])).strip())
+            self.links.append(link)
+            if self.anchor[2]: self.main_links.append(link)
             self.anchor = None
     def handle_data(self, data):
         if not self.skip:
@@ -185,7 +188,7 @@ def discover(source, page):
     if source.get('discover') in ('stanford-postdoc', 'stanford-mchri'):
         return discover_stanford_postdocs(source, page)
     results = []
-    for href, title in page.links:
+    for href, title in page.main_links if page.main_seen else page.links:
         url = urljoin(source['url'], href)
         # Only public Stanford program pages on the specified official host/path.
         parsed = urlparse(url)
@@ -204,14 +207,16 @@ def discover(source, page):
 def discover_stanford_postdocs(source, page):
     """Follow program links from OPA's curated directory across official Stanford hosts."""
     results = {}
-    for href, title in page.links:
+    for href, title in page.main_links if page.main_seen else page.links:
         url = urljoin(source['url'], href)
         parsed = urlparse(url)
         host = (parsed.hostname or '').lower()
         if parsed.scheme != 'https' or not host.endswith('.stanford.edu') or parsed.query or parsed.fragment or url == source['url']:
             continue
         mchri = source.get('discover') == 'stanford-mchri'
-        if mchri and '/mchri/funding_opportunities/postdoctoral-and-fellowship-opportunities/' not in parsed.path:
+        if not mchri and host == 'postdocs.stanford.edu' and not parsed.path.startswith('/current/fellowship/'):
+            continue
+        if mchri and not parsed.path.startswith(('/mchri/funding_opportunities/', '/mchri/programs/')):
             continue
         if mchri and re.search(r"master.*tuition|return to", title, re.I):
             continue
@@ -220,7 +225,7 @@ def discover_stanford_postdocs(source, page):
         if re.search(r'policy|budget|benefit|guide|rate sheet|proposal|funding guidelines', title, re.I):
             continue
         fields = ['Broad STEM / Interdisciplinary']
-        if re.search(r'humanities|chinese studies|buddhist|asia|japan|democracy|ethics|impact labs|sparq|organizational|security|young scholars|king center', title, re.I):
+        if re.search(r'humanities|chinese studies|buddhist|asia|japan|democracy|ethics|impact labs|sparq|organizational|international security|young scholars|king center', title, re.I):
             fields = ['Humanities & Social sciences']
         elif re.search(r'neuro', title, re.I):
             fields = ['Neuroscience', 'Biomedical & Translational research']
