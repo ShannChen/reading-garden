@@ -21,6 +21,12 @@ const key=k=>{let prevented=false;input.events.keydown({key:k,preventDefault(){p
  type('error');fire();pending[5].reject(Error('offline'));await settle();assert.match(node('journalSearchStatus').textContent,/unavailable/);
  type('late');fire();node('subscriptionForm').events.reset();reply(6,[{title:'Late result'}]);await settle();assert.equal(input.value,'');assert.equal(node('journalSuggestions').hidden,true);assert.equal(node('journalSearchStatus').textContent,'');
  field.value=Array.from({length:200},(_,i)=>'Journal '+i).join('\n');type('extra');fire();reply(7,[{title:'Extra'}]);await settle();key('Enter');assert.equal(field.value.split('\n').length,200);assert.match(node('journalSearchStatus').textContent,/up to 200/);key('Escape');assert.equal(node('journalSuggestions').hidden,true);
+ field.value='';type('nature');fire();assert.match(node('journalSuggestions').innerHTML,/>Nature</);assert.equal(field.value,'');
+ reply(8,[{title:'NatureJobs'},{title:'Naturen'},{title:'Nature Genetics'}]);await settle();assert.match(node('journalSuggestions').innerHTML,/data-journal-index="0"><strong>Nature</);assert.match(node('journalSuggestions').innerHTML,/0028-0836/);key('Enter');assert.equal(field.value,'Nature');
+ type('cell');fire();reply(9,[]);await settle();assert.match(node('journalSuggestions').innerHTML,/data-journal-index="0"><strong>Cell</);assert.match(node('journalSuggestions').innerHTML,/0092-8674/);assert.equal(field.value,'Nature');
+ type('science');fire();pending[10].reject(Error('offline'));await settle();assert.match(node('journalSuggestions').innerHTML,/>Science</);assert.match(node('journalSearchStatus').textContent,/verified journal/);
+ type('Generic');fire();reply(11,[{title:'Generic Biology'},{title:'Unrelated'},{title:'Generic'}]);await settle();assert.match(node('journalSuggestions').innerHTML,/data-journal-index="0"><strong>Generic</);assert.equal(new URL(requests[11].url).searchParams.get('rows'),'100');
  console.log('PASS: debounce, metadata suggestions, escaped titles, explicit selection, multiple journals, duplicate and limit guards, keyboard selection, stale response cancellation, form reset, no matches and offline fallback.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
+
 

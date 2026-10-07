@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261007-shared-journals-v34';
-const ASSETS = ['./', './index.html', './book-lookup.js?v=20261007-34', './sync-core.js?v=20261007-34', './cloud-sync.js?v=20261007-34', './paper-feed.js?v=20261007-34', './journal-lookup.js?v=20261007-34', './feed-preferences.js?v=20261007-34', './people-core.js?v=20261007-34', './people.js?v=20261007-34', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261007-exact-journal-search-v35';
+const ASSETS = ['./', './index.html', './book-lookup.js?v=20261007-35', './sync-core.js?v=20261007-35', './cloud-sync.js?v=20261007-35', './paper-feed.js?v=20261007-35', './journal-lookup.js?v=20261007-35', './feed-preferences.js?v=20261007-35', './people-core.js?v=20261007-35', './people.js?v=20261007-35', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -38,6 +38,7 @@ self.addEventListener('fetch', e => {
     return r;
   })));
 });
+
 
 
 
