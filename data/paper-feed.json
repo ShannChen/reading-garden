@@ -1,12 +1,83 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-06T23:53:38.528415+00:00",
+  "checkedAt": "2026-10-07T08:51:32.764911+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44485-026-00004-z",
+      "title": "Cover crop diversity generates complex rhizo-microbiome networks by improving soil properties",
+      "authors": "Muhammad Saleem, Zahida. H. Pervaiz, MD Imam ul Khabir, Nur E. Alam, M. Usama Marghoob, J. F. Jhumur, Yongpo Zhao, Pengfa Li",
+      "journal": "npj Soil Ecology",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s44485-026-00004-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-07T08:51:32.764911+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73987-6",
+      "title": "Multi-omics analysis reveals tissue-specific patterns of chicken growth driven by metabolic reorganization",
+      "authors": "Vladimir Kaplan, Mikhail Kulyashov, Ivan Yevshin, Nataliya Osik, Lyudmila Yanshole, Elena Shagimardanova, Natalia Volkova, Anastasia Vetokh, Yuri Tsentalovich, Oleg Gusev, Fedor Kolpakov, Ilya Akberdin",
+      "journal": "Scientific Reports",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73987-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-07T08:51:32.764911+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73252-w",
+      "title": "Maternal SARS-CoV-2 exposure and neonatal metabolic maturation during the first month of life: a longitudinal urinary metabolomics study",
+      "authors": "Federico Cannas, Natalia Zuddas, Daniela Gianotti, Alida Kindt, Elena Esposito, Vassilios Fanos, Flaminia Cesare Marincola",
+      "journal": "Scientific Reports",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73252-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-07T08:51:32.764911+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78216-2",
+      "title": "Neonatal overfeeding accelerates age-related sarcopenia and metabolic disorders through lifelong gut mucosa and microbiota programming in mice",
+      "authors": "Yeyu Song, Jingyi Xu, Jingjie Zhao, Rong Yang, Yuandi Ma, Yi-Ming Hou, Yutang Cao, Jiaqi Li, Shuwu Yu, Xinyu Liang, Yongxin Zhang, Kanglong Wang, Lijuan An, Yameng Liu, Zhuo-Xian Meng, Jian-Gao Fan, Cen Xie",
+      "journal": "Nature Communications",
+      "published": "2026-10-07",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78216-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-07T08:51:32.764911+00:00"
+    },
     {
       "doi": "10.1038/s44454-026-00067-9",
       "title": "Photoaging-driven amplification of polystyrene microplastic toxicity in wheat: physiological and multi-omics insights",
@@ -11889,176 +11960,6 @@
       "link": "https://doi.org/10.1038/s41467-026-75448-0",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s44400-026-00120-9",
-      "title": "An integrated lifestyle-, genetic- and metabolomics-based prediction model for mild cognitive aging in the HCHS/SOL",
-      "authors": "Annah B. Wyss, Yana Hrytsenko, Linfeng Hu, Iris J. Broce, Robert C. Kaplan, Wassim Tarraf, Bing Yu, Eric Boerwinkle, Qibin Qi, Myriam Fornage, Charles DeCarli, Hector M. González, Tamar Sofer",
-      "journal": "npj Dementia",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s44400-026-00120-9",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60970-4",
-      "title": "Integrated multi-omics analysis reveals apple mango leaf extract-induced dendritic cell maturation associated with Il1b upregulation and PU.1/ETS motif enrichment",
-      "authors": "Suyoung Choi, Ju-Gyeong Kang, Taejun Seol, Jeong-Hwan Kim, Juyoung Kim, Daesik Lim, Seon-Young Kim, Ernest Mazigo, Bo-In Kwon, Jaeyul Kwon",
-      "journal": "Scientific Reports",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60970-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60508-8",
-      "title": "Alcalase-derived egg white hydrolysates exhibit ACE inhibition In silico and gut microbiota modulation In vivo",
-      "authors": "Wisarut Payoungkiattikun, Theerawat Dobutr, Napaporn Roamcharern, Nisachon Jangpromma, Sompong Klaynongsruang, Jureerut Daduang, Sakda Daduang, Rina Patramanon",
-      "journal": "Scientific Reports",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60508-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-57962-9",
-      "title": "Correction: 1H-NMR serum metabolomic profiling from clinical routine identifies signatures of progressive melanoma metastasis",
-      "authors": "Frank Friedrich Gellrich, Cosima Hufnagel, Alexander M. Funk, Sophie Jonas, Heidi Altmann, Sarah Hobelsberger, Julian Steininger, Ricarda Rauschenberg, Marlene Garzarolli, Sophia Lehr, Lea Pöschman, Paula Biedermann, Julia Sophie Schatz, Christina Feige, Alpaslan Tasdogan, Triantafyllos Chavakis, Stefan Beissert, Friedegund Meier, Peter Mirtschink, Gerald Steiner",
-      "journal": "Scientific Reports",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-57962-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41586-026-10750-x",
-      "title": "Diet–microbiome synergy underlies obesity-associated immunotherapy efficacy",
-      "authors": "Lysanne Desharnais, Anikka Swaby, Meriem Messaoudene, Samuel Doré, Miranda W. Yu, Benoit Fiset, Valérie Breton, Mayra Ponce, Yongjia Hu, Liam Wilson, Mark Sorin, Ye Wang, Ken Dewar, Michael Pollak, Arielle Elkrief, Bertrand Routy, Logan A. Walsh, Daniela F. Quail",
-      "journal": "Nature",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41586-026-10750-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01084-7",
-      "title": "Periodontitis aggravates bone loss through gut microbiota alterations in ovariectomized mice",
-      "authors": "Hua Nie, Nannan Wang, Haowei Mao, Yuan Wei, Jun Qian, Rixin Chen, Qiao Yuan, Yin Xiao, Li Zhang, Fuhua Yan",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01084-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75362-5",
-      "title": "Spliceosomal proteins direct RNA methylation to modulate gene expression and silence retrotransposons",
-      "authors": "Drisya Vijayakumari, Xander Gottfried, Brent Groubert, Jothy Dhakshnamoorthy, Shweta Jain, Martin Zofall, Hernan Diego Folco, Hua Xiao, Anupa T Anil, Thorkell Andresson, David Wheeler, Shiv I. S. Grewal",
-      "journal": "Nature Communications",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75362-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75356-3",
-      "title": "A NIR fluorotag reporter CETIF6a enables bright pan-tumor labeling and functional proteomic profiling",
-      "authors": "Jia Li, Feiran Zhang, Jianing Cheng, Xu Peng, Cheng Li, Chengbin Zhang, Yuewei Zhang, Songling Zhang, Shoujun Zhu",
-      "journal": "Nature Communications",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75356-3",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75309-w",
-      "title": "Systems-level analysis predicts no autotrophy-linked protein-RNA interactions in Clostridium autoethanogenum",
-      "authors": "Angela Re, Gianfranco Michele Maria Politano, Kristina Reinmets, Alfredo Benso, Laurence Girbal, Muriel Cocaign-Bousquet, Kaspar Valgepea",
-      "journal": "Nature Communications",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75309-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75176-5",
-      "title": "Gut microbiota associates with frailty in older women",
-      "authors": "Marina Vilar Geraldi, Chinmay Dwibedi, Raju Jaiswal, Giulia Gregori, Xiaofeng Zhou, Bomin Lv, Yan Zheng, Xiaofeng Wang, Hao Wu, Kristian F. Axelsson, Fredrik Bäckhed, Valentina Tremaroli, Mattias Lorentzon",
-      "journal": "Nature Communications",
-      "published": "2026-07-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75176-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
