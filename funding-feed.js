@@ -7,7 +7,7 @@
   const selectedAreas=new Set();
   const legacyFields={'Small molecules':areaLabels[0],'Biochemistry':areaLabels[2],'Medicine':areaLabels[9]};
   const areasFor=r=>[...new Set(r.fields.map(f=>legacyFields[f]||f))];
-  const labels={grant:'Grants',postdoc:'Postdoc Fellowships',phd:'PhD Fellowships'};
+  const labels={grant:'Available Grants',postdoc:'Postdoc Fellowships',phd:'PhD Fellowships'};
   function validStars(rows){return Array.isArray(rows)&&rows.length<=10000&&rows.every(r=>r&&typeof r.id==='string'&&r.id.length>0&&r.id.length<=200&&typeof r.starred==='boolean'&&Number.isFinite(r.updated))&&new Set(rows.map(r=>r.id)).size===rows.length;}
   function validFeed(d){return d?.version===1&&Array.isArray(d.opportunities)&&d.opportunities.length<=20000&&d.opportunities.every(r=>r&&typeof r.id==='string'&&typeof r.title==='string'&&typeof r.provider==='string'&&['grant','postdoc','phd'].includes(r.kind)&&['stanford','national'].includes(r.scope)&&Array.isArray(r.fields)&&r.fields.every(f=>typeof f==='string')&&Array.isArray(r.dates)&&r.dates.every(date=>/^\d{4}-\d{2}-\d{2}$/.test(date))&&typeof r.url==='string'&&/^https:\/\//.test(r.url));}
   const starred=id=>stars.find(r=>r.id===id)?.starred===true;
@@ -53,7 +53,7 @@
     const key='reading-garden-nav-'+d.dataset.navGroup;try{const saved=localStorage.getItem(key);if(saved!==null)d.open=saved==='open';}catch{}
     d.addEventListener('toggle',()=>{try{localStorage.setItem(key,d.open?'open':'closed');}catch{}});
   });
-  document.querySelectorAll('[data-funding]').forEach(b=>b.onclick=()=>{section=b.dataset.funding;page=0;view='funding';el('fundingSearch').value='';el('fundingScope').value='';render();refresh();});
+  document.querySelectorAll('[data-funding]').forEach(b=>b.onclick=()=>{section=b.dataset.funding;page=0;view='funding';if(section==='grant')el('fundingStatus').value='posted';el('fundingSearch').value='';el('fundingScope').value='';render();refresh();});
   const filterChanged=()=>{page=0;renderFunding();};el('fundingPrevious').onclick=()=>{page=Math.max(0,page-1);renderFunding();};el('fundingNext').onclick=()=>{page++;renderFunding();};
   el('fundingSearch').addEventListener('input',filterChanged);['fundingScope','fundingStatus','fundingStarred'].forEach(id=>el(id).addEventListener('change',filterChanged));
   el('fundingAreaOptions').innerHTML=areaLabels.map((name,i)=>'<label><input type="checkbox" data-funding-area="'+i+'">'+esc(name)+'</label>').join('');
