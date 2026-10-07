@@ -11,3 +11,7 @@ NIH does not allow browser requests from GitHub Pages. This small Supabase Edge 
 No API key, database table, SQL migration or secret is needed. Calls count toward your Supabase Edge Function usage allowance. Keep the function name unchanged so the website can find it.
 
 The function accepts requests from `https://shannchen.github.io`, validates the search fields, limits each response to 20 records and spaces requests per running instance. Origin checks are browser controls, not authentication. Do not add private data to this function. Funding is reported per fiscal year, not summed over the whole project.
+
+## Existing deployed function
+
+This project uses the function slug **swift-handler**. Changing its display name to NIH RePORTER does not change the slug or endpoint URL. The website is configured to call `/functions/v1/swift-handler`. Update this existing function rather than creating another one. Keep Verify JWT off.

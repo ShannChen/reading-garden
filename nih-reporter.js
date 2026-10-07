@@ -1,6 +1,6 @@
 (function(root){
   'use strict';
-  const endpoint='https://oonwggwdcywukwshwbxx.supabase.co/functions/v1/nih-reporter';
+  const endpoint='https://oonwggwdcywukwshwbxx.supabase.co/functions/v1/swift-handler';
   function piName(value){
     const name=String(value||'').trim().replace(/\s+/g,' ');
     if(!name)return null;

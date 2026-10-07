@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261007-nih-reporter-v48';
-const ASSETS = ['./', './index.html', './nih-reporter.js?v=20261007-48', './funding-feed.js?v=20261007-48', './data/funding-feed.json', './book-lookup.js?v=20261007-48', './sync-core.js?v=20261007-48', './cloud-sync.js?v=20261007-48', './paper-feed.js?v=20261007-48', './pubmed-feed.js?v=20261007-48', './journal-lookup.js?v=20261007-48', './feed-preferences.js?v=20261007-48', './people-core.js?v=20261007-48', './people.js?v=20261007-48', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261007-nih-reporter-v49';
+const ASSETS = ['./', './index.html', './nih-reporter.js?v=20261007-49', './funding-feed.js?v=20261007-49', './data/funding-feed.json', './book-lookup.js?v=20261007-49', './sync-core.js?v=20261007-49', './cloud-sync.js?v=20261007-49', './paper-feed.js?v=20261007-49', './pubmed-feed.js?v=20261007-49', './journal-lookup.js?v=20261007-49', './feed-preferences.js?v=20261007-49', './people-core.js?v=20261007-49', './people.js?v=20261007-49', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
   // Pages are network-first so a redeploy lands immediately; cache is the offline fallback.
   if (req.mode === 'navigate') {
     e.respondWith(fetch(req, {cache: 'no-cache'})
-      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './nih-reporter.js?v=20261007-48', './funding-feed.js?v=20261007-48', './data/funding-feed.json', copy)); return r; })
+      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './nih-reporter.js?v=20261007-49', './funding-feed.js?v=20261007-49', './data/funding-feed.json', copy)); return r; })
       .catch(() => caches.match('./index.html').then(hit => hit || caches.match('./'))));
     return;
   }
