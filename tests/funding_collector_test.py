@@ -8,7 +8,7 @@ f = importlib.util.module_from_spec(spec); spec.loader.exec_module(f)
 
 class FundingTest(unittest.TestCase):
     def test_dates(self):
-        p = f.Page(); p.feed('<main><h2>Application Deadline:</h2><p>Monday, November 02, 2026</p><p>Reference letters deadline November 10, 2026</p><p>Deadline: October 1</p><p>Degree conferred September 3, 2020</p><p>Application deadline February 30, 2027</p></main>')
+        p = f.Page(); p.feed('<main><h2>Application Deadline:</h2><p>Monday, November 02, 2026</p><p>Reference letters deadline November 10, 2026</p><p>Deadline: October 1</p><p>Degree conferred September 3, 2020</p><p>Application deadline February 30, 2027</p><p>Application deadline November 02, 2026; award begins July 1, 2027.</p></main>')
         self.assertEqual(f.deadline_candidates(p.text_lines()), ['2026-11-02'])
     def test_keep_last_good_data(self):
         def fail(*args): raise OSError()

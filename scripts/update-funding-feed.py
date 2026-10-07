@@ -5,6 +5,7 @@ import json
 import re
 import time
 from datetime import date, datetime, timezone
+from zoneinfo import ZoneInfo
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -77,11 +78,18 @@ def deadline_candidates(lines):
         next_line = lines[i + 1] if i + 1 < len(lines) else ''
         starts_date = re.match(r'^(?:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+)?(?:' + '|'.join(MONTHS) + r')\s+\d', next_line, re.I)
         nearby = line + (' ' + next_line if len(line) < 100 and starts_date and not DATE_RE.search(line) else '')
-        for month, day, year in DATE_RE.findall(nearby):
-            try:
-                candidates.add(date(int(year), MONTHS[month.lower()], int(day)).isoformat())
-            except ValueError:
-                pass
+        dates = list(DATE_RE.finditer(nearby))
+        for label in DEADLINE_RE.finditer(nearby):
+            # Keep the date beside each deadline label, not degree or award-start dates elsewhere in a paragraph.
+            after = [d for d in dates if d.start() >= label.end() and d.start() - label.end() < 100]
+            before = [d for d in dates if d.end() <= label.start() and label.start() - d.end() < 35]
+            chosen = min(after, key=lambda d: d.start() - label.end(), default=None) or min(before, key=lambda d: label.start() - d.end(), default=None)
+            if chosen:
+                month, day, year = chosen.groups()
+                try:
+                    candidates.add(date(int(year), MONTHS[month.lower()], int(day)).isoformat())
+                except ValueError:
+                    pass
     return sorted(candidates)
 
 def read(url, body=None):
@@ -109,7 +117,7 @@ def stage(title):
     return 'grant'
 
 def government(fetch=read, today=None):
-    today = today or date.today().isoformat()
+    today = today or datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
     found, failures = {}, []
     for keyword, field in SEARCHES:
         try:
@@ -151,7 +159,16 @@ def monitor(source, previous, fetch=read):
     now = datetime.now(timezone.utc).isoformat()
     record = {**source, 'dates': [], 'dateType': 'page-dates', 'status': 'cycle-unconfirmed', 'sourceStatus': 'unavailable', 'checkedAt': None}
     try:
-        page = Page(); page.feed(fetch(source['url'])); lines = page.text_lines()
+        page = None
+        for url in [source['url'], *source.get('fallbackUrls', [])]:
+            try:
+                page = Page(); page.feed(fetch(url)); lines = page.text_lines()
+                if len(' '.join(lines)) < 80: raise ValueError('Empty source')
+                record['url'] = url
+                break
+            except Exception:
+                page = None
+        if page is None: raise ValueError('All source pages unavailable')
         if len(' '.join(lines)) < 80:
             raise ValueError('Empty or script-only source')
         digest = hashlib.sha256('\n'.join(lines).encode()).hexdigest()

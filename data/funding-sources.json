@@ -84,7 +84,10 @@
       "Medicine"
     ],
     "summary": "Interdisciplinary graduate research with multiple faculty mentors.",
-    "eligibility": "For eligible Stanford PhD students; review current nomination and mentor requirements."
+    "eligibility": "For eligible Stanford PhD students; review current nomination and mentor requirements.",
+    "fallbackUrls": [
+      "https://bioxapps.stanford.edu/app/main/login.asp"
+    ]
   },
   {
     "id": "sigf",
@@ -201,5 +204,19 @@
     ],
     "summary": "Graduate and professional study across disciplines.",
     "eligibility": "New American status, age and graduate-stage restrictions apply; check the official eligibility guide."
+  },
+  {
+    "id": "biox-postdoc",
+    "title": "Stanford Bio-X Postdoctoral Fellowships",
+    "kind": "postdoc",
+    "scope": "stanford",
+    "provider": "Stanford Bio-X",
+    "url": "https://biox.stanford.edu/stanford-bio-x-postdoctoral-fellowships",
+    "fields": [
+      "Biochemistry",
+      "Medicine"
+    ],
+    "summary": "Interdisciplinary postdoctoral research in the life sciences.",
+    "eligibility": "Check Stanford affiliation, mentor and current competition requirements on the official page."
   }
 ]
