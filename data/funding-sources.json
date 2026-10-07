@@ -556,5 +556,35 @@
     "applicationRoute": "nomination",
     "summary": "Graduate fellowship for interdisciplinary quantum science and engineering research.",
     "eligibility": "For eligible incoming doctoral students; degree-program nomination required. Review participating departments and current requirements."
+  },
+  {
+    "id": "stanford-fsi-graduate",
+    "title": "FSI Graduate Fellowship Funding Directory",
+    "url": "https://fsi.stanford.edu/fellowships",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University",
+    "fields": [
+      "Humanities & Social sciences"
+    ],
+    "recordType": "resource",
+    "applicationRoute": "verify",
+    "summary": "Official graduate research funding resource. This page may include awards for other career stages; select doctoral or graduate student opportunities.",
+    "eligibility": "Verify graduate-student eligibility, research-field restrictions and application requirements on the official page."
+  },
+  {
+    "id": "stanford-siepr-graduate",
+    "title": "SIEPR Graduate Fellowships and Awards",
+    "url": "https://siepr.stanford.edu/programs/graduate-student-opportunities/graduate-fellowships-awards",
+    "kind": "phd",
+    "scope": "stanford",
+    "provider": "Stanford University",
+    "fields": [
+      "Humanities & Social sciences"
+    ],
+    "recordType": "resource",
+    "applicationRoute": "verify",
+    "summary": "Official graduate research funding resource. This page may include awards for other career stages; select doctoral or graduate student opportunities.",
+    "eligibility": "Verify graduate-student eligibility, research-field restrictions and application requirements on the official page."
   }
 ]

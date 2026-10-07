@@ -271,6 +271,8 @@ def url_key(url):
     parsed = urlparse(url)
     host = (parsed.hostname or '').lower().removeprefix('www.')
     path = parsed.path.replace('/content/sm/', '/') if host == 'med.stanford.edu' else parsed.path
+    if host == 'biox.stanford.edu' and path in ('/grant/fellowships.html','/research/phd-fellows'):
+        path = '/research/phd-fellows'
     if host == 'vpge.stanford.edu':
         path = path.removesuffix('/details')
         if 'sigf-stanford-interdisciplinary-graduate-fellowship' in path: path = '/fellowships-funding/sigf'
