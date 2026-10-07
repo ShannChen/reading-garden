@@ -10,7 +10,7 @@ async function run(){
  await tick();assert.equal(ctx.ReadingGardenFeeds.exportState()[0].subscriptions.length,0);assert.deepEqual(Array.from(ctx.ReadingGardenFeeds.getJournals()),[]);
  node('customizeFeed').onclick();assert.match(node('selectedJournals').innerHTML,/No journals selected/);
  assert.equal(ctx.ReadingGardenFeeds.addJournal('Nature Metabolism'),'');assert.equal(ctx.ReadingGardenFeeds.addJournal('nature metabolism'),'This journal is already selected.');
- function topic(name,words){node('newSubscription').onclick();f.elements.name.value=name;f.elements.keywords.value=words;f.onsubmit({preventDefault(){},target:f});}
+ function topic(name,words){node('newSubscription').onclick();f.elements.name.value=name;f.onsubmit({preventDefault(){},target:f});}
  topic('Lipidomics','lipidomics');await tick();await tick();assert.match(node('feedCards').innerHTML,/Lipidomics profiling/);assert.equal(ctx.ReadingGardenFeeds.exportState()[0].subscriptions.length,1);
  const collect=node('feedCards').querySelectorAll('[data-collect-doi]')[0];collect.onclick();assert.equal(ctx.papers.length,1);
  vm.runInContext("setPaperColor('doi:10.1038/test','orange')",ctx);assert.match(node('feedCards').innerHTML,/color-orange/);
@@ -26,7 +26,12 @@ async function run(){
  const legacy=[{id:'feed-settings',subscriptions:JSON.parse(JSON.stringify(prefs.defaults)),updated:10}];ctx.ReadingGardenFeeds.setState(legacy);assert.equal(ctx.ReadingGardenFeeds.exportState()[0].subscriptions.length,5);assert(ctx.ReadingGardenFeeds.exportState()[0].subscriptions.every(s=>s.families.length===4));ctx.ReadingGardenFeeds.addJournal('Cell');assert(ctx.ReadingGardenFeeds.exportState()[0].subscriptions.every(s=>s.families.length===0&&s.journals[0]==='Cell'));
  ctx.storageKey=k=>'friend:'+k;ctx.ReadingGardenFeeds.setState([]);ctx.ReadingGardenFeeds.saveLocal();assert.equal(JSON.parse(store['friend:reading-garden-feed-settings-v1'])[0].journals.length,0);assert.equal(node('feedNav').innerHTML,'');
  assert(!prefs.validState([{...saved[0],journals:['Cell','cell']}]));
- console.log('PASS: empty new accounts, shared journal add/remove across all topics, duplicate prevention, future topics, zero journals, metadata collection/colors preserved, legacy union migration, legacy family conversion, cloud restore and account reset.');
+ ctx.ReadingGardenFeeds.setState([{id:'feed-settings',journals:['Cell'],subscriptions:[{id:'legacy-topic',name:'Proteomics',keywords:['proteomics','proteomic'],journals:['Cell'],families:[],enabled:true}],updated:10}]);
+ node('customizeFeed').onclick();node('subscriptionList').querySelectorAll('[data-edit-sub]')[0].onclick();f.onsubmit({preventDefault(){},target:f});assert.deepEqual(Array.from(ctx.ReadingGardenFeeds.exportState()[0].subscriptions[0].keywords),['proteomics','proteomic']);
+ node('subscriptionList').querySelectorAll('[data-edit-sub]')[0].onclick();f.elements.name.value='Microbiome';f.onsubmit({preventDefault(){},target:f});assert.deepEqual(Array.from(ctx.ReadingGardenFeeds.exportState()[0].subscriptions[0].keywords),['Microbiome']);
+ assert.doesNotMatch(fs.readFileSync('index.html','utf8'),/name="keywords"/);
+ console.log('PASS: name-only topic creation, preserved legacy search terms and renamed topic search, empty new accounts, shared journal add/remove across all topics, duplicate prevention, future topics, zero journals, metadata collection/colors preserved, legacy union migration, legacy family conversion, cloud restore and account reset.');
 }
 run().catch(e=>{console.error(e);process.exitCode=1});
+
 
