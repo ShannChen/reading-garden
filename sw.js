@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261007-funding-picker-v53';
-const ASSETS = ['./', './index.html', './nih-reporter.js?v=20261007-53', './funding-feed.js?v=20261007-53', './data/funding-feed.json', './book-lookup.js?v=20261007-53', './sync-core.js?v=20261007-53', './cloud-sync.js?v=20261007-53', './paper-feed.js?v=20261007-53', './pubmed-feed.js?v=20261007-53', './journal-lookup.js?v=20261007-53', './feed-preferences.js?v=20261007-53', './people-core.js?v=20261007-53', './people.js?v=20261007-53', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261007-collapsed-menus-v54';
+const ASSETS = ['./', './index.html', './nih-reporter.js?v=20261007-54', './funding-feed.js?v=20261007-54', './data/funding-feed.json', './book-lookup.js?v=20261007-54', './sync-core.js?v=20261007-54', './cloud-sync.js?v=20261007-54', './paper-feed.js?v=20261007-54', './pubmed-feed.js?v=20261007-54', './journal-lookup.js?v=20261007-54', './feed-preferences.js?v=20261007-54', './people-core.js?v=20261007-54', './people.js?v=20261007-54', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
   // Pages are network-first so a redeploy lands immediately; cache is the offline fallback.
   if (req.mode === 'navigate') {
     e.respondWith(fetch(req, {cache: 'no-cache'})
-      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './nih-reporter.js?v=20261007-53', './funding-feed.js?v=20261007-53', './data/funding-feed.json', copy)); return r; })
+      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './nih-reporter.js?v=20261007-54', './funding-feed.js?v=20261007-54', './data/funding-feed.json', copy)); return r; })
       .catch(() => caches.match('./index.html').then(hit => hit || caches.match('./'))));
     return;
   }

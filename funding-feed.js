@@ -48,11 +48,13 @@
       if(!data)throw Error();feed=data;fetchFailed=false;try{localStorage.setItem(publicKey,JSON.stringify(feed));}catch{}
     }catch{fetchFailed=true;}finally{loading=false;renderFunding();}
   }
-  // Native details provide accessible keyboard folding. Remember folds on this device.
-  document.querySelectorAll('[data-nav-group]').forEach(d=>{
-    const key='reading-garden-nav-'+d.dataset.navGroup;try{const saved=localStorage.getItem(key);if(saved!==null)d.open=saved==='open';}catch{}
-    d.addEventListener('toggle',()=>{try{localStorage.setItem(key,d.open?'open':'closed');}catch{}});
-  });
+  // Start each visit collapsed, including pages restored from the browser cache.
+  function collapseMenus(){
+    document.querySelectorAll('[data-nav-group]').forEach(d=>d.open=false);
+    el('fundingAreasPicker').open=false;
+  }
+  collapseMenus();
+  addEventListener('pageshow',collapseMenus);
   document.querySelectorAll('[data-funding]').forEach(b=>b.onclick=()=>{section=b.dataset.funding;page=0;view='funding';el('fundingStatus').value=section==='grant'?'posted':'';el('fundingSearch').value='';el('fundingScope').value='';render();refresh();});
   const filterChanged=()=>{page=0;renderFunding();};el('fundingPrevious').onclick=()=>{page=Math.max(0,page-1);renderFunding();};el('fundingNext').onclick=()=>{page++;renderFunding();};
   el('fundingSearch').addEventListener('input',filterChanged);['fundingScope','fundingStatus','fundingStarred'].forEach(id=>el(id).addEventListener('change',filterChanged));
