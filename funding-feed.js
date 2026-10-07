@@ -27,7 +27,7 @@
     document.querySelectorAll('[data-funding]').forEach(b=>b.classList.toggle('active',active&&b.dataset.funding===section));
     if(!active)return;
     const kind=section,today=new Date().toLocaleDateString('sv-SE',{timeZone:'America/Los_Angeles'});
-    el('fundingTitle').textContent=labels[kind];el('fundingScope').hidden=false;
+    el('fundingTitle').textContent=labels[kind];el('fundingSubtitle').textContent=kind==='grant'?'Research grants for PIs and postdoctoral researchers · Project funding, seed grants and career development · Eligibility varies by program.':'Individual '+(kind==='postdoc'?'postdoctoral':'PhD')+' fellowships · Stanford and national programs across research areas.';el('fundingScope').hidden=false;
     el('fundingChecked').textContent=(fetchFailed?'Could not fetch the latest feed · Showing saved programs · ':'')+(feed?.checkedAt?'Last source check '+checked(feed.checkedAt)+(feed.partial?' · Some sources could not be fully checked':''):loading?'Loading monitored programs…':'Initial automatic source check pending');
     const q=el('fundingSearch').value.trim().toLowerCase(),scopeFilter=el('fundingScope').value,status=el('fundingStatus').value,onlyStarred=el('fundingStarred').checked;
     const rows=(feed?.opportunities||[]).filter(r=>r.kind===kind&&(!scopeFilter||r.scope===scopeFilter)&&(!selectedAreas.size||areasFor(r).some(f=>selectedAreas.has(f))||areasFor(r).includes(areaLabels[12]))&&(!status||r.status===status)&&(!onlyStarred||starred(r.id))&&[r.title,r.provider,r.summary,r.eligibility,...r.fields].join(' ').toLowerCase().includes(q));

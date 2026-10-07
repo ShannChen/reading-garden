@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261007-research-areas-v45';
-const ASSETS = ['./', './index.html', './funding-feed.js?v=20261007-45', './data/funding-feed.json', './book-lookup.js?v=20261007-45', './sync-core.js?v=20261007-45', './cloud-sync.js?v=20261007-45', './paper-feed.js?v=20261007-45', './pubmed-feed.js?v=20261007-45', './journal-lookup.js?v=20261007-45', './feed-preferences.js?v=20261007-45', './people-core.js?v=20261007-45', './people.js?v=20261007-45', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261007-grant-scope-v46';
+const ASSETS = ['./', './index.html', './funding-feed.js?v=20261007-46', './data/funding-feed.json', './book-lookup.js?v=20261007-46', './sync-core.js?v=20261007-46', './cloud-sync.js?v=20261007-46', './paper-feed.js?v=20261007-46', './pubmed-feed.js?v=20261007-46', './journal-lookup.js?v=20261007-46', './feed-preferences.js?v=20261007-46', './people-core.js?v=20261007-46', './people.js?v=20261007-46', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
   // Pages are network-first so a redeploy lands immediately; cache is the offline fallback.
   if (req.mode === 'navigate') {
     e.respondWith(fetch(req, {cache: 'no-cache'})
-      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './funding-feed.js?v=20261007-45', './data/funding-feed.json', copy)); return r; })
+      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './funding-feed.js?v=20261007-46', './data/funding-feed.json', copy)); return r; })
       .catch(() => caches.match('./index.html').then(hit => hit || caches.match('./'))));
     return;
   }
