@@ -286,6 +286,9 @@ def discover_stanford_phd(source, page):
         candidates = [(href,title,section) for href,title,section in page.section_links if section in sections]
     for href, title, context in candidates:
         url = urljoin(source['url'],href); parsed = urlparse(url)
+        # VPGE still lists some official resources with legacy HTTP links.
+        if parsed.scheme == 'http' and (parsed.hostname or '').endswith('.stanford.edu'):
+            url = parsed._replace(scheme='https').geturl(); parsed = urlparse(url)
         if parsed.scheme != 'https' or not (parsed.hostname or '').endswith('.stanford.edu') or parsed.query or parsed.fragment:
             continue
         if url_key(url) == url_key(source['url']) or not title or re.search(r'news|alumni|awardees|FAQ|polic|current.*fellow',title,re.I):
