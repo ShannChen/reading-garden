@@ -60,6 +60,9 @@
   function updateAreas(){el('fundingAreasSummary').textContent='Research areas · '+(selectedAreas.size?selectedAreas.size+' selected':'All');el('fundingAreasAll').setAttribute('aria-pressed',String(!selectedAreas.size));filterChanged();}
   document.querySelectorAll('#fundingAreaOptions [data-funding-area]').forEach(b=>b.onchange=()=>{const name=areaLabels[Number(b.dataset.fundingArea)];if(b.checked)selectedAreas.add(name);else selectedAreas.delete(name);updateAreas();});
   el('fundingAreasAll').onclick=()=>{selectedAreas.clear();document.querySelectorAll('#fundingAreaOptions [data-funding-area]').forEach(b=>b.checked=false);updateAreas();};
+  const areasPicker=el('fundingAreasPicker');
+  document.addEventListener('click',event=>{if(areasPicker.open&&!areasPicker.contains(event.target))areasPicker.open=false;});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&areasPicker.open){areasPicker.open=false;el('fundingAreasSummary').focus();}});
   const previousRender=render;render=function(){previousRender();renderFunding();};
   addEventListener('storage',e=>{if(e.key===storageKey(starsKey))loadStars();});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});addEventListener('online',()=>{lastAttempt=0;refresh();});setInterval(()=>{if(!document.hidden)refresh();},600000);
