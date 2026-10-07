@@ -222,7 +222,7 @@ def discover_stanford_postdocs(source, page):
             continue
         if not re.search(r'fellowship|postdoctoral|postdoc|scholar.*award|early career award|science fellows|data science fellows|mccormick|human performance.*funding|clinical.*trainee|research.to.impact|trainee pilot grant', title, re.I):
             continue
-        if re.search(r'policy|budget|benefit|guide|rate sheet|proposal|funding guidelines', title, re.I):
+        if re.search(r'policy|budget|benefit|guide|rate sheet|proposal|funding guidelines|awardees|alumni|success stor|FAQ', title, re.I):
             continue
         fields = ['Broad STEM / Interdisciplinary']
         if re.search(r'humanities|chinese studies|buddhist|asia|japan|democracy|ethics|impact labs|sparq|organizational|international security|young scholars|king center', title, re.I):

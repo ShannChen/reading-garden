@@ -1210,32 +1210,6 @@
       "updatedAt": "2026-10-07T05:58:29.869142+00:00"
     },
     {
-      "id": "stanford-opa-a3a62bd612df4f31",
-      "title": "Postdoc and Early Career Funding Support Awardees",
-      "kind": "postdoc",
-      "scope": "stanford",
-      "provider": "Stanford MCHRI",
-      "url": "https://med.stanford.edu/mchri/programs/pediatric-IBD-celiac-disease/ibd-celiac-postdoc-award.html",
-      "fields": [
-        "Biomedical & Translational research",
-        "Molecular & Cell biology",
-        "Genetics, Genomics & Epigenetics",
-        "Microbiome & Microbiology",
-        "Immunology & Cancer biology",
-        "Computational biology & Bioinformatics"
-      ],
-      "sourceDirectory": "https://med.stanford.edu/mchri/funding_opportunities/postdoctoral-and-fellowship-opportunities.html",
-      "summary": "Listed in the official Stanford MCHRI funding directory. Verify the program type and current cycle; directory listing does not establish application availability.",
-      "eligibility": "See the official program page for affiliation, degree timing, research-area, sponsor and other eligibility requirements. Directory listing does not confirm that applications are open.",
-      "dates": [],
-      "dateType": "page-dates",
-      "status": "cycle-unconfirmed",
-      "sourceStatus": "checked",
-      "checkedAt": "2026-10-07T05:58:30.362281+00:00",
-      "fingerprint": "d6ef2b13700626814b4d05f81158a699416b7dbb7110d4c26c3d55da467fdf42",
-      "updatedAt": "2026-10-07T05:58:30.362281+00:00"
-    },
-    {
       "id": "gov-359161",
       "title": "HEAL Initiative: Non-addictive Analgesic Therapeutics Development [Small Molecules and Biologics] to Treat Pain (UG3/UH3 Clinical Trial Optional)",
       "kind": "grant",
