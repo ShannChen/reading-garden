@@ -16,7 +16,8 @@
     el('selectedJournals').querySelectorAll('[data-remove-journal]').forEach(b=>b.onclick=()=>setJournals(settings.journals.filter((_,i)=>i!==Number(b.dataset.removeJournal))));
   }
   function subscription(){return settings.subscriptions.find(s=>s.id===group&&s.enabled);}
-  function rowsFor(s){if(!s)return [];const base=prefs.standard(s)?(feed?.papers||[]).filter(p=>p.groups.includes(s.id)):[];const cached=custom[s.id];const extra=cached?.signature===prefs.signature(s)?cached.papers:[];return [...new Map([...base,...extra].filter(p=>prefs.scoped(p,s)).map(p=>[p.doi,p])).values()].sort((a,b)=>b.published.localeCompare(a.published)||a.doi.localeCompare(b.doi));}
+  function rowsFor(s){if(!s)return [];const today=new Date().toISOString().slice(0,10),start=new Date(today+'T00:00:00Z');start.setUTCDate(start.getUTCDate()-90);
+    const base=(feed?.papers||[]).filter(p=>p.published>=start.toISOString().slice(0,10)&&p.published<=today&&prefs.matches([p.title,...p.tags].join(' '),s));const cached=custom[s.id];const extra=cached?.signature===prefs.signature(s)?cached.papers:[];return [...new Map([...base,...extra].filter(p=>p.published>=start.toISOString().slice(0,10)&&p.published<=today&&prefs.scoped(p,s)).map(p=>[p.doi,p])).values()].sort((a,b)=>b.published.localeCompare(a.published)||a.doi.localeCompare(b.doi));}
   function displayDate(value){return value?new Date(value).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Not checked yet';}
   function bindNav(){
     const box=el('feedNav');box.innerHTML=settings.subscriptions.filter(s=>s.enabled).map(s=>'<button type="button" data-feed="'+esc(s.id)+'">'+esc(s.name)+' <span>'+rowsFor(s).length+'</span></button>').join('');
@@ -27,14 +28,14 @@
     const s=subscription();el('feedTitle').textContent=s?.name||'Your research subscriptions';
     const cache=s&&custom[s.id],isDefault=s&&prefs.standard(s);
     el('feedChecked').textContent=s&&!s.journals.length&&!s.families.length?'Add journals in Customize feed to check this topic.':!s?'Add or enable a subscription in Customize feed.':isDefault?'Last checked '+displayDate(feed?.checkedAt)+(feed?.partial?' · Some source queries were incomplete':''):cache?.signature===prefs.signature(s)?'Last checked '+displayDate(cache.checkedAt)+(cache.partial?' · Showing saved / partial results; automatic retry pending':''):'Checking this subscription automatically…';
-    const all=rowsFor(s),filter=el('feedJournal'),previous=filter.value;
+    const all=rowsFor(s),incomplete=s&&cache?.signature===prefs.signature(s)&&cache.partial,checking=s&&!isDefault&&cache?.signature!==prefs.signature(s)&&s.journals.length,filter=el('feedJournal'),previous=filter.value;
     const journals=[...new Set([...(s?.journals||[]),...all.map(p=>p.journal)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
     filter.innerHTML='<option value="">All journals</option>'+journals.map(j=>'<option value="'+esc(j)+'">'+esc(j)+'</option>').join('');
     filter.value=journals.includes(previous)?previous:'';
     const query=el('feedSearch').value.trim().toLowerCase(),journal=filter.value;
-    const items=all.filter(p=>[p.title,p.authors,p.journal,...p.tags].join(' ').toLowerCase().includes(query)&&(!journal||prefs.norm(p.journal)===prefs.norm(journal)));
+    const items=all.filter(p=>[p.title,p.authors,p.journal,...p.tags].join(' ').toLowerCase().includes(query)&&(!journal||prefs.journalNorm(p.journal)===prefs.journalNorm(journal)));
     el('feedCount').textContent=items.length+' papers · Latest publications first · Dates may be month only';
-    el('feedCards').innerHTML=items.length?items.map(p=>'<article class="card paper-colored color-'+paperColor(p)+'"><div class="cardtop"><span class="meta">'+esc(p.journal)+' · '+esc(p.published)+'</span></div><h2><a href="'+esc('https://doi.org/'+p.doi)+'" target="_blank" rel="noopener noreferrer">'+esc(p.title)+'</a></h2><div class="meta">'+esc(p.authors||'Authors not listed')+'</div><div class="tags" style="margin-top:16px">'+p.tags.map(t=>'<span class="tag">'+esc(t)+'</span>').join('')+'</div><div class="cardbottom"><a class="small" href="'+esc('https://doi.org/'+p.doi)+'" target="_blank" rel="noopener noreferrer">Open paper ↗</a><button type="button" class="'+(collected(p)?'secondary':'primary')+'" data-collect-doi="'+esc(p.doi)+'" '+(collected(p)?'disabled':'')+'>'+(collected(p)?'In your library':'＋ To Read')+'</button></div></article>').join(''):s?'<div class="empty"><h2>No matching papers yet</h2><p>Try another filter, or adjust your topics and journals in Customize feed.</p></div>':'<div class="empty"><h2>Build your research feed</h2><p>Add your own topics and journals in Customize feed to get started.</p></div>';
+    el('feedCards').innerHTML=items.length?items.map(p=>'<article class="card paper-colored color-'+paperColor(p)+'"><div class="cardtop"><span class="meta">'+esc(p.journal)+' · '+esc(p.published)+'</span></div><h2><a href="'+esc('https://doi.org/'+p.doi)+'" target="_blank" rel="noopener noreferrer">'+esc(p.title)+'</a></h2><div class="meta">'+esc(p.authors||'Authors not listed')+'</div><div class="tags" style="margin-top:16px">'+p.tags.map(t=>'<span class="tag">'+esc(t)+'</span>').join('')+'</div><div class="cardbottom"><a class="small" href="'+esc('https://doi.org/'+p.doi)+'" target="_blank" rel="noopener noreferrer">Open paper ↗</a><button type="button" class="'+(collected(p)?'secondary':'primary')+'" data-collect-doi="'+esc(p.doi)+'" '+(collected(p)?'disabled':'')+'>'+(collected(p)?'In your library':'＋ To Read')+'</button></div></article>').join(''):s?'<div class="empty"><h2>'+(incomplete?'Journal checks are incomplete':checking?'Checking recent papers…':'No matching papers yet')+'</h2><p>'+(incomplete?'Some journals could not be fully checked. Automatic retries will continue.':checking?'Results will appear as journal checks finish.':'Try another filter, or adjust your topics and journals in Customize feed.')+'</p></div>':'<div class="empty"><h2>Build your research feed</h2><p>Add your own topics and journals in Customize feed to get started.</p></div>';
     el('feedCards').querySelectorAll('[data-collect-doi]').forEach(b=>b.onclick=()=>{const p=all.find(p=>p.doi===b.dataset.collectDoi);if(!p||collected(p))return;papers.push({id:crypto.randomUUID(),title:p.title,authors:p.authors,journal:p.journal,year:p.year,status:'todo',link:p.link,category:p.tags.length===1?p.tags[0]:'',tags:[...p.tags],question:'',findings:'',notes:'',toShare:false,updated:Date.now()});persist();toast('Added to To Read.');});
   }
   function renderSettings(){
@@ -54,18 +55,17 @@
   async function checkCustom(){
     if(running||navigator.onLine===false)return;running=true;const ticket=generation;
     try{for(const s of settings.subscriptions.filter(s=>s.enabled&&!prefs.standard(s)&&(s.journals.length||s.families.length))){
-      const signature=prefs.signature(s),cached=custom[s.id];if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?3600000:86400000))continue;
+      const signature=prefs.signature(s),cached=custom[s.id];if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?300000:86400000))continue;
       const found=new Map(cached?.signature===signature?cached.papers.map(p=>[p.doi,p]):[]);let failed=0,success=0;
       const today=new Date().toISOString().slice(0,10),start=new Date();start.setUTCDate(start.getUTCDate()-120);
-      const sources=s.families.map(f=>'prefix:'+prefs.families[f].prefix).concat(s.journals.map(j=>'container-title:'+j));
-      for(const source of sources){for(const term of s.keywords){if(ticket!==generation)return;
+      const sources=s.families.map(f=>'prefix:'+prefs.families[f].prefix).concat(s.journals.map(j=>prefs.journalISSN(j)?'issn:'+prefs.journalISSN(j):'container-title:'+j));
+      for(const source of sources){for(const term of prefs.terms(s)){if(ticket!==generation)return;
         try{const u=new URL('https://api.crossref.org/works');u.searchParams.set('filter',source+',type:journal-article,from-pub-date:'+start.toISOString().slice(0,10)+',until-pub-date:'+today);u.searchParams.set('query',term);u.searchParams.set('rows','200');u.searchParams.set('select','DOI,title,author,container-title,published,published-online,published-print,issued,abstract,subject');
           const r=await fetch(u,{signal:AbortSignal.timeout(25000)});if(!r.ok)throw Error();const json=await r.json();if(ticket!==generation)return;const message=json.message;if(!Array.isArray(message?.items))throw Error();for(const w of message.items){const p=prefs.fromWork(w,s,today);if(p&&prefs.scoped(p,s))found.set(p.doi,p);}success++;if(message['total-results']>200)failed++;
         }catch{failed++;}
       }}
       if(ticket!==generation)return;
-      if(success){custom[s.id]={signature,checkedAt:new Date().toISOString(),partial:failed>0,papers:[...found.values()]};try{localStorage.setItem(resultsKey(),JSON.stringify(custom));}catch{}renderFeed();}
-      else if(view==='feed'&&group===s.id)el('feedChecked').textContent='Could not check journals right now. Saved results are kept; automatic checks will retry.';
+      {custom[s.id]={signature,checkedAt:new Date().toISOString(),partial:failed>0||!success,papers:[...found.values()]};try{localStorage.setItem(resultsKey(),JSON.stringify(custom));}catch{}renderFeed();}
     }}finally{running=false;if(ticket!==generation)queueMicrotask(checkCustom);}
   }
   const previousRender=render;render=function(){previousRender();renderFeed();if(el('feedSettingsDialog').open)renderSettings();};
@@ -74,6 +74,7 @@
   addEventListener('storage',e=>{if(e.key===localKey()){loadLocal();checkCustom();}});setInterval(()=>{if(!document.hidden){refresh();checkCustom();}},300000);
   try{const cached=JSON.parse(localStorage.getItem(publicKey)||'null');if(cached?.version===1&&Array.isArray(cached.papers))feed=cached;}catch{}loadLocal();refresh();checkCustom();
 })();
+
 
 
 

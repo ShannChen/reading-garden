@@ -30,8 +30,20 @@ async function run(){
  node('customizeFeed').onclick();node('subscriptionList').querySelectorAll('[data-edit-sub]')[0].onclick();f.onsubmit({preventDefault(){},target:f});assert.deepEqual(Array.from(ctx.ReadingGardenFeeds.exportState()[0].subscriptions[0].keywords),['proteomics','proteomic']);
  node('subscriptionList').querySelectorAll('[data-edit-sub]')[0].onclick();f.elements.name.value='Microbiome';f.onsubmit({preventDefault(){},target:f});assert.deepEqual(Array.from(ctx.ReadingGardenFeeds.exportState()[0].subscriptions[0].keywords),['Microbiome']);
  assert.doesNotMatch(fs.readFileSync('index.html','utf8'),/name="keywords"/);
- console.log('PASS: name-only topic creation, preserved legacy search terms and renamed topic search, empty new accounts, shared journal add/remove across all topics, duplicate prevention, future topics, zero journals, metadata collection/colors preserved, legacy union migration, legacy family conversion, cloud restore and account reset.');
+ const recovery={id:'recover',name:'Metabolomics',keywords:['Metabolomics'],journals:['Environmental Science & Technology'],families:[],enabled:true};
+ assert(prefs.matches('Metabolomic profiling',recovery));assert(!prefs.matches('General metabolism and nutrition',recovery));
+ assert(prefs.scoped({journal:'Environmental Science and Technology',doi:'10.1021/test'},recovery));
+ const pub={doi:'10.1021/recovered',title:'Spatial metabolomic profiling',journal:'Environmental Science & Technology',authors:'Researcher',published:'2026-10-01',year:'2026',tags:['Metabolomics'],groups:['metabolomics']};
+ ctx.fetch=async u=>{requests.push(String(u));return String(u).includes('crossref')?{ok:false}:{ok:true,json:async()=>({version:1,checkedAt:'2026-10-07T00:00:00Z',papers:[pub,{...pub,doi:'10.1021/old',published:'2025-01-01',title:'Old Metabolomics'},{...pub,doi:'10.1038/wrong',journal:'Nature Medicine',title:'Wrong journal Metabolomics'},{...pub,doi:'10.1021/unrelated',title:'Unrelated paper',tags:['Microbiome']}]})};};
+ ctx.ReadingGardenFeeds.setState([{id:'feed-settings',journals:recovery.journals,subscriptions:[recovery],updated:1}]);
+ node('feedNav').querySelectorAll('[data-feed]')[0].onclick();for(let i=0;i<20;i++)await tick();
+ assert.match(node('feedCards').innerHTML,/Spatial metabolomic profiling/);assert.doesNotMatch(node('feedCards').innerHTML,/Old Metabolomics|Wrong journal Metabolomics|Unrelated paper/);
+ assert.match(node('feedChecked').textContent,/partial/);assert(requests.some(u=>u.includes('crossref')&&new URL(u).searchParams.get('filter').includes('issn:0013-936X')));
+ const misses={...recovery,id:'miss',name:'Unmatched',keywords:['unmatched']};ctx.ReadingGardenFeeds.setState([{id:'feed-settings',journals:misses.journals,subscriptions:[misses],updated:2}]);node('feedNav').querySelectorAll('[data-feed]')[0].onclick();for(let i=0;i<20;i++)await tick();assert.match(node('feedCards').innerHTML,/Journal checks are incomplete/);
+
+ console.log('PASS: custom-topic public cache recovery despite API failure, date/journal/topic scoping, singular variants, ISSN requests and honest incomplete status, name-only topic creation, preserved legacy search terms and renamed topic search, empty new accounts, shared journal add/remove across all topics, duplicate prevention, future topics, zero journals, metadata collection/colors preserved, legacy union migration, legacy family conversion, cloud restore and account reset.');
 }
 run().catch(e=>{console.error(e);process.exitCode=1});
+
 
 

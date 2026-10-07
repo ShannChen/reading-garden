@@ -19,14 +19,23 @@
     result.subscriptions=result.subscriptions.map(s=>({...s,journals:[...result.journals],families:!result.journals.length?s.families:[]}));
     return result;
   }
-  const signature=s=>JSON.stringify({name:s.name,keywords:s.keywords.map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
+  const variants={metabolomics:['metabolomics','metabolomic'],proteomics:['proteomics','proteomic'],exposomics:['exposome','exposomics','exposomic'],exposome:['exposome','exposomics','exposomic'],epitranscriptomics:['epitranscriptomics','epitranscriptomic'],multiomics:['multiomics','multiomic','multi omics','multi omic']};
+  const terms=s=>[...new Set(s.keywords.flatMap(k=>variants[norm(k)]||[k]))];
+  const journalNorm=s=>norm(s).split(' ').filter(w=>w!=='and').join(' ');
+  const journalISSN=j=>({
+    'nature':'0028-0836','cell':'0092-8674','science':'0036-8075',
+    'proceedings of the national academy of sciences':'0027-8424',
+    'proceedings of the national academy of sciences of the united states of america':'0027-8424',
+    'environmental science technology':'0013-936X'
+  })[journalNorm(j)];
+  const signature=s=>JSON.stringify({version:2,name:s.name,keywords:terms(s).map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
   const standard=s=>{const d=defaults.find(d=>d.id===s.id);return d&&signature(s)===signature(d);};
   function scoped(p,s){
-    if(s.journals.some(j=>norm(j)===norm(p.journal)))return true;
+    if(s.journals.some(j=>journalNorm(j)===journalNorm(p.journal)))return true;
     const j=norm(p.journal);
     return s.families.some(f=>p.doi.startsWith(families[f].prefix+'/')&&(f==='nature'?/^(nature(?: |$)|npj |communications |scientific reports$|scientific data$)/.test(j):f==='science'?['science','science advances','science immunology','science translational medicine','science robotics','science signaling'].includes(j):f==='est'?['environmental science technology','environmental science technology letters'].includes(j):/^(cell(?: |$)|molecular cell$|cancer cell$|developmental cell$|trends in |molecular therapy)/.test(j)||['immunity','neuron','current biology','iscience','med','joule','matter','chem','chem catalysis','one earth','device','patterns','structure','heliyon','biophysical journal','the american journal of human genetics','molecular plant','plant communications','stem cell reports'].includes(j)));
   }
-  function matches(text,s){const t=' '+norm(text)+' ';return s.keywords.some(k=>t.includes(' '+norm(k)+' '));}
+  function matches(text,s){const t=' '+norm(text)+' ';return terms(s).some(k=>t.includes(' '+norm(k)+' '));}
   function date(work){for(const k of ['published-online','published','issued','published-print']){const p=work[k]?.['date-parts']?.[0];if(p?.length){const y=Number(p[0]),m=Number(p[1]||1),d=Number(p[2]||1);const test=new Date(Date.UTC(y,m-1,d));if(y>=1500&&y<=2200&&test.getUTCFullYear()===y&&test.getUTCMonth()===m-1&&test.getUTCDate()===d)return test.toISOString().slice(0,p.length>=3?10:p.length===2?7:4);}}return '';}
   const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&#\d+;|&\w+;/g,' ');
   function fromWork(w,s,today=new Date().toISOString().slice(0,10)){
@@ -36,7 +45,8 @@
     if(!matches([title,plain(w.abstract),...(w.subject||[]),...(Array.isArray(w.keyword)?w.keyword:[])].join(' '),s))return null;
     return {doi,title,journal,published,year:published.slice(0,4),authors:(w.author||[]).map(a=>[a.given,a.family].filter(Boolean).join(' ')||a.name||'').join(', '),link:'https://doi.org/'+doi,tags:[s.name],groups:[s.id]};
   }
-  const api={families,defaults,norm,valid,validState,validJournals,sharedState,signature,standard,scoped,matches,fromWork};
+  const api={families,defaults,norm,terms,journalNorm,journalISSN,valid,validState,validJournals,sharedState,signature,standard,scoped,matches,fromWork};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.ReadingGardenFeedPreferences=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
+
 
