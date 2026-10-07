@@ -41,5 +41,23 @@ class FundingTest(unittest.TestCase):
         self.assertEqual(f.stage('NRSA Individual Predoctoral Fellowships (Parent F31)'), 'phd')
         self.assertEqual(f.stage('NRSA Individual Postdoctoral Fellowships (Parent F32)'), 'postdoc')
         self.assertEqual(f.stage('Pathway to Independence Award (K99/R00)'), 'grant')
+    def test_stanford_directory_discovery(self):
+        source={'url':'https://postdocs.stanford.edu/fellowships','discover':'stanford-postdoc'}
+        p=f.Page();p.feed('<a href="https://neuroscience.stanford.edu/awards">Wu Tsai Neurosciences Postdoctoral Scholar Awards</a><a href="/current/fellowship/mccormick">Katharine McCormick Committee</a><a href="https://evil-stanford.edu/fellowship">Postdoctoral Fellowship</a><a href="/policy">Postdoc Policy on Fellowships</a><a href="https://shc.stanford.edu/fellowship">Mellon Fellowship of Scholars in the Humanities</a>')
+        rows=f.discover(source,p)
+        self.assertEqual(len(rows),3)
+        self.assertTrue(all(r['kind']=='postdoc' for r in rows))
+        self.assertIn('Neuroscience',rows[0]['fields'])
+        self.assertEqual(rows[2]['fields'],['Humanities & Social sciences'])
+    def test_mchri_programs_and_url_dedup(self):
+        source={'url':'https://med.stanford.edu/mchri/funding_opportunities/postdoctoral-and-fellowship-opportunities.html','discover':'stanford-mchri'}
+        prefix='/mchri/funding_opportunities/postdoctoral-and-fellowship-opportunities/'
+        p=f.Page();p.feed(f'<a href="{prefix}postdoctoral-support.html">Postdoctoral Support</a><a href="{prefix}impact.html">Research-to-Impact Awards</a><a href="{prefix}tuition.html">Master’s Tuition Program</a>')
+        rows=f.discover(source,p);self.assertEqual([r['kind'] for r in rows],['postdoc','grant'])
+        self.assertEqual(f.url_key('https://www.med.stanford.edu/content/sm/mchri/support.html'),f.url_key('https://med.stanford.edu/mchri/support.html'))
+    def test_directory_dates_not_program_deadlines(self):
+        body='<main><h1>Directory</h1><p>Application deadline November 2, 2026</p><p>Another program application deadline December 3, 2026</p></main>'
+        record,_=f.monitor({'id':'directory','url':'https://example.org','discover':'stanford-postdoc'}, {}, lambda *_:body)
+        self.assertEqual(record['dates'],[])
 
 if __name__=='__main__':unittest.main()

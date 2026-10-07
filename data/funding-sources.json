@@ -285,5 +285,61 @@
     ],
     "summary": "Interdisciplinary postdoctoral research in the life sciences.",
     "eligibility": "Check Stanford affiliation, mentor and current competition requirements on the official page."
+  },
+  {
+    "id": "stanford-opa-directory",
+    "title": "Stanford OPA Postdoctoral Funding Directory",
+    "kind": "postdoc",
+    "scope": "stanford",
+    "provider": "Stanford Office of Postdoctoral Affairs",
+    "url": "https://postdocs.stanford.edu/fellowships",
+    "fields": [
+      "Funding directory"
+    ],
+    "summary": "Official directory of Stanford postdoctoral fellowships, scholar awards and training programs. Individual programs are listed separately.",
+    "eligibility": "Each linked program has its own affiliation, research-area and application requirements.",
+    "discover": "stanford-postdoc"
+  },
+  {
+    "scope": "stanford",
+    "provider": "Stanford Medicine",
+    "fields": [
+      "Funding directory"
+    ],
+    "eligibility": "Directory only: verify the requirements and current cycle of each individual program.",
+    "id": "stanford-mchri-directory",
+    "title": "MCHRI Postdoctoral and Fellowship Funding Directory",
+    "kind": "postdoc",
+    "url": "https://med.stanford.edu/mchri/funding_opportunities/postdoctoral-and-fellowship-opportunities.html",
+    "summary": "Stanford Medicine maternal and child health research funding. Individual postdoctoral and research-award pages are checked separately.",
+    "discover": "stanford-mchri"
+  },
+  {
+    "scope": "stanford",
+    "provider": "Stanford Medicine",
+    "fields": [
+      "Funding directory"
+    ],
+    "eligibility": "Directory only: verify the requirements and current cycle of each individual program.",
+    "id": "stanford-medicine-fellowships",
+    "title": "Stanford Medicine ORO Fellowship Funding Directory",
+    "kind": "postdoc",
+    "url": "https://med.stanford.edu/rmg/funding/fellowships.html",
+    "summary": "Searchable Stanford Medicine funding directory. Its interactive table is available on the official page; the app monitors this directory without importing its dynamic table."
+  },
+  {
+    "id": "stanford-cirm-postdoc",
+    "title": "Stanford CIRM Postdoctoral Scholar Award",
+    "kind": "postdoc",
+    "scope": "stanford",
+    "provider": "Stanford Institute for Stem Cell Biology and Regenerative Medicine",
+    "url": "https://med.stanford.edu/stemcell/about/map/cirm-postdoc-scholar-award.html",
+    "fields": [
+      "Molecular & Cell biology",
+      "Genetics, Genomics & Epigenetics",
+      "Biomedical & Translational research"
+    ],
+    "summary": "Support for translational stem cell research by eligible Stanford postdoctoral scholars.",
+    "eligibility": "Review postdoctoral training-year limits, concurrent fellowship restrictions and translational stem cell research requirements on the official page."
   }
 ]

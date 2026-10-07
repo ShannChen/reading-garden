@@ -171,7 +171,7 @@ def monitor(source, previous, fetch=read):
         if len(' '.join(lines)) < 80:
             raise ValueError('Empty or script-only source')
         digest = hashlib.sha256('\n'.join(lines).encode()).hexdigest()
-        record.update(dates=deadline_candidates(lines), checkedAt=now, sourceStatus='checked', fingerprint=digest,
+        record.update(dates=[] if source.get('discover') else deadline_candidates(lines), checkedAt=now, sourceStatus='checked', fingerprint=digest,
             updatedAt=previous.get('updatedAt', now) if previous.get('fingerprint') == digest else now)
         return record, page
     except Exception:
@@ -182,6 +182,8 @@ def monitor(source, previous, fetch=read):
 def discover(source, page):
     if not page or not source.get('discover'):
         return []
+    if source.get('discover') in ('stanford-postdoc', 'stanford-mchri'):
+        return discover_stanford_postdocs(source, page)
     results = []
     for href, title in page.links:
         url = urljoin(source['url'], href)
@@ -199,6 +201,50 @@ def discover(source, page):
             'summary': 'Discovered on the official Stanford ChEM-H funding directory.'})
     return list({r['url']: r for r in results}.values())[:20]
 
+def discover_stanford_postdocs(source, page):
+    """Follow program links from OPA's curated directory across official Stanford hosts."""
+    results = {}
+    for href, title in page.links:
+        url = urljoin(source['url'], href)
+        parsed = urlparse(url)
+        host = (parsed.hostname or '').lower()
+        if parsed.scheme != 'https' or not host.endswith('.stanford.edu') or parsed.query or parsed.fragment or url == source['url']:
+            continue
+        mchri = source.get('discover') == 'stanford-mchri'
+        if mchri and '/mchri/funding_opportunities/postdoctoral-and-fellowship-opportunities/' not in parsed.path:
+            continue
+        if mchri and re.search(r"master.*tuition|return to", title, re.I):
+            continue
+        if not re.search(r'fellowship|postdoctoral|postdoc|scholar.*award|early career award|science fellows|data science fellows|mccormick|human performance.*funding|clinical.*trainee|research.to.impact|trainee pilot grant', title, re.I):
+            continue
+        if re.search(r'policy|budget|benefit|guide|rate sheet|proposal|funding guidelines', title, re.I):
+            continue
+        fields = ['Broad STEM / Interdisciplinary']
+        if re.search(r'humanities|chinese studies|buddhist|asia|japan|democracy|ethics|impact labs|sparq|organizational|security|young scholars|king center', title, re.I):
+            fields = ['Humanities & Social sciences']
+        elif re.search(r'neuro', title, re.I):
+            fields = ['Neuroscience', 'Biomedical & Translational research']
+        elif re.search(r'medic|berry|levy|mccormick|henzl|propel|biodesign|T32', title, re.I):
+            fields = [a['name'] for a in AREAS if a['name'] not in ('Environmental health & Exposomics', 'Broad STEM / Interdisciplinary')]
+        elif re.search(r'planetary|food security|sustainab|geophys|energy', title, re.I):
+            fields = ['Environmental health & Exposomics', 'Broad STEM / Interdisciplinary']
+        elif re.search(r'data science|HAI', title, re.I):
+            fields = ['Computational biology & Bioinformatics', 'Broad STEM / Interdisciplinary']
+        if mchri:
+            fields = ['Biomedical & Translational research', 'Molecular & Cell biology', 'Genetics, Genomics & Epigenetics', 'Microbiome & Microbiology', 'Immunology & Cancer biology', 'Computational biology & Bioinformatics']
+        results[url] = {'id':'stanford-opa-' + hashlib.sha256(url.encode()).hexdigest()[:16],
+            'title':title, 'kind':'grant' if mchri and re.search(r'research.to.impact|pilot grant', title, re.I) else 'postdoc', 'scope':'stanford', 'provider':'Stanford MCHRI' if mchri else 'Stanford University',
+            'url':url, 'fields':fields, 'sourceDirectory':source['url'],
+            'summary':'Listed in the official Stanford '+('MCHRI' if mchri else 'OPA')+' funding directory. Verify the program type and current cycle; directory listing does not establish application availability.',
+            'eligibility':'See the official program page for affiliation, degree timing, research-area, sponsor and other eligibility requirements. Directory listing does not confirm that applications are open.'}
+    return list(results.values())[:60]
+
+def url_key(url):
+    parsed = urlparse(url)
+    host = (parsed.hostname or '').lower().removeprefix('www.')
+    path = parsed.path.replace('/content/sm/', '/') if host == 'med.stanford.edu' else parsed.path
+    return host + path.removesuffix('.html').rstrip('/')
+
 def main():
     old = {}
     try:
@@ -209,12 +255,14 @@ def main():
     records, failures, known = [], [], set()
     pending = list(sources)
     for source in pending:
-        if source['url'] in known:
+        if url_key(source['url']) in known:
             continue
-        known.add(source['url'])
+        known.add(url_key(source['url']))
         record, page = monitor(source, old.get(source['id'], {})); records.append(record)
         if record['sourceStatus'] != 'checked':
             failures.append(source['title'])
+            if source.get('discover') in ('stanford-postdoc', 'stanford-mchri'):
+                pending.extend({**r, 'sourceStatus':'unavailable'} for r in old.values() if r.get('sourceDirectory') == source['url'])
         pending.extend(discover(source, page))
         time.sleep(.2)
     grants, government_failures = government(); failures.extend(government_failures)
