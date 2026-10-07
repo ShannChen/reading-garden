@@ -9,10 +9,10 @@
   window.ReadingGardenJournalLookup={reset};
   function choose(index){
     const journal=choices[index];if(!journal)return;
-    const field=form.elements.journals,list=field.value.split('\n').map(s=>s.trim()).filter(Boolean);
-    if(list.some(j=>norm(j)===norm(journal.title))){status.textContent='This journal is already selected.';return;}
-    if(list.length>=10){status.textContent='You can add up to 10 journals per subscription.';return;}
-    field.value=[...list,journal.title].join('\n');reset();status.textContent='Added '+journal.title+'. Search for another journal.';input.focus();
+    const error=window.ReadingGardenFeeds?.addJournal(journal.title);
+    if(error===undefined){status.textContent='Feed settings are still loading. Try again.';return;}
+    if(error){status.textContent=error;return;}
+    reset();status.textContent='Added '+journal.title+' to all your topics. Search for another journal.';input.focus();
   }
   function highlight(index){active=index;results.querySelectorAll('[data-journal-index]').forEach((b,i)=>b.classList.toggle('journal-active',i===active));}
   async function search(query,request){
@@ -35,5 +35,7 @@
     if(e.key==='ArrowDown'||e.key==='ArrowUp'){if(!choices.length)return;e.preventDefault();highlight((active+(e.key==='ArrowDown'?1:active<0?0:-1)+choices.length)%choices.length);return;}
     if(e.key==='Enter'){e.preventDefault();if(choices.length)choose(active<0?0:active);}
   });
+  el('addJournalManual').onclick=()=>{const title=input.value.trim();if(!title){status.textContent='Enter a full journal title first.';return;}choices=[{title}];choose(0);};
   form.addEventListener('reset',reset);el('feedSettingsDialog').addEventListener('close',reset);
 })();
+

@@ -9,8 +9,16 @@
     ['multiomics','Multiomics',['multiomics','multi-omics','multiomic','multi-omic']]
   ].map(([id,name,keywords])=>({id,name,keywords,families:Object.keys(families),journals:[],enabled:true}));
   const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[‐‑–—-]/g,' ').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-  function valid(s){return s&&typeof s.id==='string'&&typeof s.name==='string'&&s.name.trim()&&s.name.length<=80&&Array.isArray(s.keywords)&&s.keywords.length>0&&s.keywords.length<=8&&s.keywords.every(k=>typeof k==='string'&&k.trim()&&k.length<=100)&&Array.isArray(s.families)&&s.families.every(k=>k in families)&&Array.isArray(s.journals)&&s.journals.length<=10&&s.journals.every(j=>typeof j==='string'&&j.trim()&&j.length<=150)&&(s.families.length+s.journals.length)>0&&typeof s.enabled==='boolean';}
-  function validState(rows){return Array.isArray(rows)&&rows.length<=1&&rows.every(r=>r?.id==='feed-settings'&&Array.isArray(r.subscriptions)&&r.subscriptions.length<=20&&r.subscriptions.every(valid)&&new Set(r.subscriptions.map(s=>s.id)).size===r.subscriptions.length&&Number.isFinite(r.updated));}
+  function valid(s){return s&&typeof s.id==='string'&&typeof s.name==='string'&&s.name.trim()&&s.name.length<=80&&Array.isArray(s.keywords)&&s.keywords.length>0&&s.keywords.length<=8&&s.keywords.every(k=>typeof k==='string'&&k.trim()&&k.length<=100)&&Array.isArray(s.families)&&s.families.every(k=>k in families)&&Array.isArray(s.journals)&&s.journals.length<=200&&s.journals.every(j=>typeof j==='string'&&j.trim()&&j.length<=150)&&typeof s.enabled==='boolean';}
+  function validState(rows){return Array.isArray(rows)&&rows.length<=1&&rows.every(r=>r?.id==='feed-settings'&&Array.isArray(r.subscriptions)&&r.subscriptions.length<=20&&r.subscriptions.every(valid)&&new Set(r.subscriptions.map(s=>s.id)).size===r.subscriptions.length&&(r.journals===undefined||validJournals(r.journals))&&Number.isFinite(r.updated));}
+  function validJournals(rows){return Array.isArray(rows)&&rows.length<=200&&rows.every(j=>typeof j==='string'&&j.trim()&&j.length<=150)&&new Set(rows.map(norm)).size===rows.length;}
+  function sharedState(row){
+    const result=JSON.parse(JSON.stringify(row||{id:'feed-settings',subscriptions:[],updated:0}));
+    const legacy=result.journals===undefined;
+    result.journals=legacy?[...new Map(result.subscriptions.flatMap(s=>s.journals).map(j=>[norm(j),j])).values()]:result.journals;
+    result.subscriptions=result.subscriptions.map(s=>({...s,journals:[...result.journals],families:!result.journals.length?s.families:[]}));
+    return result;
+  }
   const signature=s=>JSON.stringify({name:s.name,keywords:s.keywords.map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
   const standard=s=>{const d=defaults.find(d=>d.id===s.id);return d&&signature(s)===signature(d);};
   function scoped(p,s){
@@ -28,6 +36,7 @@
     if(!matches([title,plain(w.abstract),...(w.subject||[]),...(Array.isArray(w.keyword)?w.keyword:[])].join(' '),s))return null;
     return {doi,title,journal,published,year:published.slice(0,4),authors:(w.author||[]).map(a=>[a.given,a.family].filter(Boolean).join(' ')||a.name||'').join(', '),link:'https://doi.org/'+doi,tags:[s.name],groups:[s.id]};
   }
-  const api={families,defaults,norm,valid,validState,signature,standard,scoped,matches,fromWork};
+  const api={families,defaults,norm,valid,validState,validJournals,sharedState,signature,standard,scoped,matches,fromWork};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.ReadingGardenFeedPreferences=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
+
