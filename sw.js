@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261007-ideas-last-v55';
-const ASSETS = ['./', './index.html', './nih-reporter.js?v=20261007-55', './funding-feed.js?v=20261007-55', './data/funding-feed.json', './book-lookup.js?v=20261007-55', './sync-core.js?v=20261007-55', './cloud-sync.js?v=20261007-55', './paper-feed.js?v=20261007-55', './pubmed-feed.js?v=20261007-55', './journal-lookup.js?v=20261007-55', './feed-preferences.js?v=20261007-55', './people-core.js?v=20261007-55', './people.js?v=20261007-55', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261008-ui-language-v56';
+const ASSETS = ['./', './index.html', './ui-language.js?v=20261008-56', './nih-reporter.js?v=20261008-56', './funding-feed.js?v=20261008-56', './data/funding-feed.json', './book-lookup.js?v=20261008-56', './sync-core.js?v=20261008-56', './cloud-sync.js?v=20261008-56', './paper-feed.js?v=20261008-56', './pubmed-feed.js?v=20261008-56', './journal-lookup.js?v=20261008-56', './feed-preferences.js?v=20261008-56', './people-core.js?v=20261008-56', './people.js?v=20261008-56', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
   // Pages are network-first so a redeploy lands immediately; cache is the offline fallback.
   if (req.mode === 'navigate') {
     e.respondWith(fetch(req, {cache: 'no-cache'})
-      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', './nih-reporter.js?v=20261007-55', './funding-feed.js?v=20261007-55', './data/funding-feed.json', copy)); return r; })
+      .then(r => { if (!r.ok) throw new Error('Page unavailable'); const copy = r.clone(); caches.open(CACHE).then(c => c.put('./index.html', copy)); return r; })
       .catch(() => caches.match('./index.html').then(hit => hit || caches.match('./'))));
     return;
   }
