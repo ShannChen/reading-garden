@@ -1,0 +1,39 @@
+name: Update Stanford STEM seminars daily
+on:
+  schedule:
+    - cron: '23 6,18 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-seminar-feed.py
+      - tests/seminar_collector_test.py
+      - .github/workflows/daily-seminar-feed.yml
+permissions:
+  contents: write
+concurrency:
+  group: daily-seminar-feed
+  cancel-in-progress: true
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test seminar collection
+        run: python -m unittest discover -s tests -p 'seminar_collector_test.py'
+      - name: Check public Stanford calendars
+        run: python scripts/update-seminar-feed.py
+      - name: Save public seminar metadata
+        run: |
+          git config user.name 'Reading Garden'
+          git config user.email 'reading-garden@users.noreply.github.com'
+          git add data/seminar-feed.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public Stanford seminar feed"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
