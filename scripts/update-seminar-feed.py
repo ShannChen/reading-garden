@@ -95,11 +95,14 @@ def event_rows(event, now, horizon):
 
 class Schedule(HTMLParser):
     def __init__(self):
-        super().__init__();self.articles=[];self.current=None;self.level=0;self.head=0;self.link=None;self.table=[];self.row=None;self.cell=None;self.links=[]
+        super().__init__();self.articles=[];self.current=None;self.level=0;self.head=0;self.link=None;self.table=[];self.row=None;self.cell=None;self.links=[];self.next_page=''
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
-        if tag=='article':self.current={'title':[],'url':'','times':[],'text':[]};self.level=1
+        classes=a.get('class','').split()
+        is_card=(tag=='div' and 'hb-card' in classes) or (tag=='article' and 'flexible-page' not in classes and 'hb-media-image' not in classes)
+        if not self.current and is_card:self.current={'title':[],'url':'','times':[],'text':[]};self.level=1;self.head=0
         elif self.current and tag not in ['input','br','hr','img','meta','link','source','wbr']:self.level+=1
+        if tag=='a' and 'next' in a.get('rel','').split():self.next_page=a.get('href','')
         if self.current:
             if tag in ['h2','h3']:self.head+=1
             if tag=='a' and self.head and a.get('href'):self.current['url']=a['href']
@@ -201,7 +204,15 @@ def collect(now=None,loader=get,previous=None):
         sources.append({'id':'stanford-directory','name':'Stanford department directory','url':'https://events.stanford.edu/department','status':'unavailable','count':0})
     def read_page(source):
         try:
-            data,count=parse_page(source,loader(source['url'],False),now,horizon)
+            data=[];count=0;url=source['url'];visited=set()
+            for _ in range(10):
+                if not url or url in visited:break
+                visited.add(url);body=loader(url,False);batch,recognized=parse_page(source,body,now,horizon);data.extend(batch);count+=recognized
+                paging=Schedule();paging.feed(body)
+                next_url=urllib.parse.urljoin(url,paging.next_page) if paging.next_page else ''
+                # Only follow this same department listing's explicit next page.
+                if urllib.parse.urlparse(next_url).netloc!=urllib.parse.urlparse(source['url']).netloc or urllib.parse.urlparse(next_url).path!=urllib.parse.urlparse(source['url']).path:break
+                url=next_url
             # Empty/unrecognized page is not evidence that there are no seminars.
             return dict(source,status='checked' if count else 'unparsed',count=len(data)),data
         except Exception:return dict(source,status='unavailable',count=0),[]

@@ -14,12 +14,12 @@
     }).sort((a,b)=>a.start.localeCompare(b.start)||a.title.localeCompare(b.title));
   }
   function updateDepartments(){
-    const selected=el('seminarDepartment').value,names=[...new Set([...(feed?.departments||[]).map(d=>d.name),...(feed?.events||[]).flatMap(e=>e.departments)])].sort();
+    const selected=el('seminarDepartment').value,names=[...new Set([...(feed?.departments||[]).map(d=>d.name),...(feed?.sources||[]).filter(s=>s.id.startsWith('page-')).map(s=>s.name),...(feed?.events||[]).flatMap(e=>e.departments)])].sort();
     el('seminarDepartment').innerHTML='<option value="">All departments</option>'+names.map(name=>'<option value="'+esc(name)+'">'+esc(name)+'</option>').join('');
     el('seminarDepartment').value=names.includes(selected)?selected:'';
   }
   function when(e){
-    if(e.start.length===10)return e.start+' · Time to be confirmed';
+    if(e.start.length===10||e.allDay)return e.start.slice(0,10)+' · Time to be confirmed';
     const start=new Date(e.start);return new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(start)+(e.allDay?' · Time to be confirmed':'');
   }
   function card(e){

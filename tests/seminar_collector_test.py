@@ -32,6 +32,9 @@ class TestSeminars(unittest.TestCase):
     def test_department_text_date(self):
         rows,count=m.parse_page(m.DEPARTMENT_PAGES[0],'<article><h2><a href="/events/talk">Chemistry Seminar</a></h2><p>Friday, October 9, 2026. 3:00pm - 4:00pm</p></article>',NOW,NOW+dt.timedelta(days=90));self.assertEqual(count,1);self.assertEqual(rows[0]['start'],'2026-10-09T15:00:00-07:00')
         rows,count=m.parse_page(m.DEPARTMENT_PAGES[1],'<article><h2><a href="/events/talk">Biology Seminar</a></h2><p>Friday, October 9, 2026. 4:00 - 5:00pm</p></article>',NOW,NOW+dt.timedelta(days=90));self.assertEqual(rows[0]['start'],'2026-10-09T16:00:00-07:00');self.assertEqual(rows[0]['end'],'2026-10-09T17:00:00-07:00')
+    def test_drupal_card_with_nested_image_article(self):
+        body='<article class="flexible-page"><nav><h2>Menu</h2></nav><div class="hb-card"><article class="hb-media-image"><img src="x"></article><h2><a href="/events/talk">Physics Colloquium</a></h2><p>Friday, October 9, 2026. 4:00pm - 5:00pm</p></div></article>'
+        rows,count=m.parse_page(m.DEPARTMENT_PAGES[2],body,NOW,NOW+dt.timedelta(days=90));self.assertEqual(count,1);self.assertEqual(rows[0]['title'],'Physics Colloquium');self.assertEqual(rows[0]['start'],'2026-10-09T16:00:00-07:00')
     def test_failure_retains_last_known_instead_of_false_empty(self):
         def loader(*args):raise OSError('offline')
         previous={'events':m.event_rows(self.event(),NOW,NOW+dt.timedelta(days=90))}
