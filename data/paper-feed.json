@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T09:08:55.678563+00:00",
+  "checkedAt": "2026-10-08T19:59:46.675825+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
-  "failedQueries": 5,
+  "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/science.aea7733",
+      "title": "The human gut microbiome primes fever after vaccination",
+      "authors": "Kelsey E. Huus, µHEAT Study Group‡, Hirohito Abo, Yi Han Tan, Ezgi Atay, Héloïse Rytter, Ronald Keller, Silke Dauser, Dai Long Vu, Meghan B. Azad, Rob Knight, Alfred Ke, Larisa Lotoski, Marc-André Langlois, Rong Liu, Alexander V. Tyakht, Nicholas Youngblut, Sang-Moo Kang, Julie Parsonnet, Lisa Maier, Benoit Chassaing, Peter G. Kremsner, Andrew T. Gewirtz, Meral Esen, Ruth E. Ley, Julian J. Gabor, Johanna M. Gaile, Wim A. Fleischmann, Alex S. Siebner, Geerten Smeenk, Judith Flügge, Roberta Allgayer De Moraes, Dennis Jakob, Alina Prokipchuk, Carolin Wilhelm",
+      "journal": "Science",
+      "published": "2026-10-08",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/science.aea7733",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-08T19:59:46.675825+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-74343-4",
       "title": "Vaginal and urinary microbiota in breast cancer survivors undergoing fractional CO2 laser therapy",
@@ -40,6 +57,40 @@
       "link": "https://doi.org/10.1038/s41598-026-71562-7",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-08T09:08:55.678563+00:00"
+    },
+    {
+      "doi": "10.1038/s41593-026-02472-0",
+      "title": "Alzheimer’s disease target and drug discovery by leveraging multiomics and electronic health data",
+      "authors": "Yuan Hou, Yichen Li, Pengyue Zhang, Noah Lorincz-Comi, Dhruv Gohel, Fan Fan, Yunguang Qiu, Jun Yang, Xin Chen, Wenqiang Song, Xiaoyu Yang, Zhibing Tan, Zhigang Liu, Xing Fang, Isabela Rivera Paz, William Martin, Yayan Feng, Yadi Zhou, Jielin Xu, Lijun Dou, Jane Border, Huawei Zhang, Jena’ N. Mazique, Sung Hee Hwang, Richard J. Roman, Tousi Babak, Lynn Bekris, Ehud Karavani, Michael Danziger, Michal Rosen-Zvi, Jonathan L. Haines, Haiyuan Yu, Bruce D. Hammock, James B. Leverenz, Andrew A. Pieper, Jeffrey Cummings, Feixiong Cheng",
+      "journal": "Nature Neuroscience",
+      "published": "2026-10-08",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41593-026-02472-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-08T19:59:46.675825+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78443-7",
+      "title": "Systematic comparison of affinity plasma proteomic technologies across multiple cohorts reveals generalizability of proteomic prediction",
+      "authors": "Anthony Barente, Zijie Zhao, Zhili Zheng, Chun Wu, Kritika Singh, Zhaoqing Wang, Aisling O’Hara Hall, Laurence Menard, Isaac Neuhaus, Mitja Kurki, Aarno Palotie, Mark Daly, Sarah Finer, David A. van Heel, Maik Pietzner, Claudia Langenberg, Joseph Maranville, Tai Wang, Benjamin B. Sun",
+      "journal": "Nature Communications",
+      "published": "2026-10-08",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78443-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-08T19:59:46.675825+00:00"
     },
     {
       "doi": "10.1126/scitranslmed.aee9049",
@@ -905,6 +956,23 @@
       "link": "https://doi.org/10.1021/acs.est.6c11745",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
+    },
+    {
+      "doi": "10.1016/j.xcrm.2026.103101",
+      "title": "Microbiota-mediated naringenin release limits postoperative acute gastrointestinal injury by suppressing ferroptosis",
+      "authors": "Fan Deng, Jingjuan Hu, Yue Min, Sun Xie, Zebin Lin, Qishun Sun, Huamin Liu, Shiying He, Siyuan Feng, Ling Wu, Xiaofeng Chen, Linghong Xu, Zheang Zhang, Wenqi Tang, Zhuang Li, Hongwei Zhou, Kexuan Liu",
+      "journal": "Cell Reports Medicine",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xcrm.2026.103101",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-08T19:59:46.675825+00:00"
     },
     {
       "doi": "10.1016/j.tree.2026.06.004",
