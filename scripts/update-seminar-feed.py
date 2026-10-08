@@ -25,6 +25,9 @@ DEPARTMENT_PAGES = [
     {'id':'page-physics','name':'Physics / Applied Physics','url':'https://physics.stanford.edu/news-events/upcoming-events'},
     {'id':'page-biochemistry','name':'Biochemistry','url':'https://biochemistry.stanford.edu/events'},
     {'id':'page-microimmuno','name':'Microbiology & Immunology','url':'https://med.stanford.edu/microimmuno/seminars-and-events/wed-seminars.html','table':True},
+    {'id':'page-mathematics','name':'Mathematics','url':'https://mathematics.stanford.edu/events/upcoming-events'},
+    {'id':'page-statistics','name':'Statistics','url':'https://statistics.stanford.edu/seminars-events/all-upcoming-events'},
+    {'id':'page-cs','name':'Computer Science','url':'https://www.cs.stanford.edu/events'},
 ]
 
 def plain(value):

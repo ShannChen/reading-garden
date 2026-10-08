@@ -19,7 +19,7 @@ jobs:
             try:
               with urllib.request.urlopen(url,timeout=25) as r:s=r.read().decode()
               print('SOURCE',url)
-              print('ARTICLES',re.findall(r'<article[\\s\\S]*?</article>',s)[:1])
+              print('ARTICLES',re.findall(r'<article.*?</article>',s,re.S)[:1])
               print('DATES',re.findall(r'.{0,100}(?:datetime|schema:startDate).{0,250}',s)[:8])
               print('EVENT LINKS',re.findall(r'href="([^"]*(?:upcoming|events)[^"]*)"',s)[-20:])
             except Exception as e:print('ERROR',e)
