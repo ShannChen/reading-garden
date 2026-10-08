@@ -15,15 +15,16 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 API = 'https://events.stanford.edu/api/2/'
 TZ = ZoneInfo('America/Los_Angeles')
-STEM = re.compile(r'biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|public health|global health|population health|health research|precision health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology', re.I)
+STEM = re.compile(r'civil (?:and|&) environmental engineering|\bCEE\b|biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|public health|global health|population health|health research|precision health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology', re.I)
 TALK = re.compile(r'seminar|colloqui|lecture|grand rounds|research talk|presentation', re.I)
-EXCLUDE = re.compile(r'faculty staff help|bewell|healthy living|library|career|recreation|wellness|alumni|admissions|student services|humanities|contemplation|continuing medical education|environmental health and safety', re.I)
+EXCLUDE = re.compile(r'asian|african studies|iranian|shorenstein|history|humanities|international studies|faculty staff help|bewell|healthy living|wellness|continuing medical education|library|career|recreation|wellness|alumni|admissions|student services|humanities|contemplation|continuing medical education|environmental health and safety', re.I)
 NON_RESEARCH = re.compile(r'CPR|first aid|certification class|guided meditation|guided practice|yoga|fitness|retreat|contemplation by design|CBD \d{4}|teaching statement|information session|info session',re.I)
 DEPARTMENT_PAGES = [
     {'id':'page-chemistry','name':'Chemistry','url':'https://chemistry.stanford.edu/events/upcoming-events'},
     {'id':'page-biology','name':'Biology','url':'https://biology.stanford.edu/news-events/upcoming-events'},
     {'id':'page-biochemistry','name':'Biochemistry','url':'https://biochemistry.stanford.edu/events'},
     {'id':'page-microimmuno','name':'Microbiology & Immunology','url':'https://med.stanford.edu/microimmuno/seminars-and-events/wed-seminars.html','table':True},
+    {'id':'page-cee','name':'Civil & Environmental Engineering','url':'https://cee.stanford.edu/events'},
 ]
 
 def plain(value):
@@ -67,7 +68,7 @@ def event_rows(event, now, horizon):
     types=[x.get('name','') for x in filters.get('event_types',[])]
     departments=[plain(x.get('name')) for x in e.get('departments',[]) if x.get('name')]
     title=plain(e.get('title'))
-    science=any(STEM.search(x) and not EXCLUDE.search(x) for x in departments) or (bool(STEM.search(title)) and not any(EXCLUDE.search(x) for x in departments))
+    science=(any(STEM.search(x) for x in departments) or (any(re.search('chemistry',x,re.I) for x in departments) and bool(STEM.search(title)))) and not any(EXCLUDE.search(x) for x in departments)
     talk=any(x in ['Class/Seminar','Lecture/Presentation/Talk'] for x in types) or bool(TALK.search(title))
     if not science or not talk or not title or NON_RESEARCH.search(title):return []
     url=safe_url(e.get('localist_url'))
@@ -250,7 +251,7 @@ def collect(now=None,loader=get,previous=None):
         for source,data in pool.map(read_page,DEPARTMENT_PAGES):
             sources.append(source);rows.extend(data)
             if source['status']!='checked':rows.extend(dict(r,sourceStatus='saved') for r in previous.get('events',[]) if r.get('sourceId')==source['id'])
-    events=deduplicate([r for r in rows if STEM.search(' '.join([r['title'],*r.get('departments',[])]))])
+    events=deduplicate([r for r in rows if (any(STEM.search(d) for d in r.get('departments',[])) or (any(re.search('chemistry',d,re.I) for d in r.get('departments',[])) and STEM.search(r['title']))) and not any(EXCLUDE.search(d) for d in r.get('departments',[]))])
     return {'version':1,'checkedAt':now.isoformat(),'windowDays':90,'timezone':'America/Los_Angeles','partial':any(s['status']!='checked' for s in sources),'sources':sources,'departments':departments,'events':events}
 
 if __name__=='__main__':

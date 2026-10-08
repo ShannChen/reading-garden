@@ -15,11 +15,16 @@ class TestSeminars(unittest.TestCase):
         for changes in [{'private':True},{'status':'canceled'},{'title':'Reception','filters':{'event_types':[{'name':'Social Event/Reception'}]}},{'title':'History Seminar','departments':[{'name':'History'}]}]:self.assertEqual(m.event_rows(self.event(**changes),NOW,NOW+dt.timedelta(days=90)),[])
     def test_life_science_scope(self):
         horizon=NOW+dt.timedelta(days=90)
-        for name in ['Physics','Computer Science','Sustainability','Stanford Healthy Living','Stanford BeWell','Faculty Staff Help Center']:
+        for name in ['Physics','Computer Science','Sustainability','Stanford Healthy Living','Stanford BeWell','Faculty Staff Help Center','Asian American Research Center','Shorenstein Asia-Pacific Research Center']:
             self.assertEqual(m.event_rows(self.event(title='Research Seminar',departments=[{'name':name}]),NOW,horizon),[])
         self.assertEqual(len(m.event_rows(self.event(title='Chemical Biology Seminar',departments=[{'name':'Chemistry'}]),NOW,horizon)),1)
         self.assertEqual(m.event_rows(self.event(title='Organic Chemistry Seminar',departments=[{'name':'Chemistry'}]),NOW,horizon),[])
         self.assertEqual(len(m.event_rows(self.event(departments=[{'name':'Department of Medicine'}]),NOW,horizon)),1)
+    def test_asian_studies_not_included_by_medical_title(self):
+        self.assertEqual(m.event_rows(self.event(title='Medical Research Seminar',departments=[{'name':'Asian American Research Center'}]),NOW,NOW+dt.timedelta(days=90)),[])
+    def test_cee_exception(self):
+        for name in ['Civil and Environmental Engineering','Civil & Environmental Engineering','CEE']:
+            self.assertEqual(len(m.event_rows(self.event(title='Structural Engineering Seminar',departments=[{'name':name}]),NOW,NOW+dt.timedelta(days=90))),1)
     def test_past_date_and_unsafe_url(self):
         self.assertEqual(m.event_rows(self.event(event_instances=[{'event_instance':{'start':'2025-01-01T12:00:00-08:00'}}]),NOW,NOW+dt.timedelta(days=90)),[])
         self.assertEqual(m.event_rows(self.event(localist_url='javascript:alert(1)'),NOW,NOW+dt.timedelta(days=90)),[])

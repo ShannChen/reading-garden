@@ -13,8 +13,8 @@
     const today=dateKey(now),until=new Date(today+'T00:00:00Z');until.setUTCDate(until.getUTCDate()+days);const day=e.start.length===10?e.start:dateKey(new Date(e.start));
     return day>=today&&day<until.toISOString().slice(0,10)&&(e.allDay||Date.parse(e.end||e.start)>=now.getTime());
   }
-  const lifeScience=/biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|public health|global health|population health|health research|precision health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology/i;
-  const inScope=e=>lifeScience.test([e.title,...e.departments].join(' '))&&!e.departments.some(d=>/faculty staff help|bewell|healthy living|wellness|continuing medical education/i.test(d));
+  const lifeScience=/civil (?:and|&) environmental engineering|\bCEE\b|biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|public health|global health|population health|health research|precision health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology/i;
+  const inScope=e=>(e.departments.some(d=>lifeScience.test(d))||(e.departments.some(d=>/chemistry/i.test(d))&&lifeScience.test(e.title)))&&!e.departments.some(d=>/asian|african studies|iranian|shorenstein|history|humanities|international studies|faculty staff help|bewell|healthy living|wellness|continuing medical education/i.test(d));
   const relevantSource=s=>!s.id.startsWith('page-')||lifeScience.test(s.name)||s.id==='page-chemistry';
   const belongs=(e,name)=>e.departments.some(d=>departmentKey(d)===departmentKey(name));
   function rows(now=new Date()){
