@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T12:08:53.013313-07:00",
+  "checkedAt": "2026-10-08T12:10:44.124646-07:00",
   "windowDays": 90,
   "timezone": "America/Los_Angeles",
   "partial": true,
@@ -16,14 +16,14 @@
       "id": "page-chemistry",
       "name": "Chemistry",
       "url": "https://chemistry.stanford.edu/events/upcoming-events",
-      "status": "unparsed",
-      "count": 0
+      "status": "checked",
+      "count": 1
     },
     {
       "id": "page-biology",
       "name": "Biology",
-      "url": "https://biology.stanford.edu/events",
-      "status": "unavailable",
+      "url": "https://biology.stanford.edu/news-events/upcoming-events",
+      "status": "unparsed",
       "count": 0
     },
     {
@@ -1007,6 +1007,28 @@
       "calendarUrl": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-guojun-he.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
+    },
+    {
+      "title": "Events Improving All Lives Through Science: The Case for Fundamental Research, Public Policy, and Advocacy Improving All Lives Through Science: The Case for Fundamental Research, Public Policy, and Advocacy Science for Everyone: Tactile Braille Periodic Table of Elements at Stanford Science for Everyone: Tactile Braille Periodic Table of Elements at Stanford CRB60: A Symposium Celebrating Carolyn Bertozzi’s Legacy and Impact on Chemical Biology Pagination",
+      "start": "2026-10-08T15:00:00-07:00",
+      "end": "2026-10-08T16:20:00-07:00",
+      "allDay": false,
+      "location": "",
+      "url": "https://chemistry.stanford.edu/events/crb60-symposium-celebrating-carolyn-bertozzis-legacy-and-impact-chemical-biology",
+      "id": "page-chemistry:5085513cb82a66d5ef88",
+      "departments": [
+        "Chemistry"
+      ],
+      "subjects": [
+        "Science"
+      ],
+      "kind": "Seminar",
+      "room": "",
+      "experience": "",
+      "sourceId": "page-chemistry",
+      "sourceStatus": "checked",
+      "registrationUrl": "",
+      "calendarUrl": ""
     },
     {
       "id": "53923354197721:53923354198746",
