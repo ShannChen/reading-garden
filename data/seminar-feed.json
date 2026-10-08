@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T12:27:57.908411-07:00",
+  "checkedAt": "2026-10-08T12:32:02.770200-07:00",
   "windowDays": 90,
   "timezone": "America/Los_Angeles",
   "partial": true,
@@ -10,7 +10,7 @@
       "name": "Stanford Events Calendar",
       "url": "https://events.stanford.edu/",
       "status": "checked",
-      "count": 72
+      "count": 39
     },
     {
       "id": "page-chemistry",
@@ -134,21 +134,6 @@
       "url": "https://med.stanford.edu/cdcm.html"
     },
     {
-      "id": "37955140176572",
-      "name": "Center for Digital Health",
-      "url": "https://med.stanford.edu/cdh.html"
-    },
-    {
-      "id": "37955140242120",
-      "name": "Center for Healthy Weight",
-      "url": "https://www.healthyweight.lpch.org"
-    },
-    {
-      "id": "53640526701855",
-      "name": "Center for Human and Planetary Health",
-      "url": "https://hph.stanford.edu/"
-    },
-    {
       "id": "37955140274894",
       "name": "Center for Innovation in Global Health",
       "url": "https://globalhealth.stanford.edu/"
@@ -182,11 +167,6 @@
       "id": "37955140655892",
       "name": "Combat Against Cancer",
       "url": "https://cacsf.wordpress.com"
-    },
-    {
-      "id": "39306276590448",
-      "name": "Community Health and Prevention Research (CHPR)",
-      "url": "https://prevention.stanford.edu/education/chpr.html"
     },
     {
       "id": "37955140685594",
@@ -339,16 +319,6 @@
       "url": "https://dunleviemfm.stanford.edu/"
     },
     {
-      "id": "37955141938192",
-      "name": "Graduate School of Business - Program in Healthcare Innovation",
-      "url": "https://www.gsb.stanford.edu/phi"
-    },
-    {
-      "id": "44701908384329",
-      "name": "Health Insurance Programs Office",
-      "url": "https://studentinsurance.stanford.edu/"
-    },
-    {
       "id": "37955142192192",
       "name": "Institute for Immunity, Transplantation and Infection ITI",
       "url": "https://iti.stanford.edu"
@@ -362,11 +332,6 @@
       "id": "37955142289490",
       "name": "Jasper Ridge Biological Preserve",
       "url": "https://jrbp.stanford.edu/"
-    },
-    {
-      "id": "37955142413418",
-      "name": "Lucile Packard Foundation for Children's Health",
-      "url": "https://www.lpfch.org"
     },
     {
       "id": "37955142500476",
@@ -399,11 +364,6 @@
       "url": "https://med.stanford.edu/phs.html"
     },
     {
-      "id": "37955144839726",
-      "name": "Office of Community Health and Engagement",
-      "url": "https://med.stanford.edu/che"
-    },
-    {
       "id": "37955142849730",
       "name": "Office of Medical Development",
       "url": ""
@@ -422,11 +382,6 @@
       "id": "37955142991068",
       "name": "Office of the Dean, School of Medicine",
       "url": "https://biodesign.stanford.edu"
-    },
-    {
-      "id": "37955143051496",
-      "name": "Palliative Care, Health Education, Engagement, and Promotion",
-      "url": "https:// www.med.stanford.edu/palliative-care"
     },
     {
       "id": "37955143079148",
@@ -452,11 +407,6 @@
       "id": "37955143223560",
       "name": "Program in Human Biology",
       "url": "https://humanbiology.stanford.edu/"
-    },
-    {
-      "id": "46391987589717",
-      "name": "Program in Menopause & Healthy Aging",
-      "url": "https://obgyn.stanford.edu/divisions/gyn/menopause.html"
     },
     {
       "id": "37955143300374",
@@ -579,39 +529,9 @@
       "url": "https://scgpm.stanford.edu"
     },
     {
-      "id": "50091078846519",
-      "name": "Stanford Center for Health Education",
-      "url": "https://healtheducation.stanford.edu"
-    },
-    {
       "id": "37955140564740",
       "name": "Stanford ChEM-H",
       "url": "https://chemh.stanford.edu/"
-    },
-    {
-      "id": "37955144511988",
-      "name": "Stanford Health 4 America",
-      "url": "https://health4america.stanford.edu/"
-    },
-    {
-      "id": "38952954833606",
-      "name": "Stanford Health Care (SHC)",
-      "url": "https://stanfordhealthcare.org/"
-    },
-    {
-      "id": "37955140228806",
-      "name": "Stanford Health Policy",
-      "url": "https://healthpolicy.fsi.stanford.edu/"
-    },
-    {
-      "id": "37955144536568",
-      "name": "Stanford Health Promotion Network",
-      "url": "https://shpn.stanford.edu"
-    },
-    {
-      "id": "37955144545786",
-      "name": "Stanford Healthy Living",
-      "url": "https://healthimprovement.stanford.edu/classes/register/search.php"
     },
     {
       "id": "38954129884169",
@@ -694,21 +614,6 @@
       "url": "https://med.stanford.edu/bioethics.html"
     },
     {
-      "id": "44701964767913",
-      "name": "Vaden Health Services",
-      "url": "https://vaden.stanford.edu/"
-    },
-    {
-      "id": "44701893049519",
-      "name": "Weiland Health Initiative, Vaden Health Services",
-      "url": "https://vaden.stanford.edu/weiland-health-initiative"
-    },
-    {
-      "id": "44701930428639",
-      "name": "Well-Being at Stanford, Vaden Health Services",
-      "url": "https://vaden.stanford.edu/well-being-stanford"
-    },
-    {
       "id": "41253186673892",
       "name": "Wu Tsai Human Performance Alliance",
       "url": "https://humanperformance.stanford.edu/"
@@ -725,49 +630,6 @@
     }
   ],
   "events": [
-    {
-      "id": "53819963831081:53819963831082",
-      "title": "AI and Mental Health: Clinical and Ethical Considerations",
-      "start": "2026-10-08T12:00:00-07:00",
-      "end": "2026-10-08T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Faculty Staff Help Center"
-      ],
-      "subjects": [
-        "Health/Wellness"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/ai-and-mental-health-clinical-and-ethical-considerations-2813",
-      "registrationUrl": "https://stanford.zoom.us/webinar/register/WN_au1ErWVwRquch5QnmeIxQQ#/registration",
-      "calendarUrl": "https://events.stanford.edu/event/ai-and-mental-health-clinical-and-ethical-considerations-2813.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880177463:53741880178490",
-      "title": "Managing Stress Effectively for Well-Being",
-      "start": "2026-10-08T12:00:00-07:00",
-      "end": "2026-10-08T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/managing-stress-effectively-for-well-being-1891",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/managing-stress-effectively-for-well-being-1891.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
     {
       "id": "53750739743445:53750739744471",
       "title": "Takaki Komiyama - A cell-type-specific cortical circuit for maintenance of value representations",
@@ -816,27 +678,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53741880262467:53741880263494",
-      "title": "Aging Wisely - Long-Term Care Goals and Strategies",
-      "start": "2026-10-13T11:00:00-07:00",
-      "end": "2026-10-13T12:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/aging-wisely-long-term-care-goals-and-strategies-576",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/aging-wisely-long-term-care-goals-and-strategies-576.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "52561867818592:52561896386565",
       "title": "Stanford Cancer Institute Breakthroughs in Cancer: Health Policy and Oncology: Understanding Care and Outcomes in a Changing Delivery System",
       "start": "2026-10-13T16:00:00-07:00",
@@ -856,27 +697,6 @@
       "url": "https://events.stanford.edu/event/stanford-cancer-institute-breakthroughs-in-cancer-health-policy-and-oncology-understanding-care-and-outcomes-in-a-changing-delivery-system",
       "registrationUrl": "https://bit.ly/4sZNiTp",
       "calendarUrl": "https://events.stanford.edu/event/stanford-cancer-institute-breakthroughs-in-cancer-health-policy-and-oncology-understanding-care-and-outcomes-in-a-changing-delivery-system.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880307529:53741880308556",
-      "title": "Keeping Feet Fit for the Next 50 Years",
-      "start": "2026-10-14T12:00:00-07:00",
-      "end": "2026-10-14T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/keeping-feet-fit-for-the-next-50-years-8188",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/keeping-feet-fit-for-the-next-50-years-8188.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -925,27 +745,6 @@
       "calendarUrl": ""
     },
     {
-      "id": "53741880348495:53741880349522",
-      "title": "Breastfeeding and Pumping from the Start (October 15 - 22)",
-      "start": "2026-10-15T12:00:00-07:00",
-      "end": "2026-10-15T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/breastfeeding-and-pumping-from-the-start-october-15-22",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/breastfeeding-and-pumping-from-the-start-october-15-22.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "54170952318768:54170952318769",
       "title": "CSCS William C. Dement Seminar Series: \"Targeted, physiology-informed therapy for sleep apnea: Novel pharmacotherapy and beyond\" with Danny Eckert, Ph.D.",
       "start": "2026-10-16T12:00:00-07:00",
@@ -965,27 +764,6 @@
       "url": "https://events.stanford.edu/event/cscs-william-c-dement-seminar-series-targeted-physiology-informed-therapy-for-sleep-apnea-novel-pharmacotherapy-and-beyond-with-danny-eckert-phd",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/cscs-william-c-dement-seminar-series-targeted-physiology-informed-therapy-for-sleep-apnea-novel-pharmacotherapy-and-beyond-with-danny-eckert-phd.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880390485:53741880391512",
-      "title": "Practice Makes Posture",
-      "start": "2026-10-16T12:00:00-07:00",
-      "end": "2026-10-16T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/practice-makes-posture-7382",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/practice-makes-posture-7382.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1010,27 +788,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "53741880434523:53741880435550",
-      "title": "How to Flourish (October 19 - November 2)",
-      "start": "2026-10-19T12:00:00-07:00",
-      "end": "2026-10-19T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/how-to-flourish-october-19-november-2",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/how-to-flourish-october-19-november-2.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "53947940289112:53947940290137",
@@ -1150,155 +907,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53698031410414:53698031411441",
-      "title": "Cultivating Resilience in Challenging Times (October 20 - November 3)",
-      "start": "2026-10-20T12:00:00-07:00",
-      "end": "2026-10-20T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cultivating-resilience-in-challenging-times-october-20-november-3",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/cultivating-resilience-in-challenging-times-october-20-november-3.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53790134859204:53790146414852",
-      "title": "eWEAR Seminar: The Quantified Self for Health",
-      "start": "2026-10-20T15:00:00-07:00",
-      "end": "2026-10-20T16:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Wearable Electronics Initiative"
-      ],
-      "subjects": [
-        "Science",
-        "Engineering/Technology"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Paul G. Allen Center for Integrated Systems Annex",
-      "room": "101X auditorium",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/ewear-seminar-the-quantified-self",
-      "registrationUrl": "https://stanford.zoom.us/webinar/register/3617875983707/WN_gHkb0G0mTEyG6EqHluiYaw",
-      "calendarUrl": "https://events.stanford.edu/event/ewear-seminar-the-quantified-self.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880474465:53741880475492",
-      "title": "Window, Mirror, Map (October 20 - November 3)",
-      "start": "2026-10-20T16:00:00-07:00",
-      "end": "2026-10-20T17:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/window-mirror-map-october-20-november-3",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/window-mirror-map-october-20-november-3.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880221501:54007427918467",
-      "title": "Growing Culinary Mushrooms at Home",
-      "start": "2026-10-20T17:30:00-07:00",
-      "end": "2026-10-20T19:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/growing-culinary-mushrooms-at-home",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/growing-culinary-mushrooms-at-home.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54074594027923:54074594028948",
-      "title": "Coral Bleaching Recovery with the Help of Healthy Corals",
-      "start": "2026-10-20T18:00:00-07:00",
-      "end": "2026-10-20T19:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Hopkins Marine Station",
-        "Oceans Department"
-      ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Hopkins Marine Station",
-      "room": "Izzie Abbott Boatworks Auditorium",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/coral-bleaching-recovery-with-the-help-of-healthy-corals",
-      "registrationUrl": "https://www.eventbrite.com/e/friends-of-hopkins-lecture-danny-collins-coral-bleaching-recovery-tickets-2002251757907?aff=oddtdtcreator",
-      "calendarUrl": "https://events.stanford.edu/event/coral-bleaching-recovery-with-the-help-of-healthy-corals.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880554344:53741880555371",
-      "title": "Chronic Pain Explained",
-      "start": "2026-10-21T12:00:00-07:00",
-      "end": "2026-10-21T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/chronic-pain-explained-3115",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/chronic-pain-explained-3115.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53809556667077:53809556667078",
-      "title": "Thinking Our Way to Chronic Health",
-      "start": "2026-10-21T12:00:00-07:00",
-      "end": "2026-10-21T13:00:00-07:00",
-      "allDay": false,
-      "departments": [],
-      "subjects": [],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Li Ka Shing Center",
-      "room": "Berg Hall",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/medicine-grand-rounds-to-ellen-langer-phd",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-to-ellen-langer-phd.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53700386536379:53700386537404",
       "title": "Microbiology & Immunology Wednesday Seminar: Aaron Whiteley - \"Exploring How the Bacterial Innate Immune System Defends Against Phage\"",
       "start": "2026-10-21T12:30:00-07:00",
@@ -1342,28 +950,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "53615287723230:53615287724255",
-      "title": "Directional AI Advice: Experimental Evidence from Healthcare",
-      "start": "2026-10-22T18:00:00-07:00",
-      "end": "2026-10-22T19:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Shorenstein Asia-Pacific Research Center (APARC)"
-      ],
-      "subjects": [
-        "Health/Wellness"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/directional-ai-advice-experimental-evidence-from-healthcare",
-      "registrationUrl": "https://stanford.zoom.us/webinar/register/WN_WgLIqkh1SzSbw9RXBSobcg",
-      "calendarUrl": "https://events.stanford.edu/event/directional-ai-advice-experimental-evidence-from-healthcare.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "53745818123158:53745818123159",
@@ -1457,27 +1043,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53698031452404:53698031453431",
-      "title": "Managing Your Energy as an Asset",
-      "start": "2026-10-28T12:00:00-07:00",
-      "end": "2026-10-28T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/managing-your-energy-as-an-asset",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/managing-your-energy-as-an-asset.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "title": "Frontiers in Biology: Kapil Ramachandran, Columbia | TBA",
       "start": "2026-10-28T16:00:00-07:00",
       "end": "2026-10-28T17:00:00-07:00",
@@ -1498,27 +1063,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "53741880676213:53741880677240",
-      "title": "Perimenopause and Menopause",
-      "start": "2026-10-30T12:00:00-07:00",
-      "end": "2026-10-30T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/perimenopause-and-menopause-9345",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/perimenopause-and-menopause-9345.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "54065335413227:54065335414252",
@@ -1583,27 +1127,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53741880718203:53741880719230",
-      "title": "Still Life as a Creative Path for Mindful Well-being",
-      "start": "2026-11-04T12:00:00-08:00",
-      "end": "2026-11-04T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/still-life-as-a-creative-path-for-mindful-well-being",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/still-life-as-a-creative-path-for-mindful-well-being.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53700407039623:53700407040648",
       "title": "Microbiology & Immunology Wednesday Seminar: Gao & Yeh Labs",
       "start": "2026-11-04T12:30:00-08:00",
@@ -1648,27 +1171,6 @@
       "calendarUrl": ""
     },
     {
-      "id": "53741880761217:53741880762244",
-      "title": "Building Resilience for High Stress Moments Through Meditation (November 5 - 19)",
-      "start": "2026-11-05T12:00:00-08:00",
-      "end": "2026-11-05T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/building-resilience-for-high-stress-moments-through-meditation-november-5-19",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/building-resilience-for-high-stress-moments-through-meditation-november-5-19.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53871308386123:53871308387148",
       "title": "36th Annual Jonathan J. King Lecture: Dr. Bryant Lin & Dr. Shoshana Ungerleider",
       "start": "2026-11-05T17:30:00-08:00",
@@ -1690,71 +1192,6 @@
       "url": "https://events.stanford.edu/event/36th-annual-jonathan-j-king-lecture",
       "registrationUrl": "https://StanfordKingLecture.eventbrite.com",
       "calendarUrl": "https://events.stanford.edu/event/36th-annual-jonathan-j-king-lecture.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880807303:53741880808330",
-      "title": "Making Holiday Connections More Meaningful",
-      "start": "2026-11-06T12:00:00-08:00",
-      "end": "2026-11-06T13:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/making-holiday-connections-more-meaningful-8287",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/making-holiday-connections-more-meaningful-8287.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53948468115058:53948468116083",
-      "title": "For the Next Generation: Mental Health in Asian American, Native Hawaiian, and Pacific Islander Youth",
-      "start": "2026-11-09T12:00:00-08:00",
-      "end": "2026-11-09T13:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Asian American Research Center at Stanford"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Diversity/Identity"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Building 360",
-      "room": "CCSRE Conference Room (First Floor)",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/for-the-next-generation-mental-health-in-asian-american-native-hawaiian-and-pacific-islander-youth",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLScAhf9hHPamPZD__KDEuKZg7N0fI6KKSYoqHjKpOKl3C2HBNA/viewform?usp=dialog",
-      "calendarUrl": "https://events.stanford.edu/event/for-the-next-generation-mental-health-in-asian-american-native-hawaiian-and-pacific-islander-youth.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880849293:53741880850320",
-      "title": "Hospice 101",
-      "start": "2026-11-09T12:00:00-08:00",
-      "end": "2026-11-09T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/hospice-101-1284",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/hospice-101-1284.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1807,27 +1244,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53698031496442:53698031497469",
-      "title": "Aging Wisely - Grief, Loss, and Legacy Making",
-      "start": "2026-11-10T11:00:00-08:00",
-      "end": "2026-11-10T12:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/aging-wisely-grief-loss-and-legacy-making-7398",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/aging-wisely-grief-loss-and-legacy-making-7398.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "51288600039862:51288621937120",
       "title": "Stanford Cancer Institute Breakthroughs in Cancer: Rethinking Lung Cancer: What We’re Learning from Never Smokers",
       "start": "2026-11-10T16:00:00-08:00",
@@ -1865,27 +1281,6 @@
       "url": "https://events.stanford.edu/event/medicine-grand-rounds-with-bryant-lin-md",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-with-bryant-lin-md.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880931220:53741880932247",
-      "title": "Portraiture as a Creative Path for Mindful Well-being",
-      "start": "2026-11-11T12:00:00-08:00",
-      "end": "2026-11-11T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/portraiture-as-a-creative-path-for-mindful-well-being",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/portraiture-as-a-creative-path-for-mindful-well-being.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1957,48 +1352,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53741880972186:53741880973213",
-      "title": "The Mediterranean Way of Life - A Dietitian-Led Global Approach to Health, Travel, and Well-Being",
-      "start": "2026-11-13T12:00:00-08:00",
-      "end": "2026-11-13T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/eating-in-motion-a-dietitian-led-global-approach-to-health-travel-and-well-being",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/eating-in-motion-a-dietitian-led-global-approach-to-health-travel-and-well-being.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741881015200:53741881017251",
-      "title": "Healthy Holiday Side Dishes",
-      "start": "2026-11-16T12:00:00-08:00",
-      "end": "2026-11-16T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/healthy-holiday-side-dishes",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/healthy-holiday-side-dishes.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53993186509703:53993186510728",
       "title": "Biology Seminar Series - Cecilia Leal \"Non-Lamellar Lipid Membranes as Regulators of Biological Function \"",
       "start": "2026-11-16T16:00:00-08:00",
@@ -2037,48 +1390,6 @@
       "url": "https://events.stanford.edu/event/norton-lecture-dr-jeffrey-drebin",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/norton-lecture-dr-jeffrey-drebin.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741880634223:54131326864985",
-      "title": "Smart Strategies for Holiday Eating",
-      "start": "2026-11-17T12:00:00-08:00",
-      "end": "2026-11-17T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/smart-strategies-for-holiday-eating-5915",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/smart-strategies-for-holiday-eating-5915.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741881107372:53741881111471",
-      "title": "Landscapes as a Creative Path for Mindful Well-being",
-      "start": "2026-11-18T12:00:00-08:00",
-      "end": "2026-11-18T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/landscapes-as-a-creative-path-for-mindful-well-being",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/landscapes-as-a-creative-path-for-mindful-well-being.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2145,69 +1456,6 @@
       "url": "https://events.stanford.edu/event/stanford-emergency-medicine-innovation-symposium-stemi-x-4077",
       "registrationUrl": "https://www.stemix.live/",
       "calendarUrl": "https://events.stanford.edu/event/stanford-emergency-medicine-innovation-symposium-stemi-x-4077.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741881058214:54060518853594",
-      "title": "Medicare Basics",
-      "start": "2026-11-19T12:00:00-08:00",
-      "end": "2026-11-19T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/medicare-basics",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/medicare-basics.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741881164722:53741881165749",
-      "title": "Reflect, Write, Create",
-      "start": "2026-11-20T12:00:00-08:00",
-      "end": "2026-11-20T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/reflect-write-create",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/reflect-write-create.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53741881207736:53741881208763",
-      "title": "Make a Gutsy Move for Better Health",
-      "start": "2026-11-23T12:00:00-08:00",
-      "end": "2026-11-23T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford BeWell",
-        "Stanford Healthy Living"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/make-a-gutsy-move-for-better-health-6555",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/make-a-gutsy-move-for-better-health-6555.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2292,30 +1540,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53727115436518:53727115437543",
-      "title": "The Future of Health in Africa: How U.S. Presidential Decisions Are Shaping a Generation of African Children - Dr. Ruth Gibson",
-      "start": "2026-12-02T12:00:00-08:00",
-      "end": "2026-12-02T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Center for African Studies"
-      ],
-      "subjects": [
-        "Arts/Media",
-        "Humanities",
-        "Diversity/Identity"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Encina Commons",
-      "room": "Room 123",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/the-future-of-health-in-africa-how-us-presidential-decisions-are-shaping-a-generation-of-african-children-dr-ruth-gibson",
-      "registrationUrl": "https://forms.gle/XQ2dYfcGygVDcNXZ9",
-      "calendarUrl": "https://events.stanford.edu/event/the-future-of-health-in-africa-how-us-presidential-decisions-are-shaping-a-generation-of-african-children-dr-ruth-gibson.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "title": "Frontiers in Biology: Jacob Hanna, Weizmann Inst. | \"Quantitative embryology for the study of developmental variation\"",
       "start": "2026-12-02T16:00:00-08:00",
       "end": "2026-12-02T17:00:00-08:00",
@@ -2336,28 +1560,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "54065599198708:54065599199733",
-      "title": "Biology Seminar Series - Suliana Manley \"Compartmentalizing and connecting the mitochondrial collective\"",
-      "start": "2026-12-07T16:00:00-08:00",
-      "end": "2026-12-07T17:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Department of Biology"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Stanford ChEM-H Building",
-      "room": "ChEM-H Auditorium",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/biology-seminar-series-suliana-manley-compartmentalizing-and-connecting-the-mitochondrial-collective",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/biology-seminar-series-suliana-manley-compartmentalizing-and-connecting-the-mitochondrial-collective.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "54075306938802:54075329251149",
