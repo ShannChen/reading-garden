@@ -15,9 +15,9 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 API = 'https://events.stanford.edu/api/2/'
 TZ = ZoneInfo('America/Los_Angeles')
-STEM = re.compile(r'biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology', re.I)
+STEM = re.compile(r'biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|public health|global health|population health|health research|precision health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology', re.I)
 TALK = re.compile(r'seminar|colloqui|lecture|grand rounds|research talk|presentation', re.I)
-EXCLUDE = re.compile(r'library|career|recreation|wellness|alumni|admissions|student services|humanities|contemplation|continuing medical education|environmental health and safety', re.I)
+EXCLUDE = re.compile(r'faculty staff help|bewell|healthy living|library|career|recreation|wellness|alumni|admissions|student services|humanities|contemplation|continuing medical education|environmental health and safety', re.I)
 NON_RESEARCH = re.compile(r'CPR|first aid|certification class|guided meditation|guided practice|yoga|fitness|retreat|contemplation by design|CBD \d{4}|teaching statement|information session|info session',re.I)
 DEPARTMENT_PAGES = [
     {'id':'page-chemistry','name':'Chemistry','url':'https://chemistry.stanford.edu/events/upcoming-events'},

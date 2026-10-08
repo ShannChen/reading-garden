@@ -15,7 +15,7 @@ class TestSeminars(unittest.TestCase):
         for changes in [{'private':True},{'status':'canceled'},{'title':'Reception','filters':{'event_types':[{'name':'Social Event/Reception'}]}},{'title':'History Seminar','departments':[{'name':'History'}]}]:self.assertEqual(m.event_rows(self.event(**changes),NOW,NOW+dt.timedelta(days=90)),[])
     def test_life_science_scope(self):
         horizon=NOW+dt.timedelta(days=90)
-        for name in ['Physics','Computer Science','Sustainability']:
+        for name in ['Physics','Computer Science','Sustainability','Stanford Healthy Living','Stanford BeWell','Faculty Staff Help Center']:
             self.assertEqual(m.event_rows(self.event(title='Research Seminar',departments=[{'name':name}]),NOW,horizon),[])
         self.assertEqual(len(m.event_rows(self.event(title='Chemical Biology Seminar',departments=[{'name':'Chemistry'}]),NOW,horizon)),1)
         self.assertEqual(m.event_rows(self.event(title='Organic Chemistry Seminar',departments=[{'name':'Chemistry'}]),NOW,horizon),[])
