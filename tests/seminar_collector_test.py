@@ -29,6 +29,9 @@ class TestSeminars(unittest.TestCase):
         def loader(url):
             page=int(m.urllib.parse.parse_qs(m.urllib.parse.urlparse(url).query)['page'][0]);calls.append(page);return {'events':[page],'page':{'total':3}}
         self.assertEqual(sorted(m.paged('events','events',loader=loader)),[1,2,3]);self.assertEqual(sorted(calls),[1,2,3])
+    def test_department_text_date(self):
+        rows,count=m.parse_page(m.DEPARTMENT_PAGES[0],'<article><h2><a href="/events/talk">Chemistry Seminar</a></h2><p>Friday, October 9, 2026. 3:00pm - 4:00pm</p></article>',NOW,NOW+dt.timedelta(days=90));self.assertEqual(count,1);self.assertEqual(rows[0]['start'],'2026-10-09T15:00:00-07:00')
+        rows,count=m.parse_page(m.DEPARTMENT_PAGES[1],'<article><h2><a href="/events/talk">Biology Seminar</a></h2><p>Friday, October 9, 2026. 4:00 - 5:00pm</p></article>',NOW,NOW+dt.timedelta(days=90));self.assertEqual(rows[0]['start'],'2026-10-09T16:00:00-07:00');self.assertEqual(rows[0]['end'],'2026-10-09T17:00:00-07:00')
     def test_failure_retains_last_known_instead_of_false_empty(self):
         def loader(*args):raise OSError('offline')
         previous={'events':m.event_rows(self.event(),NOW,NOW+dt.timedelta(days=90))}

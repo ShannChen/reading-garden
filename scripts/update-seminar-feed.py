@@ -21,7 +21,7 @@ EXCLUDE = re.compile(r'library|career|recreation|wellness|alumni|admissions|stud
 NON_RESEARCH = re.compile(r'CPR|first aid|certification class|guided meditation|guided practice|yoga|fitness|retreat|contemplation by design|CBD \d{4}|teaching statement|information session|info session',re.I)
 DEPARTMENT_PAGES = [
     {'id':'page-chemistry','name':'Chemistry','url':'https://chemistry.stanford.edu/events/upcoming-events'},
-    {'id':'page-biology','name':'Biology','url':'https://biology.stanford.edu/events'},
+    {'id':'page-biology','name':'Biology','url':'https://biology.stanford.edu/news-events/upcoming-events'},
     {'id':'page-physics','name':'Physics / Applied Physics','url':'https://physics.stanford.edu/news-events/upcoming-events'},
     {'id':'page-biochemistry','name':'Biochemistry','url':'https://biochemistry.stanford.edu/events'},
     {'id':'page-microimmuno','name':'Microbiology & Immunology','url':'https://med.stanford.edu/microimmuno/seminars-and-events/wed-seminars.html','table':True},
@@ -129,6 +129,24 @@ def parse_page(source, body, now, horizon):
     else:
         for article in parsed.articles:
             title=plain(' '.join(article['title']));times=article['times'];url=safe_url(urllib.parse.urljoin(source['url'],article['url']))
+            # Stanford's departmental Drupal listings sometimes render dates as
+            # ordinary text instead of time/datetime attributes.
+            if not times:
+                value=plain(' '.join(article['text']))
+                match=re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(20\d{2})',value)
+                if match:
+                    day=dt.datetime.strptime(' '.join(match.groups()),'%B %d %Y')
+                    clock=re.search(r'(\d{1,2}):(\d{2})\s*(am|pm)?(?:\s*[-–]\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm))?',value[match.end():],re.I)
+                    meridiem=(clock[3] or clock[6]) if clock else None
+                    if clock and meridiem:
+                        hour=int(clock[1])%12+(12 if meridiem.lower()=='pm' else 0)
+                        day=day.replace(hour=hour,minute=int(clock[2] or 0),tzinfo=TZ)
+                        times.append(day.isoformat())
+                        if clock[4] and clock[6]:
+                            finish=day.replace(hour=int(clock[4])%12+(12 if clock[6].lower()=='pm' else 0),minute=int(clock[5] or 0))
+                            if finish<day:finish+=dt.timedelta(days=1)
+                            times.append(finish.isoformat())
+                    else:times.append(day.date().isoformat())
             if not title or not times or not url:continue
             # Department event listings also include receptions/defenses; only research talks.
             if not TALK.search(title+' '+' '.join(article['text'])):continue
@@ -138,7 +156,7 @@ def parse_page(source, body, now, horizon):
                 end=dt.datetime.fromisoformat(times[1].replace('Z','+00:00')) if len(times)>1 else start
                 if not end.tzinfo:end=end.replace(tzinfo=TZ)
             except ValueError:continue
-            if end<now or start>horizon:continue
+            if (end<now and not (len(times[0])==10 and start.date()==now.date())) or start>horizon:continue
             rows.append({'title':title,'start':start.isoformat(),'end':end.isoformat(),'allDay':len(times[0])==10,'location':'','url':url})
     for r in rows:
         r.update(id=source['id']+':'+hashlib.sha256((r['url']+r['start']+r['title']).encode()).hexdigest()[:20],departments=[source['name']],subjects=['Science'],kind='Seminar',room='',experience='',sourceId=source['id'],sourceStatus='checked',registrationUrl='',calendarUrl='')
