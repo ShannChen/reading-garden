@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-07T20:01:26.417883+00:00",
+  "checkedAt": "2026-10-08T00:15:40.264392+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -11961,109 +11961,6 @@
       "link": "https://doi.org/10.1038/s41538-026-00993-3",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61742-w",
-      "title": "Exposomic fingerprints of emerging contaminants in a mediterranean multi-by‑product dietary supplement: a preliminary study",
-      "authors": "Rosa Toledo-Gil, Angela Gonzalez-Garcia, Pasquale Crupi, Jose Enrique Yuste-Jiménez, Fernando Vallejo",
-      "journal": "Scientific Reports",
-      "published": "2026-07-09",
-      "year": "2026",
-      "tags": [
-        "Exposomics"
-      ],
-      "groups": [
-        "exposomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61742-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-54045-7",
-      "title": "Characterization of microbiome diversity and its association with healing outcomes in diabetic foot ulcer patients",
-      "authors": "Muhammad Shakil Khan, Aasia Kalsoom, Awais Altaf, Muhammad Sarwar, Tahir Maqbool, Ghulam Shabbir, Aisha Tahir, Hafiza Saba Safdar, Muhammad Hassan, Muhammad Amber Fareed",
-      "journal": "Scientific Reports",
-      "published": "2026-07-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-54045-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-00983-5",
-      "title": "Microwave-assisted natural deep eutectic solvents extraction of saponins from the fibrous roots of American ginseng: process optimization, antioxidant activity, and metabolomics analysis",
-      "authors": "Ping Yu, Haiyan Wang, Xin Wang, Ting Bai, Chuanzhi Kang, Jie Zhou, Lei Fang",
-      "journal": "npj Science of Food",
-      "published": "2026-07-09",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-00983-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01092-7",
-      "title": "Maternal cold exposure improves offspring metabolic health via a milk lithocholic acid–microbiota–Th17 axis",
-      "authors": "Xuejie Han, Hui Yu, Qianhui Gao, Dongze Li, Linwei Zhang, Qi Kang, Chaowen Sui, Qian Zhao, Xuanrui Ji, Hanwen Liu, Yuchen Wang, Changming Zhao, Shuting Li, Li Sun, Yun Zhang, Yue Li",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-09",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01092-7",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01088-3",
-      "title": "The Cat Gut Microbial Genome Collection reveals global structure of the feline gut microbiome",
-      "authors": "Zhixin Lei, Hengming Liu, Yue Zhang, Xiaobo Li, Chenghaotian Xiao, Guorui Xing, Ruochun Guo, Yidi Zhang, Jie Xu, Wei Yang, Huixiang Chen, Min Li, Tong Lu, Shenghui Li, Yaping Lu, Qiulong Yan",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01088-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75448-0",
-      "title": "Author Correction: Epitranscriptomic RNA editing resolves Mus81 DNA repair tradeoffs in heat tolerance and meiosis",
-      "authors": "Mengchun Wu, Junfeng Liu, Peina Cao, Mengqiao Liu, Chanjing Feng, Qinhu Wang, Cong Jiang, Jin-Rong Xu, Huiquan Liu",
-      "journal": "Nature Communications",
-      "published": "2026-07-09",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75448-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
