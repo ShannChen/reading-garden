@@ -20,6 +20,7 @@ class TestSeminars(unittest.TestCase):
         e=self.event(event_instances=[{'event_instance':{'id':i,'start':date}} for i,date in enumerate(['2026-10-09T12:00:00-07:00','2026-11-09T12:00:00-08:00'])]);rows=m.event_rows(e,NOW,NOW+dt.timedelta(days=90));self.assertEqual(len(rows),2);self.assertNotEqual(rows[0]['id'],rows[1]['id'])
     def test_dedup_preserves_joint_departments(self):
         rows=m.event_rows(self.event(),NOW,NOW+dt.timedelta(days=90));other=dict(rows[0],departments=['Chemistry'],sourceId='page-chemistry');out=m.deduplicate(rows+[other]);self.assertEqual(len(out),1);self.assertEqual(out[0]['departments'],['Biochemistry','Chemistry'])
+        another=dict(rows[0],start='2026-10-09T16:00:00-07:00');self.assertEqual(len(m.deduplicate(rows+[another])),2)
     def test_table_does_not_invent_time(self):
         source=m.DEPARTMENT_PAGES[-1];rows,count=m.parse_page(source,'<table><tr><td>October 21, 2026</td><td>Aaron Whiteley</td><td>Colorado</td><td>Clark</td></tr></table>',NOW,NOW+dt.timedelta(days=90));self.assertEqual(count,1);self.assertEqual(rows[0]['start'],'2026-10-21');self.assertTrue(rows[0]['allDay'])
     def test_department_article_and_pagination(self):

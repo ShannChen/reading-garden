@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Read public Stanford calendar metadata
+      - name: Inspect public department calendar structure
         run: |
           python - <<'PY'
-          import urllib.request,json
-          for path in ['events/filters','groups?pp=100','departments?pp=100','events?days=90&pp=3']:
+          import urllib.request,re
+          for url in ['https://chemistry.stanford.edu/events/upcoming-events','https://physics.stanford.edu/news-events/upcoming-events','https://biology.stanford.edu/']:
             try:
-              with urllib.request.urlopen('https://events.stanford.edu/api/2/'+path,timeout=30) as r:d=json.load(r)
-              if path.startswith('groups') or path.startswith('departments'):
-                key=path.split('?')[0]
-                print(path,json.dumps({'page':d.get('page'),key:[{key[:-1]:{k:v for k,v in x.get(key[:-1],{}).items() if k in ['id','name','url_name','url']}} for x in d.get(key,[])]}))
-              else:print(path,json.dumps(d)[:30000])
-            except Exception as e:print(path,'ERROR',str(e))
+              with urllib.request.urlopen(url,timeout=25) as r:s=r.read().decode()
+              print('SOURCE',url)
+              print('ARTICLES',re.findall(r'<article[\\s\\S]*?</article>',s)[:1])
+              print('DATES',re.findall(r'.{0,100}(?:datetime|schema:startDate).{0,250}',s)[:8])
+              print('EVENT LINKS',re.findall(r'href="([^"]*(?:upcoming|events)[^"]*)"',s)[-20:])
+            except Exception as e:print('ERROR',e)
           PY

@@ -17,7 +17,8 @@ API = 'https://events.stanford.edu/api/2/'
 TZ = ZoneInfo('America/Los_Angeles')
 STEM = re.compile(r'biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|chemistry|chemical|physics|mathematics|statistics|computer science|engineering|earth|geophys|geolog|oceans|energy|environment|sustainab|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|data science|artificial intelligence|human-centered artificial|human performance|bio-x|chem-h|slac|materials science', re.I)
 TALK = re.compile(r'seminar|colloqui|lecture|grand rounds|research talk|presentation', re.I)
-EXCLUDE = re.compile(r'library|career|recreation|wellness|alumni|admissions|student services|humanities', re.I)
+EXCLUDE = re.compile(r'library|career|recreation|wellness|alumni|admissions|student services|humanities|contemplation|continuing medical education|environmental health and safety', re.I)
+NON_RESEARCH = re.compile(r'CPR|first aid|certification class|guided meditation|guided practice|yoga|fitness|retreat|contemplation by design|CBD \d{4}|teaching statement|information session|info session',re.I)
 DEPARTMENT_PAGES = [
     {'id':'page-chemistry','name':'Chemistry','url':'https://chemistry.stanford.edu/events/upcoming-events'},
     {'id':'page-biology','name':'Biology','url':'https://biology.stanford.edu/events'},
@@ -67,9 +68,9 @@ def event_rows(event, now, horizon):
     types=[x.get('name','') for x in filters.get('event_types',[])]
     departments=[plain(x.get('name')) for x in e.get('departments',[]) if x.get('name')]
     title=plain(e.get('title'))
-    science=any(x in ['Science','Engineering/Technology','Medicine','Environment/Sustainability'] for x in subjects) or any(STEM.search(x) and not EXCLUDE.search(x) for x in departments)
+    science=any(STEM.search(x) and not EXCLUDE.search(x) for x in departments) or (not departments and any(x in ['Science','Engineering/Technology','Medicine','Environment/Sustainability'] for x in subjects))
     talk=any(x in ['Class/Seminar','Lecture/Presentation/Talk'] for x in types) or bool(TALK.search(title))
-    if not science or not talk or not title:return []
+    if not science or not talk or not title or NON_RESEARCH.search(title):return []
     url=safe_url(e.get('localist_url'))
     if urllib.parse.urlparse(url).hostname!='events.stanford.edu':return []
     result=[]
@@ -99,7 +100,8 @@ class Schedule(HTMLParser):
         if self.current:
             if tag in ['h2','h3']:self.head+=1
             if tag=='a' and self.head and a.get('href'):self.current['url']=a['href']
-            if tag=='time' and a.get('datetime'):self.current['times'].append(a['datetime'])
+            if a.get('datetime'):self.current['times'].append(a['datetime'])
+            elif a.get('property')=='schema:startDate' and a.get('content'):self.current['times'].append(a['content'])
         if tag=='tr':self.row=[]
         if tag in ['td','th'] and self.row is not None:self.cell=[]
     def handle_endtag(self,tag):
@@ -140,12 +142,21 @@ def parse_page(source, body, now, horizon):
             rows.append({'title':title,'start':start.isoformat(),'end':end.isoformat(),'allDay':len(times[0])==10,'location':'','url':url})
     for r in rows:
         r.update(id=source['id']+':'+hashlib.sha256((r['url']+r['start']+r['title']).encode()).hexdigest()[:20],departments=[source['name']],subjects=['Science'],kind='Seminar',room='',experience='',sourceId=source['id'],sourceStatus='checked',registrationUrl='',calendarUrl='')
-    return rows, len(parsed.articles) if not source.get('table') else len(parsed.table)
+    recognized=sum(bool(a['times'] and a['title']) for a in parsed.articles)
+    return rows, recognized if not source.get('table') else len(parsed.table)
 
 def deduplicate(rows):
     found={};result=[]
     for row in sorted(rows,key=lambda r:r.get('sourceId')!='stanford-calendar'):
-        day=row['start'][:10];title=re.sub(r'[^a-z0-9]','',row['title'].lower());key=(title,day)
+        day=row['start'][:10];title=re.sub(r'[^a-z0-9]','',row['title'].lower())
+        moment=dt.datetime.fromisoformat(row['start']).astimezone(dt.timezone.utc).isoformat() if len(row['start'])>10 else row['start']
+        key=(title,moment)
+        # A table schedule may omit the talk title and time. Prefer a matching dated
+        # campus event when it explicitly names that speaker; do not invent a time.
+        speaker=row.get('speaker','').lower()
+        match=next((e for e in result if speaker and speaker in e['title'].lower() and e['start'][:10]==day),None)
+        if match:
+            match['departments']=list(dict.fromkeys(match['departments']+row['departments']));continue
         if key in found:
             prior=found[key];prior['departments']=list(dict.fromkeys(prior['departments']+row['departments']));continue
         found[key]=row;result.append(row)

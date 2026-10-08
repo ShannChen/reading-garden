@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261008-ui-language-v56';
-const ASSETS = ['./', './index.html', './ui-language.js?v=20261008-56', './nih-reporter.js?v=20261008-56', './funding-feed.js?v=20261008-56', './data/funding-feed.json', './book-lookup.js?v=20261008-56', './sync-core.js?v=20261008-56', './cloud-sync.js?v=20261008-56', './paper-feed.js?v=20261008-56', './pubmed-feed.js?v=20261008-56', './journal-lookup.js?v=20261008-56', './feed-preferences.js?v=20261008-56', './people-core.js?v=20261008-56', './people.js?v=20261008-56', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261008-stanford-seminars-v57';
+const ASSETS = ['./', './index.html', './seminar-feed.js?v=20261008-57', './data/seminar-feed.json', './ui-language.js?v=20261008-57', './nih-reporter.js?v=20261008-57', './funding-feed.js?v=20261008-57', './data/funding-feed.json', './book-lookup.js?v=20261008-57', './sync-core.js?v=20261008-57', './cloud-sync.js?v=20261008-57', './paper-feed.js?v=20261008-57', './pubmed-feed.js?v=20261008-57', './journal-lookup.js?v=20261008-57', './feed-preferences.js?v=20261008-57', './people-core.js?v=20261008-57', './people.js?v=20261008-57', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
@@ -32,7 +32,7 @@ self.addEventListener('fetch', e => {
       .catch(() => caches.match('./index.html').then(hit => hit || caches.match('./'))));
     return;
   }
-  if (new URL(req.url).pathname.endsWith('/data/funding-feed.json')) {
+  if (new URL(req.url).pathname.endsWith('/data/funding-feed.json') || new URL(req.url).pathname.endsWith('/data/seminar-feed.json')) {
     e.respondWith(fetch(req, {cache: 'no-store'}).then(r => {
       if (!r.ok) throw new Error('Funding feed unavailable');
       const copy=r.clone();e.waitUntil(caches.open(CACHE).then(c=>c.put(req,copy)));return r;
