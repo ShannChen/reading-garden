@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T12:04:43.714014-07:00",
+  "checkedAt": "2026-10-08T12:08:53.013313-07:00",
   "windowDays": 90,
   "timezone": "America/Los_Angeles",
   "partial": true,
@@ -10,13 +10,13 @@
       "name": "Stanford Events Calendar",
       "url": "https://events.stanford.edu/",
       "status": "checked",
-      "count": 180
+      "count": 91
     },
     {
       "id": "page-chemistry",
       "name": "Chemistry",
       "url": "https://chemistry.stanford.edu/events/upcoming-events",
-      "status": "checked",
+      "status": "unparsed",
       "count": 0
     },
     {
@@ -30,7 +30,7 @@
       "id": "page-physics",
       "name": "Physics / Applied Physics",
       "url": "https://physics.stanford.edu/news-events/upcoming-events",
-      "status": "checked",
+      "status": "unparsed",
       "count": 0
     },
     {
@@ -416,11 +416,6 @@
       "url": ""
     },
     {
-      "id": "37955141603278",
-      "name": "Environmental Health and Safety",
-      "url": ""
-    },
-    {
       "id": "37955141622738",
       "name": "Environmental Justice Working Group",
       "url": "https://www.ejstanford.com/"
@@ -736,11 +731,6 @@
       "url": "https://cancer.stanford.edu/"
     },
     {
-      "id": "37955144055204",
-      "name": "Stanford Center for Continuing Medical Education",
-      "url": "https://med.stanford.edu/cme"
-    },
-    {
       "id": "38989726017587",
       "name": "Stanford Center for Genomics and Personalized Medicine (SCGPM)",
       "url": "https://scgpm.stanford.edu"
@@ -996,28 +986,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53879339559670:53879339560695",
-      "title": "CPR/AED/First Aid Certification Class",
-      "start": "2026-10-08T12:30:00-07:00",
-      "end": "2026-10-08T16:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Environmental Health and Safety"
-      ],
-      "subjects": [
-        "Health/Wellness"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Environmental Health & Safety",
-      "room": "116/118",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/cpraedfirst-aid-certification-class",
-      "registrationUrl": "https://axess.sahr.stanford.edu/group/guest/stars?psft_src=%2FEMPLOYEE%2FELM%2Fc%2FLM_SS_LEARNING.LM_BROWSE_LEARNER.GBL%3Ftype%3DCOURSE%26code%3DEHS-1300",
-      "calendarUrl": "https://events.stanford.edu/event/cpraedfirst-aid-certification-class.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53701670896871:53701670897896",
       "title": "Global Environmental Policy Seminar with Guojun He",
       "start": "2026-10-08T13:15:00-07:00",
@@ -1059,28 +1027,6 @@
       "url": "https://events.stanford.edu/event/improving-all-lives-through-science-the-case-for-fundamental-research-public-policy-and-advocacy",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/improving-all-lives-through-science-the-case-for-fundamental-research-public-policy-and-advocacy.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53982968730976:53982968732001",
-      "title": "Books, Bonds, and Bereavement: Helping Siblings Process Loss",
-      "start": "2026-10-08T16:00:00-07:00",
-      "end": "2026-10-08T17:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Center for Continuing Medical Education"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/books-bonds-and-bereavement-helping-siblings-process-loss",
-      "registrationUrl": "https://stanford.cloud-cme.com/course/courseoverview?P=5&EID=59915",
-      "calendarUrl": "https://events.stanford.edu/event/books-bonds-and-bereavement-helping-siblings-process-loss.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1154,30 +1100,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53701808240648:53701808241673",
-      "title": "SDRC Friday Seminar 10.9.26",
-      "start": "2026-10-09T12:00:00-07:00",
-      "end": "2026-10-09T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Diabetes Research Center"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine",
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Beckman Center",
-      "room": "B302",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/sdrc-friday-seminar-10926",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/sdrc-friday-seminar-10926.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53922734404263:53922734496445",
       "title": "Big Earth Hackathon: Wildland Fire Challenge",
       "start": "2026-10-12T00:00:00-07:00",
@@ -1197,28 +1119,6 @@
       "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
       "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
       "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54100806959750:54100806960775",
-      "title": "Neil Thompson: Forecasting AI’s Impact on Human Expertise and the Future of Work",
-      "start": "2026-10-12T12:00:00-07:00",
-      "end": "2026-10-12T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Digital Economy Lab"
-      ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Gates Computer Science Building",
-      "room": "119",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/neil-thompson-forecasting-ais-impact-on-human-expertise-and-the-future-of-work",
-      "registrationUrl": "https://digitaleconomy.stanford.edu/event/neil-thompson-seminar-series/",
-      "calendarUrl": "https://events.stanford.edu/event/neil-thompson-forecasting-ais-impact-on-human-expertise-and-the-future-of-work.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1318,51 +1218,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54109578748450:54109853117344",
-      "title": "What Young People's Technology Use Tells Us",
-      "start": "2026-10-13T12:00:00-07:00",
-      "end": "2026-10-13T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Tech Impact and Policy Center"
-      ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Building 120, McClatchy Hall, Main Quad",
-      "room": "Studio S40 - bring your Stanford ID card/mobile ID to enter the building",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/what-young-peoples-technology-use-tells-us",
-      "registrationUrl": "https://cvent.me/VE7w48",
-      "calendarUrl": "https://events.stanford.edu/event/what-young-peoples-technology-use-tells-us.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53992893085823:53992893086848",
-      "title": "Two Routes to Scale: Innovation Clusters in Tokyo-Yokohama and the Greater Bay Area",
-      "start": "2026-10-13T15:00:00-07:00",
-      "end": "2026-10-13T16:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Shorenstein Asia-Pacific Research Center (APARC)"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "International Affairs"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Encina Hall",
-      "room": "3rd Floor, Okimoto Conference Room (E307)",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/two-routes-to-scale-innovation-clusters-in-tokyo-yokohama-and-the-greater-bay-area-5632",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfTwPBEyLGSbGjjFM9cSQ0iXnbjrY0y9zGJ2PLzBV3SSk0-Gg/viewform",
-      "calendarUrl": "https://events.stanford.edu/event/two-routes-to-scale-innovation-clusters-in-tokyo-yokohama-and-the-greater-bay-area-5632.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "52561867818592:52561896386565",
       "title": "Stanford Cancer Institute Breakthroughs in Cancer: Health Policy and Oncology: Understanding Care and Outcomes in a Changing Delivery System",
       "start": "2026-10-13T16:00:00-07:00",
@@ -1409,40 +1264,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "52304560510330:52304706661848",
-      "title": "13th Annual Stanford Contemplation By Design Summit Begins Today!",
-      "start": "2026-10-14T00:00:00-07:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology",
-        "Law/Public Policy/Politics"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/13th-annual-stanford-contemplation-by-design-summit-begins-today",
-      "registrationUrl": "https://med.stanford.edu/contemplation/summit.html",
-      "calendarUrl": "https://events.stanford.edu/event/13th-annual-stanford-contemplation-by-design-summit-begins-today.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53922734404263:53922734502591",
       "title": "Big Earth Hackathon: Wildland Fire Challenge",
       "start": "2026-10-14T00:00:00-07:00",
@@ -1462,62 +1283,6 @@
       "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
       "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
       "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52685383407720:52685422808977",
-      "title": "CBD 2026: Introduction to Stanford's 2026 Contemplation by Design Summit: The Role of Contemplation in the Age of AI with Tia Rich, PhD",
-      "start": "2026-10-14T12:00:00-07:00",
-      "end": "2026-10-14T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-introduction-to-the-2026-contemplation-by-design-summit-with-tia-rich-phd",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-introduction-to-the-2026-contemplation-by-design-summit-with-tia-rich-phd.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52685971359572:53941055018511",
-      "title": "The Rise and Future of the Korean Semiconductor Memory Industry: Perspectives and Insights from 1983 to 2026 and Beyond",
-      "start": "2026-10-14T12:00:00-07:00",
-      "end": "2026-10-14T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Shorenstein Asia-Pacific Research Center (APARC)"
-      ],
-      "subjects": [
-        "Business",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Encina Hall",
-      "room": "3rd Floor, Philippines Conference Room (C330)",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/the-rise-and-future-of-the-korean-semiconductor-memory-industry-perspectives-and-insights-from-1983-to-2026-and-beyond",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf_WSKhPoWbCO52P3wqWANvfQ3-Qh3PNxfYQVsCOBFrHbuuWg/viewform",
-      "calendarUrl": "https://events.stanford.edu/event/the-rise-and-future-of-the-korean-semiconductor-memory-industry-perspectives-and-insights-from-1983-to-2026-and-beyond.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1584,154 +1349,6 @@
       "url": "https://events.stanford.edu/event/sustainability-in-practice-stories-of-partnering-for-impact",
       "registrationUrl": "https://forms.gle/LfeovZziBJGBqe5g8",
       "calendarUrl": "https://events.stanford.edu/event/sustainability-in-practice-stories-of-partnering-for-impact.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54108049908804:54108049909829",
-      "title": "Mary Bryson | Cancer’s Dirty Margins: A Minoritized Scholar’s Pathography",
-      "start": "2026-10-14T17:30:00-07:00",
-      "end": "2026-10-14T19:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Humanities Center"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Humanities",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Humanities Center",
-      "room": "SHC Board Room",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/mary-bryson-cancers-dirty-margins-a-minoritized-scholars-pathography",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSde-sdsAUPM543u5zQslS4zcbeloRV_uarcVI0MGsKLiYTjuQ/viewform",
-      "calendarUrl": "https://events.stanford.edu/event/mary-bryson-cancers-dirty-margins-a-minoritized-scholars-pathography.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54118401146911:54118401147936",
-      "title": "Medical Humanities: Cancer’s Dirty Margins: A Minoritized Scholar’s Pathography",
-      "start": "2026-10-14T17:30:00-07:00",
-      "end": "2026-10-14T19:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Division of Literatures, Cultures, and Languages",
-        "Stanford Humanities Center"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Humanities Center",
-      "room": "Boardroom",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/medical-humanities-cancers-dirty-margins-a-minoritized-scholars-pathography",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/medical-humanities-cancers-dirty-margins-a-minoritized-scholars-pathography.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52739055358476:52739234180349",
-      "title": "CBD 2026: We Were Made for These Times: Coming Home to Ourselves in the Age of AI with Kaira Jewel Lingo",
-      "start": "2026-10-14T19:00:00-07:00",
-      "end": "2026-10-14T20:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-we-were-made-for-these-times-with-kaira-jewel-lingo",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-we-were-made-for-these-times-with-kaira-jewel-lingo.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53383572576588:53383639540201",
-      "title": "CBD 2026: iPause Guided Practice #1 - Embodying Values and Expressing Wise Compassion with Tia Rich, PhD",
-      "start": "2026-10-15T07:30:00-07:00",
-      "end": "2026-10-15T08:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-ipause-guided-practice-1-with-tia-rich-phd",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-ipause-guided-practice-1-with-tia-rich-phd.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52739238555812:52739249081005",
-      "title": "CBD 2026: Interactive Workshop, Educating for Interbeing: Imagination, Embodiment, and the Education of Compassion with Kaira Jewel Lingo",
-      "start": "2026-10-15T11:30:00-07:00",
-      "end": "2026-10-15T12:45:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine",
-        "Office for Religious & Spiritual Life"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-educating-for-interbeing-with-kaira-jewel-lingo",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-educating-for-interbeing-with-kaira-jewel-lingo.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1804,465 +1421,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54038726245594:54038766380077",
-      "title": "From Advanced Bonding Materials to Liquid Cooling Applications: ETRI’s R&D and Startup Commercialization Path",
-      "start": "2026-10-15T16:30:00-07:00",
-      "end": "2026-10-15T17:50:00-07:00",
-      "allDay": false,
-      "departments": [
-        "US-Asia Technology Management Center"
-      ],
-      "subjects": [
-        "Business",
-        "Engineering/Technology",
-        "International Affairs"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/copy-of-moving-up-the-chain-into-the-water-critical-resources-in-india-for-advanced-computing",
-      "registrationUrl": "https://asia.stanford.edu/course/topics-in-international-technology-management/2026-critical-materials/etri/",
-      "calendarUrl": "https://events.stanford.edu/event/copy-of-moving-up-the-chain-into-the-water-critical-resources-in-india-for-advanced-computing.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53047872498892:53047937878802",
-      "title": "CBD 2026: Technology and the Human Future: Islamic Contemplative Perspectives on AI and Consciousness with Muhammad Faruque, PhD",
-      "start": "2026-10-15T19:00:00-07:00",
-      "end": "2026-10-15T20:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-technology-and-the-human-future-with-muhammad-faruque",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-technology-and-the-human-future-with-muhammad-faruque.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53976694670068:53976694671093",
-      "title": "The New Era of Obesity Treatment",
-      "start": "2026-10-15T19:00:00-07:00",
-      "end": "",
-      "allDay": false,
-      "departments": [
-        "Stanford Health Library"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/the-new-era-of-obesity-treatment",
-      "registrationUrl": "https://healthlibrary.stanford.edu/lectures-events.html#obesity-treatment",
-      "calendarUrl": "https://events.stanford.edu/event/the-new-era-of-obesity-treatment.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52739250588724:52739258472926",
-      "title": "CBD 2026: Interbeing Meditation: Touching Our Source and Growing Our Connection with Kaira Jewel Lingo",
-      "start": "2026-10-16T07:30:00-07:00",
-      "end": "2026-10-16T08:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Black Community Services Center",
-        "Stanford University School of Medicine",
-        "Office for Religious & Spiritual Life"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-interbeing-meditation-with-kaira-jewel-lingo",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-interbeing-meditation-with-kaira-jewel-lingo.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52880625302726:52880633012686",
-      "title": "CBD 2026: Mindfulness, Embodied Self-awareness, and Disembodied AI with Shaun Gallagher, PhD, Hon DPhil",
-      "start": "2026-10-16T10:00:00-07:00",
-      "end": "2026-10-16T11:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-mindfulness-embodied-self-awareness-and-disembodied-ai-with-shaun-gallagher",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-mindfulness-embodied-self-awareness-and-disembodied-ai-with-shaun-gallagher.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53048036863857:53048053241122",
-      "title": "CBD 2026: Toward a Developmental Contemplative Science with Philip Zelazo, PhD",
-      "start": "2026-10-16T12:00:00-07:00",
-      "end": "2026-10-16T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-toward-a-developmental-contemplative-science-with-philip-zelazo",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-toward-a-developmental-contemplative-science-with-philip-zelazo.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54170952318768:54170952318769",
-      "title": "CSCS William C. Dement Seminar Series: \"Targeted, physiology-informed therapy for sleep apnea: Novel pharmacotherapy and beyond\" with Danny Eckert, Ph.D.",
-      "start": "2026-10-16T12:00:00-07:00",
-      "end": "2026-10-16T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Psychiatry and Behavioral Sciences"
-      ],
-      "subjects": [
-        "Medicine",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cscs-william-c-dement-seminar-series-targeted-physiology-informed-therapy-for-sleep-apnea-novel-pharmacotherapy-and-beyond-with-danny-eckert-phd",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/cscs-william-c-dement-seminar-series-targeted-physiology-informed-therapy-for-sleep-apnea-novel-pharmacotherapy-and-beyond-with-danny-eckert-phd.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53701825729919:53701825729920",
-      "title": "SDRC Friday Seminar 10.16.26",
-      "start": "2026-10-16T12:00:00-07:00",
-      "end": "2026-10-16T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Diabetes Research Center"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine",
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Beckman Center",
-      "room": "",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/sdrc-friday-seminar-101626",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/sdrc-friday-seminar-101626.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52304882554603:52304912054722",
-      "title": "CBD 2026: In-person Interactive Workshop, The Power of the Pause in the Era of AI with Tia Rich, PhD at 8:30am",
-      "start": "2026-10-17T08:30:00-07:00",
-      "end": "2026-10-17T09:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Lathrop Library",
-      "room": "282",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/cbd-2026-in-person-interactive-workshop-the-power-of-the-pause-with-tia-rich-phd-at-830am",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-in-person-interactive-workshop-the-power-of-the-pause-with-tia-rich-phd-at-830am.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52304881786304:52304934385316",
-      "title": "CBD 2026: In-person Interactive Workshop, The Power of the Pause in the Era of AI at with Tia Rich, PhD at 10am",
-      "start": "2026-10-17T10:00:00-07:00",
-      "end": "2026-10-17T11:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Lathrop Library",
-      "room": "282",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/cbd-2026-in-person-interactive-workshop-the-power-of-the-pause-at-with-tia-rich-phd-at-10am",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-in-person-interactive-workshop-the-power-of-the-pause-at-with-tia-rich-phd-at-10am.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53383660781962:53383686696684",
-      "title": "CBD 2026: The Narrating Brain: The Default Mode Network, the Self, and Consciousness in the Age of AI with Vinod Menon, PhD",
-      "start": "2026-10-17T14:00:00-07:00",
-      "end": "2026-10-17T15:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-agency-and-related-functions-of-the-brains-default-mode-network-in-the-age-of-ai-with-vinod-menon",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-agency-and-related-functions-of-the-brains-default-mode-network-in-the-age-of-ai-with-vinod-menon.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53170605842085:53170683383773",
-      "title": "CBD 2026: Structured Learning, Unstructured Wonder: Quaker Mindfulness at Summer Camp with Adair Arbor and Sam Green",
-      "start": "2026-10-17T16:00:00-07:00",
-      "end": "2026-10-17T17:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-structured-learning-unstructured-wonder-with-adair-arbor-and-sam-green",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-structured-learning-unstructured-wonder-with-adair-arbor-and-sam-green.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53170688221968:53170712401069",
-      "title": "CBD 2026: iPause Guided Practice - The Clearing Practice: Quaker-inspired contemplative stillness and silence for service, Summer Camp Style with Adair Arbor and Sam Green",
-      "start": "2026-10-18T08:00:00-07:00",
-      "end": "2026-10-18T08:45:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-silent-meeting-summer-camp-style-with-adair-arbor-and-sam-green",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-silent-meeting-summer-camp-style-with-adair-arbor-and-sam-green.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53170804190185:53170804191210",
-      "title": "CBD 2026: Designing for Safety: AI Ethics, Children's Online Safety, and the Future of Digital Governance with Caitlin Burke, PhD, JD",
-      "start": "2026-10-18T16:00:00-07:00",
-      "end": "2026-10-18T17:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-designing-for-safety-with-caitlin-burke",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-designing-for-safety-with-caitlin-burke.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53047944627077:53047984343178",
-      "title": "CBD 2026: “Brief as an Atom”: The Cloud’s and the Friar’s “Easy” Contemplative Practices for Befriending Joy in an Age of AI Rage with Carmen Acevedo Butcher, PhD",
-      "start": "2026-10-18T19:00:00-07:00",
-      "end": "2026-10-18T20:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-contemplative-practices-for-befriending-joy-in-an-age-of-ai-rage",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-contemplative-practices-for-befriending-joy-in-an-age-of-ai-rage.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53922734404263:53922734518980",
       "title": "Big Earth Hackathon: Wildland Fire Challenge",
       "start": "2026-10-19T00:00:00-07:00",
@@ -2282,72 +1440,6 @@
       "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
       "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
       "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53047985797143:53048005291018",
-      "title": "CBD 2026: Lectio Divina (Becoming Chanting), Dental Floss, and AI: How Contemplation Happens and Why It Matters When Your Intelligence Is Not Artificial with Carmen Acevedo Butcher, PhD",
-      "start": "2026-10-19T07:30:00-07:00",
-      "end": "2026-10-19T08:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-lecto-divinia-becoming-chanting-dental-floss-and-ai-with-carmen-acevedo-butcher",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-lecto-divinia-becoming-chanting-dental-floss-and-ai-with-carmen-acevedo-butcher.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52880602335151:52880610572306",
-      "title": "CBD 2026: Tibetan Contemplative Practices as Catalysts for a Revolution in Education in the Age of AI and the Attention Economy with Chiara Mascarello, PhD",
-      "start": "2026-10-19T12:00:00-07:00",
-      "end": "2026-10-19T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-tibetan-contemplative-practices-as-catalysts-for-a-revolution-in-education-in-the-age-of-ai-and-the-attention-economy-with-chiara-mascarello",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-tibetan-contemplative-practices-as-catalysts-for-a-revolution-in-education-in-the-age-of-ai-and-the-attention-economy-with-chiara-mascarello.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2400,39 +1492,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "52890814288098:52890825269162",
-      "title": "CBD 2026: The Discovery of Who We Are: How we can cultivate basic human values through contemplative education and a rich pluralism with Brendan Ozawa-de Silva, PhD, DPhil",
-      "start": "2026-10-19T16:30:00-07:00",
-      "end": "2026-10-19T17:45:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-the-discovery-of-who-we-are-with-brendan-ozawa-de-silva",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-the-discovery-of-who-we-are-with-brendan-ozawa-de-silva.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "54045789572264:54045789573289",
       "title": "Shimizu Distinguished Lecture - Bob Pragada: \"From Disruption to Opportunity\"",
       "start": "2026-10-19T16:30:00-07:00",
@@ -2480,95 +1539,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54138556327672:54138556328697",
-      "title": "OCD Awareness Event",
-      "start": "2026-10-19T17:30:00-07:00",
-      "end": "2026-10-19T20:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Psychiatry & Behavioral Sciences"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Center for Academic Medicine, Grand Rounds Room",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/ocd-awareness-event-4220",
-      "registrationUrl": "https://redcap.link/pp28tbv6",
-      "calendarUrl": "https://events.stanford.edu/event/ocd-awareness-event-4220.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52537250988265:52537277847516",
-      "title": "CBD 2026: Contemplation in an Age of AI: Ever Ancient, Ever New with Ilia Delio, OSF, PhD",
-      "start": "2026-10-19T19:00:00-07:00",
-      "end": "2026-10-19T20:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-contemplation-in-the-age-of-ai-with-ilia-delio",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-contemplation-in-the-age-of-ai-with-ilia-delio.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53048023123167:53048032875781",
-      "title": "CBD 2026: Resting in Presence: A Contemplative Practice Inspired by Tibetan Buddhism with Chiara Mascarello, PhD",
-      "start": "2026-10-20T07:30:00-07:00",
-      "end": "2026-10-20T08:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-resting-in-presence-with-chiara-mascarello",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-resting-in-presence-with-chiara-mascarello.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "54179619437966:54179633525296",
       "title": "Pediatric Grand Rounds (CME): Neonatology 4.0: Reimagining Newborn Brain Care in the Era of Digital Health",
       "start": "2026-10-20T08:00:00-07:00",
@@ -2595,84 +1565,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "52739036094627:52739052553109",
-      "title": "CBD 2026: Moral Attention in Responsible AI Design with Mark Graves, PhD",
-      "start": "2026-10-20T12:00:00-07:00",
-      "end": "2026-10-20T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-moral-attention-in-responsible-ai-design-with-mark-graves",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-moral-attention-in-responsible-ai-design-with-mark-graves.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53921701326565:53921701327590",
-      "title": "Heritable and Sporadic Thoracic Aortic Disease: Recognition, Genetic Evaluation, and Medical Management",
-      "start": "2026-10-20T12:00:00-07:00",
-      "end": "2026-10-20T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Center for Continuing Medical Education"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/heritable-and-sporadic-thoracic-aortic-disease-recognition-genetic-evaluation-and-medical-management",
-      "registrationUrl": "https://stanford.cloud-cme.com/course/courseoverview?P=0&EID=57920",
-      "calendarUrl": "https://events.stanford.edu/event/heritable-and-sporadic-thoracic-aortic-disease-recognition-genetic-evaluation-and-medical-management.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53790134859204:53790146414852",
-      "title": "eWEAR Seminar: The Quantified Self for Health",
-      "start": "2026-10-20T15:00:00-07:00",
-      "end": "2026-10-20T16:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Wearable Electronics Initiative"
-      ],
-      "subjects": [
-        "Science",
-        "Engineering/Technology"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Paul G. Allen Center for Integrated Systems Annex",
-      "room": "101X auditorium",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/ewear-seminar-the-quantified-self",
-      "registrationUrl": "https://stanford.zoom.us/webinar/register/3617875983707/WN_gHkb0G0mTEyG6EqHluiYaw",
-      "calendarUrl": "https://events.stanford.edu/event/ewear-seminar-the-quantified-self.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53974944829183:53974944830208",
       "title": "Applied Physics/Physics Colloquium: Giulio Vampa - \"Quantum-optical Properties of High-Harmonic Generation\"",
       "start": "2026-10-20T15:30:00-07:00",
@@ -2690,39 +1582,6 @@
       "url": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-giulio-vampa-quantum-optical-properties-of-high-harmonic-generation",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-giulio-vampa-quantum-optical-properties-of-high-harmonic-generation.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52890836311775:52890841819115",
-      "title": "CBD 2026: Applying Secular Ethics in the Era of AI: Practical activities for putting moral philosophy into practice in daily life with Brendan Ozawa-de Silva, PhD, DPhil",
-      "start": "2026-10-20T16:30:00-07:00",
-      "end": "2026-10-20T17:45:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-applying-secular-ethics-in-the-era-of-ai-with-brendan-ozawa-de-silva",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-applying-secular-ethics-in-the-era-of-ai-with-brendan-ozawa-de-silva.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2774,62 +1633,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53366478093418:53366542735237",
-      "title": "CBD 2026: Buddhist Ways of Being Human in the Age of AI with James Gentry, PhD",
-      "start": "2026-10-20T19:00:00-07:00",
-      "end": "2026-10-20T20:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-buddhist-ways-of-being-human-in-the-age-of-ai-with-james-gentry",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-buddhist-ways-of-being-human-in-the-age-of-ai-with-james-gentry.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "title": "Wednesday Seminar Series — Aaron Whiteley",
-      "start": "2026-10-21",
-      "allDay": true,
-      "speaker": "Aaron Whiteley",
-      "institution": "U of Colorado, Boulder",
-      "location": "Clark Auditorium",
-      "url": "https://med.stanford.edu/microimmuno/seminars-and-events/wed-seminars.html",
-      "id": "page-microimmuno:c56c68ec4fd533de4702",
-      "departments": [
-        "Microbiology & Immunology"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-microimmuno",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
-    },
-    {
       "id": "53922734404263:53922734528198",
       "title": "Big Earth Hackathon: Wildland Fire Challenge",
       "start": "2026-10-21T00:00:00-07:00",
@@ -2853,79 +1656,14 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53366544238494:53366552708985",
-      "title": "CBD 2026: iPause Guided Practice - Tonglen (“Giving and taking”): A Buddhist Approach to Developing Empathy and Expanding the Scope of Care with James Gentry",
-      "start": "2026-10-21T07:30:00-07:00",
-      "end": "2026-10-21T08:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-tonglen-with-james-gentry",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-tonglen-with-james-gentry.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53048079169572:53048101165152",
-      "title": "CBD 2026: Flourishing Within, Together, and Worldwide: How brief moments of insight and action empower and uplift us all with Emiliana Simon-Thomas, PhD",
-      "start": "2026-10-21T12:00:00-07:00",
-      "end": "2026-10-21T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-flourishing-within-together-and-worldwide-with-emiliana-simon-thomas",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-flourishing-within-together-and-worldwide-with-emiliana-simon-thomas.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53700386536379:53700386537404",
       "title": "Microbiology & Immunology Wednesday Seminar: Aaron Whiteley - \"Exploring How the Bacterial Innate Immune System Defends Against Phage\"",
       "start": "2026-10-21T12:30:00-07:00",
       "end": "2026-10-21T13:30:00-07:00",
       "allDay": false,
       "departments": [
-        "Department of Microbiology and Immunology"
+        "Department of Microbiology and Immunology",
+        "Microbiology & Immunology"
       ],
       "subjects": [
         "Science"
@@ -2963,39 +1701,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "52880638990807:52880649090457",
-      "title": "CBD 2026: Reclaiming Presence and Ethical Grounding in Challenging Times with Diana Winston",
-      "start": "2026-10-21T16:00:00-07:00",
-      "end": "2026-10-21T17:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-reclaiming-presence-and-ethical-grounding-in-challenging-times-with-diana-winston",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-reclaiming-presence-and-ethical-grounding-in-challenging-times-with-diana-winston.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "title": "Frontiers in Biology: Kyle Travaglini, Allen Institute | \"Cellular vulnerability across the Alzheimer's disease brain\"",
       "start": "2026-10-21T16:00:00-07:00",
       "end": "2026-10-21T17:00:00-07:00",
@@ -3016,90 +1721,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "54135838925820:54135838925821",
-      "title": "Book Talk: When Federal Climate Policy Works Benefits, Business, and Politics",
-      "start": "2026-10-21T16:30:00-07:00",
-      "end": "2026-10-21T18:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Bill Lane Center for the American West"
-      ],
-      "subjects": [
-        "Business",
-        "Education",
-        "Environment/Sustainability",
-        "Humanities",
-        "Law/Public Policy/Politics",
-        "Social Justice/Human Rights",
-        "Public Service/Government"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Building 200, History Corner",
-      "room": "Room 305",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/book-talk-when-federal-climate-policy-works-benefits-business-and-politics",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/book-talk-when-federal-climate-policy-works-benefits-business-and-politics.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53984207233700:53984207234725",
-      "title": "Weight Loss Medication Demystified: Options, Myths, and Real-World Use",
-      "start": "2026-10-21T17:00:00-07:00",
-      "end": "",
-      "allDay": false,
-      "departments": [
-        "Stanford Health Library"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/weight-loss-medication-demystified-options-myths-and-real-world-use",
-      "registrationUrl": "https://healthlibrary.stanford.edu/lectures-events.html#weight-loss-options",
-      "calendarUrl": "https://events.stanford.edu/event/weight-loss-medication-demystified-options-myths-and-real-world-use.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52880659169710:52880668416930",
-      "title": "CBD 2026: iPause Guided Practice - Envisioning a Positive Future with Diana Winston",
-      "start": "2026-10-22T07:30:00-07:00",
-      "end": "2026-10-22T08:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-envisioning-a-positive-future-with-diana-winston",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-envisioning-a-positive-future-with-diana-winston.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "54001589975173:54001597749326",
@@ -3124,353 +1745,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54135491910153:54135491912202",
-      "title": "SDRC Friday Seminar 10.22.26",
-      "start": "2026-10-22T12:00:00-07:00",
-      "end": "2026-10-22T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Diabetes Research Center"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine",
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Beckman Center",
-      "room": "B302",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/sdrc-friday-seminar-102226",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/sdrc-friday-seminar-102226.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53558888491254:53558888491255",
-      "title": "Stanford Medicine Neurosurgery Master Class: Emerging Neurosurgical Treatments for Brain Restoration",
-      "start": "2026-10-22T12:00:00-07:00",
-      "end": "2026-10-22T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Center for Continuing Medical Education"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/stanford-medicine-neurosurgery-master-class-emerging-neurosurgical-treatments-for-brain-restoration",
-      "registrationUrl": "https://stanford.cloud-cme.com/course/courseoverview?P=5&EID=57478",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-medicine-neurosurgery-master-class-emerging-neurosurgical-treatments-for-brain-restoration.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52304983343019:52305021557824",
-      "title": "CBD 2026: Taoist Wisdom for Today: Fire and Water in an Age of Extremes — Contemplative Harmony and Sustainable Longevity with Dr. Mao Shing Ni",
-      "start": "2026-10-22T14:00:00-07:00",
-      "end": "2026-10-22T15:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-taoist-wisdom-for-today-with-mao-shing-ni",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-taoist-wisdom-for-today-with-mao-shing-ni.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54179181594470:54179187456103",
-      "title": "Mine Less, Last Longer? Singapore Solutions for Critical Materials in Energy and Electronics",
-      "start": "2026-10-22T16:30:00-07:00",
-      "end": "2026-10-22T17:50:00-07:00",
-      "allDay": false,
-      "departments": [
-        "US-Asia Technology Management Center"
-      ],
-      "subjects": [
-        "Business",
-        "Engineering/Technology",
-        "International Affairs"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Bishop Auditorium",
-      "room": "",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/copy-of-series-overview-challenges-and-solutions-for-critical-materials-in-energy-and-electronics-3879",
-      "registrationUrl": "https://asia.stanford.edu/course/topics-in-international-technology-management/2026-critical-materials/singapore/",
-      "calendarUrl": "https://events.stanford.edu/event/copy-of-series-overview-challenges-and-solutions-for-critical-materials-in-energy-and-electronics-3879.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54056461980785:54056461980786",
-      "title": "Master of Liberal Arts Information Session",
-      "start": "2026-10-22T18:30:00-07:00",
-      "end": "2026-10-22T19:45:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Master of Liberal Arts"
-      ],
-      "subjects": [
-        "Education",
-        "Humanities",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Stanford University",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/master-of-liberal-arts-information-session-stanford-events-calendar",
-      "registrationUrl": "https://mla.stanford.edu/information-session-rsvp?utm_source=Stanford+Events&utm_medium=Calendar+event&utm_campaign=SEcal+_info_session_10-22-26",
-      "calendarUrl": "https://events.stanford.edu/event/master-of-liberal-arts-information-session-stanford-events-calendar.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53745818123158:53745818123159",
-      "title": "Universal Human Psychology, \"Bani Adam,\" and Our Omnicultural Future",
-      "start": "2026-10-22T18:30:00-07:00",
-      "end": "2026-10-22T20:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Hamid and Christina Moghadam Program in Iranian Studies"
-      ],
-      "subjects": [
-        "Humanities",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "In person at Stanford",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/bani-adam-universal-human-psychology-and-our-omnicultural-future",
-      "registrationUrl": "https://forms.gle/VAutrecP5KwC3VDM7",
-      "calendarUrl": "https://events.stanford.edu/event/bani-adam-universal-human-psychology-and-our-omnicultural-future.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53295363680284:53295377738164",
-      "title": "CBD 2026: Personal Ecologies: Contemplation, Reading, and the More-than-Human World with Ariel Evan Mayse",
-      "start": "2026-10-22T19:00:00-07:00",
-      "end": "2026-10-22T20:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-personal-ecologies-with-ariel-evan-mayse",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-personal-ecologies-with-ariel-evan-mayse.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52305032659763:52305042349829",
-      "title": "CBD 2026: iPause Guided Practice, Fire and Water: A Taoist Meditation for Inner Balance with Dr. Mao Shing Ni",
-      "start": "2026-10-23T07:30:00-07:00",
-      "end": "2026-10-23T08:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-ipause-fire-and-water-a-taoist-meditation-for-inner-balance-with-dr-mao-shing-ni",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-ipause-fire-and-water-a-taoist-meditation-for-inner-balance-with-dr-mao-shing-ni.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54012393657476:54012479933829",
-      "title": "2026 Stanford Food Summit",
-      "start": "2026-10-23T08:00:00-07:00",
-      "end": "2026-10-23T17:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Prevention Research Center"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Education",
-        "Engineering/Technology",
-        "Environment/Sustainability",
-        "Law/Public Policy/Politics",
-        "Medicine",
-        "Science",
-        "Social Justice/Human Rights",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Arrillaga Alumni Center",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/2026-stanford-food-summit",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeLyL6r0dkC9whjU7e5Ei4RgkIHzVnEibHuM9cq8jNYzQUCPw/viewform?pli=1",
-      "calendarUrl": "https://events.stanford.edu/event/2026-stanford-food-summit.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53144894758212:53144924730255",
-      "title": "CBD 2026: Interactive Workshop - Sowing seeds in the field of consciousness: the teachings of Yemima Avital with Naama Sadan, PhD",
-      "start": "2026-10-23T09:30:00-07:00",
-      "end": "2026-10-23T11:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-interactive-workshop-sowing-seeds-in-the-field-of-consciousness-with-naama-sadan",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-interactive-workshop-sowing-seeds-in-the-field-of-consciousness-with-naama-sadan.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54175734565725:54175734568799",
-      "title": "Paths to Power: Careers in Climate Policy & Public Service",
-      "start": "2026-10-23T12:00:00-07:00",
-      "end": "2026-10-23T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Haas Center for Public Service"
-      ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Law/Public Policy/Politics",
-        "Public Service/Government"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/paths-to-power-careers-in-climate-policy-public-service",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeIpvYQmeR2iJdpbquzhpsR1_zj_rXkvujRaXA831VCl3oRdg/viewform",
-      "calendarUrl": "https://events.stanford.edu/event/paths-to-power-careers-in-climate-policy-public-service.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54035810380874:54035810381899",
-      "title": "Pediatric Orthopedics and Sports Medicine Lecture Series: Tumors Encountered in Sports and General Practice",
-      "start": "2026-10-23T12:00:00-07:00",
-      "end": "2026-10-23T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Center for Continuing Medical Education"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/pediatric-orthopedics-and-sports-medicine-lecture-series-tumors-encountered-in-sports-and-general-practice",
-      "registrationUrl": "https://stanford.cloud-cme.com/course/courseoverview?P=5&EID=60255",
-      "calendarUrl": "https://events.stanford.edu/event/pediatric-orthopedics-and-sports-medicine-lecture-series-tumors-encountered-in-sports-and-general-practice.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53921511566608:53921511567633",
-      "title": "The Skinny on MASLD: From Nomenclature to Novel Therapies",
-      "start": "2026-10-23T12:00:00-07:00",
-      "end": "2026-10-23T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Center for Continuing Medical Education"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/the-skinny-on-masld-from-nomenclature-to-novel-therapies",
-      "registrationUrl": "https://stanford.cloud-cme.com/course/courseoverview?P=5&EID=60000",
-      "calendarUrl": "https://events.stanford.edu/event/the-skinny-on-masld-from-nomenclature-to-novel-therapies.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "54002341021657:54002341022682",
       "title": "AI in Teaching workshop for SDSS Faculty & Lecturers",
       "start": "2026-10-23T14:00:00-07:00",
@@ -3487,206 +1761,6 @@
       "url": "https://events.stanford.edu/event/ai-in-teaching-workshop-for-sdss-faculty-lecturers",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/ai-in-teaching-workshop-for-sdss-faculty-lecturers.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53418575201727:53418587870950",
-      "title": "CBD 2026: What AI Can't Do (Yet) — And Why: The Everyday Role of Creative Leaps in Human Learning with Douglas Guilbeault, PhD",
-      "start": "2026-10-23T16:00:00-07:00",
-      "end": "2026-10-23T17:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-what-ai-cant-do-yet-and-why-with-douglas-guilbeault",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-what-ai-cant-do-yet-and-why-with-douglas-guilbeault.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53405561373091:53405561374116",
-      "title": "CBD 2026: Morning Jasper Ridge Biological Preserve ‘Ootchamin ‘Ooyakma, Contemplative Hikes in Nature",
-      "start": "2026-10-24T09:20:00-07:00",
-      "end": "2026-10-24T12:20:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "140 Searsville Road",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/copy-of-cbd-2026-afternoon-jasper-ridge-biological-preserve-ootchamin-ooyakma-contemplative-hikes-in-nature",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/copy-of-cbd-2026-afternoon-jasper-ridge-biological-preserve-ootchamin-ooyakma-contemplative-hikes-in-nature.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53405274133939:53405274133940",
-      "title": "CBD 2026: Afternoon Jasper Ridge Biological Preserve ‘Ootchamin ‘Ooyakma, Contemplative Hikes in Nature",
-      "start": "2026-10-24T12:20:00-07:00",
-      "end": "2026-10-24T15:20:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "140 Searsville Road",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/copy-of-cbd-2026-jasper-ridge-biological-preserve-ootchamin-ooyakma-contemplative-hikes-in-nature",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/copy-of-cbd-2026-jasper-ridge-biological-preserve-ootchamin-ooyakma-contemplative-hikes-in-nature.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52305053841138:52305068926109",
-      "title": "CBD 2026: Interactive Workshop - Inner Ecology in Taoism: Practicing Fire–Water Harmony in Daily Life with Dr. Mao Shing Ni",
-      "start": "2026-10-24T14:00:00-07:00",
-      "end": "2026-10-24T16:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/cbd-2026-interactive-workshop-inner-ecology-in-taoism-with-dr-mao-shing-ni",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-interactive-workshop-inner-ecology-in-taoism-with-dr-mao-shing-ni.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53145020272372:53145033318426",
-      "title": "CBD 2026: (In-person) University Public Worship with Rev. Dereca Blackmon - Divine Love as a Source of Power",
-      "start": "2026-10-25T11:00:00-07:00",
-      "end": "2026-10-25T12:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Office for Religious & Spiritual Life",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Memorial Church",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/cbd-2026-in-person-university-public-worship-with-rev-dereca-blackmon-divine-love-as-a-source-of-power",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-in-person-university-public-worship-with-rev-dereca-blackmon-divine-love-as-a-source-of-power.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53145040228521:53145040229546",
-      "title": "CBD 2026: (In-person) iPause Guided Practice with Rev. Dereca Blackmon - Mantra as Medicine: How Spiritual Spoken Word Heals Our Busy Minds",
-      "start": "2026-10-25T12:15:00-07:00",
-      "end": "2026-10-25T13:15:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Contemplation by Design",
-        "Stanford Prevention Research Center",
-        "Office for Religious & Spiritual Life",
-        "Stanford University School of Medicine"
-      ],
-      "subjects": [
-        "Humanities",
-        "Medicine",
-        "Religion/Spirituality",
-        "Science",
-        "Career Development",
-        "Education",
-        "Environment/Sustainability",
-        "Social Justice/Human Rights",
-        "Public Service/Government",
-        "Working at Stanford"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Memorial Church",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/cbd-2026-in-person-ipause-with-dereca-blackmon-mantra-as-medicine",
-      "registrationUrl": "https://tinyurl.com/SCBD2026regristration",
-      "calendarUrl": "https://events.stanford.edu/event/cbd-2026-in-person-ipause-with-dereca-blackmon-mantra-as-medicine.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -3710,28 +1784,6 @@
       "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
       "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
       "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "52367789568775:53615263574930",
-      "title": "Constructing Utopias: China’s New Town Movement in the 21st Century",
-      "start": "2026-10-26T12:00:00-07:00",
-      "end": "2026-10-26T13:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Shorenstein Asia-Pacific Research Center (APARC)"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Encina Hall",
-      "room": "Philippines Conference Room (C330)",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/constructing-utopias-chinas-new-town-movement-in-the-21st-century-5657",
-      "registrationUrl": "https://forms.gle/fufEV16zaCrwXREH7",
-      "calendarUrl": "https://events.stanford.edu/event/constructing-utopias-chinas-new-town-movement-in-the-21st-century-5657.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -3782,30 +1834,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54046886454860:54046886463053",
-      "title": "Revolutionizing Privacy and AI with Meredith Whittaker",
-      "start": "2026-10-26T17:00:00-07:00",
-      "end": "2026-10-26T18:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "McCoy Family Center for Ethics in Society"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Social Justice/Human Rights",
-        "Public Service/Government"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Simonyi Conference Center, CoDa",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/revolutionizing-privacy-and-ai-with-meredith-whittaker",
-      "registrationUrl": "https://bit.ly/ai-whittaker",
-      "calendarUrl": "https://events.stanford.edu/event/revolutionizing-privacy-and-ai-with-meredith-whittaker.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "54179653534631:54179663660321",
       "title": "Pediatric Grand Rounds (CME): When Governments Swipe Left: Australia’s Social Media Policy",
       "start": "2026-10-27T08:00:00-07:00",
@@ -3828,51 +1856,6 @@
       "url": "https://events.stanford.edu/event/copy-of-pediatric-grand-rounds-cme-neonatology-40-reimagining-newborn-brain-care-in-the-era-of-digital-health",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/copy-of-pediatric-grand-rounds-cme-neonatology-40-reimagining-newborn-brain-care-in-the-era-of-digital-health.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54116494114663:54117205178910",
-      "title": "Australia's new social media legislation: the world is watching",
-      "start": "2026-10-27T12:00:00-07:00",
-      "end": "2026-10-27T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Tech Impact and Policy Center"
-      ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Building 120, McClatchy Hall, Main Quad",
-      "room": "Studio S40 - bring your Stanford ID card/mobile ID to enter the building",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/australias-new-social-media-legislation-the-world-is-watching",
-      "registrationUrl": "https://cvent.me/VE7w48",
-      "calendarUrl": "https://events.stanford.edu/event/australias-new-social-media-legislation-the-world-is-watching.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54126601180893:54126601183966",
-      "title": "Meet MySuppleHub: An Open, Community-Contributed Evidence Base for Dietary Supplements (Bay Area Open Science Group Meeting)",
-      "start": "2026-10-27T14:00:00-07:00",
-      "end": "2026-10-27T15:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford University Libraries"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/meet-mysupplehub",
-      "registrationUrl": "https://ucsf.zoom.us/meeting/register/lsfwtMaLQ-Su_iw1oVQ4xw#/registration",
-      "calendarUrl": "https://events.stanford.edu/event/meet-mysupplehub.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -4032,32 +2015,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54066223932423:54066223933448",
-      "title": "In the Global Vanguard: Agrarian Development and the Making of Modern Taiwan",
-      "start": "2026-11-02T12:00:00-08:00",
-      "end": "2026-11-02T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Shorenstein Asia-Pacific Research Center (APARC)"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "International Affairs",
-        "Law/Public Policy/Politics",
-        "Science",
-        "Public Service/Government"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Encina Hall",
-      "room": "Philippines Conference Room (C330)",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/in-the-global-vanguard-agrarian-development-and-the-making-of-modern-taiwan",
-      "registrationUrl": "https://forms.gle/nqUNn1W7wuAM8LP78",
-      "calendarUrl": "https://events.stanford.edu/event/in-the-global-vanguard-agrarian-development-and-the-making-of-modern-taiwan.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "54065335413227:54065335414252",
       "title": "Biology Seminar Series - Jonathan Pritchard \"Trait Causal Models: Combining GWAS, Genetic Perturbations, and Observational 'Omics to Study Human Biology.\"",
       "start": "2026-11-02T16:00:00-08:00",
@@ -4191,54 +2148,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54109543364013:54109557318097",
-      "title": "Research Roadmap: AI and Development",
-      "start": "2026-11-04T12:30:00-08:00",
-      "end": "2026-11-04T13:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford King Center on Global Development"
-      ],
-      "subjects": [
-        "Career Development",
-        "International Affairs",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Gunn Building (SIEPR)",
-      "room": "Doll 320 (third floor)",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/research-roadmap-ai-development",
-      "registrationUrl": "https://airtable.com/apph6jwjt74NM0RJz/pagxTWSE9YSK1BRWM/form",
-      "calendarUrl": "https://events.stanford.edu/event/research-roadmap-ai-development.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53746712053687:53808344432557",
-      "title": "Digital Mirrors of Materiality",
-      "start": "2026-11-04T15:00:00-08:00",
-      "end": "2026-11-04T17:20:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Arts Institute",
-        "Department of Art & Art History"
-      ],
-      "subjects": [
-        "Arts/Media",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Anderson Collection",
-      "room": "Denning Family Resource Center",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/digital-mirrors-of-materiality",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf9oEQbuYA6Q3OdZVyqOpz8lMLeu97FIc3o0pjMiFq3_rl_fQ/viewform?usp=header",
-      "calendarUrl": "https://events.stanford.edu/event/digital-mirrors-of-materiality.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "title": "Frontiers in Biology: Sara Prescott, MIT | \"Sensory pathways of the mammalian airways\"",
       "start": "2026-11-04T16:00:00-08:00",
       "end": "2026-11-04T17:00:00-08:00",
@@ -4307,54 +2216,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54011243976882:54011243977907",
-      "title": "No Ideas But in Things",
-      "start": "2026-11-05T16:30:00-08:00",
-      "end": "2026-11-05T18:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Arts Institute"
-      ],
-      "subjects": [
-        "Arts/Media",
-        "Humanities",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Clark Center",
-      "room": "Auditorium",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/no-ideas-but-in-things",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSckBOFpxwAE-7A_LymttsLYcVqQOUBbRasHkVB9KNl83rbiGw/viewform?usp=header",
-      "calendarUrl": "https://events.stanford.edu/event/no-ideas-but-in-things.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54054961139336:54054961140361",
-      "title": "What Do We Owe Each Other in the Age of AI?",
-      "start": "2026-11-05T17:00:00-08:00",
-      "end": "2026-11-05T18:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "McCoy Family Center for Ethics in Society"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Law/Public Policy/Politics",
-        "Public Service/Government"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Paul Brest Hall",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/what-do-we-owe-each-other-in-the-age-of-ai",
-      "registrationUrl": "https://bit.ly/arrow27",
-      "calendarUrl": "https://events.stanford.edu/event/what-do-we-owe-each-other-in-the-age-of-ai.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53871308386123:53871308387148",
       "title": "36th Annual Jonathan J. King Lecture: Dr. Bryant Lin & Dr. Shoshana Ungerleider",
       "start": "2026-11-05T17:30:00-08:00",
@@ -4376,53 +2237,6 @@
       "url": "https://events.stanford.edu/event/36th-annual-jonathan-j-king-lecture",
       "registrationUrl": "https://StanfordKingLecture.eventbrite.com",
       "calendarUrl": "https://events.stanford.edu/event/36th-annual-jonathan-j-king-lecture.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53944527850127:53944527851152",
-      "title": "Artificial Intelligence Regulatory & Policy Landscapes",
-      "start": "2026-11-06T10:00:00-08:00",
-      "end": "2026-11-06T11:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford University Libraries"
-      ],
-      "subjects": [
-        "Education",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/artificial-intelligence-regulatory-policy-landscapes",
-      "registrationUrl": "https://godort.libguides.com/fridaychats",
-      "calendarUrl": "https://events.stanford.edu/event/artificial-intelligence-regulatory-policy-landscapes.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53861438921822:53861438921823",
-      "title": "GSIS Friday Seminar 11.6.26",
-      "start": "2026-11-06T12:00:00-08:00",
-      "end": "2026-11-06T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Diabetes Research Center"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine",
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Beckman Center",
-      "room": "B302",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/gsis-friday-seminar-11626",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/gsis-friday-seminar-11626.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -4522,28 +2336,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53809595902101:53809595903126",
-      "title": "ENT Experts Up Close: Updates in Parotid Masses and Sinonasal Malignancies",
-      "start": "2026-11-10T12:00:00-08:00",
-      "end": "2026-11-10T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Center for Continuing Medical Education"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/ent-experts-up-close-updates-in-parotid-masses-and-sinonasal-malignancies",
-      "registrationUrl": "https://stanford.cloud-cme.com/course/courseoverview?P=5&EID=57310",
-      "calendarUrl": "https://events.stanford.edu/event/ent-experts-up-close-updates-in-parotid-masses-and-sinonasal-malignancies.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "51288600039862:51288621937120",
       "title": "Stanford Cancer Institute Breakthroughs in Cancer: Rethinking Lung Cancer: What We’re Learning from Never Smokers",
       "start": "2026-11-10T16:00:00-08:00",
@@ -4565,29 +2357,6 @@
       "calendarUrl": "https://events.stanford.edu/event/stanford-cancer-institute-breakthroughs-in-cancer-rethinking-lung-cancer-what-were-learning-from-never-smokers.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
-    },
-    {
-      "title": "Wednesday Seminar Series — Christopher Sassetti",
-      "start": "2026-11-11",
-      "allDay": true,
-      "speaker": "Christopher Sassetti",
-      "institution": "UMass Chan Medical School",
-      "location": "Clark S360",
-      "url": "https://med.stanford.edu/microimmuno/seminars-and-events/wed-seminars.html",
-      "id": "page-microimmuno:846e57bbfe1bcc397abc",
-      "departments": [
-        "Microbiology & Immunology"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-microimmuno",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
     },
     {
       "id": "53922734404263:53922734597851",
@@ -4613,35 +2382,14 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53921488444476:53921488445501",
-      "title": "Alcohol-Associated Hepatitis and Early Liver Transplantation",
-      "start": "2026-11-11T12:00:00-08:00",
-      "end": "2026-11-11T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Center for Continuing Medical Education"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Class/Seminar",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/alcohol-associated-hepatitis-and-early-liver-transplantation",
-      "registrationUrl": "https://stanford.cloud-cme.com/course/courseoverview?P=5&EID=59994",
-      "calendarUrl": "https://events.stanford.edu/event/alcohol-associated-hepatitis-and-early-liver-transplantation.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53700432901791:53700432901792",
       "title": "Microbiology & Immunology Wednesday Seminar: Christopher Sassetti - \"Decoding Inter-Individual Variation in Infectious Disease\"",
       "start": "2026-11-11T12:30:00-08:00",
       "end": "2026-11-11T13:30:00-08:00",
       "allDay": false,
       "departments": [
-        "Department of Microbiology and Immunology"
+        "Department of Microbiology and Immunology",
+        "Microbiology & Immunology"
       ],
       "subjects": [
         "Science"
@@ -4746,103 +2494,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53552472215656:53552472215657",
-      "title": "Celebrating 75 years of Stanford Dermatology, and 18th Annual Rodan and Fields Lecture",
-      "start": "2026-11-12T15:00:00-08:00",
-      "end": "2026-11-12T19:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Department of Dermatology"
-      ],
-      "subjects": [
-        "Medicine"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Cardinal Hall",
-      "room": "104/105",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/celebrating-75-years-of-stanford-dermatology",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfItwM04YPiBLLOWw4OovdjGk9I8wGTtkVzHE9j1yHO6WASRw/viewform",
-      "calendarUrl": "https://events.stanford.edu/event/celebrating-75-years-of-stanford-dermatology.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54161263753646:54161263754671",
-      "title": "Delivering Humanitarian Aid in a Contested World",
-      "start": "2026-11-12T16:00:00-08:00",
-      "end": "2026-11-12T18:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Center on Democracy, Development and the Rule of Law",
-        "Freeman Spogli Institute for International Studies"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "International Affairs",
-        "Law/Public Policy/Politics",
-        "Medicine",
-        "Social Justice/Human Rights",
-        "Public Service/Government"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Encina Hall",
-      "room": "Bechtel Conference Center",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/delivering-humanitarian-aid-in-a-contested-world",
-      "registrationUrl": "https://app.smartsheet.com/b/form/01a0872afab87e4fb63479be86ac5f29",
-      "calendarUrl": "https://events.stanford.edu/event/delivering-humanitarian-aid-in-a-contested-world.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54112511033941:54112511034966",
-      "title": "Making Letters: Typography Across Hand, Screen, and Loom",
-      "start": "2026-11-12T16:30:00-08:00",
-      "end": "2026-11-12T18:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Program in Science, Technology, and Society"
-      ],
-      "subjects": [
-        "Arts/Media",
-        "Engineering/Technology",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/making-letters-typography-across-hand-screen-and-loom",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/making-letters-typography-across-hand-screen-and-loom.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54136301350930:54136301350931",
-      "title": "Shop Smart, Eat Well: Budget-Friendly Grocery Tips, Meal Ideas and Label-Reading Strategies",
-      "start": "2026-11-12T17:00:00-08:00",
-      "end": "",
-      "allDay": false,
-      "departments": [
-        "Stanford Health Library"
-      ],
-      "subjects": [
-        "Health/Wellness",
-        "Medicine"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "",
-      "room": "",
-      "experience": "virtual",
-      "url": "https://events.stanford.edu/event/shop-smart-eat-well-budget-friendly-grocery-tips-meal-ideas-and-label-reading-strategies",
-      "registrationUrl": "https://healthlibrary.stanford.edu/lectures-events.html#shop-smart",
-      "calendarUrl": "https://events.stanford.edu/event/shop-smart-eat-well-budget-friendly-grocery-tips-meal-ideas-and-label-reading-strategies.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53922734404263:53922734613216",
       "title": "Big Earth Hackathon: Wildland Fire Challenge",
       "start": "2026-11-16T00:00:00-08:00",
@@ -4912,28 +2563,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54118168357981:54118632520013",
-      "title": "The Dangers of Focusing on the Danger of Digital Media Use",
-      "start": "2026-11-17T12:00:00-08:00",
-      "end": "2026-11-17T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Tech Impact and Policy Center"
-      ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Building 120, McClatchy Hall, Main Quad",
-      "room": "Studio S40 - bring your Stanford ID card/mobile ID to enter the building",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/the-dangers-of-focusing-on-the-danger-of-digital-media-use-1377",
-      "registrationUrl": "https://cvent.me/VE7w48",
-      "calendarUrl": "https://events.stanford.edu/event/the-dangers-of-focusing-on-the-danger-of-digital-media-use-1377.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53922734404263:53922734621410",
       "title": "Big Earth Hackathon: Wildland Fire Challenge",
       "start": "2026-11-18T00:00:00-08:00",
@@ -4975,31 +2604,6 @@
       "url": "https://events.stanford.edu/event/hai-seminar-with-mike-wooldridge-the-ai-100",
       "registrationUrl": "https://hai.stanford.edu/events/mike-wooldridge-the-ai-100",
       "calendarUrl": "https://events.stanford.edu/event/hai-seminar-with-mike-wooldridge-the-ai-100.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54124995975177:54124995976202",
-      "title": "The Greek and Arabic Reception of Ptolemy's Almagest between the 7th and 9th Centuries | Maria Mavroudi",
-      "start": "2026-11-18T12:00:00-08:00",
-      "end": "2026-11-18T13:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Abbasi Program in Islamic Studies",
-        "History Department",
-        "Program in History and Philosophy of Science and Technology"
-      ],
-      "subjects": [
-        "Humanities",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Encina Commons",
-      "room": "123",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/ptolemys-almagest",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSffd2KijnqGN3E334Z5Fqh8TiOsYLtGjmXtfssGV8jcerexbQ/viewform?usp=header",
-      "calendarUrl": "https://events.stanford.edu/event/ptolemys-almagest.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -5093,69 +2697,13 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54098980338814:54098980339839",
-      "title": "Bones, Borders, and Black Mirrors: Can Justice Outlive Colonialism?",
-      "start": "2026-11-19T16:30:00-08:00",
-      "end": "2026-11-19T17:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Institute for Advancing Just Societies",
-        "African & African American Studies",
-        "Center for Comparative Studies in Race and Ethnicity",
-        "Center for Latin American Studies",
-        "Department of Anthropology",
-        "Stanford King Center on Global Development",
-        "Office of the Vice President for the Arts"
-      ],
-      "subjects": [
-        "Arts/Media",
-        "Environment/Sustainability",
-        "International Affairs",
-        "Law/Public Policy/Politics",
-        "Social Justice/Human Rights"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Alumni Center",
-      "room": "Fisher Conference Center: Lane/Lyons/Lodato",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/bones-borders-and-black-mirrors-can-justice-outlive-colonialism",
-      "registrationUrl": "https://cvent.me/eLOL30",
-      "calendarUrl": "https://events.stanford.edu/event/bones-borders-and-black-mirrors-can-justice-outlive-colonialism.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53251196124368:53251196125393",
-      "title": "Holly Herndon & Mat Dryhurst: Protocol Art",
-      "start": "2026-11-19T17:30:00-08:00",
-      "end": "2026-11-19T19:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Department of Art & Art History"
-      ],
-      "subjects": [
-        "Arts/Media",
-        "Engineering/Technology"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "McMurtry Building",
-      "room": "Oshman Hall",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/studio-lecture-series-holly-herndon-mat-dryhurst",
-      "registrationUrl": "https://hollyherndonxmatdryhurst.eventbrite.com",
-      "calendarUrl": "https://events.stanford.edu/event/studio-lecture-series-holly-herndon-mat-dryhurst.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53568097625161:53568097626186",
       "title": "Living Minerals: Nature, Trade and Power in the Race for Lithium",
       "start": "2026-11-20T13:30:00-08:00",
       "end": "",
       "allDay": false,
       "departments": [
-        "Environment/Sustainability",
-        "Center for Latin American Studies"
+        "Environment/Sustainability"
       ],
       "subjects": [
         "Environment/Sustainability"
@@ -5371,31 +2919,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "53949492427776:53949492427777",
-      "title": "Book Event with Roland Betancourt and T.L. Taylor, \"Disneyland and the Rise of Automation\"",
-      "start": "2026-12-02T16:30:00-08:00",
-      "end": "2026-12-02T17:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford University Libraries"
-      ],
-      "subjects": [
-        "Arts/Media",
-        "Business",
-        "Engineering/Technology",
-        "Humanities"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Green Library, Bing Wing",
-      "room": "122",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/book-event-with-roland-betancourt-and-tl-taylor-disneyland-and-the-rise-of-automation",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdIh4Oe5gc56WhNKyXZ0kvVtQiTgrdns8_WbXFBcnrHAQGhDQ/viewform?usp=publish-editor",
-      "calendarUrl": "https://events.stanford.edu/event/book-event-with-roland-betancourt-and-tl-taylor-disneyland-and-the-rise-of-automation.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "54045909958926:54045922903666",
