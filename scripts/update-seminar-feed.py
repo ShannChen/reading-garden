@@ -1,4 +1,4 @@
-"""Public Stanford STEM talks: central calendar plus departmental schedules."""
+"""Public Stanford life sciences and medicine talks: central calendar plus departmental schedules."""
 import concurrent.futures as futures
 import datetime as dt
 import hashlib
@@ -15,19 +15,15 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 API = 'https://events.stanford.edu/api/2/'
 TZ = ZoneInfo('America/Los_Angeles')
-STEM = re.compile(r'biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|chemistry|chemical|physics|mathematics|statistics|computer science|engineering|earth|geophys|geolog|oceans|energy|environment|sustainab|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|data science|artificial intelligence|human-centered artificial|human performance|bio-x|chem-h|slac|materials science', re.I)
+STEM = re.compile(r'biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology', re.I)
 TALK = re.compile(r'seminar|colloqui|lecture|grand rounds|research talk|presentation', re.I)
 EXCLUDE = re.compile(r'library|career|recreation|wellness|alumni|admissions|student services|humanities|contemplation|continuing medical education|environmental health and safety', re.I)
 NON_RESEARCH = re.compile(r'CPR|first aid|certification class|guided meditation|guided practice|yoga|fitness|retreat|contemplation by design|CBD \d{4}|teaching statement|information session|info session',re.I)
 DEPARTMENT_PAGES = [
     {'id':'page-chemistry','name':'Chemistry','url':'https://chemistry.stanford.edu/events/upcoming-events'},
     {'id':'page-biology','name':'Biology','url':'https://biology.stanford.edu/news-events/upcoming-events'},
-    {'id':'page-physics','name':'Physics / Applied Physics','url':'https://physics.stanford.edu/news-events/upcoming-events'},
     {'id':'page-biochemistry','name':'Biochemistry','url':'https://biochemistry.stanford.edu/events'},
     {'id':'page-microimmuno','name':'Microbiology & Immunology','url':'https://med.stanford.edu/microimmuno/seminars-and-events/wed-seminars.html','table':True},
-    {'id':'page-mathematics','name':'Mathematics','url':'https://mathematics.stanford.edu/events/upcoming-events'},
-    {'id':'page-statistics','name':'Statistics','url':'https://statistics.stanford.edu/seminars-events/all-upcoming-events'},
-    {'id':'page-cs','name':'Computer Science','url':'https://www.cs.stanford.edu/events'},
 ]
 
 def plain(value):
@@ -71,7 +67,7 @@ def event_rows(event, now, horizon):
     types=[x.get('name','') for x in filters.get('event_types',[])]
     departments=[plain(x.get('name')) for x in e.get('departments',[]) if x.get('name')]
     title=plain(e.get('title'))
-    science=any(STEM.search(x) and not EXCLUDE.search(x) for x in departments) or (not departments and any(x in ['Science','Engineering/Technology','Medicine','Environment/Sustainability'] for x in subjects))
+    science=any(STEM.search(x) and not EXCLUDE.search(x) for x in departments) or (bool(STEM.search(title)) and not any(EXCLUDE.search(x) for x in departments))
     talk=any(x in ['Class/Seminar','Lecture/Presentation/Talk'] for x in types) or bool(TALK.search(title))
     if not science or not talk or not title or NON_RESEARCH.search(title):return []
     url=safe_url(e.get('localist_url'))
@@ -254,13 +250,13 @@ def collect(now=None,loader=get,previous=None):
         for source,data in pool.map(read_page,DEPARTMENT_PAGES):
             sources.append(source);rows.extend(data)
             if source['status']!='checked':rows.extend(dict(r,sourceStatus='saved') for r in previous.get('events',[]) if r.get('sourceId')==source['id'])
-    events=deduplicate(rows)
+    events=deduplicate([r for r in rows if STEM.search(' '.join([r['title'],*r.get('departments',[])]))])
     return {'version':1,'checkedAt':now.isoformat(),'windowDays':90,'timezone':'America/Los_Angeles','partial':any(s['status']!='checked' for s in sources),'sources':sources,'departments':departments,'events':events}
 
 if __name__=='__main__':
     path=ROOT/'data/seminar-feed.json'
     previous=json.loads(path.read_text()) if path.exists() else {}
     data=collect(previous=previous);path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
-    print('Collected',len(data['events']),'upcoming STEM talks;',len(data['departments']),'directory entries')
+    print('Collected',len(data['events']),'upcoming life sciences and medicine talks;',len(data['departments']),'directory entries')
     print('Sources:',json.dumps(data['sources']))
     print('Sample:',json.dumps([{k:e.get(k) for k in ['title','start','departments']} for e in data['events'][:6]]))

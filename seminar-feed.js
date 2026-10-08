@@ -5,18 +5,40 @@
   const safe=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';}catch{return '';}};
   const valid=d=>d?.version===1&&Array.isArray(d.events)&&d.events.length<=20000&&Array.isArray(d.sources)&&Array.isArray(d.departments)&&d.events.every(e=>typeof e.title==='string'&&typeof e.start==='string'&&Number.isFinite(Date.parse(e.start))&&Array.isArray(e.departments)&&e.departments.every(x=>typeof x==='string')&&!!safe(e.url));
   const dateKey=d=>d.toLocaleDateString('sv-SE',{timeZone:'America/Los_Angeles'});
+  function departmentKey(name){
+    const key=String(name||'').trim().toLowerCase().replace(/^stanford\s+/,'').replace(/^department\s+of\s+/,'').replace(/\s+department$/,'').replace(/&/g,'and').replace(/\s+/g,' ');
+    return ['physics','physics / applied physics','applied physics/physics colloquium'].includes(key)?'physics':key;
+  }
+  function upcoming(e,now,days){
+    const today=dateKey(now),until=new Date(today+'T00:00:00Z');until.setUTCDate(until.getUTCDate()+days);const day=e.start.length===10?e.start:dateKey(new Date(e.start));
+    return day>=today&&day<until.toISOString().slice(0,10)&&(e.allDay||Date.parse(e.end||e.start)>=now.getTime());
+  }
+  const lifeScience=/biolog|biochem|biomed|bioengineer|genetic|genomic|microb|immun|neuro|medicine|medical|cancer|oncolog|patholog|radiolog|pediatr|pharmacol|cardiovasc|stem cell|developmental|bio-x|chem-h|chemh|human performance|health|psychiatr|psycholog|surgery|surgical|dermatolog|anesthes|urolog|ophthalm|otolaryng|obstetric|gynecolog|metabol|proteom|exposom|drug discovery|chemical biology|structural biology/i;
+  const inScope=e=>lifeScience.test([e.title,...e.departments].join(' '));
+  const relevantSource=s=>!s.id.startsWith('page-')||lifeScience.test(s.name)||s.id==='page-chemistry';
+  const belongs=(e,name)=>e.departments.some(d=>departmentKey(d)===departmentKey(name));
   function rows(now=new Date()){
-    const today=dateKey(now),until=new Date(today+'T00:00:00Z');until.setUTCDate(until.getUTCDate()+Number(el('seminarRange').value||30));const last=until.toISOString().slice(0,10),q=el('seminarSearch').value.trim().toLowerCase(),department=el('seminarDepartment').value;
+    const days=Number(el('seminarRange').value||30),q=el('seminarSearch').value.trim().toLowerCase(),department=el('seminarDepartment').value;
     return (feed?.events||[]).filter(e=>{
-      const day=e.start.length===10?e.start:dateKey(new Date(e.start));
-      const stillUpcoming=e.allDay||Date.parse(e.end||e.start)>=now.getTime();
-      return day>=today&&day<last&&stillUpcoming&&(!department||e.departments.includes(department))&&[e.title,e.speaker,e.institution,e.location,...e.departments].join(' ').toLowerCase().includes(q);
+      return inScope(e)&&upcoming(e,now,days)&&(!department||belongs(e,department))&&[e.title,e.speaker,e.institution,e.location,...e.departments].join(' ').toLowerCase().includes(q);
     }).sort((a,b)=>a.start.localeCompare(b.start)||a.title.localeCompare(b.title));
   }
   function updateDepartments(){
-    const selected=el('seminarDepartment').value,names=[...new Set([...(feed?.departments||[]).map(d=>d.name),...(feed?.sources||[]).filter(s=>s.id.startsWith('page-')).map(s=>s.name),...(feed?.events||[]).flatMap(e=>e.departments)])].sort();
-    el('seminarDepartment').innerHTML='<option value="">All departments</option>'+names.map(name=>'<option value="'+esc(name)+'">'+esc(name)+'</option>').join('');
-    el('seminarDepartment').value=names.includes(selected)?selected:'';
+    const selected=departmentKey(el('seminarDepartment').value),options=new Map(),now=new Date(),days=Number(el('seminarRange').value||30);
+    // A directory entry alone is not evidence that its seminars are collected.
+    for(const name of [...(feed?.sources||[]).filter(s=>s.id.startsWith('page-')&&relevantSource(s)).map(s=>s.name),...(feed?.events||[]).filter(inScope).flatMap(e=>e.departments)])if(!options.has(departmentKey(name)))options.set(departmentKey(name),name);
+    el('seminarDepartment').innerHTML='<option value="">All departments</option>'+[...options].sort((a,b)=>a[1].localeCompare(b[1])).map(([key,name])=>{
+      const count=(feed?.events||[]).filter(e=>inScope(e)&&belongs(e,key)&&upcoming(e,now,days)).length;
+      return '<option value="'+esc(key)+'">'+esc(name)+' ('+count+')</option>';
+    }).join('');
+    el('seminarDepartment').value=options.has(selected)?selected:'';
+  }
+  function emptyState(){
+    if(loading&&!feed)return '<div class="empty"><h2>Loading Stanford seminars…</h2></div>';
+    const selected=el('seminarDepartment').value,all=(feed?.events||[]).filter(e=>inScope(e)&&(!selected||belongs(e,selected))&&upcoming(e,new Date(),90));
+    const source=(feed?.sources||[]).find(s=>departmentKey(s.name)===departmentKey(selected));
+    if(selected&&!all.length&&source&&source.status!=='checked')return '<div class="empty"><h2>This department’s schedule is not available yet</h2><p>The official page could not be fully read. This does not mean there are no seminars. Use Department calendar above to check the official schedule.</p></div>';
+    return '<div class="empty"><h2>No listed talks match these filters</h2><p>'+(all.length?'Talks are listed within the next 90 days. Widen the date range and clear the search to see them.':'No upcoming talks are currently collected here. Check the official calendar; additional talks may not be included.')+'</p>'+(all.length?'<button type="button" id="seminarWiden" class="secondary">Show next 90 days</button>':'')+'</div>';
   }
   function when(e){
     if(e.start.length===10||e.allDay)return e.start.slice(0,10)+' · Time to be confirmed';
@@ -31,11 +53,12 @@
     const events=rows();page=Math.min(page,Math.max(0,Math.ceil(events.length/30)-1));
     el('seminarChecked').textContent=(!feed?.checkedAt?'Waiting for the first automatic source check.':'Last source check '+new Date(feed.checkedAt).toLocaleString('en-US'))+(failed?' · Latest feed unavailable; showing saved schedule.':'')+(feed?.partial?' · Some sources need checking; coverage is incomplete.':'');
     el('seminarCount').textContent=events.length+' upcoming talks · Stanford time (Pacific)';
-    el('seminarCards').innerHTML=events.length?events.slice(page*30,(page+1)*30).map(card).join(''):'<div class="empty"><h2>'+(loading&&!feed?'Loading Stanford seminars…':'No listed talks match these filters')+'</h2><p>Try all departments or a wider date range. An empty result does not mean a department has no seminars; check its official calendar.</p></div>';
+    el('seminarCards').innerHTML=events.length?events.slice(page*30,(page+1)*30).map(card).join(''):emptyState();
+    const widen=document.getElementById('seminarWiden');if(widen)widen.onclick=()=>{el('seminarRange').value='90';el('seminarSearch').value='';page=0;updateDepartments();renderSeminars();};
     el('seminarPage').textContent='Page '+(page+1)+' of '+Math.max(1,Math.ceil(events.length/30));el('seminarPagination').hidden=events.length<=30;el('seminarPrevious').disabled=page===0;el('seminarNext').disabled=(page+1)*30>=events.length;
-    el('seminarSources').innerHTML=(feed?.sources||[]).map(s=>'<li><a href="'+esc(safe(s.url))+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+'</a> · <span>'+(s.status==='checked'?'Checked':'Source check incomplete')+'</span></li>').join('');
+    el('seminarSources').innerHTML=(feed?.sources||[]).filter(relevantSource).map(s=>'<li><a href="'+esc(safe(s.url))+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+'</a> · <span>'+(s.status==='checked'?'Checked':'Source check incomplete')+'</span></li>').join('');
     const selected=el('seminarDepartment').value;
-    el('seminarDepartmentLink').hidden=!selected;const entry=(feed?.departments||[]).find(d=>d.name===selected),source=(feed?.sources||[]).find(d=>d.name===selected);
+    el('seminarDepartmentLink').hidden=!selected;const entry=(feed?.departments||[]).find(d=>departmentKey(d.name)===departmentKey(selected)),source=(feed?.sources||[]).find(d=>departmentKey(d.name)===departmentKey(selected));
     el('seminarDepartmentLink').href=safe(source?.url||entry?.url)||'https://events.stanford.edu/';
   }
   async function refresh(){
@@ -50,9 +73,9 @@
   try{const cached=JSON.parse(localStorage.getItem(cacheKey)||'null');if(valid(cached))feed=cached;}catch{}
   updateDepartments();const previousRender=render;render=function(){previousRender();renderSeminars();};
   el('seminarNav').onclick=()=>{view='seminars';render();refresh();};
-  for(const id of ['seminarSearch','seminarRange','seminarDepartment'])el(id).addEventListener(id==='seminarSearch'?'input':'change',()=>{page=0;renderSeminars();});
+  for(const id of ['seminarSearch','seminarRange','seminarDepartment'])el(id).addEventListener(id==='seminarSearch'?'input':'change',()=>{page=0;if(id==='seminarRange')updateDepartments();renderSeminars();});
   el('seminarPrevious').onclick=()=>{page=Math.max(0,page-1);renderSeminars();};el('seminarNext').onclick=()=>{page++;renderSeminars();};
   document.addEventListener('visibilitychange',()=>{if(!document.hidden&&view==='seminars')refresh();});
   addEventListener('online',()=>{if(view==='seminars'){lastAttempt=0;refresh();}});setInterval(()=>{if(!document.hidden&&view==='seminars')refresh();},600000);
-  window.ReadingGardenSeminars={valid,rows};renderSeminars();
+  window.ReadingGardenSeminars={valid,rows,departmentKey,inScope};renderSeminars();
 })();

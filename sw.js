@@ -1,5 +1,5 @@
-const CACHE = 'reading-garden-20261008-stanford-seminars-v58';
-const ASSETS = ['./', './index.html', './seminar-feed.js?v=20261008-58', './data/seminar-feed.json', './ui-language.js?v=20261008-58', './nih-reporter.js?v=20261008-58', './funding-feed.js?v=20261008-58', './data/funding-feed.json', './book-lookup.js?v=20261008-58', './sync-core.js?v=20261008-58', './cloud-sync.js?v=20261008-58', './paper-feed.js?v=20261008-58', './pubmed-feed.js?v=20261008-58', './journal-lookup.js?v=20261008-58', './feed-preferences.js?v=20261008-58', './people-core.js?v=20261008-58', './people.js?v=20261008-58', './404.html', './manifest.webmanifest',
+const CACHE = 'reading-garden-20261008-stanford-seminars-v59';
+const ASSETS = ['./', './index.html', './seminar-feed.js?v=20261008-59', './data/seminar-feed.json', './ui-language.js?v=20261008-59', './nih-reporter.js?v=20261008-59', './funding-feed.js?v=20261008-59', './data/funding-feed.json', './book-lookup.js?v=20261008-59', './sync-core.js?v=20261008-59', './cloud-sync.js?v=20261008-59', './paper-feed.js?v=20261008-59', './pubmed-feed.js?v=20261008-59', './journal-lookup.js?v=20261008-59', './feed-preferences.js?v=20261008-59', './people-core.js?v=20261008-59', './people.js?v=20261008-59', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
