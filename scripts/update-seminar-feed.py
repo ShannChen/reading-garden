@@ -123,6 +123,30 @@ class Schedule(HTMLParser):
             if self.head:self.current['title'].append(data)
         if self.cell is not None:self.cell.append(data)
 
+class EventLinks(HTMLParser):
+    """Read dated event detail links when a listing only displays month/day."""
+    def __init__(self):super().__init__();self.heading=0;self.link=None;self.items=[]
+    def handle_starttag(self,tag,attrs):
+        if tag in ['h2','h3','h4']:self.heading+=1
+        if tag=='a' and self.heading:self.link={'url':dict(attrs).get('href',''),'text':[]}
+    def handle_data(self,data):
+        if self.link:self.link['text'].append(data)
+    def handle_endtag(self,tag):
+        if tag=='a' and self.link:
+            title=plain(' '.join(self.link['text']))
+            if TALK.search(title):self.items.append((self.link['url'],title))
+            self.link=None
+        if tag in ['h2','h3','h4']:self.heading=max(0,self.heading-1)
+
+def detail_row(source,url,title,body,now,horizon):
+    main=re.search(r'<main\b[^>]*>(.*?)</main>',body,re.S|re.I)
+    content=main[1] if main else body
+    content=re.sub(r'<(?:script|style)\b[^>]*>.*?</(?:script|style)>','',content,flags=re.S|re.I)
+    # The actual event page supplies the year and time; never infer them from a
+    # month/day listing or from the collector's current year.
+    fake='<article><h2><a href="'+html.escape(url,quote=True)+'">'+html.escape(title)+'</a></h2><p>'+html.escape(plain(content))+'</p></article>'
+    return parse_page(source,fake,now,horizon)
+
 def parse_page(source, body, now, horizon):
     parsed=Schedule();parsed.feed(body);rows=[]
     if source.get('table'):
@@ -204,17 +228,27 @@ def collect(now=None,loader=get,previous=None):
         sources.append({'id':'stanford-directory','name':'Stanford department directory','url':'https://events.stanford.edu/department','status':'unavailable','count':0})
     def read_page(source):
         try:
-            data=[];count=0;url=source['url'];visited=set()
+            data=[];count=0;url=source['url'];visited=set();details_seen=set();limited=False
             for _ in range(10):
                 if not url or url in visited:break
                 visited.add(url);body=loader(url,False);batch,recognized=parse_page(source,body,now,horizon);data.extend(batch);count+=recognized
+                links=EventLinks();links.feed(body)
+                known={r['url'] for r in data}
+                for href,title in links.items:
+                    target=urllib.parse.urljoin(url,href)
+                    if target in known or target in details_seen or urllib.parse.urlparse(target).netloc!=urllib.parse.urlparse(source['url']).netloc:continue
+                    if len(details_seen)>=40:limited=True;break
+                    details_seen.add(target)
+                    try:
+                        extra,seen=detail_row(source,target,title,loader(target,False),now,horizon);data.extend(extra);count+=seen
+                    except Exception:limited=True
                 paging=Schedule();paging.feed(body)
                 next_url=urllib.parse.urljoin(url,paging.next_page) if paging.next_page else ''
                 # Only follow this same department listing's explicit next page.
                 if urllib.parse.urlparse(next_url).netloc!=urllib.parse.urlparse(source['url']).netloc or urllib.parse.urlparse(next_url).path!=urllib.parse.urlparse(source['url']).path:break
                 url=next_url
             # Empty/unrecognized page is not evidence that there are no seminars.
-            return dict(source,status='checked' if count else 'unparsed',count=len(data)),data
+            return dict(source,status='partial' if limited else 'checked' if count else 'unparsed',count=len(data)),data
         except Exception:return dict(source,status='unavailable',count=0),[]
     with futures.ThreadPoolExecutor(max_workers=3) as pool:
         for source,data in pool.map(read_page,DEPARTMENT_PAGES):

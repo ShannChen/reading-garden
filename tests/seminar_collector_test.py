@@ -35,6 +35,9 @@ class TestSeminars(unittest.TestCase):
     def test_drupal_card_with_nested_image_article(self):
         body='<article class="flexible-page"><nav><h2>Menu</h2></nav><div class="hb-card"><article class="hb-media-image"><img src="x"></article><h2><a href="/events/talk">Physics Colloquium</a></h2><p>Friday, October 9, 2026. 4:00pm - 5:00pm</p></div></article>'
         rows,count=m.parse_page(m.DEPARTMENT_PAGES[2],body,NOW,NOW+dt.timedelta(days=90));self.assertEqual(count,1);self.assertEqual(rows[0]['title'],'Physics Colloquium');self.assertEqual(rows[0]['start'],'2026-10-09T16:00:00-07:00')
+    def test_detail_link_uses_actual_published_year(self):
+        p=m.EventLinks();p.feed('<nav><a href="/seminars">Seminars</a></nav><h3><a href="/events/probability">Probability Seminar</a></h3>');self.assertEqual(p.items,[('/events/probability','Probability Seminar')])
+        rows,count=m.detail_row(m.DEPARTMENT_PAGES[0],'https://chemistry.stanford.edu/events/talk','Chemistry Seminar','<main><h1>Chemistry Seminar</h1><p>Date: Friday, October 9, 2026. 3:00pm - 4:00pm</p></main>',NOW,NOW+dt.timedelta(days=90));self.assertEqual(rows[0]['url'],'https://chemistry.stanford.edu/events/talk');self.assertEqual(rows[0]['start'],'2026-10-09T15:00:00-07:00')
     def test_failure_retains_last_known_instead_of_false_empty(self):
         def loader(*args):raise OSError('offline')
         previous={'events':m.event_rows(self.event(),NOW,NOW+dt.timedelta(days=90))}
