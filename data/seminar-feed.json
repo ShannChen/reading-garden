@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T12:32:02.770200-07:00",
+  "checkedAt": "2026-10-08T12:34:14.938127-07:00",
   "windowDays": 90,
   "timezone": "America/Los_Angeles",
   "partial": true,
@@ -40,6 +40,13 @@
       "table": true,
       "status": "checked",
       "count": 2
+    },
+    {
+      "id": "page-cee",
+      "name": "Civil & Environmental Engineering",
+      "url": "https://cee.stanford.edu/events",
+      "status": "checked",
+      "count": 1
     }
   ],
   "departments": [
@@ -99,11 +106,6 @@
       "url": "https://aimi.stanford.edu"
     },
     {
-      "id": "37955140052644",
-      "name": "Center for Asian Health Research and Education",
-      "url": "https://med.stanford.edu/care"
-    },
-    {
       "id": "37955140092588",
       "name": "Center for Cancer Nanotechnology Excellence and Translation",
       "url": ""
@@ -157,6 +159,11 @@
       "id": "37955140573958",
       "name": "Chemical & Systems Biology",
       "url": "https://chemsysbio.stanford.edu/"
+    },
+    {
+      "id": "37955140606732",
+      "name": "Civil and Environmental Engineering",
+      "url": "https://cee.stanford.edu"
     },
     {
       "id": "37955140644626",
@@ -317,6 +324,11 @@
       "id": "41009359887769",
       "name": "Dunlevie Maternal-Fetal Medicine Center",
       "url": "https://dunleviemfm.stanford.edu/"
+    },
+    {
+      "id": "37955141582794",
+      "name": "Environmental Engineering & Science, CEE",
+      "url": ""
     },
     {
       "id": "37955142192192",
@@ -838,6 +850,30 @@
       "sourceStatus": "checked"
     },
     {
+      "id": "54045789572264:54045789573289",
+      "title": "Shimizu Distinguished Lecture - Bob Pragada: \"From Disruption to Opportunity\"",
+      "start": "2026-10-19T16:30:00-07:00",
+      "end": "2026-10-19T17:30:00-07:00",
+      "allDay": false,
+      "departments": [
+        "Civil and Environmental Engineering",
+        "Civil & Environmental Engineering"
+      ],
+      "subjects": [
+        "Business",
+        "Engineering/Technology"
+      ],
+      "kind": "Lecture/Presentation/Talk",
+      "location": "Stanford ChEM-H Building",
+      "room": "E241 - Gunn Rotunda",
+      "experience": "inperson",
+      "url": "https://events.stanford.edu/event/shimizu-distinguished-lecture-bob-pragada",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/shimizu-distinguished-lecture-bob-pragada.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
       "id": "54138556327672:54138556328697",
       "title": "OCD Awareness Event",
       "start": "2026-10-19T17:30:00-07:00",
@@ -950,29 +986,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "53745818123158:53745818123159",
-      "title": "Universal Human Psychology, \"Bani Adam,\" and Our Omnicultural Future",
-      "start": "2026-10-22T18:30:00-07:00",
-      "end": "2026-10-22T20:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Hamid and Christina Moghadam Program in Iranian Studies"
-      ],
-      "subjects": [
-        "Humanities",
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "In person at Stanford",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/bani-adam-universal-human-psychology-and-our-omnicultural-future",
-      "registrationUrl": "https://forms.gle/VAutrecP5KwC3VDM7",
-      "calendarUrl": "https://events.stanford.edu/event/bani-adam-universal-human-psychology-and-our-omnicultural-future.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "53975524031896:53975524031897",
@@ -1267,24 +1280,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53809587119188:53809587119189",
-      "title": "Medicine Grand Rounds with Bryant Lin, MD",
-      "start": "2026-11-11T12:00:00-08:00",
-      "end": "2026-11-11T13:00:00-08:00",
-      "allDay": false,
-      "departments": [],
-      "subjects": [],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Li Ka Shing Center",
-      "room": "Berg Hall",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/medicine-grand-rounds-with-bryant-lin-md",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-with-bryant-lin-md.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "id": "53700432901791:53700432901792",
       "title": "Microbiology & Immunology Wednesday Seminar: Christopher Sassetti - \"Decoding Inter-Individual Variation in Infectious Disease\"",
       "start": "2026-11-11T12:30:00-08:00",
@@ -1522,24 +1517,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53809600871428:53809600871429",
-      "title": "Medicine Grand Rounds with Sharon Inouye, MD, MPH",
-      "start": "2026-12-02T12:00:00-08:00",
-      "end": "2026-12-02T13:00:00-08:00",
-      "allDay": false,
-      "departments": [],
-      "subjects": [],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Li Ka Shing Center",
-      "room": "Berg Hall",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/medicine-grand-rounds-with-sharon-inouye-md-mph",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-with-sharon-inouye-md-mph.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
       "title": "Frontiers in Biology: Jacob Hanna, Weizmann Inst. | \"Quantitative embryology for the study of developmental variation\"",
       "start": "2026-12-02T16:00:00-08:00",
       "end": "2026-12-02T17:00:00-08:00",
@@ -1560,6 +1537,28 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
+    },
+    {
+      "id": "54065599198708:54065599199733",
+      "title": "Biology Seminar Series - Suliana Manley \"Compartmentalizing and connecting the mitochondrial collective\"",
+      "start": "2026-12-07T16:00:00-08:00",
+      "end": "2026-12-07T17:00:00-08:00",
+      "allDay": false,
+      "departments": [
+        "Department of Biology"
+      ],
+      "subjects": [
+        "Science"
+      ],
+      "kind": "Class/Seminar",
+      "location": "Stanford ChEM-H Building",
+      "room": "ChEM-H Auditorium",
+      "experience": "inperson",
+      "url": "https://events.stanford.edu/event/biology-seminar-series-suliana-manley-compartmentalizing-and-connecting-the-mitochondrial-collective",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/biology-seminar-series-suliana-manley-compartmentalizing-and-connecting-the-mitochondrial-collective.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
     },
     {
       "id": "54075306938802:54075329251149",
