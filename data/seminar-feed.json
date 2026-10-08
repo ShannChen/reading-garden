@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T12:10:44.124646-07:00",
+  "checkedAt": "2026-10-08T12:13:04.759444-07:00",
   "windowDays": 90,
   "timezone": "America/Los_Angeles",
   "partial": true,
@@ -47,6 +47,27 @@
       "table": true,
       "status": "checked",
       "count": 2
+    },
+    {
+      "id": "page-mathematics",
+      "name": "Mathematics",
+      "url": "https://mathematics.stanford.edu/events/upcoming-events",
+      "status": "unparsed",
+      "count": 0
+    },
+    {
+      "id": "page-statistics",
+      "name": "Statistics",
+      "url": "https://statistics.stanford.edu/seminars-events/all-upcoming-events",
+      "status": "unparsed",
+      "count": 0
+    },
+    {
+      "id": "page-cs",
+      "name": "Computer Science",
+      "url": "https://www.cs.stanford.edu/events",
+      "status": "checked",
+      "count": 7
     }
   ],
   "departments": [
@@ -1495,7 +1516,8 @@
       "allDay": false,
       "departments": [
         "Wu Tsai Neurosciences Institute",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+        "Computer Science"
       ],
       "subjects": [
         "Health/Wellness",
@@ -1639,7 +1661,8 @@
       "allDay": false,
       "departments": [
         "Stanford Data Science",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+        "Computer Science"
       ],
       "subjects": [
         "Engineering/Technology"
@@ -2112,7 +2135,8 @@
       "end": "2026-11-04T13:15:00-08:00",
       "allDay": false,
       "departments": [
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+        "Computer Science"
       ],
       "subjects": [
         "Engineering/Technology"
@@ -2315,7 +2339,8 @@
       "allDay": false,
       "departments": [
         "Wu Tsai Neurosciences Institute",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+        "Computer Science"
       ],
       "subjects": [
         "Health/Wellness",
@@ -2614,7 +2639,8 @@
       "end": "2026-11-18T13:15:00-08:00",
       "allDay": false,
       "departments": [
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+        "Computer Science"
       ],
       "subjects": [
         "Engineering/Technology"
@@ -3040,7 +3066,8 @@
       "allDay": false,
       "departments": [
         "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Stanford Public Humanities"
+        "Stanford Public Humanities",
+        "Computer Science"
       ],
       "subjects": [
         "Engineering/Technology"
@@ -3127,7 +3154,8 @@
       "allDay": false,
       "departments": [
         "Wu Tsai Neurosciences Institute",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
+        "Computer Science"
       ],
       "subjects": [
         "Health/Wellness",
