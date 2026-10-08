@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T12:19:10.271306-07:00",
+  "checkedAt": "2026-10-08T12:27:57.908411-07:00",
   "windowDays": 90,
   "timezone": "America/Los_Angeles",
   "partial": true,
@@ -10,7 +10,7 @@
       "name": "Stanford Events Calendar",
       "url": "https://events.stanford.edu/",
       "status": "checked",
-      "count": 91
+      "count": 72
     },
     {
       "id": "page-chemistry",
@@ -27,13 +27,6 @@
       "count": 0
     },
     {
-      "id": "page-physics",
-      "name": "Physics / Applied Physics",
-      "url": "https://physics.stanford.edu/news-events/upcoming-events",
-      "status": "checked",
-      "count": 3
-    },
-    {
       "id": "page-biochemistry",
       "name": "Biochemistry",
       "url": "https://biochemistry.stanford.edu/events",
@@ -47,27 +40,6 @@
       "table": true,
       "status": "checked",
       "count": 2
-    },
-    {
-      "id": "page-mathematics",
-      "name": "Mathematics",
-      "url": "https://mathematics.stanford.edu/events/upcoming-events",
-      "status": "unparsed",
-      "count": 0
-    },
-    {
-      "id": "page-statistics",
-      "name": "Statistics",
-      "url": "https://statistics.stanford.edu/seminars-events/all-upcoming-events",
-      "status": "unparsed",
-      "count": 0
-    },
-    {
-      "id": "page-cs",
-      "name": "Computer Science",
-      "url": "https://www.cs.stanford.edu/events",
-      "status": "checked",
-      "count": 7
     }
   ],
   "departments": [
@@ -75,11 +47,6 @@
       "id": "37955139440180",
       "name": "Advances in Biomedical Measurement Science",
       "url": ""
-    },
-    {
-      "id": "37955139533382",
-      "name": "Applied Physics/Physics Colloquium",
-      "url": "https://physics.stanford.edu/applied-physicsphysics-colloquium-schedule"
     },
     {
       "id": "37955139635802",
@@ -107,19 +74,9 @@
       "url": "https://bioengineering.stanford.edu"
     },
     {
-      "id": "37955139808886",
-      "name": "Biomechanical Engineering",
-      "url": ""
-    },
-    {
       "id": "37955139819128",
       "name": "Biomedical Computation at Stanford",
       "url": ""
-    },
-    {
-      "id": "37955142298708",
-      "name": "Blume Earthquake Engineering Center",
-      "url": "https://blume.stanford.edu"
     },
     {
       "id": "49402148372288",
@@ -142,6 +99,11 @@
       "url": "https://aimi.stanford.edu"
     },
     {
+      "id": "37955140052644",
+      "name": "Center for Asian Health Research and Education",
+      "url": "https://med.stanford.edu/care"
+    },
+    {
       "id": "37955140092588",
       "name": "Center for Cancer Nanotechnology Excellence and Translation",
       "url": ""
@@ -150,11 +112,6 @@
       "id": "37955140102830",
       "name": "Center for Cognitive and Neurobiological Imaging",
       "url": "https://cni.stanford.edu/"
-    },
-    {
-      "id": "37955140124338",
-      "name": "Center for Computational Earth and Environmental Science",
-      "url": "https://cees.stanford.edu/"
     },
     {
       "id": "37955140135604",
@@ -177,9 +134,24 @@
       "url": "https://med.stanford.edu/cdcm.html"
     },
     {
-      "id": "37955140296402",
-      "name": "Center for Integrated Facility Engineering",
-      "url": ""
+      "id": "37955140176572",
+      "name": "Center for Digital Health",
+      "url": "https://med.stanford.edu/cdh.html"
+    },
+    {
+      "id": "37955140242120",
+      "name": "Center for Healthy Weight",
+      "url": "https://www.healthyweight.lpch.org"
+    },
+    {
+      "id": "53640526701855",
+      "name": "Center for Human and Planetary Health",
+      "url": "https://hph.stanford.edu/"
+    },
+    {
+      "id": "37955140274894",
+      "name": "Center for Innovation in Global Health",
+      "url": "https://globalhealth.stanford.edu/"
     },
     {
       "id": "37955140306644",
@@ -187,54 +159,19 @@
       "url": "https://cirge.stanford.edu/"
     },
     {
-      "id": "52331919951761",
-      "name": "Center for Just Environmental Futures",
-      "url": "https://sustainability.stanford.edu/justenvironmentalfutures"
-    },
-    {
       "id": "43888393343057",
       "name": "Center for Molecular Neuroscience in Health and Disease",
       "url": "https://med.stanford.edu/cmnhd.html"
     },
     {
-      "id": "37955140443884",
-      "name": "Center for Sustainable Development & Global Competitiveness",
-      "url": "https://sdgc.stanford.edu"
-    },
-    {
-      "id": "37955140524796",
-      "name": "Center on Food Security and the Environment",
-      "url": "https://foodsecurity.stanford.edu/"
-    },
-    {
-      "id": "37955140543232",
-      "name": "Change Leadership for Sustainability",
-      "url": "https://sustainabilityleadership.stanford.edu/"
+      "id": "37955140402916",
+      "name": "Center for Population Health Sciences",
+      "url": "https://med.stanford.edu/phs.html"
     },
     {
       "id": "37955140573958",
       "name": "Chemical & Systems Biology",
       "url": "https://chemsysbio.stanford.edu/"
-    },
-    {
-      "id": "37955140587272",
-      "name": "Chemical Engineering",
-      "url": ""
-    },
-    {
-      "id": "37955140597514",
-      "name": "Chemistry Department",
-      "url": ""
-    },
-    {
-      "id": "37955140606732",
-      "name": "Civil and Environmental Engineering",
-      "url": "https://cee.stanford.edu"
-    },
-    {
-      "id": "48285506036101",
-      "name": "Climate and Energy Policy Program",
-      "url": "https://cepp.stanford.edu"
     },
     {
       "id": "37955140644626",
@@ -247,29 +184,29 @@
       "url": "https://cacsf.wordpress.com"
     },
     {
+      "id": "39306276590448",
+      "name": "Community Health and Prevention Research (CHPR)",
+      "url": "https://prevention.stanford.edu/education/chpr.html"
+    },
+    {
       "id": "37955140685594",
       "name": "Comparative Medicine",
       "url": "https://med.stanford.edu/compmed/"
     },
     {
-      "id": "37955140707102",
-      "name": "Computer Science Department",
-      "url": ""
+      "id": "44701945896945",
+      "name": "Counseling and Psychological Services (CAPS), Vaden Health Services",
+      "url": "https://vaden.stanford.edu/caps"
     },
     {
-      "id": "37955140716320",
-      "name": "Computer Science Department, Theory Group",
-      "url": "https://theory.stanford.edu"
+      "id": "37955140883264",
+      "name": "Department of Anesthesiology",
+      "url": "https://med.stanford.edu/anesthesia/education/grand-rounds.html"
     },
     {
       "id": "37955140893506",
       "name": "Department of Anesthesiology, Perioperative and Pain Medicine",
       "url": "https://med.stanford.edu/anesthesia.html"
-    },
-    {
-      "id": "37955140916038",
-      "name": "Department of Applied Physics",
-      "url": "https://appliedphysics.stanford.edu"
     },
     {
       "id": "37955140957006",
@@ -282,19 +219,24 @@
       "url": "https://med.stanford.edu/dbds.html"
     },
     {
-      "id": "37955141025628",
-      "name": "Department of Earth System Science",
-      "url": "https://earthsystemscience.stanford.edu/"
+      "id": "49110307365347",
+      "name": "Department of Cardiothoracic Surgery",
+      "url": "https://med.stanford.edu/ctsurgery.html"
+    },
+    {
+      "id": "37955141007192",
+      "name": "Department of Dermatology",
+      "url": ""
+    },
+    {
+      "id": "37955141071716",
+      "name": "Department of Epidemiology & Population Health",
+      "url": "https://med.stanford.edu/epidemiology-dept.html"
     },
     {
       "id": "37955141092200",
       "name": "Department of Genetics",
       "url": ""
-    },
-    {
-      "id": "37955141137264",
-      "name": "Department of Mathematics",
-      "url": "https://mathematics.stanford.edu/"
     },
     {
       "id": "37955141147506",
@@ -337,9 +279,14 @@
       "url": ""
     },
     {
-      "id": "37955141240708",
-      "name": "Department of Physics",
-      "url": "https://physics.stanford.edu/"
+      "id": "37955141261192",
+      "name": "Department of Psychiatry",
+      "url": ""
+    },
+    {
+      "id": "37955141271434",
+      "name": "Department of Psychology",
+      "url": ""
     },
     {
       "id": "41288505530719",
@@ -357,9 +304,14 @@
       "url": "https://med.stanford.edu/structuralbio.html"
     },
     {
-      "id": "37955141359516",
-      "name": "Design Group, Mechanical Engineering",
-      "url": "https://me.stanford.edu/groups/about-design-group"
+      "id": "37955141331862",
+      "name": "Department of Surgery",
+      "url": "https://surgery.stanford.edu"
+    },
+    {
+      "id": "37955141341080",
+      "name": "Dept of Otolaryngology Head & Neck Surgery",
+      "url": ""
     },
     {
       "id": "37955141371806",
@@ -387,94 +339,14 @@
       "url": "https://dunleviemfm.stanford.edu/"
     },
     {
-      "id": "37955141103466",
-      "name": "Earth & Planetary Sciences",
-      "url": "https://epsci.stanford.edu/"
+      "id": "37955141938192",
+      "name": "Graduate School of Business - Program in Healthcare Innovation",
+      "url": "https://www.gsb.stanford.edu/phi"
     },
     {
-      "id": "37955141461936",
-      "name": "Earth Sciences Program",
-      "url": "https://earthsystemscience.stanford.edu/"
-    },
-    {
-      "id": "37955141471154",
-      "name": "Earth Systems Environmental Communication Program",
-      "url": ""
-    },
-    {
-      "id": "37955141480372",
-      "name": "Earth Systems Program",
-      "url": "https://earthsystems.stanford.edu/"
-    },
-    {
-      "id": "37955141554116",
-      "name": "Electrical Engineering",
-      "url": ""
-    },
-    {
-      "id": "37955141563334",
-      "name": "Emmett Interdisciplinary Program in Environment & Resources",
-      "url": "https://eiper.stanford.edu/"
-    },
-    {
-      "id": "37955141572552",
-      "name": "Energy Science & Engineering",
-      "url": "https://ese.stanford.edu/"
-    },
-    {
-      "id": "39430639958468",
-      "name": "Environmental and Natural Resources Law & Policy",
-      "url": "https://law.stanford.edu/environmental-and-natural-resources-law-policy-program-enrlp/"
-    },
-    {
-      "id": "37955141582794",
-      "name": "Environmental Engineering & Science, CEE",
-      "url": ""
-    },
-    {
-      "id": "37955141593036",
-      "name": "Environmental Fluid Mechanics and Hydrology",
-      "url": ""
-    },
-    {
-      "id": "37955141622738",
-      "name": "Environmental Justice Working Group",
-      "url": "https://www.ejstanford.com/"
-    },
-    {
-      "id": "45394898196448",
-      "name": "Environmental Social Sciences",
-      "url": "https://esos.stanford.edu/"
-    },
-    {
-      "id": "42535865268822",
-      "name": "Explore Energy House",
-      "url": "https://explore-energy.stanford.edu/explore-energy-house"
-    },
-    {
-      "id": "37955141741546",
-      "name": "Flow Physics and Computational Engineering",
-      "url": "https://www.stanford.edu/group/fpc"
-    },
-    {
-      "id": "37955141822458",
-      "name": "Geophysics Department",
-      "url": "https://geophysics.stanford.edu/"
-    },
-    {
-      "id": "37955141844990",
-      "name": "Global Climate and Energy Project",
-      "url": ""
-    },
-    {
-      "id": "43775825909279",
-      "name": "Humane & Sustainable Food Lab at Stanford",
-      "url": "https://www.foodlabstanford.com/"
-    },
-    {
-      "id": "37955142170684",
-      "name": "Institute for Computational and Mathematical Engineering (ICME)",
-      "url": "https://icme.stanford.edu"
+      "id": "44701908384329",
+      "name": "Health Insurance Programs Office",
+      "url": "https://studentinsurance.stanford.edu/"
     },
     {
       "id": "37955142192192",
@@ -492,34 +364,14 @@
       "url": "https://jrbp.stanford.edu/"
     },
     {
-      "id": "37955142444144",
-      "name": "Management Science and Engineering",
-      "url": "https://msande.stanford.edu/"
+      "id": "37955142413418",
+      "name": "Lucile Packard Foundation for Children's Health",
+      "url": "https://www.lpfch.org"
     },
     {
-      "id": "37955142490234",
-      "name": "Materials Science and Engineering",
-      "url": "https://mse.stanford.edu"
-    },
-    {
-      "id": "37955142508670",
-      "name": "Mathematics Research Center",
-      "url": ""
-    },
-    {
-      "id": "37955142528130",
-      "name": "Mechanical Engineering - Chair's Office",
-      "url": "https://me.stanford.edu/"
-    },
-    {
-      "id": "38831617398494",
-      "name": "Mechanical Engineering Department",
-      "url": "https://me.stanford.edu/"
-    },
-    {
-      "id": "37955142539396",
-      "name": "Mechanical Engineering Department - Thermosciences Division",
-      "url": ""
+      "id": "37955142500476",
+      "name": "Maternal and Child Health Research Institute",
+      "url": "https://med.stanford.edu/chri.html"
     },
     {
       "id": "44701956854249",
@@ -537,14 +389,19 @@
       "url": "https://casb.stanford.edu/"
     },
     {
-      "id": "43296308036274",
-      "name": "Oceans Department",
-      "url": "https://oceans.stanford.edu/"
+      "id": "42404458005466",
+      "name": "Muslim Mental Health & Islamic Psychology Lab",
+      "url": "https://med.stanford.edu/mmhip.html"
     },
     {
       "id": "37955142778036",
       "name": "Office of Community Engagement - Stanford Medicine",
       "url": "https://med.stanford.edu/phs.html"
+    },
+    {
+      "id": "37955144839726",
+      "name": "Office of Community Health and Engagement",
+      "url": "https://med.stanford.edu/che"
     },
     {
       "id": "37955142849730",
@@ -567,6 +424,11 @@
       "url": "https://biodesign.stanford.edu"
     },
     {
+      "id": "37955143051496",
+      "name": "Palliative Care, Health Education, Engagement, and Promotion",
+      "url": "https:// www.med.stanford.edu/palliative-care"
+    },
+    {
       "id": "37955143079148",
       "name": "Pediatric Pulmonary",
       "url": "https://med.stanford.edu/pedpulmonary.html"
@@ -577,19 +439,9 @@
       "url": "https://pediatrics.stanford.edu/grandrounds"
     },
     {
-      "id": "37955143103728",
-      "name": "Peninsula Geological Society",
-      "url": "https://www.diggles.com/pgs/"
-    },
-    {
-      "id": "37955143153914",
-      "name": "Precourt Energy Efficiency Center",
-      "url": "https://peec.stanford.edu"
-    },
-    {
-      "id": "37955143163132",
-      "name": "Precourt Institute for Energy",
-      "url": "https://energy.stanford.edu"
+      "id": "38823263437890",
+      "name": "Precision Health & Integrated Diagnostics Center",
+      "url": ""
     },
     {
       "id": "37955143183616",
@@ -602,29 +454,14 @@
       "url": "https://humanbiology.stanford.edu/"
     },
     {
-      "id": "49657546467912",
-      "name": "R&DE Sustainability",
-      "url": "https://rde.stanford.edu/es/maintenance-capital-projects/sustainability-residential-dining-enterprises"
+      "id": "46391987589717",
+      "name": "Program in Menopause & Healthy Aging",
+      "url": "https://obgyn.stanford.edu/divisions/gyn/menopause.html"
     },
     {
-      "id": "37955143441712",
-      "name": "Roble Living Laboratory for Sustainability at Stanford",
+      "id": "37955143300374",
+      "name": "Psychiatry & Behavioral Sciences",
       "url": ""
-    },
-    {
-      "id": "37955143501116",
-      "name": "School of Earth, Energy & Environmental Sciences",
-      "url": "https://earth.stanford.edu"
-    },
-    {
-      "id": "37955143511358",
-      "name": "School of Earth, Energy & Environmental Sciences-Office of Multicultural Affairs",
-      "url": "https://earth.stanford.edu/dei"
-    },
-    {
-      "id": "37955143520576",
-      "name": "School of Engineering",
-      "url": "https://engineering.stanford.edu/"
     },
     {
       "id": "40119692109205",
@@ -722,21 +559,6 @@
       "url": ""
     },
     {
-      "id": "37955143787890",
-      "name": "SLAC National Accelerator Laboratory",
-      "url": "https://www.slac.stanford.edu/"
-    },
-    {
-      "id": "39677229852683",
-      "name": "Software and Services for Data Science (SSDS)",
-      "url": "https://ssds.stanford.edu/"
-    },
-    {
-      "id": "37955143912842",
-      "name": "Stanford Artificial Intelligence Lab (SAIL)",
-      "url": "https://ai.stanford.edu/"
-    },
-    {
       "id": "37955144011164",
       "name": "Stanford Cancer Center",
       "url": ""
@@ -757,9 +579,9 @@
       "url": "https://scgpm.stanford.edu"
     },
     {
-      "id": "37955144075688",
-      "name": "Stanford Center for Image Systems Engineering (SCIEN)",
-      "url": "https://scien.stanford.edu/"
+      "id": "50091078846519",
+      "name": "Stanford Center for Health Education",
+      "url": "https://healtheducation.stanford.edu"
     },
     {
       "id": "37955140564740",
@@ -767,39 +589,34 @@
       "url": "https://chemh.stanford.edu/"
     },
     {
-      "id": "37955144321490",
-      "name": "Stanford Data Science",
-      "url": "https://datascience.stanford.edu/"
+      "id": "37955144511988",
+      "name": "Stanford Health 4 America",
+      "url": "https://health4america.stanford.edu/"
     },
     {
-      "id": "40846082714351",
-      "name": "Stanford Doerr School of Sustainability",
-      "url": "https://sustainability.stanford.edu/"
+      "id": "38952954833606",
+      "name": "Stanford Health Care (SHC)",
+      "url": "https://stanfordhealthcare.org/"
     },
     {
-      "id": "37955144375772",
-      "name": "Stanford Doerr School of Sustainability Office of Access, Belonging & Community",
-      "url": "https://sustainability.stanford.edu/our-community/access-belonging-community"
+      "id": "37955140228806",
+      "name": "Stanford Health Policy",
+      "url": "https://healthpolicy.fsi.stanford.edu/"
     },
     {
-      "id": "37955144143282",
-      "name": "Stanford Engineering Center for Global & Online Education",
-      "url": "https://cgoe.stanford.edu/"
+      "id": "37955144536568",
+      "name": "Stanford Health Promotion Network",
+      "url": "https://shpn.stanford.edu"
+    },
+    {
+      "id": "37955144545786",
+      "name": "Stanford Healthy Living",
+      "url": "https://healthimprovement.stanford.edu/classes/register/search.php"
     },
     {
       "id": "38954129884169",
       "name": "Stanford Immunology Program",
       "url": "https://med.stanford.edu/immunol/"
-    },
-    {
-      "id": "37955144626696",
-      "name": "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-      "url": "https://hai.stanford.edu/"
-    },
-    {
-      "id": "37955144647180",
-      "name": "Stanford Institute for Theoretical Physics",
-      "url": "https://sitp.stanford.edu"
     },
     {
       "id": "37955144657422",
@@ -857,19 +674,14 @@
       "url": "https://medicinex.stanford.edu/"
     },
     {
+      "id": "37955144996426",
+      "name": "Stanford Psychiatry and Behavioral Sciences",
+      "url": "https://psychiatry.stanford.edu/"
+    },
+    {
       "id": "38943468244180",
       "name": "Stanford University School of Medicine",
       "url": "https://med.stanford.edu/"
-    },
-    {
-      "id": "37955145305726",
-      "name": "Stanford Woods Institute for the Environment",
-      "url": "https://woods.stanford.edu/"
-    },
-    {
-      "id": "37955145318016",
-      "name": "Steyer-Taylor Center for Energy Policy and Finance",
-      "url": "https://steyertaylor.stanford.edu/"
     },
     {
       "id": "37955145341572",
@@ -877,34 +689,24 @@
       "url": "https://www.beagooddoctor.org"
     },
     {
-      "id": "42863165257059",
-      "name": "Sustainability Accelerator",
-      "url": "https://sustainability-accelerator.stanford.edu/"
-    },
-    {
-      "id": "41034133144763",
-      "name": "Sustainable Finance Initiative",
-      "url": "https://sfi.stanford.edu"
-    },
-    {
-      "id": "45270168553250",
-      "name": "Sustainable Mobility Center",
-      "url": ""
-    },
-    {
-      "id": "37955145375370",
-      "name": "Sustainable Stanford",
-      "url": "https://sustainable.stanford.edu"
-    },
-    {
       "id": "37955140074152",
       "name": "The Laurie J. Girand Center for Biomedical Ethics",
       "url": "https://med.stanford.edu/bioethics.html"
     },
     {
-      "id": "38864474115506",
-      "name": "TomKat Center for Sustainable Energy",
-      "url": "https://tomkat.stanford.edu/"
+      "id": "44701964767913",
+      "name": "Vaden Health Services",
+      "url": "https://vaden.stanford.edu/"
+    },
+    {
+      "id": "44701893049519",
+      "name": "Weiland Health Initiative, Vaden Health Services",
+      "url": "https://vaden.stanford.edu/weiland-health-initiative"
+    },
+    {
+      "id": "44701930428639",
+      "name": "Well-Being at Stanford, Vaden Health Services",
+      "url": "https://vaden.stanford.edu/well-being-stanford"
     },
     {
       "id": "41253186673892",
@@ -915,74 +717,54 @@
       "id": "38563138319388",
       "name": "Wu Tsai Neurosciences Institute",
       "url": "https://neuroscience.stanford.edu/"
+    },
+    {
+      "id": "45437075209033",
+      "name": "YogaX at Stanford Psychiatry",
+      "url": "https://www.yogaxteam.com/"
     }
   ],
   "events": [
     {
-      "id": "54075063476381:54075102078015",
-      "title": "A Conversation with Rick Osterloh, MBA ’00, SVP of Platforms & Devices at Google and Sarah Soule, Dean of Stanford GSB",
+      "id": "53819963831081:53819963831082",
+      "title": "AI and Mental Health: Clinical and Ethical Considerations",
       "start": "2026-10-08T12:00:00-07:00",
-      "end": "2026-10-08T13:00:00-07:00",
+      "end": "2026-10-08T13:15:00-07:00",
       "allDay": false,
       "departments": [
-        "Business",
-        "Engineering/Technology"
+        "Faculty Staff Help Center"
       ],
       "subjects": [
-        "Business",
-        "Engineering/Technology"
+        "Health/Wellness"
       ],
       "kind": "Lecture/Presentation/Talk",
-      "location": "CEMEX Auditorium",
-      "room": "CEMEX",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/a-conversation-with-rick-osterloh-mba-00-svp-of-platforms-devices-at-google-and-sarah-soule-dean-of-stanford-gsb",
-      "registrationUrl": "https://www.eventbrite.com/e/a-conversation-with-rick-osterloh-svp-of-platforms-devices-google-tickets-2000308664061?aff=oddtdtcreator",
-      "calendarUrl": "https://events.stanford.edu/event/a-conversation-with-rick-osterloh-mba-00-svp-of-platforms-devices-at-google-and-sarah-soule-dean-of-stanford-gsb.ics",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/ai-and-mental-health-clinical-and-ethical-considerations-2813",
+      "registrationUrl": "https://stanford.zoom.us/webinar/register/WN_au1ErWVwRquch5QnmeIxQQ#/registration",
+      "calendarUrl": "https://events.stanford.edu/event/ai-and-mental-health-clinical-and-ethical-considerations-2813.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "54133953692177:54133953693202",
-      "title": "Earth System Science Seminar Series: Dr. Morgan Raven",
+      "id": "53741880177463:53741880178490",
+      "title": "Managing Stress Effectively for Well-Being",
       "start": "2026-10-08T12:00:00-07:00",
       "end": "2026-10-08T13:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Department of Earth System Science"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/earth-system-science-seminar-series-dr-morgan-raven",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/earth-system-science-seminar-series-dr-morgan-raven.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54045618805609:54045626889914",
-      "title": "Geophysics Seminar - Rodrigo Contreras Arratia, \"Volcano Seismology - Translating Academic Results into Monitoring\"",
-      "start": "2026-10-08T12:00:00-07:00",
-      "end": "2026-10-08T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Geophysics Department"
-      ],
-      "subjects": [
-        "Science"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-rodrigo-contreras-arratia-volcano-seismology-translating-academic-results-into-monitoring",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/managing-stress-effectively-for-well-being-1891",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-rodrigo-contreras-arratia-volcano-seismology-translating-academic-results-into-monitoring.ics",
+      "calendarUrl": "https://events.stanford.edu/event/managing-stress-effectively-for-well-being-1891.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1003,212 +785,6 @@
       "url": "https://events.stanford.edu/event/takaki-komiyama-a-cell-type-specific-cortical-circuit-for-maintenance-of-value-representations",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/takaki-komiyama-a-cell-type-specific-cortical-circuit-for-maintenance-of-value-representations.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53701670896871:53701670897896",
-      "title": "Global Environmental Policy Seminar with Guojun He",
-      "start": "2026-10-08T13:15:00-07:00",
-      "end": "2026-10-08T14:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Environmental Social Sciences",
-        "Stanford Doerr School of Sustainability"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-guojun-he",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-guojun-he.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53923354197721:53923354198746",
-      "title": "Improving All Lives Through Science: The Case for Fundamental Research, Public Policy, and Advocacy",
-      "start": "2026-10-08T15:00:00-07:00",
-      "end": "2026-10-08T16:20:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Chemistry Department",
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Sapp Center for Science Teaching and Learning",
-      "room": "STLC 114 - Sapp Lecture Hall",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/improving-all-lives-through-science-the-case-for-fundamental-research-public-policy-and-advocacy",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/improving-all-lives-through-science-the-case-for-fundamental-research-public-policy-and-advocacy.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53889534770473:53889534772522",
-      "title": "Science for Everyone: Tactile Braille Periodic Table of Elements at Stanford",
-      "start": "2026-10-08T17:00:00-07:00",
-      "end": "2026-10-08T19:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Chemistry Department"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Sapp Center for Science Teaching and Learning",
-      "room": "Sapp Auditorium",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/science-for-everyone-tactile-braille-periodic-table-of-elements-at-stanford",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/science-for-everyone-tactile-braille-periodic-table-of-elements-at-stanford.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54110354651591:54110354652616",
-      "title": "SLAC Public Lecture | Blazing the path to a fusion future",
-      "start": "2026-10-08T19:00:00-07:00",
-      "end": "2026-10-08T20:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "SLAC National Accelerator Laboratory"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "SLAC National Accelerator Laboratory",
-      "room": "Kavli Auditorium",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/slac-public-lecture-blazing-the-path-to-a-fusion-future",
-      "registrationUrl": "https://www.eventbrite.com/e/slac-public-lecture-blazing-the-path-to-a-fusion-future-tickets-2002244190272?aff=oddtdtcreator",
-      "calendarUrl": "https://events.stanford.edu/event/slac-public-lecture-blazing-the-path-to-a-fusion-future.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54126264664204:54126264665229",
-      "title": "Oceans Seminar Series | Daniel Clements",
-      "start": "2026-10-09T12:00:00-07:00",
-      "end": "2026-10-09T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Hopkins Marine Station",
-        "Oceans Department"
-      ],
-      "subjects": [
-        "Education",
-        "Environment/Sustainability",
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/oceans-seminar-series-daniel-clements",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/oceans-seminar-series-daniel-clements.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734496445",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-10-12T00:00:00-07:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54109323920080:54109323921105",
-      "title": "Space-Based Data Centers: Will a million data centers orbit Earth?",
-      "start": "2026-10-12T12:00:00-07:00",
-      "end": "2026-10-12T13:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Precourt Institute for Energy"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Press Building",
-      "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/space-based-data-centers-will-a-million-data-centers-orbit-earth",
-      "registrationUrl": "https://luma.com/97zxk2yw",
-      "calendarUrl": "https://events.stanford.edu/event/space-based-data-centers-will-a-million-data-centers-orbit-earth.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54171323569878:54171323569879",
-      "title": "ESE Seminar - Yuzhang Li: \"Battery Intelligence from the Inside Out\"",
-      "start": "2026-10-12T12:30:00-07:00",
-      "end": "2026-10-12T13:20:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Energy Science & Engineering"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Green Earth Sciences Building",
-      "room": "104",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/ese-seminar-yuzhang-li-battery-intelligence-from-the-inside-out",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/ese-seminar-yuzhang-li-battery-intelligence-from-the-inside-out.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53552376625397:53552379787905",
-      "title": "Stanford Energy Seminar | The Renewables Reckoning: Bankruptcies, Buyouts, and America's Energy Supply | Nick Franchot, GoodFinch",
-      "start": "2026-10-12T16:30:00-07:00",
-      "end": "2026-10-12T17:20:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Precourt Institute for Energy"
-      ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Engineering/Technology",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Shriram Center",
-      "room": "104",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/stanford-energy-seminar-10122026",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-energy-seminar-10122026.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1240,6 +816,27 @@
       "sourceStatus": "checked"
     },
     {
+      "id": "53741880262467:53741880263494",
+      "title": "Aging Wisely - Long-Term Care Goals and Strategies",
+      "start": "2026-10-13T11:00:00-07:00",
+      "end": "2026-10-13T12:30:00-07:00",
+      "allDay": false,
+      "departments": [
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/aging-wisely-long-term-care-goals-and-strategies-576",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/aging-wisely-long-term-care-goals-and-strategies-576.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
       "id": "52561867818592:52561896386565",
       "title": "Stanford Cancer Institute Breakthroughs in Cancer: Health Policy and Oncology: Understanding Care and Outcomes in a Changing Delivery System",
       "start": "2026-10-13T16:00:00-07:00",
@@ -1263,48 +860,23 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54169442429822:54169442430847",
-      "title": "Explore Energy Seminar | Tribal Sovereignty and Clean Energy with Native Roots Network",
-      "start": "2026-10-13T18:00:00-07:00",
-      "end": "2026-10-13T19:20:00-07:00",
+      "id": "53741880307529:53741880308556",
+      "title": "Keeping Feet Fit for the Next 50 Years",
+      "start": "2026-10-14T12:00:00-07:00",
+      "end": "2026-10-14T13:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Explore Energy House",
-        "Precourt Institute for Energy"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Muwekma-Tah-Ruk",
-      "room": "Front Lawn",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/explore-energy-seminar-tribal-sovereignty-and-clean-energy-with-native-roots-network",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/keeping-feet-fit-for-the-next-50-years-8188",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/explore-energy-seminar-tribal-sovereignty-and-clean-energy-with-native-roots-network.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734502591",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-10-14T00:00:00-07:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "calendarUrl": "https://events.stanford.edu/event/keeping-feet-fit-for-the-next-50-years-8188.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1331,28 +903,6 @@
       "sourceStatus": "checked"
     },
     {
-      "title": "Physical Chemistry Seminar: Professor Theta Chen, University of Notre Dame",
-      "start": "2026-10-14T15:00:00-07:00",
-      "end": "2026-10-14T16:00:00-07:00",
-      "allDay": false,
-      "location": "",
-      "url": "https://chemistry.stanford.edu/events/physical-chemistry-seminar-professor-theta-chen-university-notre-dame",
-      "id": "page-chemistry:9f6d5bb74af4ecd62529",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
-    },
-    {
       "title": "Frontiers in Biology: Xin Chen, Johns Hopkins | \"A 'Sweet Spot' to enhance genome stability and epigenome plasticity\"",
       "start": "2026-10-14T16:00:00-07:00",
       "end": "2026-10-14T17:00:00-07:00",
@@ -1375,92 +925,67 @@
       "calendarUrl": ""
     },
     {
-      "id": "54057276419699:54057276419700",
-      "title": "Sustainability in Practice – Stories of Partnering for Impact",
-      "start": "2026-10-14T16:00:00-07:00",
-      "end": "2026-10-14T18:00:00-07:00",
+      "id": "53741880348495:53741880349522",
+      "title": "Breastfeeding and Pumping from the Start (October 15 - 22)",
+      "start": "2026-10-15T12:00:00-07:00",
+      "end": "2026-10-15T13:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Stanford Doerr School of Sustainability"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Press Building",
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
       "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/sustainability-in-practice-stories-of-partnering-for-impact",
-      "registrationUrl": "https://forms.gle/LfeovZziBJGBqe5g8",
-      "calendarUrl": "https://events.stanford.edu/event/sustainability-in-practice-stories-of-partnering-for-impact.ics",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/breastfeeding-and-pumping-from-the-start-october-15-22",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/breastfeeding-and-pumping-from-the-start-october-15-22.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "54045637748771:54045643087339",
-      "title": "Geophysics Seminar - Ian Garrick-Bethell, \"Compositional layering in the lunar farside mantle\"",
-      "start": "2026-10-15T12:30:00-07:00",
-      "end": "2026-10-15T13:20:00-07:00",
+      "id": "54170952318768:54170952318769",
+      "title": "CSCS William C. Dement Seminar Series: \"Targeted, physiology-informed therapy for sleep apnea: Novel pharmacotherapy and beyond\" with Danny Eckert, Ph.D.",
+      "start": "2026-10-16T12:00:00-07:00",
+      "end": "2026-10-16T13:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Geophysics Department"
+        "Stanford Psychiatry and Behavioral Sciences"
       ],
       "subjects": [
+        "Medicine",
         "Science"
       ],
-      "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-ian-garrick-bethell-lunar-magnetism",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-ian-garrick-bethell-lunar-magnetism.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53701709347764:53701709347765",
-      "title": "Environmental Behavioral Sciences Seminar with Eugene Richardson",
-      "start": "2026-10-15T13:15:00-07:00",
-      "end": "2026-10-15T14:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Environmental Social Sciences",
-        "Stanford Doerr School of Sustainability"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "362",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/environmental-behavioral-sciences-seminar-7276",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/environmental-behavioral-sciences-seminar-7276.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53985237736759:53985275118287",
-      "title": "Career Conversation: Ross Stein, PhD '80",
-      "start": "2026-10-15T15:00:00-07:00",
-      "end": "2026-10-15T16:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Doerr School of Sustainability",
-        "Geophysics Department"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
       "kind": "Lecture/Presentation/Talk",
-      "location": "Hartley Conference Center",
+      "location": "",
       "room": "",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/career-conversation-ross-stein-phd-80",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/cscs-william-c-dement-seminar-series-targeted-physiology-informed-therapy-for-sleep-apnea-novel-pharmacotherapy-and-beyond-with-danny-eckert-phd",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/career-conversation-ross-stein-phd-80.ics",
+      "calendarUrl": "https://events.stanford.edu/event/cscs-william-c-dement-seminar-series-targeted-physiology-informed-therapy-for-sleep-apnea-novel-pharmacotherapy-and-beyond-with-danny-eckert-phd.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53741880390485:53741880391512",
+      "title": "Practice Makes Posture",
+      "start": "2026-10-16T12:00:00-07:00",
+      "end": "2026-10-16T13:00:00-07:00",
+      "allDay": false,
+      "departments": [
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/practice-makes-posture-7382",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/practice-makes-posture-7382.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1487,49 +1012,25 @@
       "calendarUrl": ""
     },
     {
-      "id": "53922734404263:53922734518980",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-10-19T00:00:00-07:00",
-      "end": "",
-      "allDay": true,
+      "id": "53741880434523:53741880435550",
+      "title": "How to Flourish (October 19 - November 2)",
+      "start": "2026-10-19T12:00:00-07:00",
+      "end": "2026-10-19T13:15:00-07:00",
+      "allDay": false,
       "departments": [
-        "Sustainability Accelerator"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/how-to-flourish-october-19-november-2",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/how-to-flourish-october-19-november-2.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
-    },
-    {
-      "title": "Student Hosted Colloquium: Professor Stephen Elledge, Harvard University",
-      "start": "2026-10-19T15:00:00-07:00",
-      "end": "2026-10-19T16:00:00-07:00",
-      "allDay": false,
-      "location": "",
-      "url": "https://chemistry.stanford.edu/events/student-hosted-colloquium-professor-stephen-elledge-harvard-university",
-      "id": "page-chemistry:05c7f17cc89d12e974d9",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
     },
     {
       "id": "53947940289112:53947940290137",
@@ -1561,8 +1062,7 @@
       "allDay": false,
       "departments": [
         "Wu Tsai Neurosciences Institute",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Computer Science"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
       ],
       "subjects": [
         "Health/Wellness",
@@ -1581,49 +1081,45 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54045789572264:54045789573289",
-      "title": "Shimizu Distinguished Lecture - Bob Pragada: \"From Disruption to Opportunity\"",
-      "start": "2026-10-19T16:30:00-07:00",
-      "end": "2026-10-19T17:30:00-07:00",
+      "id": "54138556327672:54138556328697",
+      "title": "OCD Awareness Event",
+      "start": "2026-10-19T17:30:00-07:00",
+      "end": "2026-10-19T20:30:00-07:00",
       "allDay": false,
       "departments": [
-        "Civil and Environmental Engineering"
+        "Psychiatry & Behavioral Sciences"
       ],
       "subjects": [
-        "Business",
-        "Engineering/Technology"
+        "Health/Wellness",
+        "Medicine"
       ],
       "kind": "Lecture/Presentation/Talk",
-      "location": "Stanford ChEM-H Building",
-      "room": "E241 - Gunn Rotunda",
+      "location": "Center for Academic Medicine, Grand Rounds Room",
+      "room": "",
       "experience": "inperson",
-      "url": "https://events.stanford.edu/event/shimizu-distinguished-lecture-bob-pragada",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/shimizu-distinguished-lecture-bob-pragada.ics",
+      "url": "https://events.stanford.edu/event/ocd-awareness-event-4220",
+      "registrationUrl": "https://redcap.link/pp28tbv6",
+      "calendarUrl": "https://events.stanford.edu/event/ocd-awareness-event-4220.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "53552386783151:53552389970246",
-      "title": "Stanford Energy Seminar | Powering What’s Next: Real Estate’s Role in the Energy Transition | Susan Uthayakumar, Prologis",
-      "start": "2026-10-19T16:30:00-07:00",
-      "end": "2026-10-19T17:20:00-07:00",
+      "id": "53727780893581:53727780894606",
+      "title": "Armanini Lecture",
+      "start": "2026-10-20T07:00:00-07:00",
+      "end": "2026-10-20T08:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Precourt Institute for Energy"
+        "Department of Surgery"
       ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Engineering/Technology",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Shriram Center",
-      "room": "104",
+      "subjects": [],
+      "kind": "Seminar",
+      "location": "Li Ka Shing Center",
+      "room": "LK130",
       "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/stanford-energy-seminar-10192026",
+      "url": "https://events.stanford.edu/event/armanini-lecture",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-energy-seminar-10192026.ics",
+      "calendarUrl": "https://events.stanford.edu/event/armanini-lecture.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1654,24 +1150,88 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53974944829183:53974944830208",
-      "title": "Applied Physics/Physics Colloquium: Giulio Vampa - \"Quantum-optical Properties of High-Harmonic Generation\"",
-      "start": "2026-10-20T15:30:00-07:00",
-      "end": "2026-10-20T16:30:00-07:00",
+      "id": "53698031410414:53698031411441",
+      "title": "Cultivating Resilience in Challenging Times (October 20 - November 3)",
+      "start": "2026-10-20T12:00:00-07:00",
+      "end": "2026-10-20T13:15:00-07:00",
       "allDay": false,
       "departments": [
-        "Applied Physics/Physics Colloquium",
-        "Department of Physics",
-        "Physics / Applied Physics"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
       "subjects": [],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Hewlett Teaching Center",
-      "room": "201",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-giulio-vampa-quantum-optical-properties-of-high-harmonic-generation",
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/cultivating-resilience-in-challenging-times-october-20-november-3",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-giulio-vampa-quantum-optical-properties-of-high-harmonic-generation.ics",
+      "calendarUrl": "https://events.stanford.edu/event/cultivating-resilience-in-challenging-times-october-20-november-3.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53790134859204:53790146414852",
+      "title": "eWEAR Seminar: The Quantified Self for Health",
+      "start": "2026-10-20T15:00:00-07:00",
+      "end": "2026-10-20T16:00:00-07:00",
+      "allDay": false,
+      "departments": [
+        "Stanford Wearable Electronics Initiative"
+      ],
+      "subjects": [
+        "Science",
+        "Engineering/Technology"
+      ],
+      "kind": "Class/Seminar",
+      "location": "Paul G. Allen Center for Integrated Systems Annex",
+      "room": "101X auditorium",
+      "experience": "hybrid",
+      "url": "https://events.stanford.edu/event/ewear-seminar-the-quantified-self",
+      "registrationUrl": "https://stanford.zoom.us/webinar/register/3617875983707/WN_gHkb0G0mTEyG6EqHluiYaw",
+      "calendarUrl": "https://events.stanford.edu/event/ewear-seminar-the-quantified-self.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53741880474465:53741880475492",
+      "title": "Window, Mirror, Map (October 20 - November 3)",
+      "start": "2026-10-20T16:00:00-07:00",
+      "end": "2026-10-20T17:15:00-07:00",
+      "allDay": false,
+      "departments": [
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/window-mirror-map-october-20-november-3",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/window-mirror-map-october-20-november-3.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53741880221501:54007427918467",
+      "title": "Growing Culinary Mushrooms at Home",
+      "start": "2026-10-20T17:30:00-07:00",
+      "end": "2026-10-20T19:00:00-07:00",
+      "allDay": false,
+      "departments": [
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "inperson",
+      "url": "https://events.stanford.edu/event/growing-culinary-mushrooms-at-home",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/growing-culinary-mushrooms-at-home.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1700,49 +1260,41 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53612685635155:53851984386412",
-      "title": "Bay Area Tech Economics Seminar",
-      "start": "2026-10-20T18:30:00-07:00",
-      "end": "2026-10-20T20:30:00-07:00",
+      "id": "53741880554344:53741880555371",
+      "title": "Chronic Pain Explained",
+      "start": "2026-10-21T12:00:00-07:00",
+      "end": "2026-10-21T13:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Stanford Data Science",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Computer Science"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Stanford ChEM-H Building",
-      "room": "E241 Rotunda",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/bay-area-tech-economics-seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/chronic-pain-explained-3115",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/bay-area-tech-economics-seminar.ics",
+      "calendarUrl": "https://events.stanford.edu/event/chronic-pain-explained-3115.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "53922734404263:53922734528198",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-10-21T00:00:00-07:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "id": "53809556667077:53809556667078",
+      "title": "Thinking Our Way to Chronic Health",
+      "start": "2026-10-21T12:00:00-07:00",
+      "end": "2026-10-21T13:00:00-07:00",
+      "allDay": false,
+      "departments": [],
+      "subjects": [],
+      "kind": "Lecture/Presentation/Talk",
+      "location": "Li Ka Shing Center",
+      "room": "Berg Hall",
+      "experience": "hybrid",
+      "url": "https://events.stanford.edu/event/medicine-grand-rounds-to-ellen-langer-phd",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-to-ellen-langer-phd.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1770,50 +1322,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54179200862907:54179209399909",
-      "title": "Planetary Science and Exploration Seminar, Sarah Steele - \"Insights into Mars’s magnetic history from meteorite paleomagnetism and impact basin magnetism\"",
-      "start": "2026-10-21T12:30:00-07:00",
-      "end": "2026-10-21T13:20:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Department of Aeronautics and Astronautics",
-        "Earth & Planetary Sciences",
-        "Geophysics Department"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/planetary-science-and-exploration-seminar-sarah-steele-insights-into-marss-magnetic-history-from-meteorite-paleomagnetism-and-impact-basin-magnetism",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/planetary-science-and-exploration-seminar-sarah-steele-insights-into-marss-magnetic-history-from-meteorite-paleomagnetism-and-impact-basin-magnetism.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "title": "Merck-Banyu Lectureship: Professor Harunobu Mitsunuma, Kobe University",
-      "start": "2026-10-21T15:00:00-07:00",
-      "end": "2026-10-21T16:00:00-07:00",
-      "allDay": false,
-      "location": "",
-      "url": "https://chemistry.stanford.edu/events/merck-banyu-lectureship-professor-harunobu-mitsunuma-kobe-university",
-      "id": "page-chemistry:79c3c331f073bce73430",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
-    },
-    {
       "title": "Frontiers in Biology: Kyle Travaglini, Allen Institute | \"Cellular vulnerability across the Alzheimer's disease brain\"",
       "start": "2026-10-21T16:00:00-07:00",
       "end": "2026-10-21T17:00:00-07:00",
@@ -1836,91 +1344,49 @@
       "calendarUrl": ""
     },
     {
-      "id": "54001589975173:54001597749326",
-      "title": "Geophysics Seminar - Emily Geyman, \"Learning from landscapes: The climate sensitivity of glaciers and the mechanics of soil production\"",
-      "start": "2026-10-22T12:00:00-07:00",
-      "end": "2026-10-22T13:00:00-07:00",
+      "id": "53615287723230:53615287724255",
+      "title": "Directional AI Advice: Experimental Evidence from Healthcare",
+      "start": "2026-10-22T18:00:00-07:00",
+      "end": "2026-10-22T19:30:00-07:00",
       "allDay": false,
       "departments": [
-        "Geophysics Department"
+        "Shorenstein Asia-Pacific Research Center (APARC)"
       ],
       "subjects": [
-        "Science"
+        "Health/Wellness"
       ],
       "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-emily-geyman-learning-from-landscapes-the-climate-sensitivity-of-glaciers-and-the-mechanics-of-soil-production",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-emily-geyman-learning-from-landscapes-the-climate-sensitivity-of-glaciers-and-the-mechanics-of-soil-production.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54002341021657:54002341022682",
-      "title": "AI in Teaching workshop for SDSS Faculty & Lecturers",
-      "start": "2026-10-23T14:00:00-07:00",
-      "end": "2026-10-23T15:00:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Doerr School of Sustainability"
-      ],
-      "subjects": [],
-      "kind": "Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "Hartley Conference Room",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/ai-in-teaching-workshop-for-sdss-faculty-lecturers",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/ai-in-teaching-workshop-for-sdss-faculty-lecturers.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734549707",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-10-26T00:00:00-07:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "title": "Student Hosted Colloquium: Professor Richmond Sarpong, University of California, Berkeley",
-      "start": "2026-10-26T15:00:00-07:00",
-      "end": "2026-10-26T16:00:00-07:00",
-      "allDay": false,
       "location": "",
-      "url": "https://chemistry.stanford.edu/events/student-hosted-colloquium-professor-richmond-sarpong-university-california-berkeley",
-      "id": "page-chemistry:2a4bdc2c2052acaf1236",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/directional-ai-advice-experimental-evidence-from-healthcare",
+      "registrationUrl": "https://stanford.zoom.us/webinar/register/WN_WgLIqkh1SzSbw9RXBSobcg",
+      "calendarUrl": "https://events.stanford.edu/event/directional-ai-advice-experimental-evidence-from-healthcare.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53745818123158:53745818123159",
+      "title": "Universal Human Psychology, \"Bani Adam,\" and Our Omnicultural Future",
+      "start": "2026-10-22T18:30:00-07:00",
+      "end": "2026-10-22T20:00:00-07:00",
+      "allDay": false,
       "departments": [
-        "Chemistry"
+        "Hamid and Christina Moghadam Program in Iranian Studies"
       ],
       "subjects": [
+        "Humanities",
         "Science"
       ],
-      "kind": "Seminar",
+      "kind": "Lecture/Presentation/Talk",
+      "location": "In person at Stanford",
       "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
+      "experience": "inperson",
+      "url": "https://events.stanford.edu/event/bani-adam-universal-human-psychology-and-our-omnicultural-future",
+      "registrationUrl": "https://forms.gle/VAutrecP5KwC3VDM7",
+      "calendarUrl": "https://events.stanford.edu/event/bani-adam-universal-human-psychology-and-our-omnicultural-future.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
     },
     {
       "id": "53975524031896:53975524031897",
@@ -1945,26 +1411,22 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53552394769358:53552396943866",
-      "title": "Stanford Energy Seminar | Richard Newell, C3 AI (former)",
-      "start": "2026-10-26T16:30:00-07:00",
-      "end": "2026-10-26T17:20:00-07:00",
+      "id": "53727840901662:53727840904735",
+      "title": "Wellness Grand Rounds",
+      "start": "2026-10-27T07:00:00-07:00",
+      "end": "2026-10-27T08:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Precourt Institute for Energy"
+        "Department of Surgery"
       ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Engineering/Technology",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Shriram Center",
-      "room": "104",
+      "subjects": [],
+      "kind": "Seminar",
+      "location": "Li Ka Shing Center",
+      "room": "LK130",
       "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/stanford-energy-seminar-10262026",
+      "url": "https://events.stanford.edu/event/wellness-grand-rounds",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-energy-seminar-10262026.ics",
+      "calendarUrl": "https://events.stanford.edu/event/wellness-grand-rounds.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -1995,68 +1457,23 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53851092552210:53851092553235",
-      "title": "Applied Physics/Physics Colloquium: Matthew P.A. Fisher - \"Emergence of Hydrodynamics from Open Quantum Dynamics\"",
-      "start": "2026-10-27T15:30:00-07:00",
-      "end": "",
+      "id": "53698031452404:53698031453431",
+      "title": "Managing Your Energy as an Asset",
+      "start": "2026-10-28T12:00:00-07:00",
+      "end": "2026-10-28T13:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Applied Physics/Physics Colloquium",
-        "Physics / Applied Physics"
-      ],
-      "subjects": [],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Hewlett Teaching Center",
-      "room": "201",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-matthew-pa-fisher-emergence-of-hydrodynamics-from-open-quantum-dynamics",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-matthew-pa-fisher-emergence-of-hydrodynamics-from-open-quantum-dynamics.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734556877",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-10-28T00:00:00-07:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54179276128761:54179287941657",
-      "title": "Planetary Science and Exploration Seminar, Martin Kihoulou - \"Tectonic breathing of icy moon Europa: Could subduction- and rifting-like processes support habitability in the outer solar system?\"",
-      "start": "2026-10-28T12:30:00-07:00",
-      "end": "2026-10-28T13:20:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Department of Aeronautics and Astronautics",
-        "Earth & Planetary Sciences",
-        "Geophysics Department"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
       "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/planetary-science-and-exploration-seminar-martin-kihoulou-tectonic-breathing-of-icy-moon-europa-could-subduction-and-rifting-like-processes-support-habitability-in-the-outer-solar-system",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/managing-your-energy-as-an-asset",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/planetary-science-and-exploration-seminar-martin-kihoulou-tectonic-breathing-of-icy-moon-europa-could-subduction-and-rifting-like-processes-support-habitability-in-the-outer-solar-system.ics",
+      "calendarUrl": "https://events.stanford.edu/event/managing-your-energy-as-an-asset.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2083,94 +1500,25 @@
       "calendarUrl": ""
     },
     {
-      "id": "54045854481176:54045861579292",
-      "title": "Geophysics Seminar - Tarje Nissen-Meyer, \"A vital geophysical frontier: Seismic soil monitoring towards high-yield, low-impact agriculture\"",
-      "start": "2026-10-29T12:00:00-07:00",
-      "end": "2026-10-29T13:00:00-07:00",
+      "id": "53741880676213:53741880677240",
+      "title": "Perimenopause and Menopause",
+      "start": "2026-10-30T12:00:00-07:00",
+      "end": "2026-10-30T13:00:00-07:00",
       "allDay": false,
       "departments": [
-        "Geophysics Department"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Science"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-tarje-nissen-meyer",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-tarje-nissen-meyer.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53701722183895:53701722184920",
-      "title": "Environmental Behavioral Sciences Seminar with Fran Moore",
-      "start": "2026-10-29T13:15:00-07:00",
-      "end": "2026-10-29T14:30:00-07:00",
-      "allDay": false,
-      "departments": [
-        "Environmental Social Sciences",
-        "Stanford Doerr School of Sustainability"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/environmental-behavioral-sciences-seminar-with-fran-moore",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/environmental-behavioral-sciences-seminar-with-fran-moore.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734573266",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-02T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "title": "Student Hosted Colloquium: Professor Bo Huang, University of California, San Francisco",
-      "start": "2026-11-02T15:00:00-08:00",
-      "end": "2026-11-02T16:00:00-08:00",
-      "allDay": false,
       "location": "",
-      "url": "https://chemistry.stanford.edu/events/student-hosted-colloquium-professor-bo-huang-university-california-san-francisco",
-      "id": "page-chemistry:a0c2b2f1c5a6167dd117",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
       "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/perimenopause-and-menopause-9345",
       "registrationUrl": "",
-      "calendarUrl": ""
+      "calendarUrl": "https://events.stanford.edu/event/perimenopause-and-menopause-9345.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
     },
     {
       "id": "54065335413227:54065335414252",
@@ -2195,72 +1543,22 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53552399038673:53552401710388",
-      "title": "Stanford Energy Seminar | The US Energy Transition: What is the Same; What Has Changed; and What Could Be | Philip Deutch, NGP Energy Technology Partners",
-      "start": "2026-11-02T16:30:00-08:00",
-      "end": "2026-11-02T17:20:00-08:00",
+      "id": "53728137759399:53728137760424",
+      "title": "General Surgery Alumni Lectureship",
+      "start": "2026-11-03T07:00:00-08:00",
+      "end": "2026-11-03T08:00:00-08:00",
       "allDay": false,
       "departments": [
-        "Precourt Institute for Energy"
+        "Department of Surgery"
       ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Engineering/Technology",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Shriram Center",
-      "room": "104",
+      "subjects": [],
+      "kind": "Seminar",
+      "location": "Li Ka Shing Center",
+      "room": "LK130",
       "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/stanford-energy-seminar-11022026",
+      "url": "https://events.stanford.edu/event/general-surgery-alumni-lectureship-dr-daniela-ladner",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-energy-seminar-11022026.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734578388",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-04T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53861067887185:53861067888210",
-      "title": "HAI Seminar with Marcos Santiago Rojas Pino & Thomas Caruso",
-      "start": "2026-11-04T12:00:00-08:00",
-      "end": "2026-11-04T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Computer Science"
-      ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Gates Computer Science Building",
-      "room": "119",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/hai-seminar-with-marcos-santiago-rojas-pino-thomas-caruso",
-      "registrationUrl": "https://hai.stanford.edu/events/marcos-santiago-rojas-pino-thomas-caruso-building-an-international-ai-platform-for-health-professions-education-and-the-learning-sciences",
-      "calendarUrl": "https://events.stanford.edu/event/hai-seminar-with-marcos-santiago-rojas-pino-thomas-caruso.ics",
+      "calendarUrl": "https://events.stanford.edu/event/general-surgery-alumni-lectureship-dr-daniela-ladner.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2281,6 +1579,27 @@
       "url": "https://events.stanford.edu/event/medicine-grand-rounds-with-emmanuel-mignot-md-phd",
       "registrationUrl": "",
       "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-with-emmanuel-mignot-md-phd.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53741880718203:53741880719230",
+      "title": "Still Life as a Creative Path for Mindful Well-being",
+      "start": "2026-11-04T12:00:00-08:00",
+      "end": "2026-11-04T13:15:00-08:00",
+      "allDay": false,
+      "departments": [
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/still-life-as-a-creative-path-for-mindful-well-being",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/still-life-as-a-creative-path-for-mindful-well-being.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2307,28 +1626,6 @@
       "sourceStatus": "checked"
     },
     {
-      "title": "Physical Chemistry Seminar: Professor Lee-Ping Wang, University of California, Davis",
-      "start": "2026-11-04T15:00:00-08:00",
-      "end": "2026-11-04T16:00:00-08:00",
-      "allDay": false,
-      "location": "",
-      "url": "https://chemistry.stanford.edu/events/physical-chemistry-seminar-professor-lee-ping-wang-university-california-davis",
-      "id": "page-chemistry:499ede18a4a8f1dd7a6c",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
-    },
-    {
       "title": "Frontiers in Biology: Sara Prescott, MIT | \"Sensory pathways of the mammalian airways\"",
       "start": "2026-11-04T16:00:00-08:00",
       "end": "2026-11-04T17:00:00-08:00",
@@ -2351,48 +1648,23 @@
       "calendarUrl": ""
     },
     {
-      "id": "54045874768748:54045879283745",
-      "title": "Geophysics Seminar - Allan Rubin",
+      "id": "53741880761217:53741880762244",
+      "title": "Building Resilience for High Stress Moments Through Meditation (November 5 - 19)",
       "start": "2026-11-05T12:00:00-08:00",
-      "end": "2026-11-05T13:00:00-08:00",
+      "end": "2026-11-05T13:15:00-08:00",
       "allDay": false,
       "departments": [
-        "Geophysics Department"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Science"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-allan-rubin",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/building-resilience-for-high-stress-moments-through-meditation-november-5-19",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-allan-rubin.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53625066788429:53625066788430",
-      "title": "Global Environmental Policy/ESS Seminar with David Keith",
-      "start": "2026-11-05T13:15:00-08:00",
-      "end": "2026-11-05T14:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Environmental Social Sciences",
-        "Stanford Doerr School of Sustainability",
-        "Department of Earth System Science"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-david-keith",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-david-keith.ics",
+      "calendarUrl": "https://events.stanford.edu/event/building-resilience-for-high-stress-moments-through-meditation-november-5-19.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2422,25 +1694,67 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53922734404263:53922734592729",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-09T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
+      "id": "53741880807303:53741880808330",
+      "title": "Making Holiday Connections More Meaningful",
+      "start": "2026-11-06T12:00:00-08:00",
+      "end": "2026-11-06T13:30:00-08:00",
+      "allDay": false,
       "departments": [
-        "Sustainability Accelerator"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/making-holiday-connections-more-meaningful-8287",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/making-holiday-connections-more-meaningful-8287.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53948468115058:53948468116083",
+      "title": "For the Next Generation: Mental Health in Asian American, Native Hawaiian, and Pacific Islander Youth",
+      "start": "2026-11-09T12:00:00-08:00",
+      "end": "2026-11-09T13:30:00-08:00",
+      "allDay": false,
+      "departments": [
+        "Asian American Research Center at Stanford"
       ],
       "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
+        "Health/Wellness",
+        "Diversity/Identity"
       ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
+      "kind": "Lecture/Presentation/Talk",
+      "location": "Building 360",
+      "room": "CCSRE Conference Room (First Floor)",
       "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "url": "https://events.stanford.edu/event/for-the-next-generation-mental-health-in-asian-american-native-hawaiian-and-pacific-islander-youth",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLScAhf9hHPamPZD__KDEuKZg7N0fI6KKSYoqHjKpOKl3C2HBNA/viewform?usp=dialog",
+      "calendarUrl": "https://events.stanford.edu/event/for-the-next-generation-mental-health-in-asian-american-native-hawaiian-and-pacific-islander-youth.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53741880849293:53741880850320",
+      "title": "Hospice 101",
+      "start": "2026-11-09T12:00:00-08:00",
+      "end": "2026-11-09T13:00:00-08:00",
+      "allDay": false,
+      "departments": [
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/hospice-101-1284",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/hospice-101-1284.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2474,8 +1788,7 @@
       "allDay": false,
       "departments": [
         "Wu Tsai Neurosciences Institute",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Computer Science"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
       ],
       "subjects": [
         "Health/Wellness",
@@ -2494,50 +1807,25 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53552403342725:53552405470793",
-      "title": "Stanford Energy Seminar | More Value per Tonne: Rethinking How We Use Rock | Tiziana Vanorio, Stanford University",
-      "start": "2026-11-09T16:30:00-08:00",
-      "end": "2026-11-09T17:20:00-08:00",
+      "id": "53698031496442:53698031497469",
+      "title": "Aging Wisely - Grief, Loss, and Legacy Making",
+      "start": "2026-11-10T11:00:00-08:00",
+      "end": "2026-11-10T12:30:00-08:00",
       "allDay": false,
       "departments": [
-        "Precourt Institute for Energy"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Engineering/Technology",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Shriram Center",
-      "room": "104",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/stanford-energy-seminar-11092026",
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/aging-wisely-grief-loss-and-legacy-making-7398",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-energy-seminar-11092026.ics",
+      "calendarUrl": "https://events.stanford.edu/event/aging-wisely-grief-loss-and-legacy-making-7398.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
-    },
-    {
-      "title": "Organic Chemistry Seminar: Professor AJ Boydston, University of Wisconsin–Madison",
-      "start": "2026-11-10T15:00:00-08:00",
-      "end": "2026-11-10T16:00:00-08:00",
-      "allDay": false,
-      "location": "",
-      "url": "https://chemistry.stanford.edu/events/organic-chemistry-seminar-professor-aj-boydston-university-wisconsin-madison",
-      "id": "page-chemistry:a155029d7d2aa5ab6651",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
     },
     {
       "id": "51288600039862:51288621937120",
@@ -2563,25 +1851,41 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53922734404263:53922734597851",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-11T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
+      "id": "53809587119188:53809587119189",
+      "title": "Medicine Grand Rounds with Bryant Lin, MD",
+      "start": "2026-11-11T12:00:00-08:00",
+      "end": "2026-11-11T13:00:00-08:00",
+      "allDay": false,
+      "departments": [],
+      "subjects": [],
+      "kind": "Lecture/Presentation/Talk",
+      "location": "Li Ka Shing Center",
+      "room": "Berg Hall",
+      "experience": "hybrid",
+      "url": "https://events.stanford.edu/event/medicine-grand-rounds-with-bryant-lin-md",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-with-bryant-lin-md.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53741880931220:53741880932247",
+      "title": "Portraiture as a Creative Path for Mindful Well-being",
+      "start": "2026-11-11T12:00:00-08:00",
+      "end": "2026-11-11T13:15:00-08:00",
+      "allDay": false,
       "departments": [
-        "Sustainability Accelerator"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/portraiture-as-a-creative-path-for-mindful-well-being",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/portraiture-as-a-creative-path-for-mindful-well-being.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2609,50 +1913,6 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "54037483017725:54037513552790",
-      "title": "Planetary Science and Exploration Seminar, Clive Neal - \"Why the Moon Needs an International Lunar Resource Prospecting Campaign\"",
-      "start": "2026-11-11T12:30:00-08:00",
-      "end": "2026-11-11T13:20:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Department of Aeronautics and Astronautics",
-        "Earth & Planetary Sciences",
-        "Geophysics Department"
-      ],
-      "subjects": [],
-      "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/planetary-science-and-exploration-seminar-clive-neal-why-the-moon-needs-an-international-lunar-resource-prospecting-campaign",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/planetary-science-and-exploration-seminar-clive-neal-why-the-moon-needs-an-international-lunar-resource-prospecting-campaign.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "title": "Physical Chemistry Seminar: Professor Connor Coley, MIT",
-      "start": "2026-11-11T15:00:00-08:00",
-      "end": "2026-11-11T16:00:00-08:00",
-      "allDay": false,
-      "location": "",
-      "url": "https://chemistry.stanford.edu/events/physical-chemistry-seminar-professor-connor-coley-mit",
-      "id": "page-chemistry:9ec8643fbafea7ad4892",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
-      "registrationUrl": "",
-      "calendarUrl": ""
-    },
-    {
       "title": "Frontiers in Biology: Douglas Phanstiel, UNC, Chapel Hill | \"From Chromatin loops to genetic risk: Visualizing and interpreting the noncoding genome\"",
       "start": "2026-11-11T16:00:00-08:00",
       "end": "2026-11-11T17:00:00-08:00",
@@ -2675,70 +1935,66 @@
       "calendarUrl": ""
     },
     {
-      "id": "54045888548871:54045893273780",
-      "title": "Geophysics Seminar - Shang-Ping Xie, \"What powered the growth of 2026 super El Niño?\"",
-      "start": "2026-11-12T12:00:00-08:00",
-      "end": "2026-11-12T13:00:00-08:00",
+      "id": "53552472215656:53552472215657",
+      "title": "Celebrating 75 years of Stanford Dermatology, and 18th Annual Rodan and Fields Lecture",
+      "start": "2026-11-12T15:00:00-08:00",
+      "end": "2026-11-12T19:00:00-08:00",
       "allDay": false,
       "departments": [
-        "Geophysics Department"
+        "Department of Dermatology"
       ],
       "subjects": [
-        "Science"
+        "Medicine"
       ],
-      "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-shang-ping-xie",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-shang-ping-xie.ics",
+      "kind": "Lecture/Presentation/Talk",
+      "location": "Cardinal Hall",
+      "room": "104/105",
+      "experience": "inperson",
+      "url": "https://events.stanford.edu/event/celebrating-75-years-of-stanford-dermatology",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfItwM04YPiBLLOWw4OovdjGk9I8wGTtkVzHE9j1yHO6WASRw/viewform",
+      "calendarUrl": "https://events.stanford.edu/event/celebrating-75-years-of-stanford-dermatology.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "53624740188306:53624740189331",
-      "title": "Environmental Behavioral Sciences Seminar with Leah Stokes",
-      "start": "2026-11-12T13:15:00-08:00",
-      "end": "2026-11-12T14:30:00-08:00",
+      "id": "53741880972186:53741880973213",
+      "title": "The Mediterranean Way of Life - A Dietitian-Led Global Approach to Health, Travel, and Well-Being",
+      "start": "2026-11-13T12:00:00-08:00",
+      "end": "2026-11-13T13:00:00-08:00",
       "allDay": false,
       "departments": [
-        "Environmental Social Sciences",
-        "Stanford Doerr School of Sustainability"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/environmental-behavioral-sciences-seminar-with-leah-stokes",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/eating-in-motion-a-dietitian-led-global-approach-to-health-travel-and-well-being",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/environmental-behavioral-sciences-seminar-with-leah-stokes.ics",
+      "calendarUrl": "https://events.stanford.edu/event/eating-in-motion-a-dietitian-led-global-approach-to-health-travel-and-well-being.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "53922734404263:53922734613216",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-16T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
+      "id": "53741881015200:53741881017251",
+      "title": "Healthy Holiday Side Dishes",
+      "start": "2026-11-16T12:00:00-08:00",
+      "end": "2026-11-16T13:00:00-08:00",
+      "allDay": false,
       "departments": [
-        "Sustainability Accelerator"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/healthy-holiday-side-dishes",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/healthy-holiday-side-dishes.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2765,94 +2021,64 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53552413163789:53552415025391",
-      "title": "Stanford Energy Seminar | Jonathan Fan, Stanford University",
-      "start": "2026-11-16T16:30:00-08:00",
-      "end": "2026-11-16T17:20:00-08:00",
+      "id": "53728348825122:53728348826147",
+      "title": "Norton Lecture",
+      "start": "2026-11-17T07:00:00-08:00",
+      "end": "2026-11-17T08:00:00-08:00",
       "allDay": false,
       "departments": [
-        "Precourt Institute for Energy"
+        "Department of Surgery"
       ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Engineering/Technology",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Shriram Center",
-      "room": "104",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/stanford-energy-seminar-11162026",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-energy-seminar-11162026.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "title": "Organic Chemistry Seminar: Professor Brooks Abel, University of California, Berkeley",
-      "start": "2026-11-17T15:00:00-08:00",
-      "end": "2026-11-17T16:00:00-08:00",
-      "allDay": false,
-      "location": "",
-      "url": "https://chemistry.stanford.edu/events/organic-chemistry-seminar-professor-brooks-abel-university-california-berkeley",
-      "id": "page-chemistry:acc13148c013a141ebcf",
-      "departments": [
-        "Chemistry"
-      ],
-      "subjects": [
-        "Science"
-      ],
+      "subjects": [],
       "kind": "Seminar",
-      "room": "",
-      "experience": "",
-      "sourceId": "page-chemistry",
-      "sourceStatus": "checked",
+      "location": "Li Ka Shing Center",
+      "room": "LK130",
+      "experience": "hybrid",
+      "url": "https://events.stanford.edu/event/norton-lecture-dr-jeffrey-drebin",
       "registrationUrl": "",
-      "calendarUrl": ""
-    },
-    {
-      "id": "53922734404263:53922734621410",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-18T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "calendarUrl": "https://events.stanford.edu/event/norton-lecture-dr-jeffrey-drebin.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "53861242574667:53861242574668",
-      "title": "HAI Seminar The AI 100",
+      "id": "53741880634223:54131326864985",
+      "title": "Smart Strategies for Holiday Eating",
+      "start": "2026-11-17T12:00:00-08:00",
+      "end": "2026-11-17T13:00:00-08:00",
+      "allDay": false,
+      "departments": [
+        "Stanford BeWell",
+        "Stanford Healthy Living"
+      ],
+      "subjects": [],
+      "kind": "Class/Seminar",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/smart-strategies-for-holiday-eating-5915",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/smart-strategies-for-holiday-eating-5915.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53741881107372:53741881111471",
+      "title": "Landscapes as a Creative Path for Mindful Well-being",
       "start": "2026-11-18T12:00:00-08:00",
       "end": "2026-11-18T13:15:00-08:00",
       "allDay": false,
       "departments": [
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Computer Science"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Gates Computer Science Building",
-      "room": "119",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/hai-seminar-with-mike-wooldridge-the-ai-100",
-      "registrationUrl": "https://hai.stanford.edu/events/mike-wooldridge-the-ai-100",
-      "calendarUrl": "https://events.stanford.edu/event/hai-seminar-with-mike-wooldridge-the-ai-100.ics",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/landscapes-as-a-creative-path-for-mindful-well-being",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/landscapes-as-a-creative-path-for-mindful-well-being.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -2923,138 +2149,85 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53481233468650:53481233469675",
-      "title": "Global Environmental Policy Seminar with Ishan Nath",
-      "start": "2026-11-19T13:15:00-08:00",
-      "end": "2026-11-19T14:30:00-08:00",
+      "id": "53741881058214:54060518853594",
+      "title": "Medicare Basics",
+      "start": "2026-11-19T12:00:00-08:00",
+      "end": "2026-11-19T13:00:00-08:00",
       "allDay": false,
       "departments": [
-        "Environmental Social Sciences",
-        "Stanford Doerr School of Sustainability"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-ishan-nath",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-ishan-nath.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53568097625161:53568097626186",
-      "title": "Living Minerals: Nature, Trade and Power in the Race for Lithium",
-      "start": "2026-11-20T13:30:00-08:00",
-      "end": "",
-      "allDay": false,
-      "departments": [
-        "Environment/Sustainability"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Bolivar House",
+      "location": "",
       "room": "",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/living-minerals-nature-trade-and-power-in-the-race-for-lithium",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/medicare-basics",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/living-minerals-nature-trade-and-power-in-the-race-for-lithium.ics",
+      "calendarUrl": "https://events.stanford.edu/event/medicare-basics.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "53922734404263:53922734637799",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-23T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734644969",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-25T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54045901446053:54045904454933",
-      "title": "Geophysics Seminar - Tapan Mukerji",
-      "start": "2026-11-29T12:00:00-08:00",
-      "end": "2026-11-29T13:00:00-08:00",
+      "id": "53741881164722:53741881165749",
+      "title": "Reflect, Write, Create",
+      "start": "2026-11-20T12:00:00-08:00",
+      "end": "2026-11-20T13:15:00-08:00",
       "allDay": false,
       "departments": [
-        "Geophysics Department"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Science"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-tapan-mukerji",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/reflect-write-create",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-tapan-mukerji.ics",
+      "calendarUrl": "https://events.stanford.edu/event/reflect-write-create.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
     {
-      "id": "53922734404263:53922734663406",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-11-30T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
+      "id": "53741881207736:53741881208763",
+      "title": "Make a Gutsy Move for Better Health",
+      "start": "2026-11-23T12:00:00-08:00",
+      "end": "2026-11-23T13:00:00-08:00",
+      "allDay": false,
       "departments": [
-        "Sustainability Accelerator"
+        "Stanford BeWell",
+        "Stanford Healthy Living"
       ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
+      "subjects": [],
       "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
+      "location": "",
+      "room": "",
+      "experience": "virtual",
+      "url": "https://events.stanford.edu/event/make-a-gutsy-move-for-better-health-6555",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/make-a-gutsy-move-for-better-health-6555.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53728556259618:53728556259619",
+      "title": "Professional Development Grand Rounds",
+      "start": "2026-11-24T07:00:00-08:00",
+      "end": "2026-11-24T08:00:00-08:00",
+      "allDay": false,
+      "departments": [
+        "Department of Surgery"
+      ],
+      "subjects": [],
+      "kind": "Seminar",
+      "location": "Li Ka Shing Center",
+      "room": "LK130",
+      "experience": "hybrid",
+      "url": "https://events.stanford.edu/event/professional-development-grand-rounds",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/professional-development-grand-rounds.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -3081,70 +2254,64 @@
       "sourceStatus": "checked"
     },
     {
-      "id": "53552419782520:53552421392273",
-      "title": "Stanford Energy Seminar | Soft Materials for Hard Sustainability Challenges: Water production, Data center Sustainability, and High-Temperature Heat | Carlos Diaz-Marin, Stanford University",
-      "start": "2026-11-30T16:30:00-08:00",
-      "end": "2026-11-30T17:20:00-08:00",
+      "id": "53728866418041:53728866419066",
+      "title": "Salvatierra Lecture",
+      "start": "2026-12-01T07:00:00-08:00",
+      "end": "2026-12-01T08:00:00-08:00",
       "allDay": false,
       "departments": [
-        "Precourt Institute for Energy"
-      ],
-      "subjects": [
-        "Environment/Sustainability",
-        "Engineering/Technology",
-        "Business"
-      ],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Shriram Center",
-      "room": "104",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/stanford-energy-seminar-11302026",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/stanford-energy-seminar-11302026.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53922734404263:53922734668527",
-      "title": "Big Earth Hackathon: Wildland Fire Challenge",
-      "start": "2026-12-01T00:00:00-08:00",
-      "end": "",
-      "allDay": true,
-      "departments": [
-        "Sustainability Accelerator"
-      ],
-      "subjects": [
-        "Engineering/Technology",
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "111",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge",
-      "registrationUrl": "https://www.stanfordbigearthhackathon.com/",
-      "calendarUrl": "https://events.stanford.edu/event/big-earth-hackathon-wildland-fire-challenge.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "54178976598416:54178976599441",
-      "title": "Applied Physics/Physics Colloquium: Jo Dunkley - \"The Simons Observatory\"",
-      "start": "2026-12-01T15:30:00-08:00",
-      "end": "2026-12-01T16:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Applied Physics/Physics Colloquium",
-        "Physics / Applied Physics"
+        "Department of Surgery"
       ],
       "subjects": [],
-      "kind": "Lecture/Presentation/Talk",
-      "location": "Hewlett Teaching Center",
-      "room": "201",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-jo-dunkley-the-simons-observatory",
+      "kind": "Seminar",
+      "location": "Li Ka Shing Center",
+      "room": "LK130",
+      "experience": "hybrid",
+      "url": "https://events.stanford.edu/event/salvatierra-lecture",
       "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/applied-physicsphysics-colloquium-jo-dunkley-the-simons-observatory.ics",
+      "calendarUrl": "https://events.stanford.edu/event/salvatierra-lecture.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53809600871428:53809600871429",
+      "title": "Medicine Grand Rounds with Sharon Inouye, MD, MPH",
+      "start": "2026-12-02T12:00:00-08:00",
+      "end": "2026-12-02T13:00:00-08:00",
+      "allDay": false,
+      "departments": [],
+      "subjects": [],
+      "kind": "Lecture/Presentation/Talk",
+      "location": "Li Ka Shing Center",
+      "room": "Berg Hall",
+      "experience": "hybrid",
+      "url": "https://events.stanford.edu/event/medicine-grand-rounds-with-sharon-inouye-md-mph",
+      "registrationUrl": "",
+      "calendarUrl": "https://events.stanford.edu/event/medicine-grand-rounds-with-sharon-inouye-md-mph.ics",
+      "sourceId": "stanford-calendar",
+      "sourceStatus": "checked"
+    },
+    {
+      "id": "53727115436518:53727115437543",
+      "title": "The Future of Health in Africa: How U.S. Presidential Decisions Are Shaping a Generation of African Children - Dr. Ruth Gibson",
+      "start": "2026-12-02T12:00:00-08:00",
+      "end": "2026-12-02T13:00:00-08:00",
+      "allDay": false,
+      "departments": [
+        "Center for African Studies"
+      ],
+      "subjects": [
+        "Arts/Media",
+        "Humanities",
+        "Diversity/Identity"
+      ],
+      "kind": "Lecture/Presentation/Talk",
+      "location": "Encina Commons",
+      "room": "Room 123",
+      "experience": "inperson",
+      "url": "https://events.stanford.edu/event/the-future-of-health-in-africa-how-us-presidential-decisions-are-shaping-a-generation-of-african-children-dr-ruth-gibson",
+      "registrationUrl": "https://forms.gle/XQ2dYfcGygVDcNXZ9",
+      "calendarUrl": "https://events.stanford.edu/event/the-future-of-health-in-africa-how-us-presidential-decisions-are-shaping-a-generation-of-african-children-dr-ruth-gibson.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -3169,51 +2336,6 @@
       "sourceStatus": "checked",
       "registrationUrl": "",
       "calendarUrl": ""
-    },
-    {
-      "id": "54045909958926:54045922903666",
-      "title": "Geophysics Seminar - Lorenzo Bruzzone: \"RIME and the JUICE Mission\"",
-      "start": "2026-12-03T12:00:00-08:00",
-      "end": "2026-12-03T13:00:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Geophysics Department"
-      ],
-      "subjects": [
-        "Science"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Mitchell Earth Sciences",
-      "room": "350/372",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/geophysics-seminar-lorenzo-bruzzone-rime-and-the-juice-mission",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/geophysics-seminar-lorenzo-bruzzone-rime-and-the-juice-mission.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53701696973246:53701696974271",
-      "title": "Global Environmental Policy Seminar with Matto Mildenberger",
-      "start": "2026-12-03T13:15:00-08:00",
-      "end": "2026-12-03T14:30:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Environmental Social Sciences",
-        "Stanford Doerr School of Sustainability"
-      ],
-      "subjects": [
-        "Environment/Sustainability"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Y2E2 Building",
-      "room": "299",
-      "experience": "inperson",
-      "url": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-matto-mildenberger",
-      "registrationUrl": "",
-      "calendarUrl": "https://events.stanford.edu/event/global-environmental-policy-seminar-with-matto-mildenberger.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
     },
     {
       "id": "54065599198708:54065599199733",
@@ -3257,30 +2379,6 @@
       "url": "https://events.stanford.edu/event/stanford-cancer-institute-breakthroughs-in-cancer-janice-mehnert-md",
       "registrationUrl": "https://bit.ly/3TldMSI",
       "calendarUrl": "https://events.stanford.edu/event/stanford-cancer-institute-breakthroughs-in-cancer-janice-mehnert-md.ics",
-      "sourceId": "stanford-calendar",
-      "sourceStatus": "checked"
-    },
-    {
-      "id": "53861598502049:53861598502050",
-      "title": "HAI Seminar with Angèle Christin in Conversation with Hannah Zeavin",
-      "start": "2026-12-09T12:00:00-08:00",
-      "end": "2026-12-09T13:15:00-08:00",
-      "allDay": false,
-      "departments": [
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Stanford Public Humanities",
-        "Computer Science"
-      ],
-      "subjects": [
-        "Engineering/Technology"
-      ],
-      "kind": "Class/Seminar",
-      "location": "Gates Computer Science Building",
-      "room": "119",
-      "experience": "hybrid",
-      "url": "https://events.stanford.edu/event/hai-seminar-with-angele-christin-in-conversation-with-hannah-zeavin",
-      "registrationUrl": "https://hai.stanford.edu/events/angele-christin-hannah-zeavin-gurus-hucksters-entertainers-how-influencers-reshaped-social-media",
-      "calendarUrl": "https://events.stanford.edu/event/hai-seminar-with-angele-christin-in-conversation-with-hannah-zeavin.ics",
       "sourceId": "stanford-calendar",
       "sourceStatus": "checked"
     },
@@ -3356,8 +2454,7 @@
       "allDay": false,
       "departments": [
         "Wu Tsai Neurosciences Institute",
-        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)",
-        "Computer Science"
+        "Stanford Institute for Human-Centered Artificial Intelligence (HAI)"
       ],
       "subjects": [
         "Health/Wellness",
