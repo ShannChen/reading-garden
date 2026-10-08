@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T00:15:40.264392+00:00",
+  "checkedAt": "2026-10-08T09:08:55.678563+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
-  "failedQueries": 3,
+  "failedQueries": 5,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-74343-4",
+      "title": "Vaginal and urinary microbiota in breast cancer survivors undergoing fractional CO2 laser therapy",
+      "authors": "Sine Jacobsen, Caspar Bundgaard-Nielsen, Marianne Glavind-Kristensen, Anders Bonde Jensen, Axel Forman, Suzette Sørensen, Pinar Bor",
+      "journal": "Scientific Reports",
+      "published": "2026-10-08",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74343-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-08T09:08:55.678563+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-71562-7",
+      "title": "Spatial variation shapes gut microbiome composition and functional potential in an Afrotropical fish",
+      "authors": "Olabisi Tawakalt Atofarati, Segun Olayinka Oladipo, Ifeanyi Christopher Nneji, Kehinde Moruf Adelakun, Maame Kobe Asiamah, Amaya Everett, Lotanna Micah Nneji",
+      "journal": "Scientific Reports",
+      "published": "2026-10-08",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-71562-7",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-08T09:08:55.678563+00:00"
+    },
     {
       "doi": "10.1126/scitranslmed.aee9049",
       "title": "A multiomic atlas reveals distinct immune landscapes in preterm and term chronic placental inflammation",
