@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   const el=id=>document.getElementById(id),cacheKey='reading-garden-public-seminars-v1';
-  let feed=null,failed=false,loading=false,lastAttempt=0,page=0;
+  let allowed=false,feed=null,failed=false,loading=false,lastAttempt=0,page=0;
   const safe=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';}catch{return '';}};
   const valid=d=>d?.version===1&&Array.isArray(d.events)&&d.events.length<=20000&&Array.isArray(d.sources)&&Array.isArray(d.departments)&&d.events.every(e=>typeof e.title==='string'&&typeof e.start==='string'&&Number.isFinite(Date.parse(e.start))&&Array.isArray(e.departments)&&e.departments.every(x=>typeof x==='string')&&!!safe(e.url));
   const dateKey=d=>d.toLocaleDateString('sv-SE',{timeZone:'America/Los_Angeles'});
@@ -49,7 +49,7 @@
     return '<article class="card"><div class="cardtop"><span class="funding-badge">'+esc(e.kind||'Seminar')+'</span>'+(e.sourceStatus==='saved'?'<span class="small">Saved schedule · Recheck official page</span>':'')+'</div><h2><a href="'+esc(safe(e.url))+'" target="_blank" rel="noopener noreferrer">'+esc(e.title)+'</a></h2><p class="seminar-time">'+esc(when(e))+'</p><p class="meta">'+esc(e.departments.join(' · '))+'</p>'+(e.speaker?'<p class="meta">'+esc(e.speaker)+(e.institution?' · '+esc(e.institution):'')+'</p>':'')+'<p class="meta">'+esc(location)+'</p><div class="cardbottom"><a class="small" href="'+esc(safe(e.url))+'" target="_blank" rel="noopener noreferrer">Event details ↗</a>'+(safe(e.registrationUrl)?'<a class="small" href="'+esc(safe(e.registrationUrl))+'" target="_blank" rel="noopener noreferrer">Register ↗</a>':'')+(safe(e.calendarUrl)?'<a class="small" href="'+esc(safe(e.calendarUrl))+'" target="_blank" rel="noopener noreferrer">Add to calendar ↗</a>':'')+'</div></article>';
   }
   function renderSeminars(){
-    const active=view==='seminars';el('seminarView').hidden=!active;el('seminarNav').classList.toggle('active',active);if(!active)return;
+    el('seminarNav').hidden=!allowed;const active=allowed&&view==='seminars';el('seminarView').hidden=!active;el('seminarNav').classList.toggle('active',active);if(!active)return;
     const events=rows();page=Math.min(page,Math.max(0,Math.ceil(events.length/30)-1));
     el('seminarChecked').textContent=(!feed?.checkedAt?'Waiting for the first automatic source check.':'Last source check '+new Date(feed.checkedAt).toLocaleString('en-US'))+(failed?' · Latest feed unavailable; showing saved schedule.':'')+(feed?.partial?' · Some sources need checking; coverage is incomplete.':'');
     el('seminarCount').textContent=events.length+' upcoming talks · Stanford time (Pacific)';
@@ -62,7 +62,7 @@
     el('seminarDepartmentLink').href=safe(source?.url||entry?.url)||'https://events.stanford.edu/';
   }
   async function refresh(){
-    if(loading||Date.now()-lastAttempt<300000)return;loading=true;lastAttempt=Date.now();renderSeminars();
+    if(!allowed||loading||Date.now()-lastAttempt<300000)return;loading=true;lastAttempt=Date.now();renderSeminars();
     try{
       let next;for(const source of ['https://raw.githubusercontent.com/ShannChen/reading-garden/main/data/seminar-feed.json','data/seminar-feed.json']){
         try{const response=await fetch(source,{cache:'no-store',signal:AbortSignal.timeout(20000)});if(!response.ok)continue;const d=await response.json();if(valid(d)){next=d;break;}}catch{}
@@ -72,10 +72,10 @@
   }
   try{const cached=JSON.parse(localStorage.getItem(cacheKey)||'null');if(valid(cached))feed=cached;}catch{}
   updateDepartments();const previousRender=render;render=function(){previousRender();renderSeminars();};
-  el('seminarNav').onclick=()=>{view='seminars';render();refresh();};
+  el('seminarNav').onclick=()=>{if(!allowed)return;view='seminars';render();refresh();};
   for(const id of ['seminarSearch','seminarRange','seminarDepartment'])el(id).addEventListener(id==='seminarSearch'?'input':'change',()=>{page=0;if(id==='seminarRange')updateDepartments();renderSeminars();});
   el('seminarPrevious').onclick=()=>{page=Math.max(0,page-1);renderSeminars();};el('seminarNext').onclick=()=>{page++;renderSeminars();};
   document.addEventListener('visibilitychange',()=>{if(!document.hidden&&view==='seminars')refresh();});
   addEventListener('online',()=>{if(view==='seminars'){lastAttempt=0;refresh();}});setInterval(()=>{if(!document.hidden&&view==='seminars')refresh();},600000);
-  window.ReadingGardenSeminars={valid,rows,departmentKey,inScope};renderSeminars();
+  window.ReadingGardenSeminars={valid,rows,departmentKey,inScope,setAllowed(value){allowed=value===true;if(!allowed&&view==='seminars'){view='papers';render();}else renderSeminars();}};renderSeminars();
 })();
