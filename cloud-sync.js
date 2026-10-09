@@ -104,7 +104,6 @@
       for(const id of ['editor','ideaEditor'])el(id).close();editing=null;ideaEditing=null;window.ReadingGardenPeople?.close();
       try{setData(readLocal(namespace),false)}catch{setData(core.empty(),false);status('Could not read this account’s saved records.');}
     }else session=next;
-    window.ReadingGardenSeminarAccess?.setUser(next?.user||null);
     controls();
     if(!next){status('Local mode · saved only on this device');return;}
     if(active)return;
@@ -203,6 +202,5 @@
     if(active&&event.key?.startsWith(namespace+':')&&event.key!==metaKey){try{setData(core.merge(base,snapshot(),readLocal(namespace),'remote').data);schedule()}catch{status('Local records changed in another tab. Reload after exporting a backup.');}}
   });
   controls();
-  window.ReadingGardenAccount={getUser:()=>session?.user||null};
   if(localStorage.getItem('reading-garden-auth')||/(?:access_token|error_description)=/.test(location.hash)||/(?:^|[?&])code=/.test(location.search))sdk().then(api=>api.auth.getSession()).then(({data})=>handleSession(data.session)).catch(()=>status('Sign-in service unavailable. Local records are still available.'));
 })();
