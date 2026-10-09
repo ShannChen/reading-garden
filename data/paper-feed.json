@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-09T09:16:20.832708+00:00",
+  "checkedAt": "2026-10-09T19:34:46.236974+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,74 @@
       "link": "https://doi.org/10.1126/sciadv.aed7880",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-09T00:28:28.035144+00:00"
+    },
+    {
+      "doi": "10.1038/s41698-026-01734-1",
+      "title": "Spatial proteomics identifies stromal FAP-α as a predictive biomarker for therapeutic efficacy in hepatocellular carcinoma",
+      "authors": "Feng Fang, Yating Zhao, Xuhui Liu, Tiangqiang Song, Yunlong Cui, Qiang Wu, Dongmei Li, Haitao Luo, Guohui Sun",
+      "journal": "npj Precision Oncology",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41698-026-01734-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75270-0",
+      "title": "Identification and validation of biomarkers related to integrated stress response in ischemic stroke based on transcriptomics",
+      "authors": "Wei Zhou, Jian Chen, Qiuxia Chen, Chaofang Zhou, Rui Xiong, Huchuan Zhou",
+      "journal": "Scientific Reports",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75270-0",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75258-w",
+      "title": "Multi-omics techniques reveal the molecular mechanisms of perfluoroalkyl substances in regulating preeclampsia",
+      "authors": "Yue Wang, Yiqing Fu, Junchi He, Weijiong Guan, Yunjin Shi, Sitong Fang, Shujia Xiang, Mingyue Ma",
+      "journal": "Scientific Reports",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75258-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-74314-9",
+      "title": "Oral succinate protects the heart in a temperature dependent manner in mice via gut microbiota",
+      "authors": "Banghong Cheng, Xin Wang, Zhichao Wang, Sihui Tu, Dayu Wu, Fan Xia, Qiong Duan, Ying Zhou",
+      "journal": "Scientific Reports",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74314-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
     },
     {
       "doi": "10.1038/s41598-026-74159-2",
@@ -59,6 +127,40 @@
       "firstSeen": "2026-10-09T09:16:20.832708+00:00"
     },
     {
+      "doi": "10.1038/s41582-026-01278-9",
+      "title": "Menopause-associated proteomic changes link to brain ageing and dementia risk",
+      "authors": "Lisa Kiani",
+      "journal": "Nature Reviews Neurology",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41582-026-01278-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
+    },
+    {
+      "doi": "10.1038/s41579-026-01377-w",
+      "title": "The role of the respiratory microbiome in acute and chronic respiratory diseases",
+      "authors": "Lauren R. Heinzinger, Leopoldo N. Segal, Robert P. Dickson",
+      "journal": "Nature Reviews Microbiology",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41579-026-01377-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
+    },
+    {
       "doi": "10.1038/s41538-026-01191-x",
       "title": "Four dietary flavonoids differentially modulate the gut microbiota–barrier interaction against colitis-driven cognitive deficits",
       "authors": "Qiqiong Li, Shanfeng Qiao, Xinke Nie, Yuhan Li, Wanyu Zhang, Xinyang Chen, Junhua Xie, Shaoping Nie",
@@ -91,6 +193,23 @@
       "link": "https://doi.org/10.1038/s41522-026-01178-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-09T09:16:20.832708+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78415-x",
+      "title": "High-throughput spatial proteomics from cellular to subcellular scales via a hanging droplet workflow",
+      "authors": "Hao Chen, Ulises H. Guzman, Jesper V. Olsen",
+      "journal": "Nature Communications",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78415-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
     },
     {
       "doi": "10.1038/s41467-026-78387-y",
@@ -1092,6 +1211,23 @@
       "link": "https://doi.org/10.1016/j.xcrm.2026.103101",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-08T19:59:46.675825+00:00"
+    },
+    {
+      "doi": "10.1016/j.xcrm.2026.103098",
+      "title": "Microbiota-regulated TCDCA associates with Parkinson’s disease severity and promotes BBB dysfunction through VSMC TGR5 signaling in mice",
+      "authors": "Zhe Zhao, Yixuan Liu, Wen Ma, Gaofei Hu, Jincen Hao, Chaobo Bai, Jing Chen, Qi Zhang, Huanhuan Cao, Xiaoyi Liu, Yujie Zhu, Manyuan Dong, Zheng Zhang, Shenge Su, Rui Zhan, Huibo Li, Rongsheng Zhao, Junliang Yuan",
+      "journal": "Cell Reports Medicine",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xcrm.2026.103098",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T19:34:46.236974+00:00"
     },
     {
       "doi": "10.1016/j.tree.2026.06.004",
