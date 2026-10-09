@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T19:59:46.675825+00:00",
+  "checkedAt": "2026-10-09T00:28:28.035144+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/sciadv.aed7880",
+      "title": "Clonal lineage tracing and parallel multiomics profiling reveal transcriptional heterogeneity induced by ARID1A deficiency",
+      "authors": "Kenichi Miyata, Liying Yang, Yuxiao Yang, Kohei Kumegawa, Reo Maruyama",
+      "journal": "Science Advances",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aed7880",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-09T00:28:28.035144+00:00"
+    },
     {
       "doi": "10.1126/science.aea7733",
       "title": "The human gut microbiome primes fever after vaccination",
@@ -11891,176 +11908,6 @@
         "proteomics"
       ],
       "link": "https://doi.org/10.1038/s41467-026-74715-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s44528-026-00014-5",
-      "title": "Mucosal immunoglobulin A mirrors metabolic adiposity and is associated with oral microbiome diversity",
-      "authors": "Miia Hakula, Anton Lavrinienko, Rasmus Hindström, Antti Nissinen, Tuula Salo, Janne J. Koskimäki, Sohvi Hörkkö, Ramin Akhi",
-      "journal": "Communications Health",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s44528-026-00014-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43856-026-01771-8",
-      "title": "Characterizing the composition and diversity of the vaginal microbiome in ovarian cancer",
-      "authors": "April Deveaux, Oyomoare L. Osazuwa-Peters, Yeon Ji Kim, Pixu Shi, Drew Neish, Ashwini Joshi, Veronica Duck, Ashliegh Williams, Margaret Gates Kuliszewski, Bin Huang, Kevin Ward, Maria Pisu, Thomas Tucker, Rebecca Previs, Andrew Berchuck, Tomi Akinyemiju",
-      "journal": "Communications Medicine",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s43856-026-01771-8",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01599-4",
-      "title": "Comprehensive multi-omic dissection and AI-prioritized target identification in inverted papilloma–associated sinonasal squamous cell carcinoma",
-      "authors": "Alka Singh, Michael Korzinkin, Viktoria Sarkisova, Ekaterina Vergasova, Ari J. Rosenberg, Karthik Suresh, Vasudha Mishra, Yuxuan Miao, Le Shen, Julia Smolik, Alexander Veviorskiy, Frank W. Pun, Xiangying Cheng, Claudia Wing, Jayant Pinto, Christopher M. Low, Mark W. Lingen, Lisa Rooper, Alexander T. Pearson, Everett E. Vokes, Xuanyao Liu, Nyall London, Alex Zhavoronkov, Nishant Agrawal, Evgeny Izumchenko",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01599-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61880-1",
-      "title": "Proteomic analysis reveals lipid metabolism disruption and key targets in ARPE-19 cells after RNF13 knockdown",
-      "authors": "Chen Xie, Xin Yu, Liyin Wang",
-      "journal": "Scientific Reports",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61880-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61227-w",
-      "title": "Oxidative stress induces nucleus pulposus cell senescence and metabolic substrate depletion-driven reprogramming: a multi-omics study",
-      "authors": "Meng Yi, Peichuan Xu, Jipeng Song, Wancheng Lin, Shijie Liu, Zhirong Xie, Yao Zhang, Yukun Yin, Lixiang Ding",
-      "journal": "Scientific Reports",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61227-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60976-y",
-      "title": "Intestinal FXR deficiency uncouples steatosis protection from liver inflammation and fibrosis in MASH-diet fed mice",
-      "authors": "Margaux Nawrot, Simon Peschard, Morgane M Thibaut, Kévin Ory, Emmanuelle Vallez, Emilie Dorchies, Véronique Touche, Julie Dubois-Chevalier, Céline Gheeraert, Sandrine Caron, Kadiombo Bantubungi, Philippe Lefebvre, Anne Tailleux, Joel T Haas, Laure B Bindels, Isabelle Leclercq, David Dombrowicz, Sophie Lestavel, Bart Staels",
-      "journal": "Scientific Reports",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60976-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-58185-8",
-      "title": "Correction: Examining the effects of cigarette smoke on mouse lens through a multi OMIC approach",
-      "authors": "Shahid Y. Khan, Muhammad Ali, Yura Jang, Taekyung Ryu, Andrew J. Schwab, Brian O. Ingram, Peter H. Cable, Chan Hyun Na, James T. Handa, S. Amer Riazuddin",
-      "journal": "Scientific Reports",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-58185-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-57479-1",
-      "title": "Effect of probiotic Bacillus cereus PKA18 on the overall growth, gut microbiome, and immunity in Clarias magur (Hamilton, 1822)",
-      "authors": "Sourav Chattaraj, Ishita Chatterjee, Riya Nandi, Pradeep Kumar Das Mohapatra, Pritish Mitra, Asish Mandal, Debasis Mitra, Arindam Ganguly",
-      "journal": "Scientific Reports",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-57479-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41541-026-01415-x",
-      "title": "Effect of a spore-based Mannheimia haemolytica vaccine on immune responses and respiratory microbiota in sheep",
-      "authors": "Muhammed Salah Uddin, José Ortiz Guluarte, Timothy D. Schwinghamer, Daniel R. Barreda, Tim A. McAllister, Le Luo Guan, Trevor W. Alexander",
-      "journal": "npj Vaccines",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41541-026-01415-x",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-00993-3",
-      "title": "Dietary proanthocyanidins ameliorate age-related cognitive decline and neuroinflammation in thyroxine-induced accelerated aging-like mice via the gut microbiota-SCFAs-5-HTP axis",
-      "authors": "Chong Yuan, Na Wang, Kunmiao He, Tiantian Xu, Hanshuo Wang, Hongtao Ren, Shuangjuan Xue, Qiuying Yu, Linlin Chen, Gaiping Zhang",
-      "journal": "npj Science of Food",
-      "published": "2026-07-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-00993-3",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
