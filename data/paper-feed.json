@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-09T00:28:28.035144+00:00",
+  "checkedAt": "2026-10-09T09:16:20.832708+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,108 @@
       "link": "https://doi.org/10.1126/sciadv.aed7880",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-09T00:28:28.035144+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-74159-2",
+      "title": "Multi-omics transformer integration reveals an invasive-like molecular phenotype in ductal carcinoma in situ",
+      "authors": "Medha Jha, Yasha Hasija",
+      "journal": "Scientific Reports",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74159-2",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-09T09:16:20.832708+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-71706-9",
+      "title": "Machine learning prediction of rheumatoid arthritis using the gut microbiome shows limited cross-cohort generalizability",
+      "authors": "Sabira Dabeer, Hatim Palitanawala",
+      "journal": "Scientific Reports",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-71706-9",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-09T09:16:20.832708+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01191-x",
+      "title": "Four dietary flavonoids differentially modulate the gut microbiota–barrier interaction against colitis-driven cognitive deficits",
+      "authors": "Qiqiong Li, Shanfeng Qiao, Xinke Nie, Yuhan Li, Wanyu Zhang, Xinyang Chen, Junhua Xie, Shaoping Nie",
+      "journal": "npj Science of Food",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01191-x",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T09:16:20.832708+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01178-2",
+      "title": "A validation framework for translating ethnomicrobiology into microbiome-enabled desert restoration",
+      "authors": "Ahmed Elhady, Heribert Hirt",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01178-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T09:16:20.832708+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78387-y",
+      "title": "Multi-omics profiling uncovers diagnostic biomarker panel, progression-associated subtypes, and prognostic signature in pediatric mitochondrial disease",
+      "authors": "Xiaoting Lou, Zhehui Chen, Yuwei Zhou, Keyi Li, Jieyu Feng, Ding Li, Ruowei Zhu, Peng Luo, Chunxia Zhang, Xiujuan Wei, Qiongya Zhao, Yanling Yang, Hezhi Fang, Jianxin Lyu",
+      "journal": "Nature Communications",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78387-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T09:16:20.832708+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78142-3",
+      "title": "Resistance indicators in sewage microbiota mirror clinical antibiotic use with temporal lag linked to host",
+      "authors": "C. L. Brown, MA. Rumi, L. McDaniel, A. Maile-Moskowitz, J. Sein, L. Nguyen, M. Choi, F. Hindi, J. I. Mullet, M. Emon, N. Moumi, M. F. Blair, B. C. Davis, J. Rao, A. Baffoe-Bonnie, P. Vikesland, A. Pruden, L. Zhang",
+      "journal": "Nature Communications",
+      "published": "2026-10-09",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78142-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-09T09:16:20.832708+00:00"
     },
     {
       "doi": "10.1126/science.aea7733",
