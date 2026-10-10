@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-10T08:39:07.077924+00:00",
+  "checkedAt": "2026-10-10T18:42:27.009810+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-75618-6",
+      "title": "Evaluation of acute FGF2 and PRDX3 for long COVID prediction across cohorts and proteomic platforms",
+      "authors": "Chuan-Xin Duan, Lang Yang",
+      "journal": "Scientific Reports",
+      "published": "2026-10-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75618-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-10T18:42:27.009810+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aed7880",
       "title": "Clonal lineage tracing and parallel multiomics profiling reveal transcriptional heterogeneity induced by ARID1A deficiency",
