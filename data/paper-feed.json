@@ -1,12 +1,63 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-10T23:39:47.619610+00:00",
+  "checkedAt": "2026-10-11T09:03:22.456089+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-75126-7",
+      "title": "Multiple organic acid-rich fermented wheat bran improves duck meat quality: insights from physicochemical, sensory, and metabolomic properties",
+      "authors": "Wanshu Pan, Kah Hui Chong, Binbin Li, Song Wang, Ling You, Tao Wang, Yongguang Zhang, Mahmud Ab Rashid Nor-Khaizura, Nor Afizah Mustapha, Nazamid Saari, Wan Zunairah Wan Ibadullah",
+      "journal": "Scientific Reports",
+      "published": "2026-10-11",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75126-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-11T09:03:22.456089+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-70557-8",
+      "title": "Evaluation and validation of a reproducible mNGS workflow for gut Microbiome analysis",
+      "authors": "Yingying Zheng, Hailing Wanghu, Zhongkui Xia, Yanjuan Huang, Xiaodi Luo, Xianjin Wang, Lingling Qiu, Nengquan Chen, Xiao Han, Jinglan Lai, Zihe Rao",
+      "journal": "Scientific Reports",
+      "published": "2026-10-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-70557-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-11T09:03:22.456089+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01194-8",
+      "title": "Comparative metabolomic characterization of secondary metabolites in Gnaphalium affine D. Don considering the influence of growth stages and cultivation systems",
+      "authors": "Sujin Hong, Han Gyeol Lee, Seon Min Oh, Hyoung-Geun Kim, Young Min An, Su-Yeon Lee, Doo-Young Kim, Sei-Ryang Oh, Chul Young Kim, Jin Hwan Lee, Hyung Won Ryu",
+      "journal": "npj Science of Food",
+      "published": "2026-10-11",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01194-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-11T09:03:22.456089+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75618-6",
       "title": "Evaluation of acute FGF2 and PRDX3 for long COVID prediction across cohorts and proteomic platforms",
