@@ -1,12 +1,114 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-12T09:24:49.274648+00:00",
+  "checkedAt": "2026-10-12T22:10:11.435352+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s42255-026-01642-5",
+      "title": "A multi-fluid exercise proteomic atlas reveals regulators of health and disease",
+      "authors": "",
+      "journal": "Nature Metabolism",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s42255-026-01642-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s42255-026-01621-w",
+      "title": "Systemic proteomic dynamics of acute exercise reveal genetic links to health and disease",
+      "authors": "Nigel Kurgan, Jeppe Kjærgaard, Naja Zenius Jespersen, Virginia Díez-Obrero, Victor Svenstrup, Roger Moreno-Justicia, Sarah Elizabeth Heywood, Cecilie Bergmann Lindqvist, Lisa Ottander, Diana Samodova-Sommer, Alina Malita, Olga Kubrak, Nadja Ahrentløv, Nina Sloth Nielsen, Cody Garett Durrer, Michael Texada, Mathias Ried-Larsen, Simon Rasmussen, Kim Rewitz, Ruth J. F. Loos, Roelof Adriaan Johan Smit, Bente Klarlund Pedersen, Atul Shahaji Deshmukh",
+      "journal": "Nature Metabolism",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s42255-026-01621-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41698-026-01750-1",
+      "title": "Multi-omics integration constructs an inflammation-senescence signature for predicting bladder cancer progression and therapy response",
+      "authors": "Jiaqing Yang, Yuanzhuo Du, Weifeng Shang, Jingliang Cao, Qiang Zhou, Jialei Zhong, Ju Guo",
+      "journal": "npj Precision Oncology",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41698-026-01750-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41698-026-01744-z",
+      "title": "The genomic and proteomic landscape of Chinese familial prostate cancer reveals unique mutational signatures and targetable pathways",
+      "authors": "Yuhao Zhang, Dekai Liu, Qifeng Zhong, Yumiao Xu, Ruiying Kong, Jungang Zhao, Lijie You, Wenyi Zhao, Jingqi Zhou, Yiwei Jiang, Yutao Zhang, Minjing Shi, Lianghao Lin, Jili Wang, Zhan Zhou, Guoping Ren, Yichun Yichun Zheng",
+      "journal": "npj Precision Oncology",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41698-026-01744-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75758-9",
+      "title": "Evaluation of aspirin effects on zebrafish (Danio rerio) embryos at clinically relevant plasma concentrations: a multi-omics approach",
+      "authors": "Yutong Li, Yanyan Liu, Huaqin Sun, Jing Chen, Min Luo, Ziyuan Lin, Feng Chen, Haiwen Liu",
+      "journal": "Scientific Reports",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75758-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75240-6",
+      "title": "Conventional diversity metrics underestimate gut microbiome disruption under florfenicol exposure in Nile tilapia (Oreochromis niloticus)",
+      "authors": "Lisa-Marie Streb, Inácio Mateus Assane, Gabriela Freitas Pereira de Souza, Fabiana Pilarski, Anna Paula Queiroga, Susanne Walch, Susanne Rath, Michael Schloter",
+      "journal": "Scientific Reports",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75240-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-74444-0",
       "title": "Shared household environment structures the gut microbiota in a large family cohort with central areolar choroidal dystrophy",
@@ -23,6 +125,91 @@
       "link": "https://doi.org/10.1038/s41598-026-74444-0",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-12T09:24:49.274648+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-74146-7",
+      "title": "Integrating multi-omics analysis reveals shared genetic architecture and spatial correlations between heart failure and osteoporosis",
+      "authors": "Ruikang Liu, Chiyun Sun, Yonghao Li, Jun Li, Nan Jiang, Yanyu Lu, Guangyi Yang, Yuqing Tan, Fuyuan Zhang, Chao Meng, Xiao Xia, Yiying Liu, Kai Yang, Menglei Wang, Muxi Yu, Xiaodi Qi, Xuanchun Huang",
+      "journal": "Scientific Reports",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74146-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-65597-z",
+      "title": "Whole blood metabolomics reveals coordinated redox-one-carbon axis disruption in NSCLC: a pilot study in an Indian cohort",
+      "authors": "Kamal Baswal, Sanchit Sharma, Bala Manikanta Adimoolam, Rajkumar Kulandaisamy, Vikas Kumar, Deepa Singh, Tushar Kushwaha, Raja Vivek Vardhan, Saroj Kumar, Anant Mohan, Prabhat Singh Malik, Jagadeshwar R. Thota, Mohan B. Appaiahgari, Krishna K. Inampudi",
+      "journal": "Scientific Reports",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-65597-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41589-026-02339-2",
+      "title": "PUS7 pseudouridylation of 7SK orchestrates human somatic cell reprogramming into iPS cells",
+      "authors": "Hongxia Cai, Cheng-Wei Ju, Jianfei Chao, Yunzheng Liu, Peng Ye, Xuanhao Zhu, Ruitu Lyu, Yutao Zhao, Chenyou Zhu, Yuxuan Li, Xiwei Wu, Arthur Li, Jiangbo Wei, Li-Sheng Zhang, Fowzan Sami Alkuraya, Arjan P. M. de Brouwer, Chuan He, Yanhong Shi",
+      "journal": "Nature Chemical Biology",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41589-026-02339-2",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02507-z",
+      "title": "Family matters in the root microbiota",
+      "authors": "Davide Bulgarelli",
+      "journal": "Nature Microbiology",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02507-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78437-5",
+      "title": "Deep profiling of lysine methylation by covalent enrichment-enhanced proteomics",
+      "authors": "Manqian Zheng, Lufeng Yan, Shiyu Peng, Chia-Heng Hsiung, Ruoyu Wang, Xin Zhang, Mingxuan Wu",
+      "journal": "Nature Communications",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78437-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
     },
     {
       "doi": "10.1038/s41598-026-75126-7",
@@ -1502,6 +1689,23 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
+      "doi": "10.1016/j.crmeth.2026.101619",
+      "title": "Acute in vivo proximity labeling for membrane-targeted proteomics in neuronal circuits",
+      "authors": "Maribel Anguiano, Run Zhang, Melanie Robles, Kaden P. Adams, Michelle R. Salemi, Brett S. Phinney, Christopher S. Leung, Ethan M. Fenton, Kuldeep Giri, Elinor Lewis, Sophia Lin, Jennifer L. Whistler, Alex S. Nord, Christina K. Kim",
+      "journal": "Cell Reports Methods",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.crmeth.2026.101619",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
       "doi": "10.1016/j.cmet.2026.08.021",
       "title": "Diet-microbiome interactions enhance cancer immunotherapy in obesity",
       "authors": "Allard W.J. van Renterghem, Emile E. Voest",
@@ -1583,6 +1787,23 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.celrep.2026.118038",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.ccell.2026.08.019",
+      "title": "Beyond BMI: The diet-microbiome context of the obesity paradox",
+      "authors": "En-Wei Tao, Jing-Yuan Fang, Ying-Xuan Chen",
+      "journal": "Cancer Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.ccell.2026.08.019",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
@@ -5936,23 +6157,6 @@
       "link": "https://doi.org/10.1016/j.cell.2026.08.034",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1016/j.ccell.2026.08.019",
-      "title": "Beyond BMI: The diet-microbiome context of the obesity paradox",
-      "authors": "En-Wei Tao, Jing-Yuan Fang, Ying-Xuan Chen",
-      "journal": "Cancer Cell",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.ccell.2026.08.019",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
       "doi": "10.1038/s41598-026-69416-3",
