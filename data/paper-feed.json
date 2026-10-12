@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-11T23:44:50.746718+00:00",
+  "checkedAt": "2026-10-12T09:24:49.274648+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-74444-0",
+      "title": "Shared household environment structures the gut microbiota in a large family cohort with central areolar choroidal dystrophy",
+      "authors": "Enriqueta Garcia-Gutierrez, Alise J. Ponsero, Jesús Delgado, Fiona Crispie, Paul D. Cotter, Nicolás Cuenca, Pedro Lax",
+      "journal": "Scientific Reports",
+      "published": "2026-10-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74444-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-12T09:24:49.274648+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75126-7",
       "title": "Multiple organic acid-rich fermented wheat bran improves duck meat quality: insights from physicochemical, sensory, and metabolomic properties",
@@ -11955,108 +11972,6 @@
         "proteomics"
       ],
       "link": "https://doi.org/10.1038/s41526-026-00636-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62011-6",
-      "title": "Screening psychobiotic bacteria in the human colonic microbiota under high perceived stress",
-      "authors": "Elizabeth Goya-Jorge, Céline Antoine, Irma Gonza, Mohamed Al-Chihab, Philippe Thonart, Germain Druart, Cyril T. Mascolo, Baptiste Leroy, Samiha Boutaleb, Caroline Douny, Marie-Louise Scippo, Véronique Delcenserie",
-      "journal": "Scientific Reports",
-      "published": "2026-07-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62011-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61278-z",
-      "title": "Fecal microbiome profiles in uncomplicated right colonic diverticulitis: An exploratory prospective case–control study",
-      "authors": "Youn Young Park, Jaeim Lee, Kil-yong Lee, Seong-Taek Oh",
-      "journal": "Scientific Reports",
-      "published": "2026-07-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61278-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60803-4",
-      "title": "The oral microbiome is associated with stress, adversity, and mental health in young adults",
-      "authors": "Naomi N. Gancz, Paul W. Savoca, Bridget L. Callaghan",
-      "journal": "Scientific Reports",
-      "published": "2026-07-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60803-4",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60616-5",
-      "title": "An investigation of the abnormalities in the microbiome‑gut‑brain axis in betel quid chewers",
-      "authors": "Qianyu Yang, Lili Fu, Huijuan Chen, Weiyuan Huang, Yihao Guo, Liting Liu, Qingqing Fu, Tao Liu, Feng Chen",
-      "journal": "Scientific Reports",
-      "published": "2026-07-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60616-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01087-4",
-      "title": "Phage endolysin enables targeted manipulation of the small intestinal microbiota and uncovers niche overlap between oral and butyrate-producing taxa",
-      "authors": "Julian R. Garneau, Aline Altenried, Youzheng Teo, Xiaobing Wu, Sarah C. McHugh, Michael Taschner, Carla Hernández-Cabanyero, Johann Mignolet, Pénélope Gomes, Hugues de Villiers de la Noue, Grégory Resch, Pascale Vonaesch",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01087-4",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75507-6",
-      "title": "ProLM: a plasma proteomics pretrained model for the general population",
-      "authors": "Shizheng Qiu, Ming Zhao, Xin Chen, Zhishuai Zhang, Huanyu You, Xu Sun, Jirui Guo, Haozheng Liang, Yu Guo, Lu Chen, Jun Lv, Dianjianyi Sun, Ling Yang, Yiping Chen, Huaidong Du, Zhengming Chen, Liming Li, Yang Hu, Guiyou Liu, Canqing Yu, Yadong Wang",
-      "journal": "Nature Communications",
-      "published": "2026-07-13",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75507-6",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
