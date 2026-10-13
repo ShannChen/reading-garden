@@ -58,7 +58,7 @@
     const s=subscription();el('feedTitle').textContent=s?.name||'Your research subscriptions';
     const cache=s&&custom[s.id],isDefault=s&&(lookback()===90&&prefs.standard(s));
     el('feedChecked').textContent=s&&!s.journals.length&&!s.families.length?'Add journals in Customize feed to check this topic.':!s?'Add or enable a subscription in Customize feed.':isDefault?'Last checked '+displayDate(feed?.checkedAt)+(feed?.partial?' · Some source queries were incomplete':''):cache?.signature===prefs.signature(s)+':days='+lookback()?'Last checked '+displayDate(cache.checkedAt)+(cache.pubmedStatus?' · PubMed '+cache.pubmedStatus:'')+(cache.partial?' · Showing saved / partial results; automatic retry pending':''):'Checking this subscription automatically…';
-    const all=rowsFor(s),incomplete=s&&cache?.signature===prefs.signature(s)&&cache.partial,checking=s&&!isDefault&&cache?.signature!==prefs.signature(s)&&(s.journals.length||s.families.length),filter=el('feedJournal'),previous=filter.value;
+    const all=rowsFor(s),incomplete=s&&cache?.signature===prefs.signature(s)+':days='+lookback()&&cache.partial,checking=s&&!isDefault&&cache?.signature!==prefs.signature(s)+':days='+lookback()&&(s.journals.length||s.families.length),filter=el('feedJournal'),previous=filter.value;
     const journals=[...new Set([...(s?.journals||[]),...all.map(p=>p.journal)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
     filter.innerHTML='<option value="">All journals</option>'+journals.map(j=>'<option value="'+esc(j)+'">'+esc(j)+'</option>').join('');
     filter.value=journals.includes(previous)?previous:'';
