@@ -97,16 +97,10 @@ cloud payloads, backup kind preservation and deletion without removing papers.
 
 ## Local PDF library
 
-New papers added in All Papers or collected from New Papers trigger a best-effort
-open-access PDF lookup while the app is open. The app looks up the DOI via OpenAlex,
-tries its open-access PDF locations, and saves PDFs of up to 50 MB in this browser's
-IndexedDB. Some publisher servers block cross-origin downloads (CORS); in those cases
-use **Add PDF** on the paper's card or in its editor and select a PDF from your device.
-Saved PDFs have **View PDF** and **Replace PDF** controls. The auto-download checkbox
-can be turned off per browser/account in the All Papers toolbar or paper editor.
+Each paper card has one PDF button in its bottom-right corner. Click **Add PDF** to
+select a PDF file from your computer; when a local PDF is present it changes to
+**View PDF**. There is no automatic PDF lookup or download. PDF files up to 50 MB
+are stored only in the current browser's IndexedDB. Existing local PDFs are retained.
 
-**Important:** PDF bytes are **local to this browser** and are not part of Supabase
-sync, JSON backups, or the GitHub repository. Other devices will show Add PDF until a
-local file is uploaded or downloaded there. Clearing site data or using another
-browser/profile may remove these files. Back up important PDFs separately.
-Only open-access PDF locations are attempted; there is no paywall bypass.
+PDF files are not synchronized through Supabase or included in JSON backups.
+Clearing website data may erase them; retain separate backups of important files.
