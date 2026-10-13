@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-13T09:33:23.771761+00:00",
+  "checkedAt": "2026-10-13T20:17:02.631993+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s43017-026-00845-4",
+      "title": "Determining soil microbial responses to climate change with multi-omics",
+      "authors": "Zongzhi Wu",
+      "journal": "Nature Reviews Earth & Environment",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s43017-026-00845-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-13T20:17:02.631993+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75436-w",
       "title": "Bactrocera oleae gut microbiome shows metabolic potential to complement the decline of symbiotic ‘Candidatus Erwinia dacicola’ in artificially-reared flies",
@@ -25,6 +42,23 @@
       "firstSeen": "2026-10-13T09:33:23.771761+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-74020-6",
+      "title": "Three distinct uterine microbiome community types in healthy women and their interconnection with the vaginal microbiome",
+      "authors": "Katarzyna Morańska, Monika Englert-Golon, Magdalena Durda-Masny, Marlena Grabowska, Mateusz Pluskota, Swapnil Prakash Doijad, Rose Brouns, Malte Siemers, Wawrzyniec Sadowski, Maria Bocheńska, Stefan Sajdak, Bas E. Dutilh, Anita Szwed",
+      "journal": "Scientific Reports",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74020-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-13T20:17:02.631993+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-73289-x",
       "title": "A multidimensional proteomic framework of circulating inflammation identifies outcome-specific cardiovascular risk axes in 39,494 UK biobank participants",
       "authors": "Xiangning Song, Haipeng Zhang, Guangcheng Liu, Zhujun Shen",
@@ -40,6 +74,23 @@
       "link": "https://doi.org/10.1038/s41598-026-73289-x",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-13T09:33:23.771761+00:00"
+    },
+    {
+      "doi": "10.1038/s41587-026-03361-4",
+      "title": "Proteomic aging clocks go to trial",
+      "authors": "Neil A. Robertson, Tamir Chandra",
+      "journal": "Nature Biotechnology",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41587-026-03361-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-13T20:17:02.631993+00:00"
     },
     {
       "doi": "10.1038/s42255-026-01642-5",
