@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-13T20:17:02.631993+00:00",
+  "checkedAt": "2026-10-13T23:45:56.545388+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -42,6 +42,23 @@
       "firstSeen": "2026-10-13T09:33:23.771761+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-75079-x",
+      "title": "Proteomic insights into the antifouling molecular responses of nature-inspired gallic and bile acid derivatives in Mytilus galloprovincialis",
+      "authors": "Sandra Pereira, Maria V. Turkina, Vítor Vasconcelos, Alexandre Campos, Marta Correia-da-Silva, Joana R. Almeida",
+      "journal": "Scientific Reports",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75079-x",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-13T23:45:56.545388+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-74020-6",
       "title": "Three distinct uterine microbiome community types in healthy women and their interconnection with the vaginal microbiome",
       "authors": "Katarzyna Morańska, Monika Englert-Golon, Magdalena Durda-Masny, Marlena Grabowska, Mateusz Pluskota, Swapnil Prakash Doijad, Rose Brouns, Malte Siemers, Wawrzyniec Sadowski, Maria Bocheńska, Stefan Sajdak, Bas E. Dutilh, Anita Szwed",
@@ -76,6 +93,23 @@
       "firstSeen": "2026-10-13T09:33:23.771761+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-72147-0",
+      "title": "Multi-omics analysis identifies ANXA2-associated transcriptomic and splicing networks in osteoblast proliferation and apoptosis",
+      "authors": "Xiuping Li, Jing Wang, Wenxiu Zhang, Xin Li, Chen Lei",
+      "journal": "Scientific Reports",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-72147-0",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-13T23:45:56.545388+00:00"
+    },
+    {
       "doi": "10.1038/s41587-026-03361-4",
       "title": "Proteomic aging clocks go to trial",
       "authors": "Neil A. Robertson, Tamir Chandra",
@@ -91,6 +125,23 @@
       "link": "https://doi.org/10.1038/s41587-026-03361-4",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-13T20:17:02.631993+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01576-5",
+      "title": "Multi-omics analysis of hypoxia-mitochondrial energy metabolism and programmed cell death profiling in Parkinson’s disease",
+      "authors": "An Chang, Yi Wu, Piaopiao Lian, Zhuoran Ma, Zhicheng Tang, Haoxuan Ouyang, Maoyu Liu, Xuebing Cao, Heng Zhai, Yan Xu",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01576-5",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-13T23:45:56.545388+00:00"
     },
     {
       "doi": "10.1038/s42255-026-01642-5",
