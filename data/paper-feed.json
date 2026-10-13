@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-12T22:10:11.435352+00:00",
+  "checkedAt": "2026-10-13T09:33:23.771761+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-75436-w",
+      "title": "Bactrocera oleae gut microbiome shows metabolic potential to complement the decline of symbiotic ‘Candidatus Erwinia dacicola’ in artificially-reared flies",
+      "authors": "Aya M. A. Elsayed, Alberto Alma, Elena Gonella",
+      "journal": "Scientific Reports",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75436-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-13T09:33:23.771761+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73289-x",
+      "title": "A multidimensional proteomic framework of circulating inflammation identifies outcome-specific cardiovascular risk axes in 39,494 UK biobank participants",
+      "authors": "Xiangning Song, Haipeng Zhang, Guangcheng Liu, Zhujun Shen",
+      "journal": "Scientific Reports",
+      "published": "2026-10-13",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73289-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-13T09:33:23.771761+00:00"
+    },
     {
       "doi": "10.1038/s42255-026-01642-5",
       "title": "A multi-fluid exercise proteomic atlas reveals regulators of health and disease",
@@ -1466,6 +1500,23 @@
       "link": "https://doi.org/10.1021/acs.est.6c11745",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
+    },
+    {
+      "doi": "10.1016/j.xplc.2026.102152",
+      "title": "Deep single-cell proteomics reveals cellular heterogeneity in the cold response of Arabidopsis leaves",
+      "authors": "Anlong Jiang, Yuwei Han, Xiaosong Liu, Fuxiang Wang, Xiaoyan Xu, Jia-Wei Wang",
+      "journal": "Plant Communications",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xplc.2026.102152",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-13T09:33:23.771761+00:00"
     },
     {
       "doi": "10.1016/j.xcrm.2026.103101",
@@ -12021,161 +12072,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41467-026-75546-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s42003-026-10647-5",
-      "title": "Toward disease-associated fecal microbiome signatures for domestic mammals",
-      "authors": "Dan Lin, Erika Ganda, Justin Silverman, Jiating Huang, Katherine Rose Gottwald, Haowen Hu, Puchun Niu, Jessica Anne Allerton McArt",
-      "journal": "Communications Biology",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s42003-026-10647-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41746-026-02991-x",
-      "title": "Multi-omics fusion with machine learning enables robust prediction of treatment response in ovarian cancer for precision population health",
-      "authors": "Jie Chen, Tianshi Mao, Yu Yang, Yue Wu, Mingqi Wang, Xiexia Huang, Li Su, Xiaohong Wei, Guiyang Xia, Huan Xia, Sheng Lin, Mei Zhang",
-      "journal": "npj Digital Medicine",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41746-026-02991-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01593-w",
-      "title": "Prediction of axillary lymph node metastasis using a transformer model and multi-omics validation in breast cancer",
-      "authors": "Xiaodong Liu, Fan Li, Ye Xiang, Ruishan Liu, Chen-xi Wang, Lihua Zhuo, Hongwei Li, Hongchao Yao, Jie Zhang, Xingxiong Zhou, Pexi Hu, Lv Yue, Jin-ming Cao, Xu Feng, Yu-hong Huang, Ming Jie, Qian Wang, Chang-Cong Gu, Fei Wang, Haibo Qu, Pei Wang, Gang Ning",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01593-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62392-8",
-      "title": "Dietary supplementation of lamiaceae aromatic oils: effects on performance, rumen fermentation, and ruminal microbiome in calves",
-      "authors": "Kanber Kara, Gönül Pİrcİ",
-      "journal": "Scientific Reports",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62392-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61760-8",
-      "title": "Machine learning-based analysis of oral rinse samples to identify candidate proteomic signatures for severe periodontitis: a pilot study",
-      "authors": "Madeline X. F. Kosho, Elena Stamatelou, Bruno G. Loos",
-      "journal": "Scientific Reports",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61760-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-52974-x",
-      "title": "Gut microbiome signatures associate with DNA methylation-based biological aging",
-      "authors": "Braden P. Kunihiro, Brennan Y. Yamamoto, Ruben Juarez, Alika K. Maunakea",
-      "journal": "Scientific Reports",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-52974-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-00999-x",
-      "title": "Black tea ethanol soluble fraction restores intestinal homeostasis by modulating PI3K/AKT signaling and gut microbiota",
-      "authors": "Yuxuan Shi, Jiayi Sun, Lin Chen, Shuang Xu, Shasha Guo, Anan Xu, Qun Ye, Yuefei Wang, Ping Xu",
-      "journal": "npj Science of Food",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-00999-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-00992-4",
-      "title": "Microbiota-dependent biotransformation of apiin drives butyrate-associated protection against colitis",
-      "authors": "Zhenning Guo, Meiqi Zhao, Yuwei Wu, Peng Zhang, Shiming Li",
-      "journal": "npj Science of Food",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Microbiome",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-00992-4",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41526-026-00636-7",
-      "title": "Space travel does not significantly impact cardiac sarcomere function but does induce immune-related proteomic changes",
-      "authors": "Henry M. Gong, Christine E. Delligatti, Hana K. Pak, Ahmed Zied, Ray Mitchell, Binu Tharakan, Travis W. Hein, David C. Zawieja, Pooneh Bagher, Jonathan A. Kirk",
-      "journal": "npj Microgravity",
-      "published": "2026-07-14",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41526-026-00636-7",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
