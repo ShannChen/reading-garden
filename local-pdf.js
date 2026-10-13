@@ -38,6 +38,24 @@
       tx.onabort = () => reject(tx.error);
     });
   }
+  async function deletePdf(id) {
+    const owner = space();
+    if (!window.confirm('Delete this PDF from this browser? The paper and its notes will stay.')) return;
+    try {
+      const db = await database();
+      await new Promise((resolve, reject) => {
+        const tx = db.transaction(STORE, 'readwrite');
+        tx.objectStore(STORE).delete(key(owner, id));
+        tx.oncomplete = resolve;
+        tx.onerror = () => reject(tx.error);
+        tx.onabort = () => reject(tx.error);
+      });
+      if (owner === space()) {
+        notify('PDF deleted. Paper and notes kept.');
+        refresh();
+      }
+    } catch { notify('Could not delete the PDF.'); }
+  }
   function upload(id) {
     const owner = space();
     const picker = document.createElement('input');
@@ -85,26 +103,38 @@
     if (!id || card.querySelector('[data-local-pdf]')) return;
     const paper = papersList().find(p => p.id === id && p.kind !== 'book');
     if (!paper) return;
+    const controls = document.createElement('span');
+    controls.dataset.localPdf = id;
+    controls.style.cssText = 'position:absolute;right:18px;bottom:14px;display:flex;align-items:center;gap:8px;z-index:1';
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'secondary';
-    button.dataset.localPdf = id;
     button.textContent = 'Add PDF';
-    button.style.cssText = 'position:absolute;right:18px;bottom:14px;padding:5px 10px;font-size:12px;z-index:1';
+    button.style.cssText = 'padding:5px 10px;font-size:12px';
     button.onclick = event => {
       event.stopPropagation();
       if (button.dataset.hasPdf === 'yes') view(id);
       else upload(id);
     };
-    // Reserve a dedicated bottom-right row. Do not alter the existing Delete button.
+    controls.append(button);
     card.style.position = 'relative';
     card.style.paddingBottom = '61px';
-    card.append(button);
+    card.append(controls);
     try {
       const saved = await read(owner, id);
-      if (!button.isConnected || owner !== space() || token !== generation) return;
+      if (!controls.isConnected || owner !== space() || token !== generation) return;
       button.dataset.hasPdf = saved ? 'yes' : 'no';
       button.textContent = saved ? 'View PDF' : 'Add PDF';
+      if (saved) {
+        const remove = document.createElement('button');
+        remove.type = 'button';
+        remove.className = 'secondary';
+        remove.textContent = 'Delete PDF';
+        remove.setAttribute('aria-label', 'Delete PDF for ' + paper.title);
+        remove.style.cssText = 'padding:5px 10px;font-size:12px;color:#9b4c40';
+        remove.onclick = event => { event.stopPropagation(); deletePdf(id); };
+        controls.prepend(remove);
+      }
     } catch { /* Manual upload still reports storage errors when clicked. */ }
   }
   function refresh() {
