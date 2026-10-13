@@ -27,7 +27,7 @@
   }
   async function papers(s,today=new Date().toISOString().slice(0,10),options={}){
     if(!s.journals.length&&!s.families.length)return {papers:[],partial:false,skipped:true};
-    const date=new Date(today+'T00:00:00Z');date.setUTCDate(date.getUTCDate()-90);const start=date.toISOString().slice(0,10);
+    const date=new Date(today+'T00:00:00Z');date.setUTCDate(date.getUTCDate()-(prefs.validLookbackDays(options.lookbackDays)?options.lookbackDays:90));const start=date.toISOString().slice(0,10);
     const topic=prefs.terms(s).map(t=>quote(t)+'[All Fields]').join(' OR '),journals=[...new Set([...s.journals,...s.families.flatMap(f=>prefs.familyJournals[f]||[])])].map(j=>quote(prefs.journalISSN(j)||j)+'[Journal]').join(' OR ');
     const term='('+topic+') AND ('+journals+') AND ('+quote(start.replaceAll('-','/'))+'[Date - Publication] : '+quote(today.replaceAll('-','/'))+'[Date - Publication])';
     const search=await get('esearch.fcgi',{term,retmax:'10000',sort:'pub_date'}),r=search.esearchresult;
