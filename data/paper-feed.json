@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-14T13:51:17.017316+00:00",
+  "checkedAt": "2026-10-14T18:43:45.050791+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -1657,6 +1657,23 @@
       "firstSeen": "2026-10-13T09:33:23.771761+00:00"
     },
     {
+      "doi": "10.1016/j.xgen.2026.101332",
+      "title": "PUS7 mRNA pseudouridylation is driven by RNA sequence, structure, and cell-type-specific features",
+      "authors": "Rebecca Rodell, Ronit Jain, Hossein Shenasa, Matias Montes, Nicolas Robalin, Stefan Prodic, Eduardo Eyras, Nicole M. Martinez",
+      "journal": "Cell Genomics",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xgen.2026.101332",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-14T18:43:45.050791+00:00"
+    },
+    {
       "doi": "10.1016/j.xcrm.2026.103101",
       "title": "Microbiota-mediated naringenin release limits postoperative acute gastrointestinal injury by suppressing ferroptosis",
       "authors": "Fan Deng, Jingjuan Hu, Yue Min, Sun Xie, Zebin Lin, Qishun Sun, Huamin Liu, Shiying He, Siyuan Feng, Ling Wu, Xiaofeng Chen, Linghong Xu, Zheang Zhang, Wenqi Tang, Zhuang Li, Hongwei Zhou, Kexuan Liu",
@@ -1944,6 +1961,40 @@
       "link": "https://doi.org/10.1016/j.cmet.2026.06.004",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-06T19:37:48.629580+00:00"
+    },
+    {
+      "doi": "10.1016/j.chom.2026.09.003",
+      "title": "Retraction Notice to: Vaginal microbiota transfer ameliorates cesarean-associated neurodevelopmental deficits in mice via N-bc2S1P synthesis on neonatal skin",
+      "authors": "Hao Liu, Huiling Shang, Hui Chen, Chuhui Zhou, Bin Luo, Di Zhao, Zhengxiu Xiao, Yimin Cui, Yuhang Zhang, Ri-hua Xie",
+      "journal": "Cell Host & Microbe",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.chom.2026.09.003",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.chom.2026.08.008",
+      "title": "From blunt to precision: Engineering microbiome therapeutics against cancer",
+      "authors": "Abigail E. Rose, Wenhan Zhu",
+      "journal": "Cell Host & Microbe",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.chom.2026.08.008",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-14T18:43:45.050791+00:00"
     },
     {
       "doi": "10.1016/j.celrep.2026.118115",
@@ -6087,23 +6138,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.cmet.2026.04.016",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.chom.2026.09.003",
-      "title": "Retraction Notice to: Vaginal microbiota transfer ameliorates cesarean-associated neurodevelopmental deficits in mice via N-bc2S1P synthesis on neonatal skin",
-      "authors": "Hao Liu, Huiling Shang, Hui Chen, Chuhui Zhou, Bin Luo, Di Zhao, Zhengxiu Xiao, Yimin Cui, Yuhang Zhang, Ri-hua Xie",
-      "journal": "Cell Host & Microbe",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.chom.2026.09.003",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
