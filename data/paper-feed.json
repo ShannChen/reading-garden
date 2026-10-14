@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-14T18:43:45.050791+00:00",
+  "checkedAt": "2026-10-14T23:18:37.919498+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/scitranslmed.adz4815",
+      "title": "Metabolomic aging and mortality clocks based on ensemble learning identify systemic aging risk across the human life span in 18,476 individuals",
+      "authors": "Linlin Cao, Yifan Chen, Wei Zhang, Huiru Jiang, Honghao Huang, Yudian Xu, Xi Li, Wei Xu, Kun Qian, Jun Pu",
+      "journal": "Science Translational Medicine",
+      "published": "2026-10-14",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/scitranslmed.adz4815",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-14T23:18:37.919498+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-69383-9",
       "title": "Longitudinal gut microbiome changes during the chemoradiotherapy component of total neoadjuvant therapy for rectal cancer",
@@ -23,6 +40,23 @@
       "link": "https://doi.org/10.1038/s41598-026-69383-9",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-14T13:51:17.017316+00:00"
+    },
+    {
+      "doi": "10.1038/s41592-026-03247-y",
+      "title": "MassNet: billion-scale AI-ready mass spectral corpus empowering scalable deep learning in proteomics",
+      "authors": "Jun A., Xiang Zhang, Xiaofan Zhang, Jiaqi Wei, Te Zhang, Yamin Deng, Pu Liu, Zongxiang Nie, Yiwen Yu, Yi Chen, Nanqing Dong, Zhiqiang Gao, Siqi Sun, Tiannan Guo",
+      "journal": "Nature Methods",
+      "published": "2026-10-14",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41592-026-03247-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-14T23:18:37.919498+00:00"
     },
     {
       "doi": "10.1038/s41467-026-77262-0",
