@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-13T23:45:56.545388+00:00",
+  "checkedAt": "2026-10-14T07:47:25.822593+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -12073,109 +12073,6 @@
       "link": "https://doi.org/10.1038/s41467-026-75399-6",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1126/scitranslmed.aec4847",
-      "title": "Culturomics reveals Fusobacterium - Prevotella mutualism as a hallmark of nasopharyngeal tumor microbiota",
-      "authors": "Ying-Qi Lu, Jia-Hao Dai, Yu-Fei Duan, Guan-Jie Qin, Sai-Wei Huang, Li Lin, Xi-Rong Tan, Xun-Hua Zhu, Qing-Mei He, Jing-Yun Wang, Mei-Yin Zhang, Sen-Yu Feng, Shi-Wei He, Nan Si, Jia-Qi Wu, Guan-Lin Lv, Ye-Lin Liang, Jun-Yan Li, Sha Gong, Ying-Qin Li, Lili Li, Jun Ma, Jia-Xing Yue, Na Liu",
-      "journal": "Science Translational Medicine",
-      "published": "2026-07-15",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1126/scitranslmed.aec4847",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62479-2",
-      "title": "High-sensitivity vitreous proteomic analyses reveal involvement of IL-10/JAK–STAT signaling in the proliferative changes of retinopathy of prematurity",
-      "authors": "Fukutaro Mano, Mana Shimmyo, Masaki Fukushima, Kazuki Kuniyoshi, Yoko Fukushima, Shunji Kusaka",
-      "journal": "Scientific Reports",
-      "published": "2026-07-15",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62479-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41591-026-04515-2",
-      "title": "Multi-omics maps human–pig interactions in extracorporeal liver cross-circulation",
-      "authors": "",
-      "journal": "Nature Medicine",
-      "published": "2026-07-15",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41591-026-04515-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01002-3",
-      "title": "Comparative fecal microbiome and metabolome reveal enhanced lignocellulose-degrading potential in Cervus elaphus yarkandensis",
-      "authors": "Limin Wei, Zhanwei Cui, Zhenqiang Mu, Yanhong Li, Feilong Deng",
-      "journal": "npj Science of Food",
-      "published": "2026-07-15",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01002-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01073-w",
-      "title": "Joint contributions of host genetics and heritable gut microbiota to semen quality variation in Duroc boars",
-      "authors": "Liangliang Guo, Xinran Meng, Quan Zhang, Jiajian Tan, Haiqing Sun, Siwen Jiang, Hongkui Wei, Jian Peng",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-15",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01073-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75546-z",
-      "title": "Microbial single-cell transcriptomics links gut microbiota functional states to metabolic changes in male mice",
-      "authors": "Ziye Xu, Xin Long, Mengdi Song, Sanbao Zhang, Xiaoyue Li, Feifei Lv, Tianyu Zhang, Ting Cao, Yongcheng Wang",
-      "journal": "Nature Communications",
-      "published": "2026-07-15",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75546-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
