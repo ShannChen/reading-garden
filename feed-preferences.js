@@ -53,7 +53,7 @@
     'proceedings of the national academy of sciences of the united states of america':'0027-8424',
     'environmental science technology':'0013-936X'
   })[journalNorm(j)];
-  const signature=s=>JSON.stringify({biorxiv:!!s.biorxiv,biorxivFields:s.biorxivFields||[],version:7,name:s.name,keywords:terms(s).map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
+  const signature=s=>JSON.stringify({biorxiv:!!s.biorxiv,version:8,name:s.name,keywords:terms(s).map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
   const standard=s=>{const d=defaults.find(d=>d.id===s.id);return d&&signature(s)===signature(d);};
   function scoped(p,s){
     if(s.journals.some(j=>journalNorm(j)===journalNorm(p.journal)||(journalISSN(j)&&((p.issn||[]).includes(journalISSN(j))||journalISSN(j)===journalISSN(p.journal)))))return true;
