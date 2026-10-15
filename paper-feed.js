@@ -60,28 +60,25 @@
     const shape=JSON.stringify(subs.map(s=>[s.id,s.name]));
     if(box.dataset.shape!==shape){
       box.dataset.shape=shape;
-      box.innerHTML=subs.map(s=>'<div class="feed-sort-row" data-sort-id="'+esc(s.id)+'"><button type="button" class="feed-sort-handle" draggable="true" aria-label="Drag to reorder '+esc(s.name)+'" title="Drag to reorder · Arrow keys to move" data-sort-handle="'+esc(s.id)+'">⠿</button><button type="button" class="feed-topic-button" data-feed="'+esc(s.id)+'">'+esc(s.name)+' <span>0</span></button></div>').join('');
+      box.innerHTML=subs.map(s=>'<button type="button" class="feed-topic-button" draggable="true" data-feed="'+esc(s.id)+'" title="Click to open · Drag to reorder">'+esc(s.name)+' <span>0</span></button>').join('');
     }
-    box.querySelectorAll('[data-feed]').forEach(b=>{
-      const s=subs.find(s=>s.id===b.dataset.feed);if(!s)return;
-      const span=b.querySelector('span'),count=String(rowsFor(s).length);
+    box.querySelectorAll('[data-feed]').forEach(button=>{
+      const s=subs.find(s=>s.id===button.dataset.feed);if(!s)return;
+      const count=String(rowsFor(s).length),span=button.querySelector('span');
       if(span&&span.textContent!==count)span.textContent=count;
-      b.classList.toggle('active',view==='feed'&&b.dataset.feed===group);
-      b.onclick=()=>{view='feed';group=b.dataset.feed;el('feedSearch').value='';render();refresh();checkCustom();};
-    });
-    box.querySelectorAll('[data-sort-handle]').forEach(handle=>{
-      handle.ondragstart=e=>{e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',handle.dataset.sortHandle);handle.closest('.feed-sort-row').classList.add('dragging');};
-      handle.ondragend=()=>box.querySelectorAll('.feed-sort-row').forEach(row=>row.classList.remove('dragging','drag-over'));
-      handle.onkeydown=e=>{
-        if(e.key!=='ArrowUp'&&e.key!=='ArrowDown')return;
-        e.preventDefault();const items=[...box.querySelectorAll('[data-sort-id]')],i=items.findIndex(x=>x.dataset.sortId===handle.dataset.sortHandle),next=items[i+(e.key==='ArrowUp'?-1:1)];
-        if(next){moveFeedTopic(handle.dataset.sortHandle,next.dataset.sortId);box.querySelectorAll('[data-sort-handle]').forEach(h=>{if(h.dataset.sortHandle===handle.dataset.sortHandle)h.focus();});}
+      button.classList.toggle('active',view==='feed'&&button.dataset.feed===group);
+      button.onclick=()=>{view='feed';group=button.dataset.feed;el('feedSearch').value='';render();refresh();checkCustom();};
+      button.ondragstart=e=>{e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',button.dataset.feed);button.classList.add('dragging');};
+      button.ondragend=()=>box.querySelectorAll('[data-feed]').forEach(b=>b.classList.remove('dragging','drag-over'));
+      button.ondragover=e=>{e.preventDefault();e.dataTransfer.dropEffect='move';button.classList.add('drag-over');};
+      button.ondragleave=()=>button.classList.remove('drag-over');
+      button.ondrop=e=>{e.preventDefault();e.stopPropagation();button.classList.remove('drag-over');const source=e.dataTransfer.getData('text/plain');if(subs.some(s=>s.id===source))moveFeedTopic(source,button.dataset.feed);};
+      button.onkeydown=e=>{
+        if(!e.altKey||(e.key!=='ArrowUp'&&e.key!=='ArrowDown'))return;
+        e.preventDefault();
+        const i=subs.findIndex(s=>s.id===button.dataset.feed),target=subs[i+(e.key==='ArrowUp'?-1:1)];
+        if(target){moveFeedTopic(button.dataset.feed,target.id);box.querySelectorAll('[data-feed]').forEach(b=>{if(b.dataset.feed===button.dataset.feed)b.focus();});}
       };
-    });
-    box.querySelectorAll('[data-sort-id]').forEach(row=>{
-      row.ondragover=e=>{e.preventDefault();e.dataTransfer.dropEffect='move';row.classList.add('drag-over');};
-      row.ondragleave=()=>row.classList.remove('drag-over');
-      row.ondrop=e=>{e.preventDefault();row.classList.remove('drag-over');const source=e.dataTransfer.getData('text/plain');if(subs.some(s=>s.id===source))moveFeedTopic(source,row.dataset.sortId);};
     });
   }
   function renderFeed(){
