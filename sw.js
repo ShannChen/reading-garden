@@ -1,4 +1,4 @@
-const CACHE = 'reading-garden-20261013-v70-title-link-casefold-sync-labels-metadata-clear-filters-remember-filters-editor-polish-clear-swatch-fix-scroll-menus-fast-close-idea-richtext';
+const CACHE = 'reading-garden-20261013-v70-title-link-casefold-sync-labels-metadata-clear-filters-remember-filters-editor-polish-clear-swatch-fix-scroll-menus-fast-close-idea-richtext-feed-recovery';
 const ASSETS = ['./', './index.html', './ui-language.js?v=20261008-63', './nih-reporter.js?v=20261008-63', './funding-feed.js?v=20261008-63', './data/funding-feed.json', './book-lookup.js?v=20261008-63', './sync-core.js?v=20261008-63', './cloud-sync.js?v=20261013-71', './paper-feed.js?v=20261013-69', './pubmed-feed.js?v=20261013-67', './journal-lookup.js?v=20261008-63', './feed-preferences.js?v=20261013-67', './people-core.js?v=20261008-63', './people.js?v=20261008-63', './local-pdf.js?v=20261013-3', './paper-metadata.js?v=20261013-1', './404.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-192.png',
   './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
