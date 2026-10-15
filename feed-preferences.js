@@ -60,17 +60,18 @@
     return s.families.some(f=>p.doi.startsWith(families[f].prefix+'/')&&(f==='nature'?/^(nature(?: |$)|npj |communications |scientific reports$|scientific data$)/.test(j):f==='science'?['science','science advances','science immunology','science translational medicine','science robotics','science signaling'].includes(j):f==='est'?['environmental science technology','environmental science technology letters'].includes(j):/^(cell(?: |$)|molecular cell$|cancer cell$|developmental cell$|trends in |molecular therapy)/.test(j)||familyJournals.cell.map(journalNorm).includes(j)));
   }
   const isCorrection=title=>/^(?:(?:author|publisher)\s+correction|correction\s+to\s*:|corrigendum\s*:|erratum\s*:)/i.test(String(title||'').trim());
+  const isNonResearch=paper=>/^(?:news\s*(?:&|and)\s*views|news\s*&\s*views|research\s*highlights?|editorial|commentary|perspective|opinion|in\s*brief)\s*[:—–-]/i.test(String(paper?.title||'').trim())||/^(?:news\s*(?:&|and)\s*views|news|editorial|commentary|comment|letter\s*to\s*the\s*editor)$/i.test(String(paper?.articleType||'').trim());
   function matches(text,s){const t=' '+norm(text)+' ';return terms(s).some(k=>t.includes(' '+norm(k)+' ')&&(!['m6a','m1a','m5c'].includes(norm(k))||/\b(?:rna|mrna|trna|rrna)\b/.test(t))); }
   function date(work){for(const k of ['published-online','published','issued','published-print']){const p=work[k]?.['date-parts']?.[0];if(p?.length){const y=Number(p[0]),m=Number(p[1]||1),d=Number(p[2]||1);const test=new Date(Date.UTC(y,m-1,d));if(y>=1500&&y<=2200&&test.getUTCFullYear()===y&&test.getUTCMonth()===m-1&&test.getUTCDate()===d)return test.toISOString().slice(0,p.length>=3?10:p.length===2?7:4);}}return '';}
   const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&#\d+;|&\w+;/g,' ');
   function fromWork(w,s,today=new Date().toISOString().slice(0,10),lookbackDays=90){
     const doi=String(w.DOI||'').toLowerCase(),title=plain(w.title?.[0]),journal=plain(w['container-title']?.[0]),published=date(w);
-    if(!/^10\.\d{4,9}\/\S+$/.test(doi)||!title||isCorrection(title)||!journal||!published||published>today)return null;
+    if(!/^10\.\d{4,9}\/\S+$/.test(doi)||!title||isCorrection(title)||isNonResearch({title,articleType:w.subtype||w.typeLabel})||!journal||!published||published>today)return null;
     const min=new Date(today+'T00:00:00Z');min.setUTCDate(min.getUTCDate()-lookbackDays);if(published<min.toISOString().slice(0,10))return null;
     if(!matches([title,plain(w.abstract),...(w.subject||[]),...(Array.isArray(w.keyword)?w.keyword:[])].join(' '),s))return null;
     return {doi,title,journal,published,year:published.slice(0,4),authors:(w.author||[]).map(a=>[a.given,a.family].filter(Boolean).join(' ')||a.name||'').join(', '),link:'https://doi.org/'+doi,tags:[s.name],groups:[s.id]};
   }
-  const api={isCorrection,familyJournals,validLookbackDays,validFamilies,families,defaults,norm,terms,journalNorm,journalISSN,valid,validState,validJournals,sharedState,signature,standard,scoped,matches,fromWork};
+  const api={isNonResearch,isCorrection,familyJournals,validLookbackDays,validFamilies,families,defaults,norm,terms,journalNorm,journalISSN,valid,validState,validJournals,sharedState,signature,standard,scoped,matches,fromWork};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.ReadingGardenFeedPreferences=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
 
