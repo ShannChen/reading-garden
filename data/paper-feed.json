@@ -1169,23 +1169,6 @@
       "firstSeen": "2026-10-06T19:37:48.629580+00:00"
     },
     {
-      "doi": "10.1038/s43587-026-01258-0",
-      "title": "Author Correction: Age-, sex- and proximal–distal-resolved multi-omics identifies regulators of intestinal aging in non-human primates",
-      "authors": "Xinyuan Wang, Yaru Luo, Siyu He, Ying Lu, Yanqiu Gong, Li Gao, Shengqiang Mao, Xiaohui Liu, Na Jiang, Qianlun Pu, Dan Du, Yang Shu, Shan Hai, Shuangqing Li, Hai-Ning Chen, Yi Zhao, Dan Xie, Shiqian Qi, Peng Lei, Hongbo Hu, Heng Xu, Zong-Guang Zhou, Biao Dong, Huiyuan Zhang, Yan Zhang, Lunzhi Dai",
-      "journal": "Nature Aging",
-      "published": "2026-10-06",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s43587-026-01258-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-06T19:37:48.629580+00:00"
-    },
-    {
       "doi": "10.1038/s44454-026-00067-9",
       "title": "Photoaging-driven amplification of polystyrene microplastic toxicity in wheat: physiological and multi-omics insights",
       "authors": "Muhammad Riaz, Sadam Khan, Xiaowei Wu, Shichen Wei, Shoaib Akhtar, Chenyi Luo, Peng Liu, Hanzhong Jia",
@@ -1531,23 +1514,6 @@
       "link": "https://doi.org/10.1038/s41598-026-73464-0",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-78523-8",
-      "title": "Author Correction: A mutually antagonistic mechanism mediated by RNA m6A modification in plant-virus interactions",
-      "authors": "Jia-Hui Liu, Yujing Lin, Ying-Xin Li, Zhaobo Lang, Zhonghui Zhang, Cheng-Guo Duan",
-      "journal": "Nature Communications",
-      "published": "2026-10-02",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-78523-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
       "doi": "10.1038/s41538-026-01185-9",
@@ -3181,23 +3147,6 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
-      "doi": "10.1038/s41698-026-01690-w",
-      "title": "Author Correction: Microbiome and biofilm insights from normal vs tumor tissues in Thai colorectal cancer patients",
-      "authors": "Pirada Yincharoen, Auemphon Mordmuang, Tachpon Techarang, Panus Tangngamsakul, Panchaphon Kaewubon, Paijit Atipairin, Sorawat Janwanitchasthaporn, Lavanya Goodla, Kulwadee Karnjana",
-      "journal": "npj Precision Oncology",
-      "published": "2026-09-23",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01690-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
       "doi": "10.1038/s41522-026-01150-0",
       "title": "Rhizosphere microbiome-dependent metabolic reprogramming enhances potato salt tolerance in saline soils",
       "authors": "Hanxiang Wang, Yadi Li, Yangyang Shang, Yuting Yang, Yang-Dong Guo, Xingyao Xiong, Wanxing Wang, Guangcun Li",
@@ -3367,23 +3316,6 @@
       ],
       "link": "https://doi.org/10.1038/s42003-026-10933-2",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s42255-026-01637-2",
-      "title": "Author Correction: N6-methyladenosine (m6A) in 18S rRNA promotes fatty acid metabolism and oncogenic transformation",
-      "authors": "Hao Peng, Binbin Chen, Wei Wei, Siyao Guo, Hui Han, Chunlong Yang, Jieyi Ma, Lu Wang, Sui Peng, Ming Kuang, Shuibin Lin",
-      "journal": "Nature Metabolism",
-      "published": "2026-09-22",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s42255-026-01637-2",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
@@ -3725,23 +3657,6 @@
         "exposomics"
       ],
       "link": "https://doi.org/10.1038/s41575-026-01260-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41588-026-02788-4",
-      "title": "Publisher Correction: Genomic landscape of the human vaginal microbiome is linked to host genetics and population of origin",
-      "authors": "Zhuye Jie, Weiting Liang, Qiuxia Ding, Xiaomin Liu, Yunhong Zhang, Na Chen, Shenghui Li, Xin Tong, Hongqin Gao, Ruike Lu, Xincheng Huang, Ruochun Guo, Junhong Chen, Jie Zhu, Zhe Zhang, Na Liu, Zhangwei Xie, Xiaman Wang, Le Qi, Yumei Li, Liang Xiao, Shaoqiao Zhang, Xin Jin, Xun Xu, Huanming Yang, Jian Wang, Fangqing Zhao, Huijue Jia, Karsten Kristiansen, Tao Zhang, Lilan Hao, Lan Zhu, Chen Chen",
-      "journal": "Nature Genetics",
-      "published": "2026-09-18",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41588-026-02788-4",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
@@ -4468,23 +4383,6 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
-      "doi": "10.1038/s44324-026-00134-0",
-      "title": "Author Correction: An oral tyrosine challenge test for functional phenotyping of microbiota-derived phenyl sulfate production",
-      "authors": "Ting-Yun Lin, Szu-Chun Hung, Takaaki Abe",
-      "journal": "npj Metabolic Health and Disease",
-      "published": "2026-09-11",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s44324-026-00134-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
       "doi": "10.1038/s41467-026-77455-7",
       "title": "Fecal microbiota transplantation for the decolonization of mucosal adherent-invasive Escherichia coli in Crohn’s disease: an open-label pilot study",
       "authors": "Zhilu Xu, Hui Jiang, Wenli Huang, Alicia Chan, Yu Lin, Tingting Chan, Rashid N. Lui, Marc T. L. Wong, Joyce W. Y. Mak, Francis K. L. Chan, Caroline Chevarin, Jean-Frédéric Colombel, Anthony Buisson, Siew C. NG",
@@ -4635,23 +4533,6 @@
       ],
       "link": "https://doi.org/10.1038/s41522-026-01146-w",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41564-026-02503-3",
-      "title": "Author Correction: Longitudinal plasma metabolomics reveals a role for taurine in asymptomatic malaria and seasonal persistence",
-      "authors": "Gretchen Diffendall, Perine Millot, Patty Chen, Balotin Fogang, Dominique Dorin-Semblat, Fanny Aprahamian, Sylvère Durand, Benoît Gamain, Antoine Claessens, Artur Scherf",
-      "journal": "Nature Microbiology",
-      "published": "2026-09-09",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41564-026-02503-3",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
@@ -5395,23 +5276,6 @@
       "link": "https://doi.org/10.1038/s42003-026-10820-w",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s42003-026-10858-w",
-      "title": "Author Correction: A nucleolar stress gene signature enables quantitative scoring across multi-omics contexts",
-      "authors": "Jianxiong Chen, Shuai Xiao, Zhe Hao, Huimeng Xu, Xuemei Xu, Jun Zhou",
-      "journal": "Communications Biology",
-      "published": "2026-09-03",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s42003-026-10858-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
       "doi": "10.1126/science.adw0855",
@@ -6993,23 +6857,6 @@
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
-      "doi": "10.1038/s41564-026-02496-z",
-      "title": "Author Correction: Multikingdom and functional gut microbiota markers for autism spectrum disorder",
-      "authors": "Qi Su, Oscar W. H. Wong, Wenqi Lu, Yating Wan, Lin Zhang, Wenye Xu, Moses K. T. Li, Chengyu Liu, Chun Pan Cheung, Jessica Y. L. Ching, Pui Kuan Cheong, Ting Fan Leung, Sandra Chan, Patrick Leung, Francis K. L. Chan, Siew C. Ng",
-      "journal": "Nature Microbiology",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41564-026-02496-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
       "doi": "10.1038/s41579-026-01359-y",
       "title": "The gut microbiota in malnutrition",
       "authors": "Paula T. Littlejohn, Ravi Holani, Bruce A. Vallance, B. Brett Finlay",
@@ -7337,23 +7184,6 @@
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
-      "doi": "10.1038/s43018-026-01241-z",
-      "title": "Author Correction: Low-protein diet enhances antitumor immunity in pancreatic cancer through microbiota-derived UDP-galactose",
-      "authors": "Yueying Chen, Fulin Nian, Shengdi Wu, Tianli Yuan, Yifan Ma, Junyang Cao, Yuxiao Zhang, Wenfeng Liu, Wenqing Tang, Danying Zhang, Zi Li, Wei Lu, Fengwanni Wang, Xiulong Xia, Zhanju Liu, Si Zhang, Xizhong Shen, Xiaoming Hu, Ling Dong",
-      "journal": "Nature Cancer",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s43018-026-01241-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
       "doi": "10.1038/s44284-026-00512-1",
       "title": "Art as inquiry in the microbiome-informed city",
       "authors": "Diedre Brown, Elizabeth Hénaff",
@@ -7384,23 +7214,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41467-026-77040-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-77176-x",
-      "title": "Author Correction: Host macrophages/monocytes promote malaria transmission by modulating mosquito microbiota via SR-A-mediated phagocytosis",
-      "authors": "Biao He, Meilin Li, Shuai Guo, Jiaqin Fang, Yongling Fan, Nie Tan, Taiping Liu, Jianyong Li, Feng Zhu, Jian Zhang, Wenyue Xu",
-      "journal": "Nature Communications",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-77176-x",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
@@ -8108,23 +7921,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41522-026-01136-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41596-026-01448-5",
-      "title": "Author Correction: Considerations for the design of impactful citizen-science projects in microbiome research",
-      "authors": "Sarah Ahannach, Sandra Condori-Catachura, Jelle Dillen, Caroline Dricot, Thies Gehrmann, Stijn Wittouck, Josiane Marie Kenfack, Wannes Van Beeck, Ilke De Boeck, Tom Eilers, Monica Ticlla, Agustina Santullo Latorre, Wenke Smets, Jari Temmermans, Enya Arconada Nuin, Sandra Van Puyvelde, Irina Spacova, Veronique Verhoeven, Sarah Lebeer",
-      "journal": "Nature Protocols",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41596-026-01448-5",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
@@ -9086,23 +8882,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41598-026-65499-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43856-026-01832-y",
-      "title": "Author Correction: Comprehensive cross-cohort analysis reveals global gut microbiome signatures of celiac disease",
-      "authors": "Peter J. Prendergast, Haig V. Bishop, Craig W. Herbold, Elena F. Verdu, Renwick C. J. Dobson, Andrew S. Day, Olivia J. Ogilvie",
-      "journal": "Communications Medicine",
-      "published": "2026-08-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s43856-026-01832-y",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
@@ -11456,23 +11235,6 @@
       "link": "https://doi.org/10.1038/s41467-026-75962-1",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75989-4",
-      "title": "Author Correction: Integrative omics of the genetic basis for wheat WUE and drought resilience reveal the function of TaMYB7-A1",
-      "authors": "Yuxin Zhou, Dongzhi Wang, Hao Wang, Yunzhou Qiao, Peng Zhao, Yuan Cao, Xuemei Liu, Yiman Yang, Xuelei Lin, Shengbao Xu, Baodi Dong, Jun Xiao",
-      "journal": "Nature Communications",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75989-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
       "doi": "10.1038/s41467-026-76051-z",
