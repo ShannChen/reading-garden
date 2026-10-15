@@ -64,24 +64,36 @@
   async function bxCheck(s){
     if(!s||!bxEnabled[s.id]||navigator.onLine===false||bxRunning.has(s.id))return;
     const today=new Date().toISOString().slice(0,10),prior=bxResults[s.id]||{};
-    if(prior.day===today)return;
+    if(prior.day===today&&prior.status!=='unavailable')return;
     bxRunning.add(s.id);const start=lookbackStart(today),found=new Map((prior.papers||[]).map(p=>[p.doi,p]));
-    let partial=false,failed=false,cursor=0,total=Infinity;
+    let partial=false,failed=false,scanned=0;
     try{
-      for(let page=0;page<50&&cursor<total;page++){
-        const response=await fetch('https://api.biorxiv.org/details/biorxiv/'+start+'/'+today+'/'+cursor,{signal:AbortSignal.timeout(18000)});
-        if(!response.ok)throw Error('bioRxiv API '+response.status);
-        const data=await response.json(),batch=data.collection;
-        if(!Array.isArray(batch))throw Error('Invalid bioRxiv API response');
-        total=Number(data.messages?.[0]?.count)||0;
-        for(const w of batch){
-          const doi=String(w.doi||'').toLowerCase(),title=String(w.title||'').trim(),published=String(w.date||'').slice(0,10);
-          if(!/^10\.\d{4,9}\/\S+$/.test(doi)||!published||prefs.isCorrection(title)||!prefs.matches(title+' '+String(w.abstract||''),s))continue;
-          found.set(doi,{doi,title,journal:'bioRxiv · '+String(w.category||'Preprint'),published,year:published.slice(0,4),authors:String(w.authors||''),link:'https://doi.org/'+doi,tags:[s.name],groups:[s.id]});
-        }
-        cursor+=batch.length;if(!batch.length)break;
+      // The details endpoint returns 30 records per page. Query newest weeks first
+      // instead of truncating a 90-day range at its oldest 1,500 records.
+      const endDate=new Date(today+'T00:00:00Z'),minDate=new Date(start+'T00:00:00Z');
+      for(let end=new Date(endDate);end>=minDate;){
+        const begin=new Date(end);begin.setUTCDate(begin.getUTCDate()-6);if(begin<minDate)begin.setTime(minDate.getTime());
+        const beginText=begin.toISOString().slice(0,10),endText=end.toISOString().slice(0,10);
+        let cursor=0,total=Infinity,pages=0;
+        do{
+          if(scanned>=90){partial=true;break;}
+          const response=await fetch('https://api.biorxiv.org/details/biorxiv/'+beginText+'/'+endText+'/'+cursor,{signal:AbortSignal.timeout(18000)});
+          if(!response.ok)throw Error('bioRxiv API '+response.status);
+          const data=await response.json(),batch=data.collection;
+          if(!Array.isArray(batch))throw Error('Invalid bioRxiv API response');
+          total=Number(data.messages?.[0]?.count)||0;
+          for(const w of batch){
+            const doi=String(w.doi||'').toLowerCase(),title=String(w.title||'').trim(),published=String(w.date||'').slice(0,10);
+            if(!/^10\\.\\d{4,9}\\/\\S+$/.test(doi)||!published||prefs.isCorrection(title)||!prefs.matches(title+' '+String(w.abstract||''),s))continue;
+            found.set(doi,{doi,title,journal:'bioRxiv · '+String(w.category||'Preprint'),published,year:published.slice(0,4),authors:String(w.authors||''),link:'https://doi.org/'+doi,tags:[s.name],groups:[s.id]});
+          }
+          cursor+=batch.length;scanned++;pages++;
+          if(batch.length===0)break;
+        }while(cursor<total&&pages<15);
+        if(cursor<total){partial=true;}
+        if(scanned>=90)break;
+        end=new Date(begin);end.setUTCDate(end.getUTCDate()-1);
       }
-      partial=cursor<total;
     }catch(e){failed=true;console.warn('bioRxiv lookup failed',e);}
     bxResults[s.id]={day:today,papers:[...found.values()],status:failed?'unavailable':partial?'partial':'checked'};
     bxRunning.delete(s.id);
