@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-15T07:34:11.335847+00:00",
+  "checkedAt": "2026-10-15T13:32:02.241028+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-75720-9",
+      "title": "Isolating the exposomic impact of acute war and displacement within chronic crisis using multimodal, AI-enabled phenotyping",
+      "authors": "M. Fares, N. Al Kai, F. Zahran, J. Khalil, D. Brunato, M. C. Allé, L. J. Boulos",
+      "journal": "Scientific Reports",
+      "published": "2026-10-15",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75720-9",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-15T13:32:02.241028+00:00"
+    },
     {
       "doi": "10.1126/scitranslmed.adz4815",
       "title": "Metabolomic aging and mortality clocks based on ensemble learning identify systemic aging risk across the human life span in 18,476 individuals",
@@ -5903,7 +5920,7 @@
     },
     {
       "doi": "10.1016/j.molp.2026.09.011",
-      "title": "From DNA to RNA to protein: pQTL mapping and Proteome-Wide Association Study reveal protein-level drivers of soybean traits",
+      "title": "From DNA to RNA to protein: pQTL mapping and proteome-wide association study reveal protein-level drivers of soybean traits",
       "authors": "Delin Li, Zhan Li, Shiyu Guo, Qi Wang, Xinkang Feng, Hao Zhang, James C. Schnable, Ying-Hui Li, Li-Juan Qiu",
       "journal": "Molecular Plant",
       "published": "2026-09",
