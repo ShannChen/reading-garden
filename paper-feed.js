@@ -64,7 +64,7 @@
   async function bxCheck(s){
     if(!s||!bxEnabled[s.id]||navigator.onLine===false||bxRunning.has(s.id))return;
     const today=new Date().toISOString().slice(0,10),prior=bxResults[s.id]||{};
-    if(prior.day===today&&prior.status!=='unavailable')return;
+    if(prior.day===today&&prior.status==='checked')return;
     bxRunning.add(s.id);const start=lookbackStart(today),found=new Map((prior.papers||[]).map(p=>[p.doi,p]));
     let partial=false,failed=false,scanned=0;
     try{
@@ -77,9 +77,21 @@
         let cursor=0,total=Infinity,pages=0;
         do{
           if(scanned>=90){partial=true;break;}
-          const response=await fetch('https://api.biorxiv.org/details/biorxiv/'+beginText+'/'+endText+'/'+cursor,{signal:AbortSignal.timeout(18000)});
-          if(!response.ok)throw Error('bioRxiv API '+response.status);
-          const data=await response.json(),batch=data.collection;
+          const urls=['https://api.biorxiv.org/details/biorxiv/'+beginText+'/'+endText+'/'+cursor+'/json','https://connect.biorxiv.org/api/detail/'+beginText+'/'+endText+'/'+cursor+'/json'];
+          let data=null,lastError=null;
+          for(const url of urls){
+            try{
+              const response=await fetch(url,{signal:AbortSignal.timeout(18000)});
+              if(!response.ok)throw Error('bioRxiv HTTP '+response.status);
+              const body=await response.text();
+              if(!body.trim())throw Error('Empty bioRxiv response');
+              const parsed=JSON.parse(body);
+              if(!Array.isArray(parsed.collection))throw Error('Missing bioRxiv collection');
+              data=parsed;break;
+            }catch(e){lastError=e;}
+          }
+          if(!data)throw lastError||Error('bioRxiv unavailable');
+          const batch=data.collection;
           if(!Array.isArray(batch))throw Error('Invalid bioRxiv API response');
           total=Number(data.messages?.[0]?.count)||0;
           for(const w of batch){
@@ -95,7 +107,7 @@
         end=new Date(begin);end.setUTCDate(end.getUTCDate()-1);
       }
     }catch(e){failed=true;console.warn('bioRxiv lookup failed',e);}
-    bxResults[s.id]={day:today,papers:[...found.values()],status:failed?'unavailable':partial?'partial':'checked'};
+    bxResults[s.id]={day:today,papers:[...found.values()],status:failed?'unavailable':partial?'partial':'checked',error:failed?'The bioRxiv service did not return usable metadata.':''};
     bxRunning.delete(s.id);
     try{localStorage.setItem(bxCacheKey(),JSON.stringify(bxResults));}catch{}
     if(bxCurrent()&&subscription()?.id===s.id)renderFeed();else bindNav();
