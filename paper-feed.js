@@ -56,7 +56,7 @@
   function renderFeed(){
     el('feedView').hidden=view!=='feed';if(!subscription())group=settings.subscriptions.find(s=>s.enabled)?.id||'';bindNav();if(view!=='feed')return;
     const s=subscription();el('feedTitle').textContent=s?.name||'Your research subscriptions';
-    const cache=s&&custom[s.id],isDefault=s&&(lookback()===90&&prefs.standard(s));
+    const cache=s&&custom[s.id],isDefault=s&&(lookback()===90&&prefs.standard(s)&&!feed?.partial);
     el('feedChecked').textContent=s&&!s.journals.length&&!s.families.length?'Add journals in Customize feed to check this topic.':!s?'Add or enable a subscription in Customize feed.':isDefault?'Last checked '+displayDate(feed?.checkedAt)+(feed?.partial?' · Some source queries were incomplete':''):cache?.signature===prefs.signature(s)+':days='+lookback()?'Last checked '+displayDate(cache.checkedAt)+(cache.pubmedStatus?' · PubMed '+cache.pubmedStatus:'')+(cache.partial?' · Showing saved / partial results; automatic retry pending':''):'Checking this subscription automatically…';
     const all=rowsFor(s),incomplete=s&&cache?.signature===prefs.signature(s)+':days='+lookback()&&cache.partial,checking=s&&!isDefault&&cache?.signature!==prefs.signature(s)+':days='+lookback()&&(s.journals.length||s.families.length),filter=el('feedJournal'),previous=filter.value;
     const journals=[...new Set([...(s?.journals||[]),...all.map(p=>p.journal)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
@@ -95,7 +95,7 @@
       scheduleFeedUpdate();
     }
     try{
-      const pending=settings.subscriptions.filter(s=>s.enabled&&!(lookback()===90&&prefs.standard(s))&&(s.journals.length||s.families.length)).map(s=>{
+      const pending=settings.subscriptions.filter(s=>s.enabled&&!(lookback()===90&&prefs.standard(s)&&!feed?.partial)&&(s.journals.length||s.families.length)).map(s=>{
         const signature=prefs.signature(s)+':days='+lookback(),cached=custom[s.id];
         if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?300000:86400000))return null;
         return {s,signature,found:new Map((cached?.signature===signature||sameTopic(cached,s))?cached.papers.filter(p=>prefs.scoped(p,s)).map(p=>[p.doi,p]):[]),failed:0,success:0,pubmedStatus:'checking'};
@@ -119,8 +119,15 @@
           if(!current())return;
           try{
             const u=new URL('https://api.crossref.org/works');u.searchParams.set('filter',source+',type:journal-article,from-pub-date:'+start+',until-pub-date:'+today);u.searchParams.set('query',term);u.searchParams.set('rows','200');u.searchParams.set('select','DOI,title,author,container-title,published,published-online,published-print,issued,abstract,subject');
-            const r=await fetch(u,{signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error();const json=await r.json();if(!current())return;const message=json.message;if(!Array.isArray(message?.items))throw Error();
-            for(const w of message.items){const p=prefs.fromWork(w,s,today,lookback());if(p&&prefs.scoped(p,s))item.found.set(p.doi,p);}item.success++;if(message['total-results']>200)item.failed++;
+            let pages=0,total=0;do{
+              u.searchParams.set('offset',String(pages*200));
+              const r=await fetch(u,{signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error();const json=await r.json();if(!current())return;const message=json.message;if(!Array.isArray(message?.items))throw Error();
+              total=Number(message['total-results'])||0;
+              for(const w of message.items){const p=prefs.fromWork(w,s,today,lookback());if(p&&prefs.scoped(p,s))item.found.set(p.doi,p);}
+              pages++;publish(item);
+              if(message.items.length<200)break;
+            }while(pages<4&&pages*200<total);
+            item.success++;if(pages*200<total)item.failed++;
           }catch{item.failed++;}
           publish(item);
         }}
