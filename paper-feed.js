@@ -46,7 +46,7 @@
     if(memo&&memo.subscription===s&&memo.feed===feed&&memo.custom===cached&&memo.today===today&&memo.days===lookback())return memo.rows;
     const min=lookbackStart(today);
     const base=(feed?.papers||[]).filter(p=>p.published>=min&&p.published<=today&&prefs.matches([p.title,...p.tags].join(' '),s));
-    const extra=(cached?.signature===prefs.signature(s)+':days='+lookback()||sameTopic(cached,s))?cached.papers:[];
+    const extra=Array.isArray(cached?.papers)?cached.papers:[]; // Keep saved results when bioRxiv is enabled or a query signature changes.
     const rows=[...new Map([...base,...extra].filter(p=>!prefs.isCorrection(p.title)&&p.published>=min&&p.published<=today&&(p.matchSource==='bioRxiv preprint'?!!s.biorxiv:prefs.scoped(p,s))).map(p=>[p.doi,p])).values()].sort((a,b)=>b.published.localeCompare(a.published)||a.doi.localeCompare(b.doi));
     rowsCache.set(s.id,{subscription:s,feed,custom:cached,today,days:lookback(),rows});return rows;
   }
@@ -70,7 +70,7 @@
     el('feedView').hidden=view!=='feed';if(!subscription())group=settings.subscriptions.find(s=>s.enabled)?.id||'';bindNav();if(view!=='feed')return;
     const s=subscription();el('feedTitle').textContent=s?(s.name+(isBioRxivGroup()?' — bioRxiv':'')):'Your research subscriptions';
     const cache=s&&custom[s.id],isDefault=s&&(lookback()===90&&prefs.standard(s)&&!feed?.partial&&!s.biorxiv);
-    el('feedChecked').textContent=s&&!s.journals.length&&!s.families.length?'Add journals in Customize feed to check this topic.':!s?'Add or enable a subscription in Customize feed.':isDefault?'Last checked '+displayDate(feed?.checkedAt)+(feed?.partial?' · Some source queries were incomplete':''):cache?.signature===prefs.signature(s)+':days='+lookback()?'Last checked '+displayDate(cache.checkedAt)+(cache.pubmedStatus?' · PubMed '+cache.pubmedStatus:'')+(cache.partial?' · Showing saved / partial results; automatic retry pending':''):'Checking PubMed and Crossref for this subscription…';
+    el('feedChecked').textContent=s&&!s.journals.length&&!s.families.length&&!s.biorxiv?'Add journals or enable bioRxiv in Customize feed.':!s?'Add or enable a subscription in Customize feed.':isDefault?'Last checked '+displayDate(feed?.checkedAt)+(feed?.partial?' · Some source queries were incomplete':''):cache?.signature===prefs.signature(s)+':days='+lookback()?'Last checked '+displayDate(cache.checkedAt)+(cache.pubmedStatus?' · PubMed '+cache.pubmedStatus:'')+(s.biorxiv?' · bioRxiv '+(cache.bioRxivStatus||'not checked'):'')+(cache.partial?' · Showing saved / partial results; automatic retry pending':''):'Checking PubMed and Crossref for this subscription…';
     const all=s?feedViewRows(s,isBioRxivGroup()):[],incomplete=s&&cache?.signature===prefs.signature(s)+':days='+lookback()&&cache.partial,checking=s&&!isDefault&&cache?.signature!==prefs.signature(s)+':days='+lookback()&&(s.journals.length||s.families.length),filter=el('feedJournal'),previous=filter.value;
     const journals=[...new Set([...(isBioRxivGroup()?[]:(s?.journals||[])),...all.map(p=>p.journal)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
     filter.innerHTML='<option value="">All journals</option>'+journals.map(j=>'<option value="'+esc(j)+'">'+esc(j)+'</option>').join('');
@@ -104,14 +104,14 @@
     const current=()=>ticket===generation;
     function publish(item,partial=true){
       if(!current())return;
-      custom[item.s.id]={signature:item.signature,checkedAt:new Date().toISOString(),partial,papers:[...item.found.values()],pubmedStatus:item.pubmedStatus};
+      custom[item.s.id]={signature:item.signature,checkedAt:new Date().toISOString(),partial,papers:[...item.found.values()],pubmedStatus:item.pubmedStatus,bioRxivStatus:item.bioRxivStatus};
       scheduleFeedUpdate();
     }
     try{
       const pending=settings.subscriptions.filter(s=>s.enabled&&!(lookback()===90&&prefs.standard(s)&&!feed?.partial&&!s.biorxiv)&&(s.journals.length||s.families.length||s.biorxiv)).map(s=>{
         const signature=prefs.signature(s)+':days='+lookback(),cached=custom[s.id];
         if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?300000:86400000))return null;
-        return {s,signature,found:new Map((cached?.signature===signature||sameTopic(cached,s))?cached.papers.filter(p=>isBioRxivPaper(p)?!!s.biorxiv:prefs.scoped(p,s)).map(p=>[p.doi,p]):[]),failed:0,success:0,pubmedStatus:'checking'};
+        return {s,signature,found:new Map((Array.isArray(cached?.papers)?cached.papers:[]).filter(p=>isBioRxivPaper(p)?!!s.biorxiv:prefs.scoped(p,s)).map(p=>[p.doi,p])),failed:0,success:0,pubmedStatus:'checking',bioRxivStatus:s.biorxiv?'checking':''};
       }).filter(Boolean);
       // Check every topic in PubMed first; slow Crossref requests must not block the next topic.
       for(const item of pending){
@@ -146,8 +146,8 @@
               cursor+=data.collection.length;pages++;
               if(!data.collection.length)break;
             }
-            item.success++;if(cursor<total)item.failed++;
-          }catch{item.failed++;}
+            item.success++;item.bioRxivStatus=cursor<total?'partial':'checked';if(cursor<total)item.failed++;
+          }catch(e){item.failed++;item.bioRxivStatus='unavailable';console.warn('bioRxiv feed request failed',e);}
           publish(item);
         }
       }
