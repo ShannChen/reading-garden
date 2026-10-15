@@ -21,7 +21,7 @@
   function fromSummary(w,s,today,start){
     const doi=String((w.articleids||[]).find(a=>a.idtype==='doi')?.value||'').toLowerCase(),title=plain(w.title),journal=plain(w.fulljournalname||w.source);
     const published=[w.epubdate,w.pubdate,w.sortpubdate].map(publicationDate).find(Boolean);
-    if(!/^10\.\d{4,9}\/\S+$/.test(doi)||!title||prefs.isCorrection(title)||!journal||!published||published<start||published>today)return null;
+    if(!/^10\.\d{4,9}\/\S+$/.test(doi)||!title||prefs.isCorrection(title)||prefs.isNonResearch({title,articleType:(w.pubtype||[]).find(t=>/^(news|editorial|comment|letter to the editor)$/i.test(t))})||!journal||!published||published<start||published>today)return null;
     const p={doi,title,journal,published,year:published.slice(0,4),authors:(w.authors||[]).map(a=>a.name).filter(Boolean).join(', '),link:'https://doi.org/'+doi,tags:[s.name],groups:[s.id],issn:[w.issn,w.essn].filter(Boolean),matchSource:'PubMed indexed metadata',pmid:String(w.uid||'')};
     return prefs.scoped(p,s)?p:null;
   }
