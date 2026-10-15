@@ -4,7 +4,7 @@
   // PubMed title catalog supplements the broader Crossref family prefix queries.
   const familyJournals={"nature": ["Communications Biology", "Communications Health", "Communications Medicine", "Nature", "Nature Aging", "Nature Biomedical Engineering", "Nature Biotechnology", "Nature Cancer", "Nature Cardiovascular Research", "Nature Cell Biology", "Nature Chemical Biology", "Nature Cities", "Nature Communications", "Nature Genetics", "Nature Materials", "Nature Medicine", "Nature Mental Health", "Nature Metabolism", "Nature Methods", "Nature Microbiology", "Nature Protocols", "Nature Reviews Endocrinology", "Nature Reviews Gastroenterology & Hepatology", "Nature Reviews Genetics", "Nature Reviews Microbiology", "Nature Reviews Molecular Cell Biology", "Nature Reviews Neurology", "Nature Reviews Urology", "Scientific Data", "Scientific Reports", "npj Antimicrobials and Resistance", "npj Biofilms and Microbiomes", "npj Breast Cancer", "npj Clean Water", "npj Dementia", "npj Digital Medicine", "npj Emerging Contaminants", "npj Genomic Medicine", "npj Gut and Liver", "npj Mental Health Research", "npj Metabolic Health and Disease", "npj Microgravity", "npj Parkinson's Disease", "npj Precision Oncology", "npj Regenerative Medicine", "npj Science of Food", "npj Systems Biology and Applications", "npj Vaccines", "npj Women's Health"], "cell": ["biophysical journal", "cancer cell", "cell", "cell biomaterials", "cell chemical biology", "cell genomics", "cell host & microbe", "cell metabolism", "cell reports", "cell reports medicine", "cell reports methods", "cell reports physical science", "cell reports sustainability", "cell stem cell", "cell systems", "cellular and molecular gastroenterology and hepatology", "chem", "chem catalysis", "current biology", "developmental cell", "device", "heliyon", "immunity", "iscience", "joule", "matter", "med", "molecular cell", "molecular plant", "molecular therapy", "molecular therapy methods & clinical development", "molecular therapy nucleic acids", "molecular therapy oncology", "neuron", "one earth", "patterns", "plant communications", "stem cell reports", "structure", "the american journal of human genetics", "trends in biochemical sciences", "trends in biotechnology", "trends in cell biology", "trends in chemistry", "trends in cognitive sciences", "trends in ecology & evolution", "trends in endocrinology & metabolism", "trends in genetics", "trends in immunology", "trends in microbiology", "trends in molecular medicine", "trends in neurosciences", "trends in parasitology", "trends in pharmacological sciences", "trends in plant science"], "science": ["Science", "Science Advances", "Science Immunology", "Science Translational Medicine", "Science Robotics", "Science Signaling"], "est": ["Environmental Science & Technology", "Environmental Science & Technology Letters"]};
   const defaults=[
-    ['metabolomics','Metabolomics & Microbiome',['metabolomics','microbiome','microbiota','gut microbiome','gut microbial','gut microbes','microbial metabolite','microbial']],
+    ['metabolomics','Metabolomics & Microbiome',['metabolomics','microbiome','microbiota','gut microbiome','gut microbial','gut microbes','microbial metabolite']],
     ['proteomics','Proteomics',['proteomics','proteomic']],
     ['exposomics','Exposome & Exposomics',['exposome','exposomics','exposomic']],
     ['epitranscriptomics','Epitranscriptomics',['epitranscriptomics','epitranscriptomic','RNA methylation','RNA modification','m6A']],
@@ -24,7 +24,7 @@
     result.journalFamilies=result.journalFamilies??(result.journals.length?[]:[...new Set(result.subscriptions.flatMap(s=>s.families))]);
     result.subscriptions=result.subscriptions.map(s=>{
       // Upgrade only the built-in metabolomics topic. Leave customized keyword lists untouched.
-      const former=['metabolomics','metabolomic','microbiome','microbiota','gut microbial','gut microbes','microbial metabolite'];
+      const former=['metabolomics','metabolomic','microbiome','microbiota','gut microbial','gut microbes','microbial metabolite','microbial'];
       const builtIn=s.id==='metabolomics'&&s.name==='Metabolomics & Microbiome'&&s.keywords.every(k=>former.includes(k))&&s.keywords.includes('metabolomics')&&s.keywords.includes('microbiome');
       return {...s,keywords:builtIn?[...defaults[0].keywords]:s.keywords,journals:[...result.journals],families:[...result.journalFamilies]};
     });
@@ -42,8 +42,8 @@
   const isMetabolomicsTopic=s=>s.id==='metabolomics'||norm(s.name)==='metabolomics';
   // Match the user's actual "metabolomics" subscription (including renamed topics).
   // Add search synonyms at query time without overwriting their chosen keywords/name.
-  const microbialTerms=['metabolomics','metabolomic','microbiome','microbiota','gut microbiome','gut microbial','gut microbes','microbial','microbial metabolite','microbial metabolites'];
-  const terms=s=>[...new Set([...s.keywords,...(isMetabolomicsTopic(s)?microbialTerms:[])].flatMap(k=>variants[norm(k)]||[k]))];
+  const microbialTerms=['metabolomics','metabolomic','microbiome','microbiota','gut microbiome','gut microbial','gut microbes','microbial metabolite','microbial metabolites'];
+  const terms=s=>[...new Set([...s.keywords.filter(k=>!(isMetabolomicsTopic(s)&&norm(k)==='microbial')),...(isMetabolomicsTopic(s)?microbialTerms:[])].flatMap(k=>variants[norm(k)]||[k]))];
 
   const journalNorm=s=>norm(s).split(' ').filter(w=>w!=='and').join(' ');
   const journalISSN=j=>({
@@ -52,7 +52,7 @@
     'proceedings of the national academy of sciences of the united states of america':'0027-8424',
     'environmental science technology':'0013-936X'
   })[journalNorm(j)];
-  const signature=s=>JSON.stringify({version:6,name:s.name,keywords:terms(s).map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
+  const signature=s=>JSON.stringify({version:7,name:s.name,keywords:terms(s).map(norm).sort(),families:[...s.families].sort(),journals:s.journals.map(norm).sort()});
   const standard=s=>{const d=defaults.find(d=>d.id===s.id);return d&&signature(s)===signature(d);};
   function scoped(p,s){
     if(s.journals.some(j=>journalNorm(j)===journalNorm(p.journal)||(journalISSN(j)&&((p.issn||[]).includes(journalISSN(j))||journalISSN(j)===journalISSN(p.journal)))))return true;
