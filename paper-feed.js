@@ -44,7 +44,7 @@
     const min=lookbackStart(today);
     const base=(feed?.papers||[]).filter(p=>p.published>=min&&p.published<=today&&prefs.matches([p.title,...p.tags].join(' '),s));
     const extra=(cached?.signature===prefs.signature(s)+':days='+lookback()||sameTopic(cached,s))?cached.papers:[];
-    const rows=[...new Map([...base,...extra].filter(p=>p.published>=min&&p.published<=today&&prefs.scoped(p,s)).map(p=>[p.doi,p])).values()].sort((a,b)=>b.published.localeCompare(a.published)||a.doi.localeCompare(b.doi));
+    const rows=[...new Map([...base,...extra].filter(p=>!prefs.isCorrection(p.title)&&p.published>=min&&p.published<=today&&prefs.scoped(p,s)).map(p=>[p.doi,p])).values()].sort((a,b)=>b.published.localeCompare(a.published)||a.doi.localeCompare(b.doi));
     rowsCache.set(s.id,{subscription:s,feed,custom:cached,today,days:lookback(),rows});return rows;
   }
   function displayDate(value){return value?new Date(value).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Not checked yet';}
