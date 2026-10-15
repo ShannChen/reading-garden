@@ -79,8 +79,9 @@
   }
   el('feedLookback').addEventListener('input',event=>{el('feedLookbackValue').textContent=lookbackLabel(Number(event.target.value));});
   el('feedLookback').addEventListener('change',event=>{const days=Number(event.target.value);if(!prefs.validLookbackDays(days))return;settings.lookbackDays=days;rowsCache.clear();saveSettings();renderSettings();});
-  function editSubscription(id){const f=el('subscriptionForm'),s=settings.subscriptions.find(s=>s.id===id);f.reset();window.ReadingGardenJournalLookup?.reset();f.dataset.editing=id||'';f.elements.name.value=s?.name||'';el('subscriptionFormTitle').textContent=s?'Edit subscription':'New subscription';el('subscriptionError').textContent='';el('subscriptionSave').textContent=s?'Save changes':'Add subscription';}
-  el('subscriptionForm').onsubmit=e=>{e.preventDefault();const f=e.target,id=f.dataset.editing||crypto.randomUUID();const old=settings.subscriptions.find(s=>s.id===id);const name=f.elements.name.value.trim(),keywords=old&&prefs.norm(old.name)===prefs.norm(name)?[...old.keywords]:[name],journals=[...settings.journals];const s={id,name,keywords,journals,families:[...settings.journalFamilies],enabled:old?old.enabled:true};if(!prefs.valid(s)||(!old&&settings.subscriptions.length>=20)){el('subscriptionError').textContent='Use a topic name of 1–80 characters (maximum 20 topics).';return;}if(old)settings.subscriptions=settings.subscriptions.map(x=>x.id===id?s:x);else settings.subscriptions.push(s);group=id;view='feed';saveSettings();editSubscription();toast('Subscription saved. Checking recent papers automatically.');};
+  function editSubscription(id){const f=el('subscriptionForm'),s=settings.subscriptions.find(s=>s.id===id);f.reset();window.ReadingGardenJournalLookup?.reset();f.dataset.editing=id||'';f.elements.name.value=s?.name||'';el('subscriptionFormTitle').textContent=s?'Edit subscription':'New subscription';el('subscriptionError').textContent='';el('subscriptionSave').textContent=s?'Save changes':'Add subscription';el('subscriptionBioRxiv').checked=!!s?.biorxiv;el('biorxivFieldChoices').innerHTML=prefs.bioRxivCategories.map(c=>'<label><input type="checkbox" value="'+esc(c)+'" '+(s?.biorxivFields?.includes(c)?'checked':'')+'>'+esc(c.replace(/\b\w/g,x=>x.toUpperCase()))+'</label>').join('');el('biorxivFieldChoices').hidden=!el('subscriptionBioRxiv').checked;}
+  el('subscriptionBioRxiv').addEventListener('change',()=>{el('biorxivFieldChoices').hidden=!el('subscriptionBioRxiv').checked;});
+  el('subscriptionForm').onsubmit=e=>{e.preventDefault();const f=e.target,id=f.dataset.editing||crypto.randomUUID();const old=settings.subscriptions.find(s=>s.id===id);const name=f.elements.name.value.trim(),keywords=old&&prefs.norm(old.name)===prefs.norm(name)?[...old.keywords]:[name],journals=[...settings.journals];const s={id,name,keywords,journals,families:[...settings.journalFamilies],enabled:old?old.enabled:true,biorxiv:el('subscriptionBioRxiv').checked,biorxivFields:[...el('biorxivFieldChoices').querySelectorAll('input:checked')].map(x=>x.value)};if(s.biorxiv&&!s.biorxivFields.length){el('subscriptionError').textContent='Select at least one bioRxiv field.';return;}if(!prefs.valid(s)||(!old&&settings.subscriptions.length>=20)){el('subscriptionError').textContent='Use a topic name of 1–80 characters (maximum 20 topics).';return;}if(old)settings.subscriptions=settings.subscriptions.map(x=>x.id===id?s:x);else settings.subscriptions.push(s);group=id;view='feed';saveSettings();editSubscription();toast('Subscription saved. Checking recent papers automatically.');};
   el('newSubscription').onclick=()=>editSubscription();
   function openSettings(){renderSettings();editSubscription();el('feedSettingsDialog').showModal();}
   el('customizeFeed').onclick=openSettings;el('customizeFeedTop').onclick=openSettings;el('closeFeedSettings').onclick=()=>el('feedSettingsDialog').close();
@@ -95,7 +96,7 @@
       scheduleFeedUpdate();
     }
     try{
-      const pending=settings.subscriptions.filter(s=>s.enabled&&!(lookback()===90&&prefs.standard(s)&&!feed?.partial)&&(s.journals.length||s.families.length)).map(s=>{
+      const pending=settings.subscriptions.filter(s=>s.enabled&&!(lookback()===90&&prefs.standard(s)&&!feed?.partial)&&(s.journals.length||s.families.length||s.biorxiv)).map(s=>{
         const signature=prefs.signature(s)+':days='+lookback(),cached=custom[s.id];
         if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?300000:86400000))return null;
         return {s,signature,found:new Map((cached?.signature===signature||sameTopic(cached,s))?cached.papers.filter(p=>prefs.scoped(p,s)).map(p=>[p.doi,p]):[]),failed:0,success:0,pubmedStatus:'checking'};
@@ -113,7 +114,35 @@
         }else if(item.s.journals.length||item.s.families.length){item.failed++;item.pubmedStatus='unavailable';}
       }
       for(const item of pending){
+        if(!item.s.biorxiv)continue;
+        const today=new Date().toISOString().slice(0,10),start=lookbackStart(today),fields=item.s.biorxivFields||[];
+        for(const field of fields){
+          let cursor=0,total=Infinity,pages=0;
+          try{
+            while(cursor<total&&pages<30){
+              if(!current())return;
+              const u=new URL('https://api.biorxiv.org/details/biorxiv/'+start+'/'+today+'/'+cursor);
+              u.searchParams.set('category',field.replaceAll(' ','_'));
+              const r=await fetch(u,{signal:AbortSignal.timeout(20000)});if(!r.ok)throw Error('bioRxiv unavailable');
+              const data=await r.json();if(!Array.isArray(data.collection))throw Error('Invalid bioRxiv response');
+              total=Number(data.messages?.[0]?.count)||0;
+              for(const w of data.collection){
+                const doi=String(w.doi||'').toLowerCase(),title=String(w.title||'').trim(),published=String(w.date||'').slice(0,10);
+                if(!/^10\.\d{4,9}\/\S+$/.test(doi)||!title||prefs.isCorrection(title)||published<start||published>today)continue;
+                if(!prefs.matches(title+' '+String(w.abstract||''),item.s))continue;
+                item.found.set(doi,{doi,title,journal:'bioRxiv · '+String(w.category||field),published,year:published.slice(0,4),authors:String(w.authors||''),link:'https://doi.org/'+doi,tags:[item.s.name],groups:[item.s.id],matchSource:'bioRxiv preprint'});
+              }
+              cursor+=data.collection.length;pages++;
+              if(!data.collection.length)break;
+            }
+            item.success++;if(cursor<total)item.failed++;
+          }catch{item.failed++;}
+          publish(item);
+        }
+      }
+      for(const item of pending){
         const {s}=item,today=new Date().toISOString().slice(0,10),start=lookbackStart(today);
+        if(!s.journals.length&&!s.families.length)continue;
         const sources=s.families.map(f=>'prefix:'+prefs.families[f].prefix).concat(s.journals.map(j=>prefs.journalISSN(j)?'issn:'+prefs.journalISSN(j):'container-title:'+j));
         for(const source of sources){for(const term of prefs.terms(s)){
           if(!current())return;
