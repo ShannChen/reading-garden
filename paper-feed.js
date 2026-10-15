@@ -84,7 +84,7 @@
           total=Number(data.messages?.[0]?.count)||0;
           for(const w of batch){
             const doi=String(w.doi||'').toLowerCase(),title=String(w.title||'').trim(),published=String(w.date||'').slice(0,10);
-            if(!/^10\\.\\d{4,9}\\/\\S+$/.test(doi)||!published||prefs.isCorrection(title)||!prefs.matches(title+' '+String(w.abstract||''),s))continue;
+            if(!/^10\.\d{4,9}\/\S+$/.test(doi)||!published||prefs.isCorrection(title)||!prefs.matches(title+' '+String(w.abstract||''),s))continue;
             found.set(doi,{doi,title,journal:'bioRxiv · '+String(w.category||'Preprint'),published,year:published.slice(0,4),authors:String(w.authors||''),link:'https://doi.org/'+doi,tags:[s.name],groups:[s.id]});
           }
           cursor+=batch.length;scanned++;pages++;
