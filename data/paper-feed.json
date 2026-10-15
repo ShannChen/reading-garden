@@ -949,6 +949,21 @@
       "firstSeen": "2026-10-07T08:51:32.764911+00:00"
     },
     {
+      "doi": "10.1038/s41586-026-11106-1",
+      "title": "Prehistoric global migration of vanishing gut microbes with humans",
+      "journal": "Nature",
+      "published": "2026-10-07",
+      "year": "2026",
+      "authors": "Matthew M. Carter, Zhiru Liu, Matthew R. Olm, Melanie Martin, Daniel D. Sprockett, Parsa Ghadermazi, Benjamin C. Trumble, Hillard Kaplan, Jonathan Stieglitz, Daniel Eid Rodriguez, David A. Relman, Erica D. Sonnenburg, Michael Gurven, Benjamin H. Good, Justin L. Sonnenburg",
+      "link": "https://doi.org/10.1038/s41586-026-11106-1",
+      "tags": [
+        "Metabolomics & Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ]
+    },
+    {
       "doi": "10.1038/s41586-026-11142-x",
       "title": "A gut microbial odd-chain fatty acid alleviates atherosclerosis in mice",
       "journal": "Nature",
