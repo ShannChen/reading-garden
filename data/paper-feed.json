@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-14T23:18:37.919498+00:00",
+  "checkedAt": "2026-10-15T07:34:11.335847+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,59 @@
       "link": "https://doi.org/10.1126/scitranslmed.adz4815",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-14T23:18:37.919498+00:00"
+    },
+    {
+      "doi": "10.1038/s43856-026-01949-0",
+      "title": "Discovering gut microbiome signatures that predict adverse and reverse cardiac remodeling in preclinical heart failure",
+      "authors": "Ning-I Yang, Yu-Chieh Liao, Chieh-Hua Lin, Tsung-Hsien Tsai, Tsai-Wen Teng, Yun-Hsuan Chan, Chih-Wei Tu, Yi-Ju Chou, Chi-Hsiao Yeh, Li-Tang Kuo, Ming-Jui Hung, Chun-Tai Mao, Wayne Huey-Herng Sheu, Chi-Chun Lai, Huey-Kang Sytwu, Ting-Fen Tsai",
+      "journal": "Communications Medicine",
+      "published": "2026-10-14",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s43856-026-01949-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-15T07:34:11.335847+00:00"
+    },
+    {
+      "doi": "10.1038/s41698-026-01736-z",
+      "title": "Multi-omics profiling identifies triciribine as a biomarker-guided antimetabolite therapy for acute lymphoblastic leukemia",
+      "authors": "Xuekang Qi, Georgios Mermelekas, Ondrej Hodek, Luay Aswad, Quentin Glaziou, Isabelle Rose Leo, Nona Struyf, Femke M. Hormann, Ioannis Siavelis, Henri Colyn Bwanika, Owen F. J. Hovey, Martin Haraldsson, Sean G. Rudd, Annika I. Johansson, Tom Erkers, Katja Pokrovskaja Tamm, Janne Lehtiö, Rozbeh Jafari",
+      "journal": "npj Precision Oncology",
+      "published": "2026-10-14",
+      "year": "2026",
+      "tags": [
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41698-026-01736-z",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-15T07:34:11.335847+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75732-5",
+      "title": "Untargeted metabolomics identifies novel metabolites and pathways in Finnish men with heart failure",
+      "authors": "Lilian Fernandes Silva, Jagadish Vangipurapu, Anniina Oravilahti, Markku Laakso",
+      "journal": "Scientific Reports",
+      "published": "2026-10-14",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75732-5",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-15T07:34:11.335847+00:00"
     },
     {
       "doi": "10.1038/s41598-026-69383-9",
@@ -57,6 +110,23 @@
       "link": "https://doi.org/10.1038/s41592-026-03247-y",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-14T23:18:37.919498+00:00"
+    },
+    {
+      "doi": "10.1038/s41589-026-02351-6",
+      "title": "PRADA enables in vivo peroxidase proximity labeling for multiomics",
+      "authors": "",
+      "journal": "Nature Chemical Biology",
+      "published": "2026-10-14",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41589-026-02351-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-15T07:34:11.335847+00:00"
     },
     {
       "doi": "10.1038/s41467-026-77262-0",
@@ -11989,193 +12059,6 @@
       ],
       "link": "https://doi.org/10.1038/s41598-026-59013-9",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s44259-026-00248-x",
-      "title": "Argyrin B exhibits potent therapeutic efficacy in a Clostridioides difficile-infection mouse model while preserving microbiota functionality",
-      "authors": "Sari Rasheed, Katrin Ehrhardt, Ahmed Mohamed Mostafa Abdrabou, Alexander Mellmann, Anna Lechleiter, Domen Pogorevc, Sabryna Junker, Lutz von Müller, Marius Vital, Jennifer Herrmann, Guntram A. Grassl, Markus Bischoff, Rolf Müller",
-      "journal": "npj Antimicrobials and Resistance",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s44259-026-00248-x",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43856-026-01782-5",
-      "title": "The effect of SSRI/SNRI antidepressant treatment on the gut microbiota of patients with major depressive disorder",
-      "authors": "Eugenia Emile Natasha, Danique Mulder, Leon Fehse, Nils R. Winter, Lukas Fisch, Marius Welzel, Corinna Bang, Susanne Meinert, Kira Flinkenflügel, Tiana Borgers, Janik Goltermann, Elisabeth J. Leehr, Carsten Culmsee, Frederike Stein, Florian Thomas-Odenthal, Paula Usemann, Lea Teutenberg, Igor Nenadic, Benjamin Straube, Nina Alexander, Hamidreza Jamalabadi, Andreas Jansen, Robert Nitsch, Andreas Lügering, Andre Franke, Udo Dannlowski, Tilo Kircher, Dominik Heider, Tim Hahn, Janna N. Vrijsen, Philip van Eijndhoven, Indira Tendolkar, Andreas Reif, Sharmili Edwin Thanarajah, Silke Matura, Alejandro Arias Vasquez, Mirjam Bloemendaal",
-      "journal": "Communications Medicine",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s43856-026-01782-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62903-7",
-      "title": "Distinct site-specific bacterial microbiota within and between skin physiologic types in healthy Koreans: a pilot study",
-      "authors": "So-Yeon Kim, Thị Quỳnh Trang Trần, Kyung-Hwa Nam, Seok-Kweon Yun, Jin Park",
-      "journal": "Scientific Reports",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62903-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62758-y",
-      "title": "Integrated metabolomic and histopathological analysis of renal alterations in mice following chronic bisphenol A (BPA) exposure",
-      "authors": "Ewa Lepiarczyk, Marta Wiszpolska, Mateusz A. Maździarz, Krystyna Makowska, Sławomir Gonkowski, Jakub Maroszyk, Marta Szadurska-Noga, Marta Majewska",
-      "journal": "Scientific Reports",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62758-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62313-9",
-      "title": "Illumina and PacBio insights into the metataxonomic enrichment of fish pond sediment microbiota via Candida albicans co-culture",
-      "authors": "Artur Banach, Maciej Masłyk, Dominika Bałkota, Sara Jurczyk, Monika Janeczko, Jacek Podlewski, Agnieszka Wolińska, Agnieszka Kuźniar",
-      "journal": "Scientific Reports",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62313-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62172-4",
-      "title": "A network-based meta-analysis of the honeybee gut microbiome: geographic, seasonal, and pesticide-associated shifts",
-      "authors": "Nelli Vardazaryan, Lusine Adunts, Inga Bazukyan, Magdalina Zakharyan, Honglian Liu, Chrats Melkonian, Lilit Nersisyan",
-      "journal": "Scientific Reports",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62172-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-59198-z",
-      "title": "Nasopharyngeal metagenomics of symptomatic healthcare workers provides insights into the respiratory microbiome and antimicrobial resistance",
-      "authors": "Marina Farrel Côrtes, Alessandra Luna-Muschi, Ana Paula Marchi, Saidy Liceth Vasconez Noguera, Raquel Hurtado, Evelyn Sanchez Espinoza, Noely Evangelista Ferreira, Antonio Charlys Da-Costa, Michael G. Berg, Mary A. Rodgers, Gavin A. Cloherty, Cassia G. T. Silveira, Glaucia Paranhos-Baccalà, Esper G. Kallas, Maria Cassia Mendes-Correa, Silvia Figueiredo Costa",
-      "journal": "Scientific Reports",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-59198-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41551-026-01746-z",
-      "title": "RModBlock antisense oligonucleotides as a universal tool for precise and efficient inhibition of RNA modifications",
-      "authors": "Mengdan Ma, Jing Yao, Wanying Chen, Nannan Gu, Kahei Kou, Yusen Zhang, Tao Huang, Rui Zhang",
-      "journal": "Nature Biomedical Engineering",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41551-026-01746-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41531-026-01480-y",
-      "title": "Repurposing the antiplatelet drug prasugrel for Parkinson’s disease: evidence of neuroprotective effects and proteomic profiles",
-      "authors": "Seulah Lee, Jaehoon Kim, Eunji Cho, Hae-Un Jung, Hagyeong Lee, Ye-Jin Kim, Hyang-Sook Hoe, Dayea Kim, Jong Hyuk Yoon",
-      "journal": "npj Parkinson's Disease",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41531-026-01480-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01034-3",
-      "title": "The gut-heart axis in heart failure: a systematic review and meta-analysis of gut microbiota and metabolites",
-      "authors": "Fayez Yassine, Alia Albush, Aya Hanna, Hassan Abbas, Melhem Bilen",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01034-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75399-6",
-      "title": "Multiomic profiling links L1 retrotransposition to genomic instability and ecDNA in bladder cancer",
-      "authors": "Sophia J. Pribus, Ivana Osredek, Jan Otoničar, Milena Simovic-Lorenz, Chiara Giovenino, Anne Rademacher, Sina Jasmin Wille, Cecilia Berzain Battioni, Michael Scherer, Sergio Manzano-Sanchez, Andreas Kienzle, Urja Parekh, Laura Villacorta, Vladimir Benes, Pooja Sant, Jan-Philipp Mallm, Karsten Brand, Karsten Rippe, Angelika B. Riemer, Holger Sültmann, Christoph Plass, Mladen Stankovic, Jan O. Korbel, Tobias Rausch, Aurélie Ernst",
-      "journal": "Nature Communications",
-      "published": "2026-07-16",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75399-6",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
