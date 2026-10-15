@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-15T13:32:02.241028+00:00",
+  "checkedAt": "2026-10-15T18:23:32.551007+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -1880,6 +1880,23 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
+      "doi": "10.1016/j.stemcr.2026.103117",
+      "title": "Microbiota-derived SCFAs modulate Socs36E-mediated feedback to regulate intestinal stem cell proliferation upon Atg4 loss in Drosophila",
+      "authors": "Ping Wang, Xianhao Li, Wendong Liu, Jiewei Wang, Li Hua Jin",
+      "journal": "Stem Cell Reports",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.stemcr.2026.103117",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-15T18:23:32.551007+00:00"
+    },
+    {
       "doi": "10.1016/j.isci.2026.117654",
       "title": "Proteomic and functional profiling of suspended jejunal enteroids reveals pharmacokinetic fidelity to native intestine",
       "authors": "Foteini Tzioufa, Merve Ceylan, Maria Letizia Di Martino, Dinh Son Vo, Ana C.C. Lopes, Rebekkah Hammar, Magnus Sundbom, Martin Skogar, Per M. Hellström, Dominic-Luc Webb, Maria Karlgren, Iain Gardner, Patrik Lundquist, Jens Eriksson, Daisy Hjelmqvist, Mikael E. Sellin, Madlen Hubert, Per Artursson",
@@ -2016,6 +2033,23 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
+      "doi": "10.1016/j.crmeth.2026.101639",
+      "title": "Apus enables automated end-to-end analysis and quality control of large-cohort proteomics data",
+      "authors": "Zekun Cai, Zhao Sun, Xinhang Hou, Xiang Liu, Min Tang, Yuzhuo Gu, Zhenchao Tang, Yang Fu, Jing-Hua Yang, Chao Liu",
+      "journal": "Cell Reports Methods",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.crmeth.2026.101639",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-15T18:23:32.551007+00:00"
+    },
+    {
       "doi": "10.1016/j.crmeth.2026.101619",
       "title": "Acute in vivo proximity labeling for membrane-targeted proteomics in neuronal circuits",
       "authors": "Maribel Anguiano, Run Zhang, Melanie Robles, Kaden P. Adams, Michelle R. Salemi, Brett S. Phinney, Christopher S. Leung, Ethan M. Fenton, Kuldeep Giri, Elinor Lewis, Sophia Lin, Jennifer L. Whistler, Alex S. Nord, Christina K. Kim",
@@ -2148,6 +2182,40 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.celrep.2026.118038",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.09.043",
+      "title": "Functional diversification of the cephalopod proteome by RNA editing",
+      "authors": "Jack M. Moen, Alicia L. Richards, Einar K. Krogsaeter, Benjamin J. Polacco, Martin Gordon, Erica Stevenson, Rhiana Boyles, Maximilien Burq, Dejan Stepec, Bryan Crampton, Nathaniel Sin, Zachary Gale-Day, Jason E. Gestwicki, Peter Cimermancic, Joshua J.C. Rosenthal, Nevan J. Krogan, Danielle L. Swaney",
+      "journal": "Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.09.043",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-15T18:23:32.551007+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.07.022",
+      "title": "Milk osteopontin alters the infant microbiome to drive DC hematopoiesis and disease tolerance",
+      "authors": "Daniel R. Howard, Ridwan B. Rashid, Tufael Ahmed, Patricia Namubiru, Md. Sohel Rana, Tyler Wilkins, Joshua Morrow, Darren J. Creek, Rose Ann Franco, Mark C. Allenby, Declan L. Turner, Rhiannon B. Werder, Sam Manna, Catherine Satzke, Yenkai Lim, Jiarui Sun, Paul G. Dennis, Anushka Yadav, Andrew J. Kueh, Cheong Kwong Chung, Elizabeth Forbes-Blom, Mario Noti, Jonathan O’Regan, Luis Pedro Coelho, Chrysothemis C. Brown, Mark Morrison, Simon Phipps",
+      "journal": "Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.07.022",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
@@ -10228,23 +10296,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.cell.2026.07.055",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.cell.2026.07.022",
-      "title": "Milk osteopontin alters the infant microbiome to drive DC hematopoiesis and disease tolerance",
-      "authors": "Daniel R. Howard, Ridwan B. Rashid, Tufael Ahmed, Patricia Namubiru, Md. Sohel Rana, Tyler Wilkins, Joshua Morrow, Darren J. Creek, Rose Ann Franco, Mark C. Allenby, Declan L. Turner, Rhiannon B. Werder, Sam Manna, Catherine Satzke, Yenkai Lim, Jiarui Sun, Paul G. Dennis, Anushka Yadav, Andrew J. Kueh, Cheong Kwong Chung, Elizabeth Forbes-Blom, Mario Noti, Jonathan O’Regan, Luis Pedro Coelho, Chrysothemis C. Brown, Mark Morrison, Simon Phipps",
-      "journal": "Cell",
-      "published": "2026-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.cell.2026.07.022",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
