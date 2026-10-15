@@ -5,6 +5,19 @@
   let settings=prefs.sharedState(),feed=null,group='',loading=false,custom={},running=false,generation=0;
   let checkTimer,paintScheduled=false,paintGeneration=0;
   const rowsCache=new Map();
+  const archiveKey=()=>storageKey('reading-garden-feed-paper-archive-v1');
+  let archive={};
+  function saveArchive(){
+    try{localStorage.setItem(archiveKey(),JSON.stringify(archive));}catch{}
+  }
+  function archivePapers(id,papers){
+    if(!Array.isArray(papers)||!papers.length)return;
+    const old=Array.isArray(archive[id])?archive[id]:[];
+    const merged=new Map(old.map(p=>[p.doi,p]));
+    for(const paper of papers)if(paper?.doi)merged.set(paper.doi,paper);
+    archive[id]=[...merged.values()];
+    saveArchive();
+  }
   const lookback=()=>settings.lookbackDays||90;
   const lookbackStart=(today,days=lookback())=>{const d=new Date(today+'T00:00:00Z');d.setUTCDate(d.getUTCDate()-days);return d.toISOString().slice(0,10);};
   const lookbackLabel=days=>days===90?'90 days':days===2190?'6 years':days>=365?(days/365).toFixed(1).replace(/\.0$/,'')+' years':days+' days';
@@ -22,7 +35,7 @@
   const collected=p=>papers.some(saved=>String(saved.link||'').trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i,'').replace(/^doi:\s*/i,'').toLowerCase()===p.doi);
   function localSave(){localStorage.setItem(localKey(),JSON.stringify(state()));}
   function useState(rows){if(!prefs.validState(rows))throw Error('Invalid feed settings');const next=prefs.sharedState(rows[0]);if(JSON.stringify(next)!==JSON.stringify(settings)){settings=next;generation++;rowsCache.clear();}renderFeed();}
-  function loadLocal(){custom={};try{custom=JSON.parse(localStorage.getItem(resultsKey())||'{}');}catch{}try{const saved=localStorage.getItem(localKey());useState(saved?JSON.parse(saved):[]);}catch{useState([]);}}
+  function loadLocal(){custom={};try{custom=JSON.parse(localStorage.getItem(resultsKey())||'{}');}catch{}try{archive=JSON.parse(localStorage.getItem(archiveKey())||'{}')||{};}catch{archive={};}for(const [id,item] of Object.entries(custom))archivePapers(id,item?.papers);try{const saved=localStorage.getItem(localKey());useState(saved?JSON.parse(saved):[]);}catch{useState([]);}}
   window.ReadingGardenFeeds={exportState:state,saveLocal:localSave,setState:rows=>{custom={};try{custom=JSON.parse(localStorage.getItem(resultsKey())||'{}');}catch{}useState(rows);},getJournals:()=>[...settings.journals],addFamily:id=>{if(!Object.hasOwn(prefs.families,id))return 'Unknown journal family.';setFamilies([...new Set([...settings.journalFamilies,id])]);return '';},addJournal:title=>{const journals=[...settings.journals];if(journals.some(j=>prefs.norm(j)===prefs.norm(title)))return 'This journal is already selected.';journals.push(title.trim());if(!prefs.validJournals(journals))return 'Use a full journal title (up to 150 characters / 200 journals).';setJournals(journals);return '';},validateState:prefs.validState,importState:rows=>{if(!prefs.validState(rows))throw Error('Invalid feed settings');if(rows[0]&&rows[0].updated>=settings.updated)useState(rows);}};
   function saveSettings(){settings.updated=Date.now();generation++;persist();scheduleCustomCheck();}
   function setJournals(journals){settings.journals=[...journals];settings.subscriptions=settings.subscriptions.map(s=>({...s,journals:[...journals],families:[...settings.journalFamilies]}));saveSettings();}
@@ -46,7 +59,7 @@
     if(memo&&memo.subscription===s&&memo.feed===feed&&memo.custom===cached&&memo.today===today&&memo.days===lookback())return memo.rows;
     const min=lookbackStart(today);
     const base=(feed?.papers||[]).filter(p=>p.published>=min&&p.published<=today&&prefs.matches([p.title,...p.tags].join(' '),s));
-    const extra=Array.isArray(cached?.papers)?cached.papers:[]; // Keep saved results when bioRxiv is enabled or a query signature changes.
+    const extra=[...(Array.isArray(archive[s.id])?archive[s.id]:[]),...(Array.isArray(cached?.papers)?cached.papers:[])]; // Merge all saved discoveries, including prior journal-only searches.
     const rows=[...new Map([...base,...extra].filter(p=>!prefs.isCorrection(p.title)&&p.published>=min&&p.published<=today&&(p.matchSource==='bioRxiv preprint'?!!s.biorxiv:prefs.scoped(p,s))).map(p=>[p.doi,p])).values()].sort((a,b)=>b.published.localeCompare(a.published)||a.doi.localeCompare(b.doi));
     rowsCache.set(s.id,{subscription:s,feed,custom:cached,today,days:lookback(),rows});return rows;
   }
@@ -104,14 +117,16 @@
     const current=()=>ticket===generation;
     function publish(item,partial=true){
       if(!current())return;
+      archivePapers(item.s.id,[...item.found.values()]);
       custom[item.s.id]={signature:item.signature,checkedAt:new Date().toISOString(),partial,papers:[...item.found.values()],pubmedStatus:item.pubmedStatus,bioRxivStatus:item.bioRxivStatus};
       scheduleFeedUpdate();
     }
     try{
       const pending=settings.subscriptions.filter(s=>s.enabled&&!(lookback()===90&&prefs.standard(s)&&!feed?.partial&&!s.biorxiv)&&(s.journals.length||s.families.length||s.biorxiv)).map(s=>{
         const signature=prefs.signature(s)+':days='+lookback(),cached=custom[s.id];
+        archivePapers(s.id,cached?.papers);
         if(cached?.signature===signature&&Date.now()-Date.parse(cached.checkedAt)<(cached.partial?300000:86400000))return null;
-        return {s,signature,found:new Map((Array.isArray(cached?.papers)?cached.papers:[]).filter(p=>isBioRxivPaper(p)?!!s.biorxiv:prefs.scoped(p,s)).map(p=>[p.doi,p])),failed:0,success:0,pubmedStatus:'checking',bioRxivStatus:s.biorxiv?'checking':''};
+        return {s,signature,found:new Map([...(Array.isArray(archive[s.id])?archive[s.id]:[]),...(Array.isArray(cached?.papers)?cached.papers:[])].filter(p=>isBioRxivPaper(p)?!!s.biorxiv:prefs.scoped(p,s)).map(p=>[p.doi,p])),failed:0,success:0,pubmedStatus:'checking',bioRxivStatus:s.biorxiv?'checking':''};
       }).filter(Boolean);
       // Check every topic in PubMed first; slow Crossref requests must not block the next topic.
       for(const item of pending){
