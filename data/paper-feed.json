@@ -1,12 +1,48 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-15T23:06:44.396695+00:00",
+  "checkedAt": "2026-10-16T07:19:32.455486+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/sciadv.aeh4023",
+      "title": "Integrative multi-omics reveals CUL4B as a modulator of macrophage pyroptosis and innate defense against Staphylococcus aureus",
+      "authors": "Fatemeh Askarian, Daniel Sun, Jasmine Tat, James T. Sorrentino, Armin Kousha, Consuelo Sauceda, Siri Yendluri, Yu Yan, Ka Pui Sharon Yau, Helen Masson, Jacob Wozniak, Kristin Pettersen, Natalie Chavarria, Ella McLaren, Hunter Gage, Alexandria Hoffman, Stanley Davis, Chih-Ming Tsai, Jonathan Monk, Angela Meier, George Sakoulas, Tom Eirik Mollnes, Gustav Vaaje-Kolstad, Ingrid Cornax, Pengbo Zhou, Mona Johannessen, David J. Gonzalez, Nathan E. Lewis, Victor Nizet",
+      "journal": "Science Advances",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aeh4023",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-16T07:19:32.455486+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-72917-w",
+      "title": "Chronic exposure to Salton Sea aerosols elicits pulmonary inflammation and shifts in murine lung and fecal microbiome diversity",
+      "authors": "Talyssa M. Topacio, Mia R. Maltz, David D. Lo, Marina Zaza, William C. Porter, Linton Freund, Abbey Lyew, David Cocker, Trevor Biddle, Keziyah Yisrael-Gayle, Diana del Castillo, Hovanness Dingilian, Ryan W. Drover, Jon Botthoff, Emma Aronson",
+      "journal": "Scientific Reports",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-72917-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-16T07:19:32.455486+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75896-0",
       "title": "Effects of angiotensin (1–7) producing Lactobacillus paracasei and palmitoleic acid on angiotensin converting enzyme 2 (ACE2) expression and gut microbiota in streptozotocin-induced diabetic rats",
@@ -40,6 +76,57 @@
       "link": "https://doi.org/10.1038/s41598-026-75720-9",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-15T13:32:02.241028+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-74678-y",
+      "title": "Effects of rumen-protected valine supplementation on velvet antler growth, faecal microbiota, serum metabolites, and velvet antler gene expression in sika deer",
+      "authors": "Xing Duan, Yongxiang Li, Hanlu Liu, Sibo Chen, Jianan Sang, Songze Li, Yuhang Zhu, Cuiliu Ma, Yunxi Zhang, Ruijia Deng, Weixiao Nan, Zhipeng Li, Huazhe Si",
+      "journal": "Scientific Reports",
+      "published": "2026-10-15",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74678-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-16T07:19:32.455486+00:00"
+    },
+    {
+      "doi": "10.1038/s41551-026-01811-7",
+      "title": "Engineering gut microbiome states overcomes hepatic accumulation of nanomedicines",
+      "authors": "Jennifer Haskell",
+      "journal": "Nature Biomedical Engineering",
+      "published": "2026-10-15",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41551-026-01811-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-16T07:19:32.455486+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01193-9",
+      "title": "Preventive mechanisms of Potentilla longifolia against MASLD based on chemical profiling, network pharmacology, and metabolomics",
+      "authors": "Shengxi Lin, Liqiu Zhang, Zimo Wang, Jiayu Li, Huiling Cui, Feifei Bao, Yuning Di, Chengbin Xu, Tianbin Dai, Haidan Yuan, Guangchun Piao",
+      "journal": "npj Science of Food",
+      "published": "2026-10-15",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01193-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-16T07:19:32.455486+00:00"
     },
     {
       "doi": "10.1038/s41525-026-00623-7",
@@ -12107,108 +12194,6 @@
       "link": "https://doi.org/10.1021/acs.est.5c18927",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aee6237",
-      "title": "NicheProt: Cell-type-resolved proteomics of tissue compartments",
-      "authors": "Yi-Chien Wu, Dylan Schwartz, Elie Abi Khalil, Aditi Upadhye, Jalees Rehman, Steve Seung-Young Lee",
-      "journal": "Science Advances",
-      "published": "2026-07-17",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aee6237",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aee1278",
-      "title": "Central nervous system B cell multiomics reveals a legacy of immune dysregulation in long-term treated HIV infection",
-      "authors": "Paraskevas Filippidis, Chang Lu, Benjamin Orlinick, Alina Pang, Allison Nelson, Serena Spudich, Francisco Machiavello Roman, Dagmar Zigackova, Niharika Singareddy, Sameet Mehta, Leah H. Rubin, Steven H. Kleinstein, Michael J. Corley, Shelli F. Farhadian",
-      "journal": "Science Advances",
-      "published": "2026-07-17",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aee1278",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aee0143",
-      "title": "Spaceflight multi-omics reveals vulnerabilities of human germ cell development",
-      "authors": "Ying Li, Hui Gao, Jie Xiong, Nan Wang, Yongchun Yuan, Linjun Wang, Jinzhong Xu, Wenze Huang, Gikin Tan, Xiaojuan He, Qiangfeng Cliff Zhang, Tao Zhang, Kehkooi Kee",
-      "journal": "Science Advances",
-      "published": "2026-07-17",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aee0143",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aec6749",
-      "title": "Single-cell and spatial omics reveals region-specific plasticity and therapeutic vulnerabilities in metastatic high-risk neuroblastoma",
-      "authors": "Lai Man Natalie Wu, Janet L. Oblinger, Dazhuan Xin, Rohit Rao, Feng Zhang, Mike Adam, Oscar Lopez-Nunez, Sara Szabo, Daniel von Allmen, Long-Sheng Chang, Brian D. Weiss, Qing Richard Lu",
-      "journal": "Science Advances",
-      "published": "2026-07-17",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aec6749",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60691-8",
-      "title": "Alternative to invasive bronchoscopy: validating tracheal aspirates for microbiome profiling in intensive care unit pneumonia patients",
-      "authors": "Parshatd Govindasamy, Jun Yeun Cho, Jiyoul Yang, Bumhee Yang, Sun-Hyung Kim, Ki Man Lee, Kang Hyeon Choe, Ok-Jun Lee, Eung-Gook Kim, Kalai Mathee, Giri Narasimhan, Yoon Mi Shin",
-      "journal": "Scientific Reports",
-      "published": "2026-07-17",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60691-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-59013-9",
-      "title": "Multi-omics prediction for yellow rust in bread and durum wheat through conventional and Ai-based frameworks",
-      "authors": "Paolo Vitale, Jose Crossa, Abelardo Montesinos-López, Karim Ammar, Susanne Dreisigacker, Velu Govindan, Osval Montesinos-López, Gilberto Thompson, Keith Gardner, Matthew Reynolds, Guillermo Gerard",
-      "journal": "Scientific Reports",
-      "published": "2026-07-17",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-59013-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
