@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-16T13:20:43.064015+00:00",
+  "checkedAt": "2026-10-16T18:10:24.821122+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -114,6 +114,23 @@
       "link": "https://doi.org/10.1038/s41598-026-72917-w",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-16T07:19:32.455486+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08567-4",
+      "title": "A red panda gut microbiome genome catalog from PacBio HiFi and short-read metagenomes and isolates",
+      "authors": "Feilong Deng, Minghui Li, Jinling He, Zhijian Xu, Chengyao Li, Desheng Li, Chengdong Wang, Jiangchao Zhao, Ying Li",
+      "journal": "Scientific Data",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08567-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-16T18:10:24.821122+00:00"
     },
     {
       "doi": "10.1038/s41598-026-75896-0",
