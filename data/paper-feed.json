@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-16T07:19:32.455486+00:00",
+  "checkedAt": "2026-10-16T13:20:43.064015+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,78 @@
       "link": "https://doi.org/10.1126/sciadv.aeh4023",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-16T07:19:32.455486+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-76464-2",
+      "title": "Untargeted metabolomics in microbiome-immune crosstalk in cancer: challenges and recommendations for functional interpretation",
+      "authors": "Iris L. Mimpen, Catherine Toner-Bartelds, Miguel Parra-Martinez, Beatrice Ricco, Joyce J. I. Catsman, Edwin C.A. Stigter, Martijn van Faassen, Johannes R. Björk, Boudewijn M. T. Burgering, Krijn K. Dijkstra, Emile E. Voest",
+      "journal": "Scientific Reports",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76464-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-16T13:20:43.064015+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-76046-2",
+      "title": "Network pharmacology and metabolomics analysis of ginsenosides in fibrinolysis balance after hip arthroplasty",
+      "authors": "Xiaoyan Yao, Yuanlin Du, Sai Cao, Lei Tan, Yi Hu, Qingxiang Mao",
+      "journal": "Scientific Reports",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76046-2",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-16T13:20:43.064015+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75131-w",
+      "title": "Metabolome and microbiome analysis of human milk from women with lactational mastitis during remission",
+      "authors": "Chunyan Chen, Yiming Zhou, Yan Yu, Yuwei Xu, Aimei Shi, Penglei Ju, Xiaoxiao Xu, Zihao Xiao, Guangli Wu, Xidong Gu",
+      "journal": "Scientific Reports",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75131-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-16T13:20:43.064015+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75002-4",
+      "title": "The dynamic changes of rumen bacterial and fungal microbiota in free-ranged Gangba plateau sheep",
+      "authors": "Li Zhang, Huifen Xu, Yujiang Wu, Xuetao Yang, Wa Da, Kun Li, Faisal Ayub Kiani, Ming Li",
+      "journal": "Scientific Reports",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75002-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-16T13:20:43.064015+00:00"
     },
     {
       "doi": "10.1038/s41598-026-72917-w",
