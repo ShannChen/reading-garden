@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-17T07:02:44.189546+00:00",
+  "checkedAt": "2026-10-17T12:15:35.588980+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41467-026-78591-w",
+      "title": "Accounting for longitudinal peak quality metrics with MSstats+ enhances differential analysis in proteomic experiments with data-independent acquisition",
+      "authors": "Devon Kohler, Eralp Dogu, Mrittika Bhattacharya, Ozge Karayel, Manuel Magana, Anthony Wu, Veronica G. Anania, Olga Vitek",
+      "journal": "Nature Communications",
+      "published": "2026-10-17",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78591-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-17T12:15:35.588980+00:00"
+    },
     {
       "doi": "10.1038/s41467-026-78441-9",
       "title": "Decomposing multi-scale dynamic regulation from single-cell multiomics with scMagnify",
