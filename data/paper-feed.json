@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-16T22:53:54.595762+00:00",
+  "checkedAt": "2026-10-17T07:02:44.189546+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41467-026-78441-9",
+      "title": "Decomposing multi-scale dynamic regulation from single-cell multiomics with scMagnify",
+      "authors": "Xufeng Chen, Xi Yan, Bihan Shen, Heqi Wang, Zhixuan Tang, Yan Zang, Ping Lin, Haibing Zhang, Yu Li, Hong Li",
+      "journal": "Nature Communications",
+      "published": "2026-10-17",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78441-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-17T07:02:44.189546+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aeh4023",
       "title": "Integrative multi-omics reveals CUL4B as a modulator of macrophage pyroptosis and innate defense against Staphylococcus aureus",
@@ -131,6 +148,23 @@
       "link": "https://doi.org/10.1038/s41597-026-08567-4",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-16T18:10:24.821122+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02530-0",
+      "title": "Publisher Correction: Microbiota-derived 10-hydroxystearic acid activates PPARα to restore gut epithelial barrier integrity and enhance anti-retroviral therapy",
+      "authors": "Dylan Kramer, Clarissa Santos Rocha, Christopher A. Gaulke, Marie Nearing, Sumathi Sankaran-Walters, Ikaika Loque, Anugraha Kidigannappa, Eric Pham, Shuang Hu, Patrawin Wanakumjorn, Ramona Abbattista, Abhaya Dandekar, Roland Faller, Satya Dandekar",
+      "journal": "Nature Microbiology",
+      "published": "2026-10-16",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02530-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-17T07:02:44.189546+00:00"
     },
     {
       "doi": "10.1038/s41598-026-75896-0",
@@ -341,7 +375,7 @@
     {
       "doi": "10.1038/s41592-026-03247-y",
       "title": "MassNet: billion-scale AI-ready mass spectral corpus empowering scalable deep learning in proteomics",
-      "authors": "Jun A., Xiang Zhang, Xiaofan Zhang, Jiaqi Wei, Te Zhang, Yamin Deng, Pu Liu, Zongxiang Nie, Yiwen Yu, Yi Chen, Nanqing Dong, Zhiqiang Gao, Siqi Sun, Tiannan Guo",
+      "authors": "Jun A, Xiang Zhang, Xiaofan Zhang, Jiaqi Wei, Te Zhang, Yamin Deng, Pu Liu, Zongxiang Nie, Yiwen Yu, Yi Chen, Nanqing Dong, Zhiqiang Gao, Siqi Sun, Tiannan Guo",
       "journal": "Nature Methods",
       "published": "2026-10-14",
       "year": "2026",
@@ -12230,57 +12264,6 @@
         "multiomics"
       ],
       "link": "https://doi.org/10.1038/s41522-026-01099-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s42003-026-10673-3",
-      "title": "RBM15 impairs Hepatic Mitochondria and β-Oxidation through m6A-dependent degradation of MCM3 mRNA",
-      "authors": "Kai Chen, Yi Xiang, Daqing Deng, Yingjie Zhang, Xin Su, Fang Hu",
-      "journal": "Communications Biology",
-      "published": "2026-07-18",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s42003-026-10673-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01102-8",
-      "title": "Lipodystrophy induces gut microbiota dysbiosis and its related glucose dysmetabolism in mice",
-      "authors": "KeKao Long, Zhuohao Liu, Pujie Liu, Weimin Zhang, Ming Gao, Guowu Gan, Xin Cao, Yating Cheng, Baile Wang, Xinyi Yuan, Baomin Wang, Danyue Zhao, Aimin Xu, Jordy Evan Sulaiman, Kenneth King-yip Cheng",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-18",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01102-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1021/acs.est.5c18927",
-      "title": "Characterization of the Human Exposome and Risk of Reproductive Hormone Disruption by Integrating GC-HRMS Nontarget Analysis, Molecular Networking, and Knowledge Transfer Learning",
-      "authors": "Xin Chen, Rouyi Wang, Yi Yang, Hongyu Xie, Jonathan W. Martin, Guoqiang Shan, Ying Zhang, Lingyan Zhu",
-      "journal": "Environmental Science & Technology",
-      "published": "2026-07-18",
-      "year": "2026",
-      "tags": [
-        "Exposomics"
-      ],
-      "groups": [
-        "exposomics"
-      ],
-      "link": "https://doi.org/10.1021/acs.est.5c18927",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
