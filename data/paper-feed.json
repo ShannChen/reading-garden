@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-18T12:39:31.214187+00:00",
+  "checkedAt": "2026-10-18T17:26:10.865527+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-76149-w",
+      "title": "Multivariate computational strategies for mechanisms involving gut microbiome metabolite targets of Astragalus in diabetic sarcopenic obesity",
+      "authors": "Juehan Wang, Yunuo Shen, Yaojie Hu, Hao Wang, Yangyang Gu, Huiqin Zheng, Xiaoxu Ren, Yadong Wang, Xiaofeng Yang",
+      "journal": "Scientific Reports",
+      "published": "2026-10-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76149-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-18T17:26:10.865527+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-74734-7",
+      "title": "Ginseng derived extracellular vesicles attenuate adipocyte hypertrophy and modulate gut microbiota and cholecystokinin responsiveness in high fat diet fed mice",
+      "authors": "Eunji Jeong, Seoyeon Chae, Hyunwoo Chai, Jin Woo Kim, Sunhye Lee",
+      "journal": "Scientific Reports",
+      "published": "2026-10-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74734-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-18T17:26:10.865527+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75532-x",
       "title": "Mitigation of bacterial spot disease of pepper (Capsicum annuum L.) using diseased plant-recruited microorganisms to modulate the rhizosphere microbiota",
