@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-19T15:43:35.694028+00:00",
+  "checkedAt": "2026-10-19T23:47:59.324630+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -95,6 +95,23 @@
       "link": "https://doi.org/10.1038/s41467-026-78852-8",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-19T15:43:35.694028+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c12407",
+      "title": "Parenteral Nutrition as a Source of Xenobiotic Exposure in Preterm Infants in a Single-Center Case Study",
+      "authors": "Michael Eigenschink, Nika Wattaul, Sabrina Berger, Jesse Peach, Ernst W. Müllner, Angelika Berger, Benedikt Warth, Harald H. Sitte, Lukas Wisgrill",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-19",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c12407",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-19T23:47:59.324630+00:00"
     },
     {
       "doi": "10.1038/s41598-026-76149-w",
