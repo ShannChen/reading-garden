@@ -1,12 +1,101 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-19T07:55:20.725389+00:00",
+  "checkedAt": "2026-10-19T15:43:35.694028+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41597-026-07813-z",
+      "title": "Multi-Omics Dataset of Heat Stress-Induced Memory in Arabidopsis",
+      "authors": "Venkatesh P. Thirumalaikumar, Liang Yu, Devender Arora, Umrah Mubeen, Andrew Wiszniewski, Dirk Walther, Patrick Giavalisco, Saleh Alseekh, Andrew D. L. Nelson, Aleksandra Skirycz, Salma Balazadeh",
+      "journal": "Scientific Data",
+      "published": "2026-10-19",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-07813-z",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-19T15:43:35.694028+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-07757-4",
+      "title": "Arabidopsis nanopore direct RNA sequencing data for mutants in splicing, polyadenylation, and m6A methylation",
+      "authors": "Natalia Gumińska, Łukasz Szewc, Agnieszka Czarnocka-Cieciura, Wiktoria Orzeł, Sebastian Jeleń, Mateusz Bajczyk, Seweryn Mroczek, Andrzej Dziembowski, Artur Jarmołowski",
+      "journal": "Scientific Data",
+      "published": "2026-10-19",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-07757-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-19T15:43:35.694028+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02453-w",
+      "title": "Disentangling microbiota-dependent and -independent impacts of antibiotics on host physiology",
+      "authors": "Lilach Zelik, Yehonatan Levin, Jasmin Sawaed, Shahar Telpaz, Mor Zigdon, Meital Nuriel-Ohayon, Elad Rubin, Ateret Gordon, Zheniya Mogilevski, Amit Yehuda, Aya Awad, Hanaa Shaalan, Shira Ben-Simon, Sonia Modilevsky, Maria Naama, Jay Dalvi, Lelyan Moadi, Marina Kurtz, Shira Perez, Sondra Turjeman, Michal Werbner, Soliman Khatib, Omry Koren, Amir Erez, Shai Bel",
+      "journal": "Nature Microbiology",
+      "published": "2026-10-19",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02453-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-19T15:43:35.694028+00:00"
+    },
+    {
+      "doi": "10.1038/s41541-026-01581-y",
+      "title": "Preparation quality and epitranscriptomic modification influence circular RNA vaccine performance",
+      "authors": "Abby L. Martin, Jessica F. Cotterell, Kaitlin H. Buick, Thomas W. Bird, Joanna Kuang, Olga R. Palmer, Ngarangi C. Mason, Lydia White, Sarah L. Draper, Amy J. Foster, Gavin F. Painter, Isabelle Montgomerie, Tifany Oulavallickal, Wayne M. Patrick, Lisa M. Connor",
+      "journal": "npj Vaccines",
+      "published": "2026-10-19",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41541-026-01581-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-19T15:43:35.694028+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78852-8",
+      "title": "Spatially resolved host and microbiota RNA profiling in the mouse gut using microDBiT",
+      "authors": "Bo Tao, Deguang Song, Mingze Dong, Gaocai Li, Shenjie Wang, Dejiang Wang, Xiangjun Di, Fu Gao, Liyun Lin, Xiaohui Yu, Junyi Xu, Mo Liu, Di Zhang, Mariana Kelley, Anthony Y. Feng, Yu Jin, Jing Du, Yuval Kluger, Noah W. Palm, Yang Liu",
+      "journal": "Nature Communications",
+      "published": "2026-10-19",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78852-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-19T15:43:35.694028+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-76149-w",
       "title": "Multivariate computational strategies for mechanisms involving gut microbiome metabolite targets of Astragalus in diabetic sarcopenic obesity",
@@ -2392,6 +2481,23 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
+      "doi": "10.1016/j.cub.2026.08.063",
+      "title": "Spatial proteomics reveals carboxysome adaptation and mitochondrial proteome in Paulinella chromatophora",
+      "authors": "Lawrence Rudy Cadena, Thomas Lenz, Christian Stiebeling, Kai Stühler, Gereon Poschmann, Eva C.M. Nowack",
+      "journal": "Current Biology",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cub.2026.08.063",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
       "doi": "10.1016/j.crmeth.2026.101639",
       "title": "Apus enables automated end-to-end analysis and quality control of large-cohort proteomics data",
       "authors": "Zekun Cai, Zhao Sun, Xinhang Hou, Xiang Liu, Min Tang, Yuzhuo Gu, Zhenchao Tang, Yang Fu, Jing-Hua Yang, Chao Liu",
@@ -2424,6 +2530,23 @@
       "link": "https://doi.org/10.1016/j.crmeth.2026.101619",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-12T22:10:11.435352+00:00"
+    },
+    {
+      "doi": "10.1016/j.crmeth.2026.101549",
+      "title": "Modeling microbiome modulation of tumor metabolic networks to predict synergistic therapies",
+      "authors": "Annie J. Badenoch, Zeyang Pang, Carolina H. Chung, Aaron Robida, Bretton Badenoch, Ritish Natesan, Layth Kakish, Jiahe Li, Sriram Chandrasekaran",
+      "journal": "Cell Reports Methods",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.crmeth.2026.101549",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
       "doi": "10.1016/j.cmet.2026.08.021",
@@ -2543,6 +2666,23 @@
       "link": "https://doi.org/10.1016/j.celrep.2026.118038",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.09.048",
+      "title": "A microbiome-bile acid axis mediates protection from chronic liver disease in females",
+      "authors": "Mengci Li, Junliang Kuang, Tianlu Chen, Keke Ding, Yuanyuan Chen, Fuxin Jiao, Yang Li, Peiyang Luo, Linyu Xia, Huiheng Zhang, Jieyi Wang, Dan Zheng, Mingliang Zhao, Tao Sun, Xiaowen Chao, Yuhuai Guo, Min Zhu, Yimin Sun, Xixi Xia, Kun Ge, Chun Qu, Changliang Yao, Guoxiang Xie, Kejun Zhou, Panayiotis Louca, Cristina Menni, Aihua Zhao, Qihao Guo, Xinjian Wan, Lu Zhang, Guang Ji, Jian Zhou, Cheng Hu, Weiping Jia, Xiaojiao Zheng, Wei Jia",
+      "journal": "Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.09.048",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-19T15:43:35.694028+00:00"
     },
     {
       "doi": "10.1016/j.cell.2026.09.043",
@@ -6622,23 +6762,6 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
-      "doi": "10.1016/j.cub.2026.08.063",
-      "title": "Spatial proteomics reveals carboxysome adaptation and mitochondrial proteome in Paulinella chromatophora",
-      "authors": "Lawrence Rudy Cadena, Thomas Lenz, Christian Stiebeling, Kai Stühler, Gereon Poschmann, Eva C.M. Nowack",
-      "journal": "Current Biology",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1016/j.cub.2026.08.063",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
       "doi": "10.1016/j.crmeth.2026.101593",
       "title": "ON-Time enables rapid microbiome sequencing and analysis for precision medicine",
       "authors": "Colin MacKenzie, Heewon Seo, Jared Schlechte, Aydin Herik, Ish Bains, Ian-Ling Yu, Kathy D. McCoy, Christina S. Thornton, Braedon McDonald",
@@ -10399,23 +10522,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.heliyon.2026.e45232",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.crmeth.2026.101549",
-      "title": "Modeling microbiome modulation of tumor metabolic networks to predict synergistic therapies",
-      "authors": "Annie J. Badenoch, Zeyang Pang, Carolina H. Chung, Aaron Robida, Bretton Badenoch, Ritish Natesan, Layth Kakish, Jiahe Li, Sriram Chandrasekaran",
-      "journal": "Cell Reports Methods",
-      "published": "2026-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.crmeth.2026.101549",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
