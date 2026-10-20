@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-19T23:47:59.324630+00:00",
+  "checkedAt": "2026-10-20T07:44:15.151960+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-75749-w",
+      "title": "P2226 alleviates respiratory inflammation and depression related behaviors with modulation of cytokines and gut microbiota in mice",
+      "authors": "Hee-Seo Park, Hyo-Min Jang, Xiaoyang Ma, Dong-Hyun Kim",
+      "journal": "Scientific Reports",
+      "published": "2026-10-20",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75749-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-20T07:44:15.151960+00:00"
+    },
     {
       "doi": "10.1038/s41597-026-07813-z",
       "title": "Multi-Omics Dataset of Heat Stress-Induced Memory in Arabidopsis",
@@ -12231,93 +12248,6 @@
       "link": "https://doi.org/10.1021/acs.est.6c03864",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62467-6",
-      "title": "Mechanistic investigation of Chai Gui Zexie Decoction in treating non-small cell lung cancer: an integrated metabolomics and network pharmacology approach",
-      "authors": "Manbian Lin, Aiping Zhao, Bishan Chen, Sudan Zhuang, Xinyao Liu",
-      "journal": "Scientific Reports",
-      "published": "2026-07-21",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62467-6",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60647-y",
-      "title": "Application of widely targeted metabolomics combined with network pharmacology and molecular docking to elucidate growth stage-specific metabolite accumulation and predict the diuretic mechanisms of Leontopodium leontopodioides (Willd.) Beauv",
-      "authors": "Rule Yi, Junfeng Hao, Zhijun Wang, Jian Bao, Zhuna Bao, Yuqi Zou, Mingga Qi, Yi Zhang, Gentu Ge",
-      "journal": "Scientific Reports",
-      "published": "2026-07-21",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60647-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41536-026-00497-4",
-      "title": "Therapeutic-delivering endotracheal tubes heal intubation injury via mucosal remodeling and disrupting the inflammation-microbiome-fibrosis triad",
-      "authors": "Gabriela Gonzales, Ronit Malka, Solaleh Miar, Joo L. Ong, Rena Bizios, Gregory R. Dion, Teja Guda",
-      "journal": "npj Regenerative Medicine",
-      "published": "2026-07-21",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41536-026-00497-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75755-6",
-      "title": "Towards a proteomic plasma biomarker panel for diagnosing vasculitis remission",
-      "authors": "Uwe Jerke, Marieluise Kirchner, Theda UP Bartolomaeus, Lovis Kling, Vojtech Kratky, Zdenka Hruskova, Vladimir Tesar, Kai-Uwe Eckardt, Adrian Schreiber, Sofia Forslund, Philipp Mertins, Ralph Kettritz",
-      "journal": "Nature Communications",
-      "published": "2026-07-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75755-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-74961-6",
-      "title": "Spatial multi-omics identifies early synaptic pruning and context-specific dopaminergic vulnerability in synucleinopathies",
-      "authors": "Svenja-Lotta Rumpf, Felix L. Strübing, Karsten Nalbach, Claudia Marina Vargiu, Giacomo Berg, Stefan F. Lichtenthaler, Piero Parchi, Pan Gao, Weilin Chen, Matthias Brendel, Johannes S. Gnörich, Alexander Bernhardt, Léa Dias Rodrigues, Günter U. Höglinger, Jochen Herms, Thomas Koeglsperger",
-      "journal": "Nature Communications",
-      "published": "2026-07-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics",
-        "Multiomics"
-      ],
-      "groups": [
-        "proteomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-74961-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
