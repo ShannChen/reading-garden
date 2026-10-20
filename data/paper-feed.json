@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-20T07:44:15.151960+00:00",
+  "checkedAt": "2026-10-20T13:39:58.185543+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,57 @@
       "link": "https://doi.org/10.1038/s41598-026-75749-w",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-20T07:44:15.151960+00:00"
+    },
+    {
+      "doi": "10.1038/s41556-026-02086-5",
+      "title": "Spatial multi-omic atlas profiles early organogenesis of a Carnegie stage 12 human embryo",
+      "authors": "Leoti Jiawei Wang, Huajian Yang, Jinzhu Song, Rusong Zhao, Shiyu Liu, Hua Hou, Chuanxin Zhang, Hao Tian, Jiayin Gao, Jun Chen, Zi-Jiang Chen, Han Zhao, Boyang Liu, Keliang Wu",
+      "journal": "Nature Cell Biology",
+      "published": "2026-10-20",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41556-026-02086-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-20T13:39:58.185543+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78559-w",
+      "title": "Large-scale proteomic characterization reveals clinically relevant subtypes of early-stage papillary thyroid cancer for prognostic prediction",
+      "authors": "Jun Pan, Fang Ye, Yunjin Yao, Weigao E., Yingrui Wang, Xianjiang Wu, Shishuai Wen, Yaohui Zhang, Fangyu Ju, Mengni Chen, Pingping Hu, Yaoting Sun, Yan Zhou, Guoji Guo, Qihan You, Tiannan Guo, Yijun Wu",
+      "journal": "Nature Communications",
+      "published": "2026-10-20",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78559-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-20T13:39:58.185543+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c12057",
+      "title": "Psychoactive Pollutant Impacts Baseline Immune Traits but Not Behavior and Microbiome in a Fish",
+      "authors": "Gabriel Melhado, Rhiannon V. Eastment, Francine Z. Marques, Upama Aich, Anne Peters, Bob B. M. Wong",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-20",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c12057",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-20T13:39:58.185543+00:00"
     },
     {
       "doi": "10.1038/s41597-026-07813-z",
