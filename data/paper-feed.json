@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-20T13:39:58.185543+00:00",
+  "checkedAt": "2026-10-20T18:32:08.136091+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,23 @@
       "link": "https://doi.org/10.1038/s41598-026-75749-w",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-20T07:44:15.151960+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73475-x",
+      "title": "Multi‑PTM landscape of four lysine acylations at shared residues in oral squamous cell carcinoma",
+      "authors": "Xuxiu Tao, Gaoxiang Huang, Lian Li, Zaishang Li, Zhipeng Zeng, Yurong Qin, Donge Tang, Yong Dai, Qiang Yan",
+      "journal": "Scientific Reports",
+      "published": "2026-10-20",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73475-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-20T18:32:08.136091+00:00"
     },
     {
       "doi": "10.1038/s41556-026-02086-5",
@@ -2360,6 +2377,40 @@
       "link": "https://doi.org/10.1016/j.xcrm.2026.103098",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-09T19:34:46.236974+00:00"
+    },
+    {
+      "doi": "10.1016/j.xcrm.2026.103048",
+      "title": "Bi-hourly plasma proteomics during the first 48 h of life in an African cohort reveals distinct periods and sex-dependent immune development",
+      "authors": "Tue B. Bennike, Alec L. Plotkin, Jensen Pak, Arthur Viode, Christoph N. Schlaffner, Casey P. Shannon, Olubukola T. Idoko, Rebecca Ford, Anita H.J. van den Biggelaar, Oludare A. Odumade, Dylan Nicholas Tabang, Rym Ben-Othman, Peter C. Richmond, Joann Diray-Arce, Al Ozonoff, Judith A. Steen, Amy H.Y. Lee, William S. Pomat, Beate Kampmann, Ofer Levy, Tobias R. Kollmann, Kinga K. Smolen, Hanno Steen",
+      "journal": "Cell Reports Medicine",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xcrm.2026.103048",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.xcrm.2026.103044",
+      "title": "First-line fecal microbiota transplantation for the management of immune checkpoint inhibitor-mediated diarrhea and colitis",
+      "authors": "Yinghong Wang, Christopher Fan, Krishnavathana Varatharajalu, Malek Shatila, Carolina Colli Cruz, Baohua Sun, Nejla Ozirmak Lermi, Tomo Hayase, Anusha Thomas, Klaudia Anna Szymonowicz, Beatriz Sanchez Espiridion, Dzifa Yawa Duose, Eiko Hayase, Lin Tan, Yiwei Liu, Chia-Chi Chang, Cesar A. Arias, Kristin Junek, Herbert L. DuPont, Zhi-Dong Jiang, Sang T. Kim, Roza Nurieva, Matthew T. Campbell, Nizar M. Tannir, Jianjun Gao, Stephanie S. Watowich, Xin Shelley Wang, Ken Chen, Philip L. Lorenzi, Cara Haymaker, Edwin Roger Parra, Robert R. Jenq",
+      "journal": "Cell Reports Medicine",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xcrm.2026.103044",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
       "doi": "10.1016/j.tree.2026.06.004",
@@ -6346,40 +6397,6 @@
         "proteomics"
       ],
       "link": "https://doi.org/10.1016/j.xgen.2026.101322",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.xcrm.2026.103048",
-      "title": "Bi-hourly plasma proteomics during the first 48 h of life in an African cohort reveals distinct periods and sex-dependent immune development",
-      "authors": "Tue B. Bennike, Alec L. Plotkin, Jensen Pak, Arthur Viode, Christoph N. Schlaffner, Casey P. Shannon, Olubukola T. Idoko, Rebecca Ford, Anita H.J. van den Biggelaar, Oludare A. Odumade, Dylan Nicholas Tabang, Rym Ben-Othman, Peter C. Richmond, Joann Diray-Arce, Al Ozonoff, Judith A. Steen, Amy H.Y. Lee, William S. Pomat, Beate Kampmann, Ofer Levy, Tobias R. Kollmann, Kinga K. Smolen, Hanno Steen",
-      "journal": "Cell Reports Medicine",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1016/j.xcrm.2026.103048",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.xcrm.2026.103044",
-      "title": "First-line fecal microbiota transplantation for the management of immune checkpoint inhibitor-mediated diarrhea and colitis",
-      "authors": "Yinghong Wang, Christopher Fan, Krishnavathana Varatharajalu, Malek Shatila, Carolina Colli Cruz, Baohua Sun, Nejla Ozirmak Lermi, Tomo Hayase, Anusha Thomas, Klaudia Anna Szymonowicz, Beatriz Sanchez Espiridion, Dzifa Yawa Duose, Eiko Hayase, Lin Tan, Yiwei Liu, Chia-Chi Chang, Cesar A. Arias, Kristin Junek, Herbert L. DuPont, Zhi-Dong Jiang, Sang T. Kim, Roza Nurieva, Matthew T. Campbell, Nizar M. Tannir, Jianjun Gao, Stephanie S. Watowich, Xin Shelley Wang, Ken Chen, Philip L. Lorenzi, Cara Haymaker, Edwin Roger Parra, Robert R. Jenq",
-      "journal": "Cell Reports Medicine",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.xcrm.2026.103044",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
