@@ -1,12 +1,63 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-20T23:13:51.189358+00:00",
+  "checkedAt": "2026-10-21T07:48:25.007323+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-75481-5",
+      "title": "Plant-microbe interactions of chickpea rhizosphere to modulate microbiome, yields, nutritional quality and soil fertility",
+      "authors": "Arpan Mukherjee, Bansh Narayan Singh, Anand Kumar Gaurav, Tushar Goyal, Gowardhan Kumar Chouhan, Arthur Prudêncio de Araujo Pereira, Birinchi Kumar Sarma, Saman Abeysinghe, Varenyam Achal, Jay Prakash Verma",
+      "journal": "Scientific Reports",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75481-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T07:48:25.007323+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73549-w",
+      "title": "Spatial metabolomics-guided deep learning framework for dissecting immune evasion mechanisms in fungal infection microenvironments",
+      "authors": "Xuezhen Zhai, Tingting Luo, Ruyan Zhang, Mengyun Dong",
+      "journal": "Scientific Reports",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73549-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T07:48:25.007323+00:00"
+    },
+    {
+      "doi": "10.1038/s41514-026-00540-0",
+      "title": "Association of frailty reversal with cardiovascular disease and the mediating role of proteomic signatures",
+      "authors": "Xiangying Suo, Chunlei Li, Haonan Li, Yuting Liu, Xiaoran Duan, Daping Zhang, Yacong Bo, Quanjun Lyu, Zhanying Han",
+      "journal": "npj Aging",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41514-026-00540-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T07:48:25.007323+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75749-w",
       "title": "P2226 alleviates respiratory inflammation and depression related behaviors with modulation of cytokines and gut microbiota in mice",
@@ -12196,125 +12247,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-75962-1",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43856-026-01795-0",
-      "title": "Plasma proteomics reveals shared biologic signatures of acute respiratory failure across etiology and severity in COVID-19 and non-COVID-19 cohorts",
-      "authors": "Neha A. Sathe, Eric D. Morrell, Ian B. Stanaway, F. Linzee Mabrey, Sarah E. Holton, Carmen Mikacenic, George L. Anesi, Clea R. Barnett, David M. Brett-Major, M. Jana Broadhurst, J. Perren Cobb, Amy Irwin, Vishakha K. Kumar, Douglas P. Landsittel, Richard A. Lee, Janice M. Liebler, Karen Lutrick, Vikramjit Mukherjee, Radu Postelnicu, Leopoldo N. Segal, Jonathan E. Sevransky, Avantika Srivastava, Timothy M. Uyeki, David Wyles, Laura E. Evans, Pavan K. Bhatraju, Mark M. Wurfel, On behalf of the Severe Acute Respiratory Infection – Preparedness (SARI-PREP) Study Group",
-      "journal": "Communications Medicine",
-      "published": "2026-07-22",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s43856-026-01795-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62918-0",
-      "title": "Human embryo metabolomic profiling under constant 5% vs physiological 8%–5%–2% oxygen: a preliminary prospective sibling-embryo study",
-      "authors": "Peter Slatinšek, Korana Lipovac, Ana Škaričić, Klemen Pečnik, Primož Šket, Satish Kumar Adiga, Janez Plavec, Borut Kovačič",
-      "journal": "Scientific Reports",
-      "published": "2026-07-22",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62918-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41586-026-10778-z",
-      "title": "The planktonic microbiome of the Great Barrier Reef",
-      "authors": "Steven Robbins, Marko Terzin, Katherine Dougan, Julian Zaugg, Sara C. Bell, Patrick W. Laffy, J. Pamela Engelberts, Kim-Anh Lê Cao, Renee K. Gruber, Nicole S. Webster, David G. Bourne, Philip Hugenholtz, Yun Kit Yeoh",
-      "journal": "Nature",
-      "published": "2026-07-22",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41586-026-10778-z",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01021-0",
-      "title": "Decoding “Qu-aroma” substances in Jiangxiangxing Baijiu through integrated sensory omics and molecular sensory science",
-      "authors": "Silei Lu, Jiawen Duan, Shiqi Yang, Yize Zhang, Hehe Li, Jinyuan Sun, Baoguo Sun",
-      "journal": "npj Science of Food",
-      "published": "2026-07-22",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01021-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01016-x",
-      "title": "A novel Porphyra enzymatic hydrolysate modulates gut microbiota and enhances propionate production to alleviate osteoarthritis",
-      "authors": "Qingyang Fu, Yuhao Sun, Huanhuan Chen, Jincheng Liu, Mingyu Xu, Junfei Chen, Xu Zhai, Lanxia Wu, Chunlin Li, Kehou Pan, Changhu Xue, Yaoguang Chang, Kaidi Wang",
-      "journal": "npj Science of Food",
-      "published": "2026-07-22",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01016-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75375-0",
-      "title": "VN1K is a pangenome-informed multi-omics and phenomics resource for the Vietnamese population",
-      "authors": "Trang T. H. Tran, Tham H. Hoang, Mai H. Tran, Tien M. Pham, Nam N. Nguyen, Giang M. Vu, Vinh C. Duong, Quang T. Vu, Nguyen T. Nguyen, Hien Q. Vu, Trang M. Nguyen, Thien K. Nguyen, Sang V. Nguyen, Toan Dang, Hoang Nguyen, Tuan Do, Cuong Le, Dat T. Nguyen, Hung T. T. Nguyen, Nam Q. Le, Quang-Huy Nguyen, Linh T. Le, Thang Pham, Duc M. Vu, Huong T. T. Le, Tho D. Ngo, Liem T. Nguyen, Yen Hoang, Dat X. Dao, Giang H. Phan, Thinh Tran, Quang Tran, Chi Trung Ha, Loan Nguyen, Hung N. Luu, Minh Dao, Ly Le, Vinh S. Le, Nguyen Thuy Duong, Quan Nguyen, Duc-Hau Le, Van Vu, Nam S. Vo",
-      "journal": "Nature Communications",
-      "published": "2026-07-22",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75375-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1021/acs.est.6c03864",
-      "title": "Understanding and Reporting PFAS Exposure: Wide-Scope Retrospective Suspect Screening of High-Resolution Mass Spectrometry Data from Exposomics Studies",
-      "authors": "Lapo Renai, Federica Calabró, Viktoriia Turkina, Pradeep Dewapriya, Kevin V. Thomas, Stefano Papazian, Saer Samanipour",
-      "journal": "Environmental Science & Technology",
-      "published": "2026-07-22",
-      "year": "2026",
-      "tags": [
-        "Exposomics"
-      ],
-      "groups": [
-        "exposomics"
-      ],
-      "link": "https://doi.org/10.1021/acs.est.6c03864",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
