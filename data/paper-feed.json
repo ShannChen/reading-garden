@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-21T18:45:27.550893+00:00",
+  "checkedAt": "2026-10-21T23:27:04.540286+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -213,6 +213,23 @@
       "link": "https://doi.org/10.1038/s41514-026-00540-0",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-21T07:48:25.007323+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c00855",
+      "title": "Hippocampal Meis2+ Interneurons Remodeling Involved in the Chronic Pb Exposure-Induced Learning and Memory Impairment: Single-Nucleus and Spatial Multiomics Evidence",
+      "authors": "Fenfen He, Runmin Jiang, Qiyi Huang, Yi Shi, Yuhao Wang, Jingchun Liu, Guodong Zhao, Zaihua Zhao, Xiaoru Dong, Yang Zhou, Lulin Zhou, Jianbin Zhang, Xuefeng Shen",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c00855",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-21T23:27:04.540286+00:00"
     },
     {
       "doi": "10.1038/s41598-026-75749-w",
