@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-21T07:48:25.007323+00:00",
+  "checkedAt": "2026-10-21T13:56:11.879705+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-77064-w",
+      "title": "Multi-omic analysis of post-acute sequelae of COVID-19 (PASC)",
+      "authors": "William F. Beimers, Joseph Balnis, Salma I. Abou Elhassan, Benton J. Anderson, Katherine A. Overmyer, Lisa A. Drake, Anupama Tiwari, Vraj J. Patel, Ramon Bossardi Ramos, Paul J. Feustel, Harold A. Singer, Joshua J. Coon, Ariel Jaitovich",
+      "journal": "Scientific Reports",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77064-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75481-5",
       "title": "Plant-microbe interactions of chickpea rhizosphere to modulate microbiome, yields, nutritional quality and soil fertility",
@@ -40,6 +57,111 @@
       "link": "https://doi.org/10.1038/s41598-026-73549-w",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-21T07:48:25.007323+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08580-7",
+      "title": "Small non-coding RNA profiling in the hippocampus of mice with postoperative cognitive dysfunction",
+      "authors": "Yun Qiao, Chengchuan Chen, Shu Zhou, Cuiling Ke, Jianguo Feng, Jing Jia, Xiaobin Wang",
+      "journal": "Scientific Data",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08580-7",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
+    },
+    {
+      "doi": "10.1038/s41587-026-03348-1",
+      "title": "Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells",
+      "authors": "Alireza Karbalayghareh, Benedikt Pelzer, Christopher R. Chin, Ari Melnick, Darko Barisic, Christina S. Leslie",
+      "journal": "Nature Biotechnology",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41587-026-03348-1",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
+    },
+    {
+      "doi": "10.1038/s41574-026-01320-2",
+      "title": "Gut microbiome development could predict T1DM risk",
+      "authors": "Olivia Tysoe",
+      "journal": "Nature Reviews Endocrinology",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41574-026-01320-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01547-w",
+      "title": "Integrative microbiome and functional profiling decodes pro-inflammatory gut microbiome signatures in South Indian patients with Parkinson’s disease",
+      "authors": "Aneesa Painadath Alikunju, Dania Jose, Siddarthan Venkatachalam, Jabir Tajudeen, Deepa Azhchath Vasu, Dayamrita K K, Geetha Raman, Gayathri Thankam L, Femi Thomas, Divya K P, Narayanapillai Manoj, Syam Krishnan, Baby Chakrapani P S",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01547-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01183-5",
+      "title": "C19orf18 modulates host susceptibility to Salmonella Typhimurium infection via remodeling of the gut microbiota and tryptophan metabolism",
+      "authors": "Jiaxing Zhan, Xueyi Pang, Shuaiqing Shi, Feiyang Pu, Yiyuan Lu, Yibo Zhao, Wentao Yang, Yanlong Jiang, Guilian Yang, Jianzhong Wang, Bin Xu, Yan Zeng, Chunfeng Wang, KangJian Zhang, Xin Cao",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01183-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01180-8",
+      "title": "Murine circadian disruption modulates gut microbiome and plasma metabolome dynamics in a sex- and age-dependent manner",
+      "authors": "Peijun Yu, Huan Liu, Zhixiang Dong, Wenjing Zhou, Lu Liu, Qinyang Jin, Shuai Chen, Yufei Huang, Yunpeng Yang",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01180-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
     },
     {
       "doi": "10.1038/s41514-026-00540-0",
@@ -2853,6 +2975,23 @@
       "link": "https://doi.org/10.1016/j.celrep.2026.118038",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.10.006",
+      "title": "Root microbiota regulates tiller number in rice",
+      "authors": "Jingying Zhang, Bing Wang, Haoran Xu, Weidong Liu, Jingwei Yu, Qiuxia Wang, Hong Yu, Jin-Wei Wei, Rui Dai, Jinghang Zhou, Yuhang He, Di Zou, Jinhua Yang, Xinwei Ban, Qingliang Hu, Xiangbing Meng, Yong-Xin Liu, Binglei Wang, Bin Hu, Mingyu Wang, Peiyong Xin, Jinfang Chu, Changsheng Li, Ruben Garrido-Oter, Peng Yu, Aalt Dirk Jan van Dijk, Lemeng Dong, Harro Bouwmeester, Song Gao, Ancheng Huang, Chengcai Chu, Jiayang Li, Yang Bai",
+      "journal": "Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.10.006",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T13:56:11.879705+00:00"
     },
     {
       "doi": "10.1016/j.cell.2026.09.048",
