@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-21T13:56:11.879705+00:00",
+  "checkedAt": "2026-10-21T18:45:27.550893+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,23 @@
       "firstSeen": "2026-10-21T13:56:11.879705+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-77007-5",
+      "title": "Integrated network pharmacology, in vivo experiment, computational biology, and metabolomics to explore the mechanism of astragaloside IV against spinal cord injury",
+      "authors": "Zhicheng Sun, Bin Hu, Ling Wang, Xiaoyang Pang, Xiongjie Shen",
+      "journal": "Scientific Reports",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77007-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T18:45:27.550893+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-75481-5",
       "title": "Plant-microbe interactions of chickpea rhizosphere to modulate microbiome, yields, nutritional quality and soil fertility",
       "authors": "Arpan Mukherjee, Bansh Narayan Singh, Anand Kumar Gaurav, Tushar Goyal, Gowardhan Kumar Chouhan, Arthur Prudêncio de Araujo Pereira, Birinchi Kumar Sarma, Saman Abeysinghe, Varenyam Achal, Jay Prakash Verma",
@@ -40,6 +57,23 @@
       "link": "https://doi.org/10.1038/s41598-026-75481-5",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-21T07:48:25.007323+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75128-5",
+      "title": "Dysbiosis of the cervical lymph node microbiome associated with lymphadenitis in guinea pigs (Cavia porcellus)",
+      "authors": "Nayeli V. Barrientos, Jakson Ch. Del Solar, Jhorsan Mauri, Paul Fernandez-Castro, Richard C. Polveiro, Dielson Da Silva Vieira, William Bardales, Jorge Luis Maicelo Quintana, Hugo Frias, Luis Murga, Rainer M. Lopez Lapa",
+      "journal": "Scientific Reports",
+      "published": "2026-10-21",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75128-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T18:45:27.550893+00:00"
     },
     {
       "doi": "10.1038/s41598-026-73549-w",
@@ -2992,6 +3026,23 @@
       "link": "https://doi.org/10.1016/j.cell.2026.10.006",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-21T13:56:11.879705+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.09.051",
+      "title": "Proteomic atlas of T cell exhaustion defines proteostatic collapse",
+      "authors": "Sydnye L. Shuttleworth, Michael A. Bauer, Dennis W. Province, Jessica L. Kelliher, Nicole E. Scharping, Alexander Monell, Lora J. Rogers, Thomas A. Williams, Grant T. Dawson, Katherine F. Wallis, Duah Alkam, Jacob L. Edmondson, Daniel Fil, Aaron J. Storey, Anna L. Bolding, Rick D. Edmondson, Stephanie D. Byrum, Karen E. Beenken, Samuel G. Mackintosh, Ananda W. Goldrath, Alan J. Tackett, Brian Koss",
+      "journal": "Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.09.051",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-21T18:45:27.550893+00:00"
     },
     {
       "doi": "10.1016/j.cell.2026.09.048",
