@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-22T07:44:21.980026+00:00",
+  "checkedAt": "2026-10-22T13:54:35.486134+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44400-026-00149-w",
+      "title": "γ-Radiation induces long-term dose-related proteomic and phosphorylated-tau species changes in non-human primate hippocampus",
+      "authors": "Kathleen Hatch, Erin K. Murphy, John D. Olson, Robert N. Cole, Robert N. O’Meally, Roxann G. Ingersoll, Daniel P. Perl, George W. Schaaf, J. Mark Cline, Diego Iacono",
+      "journal": "npj Dementia",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s44400-026-00149-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T13:54:35.486134+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-73962-1",
       "title": "Multi-omics analysis reveals protein-driven modulation of growth and metabolism in Gangba sheep under different dietary protein levels",
@@ -23,6 +40,42 @@
       "link": "https://doi.org/10.1038/s41598-026-73962-1",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-22T07:44:21.980026+00:00"
+    },
+    {
+      "doi": "10.1038/s41592-026-03262-z",
+      "title": "OpenDVP: an experimental and computational framework for community-empowered deep visual proteomics",
+      "authors": "Jose Nimo, Sonja Fritzsche, Daniela S. Valdes, Minh Trinh, Tancredi Pentimalli, Melissa Klingeberg, Simon Schallenberg, Frederick Klauschen, Florian Herse, Stefan Florian, Nikolaus Rajewsky, Fabian Coscia",
+      "journal": "Nature Methods",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41592-026-03262-z",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-22T13:54:35.486134+00:00"
+    },
+    {
+      "doi": "10.1038/d41591-026-00053-z",
+      "title": "Milk multi-omics links maternal health to infant growth",
+      "authors": "Karen O’Leary",
+      "journal": "Nature Medicine",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/d41591-026-00053-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T13:54:35.486134+00:00"
     },
     {
       "doi": "10.1038/s41598-026-77064-w",
