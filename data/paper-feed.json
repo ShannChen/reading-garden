@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-21T23:27:04.540286+00:00",
+  "checkedAt": "2026-10-22T07:44:21.980026+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-73962-1",
+      "title": "Multi-omics analysis reveals protein-driven modulation of growth and metabolism in Gangba sheep under different dietary protein levels",
+      "authors": "Xinyan Chen, Gesang Jiacuo, Pingcuo Bandan, Basang Jiba, Muhammad Imran, Deqing Zhuoga",
+      "journal": "Scientific Reports",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73962-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T07:44:21.980026+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-77064-w",
       "title": "Multi-omic analysis of post-acute sequelae of COVID-19 (PASC)",
@@ -12234,227 +12251,6 @@
       "link": "https://doi.org/10.1038/s41467-026-75810-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1126/science.adz1652",
-      "title": "Single-cell multiomics connects 3D genome and transcriptome alterations in Alzheimer’s disease",
-      "authors": "Yang Zhang, Xinyue Lu, Alexander K. Kunisky, Shahul Alam, Junjie Tang, Ruochi Zhang, Shike Wang, Han Zhang, Jude Baroudi, Walid Ichcho, Deyong Jia, Sahar Ghorbanikalateh, Sahel Ghorbanikalateh, Shihan Wang, David A. Bennett, Hansruedi Mathys, Zhijun Duan, Jian Ma",
-      "journal": "Science",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/science.adz1652",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/science.ady6893",
-      "title": "Single-cell multiomics and chromatin structure reveal gene-regulatory dynamics in heart failure",
-      "authors": "Yang Xie, Luca Tucciarone, Elie N. Farah, Lei Chang, Qian Yang, Thirupura S. Shankar, Weston Elison, Shaina Tran, Jovina Djulamsah, Audrey Lie, Timothy Loe, Alyssa R. Holman, Sierra Corban, Justin Buchanan, Sainath Mamde, Haowen Zhou, Ruth M. Elgamal, Eleni Tseliou, Vincent Huang, Zhaoning Wang, Jeffrey Huey-Chuan Chiu, Rebecca Melton, Emily Griffin, Qingquan Zhang, Jacinta Lucero, Sutip Navankasattusas, Daofeng Li, Chanrung Seng, Eugin Destici, Craig H. Selzman, Agnieszka D’Antonio-Chronowska, Ting Wang, Allen Wang, Stavros G. Drakos, Kyle J. Gaulton, Bing Ren, Neil C. Chi",
-      "journal": "Science",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/science.ady6893",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/science.adx0673",
-      "title": "Human body single-cell atlas of three-dimensional genome organization and DNA methylation",
-      "authors": "Jingtian Zhou, Yue Wu, Hanqing Liu, Wei Tian, Rosa G. Castanon, Anna Bartlett, Zuolong Zhang, Guocong Yao, Dengxiaoyu Shi, Ben Clock, Samantha Marcotte, Joseph R. Nery, Michelle Liem, Naomi Claffey, Lara Boggeman, Cesar Barragan, Rafael Arrojo e Drigo, Annika K. Weimer, Minyi Shi, Johnathan Cooper-Knock, Sai Zhang, Michael P. Snyder, Sebastian Preissl, Bing Ren, Carolyn O’Connor, Shengbo Chen, Chongyuan Luo, Jesse R. Dixon, Joseph R. Ecker",
-      "journal": "Science",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/science.adx0673",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01620-w",
-      "title": "Non-invasive esophageal cancer screening in high-risk populations: a multi-omics integration model",
-      "authors": "Wenya Li, Youbin Cui, Jingcai Wu, Yongzhi Wang, Huidong Yu, Xiaotong Xi, Yu Ding, Peipei Zhang, Lei Ye, Xiaoqiang Wang, Xiaohuan Hou, Zhenghua Liu, Ling Lv, Wanfu Men, Xiangli Liu, Yang Liu, Mingrui Shao, Xing Zhang, Wanglong Deng, Dongsheng Chen, Yong Li, Shun Xu",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01620-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63354-w",
-      "title": "Gut microbiome composition differs between aortic stenosis and aortic regurgitation patients",
-      "authors": "Benedikt Bartsch, Svetozar Nesic, Muntadher Al Zaidi, Raul Nicolas Jamin, Ansgar Ackerschott, Nikola Lübbering, Hannah Billig, Axel Schott, Chiara Hesse, Marijo Parcina, Marwan Hamiko, Farhad Bakhtiary, Georg Nickenig, Christian Kurts, Sebastian Zimmer, Christina Katharina Weisheit",
-      "journal": "Scientific Reports",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63354-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62474-7",
-      "title": "Integrative multi-omics analysis of bile acid metabolism as a prognostic determinant in colorectal cancer",
-      "authors": "Hamideh Raeisi, Rozita Khodashahi, Mahsa Saeedi Niasar, Samira Saghafi, Abbas Abdollahi, Amir Sadeghi, Hossein Safarpour",
-      "journal": "Scientific Reports",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62474-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62104-2",
-      "title": "Dual-graph topology alignment for single-cell multi-omics integration",
-      "authors": "Yansong Jin, Xiufang Shi",
-      "journal": "Scientific Reports",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62104-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-07951-4",
-      "title": "Comparative proteomics of rubber tree Hevea brasiliensis latex across 10- and 20-year-old trees in four clones (BPM24, GT1, PB260, and RRIC100)",
-      "authors": "Nyok-Sean Lau, Emiko Okubo-Kurihara, Yuko Makita, Sixu Larric Gong, Fetrina Oktavia, Ahmad Sofiman Othman, Minami Matsui",
-      "journal": "Scientific Data",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-07951-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41579-026-01348-1",
-      "title": "Host–microbiota–pathogen interactions drive Salmonella enterica serovar Typhimurium pathogenesis",
-      "authors": "Andrés Vázquez-Torres",
-      "journal": "Nature Reviews Microbiology",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41579-026-01348-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41526-026-00634-9",
-      "title": "NemaCapsules: microfluidics-integrated biocells for investigating C. elegans host-microbiome interactions in spaceflight",
-      "authors": "Bushra Rahman, Atiyya P. Saroyia, Dana Blackburn, Audrey J. Parish, Nathaniel Szewczyk, Monica Driscoll, Buck S. Samuel, Siva A. Vanapalli",
-      "journal": "npj Microgravity",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41526-026-00634-9",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76051-z",
-      "title": "Microbial engraftment and immune regulation during fecal microbiota transplantation and immune checkpoint inhibitor therapy",
-      "authors": "Marina Ninkov, Saman Maleki Vareki",
-      "journal": "Nature Communications",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76051-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75989-4",
-      "title": "Author Correction: Integrative omics of the genetic basis for wheat WUE and drought resilience reveal the function of TaMYB7-A1",
-      "authors": "Yuxin Zhou, Dongzhi Wang, Hao Wang, Yunzhou Qiao, Peng Zhao, Yuan Cao, Xuemei Liu, Yiman Yang, Xuelei Lin, Shengbao Xu, Baodi Dong, Jun Xiao",
-      "journal": "Nature Communications",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75989-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-15T23:06:44.396695+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75962-1",
-      "title": "Microbiome signatures for detection of colorectal lesions in population-based FIT screening",
-      "authors": "Einar E. Birkeland, Ane S. Kværner, Ekaterina Avershina, Cecilie Bucher-Johannessen, Vahid Bemanian, Hege S. Blix, Anette Hjartåker, Willem M. de Vos, Giske Ursin, Geir Hoff, Kristin R. Randel, Edoardo Botteri, Paula Berstad, Trine B. Rounge",
-      "journal": "Nature Communications",
-      "published": "2026-07-23",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75962-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
