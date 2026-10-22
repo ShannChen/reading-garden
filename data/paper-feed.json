@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-22T18:38:25.811848+00:00",
+  "checkedAt": "2026-10-22T23:27:37.003811+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,40 @@
       "link": "https://doi.org/10.1038/s44400-026-00149-w",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-22T13:54:35.486134+00:00"
+    },
+    {
+      "doi": "10.1038/s43018-026-01279-z",
+      "title": "Author Correction: Multiomic analysis of familial adenomatous polyposis reveals molecular pathways associated with early tumorigenesis",
+      "authors": "Edward D. Esplin, Casey Hanson, Si Wu, Aaron M. Horning, Nasim Bararpour, Stephanie A. Nevins, Lihua Jiang, Kévin Contrepois, Hayan Lee, Tuhin K. Guha, Zheng Hu, Rozelle Laquindanum, Meredith A. Mills, Hassan Chaib, Roxanne Chiu, Ruiqi Jian, Joanne Chan, Mathew Ellenberger, Winston R. Becker, Bahareh Bahmani, Aziz Khan, Basil Michael, Annika K. Weimer, D. Glen Esplin, Jeanne Shen, Samuel Lancaster, Emma Monte, Thomas V. Karathanos, Uri Ladabaum, Teri A. Longacre, Anshul Kundaje, Christina Curtis, William J. Greenleaf, James M. Ford, Michael P. Snyder",
+      "journal": "Nature Cancer",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s43018-026-01279-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T23:27:37.003811+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77214-0",
+      "title": "Revealing gut microbiome signatures in inflammatory bowel disease",
+      "authors": "Laura Chulenbayeva, Fernando Garcia Guevara, Madiyar Nurgaziyev, Nurislam Muhanbetzhanov, Zharkyn Jarmukhanov, Samat Kozhakhmetov, Sanzhar Zhetkenev, Ainash Tanabayeva, Jamilya Kaibullayeva, Zukhra Agzamova, Naziran Kongyrbayeva, Elizaveta Vinogradova, Saeed Shoaie, Almagul Kushugulova",
+      "journal": "Scientific Reports",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77214-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T23:27:37.003811+00:00"
     },
     {
       "doi": "10.1038/s41598-026-73962-1",
