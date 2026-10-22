@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-22T13:54:35.486134+00:00",
+  "checkedAt": "2026-10-22T18:38:25.811848+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -59,6 +59,40 @@
       "link": "https://doi.org/10.1038/s41592-026-03262-z",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-22T13:54:35.486134+00:00"
+    },
+    {
+      "doi": "10.1038/s41580-026-01039-y",
+      "title": "Molecular functions, cellular responses and pathological implications of the RNA modification N6-methyladenosine",
+      "authors": "Zihong Kang, Feng Zhang, Guo-li Ming, Hongjun Song, Jun Liu",
+      "journal": "Nature Reviews Molecular Cell Biology",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41580-026-01039-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T18:38:25.811848+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01566-7",
+      "title": "Cross-cohort exosomal miRNA profiling identifies a robust Parkinson’s disease signature with multi-omics evidence for mitochondrial and immune pathology",
+      "authors": "Shufen Liu, Sijie Wang, Xiaofang Ye, Lu Zeng, Meifeng Wang, Xianlong Wang, Chunnuan Chen",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-10-22",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01566-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T18:38:25.811848+00:00"
     },
     {
       "doi": "10.1038/d41591-026-00053-z",
@@ -3181,6 +3215,23 @@
       "link": "https://doi.org/10.1016/j.cell.2026.07.022",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.ccell.2026.09.014",
+      "title": "Multiomic characterization of microsatellite-stable colorectal cancer reveals distinct biology and targetable vulnerabilities",
+      "authors": "Anguraj Sadanandam, Alice C. O’Farrell, Ian S. Miller, P.S. Hari, Adrian Lärkeryd, Tom Venken, Ingrid Arijs, Eugenia R. Zanella, Francesca Cottino, Marika Pinnelli, Valentina Vurchio, Elena Grassi, Aoife Nolan, Niraj Khemka, Michael Fichtner, Gift Nyamundanda, Zak Kinsella, Maxime Meylan, Liam P. Shiels, Colum Connolly, Janick Selves, Nadja M. Meindl-Beinker, Raquel Comas Navarro, Elena Elez, Frank A. Lincoln, Chanthirika Ragulan, Orla Casey, Verena Murphy, Josep Tabernero, Walter Kolch, Matthias P. Ebert, Raquel Perez-Lopez, Florence Monville, Dirk Fey, Joern Lewin, Jonathan Briody, Kathleen Bennett, Enrique J. Arenas, Joaquín Arribas, David Matallanas, Darran P. O’Connor, Alexander Kel, Catherine Sautès-Fridman, Wolf H. Fridman, Bart Ghesquière, Paolo Nuciforo, Diether Lambrechts, Livio Trusolino, Jochen H.M. Prehn, Rodrigo Dienstmann, Annette T. Byrne, Julie Meilleroux, Deborah A. McNamara, Ray McDermott, Marvin Lim, Mary O’Reilly, Brian Bird, Lisa Stack, Lucia Moloney, Patrick G. Morris, Keith Egan, Maciej Milewski, Lars Scheuer, Joachim Behringer, Georg Bolz, Ramon Salazar, Cristina Santos, Andrea Ruiz",
+      "journal": "Cancer Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.ccell.2026.09.014",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T18:38:25.811848+00:00"
     },
     {
       "doi": "10.1016/j.ccell.2026.08.019",
