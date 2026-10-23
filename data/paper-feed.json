@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T07:41:56.146980+00:00",
+  "checkedAt": "2026-10-23T13:35:36.830842+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-77334-7",
+      "title": "Role of CB1 receptors in the gastrointestinal tract after microbiota depletion and natural recolonization",
+      "authors": "Evandro J. Beraldi, Yasaman Bahojb Habibyan, Catherine M. Keenan, Laurie E. Wallace, Keith A. Sharkey",
+      "journal": "Scientific Reports",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77334-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T13:35:36.830842+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-60432-x",
       "title": "Multi-scale analysis of histological, ultrastructural and proteomic regional differences in the Descemet’s membrane-endothelium of Fuchs endothelial corneal dystrophy",
@@ -40,6 +57,91 @@
       "link": "https://doi.org/10.1038/s41597-026-08553-w",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-23T07:41:56.146980+00:00"
+    },
+    {
+      "doi": "10.1038/s41591-026-04730-x",
+      "title": "The human microbiome and chronic disease: ten strategic priorities for research and public health",
+      "authors": "Martin J. Blaser, Frederic D. Bushman, Maria Gloria Dominguez-Bello, Eran Elinav, Sangeeta Khare, Rob Knight, Jennie H. Kwon, Sarkis K. Mazmanian, Majdi Osman, Nicola Segata, Tim Spector, Jennifer A. Wargo, Suchitra K. Hourigan",
+      "journal": "Nature Medicine",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41591-026-04730-x",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T13:35:36.830842+00:00"
+    },
+    {
+      "doi": "10.1038/s41585-026-01198-9",
+      "title": "Microbiome interactions in renal cell carcinoma: evidence, challenges and opportunities",
+      "authors": "Cecilie Lindgaard, Astrid Korning Hvidt, Anna Krarup Keller, Louise Thingholm, Sara Schou Kristensen, Iben Lyskjær",
+      "journal": "Nature Reviews Urology",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41585-026-01198-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T13:35:36.830842+00:00"
+    },
+    {
+      "doi": "10.1038/s41525-026-00626-4",
+      "title": "Polygenic risk for type 2 diabetes modulates gut microbiome associations across metabolic health traits",
+      "authors": "Lauma Jagare, Ilze Elbere, Maija Rozenberga, Ivars Silamiķelis, Marija Simona Dombrovska, Ivanna Atava, Alvīne Helēna Janševska, Monta Brīvība, Jānis Kloviņš",
+      "journal": "npj Genomic Medicine",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41525-026-00626-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-23T13:35:36.830842+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01177-3",
+      "title": "Guild-based microbial network links gut microbiota, serum metabolites, and bone mineral density",
+      "authors": "Ningxin Gao, Jincheng Li, Yawen Gao, Yan Wang, Yucan Li, Yali Wang, Sibo Zhu, Min Fan, Weizhong Tian, Yingzhe Wang, Mei Cui, Chen Suo, Tiejun Zhang, Li Jin, Xingdong Chen, Yanfeng Jiang, Kelin Xu",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01177-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T13:35:36.830842+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78656-w",
+      "title": "Multi-omics profiling of primary human B cells activated via distinct stimuli",
+      "authors": "Vitor R. C. Aguiar, Marcella E. Franco, Nada Abdel Aziz, Daniela Fernandez-Salinas, Marcos Chiñas, Mariasilvia Colantuoni, Qian Xiao, Nicolaj Hackert, Yifei Liao, Rodrigo Cervantes-Diaz, Marc Todd, Brian Wauford, Alex Wactor, Vaishali Prahalad, Raquel Laza-Briviesca, Roxane Darbousset, Qiang Wang, Scott Jenks, Kevin S. Cashman, Esther Zumaquero, Zhu Zhu, Junning Case, Paloma Cejas, Miguel Gomez, Hannah Ainsworth, Miranda Marion, Mehdi Benamar, Pui Lee, Lauren Henderson, Margaret H. Chang, Kevin Wei, Henry Long, Carl D. Langefeld, Ashley D. Sanders, Benjamin E. Gewurz, Ignacio Sanz, Jeffrey A. Sparks, Esra Meidan, Peter A. Nigrovic, Maria Gutierrez-Arcelus",
+      "journal": "Nature Communications",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78656-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-23T13:35:36.830842+00:00"
     },
     {
       "doi": "10.1038/s44400-026-00149-w",
