@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T18:29:00.977459+00:00",
+  "checkedAt": "2026-10-23T23:13:49.965808+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,40 @@
       "link": "https://doi.org/10.1038/s41598-026-77334-7",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-23T13:35:36.830842+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-76828-8",
+      "title": "A prescription-computable pharmaco-ecological exposure score for predicted drug-induced gut-microbiome disturbance and its association with heart failure in chronic kidney disease",
+      "authors": "Kohei Fukuoka, Yuya Yoshida, Yuika Uehara, Sho Sakagami, Ryotaro Tsukamoto, Shimpei Kawano, Riko Kawabe, Maho Satake, Tomohito Tanihara, Kengo Hamamura, Kouta Mayanagi, Ken Yoshii, Daiki Watanabe, Jun Kunisawa, Shigehiro Ohdo, Naoya Matsunaga",
+      "journal": "Scientific Reports",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76828-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T23:13:49.965808+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-74196-x",
+      "title": "The cervical microbiome in hispanic populations in Texas and Puerto Rico with and without cervical dysplasia",
+      "authors": "D’Shaunique Walters, Molly B. El Alam, Timothy Harris, David Lo, Jhoan Sebastian Gonzalez Diaz, Tatiana Cisneros Napravnik, Erica J. Lynn, Laurel D. Boatright, Dalissa Negron Figueroa, Allison Judge, Christy Charles John Bhaskar, Antoine Fontillas, Shafqat Fahmid Ehsan, Rui Wang, Shae N. Jansen Aref, Nadim J. Ajami, Jagannadha Sastry, Travis T. Sims, Josefina Romaguera, Stephanie Dorta-Estremera, Ann Klopp, Filipa Godoy-Vitorino, Lauren E. Colbert",
+      "journal": "Scientific Reports",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-74196-x",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T23:13:49.965808+00:00"
     },
     {
       "doi": "10.1038/s41598-026-60432-x",
