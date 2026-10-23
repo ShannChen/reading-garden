@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-22T23:27:37.003811+00:00",
+  "checkedAt": "2026-10-23T07:41:56.146980+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-60432-x",
+      "title": "Multi-scale analysis of histological, ultrastructural and proteomic regional differences in the Descemet’s membrane-endothelium of Fuchs endothelial corneal dystrophy",
+      "authors": "Hanielle Vaitinadapoule, Fanny Decoeur, Inès Aouimeur, Gauthier Travers, Chantal Perrache, Isabelle Svahn, Sébastien Marais, Guillaume Maucort, Philippe Gain, Gilles Thuret, Frédéric Mascarelli, Etienne Gontier",
+      "journal": "Scientific Reports",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-60432-x",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T07:41:56.146980+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08553-w",
+      "title": "A single-nucleus multiomic high-resolution atlas of the Mus musculus spleen",
+      "authors": "Wan Sze Cheng, Aliza B. Rubenstein, Sindhu Vangeti, Nima Assad, Aarti Tripathi, Gabriel Laghlali, Seok-Chan Park, Mital Vasoya, Minghui Lu, Mary Anne S. Amper, Keziah Hernandez, Tarani Kanta Barman, Shailendra Chauhan, Venugopalan D. Nair, Alexander Bukreyev, Michael Schotsaert, Adolfo Garcia-Sastre, Stuart C. Sealfon, Irene Ramos, Elena Zaslavsky",
+      "journal": "Scientific Data",
+      "published": "2026-10-23",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08553-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-23T07:41:56.146980+00:00"
+    },
     {
       "doi": "10.1038/s44400-026-00149-w",
       "title": "γ-Radiation induces long-term dose-related proteomic and phosphorylated-tau species changes in non-human primate hippocampus",
@@ -12252,142 +12286,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-75985-8",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aef1760",
-      "title": "Energy-assisted CRISPR cleavage and probiotic vesicle signaling platform: Microbiome reprogramming for homeostasis",
-      "authors": "Zilin Zhou, Yingming Yang, Fangjie Zhou, Kunneng Liang, Tao Gong, Xinxuan Zhou, Jianshu Li, Jun Luo, Jiyao Li, Jiaojiao Yang",
-      "journal": "Science Advances",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aef1760",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s42003-026-10724-9",
-      "title": "BMI-driven multi-omics analysis profiles the molecular mechanism of psycho-metabolic nexus and contributes to risk stratification",
-      "authors": "Xiaonan Guo, Yu Feng, Peng Huang, Ningning Jia, Zeyu Qin, Lingzhuo Kong, Yiqing Chen, Shuxiang Yang, Jiayi Zhang, Sheng Yang, Shaohua Hu",
-      "journal": "Communications Biology",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s42003-026-10724-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-07703-4",
-      "title": "A multi-omic dataset of cellular and microRNA profiles in human breast milk across a spectrum of gestational ages",
-      "authors": "Ling Ma, Zhengming Zhan, Kang Zhang, Xia Hong, Yangke Li, Yanyan Huo, Daqian Zhu, Lian Jiang, Fan Yang, Yanjun Zhao, Wenxian Wang, Jiaojiao Song, Junmei Zhou, Jinjin Chen",
-      "journal": "Scientific Data",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-07703-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41592-026-03186-8",
-      "title": "Bridging complexity and accessibility in metabolomics with MetaboApps",
-      "authors": "Helena Mannochio-Russo, Wilhan D. Gonçalves Nunes, Haoqi Nina Zhao, Kine Eide Kvitne, Shipei Xing, Harsha Gouda, Julius Agongo, Ipsita Mohanty, Vincent Charron-Lamoureux, Prajit Rajkumar, Abzer K. Pakkir Shah, Axel Walter, Rithi Krishnaraj, Yasin El Abiead, Patrick C. Ferreira, Simone Zuffa, Abubaker Patan, Andrés Mauricio Caraballo-Rodríguez, Wout Bittremieux, Daniel Petras, Mingxun Wang, Pieter C. Dorrestein",
-      "journal": "Nature Methods",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41592-026-03186-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41588-026-02697-6",
-      "title": "Nanoparticle-enriched mass spectrometry proteomics in British South Asians identifies links between genetic variants, plasma protein levels and disease risk",
-      "authors": "Maik Pietzner, Alice Williamson, Karen A. Hunt, Mine Koprulu, Leonhard Kohleick, Kamil Demircan, Genes & Health Research Team, David A. van Heel, Sarah Finer, Julia Carrasco Zanini, David A. van Heel, Claudia Langenberg",
-      "journal": "Nature Genetics",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41588-026-02697-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41531-026-01487-5",
-      "title": "Characterization of blood metabolomic responses to deep brain stimulation in patients with Parkinson’s disease",
-      "authors": "Fabin Lin, Lebo Zhou, Lina Chen, Yufeng Xie, Yingqing Wang, Yuqi Zeng, Zhen Chen, Qinyong Ye, Woo-ping Ge, Guoen Cai",
-      "journal": "npj Parkinson's Disease",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41531-026-01487-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01077-6",
-      "title": "SPINK5 variation regulates epithelial barrier function and shapes heritable rumen microbiota in dairy cattle",
-      "authors": "Zheng Lai, Zhang Chen, Junru Tian, Xinyi Zheng, Jiyou Zhang, Jichao Li, Ruza Abduhalik, Zan Huang, Shengyong Mao",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01077-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75810-2",
-      "title": "Patient-partnered multiomics reveals the molecular architecture of angiosarcoma",
-      "authors": "Hoyin Chu, Marissa Hollyer, Brittany A. Borden, Christopher R. Reilly, Jorge Gómez Tejeda Zañudo, Beena S. Thomas, Kolbe Phelps, Erica Maria Pimenta, Seunghun Han, Sabrina Y. Camp, Riaz Gillani, Jacob Gutierrez, Caleb A. Lareau, Matthew Nagy, Jeremy Johnson, Oyin Alao, Hadley Grundman, Lauren Sterlin, Will Terzi, Delia Sosa, Ilan K. Small, Mary McGillicuddy, Nouf Alharbi, Elana Anastasio, Parker Chastain, Priyanka Bhakhri, Jason L. Hornick, Hani Choudhry, Diane M. Diehl, Eliezer M. Van Allen, Nikhil Wagle, Corrie A. Painter, Saud AlDubayan",
-      "journal": "Nature Communications",
-      "published": "2026-07-24",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75810-2",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
