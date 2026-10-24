@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T23:13:49.965808+00:00",
+  "checkedAt": "2026-10-24T07:24:49.992771+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-75808-2",
+      "title": "VDAC1 regulates disulfidptosis susceptibility and associates with the immune microenvironment via multi-omics analysis in lung adenocarcinoma",
+      "authors": "Chen Chen, Yuanyuan Yang, Wenjing Fu, Huifang Wu",
+      "journal": "Scientific Reports",
+      "published": "2026-10-24",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75808-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-24T07:24:49.992771+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c06945",
+      "title": "Trihalomethane Exposure, Seminal Plasma Metabolomics, and Semen Quality in Healthy Men: A Meet-in-the-Middle Approach",
+      "authors": "Xixi Chen, Li-Li Huang, Guangming Li, Audrey J. Gaskins, Chong Liu, Chengliang Xiong, Tianqing Meng, Vicente Mustieles, Carmen Messerlian, Jie Zhang, Xiaotao Shen, Yi-Xin Wang",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-24",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c06945",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-24T07:24:49.992771+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-77334-7",
       "title": "Role of CB1 receptors in the gastrointestinal tract after microbiota depletion and natural recolonization",
@@ -12320,108 +12354,6 @@
       ],
       "link": "https://doi.org/10.1038/s41698-026-01600-0",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01622-8",
-      "title": "Spatiotemporal multi-omics reveals lineage, spatial and functional heterogeneity of tumor-associated macrophages and therapeutic vulnerabilities in the tumor microenvironment",
-      "authors": "Taotao Wang, Donglin Yang, Jie Wu, Xinyi Zhao, Wenshan Dong, Haohan Zhang, Tianyu Lei, Jing Li, Yuchao Dan, Te Li, Zhiqiang Cai, Qibin Song, Bin Xu",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-25",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01622-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63579-9",
-      "title": "Integrated proteomics–driven discovery of synovial fluid biomarkers reflecting structural damage and pain in knee osteoarthritis",
-      "authors": "Tae-Hwan Gil, Hyun Chan Cho, Dong-Hyun Jang, Ji Yeon Kim, Ji-Won Shin, Seungbong Han, Virginia Byers Kraus, Yi-Ju Li, Ki-Mo Jang, Ok Hee Jeon",
-      "journal": "Scientific Reports",
-      "published": "2026-07-25",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63579-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63314-4",
-      "title": "Gut acidification impairment links altered acidogenic microbiota to infantile eczema: a cross-sectional study",
-      "authors": "Huiwen Zheng, Yin Li, Wei Li, Xiaoxuan Guo, Chunlan Huang, Sha Zhou, Zhen Wang, Chen Chen, Lifei Hu, Jinjun Li, Xiaoqiong Li, Yunling Li, Liying Zhu",
-      "journal": "Scientific Reports",
-      "published": "2026-07-25",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63314-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63178-8",
-      "title": "Integrated metabolomics and network pharmacology reveals that icariin antagonizes malignant phenotypes in triple-negative breast cancer via AKT1/SRC/NFKB1-mediated PI3K‒AKT pathway inhibition",
-      "authors": "Haiyang Hu, Shenghan Gao, Jie Liu, Wen Wang, Kexin Chang, Yulong Yin, Xianghua Liu, Qingjie Meng, Wenzhen Shi, Yonggang Lv",
-      "journal": "Scientific Reports",
-      "published": "2026-07-25",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63178-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01008-x",
-      "title": "Comprehensive assessment of prometryn bioaccumulation, metabolic fate, and intestinal microbiota dysbiosis in red swamp crayfish (Procambarus clarkii)",
-      "authors": "Jie Peng, Yiwen Wan, Yali Yu, Tao Mao, Jianguang Zhou, Lang Zhang, Gang Li",
-      "journal": "npj Science of Food",
-      "published": "2026-07-25",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01008-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75985-8",
-      "title": "Trdn-as directs m6A-dependent transcriptional termination for accurate triadin isoform switching, preventing aberrant dyads and cardiomyopathy",
-      "authors": "Theresa Hofmann, Sara Hettrich, Bio Maria Ghéo Idrissou, Christian Waechter, Maria Weiss, Salma Hachim, Silke Kreher, Maximilian Staps, Laia Cañes Esteve, Sabine Pankuweit, Hendrik Milting, Mario Looso, Isabelle Marty, Stefan Engelhardt, Thomas Braun, Thomas Boettger",
-      "journal": "Nature Communications",
-      "published": "2026-07-25",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75985-8",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
