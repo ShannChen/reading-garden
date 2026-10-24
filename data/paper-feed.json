@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-24T07:24:49.992771+00:00",
+  "checkedAt": "2026-10-24T12:46:26.355337+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s43856-026-01919-6",
+      "title": "The intestinal microbiome in inflammatory bowel disease and spondyloarthritides",
+      "authors": "Madeline Alizadeh, Bernadette C. Siaton, Dania Hudhud, Erik C. von Rosenvinge, Raymond K. Cross, Jacques Ravel",
+      "journal": "Communications Medicine",
+      "published": "2026-10-24",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s43856-026-01919-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-24T12:46:26.355337+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-75808-2",
       "title": "VDAC1 regulates disulfidptosis susceptibility and associates with the immune microenvironment via multi-omics analysis in lung adenocarcinoma",
@@ -23,6 +40,23 @@
       "link": "https://doi.org/10.1038/s41598-026-75808-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-24T07:24:49.992771+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78816-y",
+      "title": "Genetic and multi-omic insights into inflammation and metabolism in a French Polynesian cohort",
+      "authors": "Tristan Pascart, Iman Hamid, Anne-Katrin Emde, Olivia A. Gray, Jaye Moors, Baptiste Gérard, Melissa Hendershott, Sarah LeBaron von Baeyer, Vehia Wheeler, Mathilde Boissel, Erwan Oehler, Valérie Chune, Thomas Bardin, Cristian Preda, Megan Leask, Laura Yerges-Armstrong, Kaja A. Wasik, Keolu Fox, Tony R. Merriman, Stephane E. Castel",
+      "journal": "Nature Communications",
+      "published": "2026-10-24",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78816-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-24T12:46:26.355337+00:00"
     },
     {
       "doi": "10.1021/acs.est.6c06945",
