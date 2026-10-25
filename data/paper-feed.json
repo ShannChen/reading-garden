@@ -1,12 +1,30 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-24T22:34:29.424544+00:00",
+  "checkedAt": "2026-10-25T07:40:19.743871+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-76814-0",
+      "title": "Integrated microbiome and metabolomic analysis reveals associations between vaginal microbiota composition and psychological profiles",
+      "authors": "Paola Castellano, Silvia Conti, Claudio Foschi, Marielle Ezekielle Djusse, Tania Camboni, Camilla Ceccarani, Clarissa Consolandi, Marco Severgnini, Luca Laghi, Federica Prinelli, Antonella Marangoni, Michela Mazzetti",
+      "journal": "Scientific Reports",
+      "published": "2026-10-25",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76814-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-25T07:40:19.743871+00:00"
+    },
     {
       "doi": "10.1038/s43856-026-01919-6",
       "title": "The intestinal microbiome in inflammatory bowel disease and spondyloarthritides",
@@ -12372,23 +12390,6 @@
       "link": "https://doi.org/10.1021/acs.est.6c06583",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01600-0",
-      "title": "AI-driven multi-omics integration and virtual screening identify UFC1 as a druggable effector in chemotherapy-stressed colorectal cancer",
-      "authors": "Donghao Xu, Jiayi Xu, Yu Liu, Yifan Ding, Pingping Xu, Dexiang Zhu",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-26",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01600-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
