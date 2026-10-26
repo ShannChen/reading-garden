@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-26T15:17:37.760593+00:00",
+  "checkedAt": "2026-10-26T23:56:32.606481+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -74,6 +74,23 @@
       "link": "https://doi.org/10.1038/s41575-026-01266-w",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-26T15:17:37.760593+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79285-z",
+      "title": "Overcoming circularity bias reveals a hidden linear DNA and RNA virosphere",
+      "authors": "Gabriele Ghiotto, Stephen Nayfach, Simon Roux, Nikos C. Kyrpides",
+      "journal": "Nature Communications",
+      "published": "2026-10-26",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79285-z",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-26T23:56:32.606481+00:00"
     },
     {
       "doi": "10.1038/s41598-026-76814-0",
@@ -3301,6 +3318,23 @@
       "link": "https://doi.org/10.1016/j.isci.2026.117043",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.immuni.2026.09.026",
+      "title": "A microbiome-reactive TMIGD2hi Th17 subset is spatially enriched at the intestinal epithelium and expanded in inflammatory bowel disease",
+      "authors": "Thomas K. Pedersen, Tanvi Jain, Åsa Segerstolpe, Crystal Lin, Angela R. Shih, Luezhen Yuan, Orr Ashenberg, Marco E. Kaper, Shaina W. Twardus, Rocco Ricciardi, Helena Lau, James J. Moon, Susanne Brix, Ramnik J. Xavier, Daniel B. Graham",
+      "journal": "Immunity",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.immuni.2026.09.026",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-26T23:56:32.606481+00:00"
     },
     {
       "doi": "10.1016/j.cub.2026.09.003",
