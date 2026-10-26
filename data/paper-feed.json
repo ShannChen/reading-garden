@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-25T22:39:18.601356+00:00",
+  "checkedAt": "2026-10-26T07:55:09.617544+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44386-026-00092-z",
+      "title": "Activity-based proteomics discovery of deubiquitinating enzyme inhibitors with immunomodulatory activity",
+      "authors": "Hannah B. L. Jones, Simeon D. Draganov, Sofia Schönbauer Huamán, Peter A. C. Wing, Chuong Nguyen, Zhu Liang, Julia Dörner, Jasper Lithgow, Emma Murphy, Alice Beard, Angela Chen, Andrea Pierangelini, Jack W. Houghton, Mackenzie E. Robert, Sarah Flannery, Cara J. Ellison, Sakshi Sharma, Anthony Tumber, Lynn Wambua, Iolanda Vendrell, Edward W. Tate, Paul R. Elliott, Graham M. West, Darragh P. O’Brien, Eidarus Salah, Andrew P. Turnbull, Christopher J. Schofield, Benedikt M. Kessler, Lennart Brewitz, Adán Pinto-Fernández",
+      "journal": "npj Drug Discovery",
+      "published": "2026-10-26",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s44386-026-00092-z",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-26T07:55:09.617544+00:00"
+    },
+    {
+      "doi": "10.1038/s43856-026-01982-z",
+      "title": "Multi-omics liquid biopsy identifies mitochondrial dysfunction in geographic atrophy and supports intraocular bioavailability of α-ketoglutarate",
+      "authors": "Tsai-Chu Yeh, Gabriel Velez, Architesh Prasad, Soo Hyeon Lee, Ditte K. Rasmussen, Aarushi Kumar, Madhumeeta Chadha, Mohamed Ziad Dabaja, Aneal M. Singh, Steven Sanislo, Stephen Smith, Prithvi Mruthyunjaya, Artis Montague, Alexander G. Bassuk, David Almeida, Antoine Dufour, Vinit B. Mahajan",
+      "journal": "Communications Medicine",
+      "published": "2026-10-26",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s43856-026-01982-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-26T07:55:09.617544+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-76814-0",
       "title": "Integrated microbiome and metabolomic analysis reveals associations between vaginal microbiota composition and psychological profiles",
@@ -12235,178 +12269,6 @@
       "link": "https://doi.org/10.1038/s41467-026-74154-1",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01623-7",
-      "title": "Integrated prediction of lung cancer histology and molecular profiles from small bronchoscopic tumor specimens",
-      "authors": "Marija Karadzovska-Kotevska, Anna Karlsson, Hans Brunnström, Mats Jönsson, Jaroslaw Kosieradzki, Stefan Barath, Anders Näslund, Christel Estberg, Elsa Arbajian, Frida Rosengren, Srinivas Veerla, Janne Lehtiö, Lukas M. Orre, Johan Staaf, Maria Planck",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Proteomics",
-        "Multiomics"
-      ],
-      "groups": [
-        "proteomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01623-7",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64090-x",
-      "title": "Integrative multi-omics characterization of HECTD3 across pan-cancer and its functional validation in thyroid cancer",
-      "authors": "Baoguo Xu, Yue Zhang, Xia Yu, Chenming Guo",
-      "journal": "Scientific Reports",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64090-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62537-9",
-      "title": "Gut microbiota structure in stingless bees is shaped by ontogeny, caste, and sex",
-      "authors": "Mateus L. Vidigal, Lorena L. Botina, Gustavo F. Martins",
-      "journal": "Scientific Reports",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62537-9",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61834-7",
-      "title": "Smooth muscle cell spheroids as 3D model of phenotypic plasticity and matrix deposition revealed by 2D–3D proteomics",
-      "authors": "Julia Hesse, Ulrike Resch, Lotte Görtz, Sarah Lang, Roya Batool, Sarah Saradar, Patricia Schoof, Kevin Gehlweiler, Daniela Zouikova, Pandora Jashnieh, Ricardo Fernandes Velosa, Nino Hotzel-Hacker, Fumitaka Suzuki, Samet Bayraktar, Melanie Cappallo, Vera Schmidt, Lara Ebbert, Margret H. Bülow, Nicole Kucharowski, Eija K. Laakkonen, Marcus Krüger, Gerhard Sengle, Alexandra Chadt, Artur Lichtenberg, Hug Aubin, Elvira Weber",
-      "journal": "Scientific Reports",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61834-7",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41591-026-04528-x",
-      "title": "Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS",
-      "authors": "Ximing Ran, Joanne Wuu, Zhaohui S. Qin, Michael P. McDermott, Johnathan Cooper-Knock, Yindi Li, Volkan Granit, Anne-Laure Grignon, Elizabeth Lin, Maria Catalina Fernandez, Danielle Colato, Nathan Carberry, Christina M. Lill, Paolo Piazza, Andrea Malaspina, Michael Benatar",
-      "journal": "Nature Medicine",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41591-026-04528-x",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41589-026-02272-4",
-      "title": "Designing fiber–gut microbiome interactions with active learning",
-      "authors": "Bryce M. Connors, Jaron Thompson, Manasi Subhash Gangan, Nick Quinn-Bohmann, Sean M. Gibbons, Job Grant, Alejandro Castellanos-Sanchez, Jessica R. McCann, John F. Rawls, Ophelia S. Venturelli",
-      "journal": "Nature Chemical Biology",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41589-026-02272-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41585-026-01174-3",
-      "title": "The urinary microbiome, overactive bladder and bladder pain syndrome/interstitial cystitis — mechanisms, diagnostics and therapeutic opportunities",
-      "authors": "Martina Spazzapan, Nicholas Raison, Claire Steves, Arun Sahai",
-      "journal": "Nature Reviews Urology",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41585-026-01174-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41541-026-01530-9",
-      "title": "Epigenetic and microbiome modulation as catalysts for next-generation cancer vaccines",
-      "authors": "Shishir Singh, Aesha Singh, Monisha Banerjee, Atar Singh Kushwah",
-      "journal": "npj Vaccines",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41541-026-01530-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01007-y",
-      "title": "Multi-omics analysis reveals enhanced antioxidant capacity and altered flavor-associated metabolism in goji leaves infested by the gall mite Aceria pallida",
-      "authors": "Ya-Nan Li, Zhou-Tong Wang, Yue Wang, Ming-Long Shao, Hui Hu, Xue-Wei Pan, Jia-Jia You, Zhi-Ming Rao",
-      "journal": "npj Science of Food",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01007-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1021/acs.est.6c06583",
-      "title": "From Exposome-Scale Screening to Foam Cell Formation: Identifying Environmental Chemicals with Atherogenic Potential via Nuclear Receptor Perturbation",
-      "authors": "Xinming Shen, Huajun Zhen, Cheng Xu, Yatai Li, Qihong Deng",
-      "journal": "Environmental Science & Technology",
-      "published": "2026-07-27",
-      "year": "2026",
-      "tags": [
-        "Exposomics"
-      ],
-      "groups": [
-        "exposomics"
-      ],
-      "link": "https://doi.org/10.1021/acs.est.6c06583",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
