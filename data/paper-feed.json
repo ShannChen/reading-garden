@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-26T07:55:09.617544+00:00",
+  "checkedAt": "2026-10-26T15:17:37.760593+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -40,6 +40,40 @@
       "link": "https://doi.org/10.1038/s43856-026-01982-z",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-26T07:55:09.617544+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-76967-y",
+      "title": "Brown sugar levels influence fermentation quality and microbiota of mixed wheat straw and Pennisetum giganteum silage",
+      "authors": "Junyu Zhang, Lianqun Wang, Aireti Mirizati, Yan Ma, Bate Bayin, Yifan Hu",
+      "journal": "Scientific Reports",
+      "published": "2026-10-26",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76967-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-26T15:17:37.760593+00:00"
+    },
+    {
+      "doi": "10.1038/s41575-026-01266-w",
+      "title": "Laying the foundations for clinical microbiome research",
+      "authors": "",
+      "journal": "Nature Reviews Gastroenterology & Hepatology",
+      "published": "2026-10-26",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41575-026-01266-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-26T15:17:37.760593+00:00"
     },
     {
       "doi": "10.1038/s41598-026-76814-0",
