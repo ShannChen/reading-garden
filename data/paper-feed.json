@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-27T14:39:42.797725+00:00",
+  "checkedAt": "2026-10-27T23:50:52.715896+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -42,6 +42,40 @@
       "link": "https://doi.org/10.1038/s41598-026-77685-1",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-27T14:39:42.797725+00:00"
+    },
+    {
+      "doi": "10.1038/s41584-026-01449-4",
+      "title": "Towards rheumatoid arthritis prevention: integrating mechanistic and omics insights",
+      "authors": "V. Michael Holers, Kristine A. Kuhn, Jill M. Norris, Andrew P. Cope, Jade Young, Kevin D. Deane, Fan Zhang",
+      "journal": "Nature Reviews Rheumatology",
+      "published": "2026-10-27",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41584-026-01449-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-27T23:50:52.715896+00:00"
+    },
+    {
+      "doi": "10.1038/s41575-026-01274-w",
+      "title": "Limited efficacy of faecal microbiota transplantation in IBS",
+      "authors": "Isobel Leake",
+      "journal": "Nature Reviews Gastroenterology & Hepatology",
+      "published": "2026-10-27",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41575-026-01274-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-27T23:50:52.715896+00:00"
     },
     {
       "doi": "10.1038/s41538-026-01227-2",
