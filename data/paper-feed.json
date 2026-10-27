@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-27T08:01:40.811556+00:00",
+  "checkedAt": "2026-10-27T14:39:42.797725+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,25 @@
       "link": "https://doi.org/10.1038/s41598-026-78152-7",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-27T08:01:40.811556+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77685-1",
+      "title": "Molecular signatures of bone remodeling imbalance in type 2 diabetes and osteoporosis comorbidity: a multi-omics study with in vivo support",
+      "authors": "Yu Zhao, Tra My Nguyen, Fan Wang, Yijin Li, Zhicong Xia, Yueping Cai, Lihua Chen, Xiaosheng Lin",
+      "journal": "Scientific Reports",
+      "published": "2026-10-27",
+      "year": "2026",
+      "tags": [
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77685-1",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-27T14:39:42.797725+00:00"
     },
     {
       "doi": "10.1038/s41538-026-01227-2",
