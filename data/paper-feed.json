@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-26T23:56:32.606481+00:00",
+  "checkedAt": "2026-10-27T08:01:40.811556+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-78152-7",
+      "title": "Untargeted metabolomics reveals a reproducible signature associated with fatal insulin intoxication",
+      "authors": "Albert Elmsjö, Carl Söderberg, Fredrik Tamsen, Henrik Green, Fredrik C. Kugelberg, Liam J. Ward",
+      "journal": "Scientific Reports",
+      "published": "2026-10-27",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78152-7",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-27T08:01:40.811556+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01227-2",
+      "title": "Integrated metabolomic and transcriptomic analysis of oligoproanthocyanidins biotransformation by rhizosphere filamentous fungi from tea plant (Camellia sinensis)",
+      "authors": "Shuang Liang, Chun Zou, Longjie Xu, Bingsong Ma, Ying Gao, Jun-Feng Yin, Peng Jin, Yong-Quan Xu",
+      "journal": "npj Science of Food",
+      "published": "2026-10-27",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01227-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-27T08:01:40.811556+00:00"
+    },
     {
       "doi": "10.1038/s44386-026-00092-z",
       "title": "Activity-based proteomics discovery of deubiquitinating enzyme inhibitors with immunomodulatory activity",
@@ -12200,142 +12234,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-76120-3",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1126/scisignal.aee6812",
-      "title": "A reduction in A-to-I RNA editing by ADAR disrupts Pumilio-mediated inhibition of MAPK signaling to drive intestinal stem cell aging",
-      "authors": "Qian Zhang, Yuedan Zhu, Yi Chen, Wenhao Hou, Aolong Sun, La Yan, Xingzhu Liu, Yu Yuan, Chaoxin Gao, Junfeng Xie, Rui Zhang, Haiyang Chen",
-      "journal": "Science Signaling",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1126/scisignal.aee6812",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01569-w",
-      "title": "AI-based digital pathology and spatial proteomics enable precision oncology: A case report of recurrent melanoma in a young patient",
-      "authors": "Jéssica Guedes, Nicole Woldmar, Eszter Baltas, András Kriston, Ede Migh, Ferenc Kovács, Henriett Oskolás, Matilda Marko-Varga, Roger Appelqvist, Elisabet Wieslander, A. Marcell Szasz, Zoltán Veréb, Rolland Gyulai, István Balázs Németh, Johan Malm, Peter Horvath, Jeovanis Gil, György Marko-Varga",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01569-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64222-3",
-      "title": "Brain subcellular proteomics reveals chromosome segregation as a potentially key molecular pathway in Down syndrome",
-      "authors": "Jinling Tan, Wei Zhang, Hui Guo, Wei Shi, Pingping Ye, Fang Yuan, Qiuyan Jiang, Guimian Zou, Qiang Yan, Xin Zhao, Qi Liao, Yong Dai, Donge Tang",
-      "journal": "Scientific Reports",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64222-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61239-6",
-      "title": "Machine learning-based identification of m6A-regulated lncRNA AC022509.1 as a key modulator of EMT in breast cancer",
-      "authors": "Qinglan Wang, Xianqiang Du, Yanzhen Chen, Rongrong Lin",
-      "journal": "Scientific Reports",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61239-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41592-026-03085-y",
-      "title": "AI proteomics: from protein identification to virtual cells",
-      "authors": "Yingying Sun, Jun A, Zhiwei Liu, Rui Sun, Liujia Qian, Samuel H. Payne, Wout Bittremieux, Markus Ralser, Chen Li, Yi Chen, Zhen Dong, Yasset Perez-Riverol, Asif Khan, Chris Sander, Ruedi Aebersold, Juan Antonio Vizcaíno, Jonathan R. Krieger, Jianhua Yao, Wen Han, Linfeng Zhang, Yunping Zhu, Yue Xuan, Benjamin Boyang Sun, Liang Qiao, Henning Hermjakob, Haixu Tang, Huanhuan Gao, Yamin Deng, Qing Zhong, Cheng Chang, Nuno Bandeira, Ming Li, Weinan E, Siqi Sun, Yuedong Yang, Gilbert S. Omenn, Yue Zhang, Ping Xu, Yan Fu, Xiaowen Liu, Christopher M. Overall, Yu Wang, Eric W. Deutsch, Luonan Chen, Jürgen Cox, Vadim Demichev, Fuchu He, Jiaxing Huang, Huilin Jin, Chao Liu, Nan Li, Zhongzhi Luan, Jiangning Song, Kaicheng Yu, Wanggen Wan, Tai Wang, Kang Zhang, Le Zhang, Peter A. Bell, Matthias Mann, Bing Zhang, Tiannan Guo",
-      "journal": "Nature Methods",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41592-026-03085-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01024-x",
-      "title": "Deer velvet antler peptides protect premature ovarian insufficiency by modulating CHK2-TAp63α signaling and gut microbiota",
-      "authors": "Cong Wang, Dongying Wang, Shuying Wu, Baichen Liu, Tianmin Xu",
-      "journal": "npj Science of Food",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01024-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75501-y",
-      "title": "Fractionated proteomics identifies a protein network mitigating resistance exercise-induced damage in human skeletal muscle",
-      "authors": "Maithreyan Kuppusamy, Daniel Jacko, Yamini Gupta, Sandro Sieger, Kirill Schaaf, Martin Matijass, Käthe Bersiner, Jonas Zacher, Sara Bonini, Miguel Cosenza-Contreras, Peter van der Ven, Wilhelm Bloch, Dieter O. Fürst, Dominic Winter, Jörg Höhfeld, Pitter F. Huesgen, Sebastian Gehlert",
-      "journal": "Nature Communications",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75501-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-74154-1",
-      "title": "Preparation method shapes the recovery and ecological interpretation of DNA and RNA soil viral communities",
-      "authors": "Josué A. Rodríguez-Ramos, Amy E. Zimmerman, Ruonan Wu, Sheryl L. Bell, Trinidad D. Alfaro, Nicholas J. Reichart, Kirsten S. Hofmockel, William C. Nelson",
-      "journal": "Nature Communications",
-      "published": "2026-07-28",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-74154-1",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
