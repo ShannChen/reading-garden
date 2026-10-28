@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-27T23:50:52.715896+00:00",
+  "checkedAt": "2026-10-28T08:43:21.168112+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -12183,111 +12183,6 @@
       "link": "https://doi.org/10.1021/acs.est.6c01402",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01629-1",
-      "title": "Integrative pan-cancer and COAD-focused multi-omics analysis of non-histone acetylation substrate-related transcriptional landscapes",
-      "authors": "Jiahao Zhu, Jiyun Shi, Peipei Shen, Rui Lou, Bin Zhang, Erwen Bao, Danqi Qian, Shengjun Ji, Ke Gu, Yong Mao",
-      "journal": "npj Precision Oncology",
-      "published": "2026-07-29",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01629-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63882-5",
-      "title": "Localized delivery of coding nucleic acids into adherent cells by in situ electroporation: integrated impedance-based monitoring allows for loss-of-function or gain-of-function screening",
-      "authors": "Anne-Kathrin Grimm, Sonja Balk, Achim Göpferich, Miriam Breunig, Simone Aubele, Anne Zemella, Joachim Wegener",
-      "journal": "Scientific Reports",
-      "published": "2026-07-29",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63882-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62186-y",
-      "title": "Identification of palmitoylation-related diagnostic biomarkers in dilated cardiomyopathy through multi-omics integration and experimental validation",
-      "authors": "Zhen Guo, Laichun Song, Tingting Xu, Changsong Zhang, Wushuang Zhang",
-      "journal": "Scientific Reports",
-      "published": "2026-07-29",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62186-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41564-026-02434-z",
-      "title": "Gut microbiota restricts intestinal lipid uptake via modulation of bile phosphatidylcholine metabolism in mice",
-      "authors": "Sarah Brunner, Johannes Plagge, Maria Zimmermann-Kogadeeva, Marcus Höring, Gerhard Liebisch, Marijana Basic, Silvia Bolsega, Klaus-Peter Janssen, Emma Slack, Sophia von Gamm, Alina Viehof-Beckmann, Thomas Clavel, Michael Zimmermann, Joerg Heeren, Piero Giansanti, Anna S. Weiss, Sven Hermeling, Aline Dupont, Anna-Lena Ullrich, Florian Jokisch, Claudine Seeliger, Andre Bleich, Maria Hidrobo, Bärbel Stecher, Olivia I. Coleman, Claudia Moresi, Giorgia Greter, Markus Arnoldini, Josef Scheiber, Silke Matysik, Martin Klingenspor, Bernhard Küster, Dirk Haller, Ralph Burkhardt, Folkert Kuipers, Josef Ecker",
-      "journal": "Nature Microbiology",
-      "published": "2026-07-29",
-      "year": "2026",
-      "tags": [
-        "Microbiome",
-        "Proteomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41564-026-02434-z",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76211-1",
-      "title": "Insights into the role of dopamine in rhizosphere microbiome assembly",
-      "authors": "Yezhang Ding, Hunter K. Vogel, Yi Zhai, Hans K. Carlson, Peter F. Andeer, Vlastimil Novak, Nakian Kim, Benjamin P. Bowen, Amber N. Golini, Suzanne M. Kosina, Devin Coleman-Derr, John P. Vogel, Trent R. Northen",
-      "journal": "Nature Communications",
-      "published": "2026-07-29",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76211-1",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76120-3",
-      "title": "Multi-omic analysis of androgen-deprived human testes reveals Sertoli cell regulation and niche reprogramming",
-      "authors": "Yifei Guo, Kongrong Xu, Qianyin Zhou, Lin Du, Chenxin Dang, Guangmin Liu, Xingyuan Yi, Dai Zhou, Jian Cao, Zhizhong Liu, Liqing Fan, Xiaoyan Wang, Jingtao Guo, Hao Bo",
-      "journal": "Nature Communications",
-      "published": "2026-07-29",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76120-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
