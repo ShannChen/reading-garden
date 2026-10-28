@@ -1,12 +1,116 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-28T08:43:21.168112+00:00",
+  "checkedAt": "2026-10-28T19:40:11.687012+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s42003-026-11181-0",
+      "title": "PDE10A identified by cross-hemisphere visual cortex proteomics restores adult ocular dominance plasticity involving cAMP/CREB signaling",
+      "authors": "Yuanyuan Li, Zehui Zhu, Jingyuan Xu, Sihan Dong, Er Mo, Qiyuan Li, Zhangliang Li, Yun-e Zhao, Pingjun Chang",
+      "journal": "Communications Biology",
+      "published": "2026-10-28",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s42003-026-11181-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-28T19:40:11.687012+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77456-y",
+      "title": "Analysis of the proteomic profiles in serum of mice treated with RadioDefender, a novel radiation medical countermeasure",
+      "authors": "Alana D. Carpenter, Benjamin E. Packer, Xu Li, Jeyalakshmi Kandhavelu, Yaoxiang Li, Sarah A. Petrus, Oluseyi O. Fatanmi, Stephen Y. Wise, Jason Zhiguo Zhou, Amrita K. Cheema, Vijay K. Singh",
+      "journal": "Scientific Reports",
+      "published": "2026-10-28",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77456-y",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-28T19:40:11.687012+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77447-z",
+      "title": "Phenotypic and multiplex PCR-defined antimicrobial resistance in Ukrainian soldiers’ war-wound microbiota",
+      "authors": "Ewelina Sibińska, Viktoriia Avramenko, Oleksandra Pryshchepa, Oleksandr Bespalko, Michał Złoch, Yehor Babenko, Svitlana Yaremchuk, Joanna Rudnicka, Iryna Furtat, Polina Vakuliuk, Paweł Pomastowski",
+      "journal": "Scientific Reports",
+      "published": "2026-10-28",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77447-z",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-28T19:40:11.687012+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75628-4",
+      "title": "Bio-priming improves salt stress tolerance in Zea mays L. insights from phenotypic and metabolomic analysis",
+      "authors": "Ayesha Shafqat, Muhamad Naveed Shahid, Waheed Akram",
+      "journal": "Scientific Reports",
+      "published": "2026-10-28",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75628-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-28T19:40:11.687012+00:00"
+    },
+    {
+      "doi": "10.1038/s41588-026-02786-6",
+      "title": "Population-scale single-nucleus multi-omic profiling of skeletal muscle reveals extensive context-specific genetic regulation",
+      "authors": "Arushi Varshney, Nandini Manickam, Peter Orchard, Adelaide Tovar, Christa Ventresca, Zhenhao Zhang, Fan Feng, Joseph Mears, Michael R. Erdos, Narisu Narisu, Kirsten Nishino, Vivek Rai, Heather M. Stringham, Anne U. Jackson, Tricia Tamsen, Chao Gao, Mao Yang, Olivia I. Koues, Joshua D. Welch, Charles F. Burant, L. Keoki Williams, Chris Jenkinson, Ralph A. DeFronzo, Luke Norton, Jouko Saramies, Timo A. Lakka, Markku Laakso, Jaakko Tuomilehto, Karen L. Mohlke, Jacob O. Kitzman, Heikki A. Koistinen, Jie Liu, Michael Boehnke, Francis S. Collins, Laura J. Scott, Stephen C. J. Parker",
+      "journal": "Nature Genetics",
+      "published": "2026-10-28",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41588-026-02786-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-28T19:40:11.687012+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c07798",
+      "title": "Longitudinal Multiomics Reveals Core Microbiome Disruption and Potential Keystone-Associated Recovery Following Pesticide Exposure",
+      "authors": "Ditam Chakraborty, Miranda Vanderhyde, Lennel Camuy-Velez, Biraj Saha, Md Atik Fayshal, Rylie Elvers, Harli Dragt, Star Rodriguez, Jiale Xu, Syeed Md Iskander, Samiran Banerjee",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-28",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c07798",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-28T19:40:11.687012+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-78152-7",
       "title": "Untargeted metabolomics reveals a reproducible signature associated with fatal insulin intoxication",
