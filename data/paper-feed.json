@@ -1,12 +1,167 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-29T08:38:53.035890+00:00",
+  "checkedAt": "2026-10-29T19:42:49.141140+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44161-026-00894-4",
+      "title": "Temporal proteomics maps concealed-stage remodeling and reveals early mitochondrial alteration as an intervention target in a model of PKP2-arrhythmogenic cardiomyopathy",
+      "authors": "Jonathan S. Achter, Mikkel Svenningsen, John Mulvey, Giorgia Bertoli, Emily Meyer, Gautam Yepuri, Mingliang Zhang, Ravichandran Ramasamy, Mario Delmar, Alicia Lundby",
+      "journal": "Nature Cardiovascular Research",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s44161-026-00894-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1038/s42003-026-11208-6",
+      "title": "Towards a sequential microbiome therapy for HPV-associated cervicovaginal dysbiosis",
+      "authors": "Mariano A. Molina, Yichan Zhang, Renske D. M. Steenbergen, Willem J. G. Melchers, Juan Du",
+      "journal": "Communications Biology",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s42003-026-11208-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78203-z",
+      "title": "Spatial multi-omics identifies regional immunometabolic remodeling and macrophage PCK2-associated T-cell activation in lupus nephritis",
+      "authors": "Lin Liu, Ao Li, Qiong Guo, Min Wen, Lingling Zhao, Sinian Tan, Mao Peng, Min Kong, Zhenyu Xu, Linlin Zheng, Youzhou Tang",
+      "journal": "Scientific Reports",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78203-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77717-w",
+      "title": "Multi-omics profiling of gene expression and chromatin accessibility in mouse hippocampal CA1 following adolescent social isolation",
+      "authors": "Azusa Kubota, Yoshiaki Shinohara, Akihiro Goto, Atsushi Tajima",
+      "journal": "Scientific Reports",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77717-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1038/s41589-026-02356-1",
+      "title": "In vivo-compatible spatial multi-omics via hydrogen peroxide-independent APEX2 labeling",
+      "authors": "Boyi Chen, Hongyang Guo, Zhijian Yan, Wenjie Lu, Chun Li, Shimin Xu, Yanling Zhang, Haodong Guo, Shaopeng Sun, Haolin Yang, Xuege Sun, Shangxun Zhao, Qiaoling Shangguan, Yidong Chen, Lei Lu, Zhaofa Wu, Ying Chen, Wei Qin",
+      "journal": "Nature Chemical Biology",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41589-026-02356-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02523-z",
+      "title": "A human gut-associated picobirnavirus establishes the Picobirnaviridae as the third clade of RNA bacteriophages",
+      "authors": "Tianyu Gan, Anne L. Rosen, Leran Wang, Susan Vernon, Lindsay Droit, Amanda N. Pinski, Guang Wu, Luis A. Chica Cardenas, Kathie A. Mihindukulasuriya, Anne Paredes, Zaireen Pios, Megan T. Baldridge, Joanna E. Rimmer, Miles Parkes, Elizabeth A. Dinsdale, Robert A. Edwards, Anca M. Segall, Scott A. Handley, Andrew L. Kau, David Wang",
+      "journal": "Nature Microbiology",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02523-z",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79140-1",
+      "title": "Author Correction: Single nucleotide variants drive evolutionary phage-host arms race in anaerobic carbon dioxide-converting microbiome",
+      "authors": "G. Ghiotto, G. Zampieri, E. Orellana, A. Chatzis, P. G. Kougias, A. Camargo, S. Roux, S. Campanaro, N. C. Kyrpides, L. Treu",
+      "journal": "Nature Communications",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79140-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79034-2",
+      "title": "Exaiptasia diaphana core microbiome members are lost under climate change conditions despite host thermal tolerance",
+      "authors": "Kaden Muffett, Stephen Williams, Sophia MacVittie, Mara JW Schwiesow, Susan Arechiga Mendoza, Salma Arechiga Mendoza, Hailey Hatch-West, E. Maggie Sogin",
+      "journal": "Nature Communications",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79034-2",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c11234",
+      "title": "Lipophilic Redox Mediators Reprogram Intracellular Electron Flow to Promote Arsenic Methylation in Soil Fermentative Bacteria",
+      "authors": "Guanhong Chen, Yongmei Liang, Yundang Wu, Thomas Borch, Liping Fang, Fangbai Li",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c11234",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
     {
       "doi": "10.1021/acs.est.6c10136",
       "title": "Proteomic Profiling for In Situ Exposure in a Sentinel Freshwater Species to Describe the Crustacean Reproductive Effects of Aquatic Contamination",
@@ -3549,6 +3704,23 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
+      "doi": "10.1016/j.immuni.2026.10.004",
+      "title": "Growth factor VEGF-B sustains intestinal Tfh cell stemness to restrict Taurinivorans outgrowth and microbiota-driven obesity",
+      "authors": "Jin-An Zhou, Jun Tu, Jiang Yue, Qi-Er Zhang, Yalan Chen, Qiuju Fan, Jing Ma, Yong Zuo, Ning-Ning Liu, Jinke Cheng, Jianli He",
+      "journal": "Immunity",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.immuni.2026.10.004",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
       "doi": "10.1016/j.immuni.2026.09.026",
       "title": "A microbiome-reactive TMIGD2hi Th17 subset is spatially enriched at the intestinal epithelium and expanded in inflammatory bowel disease",
       "authors": "Thomas K. Pedersen, Tanvi Jain, Åsa Segerstolpe, Crystal Lin, Angela R. Shih, Luezhen Yuan, Orr Ashenberg, Marco E. Kaper, Shaina W. Twardus, Rocco Ricciardi, Helena Lau, James J. Moon, Susanne Brix, Ramnik J. Xavier, Daniel B. Graham",
@@ -3598,6 +3770,23 @@
       "link": "https://doi.org/10.1016/j.cub.2026.08.063",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.crmeth.2026.101647",
+      "title": "Single-cell proteomics of saliva enables noninvasive cell profiling in oral cancer",
+      "authors": "Heloísa Monteiro do Amaral-Prado, Jackson Gabriel Miyamoto, Daniella de Figueiredo, Fábio Malta de Sá Patroni, Nilson Antônio da Rocha Coimbra, Ariane Fidelis Busso-Lopes, Guilherme Pimentel Telles, Carolina Moretto Carnielli, Daniela Campos Granato, Guilherme Araújo Câmara, Mauricio Frota Camacho, Elaine Cristina Cardoso, Tatiane De Rossi, Romênia Ramos Domingues, Bianca Alves Pauletti, Ana Leticia Mores, Ana Carolina Prado-Ribeiro, Thaís Bianca Brandão, Luiz Paulo Kowalski, Alan Roger Santos-Silva, Marcio Ajudarte Lopes, Nilva K. Cervigne, André Afonso Nimtz Rodrigues, André Luís Maion Casarim, Adriana Franco Paes Leme",
+      "journal": "Cell Reports Methods",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.crmeth.2026.101647",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T19:42:49.141140+00:00"
     },
     {
       "doi": "10.1016/j.crmeth.2026.101639",
@@ -3836,6 +4025,23 @@
       "link": "https://doi.org/10.1016/j.cell.2026.09.043",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-15T18:23:32.551007+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.07.055",
+      "title": "Gut microbiota generate dinitrosyl iron complexes with cardiometabolic benefits",
+      "authors": "Andrei L. Kleschyov, Miho Shimari, Ariela Maína Boeder, Tomas A. Schiffer, Sander van Riet, Gianluigi Pironti, Nadja I. Bork, Alexander Rotmann, Zhengbing Zhuge, Drielle D. Guimarães, Gaia Picozzi, Chiara H. Moretti, Lucas R.R.A. Carvalho, Carina Nihlén, Ellen I. Closs, Viacheslav O. Nikolaev, Magnus Ingelman-Sundberg, Eddie Weitzberg, Jon O. Lundberg, Mattias Carlström",
+      "journal": "Cell",
+      "published": "2026-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.07.055",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
       "doi": "10.1016/j.cell.2026.07.022",
@@ -11863,23 +12069,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.celrep.2026.117724",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.cell.2026.07.055",
-      "title": "Gut microbiota generate dinitrosyl iron complexes with cardiometabolic benefits",
-      "authors": "Andrei L. Kleschyov, Miho Shimari, Ariela Maína Boeder, Tomas A. Schiffer, Sander van Riet, Gianluigi Pironti, Nadja I. Bork, Alexander Rotmann, Zhengbing Zhuge, Drielle D. Guimarães, Gaia Picozzi, Chiara H. Moretti, Lucas R.R.A. Carvalho, Carina Nihlén, Ellen I. Closs, Viacheslav O. Nikolaev, Magnus Ingelman-Sundberg, Eddie Weitzberg, Jon O. Lundberg, Mattias Carlström",
-      "journal": "Cell",
-      "published": "2026-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.cell.2026.07.055",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
