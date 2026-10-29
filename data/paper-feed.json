@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-28T19:40:11.687012+00:00",
+  "checkedAt": "2026-10-29T00:04:07.967744+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -57,6 +57,23 @@
       "link": "https://doi.org/10.1038/s41598-026-77447-z",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-28T19:40:11.687012+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-76733-0",
+      "title": "Salivary microbiome-based classification of concordant intra-oral halitosis: Porphyromonas gingivalis as a candidate sentinel taxon",
+      "authors": "Yeon-Hee Lee, Do-Hoon Kim, Nicholas Jakubovics, Akhilanand Chaurasia, Tae-Seok Kim, Hae Jeong Park, Jaesang Hong, Yung-Kyun Noh",
+      "journal": "Scientific Reports",
+      "published": "2026-10-28",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76733-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-29T00:04:07.967744+00:00"
     },
     {
       "doi": "10.1038/s41598-026-75628-4",
@@ -12031,261 +12048,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-75524-5",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1126/science.adz7928",
-      "title": "Spatiotemporal multiomics uncover tumor ecosystem dynamics during metastatic colonization",
-      "authors": "Yunfan Sun, Yu Zhong, Shang Liu, Zefan Zhang, Chunqing Wang, Yang Liu, Junbing Chen, Wei Guo, Xiaoying Gu, Keqiang Rao, Zifei Wang, Muzi Cao, Yue Wang, Waidong Huang, Xuanxuan Zou, Xi Chen, Shuangjian Qiu, Yinhong Shi, Huichuan Sun, Xiaohu Huang, Yuhang Wang, Jiyan Wang, Zhifang Wu, Ru Tian, Yuanhang Zhang, Jie Gu, Miaomiao Jiang, Yinqi Bai, Guibo Li, Min Xie, Feng Xi, Lihua Peng, Shiping Liu, Shuang Yang, Yu Zhang, Miguel A. Esteban, Xin Jin, Ao Chen, Jian Wang, Yong Cang, David H. Peng, Xun Xu, Jian Zhou, Liang Wu, Jia Fan",
-      "journal": "Science",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/science.adz7928",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s43587-026-01183-2",
-      "title": "Plasma proteomics framework predicts metabolic dysfunction-associated steatotic liver disease up to 16 years before onset",
-      "authors": "Shiyi Yu, Chunling Chen, Jing Feng, Qinming Li, Shuo Chen, Ruijie Zeng, Dongling Luo, Wentao Huang, Kexin Zhang, Yuying Ma, Lijun Zhang, Meijun Meng, Yanjun Wu, Dong Chen, Qizhou Lian, Felix W. Leung, Chusi Wang, Weihong Sha, Hao Chen",
-      "journal": "Nature Aging",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s43587-026-01183-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43587-026-01182-3",
-      "title": "Ultra-early proteomic signatures predict MASLD up to 16 years ahead",
-      "authors": "",
-      "journal": "Nature Aging",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s43587-026-01182-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64541-5",
-      "title": "Inhalable ligustrazine powders relieve inflammation of COPD via regulation of neutrophil extracellular traps and gut-lung axis microbiota",
-      "authors": "Xuejing Luan, Mengyao Shi, Di Wu, Siyu He, Jinghui Xie, Xiangli Tong, Jiabing Tong, Zegeng Li, Jiwen Zhang, Jie Zhu",
-      "journal": "Scientific Reports",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64541-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63395-1",
-      "title": "Comparative metabolomics of serum and serum extracellular vesicles of melanoma and triple-negative breast cancer utilizing biobank samples",
-      "authors": "Zeynep Tavukcuoglu, Olli Kärkkäinen, Reijo Käkelä, Seppo Auriola, Saara Laitinen, Mari Palviainen, Pia R.-M. Siljander",
-      "journal": "Scientific Reports",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63395-1",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63122-w",
-      "title": "Optimizing tissue lysis and DNA extraction protocols to enhance bacterial diversity profiling in the Drosophila melanogaster gut microbiome",
-      "authors": "Carlos L. Quiñones-Sanchez, Jan L. Bilbao-Del Valle, Miguel A. Urdaneta-Colon, Tasha M. Santiago-Rodriguez, Imilce A. Rodriguez-Fernandez",
-      "journal": "Scientific Reports",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63122-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62723-9",
-      "title": "Integrated LiP-MS and quantitative proteomics reveal coordinated alterations in protein conformation and expression across tumor and peritumoral regions in hepatocellular carcinoma",
-      "authors": "Zhen-dong Chen, Min-ying Yang, Xi-ni Wei, Wei Qin, Li Xiao, Yin-yun Qin, Rui-ling Su, Yi-wu Dang, Dan-dan Xiong",
-      "journal": "Scientific Reports",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62723-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60927-7",
-      "title": "Site-specific oral microbiome profiles in healthy young Korean women",
-      "authors": "Mu-Yeol Cho, Je-Hyun Eom, Ji-Won Kim, Yun-Woo Kim, Jiyoung Hwang, Dahye Lee, Young Youn Kim, Hye-Sung Kim, Inseong Hwang",
-      "journal": "Scientific Reports",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60927-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41574-026-01286-1",
-      "title": "Links between bone fractures and the gut microbiota",
-      "authors": "Claes Ohlsson, Lina Lawenius, Louise Grahnemo, Klara Sjögren",
-      "journal": "Nature Reviews Endocrinology",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41574-026-01286-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41564-026-02433-0",
-      "title": "Microbiota-derived 10-hydroxystearic acid activates PPARα to restore gut epithelial barrier integrity and enhance anti-retroviral therapy",
-      "authors": "Dylan Kramer, Clarissa Santos Rocha, Christopher A. Gaulke, Marie Nearing, Sumathi Sankaran-Walters, Ikaika Loque, Anugraha Kidigannappa, Eric Pham, Shuang Hu, Patrawin Wanakumjorn, Ramona Abbattista, Abhaya Dandekar, Roland Faller, Satya Dandekar",
-      "journal": "Nature Microbiology",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41564-026-02433-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41564-026-02409-0",
-      "title": "Combined phage therapy and faecal microbiota transplantation to treat recurrent urinary tract infection: a case series",
-      "authors": "Shawna McCallin, Annika Y. Classen, Simone C. Lieberknecht-Jouy, Fatih Abdula, Sarah Dugas, Oliver Gross, Hendrik Koliwer-Brandl, Swenja Lassen, Jens Scheidegger, Matthew Dunne, Andre Kahles, Jonas Eigler, Fedja Farowski, Paul G. Higgins, Sonja Milek, Oksana Chemych, Jiemin Du, Martin J. Loessner, Thomas M. Kessler, Maria J. G. T. Vehreschild, Lorenz Leitner, Lena M. Biehl",
-      "journal": "Nature Microbiology",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41564-026-02409-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01110-8",
-      "title": "Modulation of gut microbiota by nardosinone augments the efficacy of levodopa in rotenone-induced Parkinson's disease rats",
-      "authors": "Mengmeng Liu, Jingwen Xue, Yuxin Cao, Zhuangzhuang Hao, Yuqing Wang, Jiayuan Li, Tingyue Jiang, Ge Zhang, Jinli Shi",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01110-8",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01096-3",
-      "title": "Herbivory-triggered assemblage of sunflower rhizosphere microbiome enhances herbivore tolerance through plant–soil feedback",
-      "authors": "P. M. Rodríguez-Blanco, G. Zitlalpopoca-Hernández, M. G. González-Holgado, I. Fernández, A. Ossowicki, V. J. Carrión, L. Carro, A. Martínez-Medina",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01096-3",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75674-6",
-      "title": "Effect of a complementary feeding intervention based on iron- and zinc-biofortified pearl millet on the gut microbiota in 12–18-month-old children: a randomized trial",
-      "authors": "Samantha L. Huey, Nathaniel L. Cole, Ioanna Pagani, Antonio González, Julia L. Finkelstein, Jere D. Haas, Shobha A. Udipi, Padmini Ghugre, Ramesh D. Potdar, Rob Knight, Saurabh Mehta",
-      "journal": "Nature Communications",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75674-6",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1021/acs.est.6c01402",
-      "title": "Sex- and Trimester-Specific Associations of Prenatal Co-Exposure to Organophosphate Esters and Phthalates with Preschoolers’ Trajectories of Co-Occurring ADHD and ASD Symptoms: Cord Blood Metabolomic Study in the Ma’anshan Birth Cohort",
-      "authors": "Xing Wang, Juan Tong, Mengjuan Lu, Ling Luo, Yuan Liu, Qizheng Huang, Ping Lv, Yimin Zheng, Hong Gan, Menglong Geng, Shuman Tao, Xingyong Tao, Shuangqin Yan, Guopeng Gao, Xiaoyan Wu, Kun Huang, Yunxia Cao, Hui Gao, Fangbiao Tao",
-      "journal": "Environmental Science & Technology",
-      "published": "2026-07-30",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1021/acs.est.6c01402",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
