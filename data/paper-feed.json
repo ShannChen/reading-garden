@@ -1,12 +1,33 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-29T00:04:07.967744+00:00",
+  "checkedAt": "2026-10-29T08:38:53.035890+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1021/acs.est.6c10136",
+      "title": "Proteomic Profiling for In Situ Exposure in a Sentinel Freshwater Species to Describe the Crustacean Reproductive Effects of Aquatic Contamination",
+      "authors": "Sarah Bancel, Anabelle Espeyte, João Sousa, Maxime Leprêtre, Rémi Recoura-Massaquant, Nicolas Delorme, Laura Garnero, Hervé Quéau, Hélène Budzinski, Sophie Ayciriex, Arnaud Salvador, Arnaud Chaumot, Olivier Geffard, Davide Degli Esposti",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-10-29",
+      "year": "2026",
+      "tags": [
+        "Proteomics",
+        "Exposomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "proteomics",
+        "exposomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c10136",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-29T08:38:53.035890+00:00"
+    },
     {
       "doi": "10.1038/s42003-026-11181-0",
       "title": "PDE10A identified by cross-hemisphere visual cortex proteomics restores adult ocular dominance plasticity involving cAMP/CREB signaling",
