@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-30T08:45:36.367479+00:00",
+  "checkedAt": "2026-10-30T19:29:34.760484+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -40,6 +40,57 @@
       "link": "https://doi.org/10.1126/sciadv.aee7661",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-30T08:45:36.367479+00:00"
+    },
+    {
+      "doi": "10.1038/s44485-026-00006-x",
+      "title": "Towards personalized and lifestyle-inspired soil management: lessons from the gut microbiome",
+      "authors": "Abraham L. van Eijnatten, Giulia Vultaggio, Merlijn Schram, David Cajas Muñoz, Luís Felipe Guandalin Zagatto, Elly Morriën, Paul L. E. Bodelier, Basten L. Snoek, Justine Lejoly, Wim H. van der Putten, G. F. Ciska Veen",
+      "journal": "npj Soil Ecology",
+      "published": "2026-10-30",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s44485-026-00006-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-30T19:29:34.760484+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75957-4",
+      "title": "Plasma metabolomics reveals systemic alterations associated with cardiac surgery and identifies candidate predictors of postoperative outcomes: a prospective cohort study",
+      "authors": "Lina Wehkamp, David I. Radke, Joana P. Bernardes, Víctor A. López-Agudelo, Sven Schuchardt, Gunnar Elke, Lars Hummitzsch, Frieder Neu, Markus Steinfath, Martin Albrecht, Priya Veluswamy, Katharina Huenges, Bernd Panholzer, Gregor Warnecke, Dirk Schädler, Philip Rosenstiel, Stefan Schreiber, Konrad Aden, Matthias Lindner",
+      "journal": "Scientific Reports",
+      "published": "2026-10-30",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75957-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-10-30T19:29:34.760484+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01608-0",
+      "title": "Longitudinal blood-based proteomics reveal progression-specific molecular signatures in Parkinson’s disease",
+      "authors": "Melanie Suette, Edith Hofer, Lukas Gattermeyer-Kell, David M. Brazel, Evan A. Boyle, Maria Schneller, Daniela Kern, Petra Katschnig-Winter, Mariella Koegl, Christian Enzinger, Ferhan Qureshi, Michael Khalil, Petra Schwingenschuh",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-10-30",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01608-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-30T19:29:34.760484+00:00"
     },
     {
       "doi": "10.1038/s41522-026-01188-0",
