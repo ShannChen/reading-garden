@@ -1,12 +1,80 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-31T08:32:36.564275+00:00",
+  "checkedAt": "2026-10-31T18:38:40.239111+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41698-026-01752-z",
+      "title": "AI-HistoPS: decoding proteomic heterogeneity with subtype resolution from histopathology in liver metastases",
+      "authors": "Yuexiang Ren, Qiming He, Hengli Ni, Chao Tu, Jianhao Wu, Yuxuan Sun, Fuli Shi, Xianhe Yang, Aijun Zhou, Chunkui Shao, Yonghong He, Shan Xu, Jianming Li",
+      "journal": "npj Precision Oncology",
+      "published": "2026-10-31",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41698-026-01752-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-31T18:38:40.239111+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77828-4",
+      "title": "Changes in adaptive behavior, gut microbiota and fecal metabolites following an integrative intervention in children with autism spectrum disorder",
+      "authors": "Carmel Even, Federica D’Amico, Jamil Andrawes, Ahmad Marie, Arij Mansour-Kassabri, Lili Nimri, Omer Horovitz, Noam Karsh, Sanaa Musa, Nael Elias, Snait Tamir, Silvia Turroni, Faiga Magzal",
+      "journal": "Scientific Reports",
+      "published": "2026-10-31",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77828-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-31T18:38:40.239111+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77559-6",
+      "title": "Multi-omic cancer subtype clustering with random-walk-refined cross-view contrastive learning",
+      "authors": "Liting Zhang, Zefeng Li, Xian Mallory",
+      "journal": "Scientific Reports",
+      "published": "2026-10-31",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77559-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-31T18:38:40.239111+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79142-z",
+      "title": "Cell surface proteomics of patient-derived malignant rhabdoid tumor organoids identifies ROBO1 as CAR T cell target for pediatric solid tumors",
+      "authors": "Juliane L. Buhl, Jannet Koelewijn, Charlotte op ’t Hoog, Li Yang, Stijn De Munter, Victoria M. Cruz, Daryl Jun Kai Chin, Baojie Zhang, Marliek van Hoesel, Nienke van Herk, Mariëtte E. G. Kranendonk, Mariël Brok, Irene Paassen, Katie Nachataya, Laura Hofman, Ella de Boed, Stefan Nierkens, Patrick Kemmeren, Annelisa M. Cornel, Wei Wu, Bart Vandekerckhove, Jarno Drost, Claudia Y. Janda",
+      "journal": "Nature Communications",
+      "published": "2026-10-31",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79142-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-31T18:38:40.239111+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aeh9188",
       "title": "Wdr82-COMPASS coordinates Foxp3 and TCR signaling to sustain T reg cell control of microbiota-driven intestinal inflammation",
@@ -11331,7 +11399,7 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41598-026-65471-y",
-      "matchSource": "Title and available metadata subjects",
+      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     },
     {
