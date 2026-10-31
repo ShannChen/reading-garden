@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-30T23:53:48.994417+00:00",
+  "checkedAt": "2026-10-31T08:32:36.564275+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -11437,57 +11437,6 @@
       "link": "https://doi.org/10.1038/s41531-026-01504-7",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65015-4",
-      "title": "A taxonomically informed deep neural network with hierarchical regularization for microbiome data analysis",
-      "authors": "Gyujin Heo, Zhe Liu, Yujin Chung, Taesung Park",
-      "journal": "Scientific Reports",
-      "published": "2026-08-01",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65015-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64711-5",
-      "title": "Proteomic signatures reveal stage-specific progression across gastrointestinal–neuropsychiatric comorbidity: a deep learning and multi-state trajectory analysis",
-      "authors": "Xiaohua Ye, Zhenhe Jin, Tianyu Zhou, Zhijian Zhao, Chunmin Lou, Chengwei Xu, Kexin Ye, Yandong Li, Yufan Wang, Chaohui Yu, Zhe Shen",
-      "journal": "Scientific Reports",
-      "published": "2026-08-01",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64711-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76277-x",
-      "title": "Deep-learning-enabled multi-omics analyses for prediction of future metastasis in cancer",
-      "authors": "Xiaoying Wang, Maoteng Duan, Anthony J. Snyder, Po-Lan Su, Jianying Li, Jordan Krull, Jiacheng Jin, Yang Xu, Yuhan Sun, Hu Chen, Weidong Wu, Weiqing Chen, Kai He, Chi Zhang, Sha Cao, Jing Zhao, Dong Xu, Guangyu Wang, Lang Li, Gang Xin, David P. Carbone, Zihai Li, Richard L. Carpenter, Qin Ma",
-      "journal": "Nature Communications",
-      "published": "2026-08-01",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76277-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
