@@ -1,12 +1,284 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-31T23:28:16.202304+00:00",
+  "checkedAt": "2026-11-01T09:23:45.046638+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41538-026-01224-5",
+      "title": "Integrated transcriptomic and metabolomic analyses reveal monoterpenoid biosynthesis in Aspergillus cristatus during tea infusion fermentation",
+      "authors": "Haoran Sun, Yaling Cao, Jia Li, Xin Zhang, Yaqi Liu, Mengcheng Ni, Yu Tang, Qi Chen, Yu Wang, Xueling Gao",
+      "journal": "npj Science of Food",
+      "published": "2026-11-01",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01224-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.118082",
+      "title": "Gut microbiota composition of India’s Baiga tribe: Insights from an indigenous particularly vulnerable tribal group",
+      "authors": "Gopalakrishna Kallapura, Anthony Surya Prakash, Rohini Prasad, Idaa Josphine, Mukul Maurya, Debojyoti Dhar",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.118082",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.118069",
+      "title": "Spectrum-dependent dysbiosis and recovery patterns of the gut microbiota following antimicrobial exposure",
+      "authors": "Eun-Jeong Yoon, Nakyeoung Ha, Min Cheol Jeong",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.118069",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117958",
+      "title": "WTAP-mediated m6A methylation stabilizes pIgR mRNA and attenuates smoke-induced epithelial inflammation and apoptosis",
+      "authors": "Jiaqi Li, Shengyu Huang, Guanghua Guo",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117958",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117949",
+      "title": "Exploratory single-cell multiomics suggests naive CD4+ T cell dysregulation in treatment refractory rheumatoid arthritis",
+      "authors": "Samantha L. Smith, Stefano Rossi, Rudresh Shukla, Chuan Fu Yap, Nisha Nair, Jake Butler, Yvonne Tan, Amirah Binti Mohammad Ariff, Ilinca Lazar, Khadijah Patel, Stephen Eyre, Maya H. Buch, Paul Martin, Gisela Orozco",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117949",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117929",
+      "title": "Linking nasopharyngeal and oropharyngeal microbiota to immune responses during influenza-like illness in an aging population",
+      "authors": "Jolanda Kool, Prokopis Konstanti, Harry van Dijken, Mei Ling J.N. Chu, Nening M. Nanlohy, Elske Bijvank, Esther van Woudenbergh, Josine van Beek, Debbie van Baarle, Susana Fuentes",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117929",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117917",
+      "title": "Intestinal microbiota-associated LysoPC(16:0) promotes endometriosis via PPARγ-mediated M2 macrophage polarization and IL-10 secretion",
+      "authors": "Na Li, Ming Yuan, Xueyang Jin, Xue Jiao, Shuang Wang, Zhaoyang Zhong, Hongwei Guan, Xu Le, Qianhui Ren, Yu Liu, Xiaoyu Dong, Qiuju Li, Mei Wang, Guoyun Wang",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117917",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117905",
+      "title": "PFOS exposure and periodontitis from adolescent burden to genetic and multiomics evidence",
+      "authors": "Hongcheng Wan, Zhe Wang, Huangfang Peng, Xiaohong Wang, Lifang Xiong, Xiaohong Zou",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117905",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117895",
+      "title": "Proteomic and extracellular particle changes in preterm neonates with suspected late-onset sepsis",
+      "authors": "Daniel O’Reilly, Lauren Murphy, Ella Fouhy, Laura Ryan, Claire Anne Murphy, John O’Loughlin, Fionnuala Ní Áinle, Isobel Claire Gormley, Kieran Wynne, Rosanna Inzitari, Peter Doran, Richard J. Drew, Craig N. Morrell, Carmel Maria Moore, Anna Curley, Naomi McCallion, Patricia B. Maguire",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117895",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117892",
+      "title": "Circadian misalignment associates with inflammation, gut barrier, and microbiome composition in humans with obesity",
+      "authors": "Edena Khoshaba, Xiangsheng Huang, Connor Cheek, Ankur Naqib, Maliha W. Shaikh, Mohamed Abdel-Mohsen, Mahboobeh Mahdavinia, Heather E. Rasmussen, Ali Keshavarzian, Faraz Bishehsari",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117892",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117883",
+      "title": "Microbiome-dependent phytosterol sulfates production and tissue distribution in mice",
+      "authors": "Koki Tomita, Takeru Nakano, Satoshi Morozumi, Nobuyuki Okahashi, Makoto Arita",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117883",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117850",
+      "title": "Gut microbiota-driven imbalance of the gut-brain-immune homeostatic network in constipation: Pathogenic mechanisms and evolving therapeutic prospects",
+      "authors": "Jianing Zhu, Binbin Zeng, Wenxu Zhu, Ying Liu, Xin Li, Yapei Zhang, Zhiheng Xu, Qingqing Xu, Wenjin Wu, Jialu Li, Xiaoyu Shang, Ying Lin, Tianyu Zhou, Feng Lu, Yayun Qian",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117850",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117792",
+      "title": "Plasma proteomic analysis identified potential therapeutic targets for pulmonary arterial hypertension",
+      "authors": "Song Hu, Yuqi Xie, Jiang-Shan Tan, Ting-Ting Guo, Shengsong Zhu, Zhennan Lin, Jian Zhang, Lu Hua",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117792",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117617",
+      "title": "Serum Olink proteomics-based exploration of novel predictive biomarkers for necrotizing enterocolitis",
+      "authors": "Yu Dai, Xiaotong Chen, Min Zhang, Yanjie Chen, Xiangyun Yan, Xiaohui Chen, Shushu Li, Shuping Han",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117617",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117595",
+      "title": "Maternal gut microbiota, tryptophan metabolism and immune homeostasis: Implications for the prevention of adverse pregnancy complications",
+      "authors": "Chenjun Wang, Siyu Wu, Biyan He, Yifei Zhang, Chang Yan, Siming Tao, Jiangong Li, Jinqing Chen, Zhenlong Wu, Yingjie Wu, Ning Liu, Yinghe Qin",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117595",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117433",
+      "title": "Microbiota-constrained bacterial density limits phage infection in the gut and allows persistence of susceptible cells",
+      "authors": "Anouk Bertola, Nicolas Wenner, Leonardo Lemos Rocha, Timothy G. Keys, Médéric Diard",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117433",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
     {
       "doi": "10.1038/s41698-026-01752-z",
       "title": "AI-HistoPS: decoding proteomic heterogeneity with subtype resolution from histopathology in liver metastases",
