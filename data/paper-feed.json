@@ -1,12 +1,97 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-01T23:41:39.458785+00:00",
+  "checkedAt": "2026-11-02T09:38:54.425756+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44324-026-00138-w",
+      "title": "Roadmap for inferring metabolic regulation using multiomics, machine learning, and genome-scale modeling",
+      "authors": "Ryan Schildcrout, Nicole Rhoads, Sriram Chandrasekaran",
+      "journal": "npj Metabolic Health and Disease",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s44324-026-00138-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T09:38:54.425756+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77870-2",
+      "title": "Quercetin alleviates obesity-related cardiomyopathy via dual modulation of Fabp3 and Adipoq: a proteomics-based mechanistic study",
+      "authors": "Yang Xu, Qin Zhao, Jing Huang, Yan Niu, Bing Yan, Yao Ruan, Yujing Ma, Lei Yan, Shengping Lei",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77870-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T09:38:54.425756+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77272-4",
+      "title": "A two-step percoll gradient enables high-quality immune nuclei recovery from frozen melanoma for single-nucleus multiomics",
+      "authors": "Hanzhang Li, Bozhao Duan, John B. Sunwoo, Chen Chen, Yinhua Jin",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77272-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-02T09:38:54.425756+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-76605-7",
+      "title": "DIA proteomics identifies time-of-day-dependent hippocampal proteomic signatures associated with exercise timing in type 2 diabetic mice",
+      "authors": "Jiyou Wu, Haojie Hu, Shunling Yuan, Weichang Guo, Liangwu Qiu",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-76605-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T09:38:54.425756+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-65080-9",
+      "title": "Metabolomics-based central obesity identifies subtypes musculoskeletal disorders management",
+      "authors": "Qiong Han, Yue Zhang, Jing Feng, Bei Zhou, Chunyan Yin, Jinyi Wu",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-65080-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T09:38:54.425756+00:00"
+    },
     {
       "doi": "10.1038/s41538-026-01224-5",
       "title": "Integrated transcriptomic and metabolomic analyses reveal monoterpenoid biosynthesis in Aspergillus cristatus during tea infusion fermentation",
@@ -11692,91 +11777,6 @@
       "link": "https://doi.org/10.1038/s41467-026-76292-y",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s44324-026-00124-2",
-      "title": "Life’s crucial 9, plasma proteomics, and the risk of major complications and mortality in MASLD",
-      "authors": "Bing-Yun Zhang, Yi-Xin Wang, Hong-Xuan Huang, Xu-Lian Tang, Shu-Min Lai, Zhi-Yuan Xiong, Ling Kuang, Hao-Jie Chen, Hui Zhu, Ya-Xuan Li, Si-Qi Chen, Er-La Huang, Yan-Song Li, Hai-Ying Wang, Junguo Zhang, Zhi-Hao Li",
-      "journal": "npj Metabolic Health and Disease",
-      "published": "2026-08-03",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s44324-026-00124-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62670-5",
-      "title": "Integrated genomic and metabolomic insights into sesame rhizosphere-derived multi-trait Pseudomonas aeruginosa SIRJ8 with salinity stress alleviation and biocontrol potential",
-      "authors": "Sanjoy Kumar Mukharjee, Md. Faruk Hasan, Biswanath Sikdar",
-      "journal": "Scientific Reports",
-      "published": "2026-08-03",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62670-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61631-2",
-      "title": "Multi-omics integrated with machine learning identifies LPS-related genes potentially associated with iron metabolism-Immune axis imbalance in PCOS: a bioinformatics-based exploration of mechanisms and diagnostic markers",
-      "authors": "Yang Li, Chunmei Bai, Xumin Zhang, Haixia Song, Caixia Yuan, Ziwei Huang, Jianrong Liu",
-      "journal": "Scientific Reports",
-      "published": "2026-08-03",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61631-2",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41575-026-01229-1",
-      "title": "Multidisciplinary Delphi consensus statement on minimal standards for clinical metadata and end points in microbiome studies",
-      "authors": "Robert Schierwagen, Federica Carraturo, Anandhi Iyappan, Maximilian J. Brol, Celine Druart, Mads Israelsen, Zahra Hassani, Kevin Legent, Yolanda Godoy, Corrado Vecchi, Julie Rodriguez, Ida Falk Villesen, Alexander Jarde, Manimozhiyan Arumugam, Aleksander Krag, Emmanuelle Maguin, Peer Bork, Human Microbiome Action Consortium, Typas Nassos, Dienty Hendrina Maria Johanna Hazenbrink, Hub Zwart, Laurence Zitvogel, Lisa Derosa, Carolina Alves Costa Silva, Hervé Blottière, Aicha Kriaa, Moez Rhimi, Patrick Veiga, Nicolas Pons, Pierre-Louis Prost, Fay Betsou, Magali Cordaillat-Simmons, Isabelle Boutron, Philippe Ravaud, Dirk Haller, Amira Metwaly, Paul Ross, Paul O’Toole, Aonghus Lavelle, Marcus Claesson, Raphaela Joos, Colin Hill, Andrey Shkoporov, Saba Loftus, Katy Boucher, Arjun Sarathi, Vitalina Morozova, Nicola Segata, Francesco Asnicar, Federica Pinto, Stephan Kampshoff, Joel Doré, Jonel Trebicka, Alessio Fasano",
-      "journal": "Nature Reviews Gastroenterology & Hepatology",
-      "published": "2026-08-03",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41575-026-01229-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41531-026-01504-7",
-      "title": "Tear proteomics reveals reproducible pathway-level signatures of Parkinson’s disease pathogenesis",
-      "authors": "A. Acera, JC Gómez-Esteban, J. Ruiz-Martínez, B. Tijero, I. Rodríguez-Agirretxe, B. Arana, O. Ibarrondo, F. Elortza, M. Azkargorta, N. Ruzafa, X. Pereiro, E. Vecino",
-      "journal": "npj Parkinson's Disease",
-      "published": "2026-08-03",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41531-026-01504-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
