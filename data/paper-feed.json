@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-02T09:38:54.425756+00:00",
+  "checkedAt": "2026-11-02T22:48:48.586105+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,59 @@
       "firstSeen": "2026-11-02T09:38:54.425756+00:00"
     },
     {
+      "doi": "10.1038/s43587-026-01242-8",
+      "title": "Deep and quantitative proteomic profiling of low-volume mouse serum in a cross-sectional analysis of aging",
+      "authors": "Amit K. Dey, Bradley Olinger, Mozhgan Boroumand, Maria Emilia Fernandez, Study of Longitudinal Aging in Mice (SLAM) Investigators, Rafael de Cabo, Simonetta Camandola, Nathan L. Price, Rafael de Cabo, Nathan Basisty",
+      "journal": "Nature Aging",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s43587-026-01242-8",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78292-w",
+      "title": "Proteomics-identified serum ROBO4 and VCAM-1 enable robust diagnosis and prognosis-associated biomarkers in colorectal cancer",
+      "authors": "Bizhu Zhang, Hao Lin, Lina Geng, Mengyao Li, Zhuoran Zhang, Xueliang Wu, Bin Zhang",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78292-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77934-3",
+      "title": "Metabolomic profiling and pathway level multiomics integration identify shared stress associated and drug specific responses in the parasitic nematode Anisakis simplex s.s.",
+      "authors": "Elżbieta Łopieńska-Biernat, Mateusz Maździarz, Iwona Polak",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77934-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-77870-2",
       "title": "Quercetin alleviates obesity-related cardiomyopathy via dual modulation of Fabp3 and Adipoq: a proteomics-based mechanistic study",
       "authors": "Yang Xu, Qin Zhao, Jing Huang, Yan Niu, Bing Yan, Yao Ruan, Yujing Ma, Lei Yan, Shengping Lei",
@@ -40,6 +93,23 @@
       "link": "https://doi.org/10.1038/s41598-026-77870-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-02T09:38:54.425756+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77291-1",
+      "title": "Infection with GI-19 lineage infectious bronchitis virus induces transient restructuring of the cecal microbiota with persistent predicted functional alteration in chickens",
+      "authors": "Seongmin Kim, Ji-Ye Kim, Il Jang, Hoang Duc Le, Hye-Ryoung Kim, Chungoo Park",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77291-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
     },
     {
       "doi": "10.1038/s41598-026-77272-4",
@@ -76,6 +146,23 @@
       "firstSeen": "2026-11-02T09:38:54.425756+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-72731-4",
+      "title": "Integrating graph neural networks with urine metabolomics for non-invasive detection of bladder cancer: a multi-centre case–control diagnostic study",
+      "authors": "Lei Wang, Zhe Xu, Shuo Zheng, Kaining Li, Qiang Wu, Zijing Luo",
+      "journal": "Scientific Reports",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-72731-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-65080-9",
       "title": "Metabolomics-based central obesity identifies subtypes musculoskeletal disorders management",
       "authors": "Qiong Han, Yue Zhang, Jing Feng, Bei Zhou, Chunyan Yin, Jinyi Wu",
@@ -93,6 +180,93 @@
       "firstSeen": "2026-11-02T09:38:54.425756+00:00"
     },
     {
+      "doi": "10.1038/s41579-026-01383-y",
+      "title": "Predicting responses to prebiotic fibres: linking microbiota, function and clinical outcomes",
+      "authors": "Thaisa Cantu-Jungles, Car Reen Kok, Anissa M. Armet, Lawrence A. David, Sean M. Gibbons, Stephen R. Lindemann, Petra Louis, Jens Walter, Bruce Hamaker, Robert Hutkins",
+      "journal": "Nature Reviews Microbiology",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41579-026-01383-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02549-3",
+      "title": "Translational plant microbiome research takes root",
+      "authors": "",
+      "journal": "Nature Microbiology",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02549-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02520-2",
+      "title": "Metabolic specialization in the gut microbiome of aquatic mammalian herbivores",
+      "authors": "Gabriela F. Persinoti, Marcele P. Martins, Claudio B. C. Silva, Rodrigo S. A. Streit, Douglas A. A. Paixão, Gustavo H. Martins, Paula M. R. Higasi, Giulio M. Braatz, Monyque K. P. Silva, Luana G. Morão, Joaquim Martins-Junior, Fabiane Stoffel, Heloisa Ciol, Gabriela D. Noske, Renan Y. Miyamoto, Giovana M. Oliveira, Damaris B. Martim, Carlos H. M. Oliveira, Octávio A. C. Almeida, Evandro A. Araújo, Maxuel O. Andrade, Clelton A. Santos, Lucia D. Wolf, Aline R. Souza, Felipe A. C. Gonçalves, Daniela M. D. de Mello, Mariana A. B. Morais, Jorge Porto, Vincent Lombard, Priscila O. Giuseppe, Nicolas Terrapon, Leandro N. Lemos, Bernard Henrissat, Vitor L. Carvalho, Vera M. F. da Silva, Mario T. Murakami",
+      "journal": "Nature Microbiology",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02520-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79238-6",
+      "title": "Algal symbiosis adaptively restructures the cnidarian microbiome to enhance holobiont metabolism",
+      "authors": "Guoxin Cui, David K. Ngugi, Migle Konciute, Si Cheng, Kit Xi Liew, Jianing Mi, Salim Al-Babili, Manuel Aranda",
+      "journal": "Nature Communications",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79238-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78933-8",
+      "title": "Building a pre-trained model for single-cell multi-omics analysis beyond highly variable feature selection",
+      "authors": "Zhen Yuan, Shaoqing Jiao, Yihang Xiao, Jiajie Peng",
+      "journal": "Nature Communications",
+      "published": "2026-11-02",
+      "year": "2026",
+      "tags": [
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78933-8",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
       "doi": "10.1038/s41538-026-01224-5",
       "title": "Integrated transcriptomic and metabolomic analyses reveal monoterpenoid biosynthesis in Aspergillus cristatus during tea infusion fermentation",
       "authors": "Haoran Sun, Yaling Cao, Jia Li, Xin Zhang, Yaqi Liu, Mengcheng Ni, Yu Tang, Qi Chen, Yu Wang, Xueling Gao",
@@ -108,6 +282,23 @@
       "link": "https://doi.org/10.1038/s41538-026-01224-5",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.molp.2026.09.011",
+      "title": "From DNA to RNA to protein: pQTL mapping and proteome-wide association study reveal protein-level drivers of soybean traits",
+      "authors": "Delin Li, Zhan Li, Shiyu Guo, Qi Wang, Xinkang Feng, Hao Zhang, James C. Schnable, Ying-Hui Li, Li-Juan Qiu",
+      "journal": "Molecular Plant",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.molp.2026.09.011",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.118082",
@@ -142,6 +333,23 @@
       "link": "https://doi.org/10.1016/j.isci.2026.118069",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.118028",
+      "title": "Integrated multi-omics reveals methylation-linked biological heterogeneity in intermediate-risk pediatric acute myeloid leukemia",
+      "authors": "Harshita Makkar, Jagdish Prasad Meena, Riyaz Ahmad Mir, Aditya Kumar Gupta, Sameer Bakhshi, Anita Chopra, Pranay Tanwar, Rakhee Yadav, Lata Singh, Harsh Goel, Avanish Kumar Pandey, Pankaj Keshari, Sujata Bhattacharya, Ravi Kumar Majhi, Amitabh Singh, Shreshtha Kaushik, Sanjana Sarangarajan, Ganesh Kumar Viswanathan, Jasmita Dass, Deepam Pushpam, Rachna Seth",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.118028",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.117958",
@@ -363,6 +571,23 @@
       "link": "https://doi.org/10.1016/j.isci.2026.117433",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.10.016",
+      "title": "Industrialization drives convergent microbiome and host physiological shifts in the human metaorganism",
+      "authors": "Mathilde Poyet, Malte Rühlemann, Ana P. Schaan, Yue Ma, Lucas Moitinho-Silva, Eike M. Wacker, Hannah Jebens, Lucas Patel, Le Thanh Tu Nguyen, Alexis Zimmer, Damian Plichta, Daniel McDonald, Christine Stevens, Adwoa Agyei, Mary Y. Afihene, Shadrack O. Asibey, Yaw A. Awuku, Aida S. Badiane, Chris Corzett, Awa Deme, Manuel Dominguez-Rodrigo, Amoako Duah, Alain Fezeu, Alain Froment, Sean Gibbons, Catherine Girard, Jeff Hooker, Fatimah Ibrahim, Deborah Iqaluk, Vanessa Juimo, Pinja Kettunen, Sophie Lafosse, Ernest Lango-Yaya, Soo C. Lee, Jenni Lehtimäki, Yvonne A.L. Lim, Audax Mabulla, Varocha Mahachai, Rihlat S. Mohamed, Katya Moniz, Ivan E. Mwikarago, Yvonne A. Nartey, Daouda Ndiaye, Mary Noel, Charles Onyekwere, Tan M. Pin, Amelie Plymoth, Lewis Roberts, Lasse Ruokolainen, John Rusine, Laure Segurel, B. Jesse Shapiro, Shani Sigwazi, Ainara Sistiaga, Kenneth Valles, Tommi Vatanen, Ratha-korn Vilaichone, Philip Rosenstiel, John Baines, Andre Franke, David Ellinghaus, Rob Knight, Mark Daly, Ramnik J. Xavier, Eric J. Alm, Mathieu Groussin",
+      "journal": "Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.10.016",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-02T22:48:48.586105+00:00"
     },
     {
       "doi": "10.1038/s41698-026-01752-z",
@@ -8334,23 +8559,6 @@
         "multiomics"
       ],
       "link": "https://doi.org/10.1016/j.omtn.2026.102992",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1016/j.molp.2026.09.011",
-      "title": "From DNA to RNA to protein: pQTL mapping and proteome-wide association study reveal protein-level drivers of soybean traits",
-      "authors": "Delin Li, Zhan Li, Shiyu Guo, Qi Wang, Xinkang Feng, Hao Zhang, James C. Schnable, Ying-Hui Li, Li-Juan Qiu",
-      "journal": "Molecular Plant",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1016/j.molp.2026.09.011",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
