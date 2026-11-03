@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-03T09:42:32.271292+00:00",
+  "checkedAt": "2026-11-03T20:31:14.259804+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,57 @@
       "link": "https://doi.org/10.1038/s44383-026-00042-8",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-03T09:42:32.271292+00:00"
+    },
+    {
+      "doi": "10.1038/s42003-026-11251-3",
+      "title": "Transcriptomic and proteomic analysis of quiescent epimastigotes as a resource for investigating Trypanosoma cruzi persistence",
+      "authors": "Francisco Olmo, Amy Hesketh, Hayat Hage, Jean-Marc Monneuse, Martin C. Taylor, Fernanda C. Costa, Célie Da Silva, Frédéric Bequet, Fanny Escudié, Derry Mercer, Adrien Saliou, Eric Chatelain, John M. Kelly, Josephine Abi-Ghanem",
+      "journal": "Communications Biology",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s42003-026-11251-3",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79305-4",
+      "title": "Pangenome-based design of a multi-epitope vaccine candidate against Streptococcus pasteurianus with computational evaluation of TLR1–TLR2 interaction",
+      "authors": "Waad A. Aljohani",
+      "journal": "Scientific Reports",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79305-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77793-y",
+      "title": "Vaginal microbiota composition, inflammation, and preterm birth vary by HIV status and ethnicity in a UK pregnancy cohort",
+      "authors": "Emily Watters, Rachael Quinlan, Ann Smith, Heather Ferguson, Despoina Chrysostomou, Julian R. Marchesi, David A. MacIntyre, Yun S. Lee, Monica Campos, Marko Storch, Phillip R. Bennett, Graham P. Taylor, Charlotte-Eve Short",
+      "journal": "Scientific Reports",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77793-y",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
     },
     {
       "doi": "10.1038/s41598-026-77319-6",
@@ -59,6 +110,74 @@
       "link": "https://doi.org/10.1038/s41598-026-75427-x",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-03T09:42:32.271292+00:00"
+    },
+    {
+      "doi": "10.1038/s41591-026-04737-4",
+      "title": "Heterogeneity of microbiome responses to menopausal hormone therapy among perimenopausal women",
+      "authors": "Chen Chen, Lilan Hao, Wei Xie, Ruiyi Tang, Ruochun Guo, Zhibo Zhang, Jie Li, Deyu Liang, Minjuan Jin, Zheng Zheng, Chunxia Yin, Zhumei Sheng, Xiaoyin Hu, Chunfang Ha, Chunlin Xu, Zhe Zhang, Qiulong Yan, Liang Xiao, Shaoqiao Zhang, Xin Jin, Xun Xu, Huanming Yang, Jian Wang, Xiaomin Liu, Karsten Kristiansen, Tao Zhang, Rong Chen, Lan Zhu",
+      "journal": "Nature Medicine",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41591-026-04737-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01228-1",
+      "title": "Seasonal dynamics in lettuce phyllosphere microbiota and potential transfer to the human gut",
+      "authors": "Su-A In, Ji-Woo Park, Yeo-Eun Yun, Ye-Eun Lee, Eun-Jin Park, Min-Soo Kim",
+      "journal": "npj Science of Food",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01228-1",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1038/s41514-026-00557-5",
+      "title": "Integrative analysis of brain-age acceleration: health associations and multi-omics profiles",
+      "authors": "Xizeng Zong, Simin Wen, Siqi Xu, Chengliang Yang, Zhaohua Zhu, Han Cen, Jianwei Zhu, Qiuling Du, Yu Li, Jianping Lv, Yan Zhang, Changhai Ding, Guangfeng Ruan",
+      "journal": "npj Aging",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41514-026-00557-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79124-1",
+      "title": "Gut microbiome of children with Autism Spectrum Disorder associates with clinical severity",
+      "authors": "Oscar WH Wong, Suisha Liang, Yuzhou Chen, Ye Peng, Qi Su, Chun Pan Cheung, Yuqi Wu, Whitney Tang, Stephy WS Ho, Holly HL Lo, Angela MW Lam, Sandra SM Chan, Patrick WL Leung, Flora YM Mo, Caroline KS Shea, Carol SW Ho, Ting Fan Leung, Francis KL Chan, Siew C. Ng, Hein M. Tun",
+      "journal": "Nature Communications",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79124-1",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
     },
     {
       "doi": "10.1038/s44324-026-00138-w",
@@ -352,6 +471,23 @@
       "link": "https://doi.org/10.1016/j.molp.2026.09.011",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
+    },
+    {
+      "doi": "10.1016/j.molcel.2026.10.031",
+      "title": "Gut microbiota modulation of regulatory DNA elements revealed by massively parallel functional characterization",
+      "authors": "Chadmirah Zaratiana, Yiamunaa M, Yong-An Lee, Agnes Bee Leng Ong, Tiffany Z.Y. Liu, Suet Mei Crystal Low, Shi Min Samantha Chang, Shaun Tan, Dayang Nurul Asyiqin Mustafa, Adheet Ganesh, Xuling Chang, Xiu Qi Koh, Sen Hee Tay, Wei Jie Jonathan Lee, Jian-Min Yuan, Chiea Chuen Khor, Woon-Puay Koh, Rajkumar Dorajoo, Yang E. Li, Kazuyuki Kasahara, Torsten Wuestefeld, Poshen B. Chen",
+      "journal": "Molecular Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.molcel.2026.10.031",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-03T20:31:14.259804+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.118082",
