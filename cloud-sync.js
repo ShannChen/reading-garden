@@ -88,7 +88,9 @@
     if(cached){const saved=JSON.parse(cached);if(!core.valid(saved.data))throw Error('Invalid saved sync state');base=saved.data;revision=saved.revision;}
     else {initial=await remote();if(ticket!==generation)return;base=copy(initial.data);revision=initial.revision;local=core.merge(core.empty(),local,initial.data).data;}
     if(ticket!==generation)return;
+    window.ReadingGardenIdeas?.flush();
     local=core.merge(initialLocal,snapshot(),local,'local').data;
+    window.ReadingGardenIdeas?.discard();
     // Browser-only records remain separate until the user explicitly imports them.
     storageNamespace=namespace;active=true;paused=false;
     for(const id of ['editor','ideaEditor'])el(id).close();editing=null;ideaEditing=null;window.ReadingGardenPeople?.close();
@@ -99,6 +101,7 @@
   async function handleSession(next){
     const nextId=next?.user?.id||'';
     if(nextId!==(session?.user?.id||'')){
+      window.ReadingGardenIdeas?.flush();window.ReadingGardenIdeas?.discard();
       generation++;active=false;paused=false;clearTimeout(timer);base=core.empty();revision=0;
       session=next;namespace=nextId?'reading-garden-owner-'+nextId:'';metaKey=namespace+':sync-base';storageNamespace=namespace;
       for(const id of ['editor','ideaEditor'])el(id).close();editing=null;ideaEditing=null;window.ReadingGardenPeople?.close();
@@ -183,6 +186,7 @@
   };
   el('cloudNow').onclick=()=>sync(true);
   el('cloudLogout').onclick=async()=>{
+    window.ReadingGardenIdeas?.flush();
     if(busy){toast('Sync is in progress. Try again in a moment.');return;}
     if(active&&!core.equal(snapshot(),base)&&!confirm('Some changes have not synced. They remain saved on this device. Sign out anyway?'))return;
     const {error}=await client.auth.signOut({scope:'local'});if(error)toast('Could not sign out. Please try again.');
