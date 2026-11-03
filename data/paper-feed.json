@@ -1,12 +1,65 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-02T22:48:48.586105+00:00",
+  "checkedAt": "2026-11-03T09:42:32.271292+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44383-026-00042-8",
+      "title": "Comparative assessment of genomic, phenomic, and metabolomic prediction models in biparental grapevine breeding populations",
+      "authors": "Clémentine Borrelli, Louise Delannoy-Pawlowski, Hadrien Chepca, Marcos Calcaterra, Elsa Chedid, Guillaume Arnold, Vincent Dumas, Raymonde Baltenweck, Alessandra Maia-Grondard, Philippe Hugueney, Didier Merdinoglu, Éric Duchêne, Komlan Avia",
+      "journal": "npj Science of Plants",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s44383-026-00042-8",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-03T09:42:32.271292+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77319-6",
+      "title": "Shotgun proteomics differentiates COPD from asthma patients, smokers, and non-smoking controls: a pilot exploratory study",
+      "authors": "Tatiane Martins Lima Crosara Bastos, Luciana Oliveira e Silva, Bianca Uliana Picolo, Hebreia Oliveira Almeida-Souza, Mario Machado Martins, Robinson Sabino-Silva, Dave Singh, Thulio Marquez Cunha",
+      "journal": "Scientific Reports",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77319-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-03T09:42:32.271292+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75427-x",
+      "title": "Gaussian Boson Sampling for efficient dense subgraph identification in omic-driven gene networks during anthropogenic methane emission",
+      "authors": "Kin Tung Michael Ho, Ching-Jui Lai, Giin Yu Amy Tan, Po-Heng Lee",
+      "journal": "Scientific Reports",
+      "published": "2026-11-03",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75427-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-03T09:42:32.271292+00:00"
+    },
     {
       "doi": "10.1038/s44324-026-00138-w",
       "title": "Roadmap for inferring metabolic regulation using multiomics, machine learning, and genome-scale modeling",
@@ -571,6 +624,23 @@
       "link": "https://doi.org/10.1016/j.isci.2026.117433",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.celrep.2026.118194",
+      "title": "The enemy of my friend is … my friend? Host phage-microbiome symbiosis: An unexpected story of mutualism and betrayal",
+      "authors": "Angela Xu, William B. Ludington",
+      "journal": "Cell Reports",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.celrep.2026.118194",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-03T09:42:32.271292+00:00"
     },
     {
       "doi": "10.1016/j.cell.2026.10.016",
@@ -11946,43 +12016,6 @@
         "epitranscriptomics"
       ],
       "link": "https://doi.org/10.1038/s41467-026-75963-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65471-y",
-      "title": "Sex differences in fecal and urinary metabolome and gut microbiome in a tauopathy mouse model of Alzheimer’s disease",
-      "authors": "Doris Janoušová, Petra Tomášová, Miroslava Kacířová, Lenka Maletínská, Helena Marešová, Blanka Šedivá, Marie Heczková, Nikola Ďásková, Ištván Modos, Monika Cahová, Helena Pelantová, Andrea Palyzová, Jana Michailidu, Olga Maťátková, Marek Kuzma, Irena Jarošová Kolouchová",
-      "journal": "Scientific Reports",
-      "published": "2026-08-04",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65471-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76292-y",
-      "title": "Multi-omics integration unravels four molecular subgroups of corticotroph pituitary neuroendocrine tumours with distinct clinicopathological features",
-      "authors": "Matthias Dottermusch, Alice Ryba, Antonia Gocke, Temor Rafiq, Celina Soltwedel, Tasja Lempertz, Linus Haberbosch, Simone Schmid, Luis Gustavo Perez-Rivas, Marily Theodoropoulou, Nesrin Uksul, Ulrich J. Knappe, Leonille Schweizer, Wolfgang Saeger, Jakob Matschke, Mateusz Bujko, Ulrich Schüller, Markus Glatzel, Jörg Flitsch, Franz L. Ricklefs, Julia E. Neumann",
-      "journal": "Nature Communications",
-      "published": "2026-08-04",
-      "year": "2026",
-      "tags": [
-        "Proteomics",
-        "Multiomics"
-      ],
-      "groups": [
-        "proteomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76292-y",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
