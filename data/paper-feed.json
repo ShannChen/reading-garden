@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-03T20:31:14.259804+00:00",
+  "checkedAt": "2026-11-04T09:28:47.129569+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -454,6 +454,23 @@
       "link": "https://doi.org/10.1038/s41538-026-01224-5",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.omtn.2026.103170",
+      "title": "RNA Modifications in Cancer Therapy Resistance: Mechanisms and Therapeutic Targeting",
+      "authors": "Ying Feng, Jun Zhang, Jing Yu",
+      "journal": "Molecular Therapy Nucleic Acids",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1016/j.omtn.2026.103170",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-04T09:28:47.129569+00:00"
     },
     {
       "doi": "10.1016/j.molp.2026.09.011",
@@ -12047,113 +12064,6 @@
       "link": "https://doi.org/10.1038/s41467-026-76422-6",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1126/scitranslmed.aee3263",
-      "title": "Fecal microbiome transplant in food allergy in humans and mice identifies a role for bile acid metabolites in oral tolerance",
-      "authors": "Rima Rachid, Monica Martinez-Blanco, Gavin A. Kuziel, Emmanuel Stephen-Victor, Mathieu Groussin, Askarbek Orakov, George Russell, Le Thanh Tu Nguyen, Mathilde Poyet, Zhussipbek Mukhatayev, Christina S. K. Yee, Sultan Albuhairi, Rayan Kteish, Ebla Abdel Rahman, Farida Abi Farraj, Ziwei Wang, Suzanne Dahlberg, Morgan Ryan, Meghan Fitzgerald, Wendy Elverson, John J. Lee, Lynda Schneider, Andrew MacGinnitie, Elena Crestani, Dianna Queheillalt, Elizabeth Burke-Roberts, Jonathan Watson, Ryan J. Elliott, Wing Fei Wong, Majdi Osman, Robert Voyksner, Elizabeth Hohmann, Curtis Huttenhower, Eric Alm, Seth Rakoff-Nahoum, Talal A. Chatila",
-      "journal": "Science Translational Medicine",
-      "published": "2026-08-05",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1126/scitranslmed.aee3263",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s42003-026-10723-w",
-      "title": "Integrative multiomic analysis identifies transcription factors and target proteins in renal cell carcinoma",
-      "authors": "Surya B. Chhetri, Timothy D. Winter, Mitchell J. Machiela, Kevin M. Brown, Alexis Battle, Mark P. Purdue, Stephen J. Chanock, Diptavo Dutta",
-      "journal": "Communications Biology",
-      "published": "2026-08-05",
-      "year": "2026",
-      "tags": [
-        "Proteomics",
-        "Multiomics"
-      ],
-      "groups": [
-        "proteomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s42003-026-10723-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64947-1",
-      "title": "Comprehensive NMR metabolomic profiling reveals a pro-atherogenic signature in psoriasis",
-      "authors": "A. Ottas, M. Karu, L. Ilves, E. R. Tars-Hurt, P. Ilvest, L. Raam, A. Kalbus, O. Taul, A. Kosenkranius, K.-L. Eskla, T. Traks, K. Kingo",
-      "journal": "Scientific Reports",
-      "published": "2026-08-05",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64947-1",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-08042-0",
-      "title": "Subtype-specific impacts of H1N1 and H3N2 influenza viruses on gut microbiota and serum metabolome in Bama miniature pigs",
-      "authors": "Chengyi Qi, Bin Fu, Cuilian Yu, Mingshuai Shen, Shumin Chen, Yongan Wang, Kezhou Wang, Zhao Wang",
-      "journal": "Scientific Data",
-      "published": "2026-08-05",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-08042-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41586-026-10884-y",
-      "title": "The Virtual Tissues foundation model resolves spatial proteomics across scales",
-      "authors": "Johann Wenckstern, Eeshaan Jain, Benedikt von Querfurth, Yexiang Cheng, Kiril Vasilev, Matteo Pariset, Phil F. Cheng, Petros Liakopoulos, Olivier Michielin, Andreas Wicki, Gabriele Gut, Charlotte Bunne",
-      "journal": "Nature",
-      "published": "2026-08-05",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41586-026-10884-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75963-0",
-      "title": "Structural Characterization of Native RNA Polymerase II Transcription Complexes and Nucleosomes in Drosophila melanogaster",
-      "authors": "Natalie L. Venette-Smith, Rishi K. Vishwakarma, Varun Venkatakrishnan, Roberta Dollinger, Josie Schultz, Paul Babitzke, Ganesh Anand, David S. Gilmour, Jean-Paul Armache, Katsuhiko S. Murakami",
-      "journal": "Nature Communications",
-      "published": "2026-08-05",
-      "year": "2026",
-      "tags": [
-        "Proteomics",
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "proteomics",
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75963-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
