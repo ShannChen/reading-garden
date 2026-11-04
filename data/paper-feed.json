@@ -1,12 +1,131 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-04T09:28:47.129569+00:00",
+  "checkedAt": "2026-11-04T20:51:00.258288+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-79071-3",
+      "title": "Correction: Protein yogurt and whey protein produce comparable muscle gains, but divergent microbiome shifts during strength training in older adults",
+      "authors": "Matías Monsalves-Álvarez, Paulina Calderón-Romero, Thomas Hayes-Ortiz, Sofía Bobadilla, Francisco Sánchez, Claudio Pérez de Tudela, Yildy Utreras-Mendoza, Cristian Campos, Álvaro Reyes, José Gómez, Badir Zara, Carlos Sepúlveda, Rodrigo Troncoso, Paulina Correa-Burrows, Christian González-Billault, Felipe A Court, Marcelo Flores-Opazo, Denisse Valladares-Ide",
+      "journal": "Scientific Reports",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79071-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78382-9",
+      "title": "Transcriptomic and metabolomic responses of Botrytis cinerea under L-carvone fumigation",
+      "authors": "Zhaoyu Ren, Qisen Lu, Chunling Yang, Weichen You, Chen Wang, Yanan Zhi, Lijun Chen",
+      "journal": "Scientific Reports",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78382-9",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-77872-0",
+      "title": "Urinary microbiota in patients with urolithiasis: a comparison of cohorts from Taiwan and South Korea",
+      "authors": "Hsiang Ying Lee, Chun Kai Chang, Wen-Jeng Wu, Deng‐Chyang Wu, Sung Yong Cho",
+      "journal": "Scientific Reports",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77872-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-69435-0",
+      "title": "AI-integrated multi-omics fusion for precision cardiovascular diagnostics",
+      "authors": "Shihui Xiao, Dengfeng Gao",
+      "journal": "Scientific Reports",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-69435-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
+    {
+      "doi": "10.1038/s41586-026-11220-0",
+      "title": "Microbiome-wide PheWAS links gut microbial SNVs to health and exposures",
+      "authors": "Daoming Wang, Archontis Goumagias, Sergio Andreu-Sánchez, Haoran Peng, Angel J. Ruiz-Moreno, Daria V. Zhernakova, Tim Krempel, Yue Zhang, Jiafei Wu, Alexander Kurilshikov, Ranko Gacesa, Godfrey S. Temba, Vesla I. Kullaya, Lifelines Cohort Study, Human Functional Genomics Project, Ramnik J. Xavier, Quirijn de Mast, Leo A. B. Joosten, Niels P. Riksen, Joost H. W. Rutten, Mihai G. Netea, Serena Sanna, Cisca Wijmenga, Rinse K. Weersma, Alexandra Zhernakova, Jingyuan Fu",
+      "journal": "Nature",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41586-026-11220-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01217-4",
+      "title": "Multi-omics analyses unveil the molecular mechanism involving significant bioactive substances of sea buckthorn at various growth years",
+      "authors": "Lichao He, Meng Li, Xuewei Shi, Ruhan A, Gentu Ge, Yanzi Xiao, Yan Zhao, Yushan Jia, Shuai Du",
+      "journal": "npj Science of Food",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01217-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01187-1",
+      "title": "Association between gut microbiome signature and blood pressure in children: findings from a Chinese cohort study",
+      "authors": "Mengxue Chen, Xiaoyu Wang, Yujie Xu, Jingyuan Xiong, Guo Cheng",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01187-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
     {
       "doi": "10.1038/s44383-026-00042-8",
       "title": "Comparative assessment of genomic, phenomic, and metabolomic prediction models in biparental grapevine breeding populations",
