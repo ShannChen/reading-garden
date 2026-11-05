@@ -1,12 +1,48 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-04T20:51:00.258288+00:00",
+  "checkedAt": "2026-11-05T09:38:27.886233+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44488-026-00023-x",
+      "title": "Quantifying the human visual exposome with vision language models",
+      "authors": "Christian Rominger, Andreas R. Schwerdtfeger, Malay Gaherwar Singh, Dimitri Khudyakow, Elizabeth A. M. Michels, Fabian Wolf, Jakob Nikolas Kather, Magdalena Katharina Wekenborg",
+      "journal": "Communications AI & Computing",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1038/s44488-026-00023-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-05T09:38:27.886233+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c07743",
+      "title": "Multi-Omics Gut Microbiome Species Communities and Functional Modules Linking Metal Exposures to Children’s Neurodevelopmental Health in a Canadian Birth Cohort",
+      "authors": "Yidan Zhang, Yike Shen, Yihan Fan, Anthony Gagnon, Virginie Gillet, Jonathan Posner, Jean-Philippe Bellenger, Andrea Baccarelli, Larissa Takser, Feng Gao",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c07743",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-05T09:38:27.886233+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-79071-3",
       "title": "Correction: Protein yogurt and whey protein produce comparable muscle gains, but divergent microbiome shifts during strength training in older adults",
@@ -658,6 +694,23 @@
       "link": "https://doi.org/10.1016/j.isci.2026.118069",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.118038",
+      "title": "Farm exposure is associated with human milk immune profile and microbiota",
+      "authors": "Mary Hannah Swaney, Olivia Rae Steidl, Anastasia Tackett, Samantha Fye, Kristine E. Lee, Irene M. Ong, Casper Bendixsen, Gretchen Spicer, James DeLine, James E. Gern, John Lucey, Christine M. Seroogy, Lindsay R. Kalan, Anne Marie Singh",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.118038",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T09:38:27.886233+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.118028",
@@ -12111,77 +12164,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-76526-z",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64319-9",
-      "title": "Microbiome and resistome of the European bison (Bison bonasus)",
-      "authors": "Nele Lechleiter, Judith Wedemeyer, Jessica Junker, Magdalena Wilczek, Daniel Klich, Wanda Olech, Krzysztof Anusz, Timo Homeier-Bachmann, Anna Didkowska",
-      "journal": "Scientific Reports",
-      "published": "2026-08-06",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64319-9",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01049-2",
-      "title": "Dietary Perilla frutescens modulates host defense and reshapes stomach microbiota against AHPND in black tiger shrimp (Penaeus monodon)",
-      "authors": "Athiya Azzahidah, Ramya Kumar, Shu-Wen Cheng, Yen-Chun Lee, Chiung-Cheng Huang, Shih-Ming Lin, Hsiao-Pei Lu, Yu-Hung Lin, Han-Ching Wang",
-      "journal": "npj Science of Food",
-      "published": "2026-08-06",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01049-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01086-5",
-      "title": "Multi-omics analyses of facial skin in acne identify distinct microbial and metabolic features at lesional and non-lesional sites",
-      "authors": "Yang Chen, Britta De Pessemier, Tyler Myers, Simone Zuffa, Jasmine Zemlin, Sayeh Pourhamidi, Susi Elaine Dal Belo, Anthony Woo, Magali Moreau, Jolanta Idkowiak-Baldys, Iveta Kalcheva, Paulo Wender Portal Gomes, Chloe Lieng, Samia Almoughrabie, Anna Dan Nguyen, Josh L. Espinoza, Christopher Dupont, Tom Van de Wiele, Chris Callewaert, Daniel McDonald, Karsten Zengler, Andrew Bartko, Luc Aguilar, Philippe Barbarat, Richard L. Gallo, Pieter C. Dorrestein, Qian Zheng, Amina Bouslimani, Se Jin Song, Rob Knight",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-06",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01086-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76422-6",
-      "title": "Retraction Note: Proteomic characterization identifies clinically relevant subgroups of soft tissue sarcoma",
-      "authors": "Shaoshuai Tang, Yunzhi Wang, Rongkui Luo, Rundong Fang, Yufeng Liu, Hang Xiang, Peng Ran, Yexin Tong, Mingjun Sun, Subei Tan, Wen Huang, Jie Huang, Jiacheng Lv, Ning Xu, Zhenmei Yao, Qiao Zhang, Ziyan Xu, Xuetong Yue, Zixiang Yu, Sujie Akesu, Yuqin Ding, Chen Xu, Weiqi Lu, Yuhong Zhou, Yingyong Hou, Chen Ding",
-      "journal": "Nature Communications",
-      "published": "2026-08-06",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76422-6",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
