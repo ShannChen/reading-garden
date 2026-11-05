@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-05T09:38:27.886233+00:00",
+  "checkedAt": "2026-11-05T21:07:48.074597+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/science.aen6718",
+      "title": "Erratum for the Report “Gut microbiome influences efficacy of PD-1–based immunotherapy against epithelial tumors”",
+      "authors": "",
+      "journal": "Science",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1126/science.aen6718",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
     {
       "doi": "10.1038/s44488-026-00023-x",
       "title": "Quantifying the human visual exposome with vision language models",
@@ -23,6 +40,142 @@
       "link": "https://doi.org/10.1038/s44488-026-00023-x",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-05T09:38:27.886233+00:00"
+    },
+    {
+      "doi": "10.1038/s44161-026-00899-z",
+      "title": "Isoform-resolved sequencing uncovers a hidden code inside RNA methylation changes in heart failure",
+      "authors": "Federica Accornero",
+      "journal": "Nature Cardiovascular Research",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s44161-026-00899-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1038/s44161-026-00898-0",
+      "title": "Comprehensive m6A landscape from direct RNA sequencing reveals SYNPO2L RNA isoform regulation mechanisms in heart failure",
+      "authors": "Zhihan Xu, Chi Tian, Jun Wei Chan, Wikie Tew, Galvin L. Q. Tang, Rujie Qi, Zheyi Tao, Daniel G. R. Yim, Liang Cui, Danh Anh Tuan Luu, Junedh M. Amrute, Vinay Tergaonkar, Chang Jie Mick Lee, Roger S. Y. Foo",
+      "journal": "Nature Cardiovascular Research",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s44161-026-00898-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75000-6",
+      "title": "Gut microbiota dysbiosis exacerbates radiation brain injury after FLASH whole-brain irradiation: insights from the microbiota-gut-brain axis",
+      "authors": "Yayi Yuan, Nan Wang, Lin Li, Chao Li, Juancong Dong, Jiao Cheng, Yufeng Guo, Xuhong Dang, Kang Ning",
+      "journal": "Scientific Reports",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75000-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1038/s41596-026-01437-8",
+      "title": "Personalization and evaluation of human whole-body metabolic models and community microbiome models using Persephone",
+      "authors": "Bram Nap, Tim Hensen, Wiley Barton, Anna Sheehy, Jonas Widder, Sandeep Chenna, Ines Thiele",
+      "journal": "Nature Protocols",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41596-026-01437-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1038/s41592-026-03298-1",
+      "title": "DIRAC makes complex spatial multi-omic data simpler to analyze",
+      "authors": "",
+      "journal": "Nature Methods",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41592-026-03298-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1038/s41592-026-03282-9",
+      "title": "Integration and annotation of spatial multi-omic data with DIRAC",
+      "authors": "Chang Xu, Shibo Liu, Yang Heng, Chen Yang, Yuan Cao, Junbin Gao, Songren Wei, Dongmei Jia, Diyan Liang, Yong Ma, Siok-Bian Ng, Hechen Li, Xiuwei Zhang, Yun Gong, Hui Shen, Hongwen Deng, Ao Chen, Xun Xu, Sha Liao, Qinghua Jiang, Boxiang Liu",
+      "journal": "Nature Methods",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41592-026-03282-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1038/s41591-026-04744-5",
+      "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+      "authors": "Naoyoshi Nagata, Ran Wei, Gen Kaneko, Suguru Nishijima, Ryo Aoki, Yasushi Kojima, Yoshiaki Tamura, Masaya Sugiyama, Takashi Hamabata, Toru Nakagawa, Kohjiro Ueki, Mitsuru Ohsugi, Yumiko Nakanishi, Ayumi Ito, Shohei Asami, Ryo Suzuki, Michael Kuhn, Peer Bork, Masahira Hattori, Hiroshi Ohno, Naomi Uemura",
+      "journal": "Nature Medicine",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41591-026-04744-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1038/s41588-026-02821-6",
+      "title": "Multiscale multimodal integration of spatial omics through a deep generative model with CORAL",
+      "authors": "Siyu He, Matthew Bieniosek, Jingtian Zhou, Dongyuan Song, Benjamin Chidester, Zhenqin Wu, Joseph Boen, Guiping Wang, Ahmed O. Kaseb, Padmanee Sharma, Alexandro E. Trevino, James Zou",
+      "journal": "Nature Genetics",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41588-026-02821-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
     },
     {
       "doi": "10.1021/acs.est.6c07743",
@@ -42,6 +195,23 @@
       "link": "https://doi.org/10.1021/acs.est.6c07743",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-05T09:38:27.886233+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c06150",
+      "title": "From Nontargeted Analysis to Toxicity: Revealing the Disinfection Byproduct Exposome",
+      "authors": "Di Zhang, Qiming Shen, Tingting Zhao, Xing-Fang Li",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-11-05",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c06150",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
     },
     {
       "doi": "10.1038/s41598-026-79071-3",
@@ -611,6 +781,40 @@
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
     },
     {
+      "doi": "10.1016/j.tim.2026.09.007",
+      "title": "Microbiome sharing and the shift to relational privacy",
+      "authors": "Bianca R.P. Brown, Shannon E. Dahlquist, Andrew D. Miranker",
+      "journal": "Trends in Microbiology",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.tim.2026.09.007",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
+      "doi": "10.1016/j.tibtech.2026.10.007",
+      "title": "Regulatory science for microbiome-based medicines: lessons from Pharmaceuticals and Medical Devices Agency initiatives",
+      "authors": "Ryosuke Kuribayashi, Ayuki Nakano, Miya Kawasaki, Aya Hariu, Akira Sakurai",
+      "journal": "Trends in Biotechnology",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.tibtech.2026.10.007",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
+    },
+    {
       "doi": "10.1016/j.omtn.2026.103170",
       "title": "RNA Modifications in Cancer Therapy Resistance: Mechanisms and Therapeutic Targeting",
       "authors": "Ying Feng, Jun Zhang, Jing Yu",
@@ -660,6 +864,23 @@
       "link": "https://doi.org/10.1016/j.molcel.2026.10.031",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.118141",
+      "title": "Multiomic crosstalk between plasma metabolites and inflammation in IBD via MR and mouse validation",
+      "authors": "Jianing Pei, Changye Lu, Tian Zeng, Yang Zhao, Chen Chen, Jingjing Wang, Yugen Chen, Xiaomin Yuan",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.118141",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-05T21:07:48.074597+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.118082",
