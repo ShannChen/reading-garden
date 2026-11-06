@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-05T21:07:48.074597+00:00",
+  "checkedAt": "2026-11-06T09:31:29.945145+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/sciadv.aec2297",
+      "title": "METTL3-mediated m 6 A modification of DNMT1 enhances ovarian cancer progression",
+      "authors": "Kanchan Kumari, Iván Pérez-Núñez, Aleix Noguera Castells, Raquel Pluvinet, Carlos Peula, Annika Patthey, Ghazala Naz Khan, Kinga Pajdzik, Ángel-Carlos Román, Erik Dassi, Chuan He, Eva Lundin, Manel Esteller, Toni Celià-Terrassa, Francesca Aguilo",
+      "journal": "Science Advances",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aec2297",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-06T09:31:29.945145+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79606-8",
+      "title": "Hepatic transcriptome, intestinal microbiome, and metabolite profiles associated with MASLD, MASH, and fibrosis in patients undergoing bariatric surgery",
+      "authors": "Yasaman Ghorbani, Katherine J.P. Schwenger, Anastasia Teterina, Yuqing Liu, Wendy Lou, Elena M. Comelli, Sandra E. Fischer, Timothy D. Jackson, Allan Okrainec, Johane P. Allard",
+      "journal": "Scientific Reports",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79606-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-06T09:31:29.945145+00:00"
+    },
     {
       "doi": "10.1126/science.aen6718",
       "title": "Erratum for the Report “Gut microbiome influences efficacy of PD-1–based immunotherapy against epithelial tumors”",
@@ -12233,159 +12267,6 @@
       "link": "https://doi.org/10.1038/s41467-026-75862-4",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01626-4",
-      "title": "AI-driven multi-omics integration in cancer research and precision oncology",
-      "authors": "Dorian Bochaton, Nicolas Servant, Hakim Benkirane, Sarah Watson, Julien Vibert",
-      "journal": "npj Precision Oncology",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01626-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66164-2",
-      "title": "Direct RNA sequencing reveals PBMC transcriptome alterations and epitranscriptomic regulations in gestational diabetes mellitus",
-      "authors": "Sarocha Suthon, Saranya Innang, Suavaluk Songlilitchuwong, Nipaporn Teerawattanapong, Ganyalak Chaimaha, Noprada Masuwan, Tassanee Narkdontri, Cheng-Yong Tham, Nicholas Ong, Dittakarn Boriboonhirunsarn, Watip Tangjittipokin",
-      "journal": "Scientific Reports",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66164-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65798-6",
-      "title": "Post-match biochemical signatures and their association with video tracking metrics in elite soccer (football) players using multiplatform targeted metabolomics",
-      "authors": "Íñigo M. Pérez-Castillo, Ricardo Rueda, Jose M. López-Pedrosa, María T. García-Córcoles, Manuel Gutiérrez-Álvarez, Hakim Bouzamondo, José Luis Romero-Béjar, Niko Mihic, Felipe Segura-Ortiz, Alberto Valiño-Marques, Daniel Rosado-Velázquez, Jaime Abascal-Castañón, José López-Chicharro",
-      "journal": "Scientific Reports",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65798-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65540-2",
-      "title": "Single-vesicle heterogeneity and uptake of extracellular vesicles affected by oncogenic KRAS and BRAF revealed by proteomics and nano-flow cytometry",
-      "authors": "Chul Won Seo, Shinwon Chae, Sang Soo Kim, Yoon-Hee Shin, Hyun-Mee Park, Eun-Young Lee, Yong Song Gho, Seongho Ryu, Dongsic Choi",
-      "journal": "Scientific Reports",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65540-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65401-y",
-      "title": "Multi-omics Mendelian randomization and experimental validation suggest MAPK3 as a potential drug target for knee osteoarthritis",
-      "authors": "Jinlei Li, Yongsheng Xu, Yongjin Wei, Zenghong Li, Juan Xia, Hong Yin, Weitong Liu, Jingfan Yang, Guang Yang, Ying Deng, Ming Zhou",
-      "journal": "Scientific Reports",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65401-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-63946-6",
-      "title": "Stability of microbiome-derived fatty acids in self-collected stool and blood matrices",
-      "authors": "Matteo Domenico Marsiglia, Michele Dei Cas, Silvia Bianchi, Elisa Borghi",
-      "journal": "Scientific Reports",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-63946-6",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-61813-y",
-      "title": "Effects of Amazonian oils on the jejunal microbiota and performance of Japanese quail (Coturnix coturnix japonica)",
-      "authors": "Dezirrê Raiane Costa, Filipe Antônio Monteiro, Gabriela Hernandes Cangianelli, Alexander Alexandre de Almeida, Jean Kaique Valentim, Angélica de Souza Khatlab, Rafael Reis de Rezende, Júlio Cesar Polonio, Felipe Cichetti Mokwa, Arele Arlindo Calderano, Simone Eliza Facioni Guimarães, Maria Fernanda de Castro Burbarelli, Erika Rosendo de Sena Gandra, Rodrigo Garofállo Garcia, Eliane Gasparino",
-      "journal": "Scientific Reports",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-61813-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-08049-7",
-      "title": "A dataset of RNA-seq and proteomic profiling of splenic CD4⁺ T cells in DSS-induced colitis mice treated with Akkermansia muciniphila",
-      "authors": "Mingshan Jiang, Yongbin Jia, Zhen Zeng, Chunxiang Ma, Jiaxin Li, Jiangmei Pang, Lili Li, Yan Li, Hao Lin, Hu Zhang",
-      "journal": "Scientific Data",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-08049-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76526-z",
-      "title": "Systematic profiling of growth interactions in human gut microbiome species",
-      "authors": "Bolor Buyanbadrakh, Elisabeth Baland, Paula Lambeck, Lucía Pérez Jiménez, Sandra M. Holmberg, Fabiola Puértolas-Balint, Eric Toh, Sun Nyunt Wai, Bjoern O. Schroeder, Madeleine Ramstedt, Shaochun Zhu, André Mateus",
-      "journal": "Nature Communications",
-      "published": "2026-08-07",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76526-z",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
