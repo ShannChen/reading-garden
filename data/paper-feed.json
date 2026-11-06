@@ -1,12 +1,65 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-06T09:31:29.945145+00:00",
+  "checkedAt": "2026-11-06T20:28:28.960784+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/sciadv.aei7541",
+      "title": "Reciprocal control of genome instability and RNA processing in cancer: Mechanisms and therapeutic opportunities",
+      "authors": "Mariachiara Grieco, Federica Giugliano, Ernesto Guccione, Ilio Vitale, Matteo Cereda",
+      "journal": "Science Advances",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aei7541",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-06T20:28:28.960784+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aeg5123",
+      "title": "Spatial proteomics reveals lipid droplet reorganization in symbiotic Paramecium bursaria cells",
+      "authors": "Yan-Jun Chen, Md Mostafa Kamal, Chuan-Chih Hsu, Jun-Yi Leu",
+      "journal": "Science Advances",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aeg5123",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-06T20:28:28.960784+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aef6060",
+      "title": "Combating drug-resistant Aeromonas veronii : Multiomics revealed the antibacterial mechanism of resveratrol",
+      "authors": "Ping Ouyang, Minmin Wang, Xiaonan Li, Fen Chen, Bowen Liu, Kaiyi Yin, Nan Zhang, Jiyang Xiao, Chenhui Zhang, Yi Geng, Xiaoli Huang, Defang Chen",
+      "journal": "Science Advances",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aef6060",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-06T20:28:28.960784+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aec2297",
       "title": "METTL3-mediated m 6 A modification of DNMT1 enhances ovarian cancer progression",
@@ -40,6 +93,40 @@
       "link": "https://doi.org/10.1038/s41598-026-79606-8",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-06T09:31:29.945145+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75589-8",
+      "title": "Comparative analysis of short-read and full-length 16S rRNA sequencing for circulating microbiota profiling in cirrhosis",
+      "authors": "Lingxuan Ren, Jingxiang Zhang, Xiaoshuang Xu, Lei Chen, Xincheng Yang, Júlio Ken Matsubara, Yuyao Tian, Xiaoxu Jin, Menghui Xu, Chunyang Zhu, Xueqiang Zhang, Wei Qi, Zhijie Feng",
+      "journal": "Scientific Reports",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75589-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-06T20:28:28.960784+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78994-9",
+      "title": "Microbiome-derived proline dipeptides underpin improved nitrogen utilization efficiency in dairy cattle",
+      "authors": "Wenlingli Qi, Xinpeng Chen, Hongran Guo, Senlin Zhu, Zhixuan Zhou, Liwei Xu, Qiongxian Yan, Feng-Fei Gu, Jian-Xin Liu, Hui-Zeng Sun",
+      "journal": "Nature Communications",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78994-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-06T20:28:28.960784+00:00"
     },
     {
       "doi": "10.1126/science.aen6718",
@@ -813,6 +900,23 @@
       "link": "https://doi.org/10.1038/s41538-026-01224-5",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.xcrm.2026.103137",
+      "title": "Effects of dietary carbohydrate-to-fat ratio on the gut microbiome following weight loss",
+      "authors": "Arushi Kohli, Bridget M. Hron, Cara B. Ebbeling, Mildred M. Reyes, Matthew Quealy, Thomas Gurry, Le Thanh Tu Nguyen, Eric J. Alm, David S. Ludwig, Yanjia J. Zhang",
+      "journal": "Cell Reports Medicine",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xcrm.2026.103137",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-06T20:28:28.960784+00:00"
     },
     {
       "doi": "10.1016/j.tim.2026.09.007",
