@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-06T20:28:28.960784+00:00",
+  "checkedAt": "2026-11-07T08:56:13.363520+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-80104-0",
+      "title": "Multi-omics and machine learning reveal a senescence-associated lipid-metabolic macrophage phenotype driving immunosuppression and poor prognosis in colorectal cancer",
+      "authors": "Bo Zhao, Yonghe Liao, Shengxin Ye, Neng Jiang, Wenqi Lu, Yongjun Chen, Wenjin Chen, Yubin Huang, Biqi Li",
+      "journal": "Scientific Reports",
+      "published": "2026-11-07",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80104-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-07T08:56:13.363520+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79017-9",
+      "title": "Relationships between reproductive steroids, glandular microbiota, and volatile chemical signals in naturally cycling versus hormonally contracepted female lemurs",
+      "authors": "Nicholas M. Grebe, Marylène Boulet, Sally L. Bornbusch, Lucy Greenwald, Kristin Dimac-Stohl, Jackson H. Grady, Christine M. Drea",
+      "journal": "Scientific Reports",
+      "published": "2026-11-07",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79017-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-07T08:56:13.363520+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aei7541",
       "title": "Reciprocal control of genome instability and RNA processing in cancer: Mechanisms and therapeutic opportunities",
@@ -110,6 +144,23 @@
       "link": "https://doi.org/10.1038/s41598-026-75589-8",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-06T20:28:28.960784+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01225-4",
+      "title": "Multi-omics reveals the biosynthesis and pharmacological targets of antioxidant polyphenols in Polygonatum cyrtonema",
+      "authors": "Xiurong Xu, Shiming Cheng",
+      "journal": "npj Science of Food",
+      "published": "2026-11-06",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01225-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-07T08:56:13.363520+00:00"
     },
     {
       "doi": "10.1038/s41467-026-78994-9",
@@ -12286,91 +12337,6 @@
       "link": "https://doi.org/10.1038/s41598-026-64538-0",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43856-026-01832-y",
-      "title": "Author Correction: Comprehensive cross-cohort analysis reveals global gut microbiome signatures of celiac disease",
-      "authors": "Peter J. Prendergast, Haig V. Bishop, Craig W. Herbold, Elena F. Verdu, Renwick C. J. Dobson, Andrew S. Day, Olivia J. Ogilvie",
-      "journal": "Communications Medicine",
-      "published": "2026-08-08",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s43856-026-01832-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-15T23:06:44.396695+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65499-0",
-      "title": "Untargeted metabolomics reveals thrombus-associated and systemic metabolic alterations in acute ischemic stroke",
-      "authors": "Ivana Karmelić, Ivana Rubić, Dina Rešetar Maslov, Dominik Prišćan, Josipa Kuleš, Katarina Starčević, Zdravka Poljaković Skurić, David Ozretić, Mia Jurilj Sajko, Vladimir Mrljak, Dragana Fabris",
-      "journal": "Scientific Reports",
-      "published": "2026-08-08",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65499-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-08066-6",
-      "title": "Integrated Chromatin Accessibility and Transcriptomic Profiles Across Replicative Senescence Stages in Human Colonic Fibroblasts",
-      "authors": "Wonbeen Kang, Young-Kyoung Lee, Min Jung Sung, Dong Jun Kim, June Heo, So Young Kim, Seong Hwan Park, Jin Ho Bae, Afzal Rana Aqeel, Hyoung Rae Lee, Ji Hee Cha, Hyun Seo Yu, Tae Jun Park, Soon Sang Park",
-      "journal": "Scientific Data",
-      "published": "2026-08-08",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-08066-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76537-w",
-      "title": "Quantitative RNA modification mapping by mass spectrometry with isobaric tags and nucleobase fragment analysis",
-      "authors": "Junzhou Wu, Jingjing Sun, Yifeng Yuan, Shiuan Nee Goh, Hazel Chay, Dwijapriya, Valérie de Crécy-Lagard, Peter C. Dedon",
-      "journal": "Nature Communications",
-      "published": "2026-08-08",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76537-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75862-4",
-      "title": "Targeting m6A writer METTL3 with engineered nanovesicles reduces neuroinflammation in vitro and in vivo",
-      "authors": "Liangfu Xu, Yuanwei Pan, Guanjun Li, Peng She, Qian-Fang Meng, Zhigang Liu, Lang Rao",
-      "journal": "Nature Communications",
-      "published": "2026-08-08",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75862-4",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
