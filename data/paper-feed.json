@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-07T08:56:13.363520+00:00",
+  "checkedAt": "2026-11-07T18:52:06.698694+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,40 @@
       "firstSeen": "2026-11-07T08:56:13.363520+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-79717-2",
+      "title": "¹H-NMR-based metabolomics reveals amino acid metabolic preferences and a shared metabolic axis across osteoblastic cell lines",
+      "authors": "Zhonglin Liu, Zulka Ziblim, Churdsak Jaikang, Giatgong Konguthaithip, Chalermpong Saenjum, Jetsada Ruangsuriya",
+      "journal": "Scientific Reports",
+      "published": "2026-11-07",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79717-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-07T18:52:06.698694+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79131-8",
+      "title": "Association of the dietary index for gut microbiota with all-cause and cardiovascular mortality in cardiovascular–kidney–metabolic syndrome: an NHANES-based study",
+      "authors": "Jun Sun, Zhanhong Chen, Xinlu Wu, Zhiyuan He, Tingting Bao, Linhua Zhao, Xiaolin Tong",
+      "journal": "Scientific Reports",
+      "published": "2026-11-07",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79131-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-07T18:52:06.698694+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-79017-9",
       "title": "Relationships between reproductive steroids, glandular microbiota, and volatile chemical signals in naturally cycling versus hormonally contracepted female lemurs",
       "authors": "Nicholas M. Grebe, Marylène Boulet, Sally L. Bornbusch, Lucy Greenwald, Kristin Dimac-Stohl, Jackson H. Grady, Christine M. Drea",
@@ -40,6 +74,23 @@
       "link": "https://doi.org/10.1038/s41598-026-79017-9",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-07T08:56:13.363520+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08487-3",
+      "title": "Time-resolved transcriptomic and proteomic profiling of cisplatin-induced nephrotoxicity in mouse models",
+      "authors": "Hongchao Zhou, Fan Yang, Jingnan Huang, Huaban Liang, Mengyun Hou, Junhui Chen, Jiexuan Li, Jigang Wang, Hualin Ma, Lingyun Dai",
+      "journal": "Scientific Data",
+      "published": "2026-11-07",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08487-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-07T18:52:06.698694+00:00"
     },
     {
       "doi": "10.1126/sciadv.aei7541",
@@ -1053,6 +1104,23 @@
       "link": "https://doi.org/10.1016/j.molcel.2026.10.031",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.118143",
+      "title": "RNA-binding proteome dynamics following ischemia-reperfusion injury in the kidney",
+      "authors": "Steffen Hinrichs, Katrin Bohl, Sophie Haselhorst, Francisco Lopes, Bernhard Wagener, Heike Göbel, Stefan Müller, Simon-Richard Finke, Tobias Neumann, Berit Pollmann, Constantin Rieger, Pia Rademann, Thomas Benzing, Peter Boor, Bernhard Schermer, Roman-Ulrich Müller, Michael Ignarski",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.118143",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-07T18:52:06.698694+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.118141",
