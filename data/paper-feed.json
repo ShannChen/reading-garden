@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-07T23:41:51.697446+00:00",
+  "checkedAt": "2026-11-08T09:11:31.940655+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -12387,23 +12387,6 @@
       ],
       "link": "https://doi.org/10.1038/s41522-026-01118-0",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64538-0",
-      "title": "Chronic oral exposure to didecyldimethylammonium chloride induces region-specific intestinal dysfunction and gut microbiota remodeling in mice",
-      "authors": "Akira Aoki, Jonathan P. Jacobs, Yoshinori Okamoto",
-      "journal": "Scientific Reports",
-      "published": "2026-08-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64538-0",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
