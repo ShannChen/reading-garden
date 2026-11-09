@@ -1,12 +1,80 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-09T09:56:15.922808+00:00",
+  "checkedAt": "2026-11-09T23:28:24.437906+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-79617-5",
+      "title": "Exploratory multiomics analysis of biologic switching in perianal fistulizing Crohn’s disease highlights oxidative phosphorylation-related pathways",
+      "authors": "Xiaoli Fang, Xiaoshan Wang, Yuqi Wang, Jianfang Wu, Yuanyuan Zhang, Rui Ding, Ran Tang, Weiye Zhu, Ziqin Huang, Deng Zhang, Chenyang Liu, Yunsong Li, Ming Li",
+      "journal": "Scientific Reports",
+      "published": "2026-11-09",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79617-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-09T23:28:24.437906+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-75786-5",
+      "title": "Dual-niche profiling identifies maternal gut microbiome differences associated with intermittent preventive treatment with sulfadoxine-pyrimethamine, with no detectable association in vaginal communities",
+      "authors": "Daniel Amoako-Sakyi, Ana Paula Schaan, Enos Amoako Oduro, Edwin Yangnemenga, Yvonne Ayerki Nartey, Sebastian Ken-Amoah, Emmanuel Okai, Yaw Asante Awuku, George Adjei, Kwadwo Asamoah Kusi, Samuel Essien-Baidoo, Yaovi Mahuton Gildas Hounmanou, Mathieu Groussin, Mathilde Poyet, Dorcas Obiri-Yeboah",
+      "journal": "Scientific Reports",
+      "published": "2026-11-09",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-75786-5",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-09T23:28:24.437906+00:00"
+    },
+    {
+      "doi": "10.1038/s41586-026-11375-w",
+      "title": "Author Correction: Histone H3 trimethylation at lysine 36 guides m6A RNA modification co-transcriptionally",
+      "authors": "Huilin Huang, Hengyou Weng, Keren Zhou, Tong Wu, Boxuan Simen Zhao, Mingli Sun, Zhenhua Chen, Xiaolan Deng, Gang Xiao, Franziska Auer, Lars Klemm, Huizhe Wu, Zhixiang Zuo, Xi Qin, Yunzhu Dong, Yile Zhou, Hanjun Qin, Shu Tao, Juan Du, Jun Liu, Zhike Lu, Hang Yin, Ana Mesquita, Celvie L. Yuan, Yueh-Chiang Hu, Wenju Sun, Rui Su, Lei Dong, Chao Shen, Chenying Li, Ying Qing, Xi Jiang, Xiwei Wu, Miao Sun, Jun-Lin Guan, Lianghu Qu, Minjie Wei, Markus Müschen, Gang Huang, Chuan He, Jianhua Yang, Jianjun Chen",
+      "journal": "Nature",
+      "published": "2026-11-09",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41586-026-11375-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-09T23:28:24.437906+00:00"
+    },
+    {
+      "doi": "10.1038/s41581-026-01144-3",
+      "title": "Genomic and multi-omic insights into the heterogeneity of diabetic kidney disease",
+      "authors": "Jae Hyun Bae, Raymond J. Kreienkamp, Mathula Muhundan, Miriam S. Udler, Soo Heon Kwak",
+      "journal": "Nature Reviews Nephrology",
+      "published": "2026-11-09",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41581-026-01144-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-09T23:28:24.437906+00:00"
+    },
     {
       "doi": "10.1021/acs.est.6c09761",
       "title": "Multiomics: TBPH Enhances Thyroid Hormone Synthesis via PIS-LPI-ERK-EGR1 Pathway",
@@ -1023,6 +1091,40 @@
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
     },
     {
+      "doi": "10.1016/j.xplc.2026.101936",
+      "title": "Integrated multi-omics analysis reveals carbon metabolic reprogramming as a mechanism of drought resistance in hybrid rice",
+      "authors": "Wei Ding, Junguo Bi, Shoujun Chen, Zhen Wu, Zhigang Liao, Lin Huang, Lijun Luo, Liang Chen, Xumin Zhang",
+      "journal": "Plant Communications",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xplc.2026.101936",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-09T23:28:24.437906+00:00"
+    },
+    {
+      "doi": "10.1016/j.xplc.2026.101927",
+      "title": "Plant immune dysregulation disrupts microbe-induced growth promotion and microbiome compatibility",
+      "authors": "Baoda Han, Anamika Rawat, Sabiha Parween, Waad Alzayed, Huoming Zhang, Rabeaa S. Alkhateeb, Tanja Schmidt, Yao Wu, Carlos Penaloza Rodriguez, Maged M. Saad, Heribert Hirt",
+      "journal": "Plant Communications",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xplc.2026.101927",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-09T23:28:24.437906+00:00"
+    },
+    {
       "doi": "10.1016/j.xcrm.2026.103137",
       "title": "Effects of dietary carbohydrate-to-fat ratio on the gut microbiome following weight loss",
       "authors": "Arushi Kohli, Bridget M. Hron, Cara B. Ebbeling, Mildred M. Reyes, Matthew Quealy, Thomas Gurry, Le Thanh Tu Nguyen, Eric J. Alm, David S. Ludwig, Yanjia J. Zhang",
@@ -1480,6 +1582,23 @@
       "link": "https://doi.org/10.1016/j.cell.2026.10.016",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1016/j.ccell.2026.09.014",
+      "title": "Multiomic characterization of microsatellite-stable colorectal cancer reveals distinct biology and targetable vulnerabilities",
+      "authors": "Anguraj Sadanandam, Alice C. O’Farrell, Ian S. Miller, P.S. Hari, Adrian Lärkeryd, Tom Venken, Ingrid Arijs, Eugenia R. Zanella, Francesca Cottino, Marika Pinnelli, Valentina Vurchio, Elena Grassi, Aoife Nolan, Niraj Khemka, Michael Fichtner, Gift Nyamundanda, Zak Kinsella, Maxime Meylan, Liam P. Shiels, Colum Connolly, Janick Selves, Nadja M. Meindl-Beinker, Raquel Comas Navarro, Elena Elez, Frank A. Lincoln, Chanthirika Ragulan, Orla Casey, Verena Murphy, Josep Tabernero, Walter Kolch, Matthias P. Ebert, Raquel Perez-Lopez, Florence Monville, Dirk Fey, Joern Lewin, Jonathan Briody, Kathleen Bennett, Enrique J. Arenas, Joaquín Arribas, David Matallanas, Darran P. O’Connor, Alexander Kel, Catherine Sautès-Fridman, Wolf H. Fridman, Bart Ghesquière, Paolo Nuciforo, Diether Lambrechts, Livio Trusolino, Jochen H.M. Prehn, Rodrigo Dienstmann, Annette T. Byrne, Julie Meilleroux, Deborah A. McNamara, Ray McDermott, Marvin Lim, Mary O’Reilly, Brian Bird, Lisa Stack, Lucia Moloney, Patrick G. Morris, Keith Egan, Maciej Milewski, Lars Scheuer, Joachim Behringer, Georg Bolz, Ramon Salazar, Cristina Santos, Andrea Ruiz",
+      "journal": "Cancer Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.ccell.2026.09.014",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-22T18:38:25.811848+00:00"
     },
     {
       "doi": "10.1038/s41698-026-01752-z",
@@ -5703,23 +5822,6 @@
       "link": "https://doi.org/10.1016/j.cell.2026.07.022",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.ccell.2026.09.014",
-      "title": "Multiomic characterization of microsatellite-stable colorectal cancer reveals distinct biology and targetable vulnerabilities",
-      "authors": "Anguraj Sadanandam, Alice C. O’Farrell, Ian S. Miller, P.S. Hari, Adrian Lärkeryd, Tom Venken, Ingrid Arijs, Eugenia R. Zanella, Francesca Cottino, Marika Pinnelli, Valentina Vurchio, Elena Grassi, Aoife Nolan, Niraj Khemka, Michael Fichtner, Gift Nyamundanda, Zak Kinsella, Maxime Meylan, Liam P. Shiels, Colum Connolly, Janick Selves, Nadja M. Meindl-Beinker, Raquel Comas Navarro, Elena Elez, Frank A. Lincoln, Chanthirika Ragulan, Orla Casey, Verena Murphy, Josep Tabernero, Walter Kolch, Matthias P. Ebert, Raquel Perez-Lopez, Florence Monville, Dirk Fey, Joern Lewin, Jonathan Briody, Kathleen Bennett, Enrique J. Arenas, Joaquín Arribas, David Matallanas, Darran P. O’Connor, Alexander Kel, Catherine Sautès-Fridman, Wolf H. Fridman, Bart Ghesquière, Paolo Nuciforo, Diether Lambrechts, Livio Trusolino, Jochen H.M. Prehn, Rodrigo Dienstmann, Annette T. Byrne, Julie Meilleroux, Deborah A. McNamara, Ray McDermott, Marvin Lim, Mary O’Reilly, Brian Bird, Lisa Stack, Lucia Moloney, Patrick G. Morris, Keith Egan, Maciej Milewski, Lars Scheuer, Joachim Behringer, Georg Bolz, Ramon Salazar, Cristina Santos, Andrea Ruiz",
-      "journal": "Cancer Cell",
-      "published": "2026-10",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1016/j.ccell.2026.09.014",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-22T18:38:25.811848+00:00"
     },
     {
       "doi": "10.1016/j.ccell.2026.08.019",
