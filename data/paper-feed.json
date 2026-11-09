@@ -1,12 +1,31 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-08T23:48:51.453689+00:00",
+  "checkedAt": "2026-11-09T09:56:15.922808+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1021/acs.est.6c09761",
+      "title": "Multiomics: TBPH Enhances Thyroid Hormone Synthesis via PIS-LPI-ERK-EGR1 Pathway",
+      "authors": "Jiawei Yang, Qiong Zhang, Haichen Zhang, Tao Zhou, Xiaohe Li, Qianqian Xiao, Qinghe Meng, Jianjun Jiang, Weidong Hao, Xuetao Wei",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-11-09",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c09761",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-09T09:56:15.922808+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-80104-0",
       "title": "Multi-omics and machine learning reveal a senescence-associated lipid-metabolic macrophage phenotype driving immunosuppression and poor prognosis in colorectal cancer",
@@ -12318,74 +12337,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41467-026-75116-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64669-4",
-      "title": "Phase II Non-Randomised Trial of Oral Chlorophyllin in Haemorrhagic Cystitis from Radiation Therapy (CLARITY Trial): clinical and quality-of-life outcomes with exploratory proteomics",
-      "authors": "Gagan Prakash, Vikram Gota, Deepak Sharma, Supriya Chopra, Mahendra Pal, Amandeep Arora, Ramya Nagarajan, Ankit Misra, Ganesh Bakshi, Vedang Murthy, Priyamvada Maitre, Lavanya Gurram, Prachi Mittal, Raghavendra S. Patwardhan, Rahul Checker, Mahendra Joshi, Shivkumar Madki, Saurabh Gupta, Sharath Kumar, Shraddha Bonkar Dethe, Priyal Gawad, Sanjana Ghadge, Santosh Menon, Tapan Ghanty, Sadhana Kannan, Rajendra Badwe, Pankaj Chaturvedi, Sudeep Gupta, Santosh K. Sandur",
-      "journal": "Scientific Reports",
-      "published": "2026-08-10",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64669-4",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41588-026-02692-x",
-      "title": "Prevalence and chronology of colibactin-associated mutational processes and their microbiome spectra in Japanese colorectal cancer",
-      "authors": "Satoshi Shiba, Shinichi Yachida, Sayaka Mizutani, Yasushi Totoki, Hiromi Nakamura, Natsuko Hama, Norikatsu Miyoshi, Yasuhito Arai, Mihoko Saito-Adachi, Hirokazu Kimura, Yoshito Hayashi, Hiroyuki Takamaru, Koji Tanaka, Rie Hayashi, Hirofumi Rokutan, Shoko Ikuta, Yukihide Kanemitsu, Yuichiro Doki, Hidetoshi Eguchi, Satoshi Hattori, Yutaka Saito, Takuji Yamada, Tatsuhiro Shibata",
-      "journal": "Nature Genetics",
-      "published": "2026-08-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41588-026-02692-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41564-026-02442-z",
-      "title": "Antisense transcription reveals disease-associated adaptations in the human gut microbiome",
-      "authors": "Marie-Madlen Pust, Ahmed M. T. Mohamed, Martin Stražar, Aranzazu Arias-Rojas, Edward Cunningham-Oakes, Eric M. Brown, Amanda Bumber, Gleb Pishchany, Chenhao Li, Ashwin N. Ananthakrishnan, Alistair C. Darby, Hera Vlamakis, Damian R. Plichta, Ramnik J. Xavier",
-      "journal": "Nature Microbiology",
-      "published": "2026-08-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41564-026-02442-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01118-0",
-      "title": "A global-scale characterisation of the neuroactive potential of the human gut microbiome",
-      "authors": "Benjamin Valderrama, Thomaz F. S. Bastiaanssen, Aonghus Lavelle, Gerard Clarke, John F. Cryan",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-10",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01118-0",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
