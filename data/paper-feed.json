@@ -1,12 +1,83 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-09T23:28:24.437906+00:00",
+  "checkedAt": "2026-11-10T10:01:55.638364+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-79724-3",
+      "title": "Integrated intracellular and secretome proteomics reveal compartment-specific responses to plasma-treated water solutions combined with doxorubicin in hypopharyngeal carcinoma",
+      "authors": "Giorgia Stornelli, Tiziano Cassiani, Vito Carlo Alberto Caponio, Susana Bravo, Anna Martina Battaglia, Anna Giulia Ruggieri, Michele Sallese, Carmen Pena, Flavia Biamonte, Michele Casiello, Eloisa Sardella, Vittoria Perrotti",
+      "journal": "Scientific Reports",
+      "published": "2026-11-10",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79724-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-10T10:01:55.638364+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79314-3",
+      "title": "Pre-conceptional microbiome alterations in women with recurrent spontaneous abortion: a pilot study",
+      "authors": "Stefanie Dietz-Ziegler, Anna Herbst, Jessica Ruehle, Jennifer Müller, Ulrich Schoppmeier, Dominik Wolff, Christian F. Poets, Jana Hauke, Jürgen G. Okun, Melanie Henes, Christian Gille, Natascha Köstlin-Gille",
+      "journal": "Scientific Reports",
+      "published": "2026-11-10",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79314-3",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-10T10:01:55.638364+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78752-3",
+      "title": "Comparing the effects of HIIT and MICT on body composition, cardiometabolic health, and gut microbiota in prediabetes: a randomized controlled trial",
+      "authors": "Xinbei Chen, Yuling Liang, Lijuan Wu, Yan Zheng, Jinlian Ye, Xuling Ni, Liming Chen, Xiaojin Zhuang, Qiaoling Hu, Lianhua Yin",
+      "journal": "Scientific Reports",
+      "published": "2026-11-10",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78752-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-10T10:01:55.638364+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78726-5",
+      "title": "Integrating metabolomics and proteomics uncovers core carbon metabolic dysregulation in Wilms’ tumor in children",
+      "authors": "Meng Sun, Yingyu Zhang, Pin Zhang, Jing Gao, Xueyi Qin, Mengxin Zhang, Man Zhang, Jianying Ren, Xianwei Zhang, Wancun Zhang",
+      "journal": "Scientific Reports",
+      "published": "2026-11-10",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Proteomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78726-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-10T10:01:55.638364+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-79617-5",
       "title": "Exploratory multiomics analysis of biologic switching in perianal fistulizing Crohn’s disease highlights oxidative phosphorylation-related pathways",
@@ -1463,6 +1534,23 @@
       "link": "https://doi.org/10.1016/j.isci.2026.117883",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-01T09:23:45.046638+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.117879",
+      "title": "Ovarian function via gut microbiota-driven serotonin dysregulation in zebrafish",
+      "authors": "Nengzheng Wang, Ting Dong, Kan Yu, Yushu Qiu, Donghao Lyu, Bei Li, Xiaogang Yu, Chao hui Jing, Xianting Jiao",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.117879",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-10T10:01:55.638364+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.117850",
@@ -12356,91 +12444,6 @@
       "link": "https://doi.org/10.1038/s41467-026-76131-0",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66014-1",
-      "title": "Proteome-wide immunoinformatics and molecular dynamics reveal a multi-epitope vaccine construct targeting Nipah virus glycoprotein G",
-      "authors": "Hassan H. Alhassan, Aseel Awad Alsaidan, Abdulaziz Ibrahim Alzarea, Sami I. Alzarea, Omar Awad Alsaidan, Ayman Ali Mohammed Alameen, Fahda Alsharief, Muhammad Tahir ul Qamar",
-      "journal": "Scientific Reports",
-      "published": "2026-08-11",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66014-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-59061-1",
-      "title": "Integrated single-cell transcriptomic, proteomic, and tissue-level analysis defines cancer-associated fibroblast programs in pseudomyxoma peritonei",
-      "authors": "Felix De Vuyst, Matilda Usai, Niké Guilbert, Eva Blondeel, Pekka Rappu, Jyrki Heino, Sándor Dedeyne, Wim Ceelen, Ligia Craciun, Liesbeth Ferdinande, Pieter Demetter, An Hendrix, Olivier De Wever",
-      "journal": "Scientific Reports",
-      "published": "2026-08-11",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-59061-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01126-0",
-      "title": "Meranzin hydrate from Fructus Aurantii restores brain-gut homeostasis through a microbiota-dependent butyrate-ghrelin axis",
-      "authors": "Runze Zhou, Chendong Xu, Zhifang Cai, Yating Wang, Haotian Qian, Zhan Gao, Hailou Zhang, Xi Huang",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-11",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01126-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76375-w",
-      "title": "Dissecting root-specific non-conventional effector-triggered immunity and its role in defense and shifting the microbiome",
-      "authors": "Xianli Tang, Kaixiang Guan, Pengfei Meng, Tianyi Shao, Yong Zhang, Weilun Yin, Xinli Xia, Yi Song",
-      "journal": "Nature Communications",
-      "published": "2026-08-11",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76375-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-75116-3",
-      "title": "Blood metabolomic signatures linking air pollution to lung cancer in the Cancer Prevention Studies",
-      "authors": "Sabrina S. Chow, Ying Wang, Jeremy A. Sarnat, W. Ryan Diver, Emily L. Deubler, Douglas I. Walker, Ziyin Tang, Aparna H. Kesarwala, C. Arden Pope III, Michael Jerrett, Michelle C. Turner, Donghai Liang",
-      "journal": "Nature Communications",
-      "published": "2026-08-11",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-75116-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
