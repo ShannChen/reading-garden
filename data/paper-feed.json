@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-10T20:54:23.132654+00:00",
+  "checkedAt": "2026-11-11T09:35:30.375957+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-79384-3",
+      "title": "Effects of extraction solvent and sample volume on metabolomic and lipidomic analyses of the human vitreous body",
+      "authors": "Geoffroy Mortemousque, Claire Simon, Camille Dupuy, Nattie Lecolier, Antoine Lefèvre, Jean-Baptiste Delaye, Adeline Oury, Jérémy Monteiro, Jean-Baptiste Ducloyer, Gabrielle Chicheri, Pierre-Jean Pisella, Adriana Ferguson, Quentin Colas, Sophie Arsène, Patrick Emond, Lydie Nadal-Desbarats, Hélène Blasco, Raoul Kanav Khanna",
+      "journal": "Scientific Reports",
+      "published": "2026-11-11",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79384-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-11T09:35:30.375957+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01185-3",
+      "title": "Gut microbiota-derived butyrate orchestrates Astragalus Polysaccharide-mediated colitis remission via macrophage immunometabolic reprogramming",
+      "authors": "Dengke Yao, Xiaojian Zhu, Jianyong Xiong, Hongtao Wan, Zhijiang Huang, Min Peng, Xujie Deng, Yu He, Jiangfeng Yin, Xianwu Zhang, Yanglin Chen, Xiaoyuan Yang, Rongfeng Song, Dan Liu, Bo Yi",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-11-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01185-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-11T09:35:30.375957+00:00"
+    },
     {
       "doi": "10.1038/s42255-026-01655-0",
       "title": "Microbiota-based modulation of intratumoral cholesterol metabolism for colorectal cancer treatment",
@@ -1432,6 +1466,23 @@
       "link": "https://doi.org/10.1016/j.molcel.2026.10.031",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1016/j.isci.2026.118146",
+      "title": "A proteomic map of B cell activation and its shaping by mTORC1, MYC and iron",
+      "authors": "Olivia J. James, Linda V. Sinclair, Nadejda Lefter, Anna A.C. Brock, Fiamma Salerno, Alejandro J. Brenes, Hanif J. Khameneh, Matteo Pecoraro, Greta Guarda, Andrew J.M. Howden",
+      "journal": "iScience",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.isci.2026.118146",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-11T09:35:30.375957+00:00"
     },
     {
       "doi": "10.1016/j.isci.2026.118143",
@@ -12440,129 +12491,6 @@
       "link": "https://doi.org/10.1038/s41467-026-76440-4",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s44400-026-00087-7",
-      "title": "Toward personalized medicine in AD/ADRD through genetic-exposome dementia risk assessments",
-      "authors": "Paulina Tolosa-Tort, Meri Okorie, Aadrita Chatterjee, Ana I. Boeriu, Rakshya U. Sharma, Shea J. Andrews",
-      "journal": "npj Dementia",
-      "published": "2026-08-12",
-      "year": "2026",
-      "tags": [
-        "Exposomics"
-      ],
-      "groups": [
-        "exposomics"
-      ],
-      "link": "https://doi.org/10.1038/s44400-026-00087-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66673-0",
-      "title": "Integrative multi-omics analysis of metabolite–protein interaction networks across different stages of coronary heart disease",
-      "authors": "Xilun Tan, Yuanxiaoxue Gao, Jia Wang, Xuesen Wang, Yishuang Pan, Mingyu Chen, Meili Gao, Ming Zhang, Chenhao Zhang, Pinsheng Ding",
-      "journal": "Scientific Reports",
-      "published": "2026-08-12",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Proteomics",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "proteomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66673-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66355-x",
-      "title": "Distribution of major periodontopathic bacterial species and oral microbiome characteristics in children with type 1 diabetes across mixed and permanent dentitions",
-      "authors": "Yuya Ito, Ami Kaneki, Masashi Ogawa, Mariko Kametani, Shuma Hamaguchi, Yuto Shoji, Tatsuya Akitomo, Meiko Tachikake, Chieko Mitsuhata, Kazuhiko Nakano, Ryota Nomura",
-      "journal": "Scientific Reports",
-      "published": "2026-08-12",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66355-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41586-026-10922-9",
-      "title": "Maternal influences on infant gut microbiome and health",
-      "authors": "Trishla Sinha, Siobhan Brushett, Asier Fernández-Pato, Sanzhima Garmaeva, Sergio Andreu-Sánchez, Johanne E. Spreckels, Cyrus A. Mallon, Nataliia Kuzub, Milla Brandao Gois, Jiafei Wu, Marloes Kruk, Soesma A. Jankipersadsing, Jackie A. M. Dekens, Ranko Gacesa, Arnau Vich Vila, Corinna Bang, Corine Perenboom, Andre Franke, Hanne L. P. Tytgat, Sara Colombo Mottaz, Lilian Peters, Ank de Jonge, Henkjan J. Verkade, Morris A. Swertz, Cisca Wijmenga, Folkert Kuipers, Sicco Scherjon, Jan Sikkema, Aline B. Sprikkelman, Marlou L. A. de Kroon, Jelmer R. Prins, Sanne J. Gordijn, Gerard H. Koppelman, Sijmen A. Reijneveld, Lifelines NEXT cohort study, Milla F. Brandão-Gois, Marcel Bruinenberg, Anouk Marsman, Jingyuan Fu, Moran Yassour, Alexander Kurilshikov, Alexandra Zhernakova",
-      "journal": "Nature",
-      "published": "2026-08-12",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41586-026-10922-9",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41531-026-01518-1",
-      "title": "Proteomics identified carboxypeptidase E as a novel biomarker for synucleinopathies",
-      "authors": "Mingyue Luan, Luhua Wei, Jing Chen, Fan Li, Kai Li, Wei Sun, Fuze Zheng, Li Zhu, Zhaoxia Wang, Wei Wu, Yunchuang Sun, Jianwen Deng",
-      "journal": "npj Parkinson's Disease",
-      "published": "2026-08-12",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41531-026-01518-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41525-026-00602-y",
-      "title": "Multi-omic re-analysis increases diagnostic yield in individuals with Cornelia de Lange syndrome",
-      "authors": "Ramakrishnan Rajagopalan, Tejas Jammihal, Tanaya Jadhav, Maninder Kaur, Kaitlyn Szot, Justin J. Blair, Sarah E. Raible, Laura K. Conlin, Ian D. Krantz",
-      "journal": "npj Genomic Medicine",
-      "published": "2026-08-12",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41525-026-00602-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76131-0",
-      "title": "ARID5A RNA-binding coordinates microglial defense and ferroptosis in iPSC-derived models",
-      "authors": "Danielle M. Schafer, Steven M. Blue, Shuhao Xu, Orel Mizrahi, Maya L. Gosztyla, Lena Street, Katherine L. Rothamel, Hema Kopalle, Samuel B. Landry, Elijah Khalil F. Rosales, Rebecca H. Tien, Sara Elmsaouri, Nicole G. Coufal, Marko Jovanovic, Gene W. Yeo",
-      "journal": "Nature Communications",
-      "published": "2026-08-12",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76131-0",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
