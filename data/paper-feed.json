@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-11T09:35:30.375957+00:00",
+  "checkedAt": "2026-11-11T21:27:39.656749+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,42 @@
       "link": "https://doi.org/10.1038/s41598-026-79384-3",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-11T09:35:30.375957+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78012-4",
+      "title": "Integrated multi-omics prioritizes small-molecule candidates for the N-cadherin HAV site and reveals endpoint-level toxicity trade-offs",
+      "authors": "Mohsen Sisakht, Jafar Fallahi, Vahab Alamdari-Palang, Vahid Razban, Mohammad Hassani, Mahmoud Hassani, Sahar Khajeh",
+      "journal": "Scientific Reports",
+      "published": "2026-11-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78012-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-11T21:27:39.656749+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08679-x",
+      "title": "Multi-omics (transcriptome & 16S rRNA) of M. rosenbergii larvae and water microbiota under probiotics",
+      "authors": "Zhi Li, Shunkai Yin, Miuying Cai, Lihai Ye, Zhenglong Xia, Bobo Li, Jiongying Yu, Qiang Sheng, Qiongying Tang, Quanxin Gao, Shaokui Yi",
+      "journal": "Scientific Data",
+      "published": "2026-11-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08679-x",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-11T21:27:39.656749+00:00"
     },
     {
       "doi": "10.1038/s41522-026-01185-3",
@@ -1332,6 +1368,23 @@
       "firstSeen": "2026-11-09T23:28:24.437906+00:00"
     },
     {
+      "doi": "10.1016/j.xgen.2026.101367",
+      "title": "Single-cell multiomics across nine mammals reveals cell-type-specific regulatory conservation in the brain",
+      "authors": "Ashlyn G. Anderson, Brianne B. Rogers, Erin A. Barinaga, Jacob M. Loupe, Elisa WaMaina, S. Quinn Johnston, Henry L. Limbo, Elizabeth A. Gardner, Anna J. Moyer, Amanda L. Gross, Douglas R. Martin, Summer B. Thyme, Lindsay F. Rizzardi, Richard M. Myers, Gregory M. Cooper, J. Nicholas Cochran",
+      "journal": "Cell Genomics",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xgen.2026.101367",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
+    },
+    {
       "doi": "10.1016/j.xcrm.2026.103161",
       "title": "Microbiome-antibiotic-immune interactions influence mortality in preterm infant gut microbiota-humanized gnotobiotic mice",
       "authors": "Drew J. Schwartz, Galen G. Wong, Kate E. Wardenburg, Isabel R. Erickson, Jessica Tung, Jie Ning, Lingxia Zhao, Nitan Shalon, Alaric W. D’Souza, Aura Ferreiro, Rachel B. Silverstein, Terence S. Crofts, Carla Hall-Moore, Meghan A. Wallace, John I. Robinson, Jeffrey P. Henderson, Carey-Ann D. Burnham, Barbara B. Warner, Phillip I. Tarr, Gautam Dantas",
@@ -1449,6 +1502,23 @@
       "link": "https://doi.org/10.1016/j.molp.2026.09.011",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
+    },
+    {
+      "doi": "10.1016/j.molcel.2026.11.006",
+      "title": "RBM33 is a unique m6A RNA-binding protein that regulates ALKBH5 demethylase activity and substrate selectivity",
+      "authors": "Fang Yu, Allen C. Zhu, Shun Liu, Boyang Gao, Yuzhi Wang, Nelli Khudaverdyan, Chunjie Yu, Qiong Wu, Yunhan Jiang, Jikui Song, Lingtao Jin, Chuan He, Zhijian Qian",
+      "journal": "Molecular Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1016/j.molcel.2026.11.006",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-11T21:27:39.656749+00:00"
     },
     {
       "doi": "10.1016/j.molcel.2026.10.031",
@@ -1840,6 +1910,40 @@
       "link": "https://doi.org/10.1016/j.immuni.2026.10.004",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1016/j.chom.2026.08.016",
+      "title": "The rice circadian clock orchestrates the rhizosphere microbiome to synchronize nitrogen supply with plant demand",
+      "authors": "Mengke Du, Shunan Zhang, Lei Zheng, Huiwen Lv, Haotian Xue, Guanzhong Shou, Yi Jin, Hongye Qu, Gen Li, Aiqun Chen, Jun Wu, Guohua Xu",
+      "journal": "Cell Host & Microbe",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.chom.2026.08.016",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.celrep.2026.118286",
+      "title": "Alternaria leaf spot-induced phyllosphere microbiota and metabolite interact to combat leaf spot disease",
+      "authors": "Wei Zhang, Ricardo A.R. Machado, Ting-Ting Zhang, Xiang-Yu Zhang, Hao-Ran Li, Rui Yuan, Wen-Xue Zhang, Xue Guo, Tong Si, Kai Sun, Yong Jia, Xiao-Gang Li, Chuan-Chao Dai",
+      "journal": "Cell Reports",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.celrep.2026.118286",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-11T21:27:39.656749+00:00"
     },
     {
       "doi": "10.1016/j.celrep.2026.118194",
@@ -9594,23 +9698,6 @@
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
-      "doi": "10.1016/j.xgen.2026.101367",
-      "title": "Single-cell multiomics across nine mammals reveals cell-type-specific regulatory conservation in the brain",
-      "authors": "Ashlyn G. Anderson, Brianne B. Rogers, Erin A. Barinaga, Jacob M. Loupe, Elisa WaMaina, S. Quinn Johnston, Henry L. Limbo, Elizabeth A. Gardner, Anna J. Moyer, Amanda L. Gross, Douglas R. Martin, Summer B. Thyme, Lindsay F. Rizzardi, Richard M. Myers, Gregory M. Cooper, J. Nicholas Cochran",
-      "journal": "Cell Genomics",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1016/j.xgen.2026.101367",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
       "doi": "10.1016/j.xgen.2026.101322",
       "title": "Polygenic risk scores and plasma proteomics identify cancer-related proteins and trans-regulated protein networks",
       "authors": "Diptavo Dutta, Jingning Zhang, Xinyu Guo, Rosamund Quint, Mary R. Rooney, Mitchell J. Machiela, Kevin M. Brown, Josef Coresh, Alexis J. Battle, Elizabeth A. Platz, Nilanjan Chatterjee",
@@ -10121,23 +10208,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.cmet.2026.04.016",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.chom.2026.08.016",
-      "title": "The rice circadian clock orchestrates the rhizosphere microbiome to synchronize nitrogen supply with plant demand",
-      "authors": "Mengke Du, Shunan Zhang, Lei Zheng, Huiwen Lv, Haotian Xue, Guanzhong Shou, Yi Jin, Hongye Qu, Gen Li, Aiqun Chen, Jun Wu, Guohua Xu",
-      "journal": "Cell Host & Microbe",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.chom.2026.08.016",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
