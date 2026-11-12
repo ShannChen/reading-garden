@@ -1,12 +1,48 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-11T21:27:39.656749+00:00",
+  "checkedAt": "2026-11-12T09:56:59.684101+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41597-026-08594-1",
+      "title": "Biomedical text corpora for multi-entity recognition in diet-related metabolic syndrome research",
+      "authors": "Antoine D. Lain, Stephanie Go, Alisha Mahmud, Shruti Rajendra, Ainara Cano, Katerina Loupasaki, Georgios Theodoridis, Maider Bizkarguenaga, Yajie Gu, Olga Deda, Ricardo Conde, Nieves Embade, Ángela de Diego, Nerea Burguera, Danai Rossiou, Rubén Gil-Redondo, Domniki Gallou, Itziar Tueros, Rakesh Velmurugan, Vasiliki Gkanali, Mercedes Caro, Petros Pousinis, George Alektoridis, Sara Arranz, Nasos Nikolopoulos, Xingchen Yan, Rebeca Fernández-Carrión, Thomas Rowlands, Donghee Choi, Marek Rei, Chris Cave-Ayland, Adrian D’Alessandro, Tim Beck, Joram M. Posma",
+      "journal": "Scientific Data",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08594-1",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-12T09:56:59.684101+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79474-w",
+      "title": "SIP-enabled multi-omics reveals soil microbiome responses to drought and rehydration",
+      "authors": "Tristan A. Caro, Juan Ibarra Arriaga, Grace Solini, Zahra Shivji, Eli Grossman, Aarushi Jhatro, Bryn Stewart, Xiaojing Fu, Alex L. Sessions, Smruthi Karthikeyan",
+      "journal": "Nature Communications",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79474-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T09:56:59.684101+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-79384-3",
       "title": "Effects of extraction solvent and sample volume on metabolomic and lipidomic analyses of the human vitreous body",
@@ -1944,6 +1980,23 @@
       "link": "https://doi.org/10.1016/j.celrep.2026.118286",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-11T21:27:39.656749+00:00"
+    },
+    {
+      "doi": "10.1016/j.celrep.2026.118265",
+      "title": "Longitudinal dynamics of gut microbiota maturation and its modulators from infancy through childhood",
+      "authors": "Shuang Peng, Jakob Stokholm, Jonathan Thorsen, Jie Jiang, Urvish Trivedi, Xuan Ji Li, Søren Johannes Sørensen",
+      "journal": "Cell Reports",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.celrep.2026.118265",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T09:56:59.684101+00:00"
     },
     {
       "doi": "10.1016/j.celrep.2026.118194",
@@ -12490,76 +12543,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-76696-w",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43856-026-01808-y",
-      "title": "Association between gut microbiota and vascular ageing in a multi-ethnic population in the HELIUS Study",
-      "authors": "Juliana Alexandra Hernández Vargas, Amir Hossein Alizadeh Bahmani, Sara Beigrezaei, Eric P. Moll van Charante, Vicente Artola Arita, Bert-Jan H. van den Born, Max Nieuwdorp, Oscar H. Franco",
-      "journal": "Communications Medicine",
-      "published": "2026-08-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s43856-026-01808-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65377-9",
-      "title": "Comparative evaluation of Saccharomyces, Bacillus, and Lactobacillus as antibiotic alternatives on growth performance, redox balance, and gut microbiota in broilers",
-      "authors": "Ahmed Samy, Hoda Kabary, Hany M. R. Elsherif",
-      "journal": "Scientific Reports",
-      "published": "2026-08-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65377-9",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-08064-8",
-      "title": "An integrated single-cell transcriptomic and microbiome dataset of orbital adipose tissue in thyroid eye disease",
-      "authors": "Xiang Xu, Fei Wang, Weiqi Liu, Haowen Li, Yingyu Wang, Yuan Li, Bing Wang, Mingming Liu, Yang Li",
-      "journal": "Scientific Data",
-      "published": "2026-08-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-08064-8",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76440-4",
-      "title": "The metabolic and anatomical complexity of root microhabitats modulate their interaction with the microbiota",
-      "authors": "Juan P. Frene, Valéria Custódio, Helena Rouco, Sandra Martinez-Jarquin, Yi-Qun Gao, Vincenzo di Bari, Niokhor Bakhoum, Trent R. Northen, Benjamin P. Bowen, Katherine B. Louie, Katerina Velchova, Alexander Ware, Anthony Bishopp, Alvaro Mata, Gabriel Castrillo",
-      "journal": "Nature Communications",
-      "published": "2026-08-13",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76440-4",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
