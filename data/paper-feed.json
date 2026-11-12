@@ -1,12 +1,99 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-12T09:56:59.684101+00:00",
+  "checkedAt": "2026-11-12T21:29:46.773949+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s43587-026-01246-4",
+      "title": "Social determinants of health and the exposome shape aging and dementia across global populations",
+      "authors": "Joaquin Migeot, Natalia Vilor-Tejedor, Sol Fittipaldi, Tavia E. Evans, Eileen M. Crimmins, Olivia Wen, Arcadi Navarro, Arline T. Geronimus, Terrie Edith Moffitt, Carol Brayne, Kristine Yaffe, Agustin Ibanez",
+      "journal": "Nature Aging",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1038/s43587-026-01246-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
+      "doi": "10.1038/s43587-026-01212-0",
+      "title": "Understanding the exposome across the life course to promote healthy aging: consensus recommendations from the Gateway Exposome Coordinating Center",
+      "authors": "Jinkook Lee, Emma Nichols, Sara D. Adar, David Knapp, Samer Atshan, Mauricio Avendano, Ava Bindas, Michael Brauer, Jeffrey R. Brook, Howard H. Chang, Yao-Yi Chiang, HwaJung Choi, Dany Doiron, Sarah Flood, Maya M. Fransz-Myers, Alden L. Gross, Eleanor Hayes-Larson, Birgit Claus Henn, Margaret Hicken, Kayleigh P. Keller, Katrina L. Kezios, Clémence Kieny, Kevin J. Lane, Thomas J. Luben, Erik Meijer, Shrikanth Narayanan, Regina A. Shih, Adam A. Szpiro, Lorna E. Thorpe, David Van Riper, Bas Weerman, Jordan Weiss, Gregory A. Wellenius, Jennifer Weuve",
+      "journal": "Nature Aging",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1038/s43587-026-01212-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
+      "doi": "10.1038/s42003-026-11289-3",
+      "title": "Multi-omics analyses reveal dynamic interactions between DNA methylation and transcriptional regulation during black raspberry ripening",
+      "authors": "Wei-Hsun Hsieh, Yu-Hung Hung, Jian-Hui Zhang, Qirui Cui, Han-Yi Chen, Liang-Peng Lin, Meng-Hsun He, Yen-Ching Wang, Yu-Yu Ho, James Ballington, Gina Fernandez, Penelope Perkins-Veazie, Brandon H. Le, Xu Li, Tzung-Fu Hsieh, Jer-Young Lin",
+      "journal": "Communications Biology",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s42003-026-11289-3",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-80477-2",
+      "title": "Gut microbiota and predicted estrobolome-related changes following multi-strain probiotic supplementation in primary dysmenorrhea",
+      "authors": "Siti Khadijah Kiraman, Izyan Atiqah Zakaria, Loh Sweet Yi Esther, Farisha Alia Norfuad, Nur Azurah Abdul Ghani, Hajar Fauzan Ahmad",
+      "journal": "Scientific Reports",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80477-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-73618-0",
+      "title": "Mult omics analysis reveals the characteristics and changes in gut microbiota, metabolism, and transcription in two breast cancer models",
+      "authors": "Zhi Tian, Zhichao Wang, Yuming Zhang, Xinyu Chen, Xiaojing Zheng, Xue Gao, Yongchun Pan, Ting Yan, Dong Li, Yunfeng Xu, Yuan Li, Pengcui Li, Weidong Zhang, Yi Feng, Zhi Tian, Yin Zuo",
+      "journal": "Scientific Reports",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-73618-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
     {
       "doi": "10.1038/s41597-026-08594-1",
       "title": "Biomedical text corpora for multi-entity recognition in diet-related metabolic syndrome research",
@@ -23,6 +110,57 @@
       "link": "https://doi.org/10.1038/s41597-026-08594-1",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-12T09:56:59.684101+00:00"
+    },
+    {
+      "doi": "10.1038/s41591-026-04712-z",
+      "title": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial",
+      "authors": "Jakob Wirbel, Wael Saber, Michael J. Martens, Jonathan U. Peled, Tessa M. Andermann, Teng Fei, Erin F. Brooks, Boryana Doyle, Nathan B. Pincus, Robert R. Jenq, Merav Bar, Javier Bolaños-Meade, Brandi Bratrude, Saurabh Chhabra, Sung Won Choi, William Clark, Suman R. Das, Hany Elmariah, Mahasweta Gooptu, Shernan G. Holtan, Richard J. Jones, John E. Levine, Brent R. Logan, Monzr M. Al Malki, Hemant S. Murthy, Armin Rashidi, Andrew R. Rezvani, Marcie L. Riches, Lyndsey Runaas, Karamjeet Sandhu, Ashley Spahn, Anthony D. Sung, Marcel R. M. van den Brink, Mary M. Horowitz, Mehdi Hamadani, Leslie S. Kean, Miguel-Angel Perales, Ami S. Bhatt",
+      "journal": "Nature Medicine",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41591-026-04712-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
+      "doi": "10.1038/s41579-026-01387-8",
+      "title": "The soil microbiome in an era of global change",
+      "authors": "",
+      "journal": "Nature Reviews Microbiology",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41579-026-01387-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
+      "doi": "10.1038/s41556-026-02124-2",
+      "title": "The optogenetic tool ASAP acutely inhibits autophagy",
+      "authors": "Payel Mondal, Amanda Cyril, Dana Mamriev, Louis Parham, Igor Wierzbicki, Celina Shen, Ginevra Doglioni, Suzanne Dufrense, Anvita Komarla, David J. Gonzalez, Maximiliano A. D’Angelo, Christina G. Towers",
+      "journal": "Nature Cell Biology",
+      "published": "2026-11-12",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41556-026-02124-2",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
     },
     {
       "doi": "10.1038/s41467-026-79474-w",
@@ -1574,6 +1712,23 @@
       "firstSeen": "2026-11-03T20:31:14.259804+00:00"
     },
     {
+      "doi": "10.1016/j.it.2026.06.001",
+      "title": "Gut microbiome metabolites meet immunometabolism in inflammatory bowel disease",
+      "authors": "Qing Li, Rodrigo de Oliveira Formiga, Harry Sokol",
+      "journal": "Trends in Immunology",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.it.2026.06.001",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
       "doi": "10.1016/j.isci.2026.118146",
       "title": "A proteomic map of B cell activation and its shaping by mTORC1, MYC and iron",
       "authors": "Olivia J. James, Linda V. Sinclair, Nadejda Lefter, Anna A.C. Brock, Fiamma Salerno, Alejandro J. Brenes, Hanif J. Khameneh, Matteo Pecoraro, Greta Guarda, Andrew J.M. Howden",
@@ -1965,6 +2120,23 @@
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
+      "doi": "10.1016/j.cels.2026.101778",
+      "title": "UC Irvine’s BRAIN Initiative Cell Atlas Network (BICAN) Brain Procurement Program for the Center for Multiomic Human Brain Cell Atlas Project",
+      "authors": "Jillian V. Berry, Bryan M. Tran, Ginny Wu, Zhiqun Tan, Elizabeth Mendoza, Miyoung A. Kim, Zeynep Arat, Payton Sho Huai Lin, Lorena Valenzuela, Todd C. Holmes, Anna Virovka, Melina Thaxton, Matthew Nguyen, Sabrina Stein, Victoria Raha Sigaroudi, Alexis De La Rosa, Brianna J. Gawronski, Justine A. Silva, Lourdes Gonzalez, Sierra Wright, Kevin A. Wood, Gabriel K. Hui, Darren Anousaya, Vishwaas Reddy Gangeddula, Noah Gama, Jasmine Gama, Thomas Gross, Blynn G. Bunney, Richard Stein, Pedro Adolfo Sequeira, Firoza Mamdani, Preston M. Cartagena, William E. Bunney, Jerry Lou, Hannah Lui Park, Amanda Wilson, H. Mark Brooks, Virginia Allhusen, John R. Crawford, Jason M. Knight, Bing Ren, Joseph R. Ecker, M. Margarita Behrens, C. Dirk Keene, Craig EL Stark, Elizabeth Head, William H. Yong, Edwin S. Monuki, Xiangmin Xu",
+      "journal": "Cell Systems",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cels.2026.101778",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
       "doi": "10.1016/j.celrep.2026.118286",
       "title": "Alternaria leaf spot-induced phyllosphere microbiota and metabolite interact to combat leaf spot disease",
       "authors": "Wei Zhang, Ricardo A.R. Machado, Ting-Ting Zhang, Xiang-Yu Zhang, Hao-Ran Li, Rui Yuan, Wen-Xue Zhang, Xue Guo, Tong Si, Kai Sun, Yong Jia, Xiao-Gang Li, Chuan-Chao Dai",
@@ -2016,6 +2188,23 @@
       "firstSeen": "2026-11-03T09:42:32.271292+00:00"
     },
     {
+      "doi": "10.1016/j.cell.2026.10.020",
+      "title": "Stepping (hi)stones: Charting a single-cell multiomic path toward understanding the human brain",
+      "authors": "Mattia Zaghi, Yonglong Dang, Gonçalo Castelo-Branco",
+      "journal": "Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.10.020",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
       "doi": "10.1016/j.cell.2026.10.016",
       "title": "Industrialization drives convergent microbiome and host physiological shifts in the human metaorganism",
       "authors": "Mathilde Poyet, Malte Rühlemann, Ana P. Schaan, Yue Ma, Lucas Moitinho-Silva, Eike M. Wacker, Hannah Jebens, Lucas Patel, Le Thanh Tu Nguyen, Alexis Zimmer, Damian Plichta, Daniel McDonald, Christine Stevens, Adwoa Agyei, Mary Y. Afihene, Shadrack O. Asibey, Yaw A. Awuku, Aida S. Badiane, Chris Corzett, Awa Deme, Manuel Dominguez-Rodrigo, Amoako Duah, Alain Fezeu, Alain Froment, Sean Gibbons, Catherine Girard, Jeff Hooker, Fatimah Ibrahim, Deborah Iqaluk, Vanessa Juimo, Pinja Kettunen, Sophie Lafosse, Ernest Lango-Yaya, Soo C. Lee, Jenni Lehtimäki, Yvonne A.L. Lim, Audax Mabulla, Varocha Mahachai, Rihlat S. Mohamed, Katya Moniz, Ivan E. Mwikarago, Yvonne A. Nartey, Daouda Ndiaye, Mary Noel, Charles Onyekwere, Tan M. Pin, Amelie Plymoth, Lewis Roberts, Lasse Ruokolainen, John Rusine, Laure Segurel, B. Jesse Shapiro, Shani Sigwazi, Ainara Sistiaga, Kenneth Valles, Tommi Vatanen, Ratha-korn Vilaichone, Philip Rosenstiel, John Baines, Andre Franke, David Ellinghaus, Rob Knight, Mark Daly, Ramnik J. Xavier, Eric J. Alm, Mathieu Groussin",
@@ -2031,6 +2220,23 @@
       "link": "https://doi.org/10.1016/j.cell.2026.10.016",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-02T22:48:48.586105+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.10.012",
+      "title": "Cross-species multiomic atlas of the primate basal ganglia",
+      "authors": "Nelson J. Johansen, Yuanyuan Fu, Matthew Schmitz, Alma Dubuc, Niklas Kempynck, Morgan Wirthlin, Aaron D. Garcia, Madeleine Hewitt, Meghan A. Turner, Stephanie C. Seeman, Brian Long, Xiao-Ping Liu, Agata Budzillo, Shu Dan, Michael DeBerardine, Inkar Kapen, Anna Marie Yanny, Wubin Ding, Alida Avola, Samuel T. Barlow, Darren Bertagnolli, Ashwin Bhandiwad, Victor Eduardo Nieto Caballero, Lakme Caceres, Tamara Casper, Anish Bhaswanth Chakka, Rushil Chakrabarty, Michael Clark, Scott Daniel, Jeroen Eggermont, Rebecca Ferrer, Leon French, Jessica Gloe, Jeff Goldy, Nathan Guilford, Junitta Guzman, Daniel Hirschstein, Windy Ho, Katelyn James, Danielle Lynne Jones, Matthew Jungert, Madhav Kannan, Kasia Z. Kedzierska, Thomas Kroes, Mckaila Leytze, Arena Manning, Rachel McCue, Chris Morrison, Beagan Nguy, Sven Otto, Nick Pena, Trangthanh Pham, Elliot Phillips, Abhejit Rajagopal, Christine Rimorin, Andrea D. Rivera, Dana Rocha, Raymond Sanchez, Geoffrey Schau, Jessica Schembri, Nadiya V. Shapovalova, Jamie Sherman, Julian Thijssen, Michael Tieu, Amy Torkelson, Alex Tran, Alexander Vieth, Yongqi Wang, Dan Yuan, Jennie Close, Tanya L. Daigle, Rachel Dalley, Nick Dee, Song-Lin Ding, Elysha Fiabane, Nathan Gouwens, Grace Huynh, Brian R. Lee, Boaz P. Levi, Delissa McMillen, Jeremy A. Miller, Tyler Mollenkopf, Lydia Ng, Patrick L. Ray, Cassandra Sobieski, Staci A. Sorensen, Zizhen Yao, Faraz Yazdani, Winrich Freiwald, Joseph R. Ecker, Boudewijn Lelieveldt, Brian Kalmbach, C. Dirk Keene, Jesse Gillis, David Osumi-Sutherland, Jonathan T. Ting, Hongkui Zeng, Kimberly Smith, Fenna M. Krienen, Rebecca D. Hodge, Ed S. Lein, Trygve E. Bakken",
+      "journal": "Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.10.012",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-12T21:29:46.773949+00:00"
     },
     {
       "doi": "10.1016/j.ccell.2026.09.014",
