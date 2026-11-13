@@ -1,12 +1,80 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-13T09:43:31.183491+00:00",
+  "checkedAt": "2026-11-13T20:55:25.052432+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/sciadv.aee4760",
+      "title": "Single-nucleus multiomic profiling uncovers epigenetic dysregulation driving hippocampal vulnerability in Alzheimer’s disease",
+      "authors": "Quyuan Tao, Ting Luo, Pan Wang, Maorui Jiang, Zilin Lai, Bufan Jin, Yuyang Liu, Youzhe He, Yanrong Wei, Yue Gao, Langjian Zhu, Heyang Du, Lifang Wang, Yujie Peng, Yong Hou, Shiping Liu, Longqi Liu, Jing Zhang, Lei Han",
+      "journal": "Science Advances",
+      "published": "2026-11-13",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aee4760",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-13T20:55:25.052432+00:00"
+    },
+    {
+      "doi": "10.1126/sciadv.aec2089",
+      "title": "The persistent multidomain health effects of the early-life exposome",
+      "authors": "Augusto Anguita Ruiz, Ines Amine, Chongliang Luo, Alicia Guillien, María Arteaga, Adrià Setó-Llorens, Nikos Stratakis, Lea Maitre, Nuria Güil-Oumrait, Marina Ruiz-Rivera, Parisa Montazeri, Jose Urquiza, Mark Nieuwenhuijsen, Cathrine Thomsen, Line Småstuen Haug, Berit Granum, Sandra Andrusaityte, Regina Grazuleviciene, Audrius Dedele, Wenlun Yuan, Barbara Heude, Rosemary McEachan, Marina Vafeiadi, Leda Chatzi, John Wright, Tiffany C. Yang, Claire Philippat, Juan R. Gonzalez, Rémy Slama, Martine Vrijheid, Xavier Basagaña, Valérie Siroux",
+      "journal": "Science Advances",
+      "published": "2026-11-13",
+      "year": "2026",
+      "tags": [
+        "Exposomics"
+      ],
+      "groups": [
+        "exposomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aec2089",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-13T20:55:25.052432+00:00"
+    },
+    {
+      "doi": "10.1038/s43018-026-01270-8",
+      "title": "The deep learning framework Hist2Prot infers single-cell spatial proteomics from histology to predict biomarkers and clinical outcomes",
+      "authors": "Jiansong Fan, Sen Yang, Erqiang Hu, Jianhong An, Qiang Liu, Naijia Liu, Mingwei Ma, Michael Prystowsky, Tianxu Lv, Si Yong Yeo, Yuting Ren, Yuan Liu, Lihua Li, Yuan Li, Qi Sun, Pengjiang Qian, Le Lu, Wenjun Deng, Xiang Pan, Shanye Yin",
+      "journal": "Nature Cancer",
+      "published": "2026-11-13",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s43018-026-01270-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-13T20:55:25.052432+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78164-3",
+      "title": "Impact of HIV infection, immune status, and integrase inhibitor-based antiretroviral therapy on the gut microbiota in men who have sex with men with and without HIV",
+      "authors": "Marta Rosas Cancio-Suárez, Jorge Díaz-Álvarez, Claudio Díaz-García, Luis Miguel Nieto-Salas, Matilde Sánchez-Conde, Elena Moreno, Alejandro G. García-Ruiz de Morales, Laura Martín-Pedraza, Clara Crespillo-Andújar, María Fons-Contreras, Raquel Ron, Ana del Amo-de Palacios, Marta González-Sanz, Santiago Moreno, Sergio Serrano-Villar",
+      "journal": "Scientific Reports",
+      "published": "2026-11-13",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78164-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-13T20:55:25.052432+00:00"
+    },
     {
       "doi": "10.1038/s41597-026-08736-5",
       "title": "An m6A epitranscriptomic microarray dataset of human A549 cells infected with influenza A virus PR8",
@@ -1727,6 +1795,23 @@
       "link": "https://doi.org/10.1016/j.molcel.2026.10.031",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-03T20:31:14.259804+00:00"
+    },
+    {
+      "doi": "10.1016/j.medj.2026.101297",
+      "title": "An adult proteomic signature associated with very low birth weight and chronic disease risk",
+      "authors": "Cho-Yi Huang, David Seong, Jonathan Reiss, Chi-Hung Shu, Mohammad Amin Sadeghi, Philip Chung, Liu K. Yang, Lei Xue, Yaxin Fang, Rui Xu, Xiruo Ding, Saber Sheybani, Lichy Han, Bernard C. Mawuli, Marc Ghanem, Mehrdad Kiamari, Alan L. Chang, Tomin James, Samson J. Mataraso, Camilo Espinosa, Eloise Berson, Po-Nien Tsao, Martin S. Angst, Brice Gaudiliere, Lawrence Prince, Gary Shaw, David Stevenson, Nima Aghaeepour",
+      "journal": "Med",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.medj.2026.101297",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
       "doi": "10.1016/j.it.2026.06.001",
@@ -10191,23 +10276,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.molmed.2026.02.002",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.medj.2026.101297",
-      "title": "An adult proteomic signature associated with very low birth weight and chronic disease risk",
-      "authors": "Cho-Yi Huang, David Seong, Jonathan Reiss, Chi-Hung Shu, Mohammad Amin Sadeghi, Philip Chung, Liu K. Yang, Lei Xue, Yaxin Fang, Rui Xu, Xiruo Ding, Saber Sheybani, Lichy Han, Bernard C. Mawuli, Marc Ghanem, Mehrdad Kiamari, Alan L. Chang, Tomin James, Samson J. Mataraso, Camilo Espinosa, Eloise Berson, Po-Nien Tsao, Martin S. Angst, Brice Gaudiliere, Lawrence Prince, Gary Shaw, David Stevenson, Nima Aghaeepour",
-      "journal": "Med",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1016/j.medj.2026.101297",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
