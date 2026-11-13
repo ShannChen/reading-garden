@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-12T21:29:46.773949+00:00",
+  "checkedAt": "2026-11-13T09:43:31.183491+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41597-026-08736-5",
+      "title": "An m6A epitranscriptomic microarray dataset of human A549 cells infected with influenza A virus PR8",
+      "authors": "Xueer Liu, Lihong Zhu, Runmin Lin, Qiaochu Sun, Kangsheng Li, Jiangtao Sheng",
+      "journal": "Scientific Data",
+      "published": "2026-11-13",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08736-5",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-13T09:43:31.183491+00:00"
+    },
     {
       "doi": "10.1038/s43587-026-01246-4",
       "title": "Social determinants of health and the exposome shape aging and dementia across global populations",
@@ -12696,59 +12713,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-76665-3",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aee2632",
-      "title": "Ingestible probes for breath-based monitoring of drug-metabolizing activity from the microbiome",
-      "authors": "Vishal A. Manickam, Carly E. Kimpling, Khoi N. Le, Madeleine E. Troussé, Amy Kang, Aarsh S. Patel, Leslie W. Chan",
-      "journal": "Science Advances",
-      "published": "2026-08-14",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aee2632",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aec9180",
-      "title": "Distinct postnatal trajectories of mouse dendritic epidermal T cells and Langerhans cells independent of microbiota",
-      "authors": "David Obwegs, Alexander Oschwald, Lara M. Koetter, Cylia Crisand, Sidney Doerr, Kerstin Bruder, Solveig Runge, Nisreen Ghanem, Vidmante Fuchs, Marleen Eckert, Christian Koengeter, Anna-Maria Schaffer, Lukas Amann, Sophia Papaioannou, Tim Rollenske, Julia Kolter, Daniel Erny, Marco Prinz, Susana Minguet, Wolfgang W. Schamel, Philipp Henneke, Stephan P. Rosshart, Katrin Kierdorf, Sagar",
-      "journal": "Science Advances",
-      "published": "2026-08-14",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aec9180",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76696-w",
-      "title": "Column switching liquid chromatography dual mass spectrometry system for simultaneous untargeted metabolomics and targeted exposomics",
-      "authors": "Yuting Wang, Daidi Hou, Yuan Yuan, Pengwei Guan, Tiantian Chen, Xingyu Guo, Xin You, Xianzhe Shi, Xiaolin Wang, Qi Wang, Xinyu Liu, Guowang Xu",
-      "journal": "Nature Communications",
-      "published": "2026-08-14",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Exposomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "exposomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76696-w",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
