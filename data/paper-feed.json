@@ -1,12 +1,63 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-14T09:06:13.747039+00:00",
+  "checkedAt": "2026-11-14T19:15:47.367769+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-79914-z",
+      "title": "Feasibility assessment of Exhaled breath condensate (EBC) as a source of lung microbiome of NSCLC patients, based on metabarcoding analysis",
+      "authors": "Piotr Machnicki, Karolina Czarnecka-Chrebelska, Jacek Kordiak, Krzysztof Lewandowski, Filip Bielec, Tomasz Płoszaj, Ewa Brzeziańska-Lasota, Dorota Pastuszak-Lewandoska",
+      "journal": "Scientific Reports",
+      "published": "2026-11-14",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79914-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-14T19:15:47.367769+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78660-6",
+      "title": "Serum proteomics in newborns reveals a multi-pathway molecular panel for neonatal sepsis, encompassing pathogen sensing, leukocyte recruitment, and endothelial injury",
+      "authors": "Kevin Roger, Najah Fatou Coly, Ines Metatla, Fatou Diallo Agne, Idrissa Basse, Papa Madiéye Gueye, Cerina Chhuon, Ida Chiara Guerrera",
+      "journal": "Scientific Reports",
+      "published": "2026-11-14",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78660-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-14T19:15:47.367769+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01180-0",
+      "title": "Tibetan dark tea alleviates ulcerative colitis through TXNRD-dependent ferroptosis and gut microbiota-metabolite modulation",
+      "authors": "Chen Liu, Yihong Liao, Xin Lai, Yuxi Chen, Mengyang Wei, Shengxiang Chen, Aimin Wu, Hong Chen, Qian Tang, Daiwen Chen",
+      "journal": "npj Science of Food",
+      "published": "2026-11-14",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01180-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-14T19:15:47.367769+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aee4760",
       "title": "Single-nucleus multiomic profiling uncovers epigenetic dysregulation driving hippocampal vulnerability in Alzheimer’s disease",
