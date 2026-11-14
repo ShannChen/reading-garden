@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-13T20:55:25.052432+00:00",
+  "checkedAt": "2026-11-14T09:06:13.747039+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -12713,74 +12713,6 @@
       ],
       "link": "https://doi.org/10.1038/s41522-026-01131-3",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s44184-026-00232-3",
-      "title": "Integrated proteomic, transcriptomic, and epigenomic profiling identifies SRA1 as a novel therapeutic target for postpartum depression",
-      "authors": "Ming Chen, Qinling Wei, Haowen Li, Huangtao Ruan, Linyan Fu, Junxiao Ma, Xiaowei Xia, Yanting Liao, Cailan Hou, Haozhang Huang",
-      "journal": "npj Mental Health Research",
-      "published": "2026-08-15",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s44184-026-00232-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66832-3",
-      "title": "Comprehensive profiling of bee venom metabolites by multiplatform metabolomics highlighting melittin and cytotoxic assessment against breast cancer cells",
-      "authors": "Sova Yadav, Vaibhav Arya, Vedant Gautam, Debanjan Guin, Samantapudi Venkata Satyanarayana Raju",
-      "journal": "Scientific Reports",
-      "published": "2026-08-15",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66832-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01129-x",
-      "title": "Exploring the mechanisms by which the microbiome influences muscle development during early growth in pigs through holo-omics analyses",
-      "authors": "Shuang Liu, Fen Wu, Xueshuang Lai, Shuyu Liu, Yuting Han, Zhenyang Zhang, Jian Miao, Xiaowei Ye, Pengfei Yu, Qishan Wang, Yuchun Pan, Zhen Wang, Zhe Zhang",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-15",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01129-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76665-3",
-      "title": "In vivo labeling–based proteomic analysis of early follicle oocytes and cisplatin-induced alterations in mice",
-      "authors": "Zhi-Yan Jiang, Meiyu Bi, Xuan Wu, Miaomiao Ban, Yuyao Lu, Jiangli Cao, Jie Li, Qilong Wang, Xin Zhu, Mo Li, Heng-Yu Fan, Bingteng Xie",
-      "journal": "Nature Communications",
-      "published": "2026-08-15",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76665-3",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
