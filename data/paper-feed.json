@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-14T23:58:56.577127+00:00",
+  "checkedAt": "2026-11-15T09:36:42.162162+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-77335-6",
+      "title": "Culturomics complements 16S rRNA gene sequencing in the characterization of the urogenital microbiome of asymptomatic reproductive-age women",
+      "authors": "Camille Villenave, Sandrine Dahyot, Marie Leoz, Gaëlle Roussel, Amandine Santini, Camille Charbonnier, Martine Pestel-Caron",
+      "journal": "Scientific Reports",
+      "published": "2026-11-15",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-77335-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-15T09:36:42.162162+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08818-4",
+      "title": "UniMAG v1.0: A unified catalogue of metagenome-assembled genomes from human, animal, and environmental sources",
+      "authors": "Anupam Gautam, James W. Marsh",
+      "journal": "Scientific Data",
+      "published": "2026-11-15",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08818-4",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-15T09:36:42.162162+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-79914-z",
       "title": "Feasibility assessment of Exhaled breath condensate (EBC) as a source of lung microbiome of NSCLC patients, based on metabarcoding analysis",
