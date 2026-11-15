@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-14T19:15:47.367769+00:00",
+  "checkedAt": "2026-11-14T23:58:56.577127+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -23,6 +23,41 @@
       "link": "https://doi.org/10.1038/s41598-026-79914-z",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-14T19:15:47.367769+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79550-7",
+      "title": "Identifying potential combinatorial mechanism between paclitaxel and Almonertinib in lung cancer through multi-omics integration",
+      "authors": "Yiqian Wang, Jing Lv, Qiuping Wang, Shaojun Pei, Tingze Feng, Hailong Piao, Di Chen, Ji-Wei Liu",
+      "journal": "Scientific Reports",
+      "published": "2026-11-14",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79550-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-14T23:58:56.577127+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79250-2",
+      "title": "Integrated gut microbiome and plasma metabolomic profiling reveals distinct biological signatures of damjeok syndrome",
+      "authors": "Kyeongeui Yun, Yun-Seo Lim, Yong Ju Ahn, Seo-Hyung Choi, Kyudong Han, Hwa-Jin Lee, Kung Ahn, Jin-Hee Lee",
+      "journal": "Scientific Reports",
+      "published": "2026-11-14",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79250-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-14T23:58:56.577127+00:00"
     },
     {
       "doi": "10.1038/s41598-026-78660-6",
