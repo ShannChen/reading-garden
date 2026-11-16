@@ -1,12 +1,97 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-16T09:55:00.453117+00:00",
+  "checkedAt": "2026-11-16T23:26:20.997601+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s42255-026-01662-1",
+      "title": "Plasma proteomics identifies insulin resistance signatures predictive of cardiometabolic disease risk",
+      "authors": "Jeppe Kjærgaard, Nigel Kurgan, Justus F. Gräf, Naixin Zhang, Zhe Wang, Mafalda Da Cruz Custódio, Farina Schlabs, Paola Pisano, Lisa Ottander, Maria Houborg Petersen, Martin Eisemann de Almeida, Jacob Stidsen, Jordi Merino, Tuomas O. Kilpeläinen, Niels Ørtenblad, Mikael Rydén, Simon Rasmussen, Anna Krook, Marta Guasch-Ferré, Ruth J. F. Loos, Roelof A. J. Smit, Kurt Højlund, Juleen R. Zierath, Michael Wierer, Atul S. Deshmukh",
+      "journal": "Nature Metabolism",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s42255-026-01662-1",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
+    },
+    {
+      "doi": "10.1038/s41746-026-03507-3",
+      "title": "Interpretable AI links routine clinical gout phenotypes to multi-omic signatures and divergent health trajectories",
+      "authors": "Meng Li, Hui Zhang, Mingyang Jiang, Qiuyue Li, Fei Zhong, Yuying Zhang, Ruifeng Lin, Xiaoling Chen, Qingqing Zhang, Wenxia Lin, Jiani Liu, Tianfu Pang, Qingyun Li, Han Xiong, Siqi Zhang, Tao Wang, Peiying Wang, Yiwen Liao, Junqing Zhu, Shixian Chen, Yongyin Li, Guichuan Lai, Juan Li, Peng Chen",
+      "journal": "npj Digital Medicine",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41746-026-03507-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-80638-3",
+      "title": "Integrative metabolomics and gene expression analyses reveal acetogenin-rich annona muricata leaf extract suppresses MCF-7 cell proliferation in obesogenic microenvironment",
+      "authors": "Novi Yantih, Aryo Tedjo, Fadilah Fadilah, Eko Mugiyanto",
+      "journal": "Scientific Reports",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80638-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-80080-5",
+      "title": "G protein–coupled receptor 41 deficiency exacerbates dextran sulfate sodium-induced colitis and is associated with altered gut microbiota composition",
+      "authors": "Atsuko Tomikawa, Takashi Ito, Takahiro Kageyama, Kazuyuki Meguro, Shigeru Tanaka, Arifumi Iwata, Akira Suto, Kotaro Suzuki, Ikuo Kimura, Hiroshi Nakajima",
+      "journal": "Scientific Reports",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80080-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-70845-3",
+      "title": "Nutrients and consumer pressure influence coral and microbiome recovery following sequential marine heatwaves",
+      "authors": "Alex D. Vompe, Connor L. Draney, Kelly E. Speare, Noe Castañeda, Hannah E. Epstein, Denise P. Silva, Rowan H. McLachlan, Mackenzie A. Kawahara, Thomas C. Adam, Deron E. Burkepile, Thomas J. Sharpton, Rebecca L. Vega Thurber",
+      "journal": "Scientific Reports",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-70845-3",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
+    },
     {
       "doi": "10.1038/s41597-026-08173-4",
       "title": "A multi-omic, spatial, and whole-slide image dataset of lung neuroendocrine tumours",
@@ -25,6 +110,23 @@
       "firstSeen": "2026-11-16T09:55:00.453117+00:00"
     },
     {
+      "doi": "10.1038/s41564-026-02536-8",
+      "title": "Mapping the Tibetan Plateau microbiome across ecosystems provides a resource for biodiscovery",
+      "authors": "Yongqin Liu, Tao Yu, Mukan Ji, Tom J. Battin, Marc G. Dumont, Yunfeng Yang, Pengfei Liu, Xuliang Zhuang, Peng Xing, Jianjun Wang, Guannan Mao, Yongcui Deng, Anyi Hu, Yongguan Zhu, Nianzhi Jiao",
+      "journal": "Nature Microbiology",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02536-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
+    },
+    {
       "doi": "10.1038/s41531-026-01612-4",
       "title": "Plasma proteomic signatures of Parkinson’s disease status, cognitive heterogeneity and longitudinal decline",
       "authors": "Robin Louiset, Renaud Massart, Sophie Hue, Marine Lunven, Laurent Cléret de Langavant, Hayet Salhi, Anne-Catherine Bachoud-Lévi, Philippe Rémy",
@@ -40,6 +142,23 @@
       "link": "https://doi.org/10.1038/s41531-026-01612-4",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-16T09:55:00.453117+00:00"
+    },
+    {
+      "doi": "10.1038/s41525-026-00630-8",
+      "title": "QuBIN: quantum-accelerated discovery of conserved interactions in multi-omics networks",
+      "authors": "Abdul Mannan Kitab, Yiming Zeng, Qing Ye, Nancy Lan Guo",
+      "journal": "npj Genomic Medicine",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41525-026-00630-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
     },
     {
       "doi": "10.1038/s41598-026-77335-6",
@@ -387,7 +506,7 @@
     {
       "doi": "10.1038/s41556-026-02124-2",
       "title": "The optogenetic tool ASAP acutely inhibits autophagy",
-      "authors": "Payel Mondal, Amanda Cyril, Dana Mamriev, Louis Parham, Igor Wierzbicki, Celina Shen, Ginevra Doglioni, Suzanne Dufrense, Anvita Komarla, David J. Gonzalez, Maximiliano A. D’Angelo, Christina G. Towers",
+      "authors": "Payel Mondal, Amanda Cyril, Dana Mamriev, Louis Parham, Igor Wierzbicki, Celina Shen, Ginevra Doglioni, Suzanne Dufresne, Anvita Komarla, David J. Gonzalez, Maximiliano A. D’Angelo, Christina G. Towers",
       "journal": "Nature Cell Biology",
       "published": "2026-11-12",
       "year": "2026",
@@ -1798,6 +1917,23 @@
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
+      "doi": "10.1016/j.xcrm.2026.103170",
+      "title": "Gut microbiome-derived disease-associated indices for non-invasive detection of chronic diseases",
+      "authors": "Wenjing Yin, Lei Liu, Ruixin Zhu, Bin Yang, Peigen Yao, Qian Long, Na Jiao, Guoqing Zhang, Pingping Xu, Dingfeng Wu",
+      "journal": "Cell Reports Medicine",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.xcrm.2026.103170",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T23:26:20.997601+00:00"
+    },
+    {
       "doi": "10.1016/j.xcrm.2026.103161",
       "title": "Microbiome-antibiotic-immune interactions influence mortality in preterm infant gut microbiota-humanized gnotobiotic mice",
       "authors": "Drew J. Schwartz, Galen G. Wong, Kate E. Wardenburg, Isabel R. Erickson, Jessica Tung, Jie Ning, Lingxia Zhao, Nitan Shalon, Alaric W. D’Souza, Aura Ferreiro, Rachel B. Silverstein, Terence S. Crofts, Carla Hall-Moore, Meghan A. Wallace, John I. Robinson, Jeffrey P. Henderson, Carey-Ann D. Burnham, Barbara B. Warner, Phillip I. Tarr, Gautam Dantas",
@@ -2357,6 +2493,23 @@
       "link": "https://doi.org/10.1016/j.immuni.2026.10.004",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-29T19:42:49.141140+00:00"
+    },
+    {
+      "doi": "10.1016/j.crmeth.2026.101593",
+      "title": "ON-Time enables rapid microbiome sequencing and analysis for precision medicine",
+      "authors": "Colin MacKenzie, Heewon Seo, Jared Schlechte, Aydin Herik, Ish Bains, Ian-Ling Yu, Kathy D. McCoy, Christina S. Thornton, Braedon McDonald",
+      "journal": "Cell Reports Methods",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.crmeth.2026.101593",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
     {
       "doi": "10.1016/j.chom.2026.08.016",
@@ -10655,23 +10808,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1016/j.isci.2026.117072",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.crmeth.2026.101593",
-      "title": "ON-Time enables rapid microbiome sequencing and analysis for precision medicine",
-      "authors": "Colin MacKenzie, Heewon Seo, Jared Schlechte, Aydin Herik, Ish Bains, Ian-Ling Yu, Kathy D. McCoy, Christina S. Thornton, Braedon McDonald",
-      "journal": "Cell Reports Methods",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1016/j.crmeth.2026.101593",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
     },
