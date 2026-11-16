@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-16T00:01:29.249049+00:00",
+  "checkedAt": "2026-11-16T09:55:00.453117+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41597-026-08173-4",
+      "title": "A multi-omic, spatial, and whole-slide image dataset of lung neuroendocrine tumours",
+      "authors": "Lipika Kalson, Alexandra Sexton-Oates, Emilie Mathian, Catherine Voegele, Alex Di Genova, Zhaozhi Li, Jaehee Kim, Leigh M. Marsh, Luka Brcic, Lynnette Fernandez-Cuesta, Matthieu Foll, Nicolas Alcala",
+      "journal": "Scientific Data",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08173-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T09:55:00.453117+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01612-4",
+      "title": "Plasma proteomic signatures of Parkinson’s disease status, cognitive heterogeneity and longitudinal decline",
+      "authors": "Robin Louiset, Renaud Massart, Sophie Hue, Marine Lunven, Laurent Cléret de Langavant, Hayet Salhi, Anne-Catherine Bachoud-Lévi, Philippe Rémy",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-11-16",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01612-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-16T09:55:00.453117+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-77335-6",
       "title": "Culturomics complements 16S rRNA gene sequencing in the characterization of the urogenital microbiome of asymptomatic reproductive-age women",
