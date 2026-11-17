@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T10:50:47.955281+00:00",
+  "checkedAt": "2026-11-17T22:29:18.195868+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-80427-y",
+      "title": "Integrated placental metabolomic and lipidomic profiling reveals class-specific lipid remodelling in severe preeclampsia",
+      "authors": "Hye-Ji Han, Min Jung Baek, Su Ji Yang, So Young Han, Da Vin Kim, Nari Kim, Hyun Jung Lee, Sang Hee Jung, Moon Young Kim, Hyun Mee Ryu, Ji Hyae Lim",
+      "journal": "Scientific Reports",
+      "published": "2026-11-17",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80427-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-17T22:29:18.195868+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-79770-x",
       "title": "Nanopore epitranscriptomic profiling of influenza A infection in differentiated primary human airway epithelial cells",
@@ -80,6 +97,44 @@
       "firstSeen": "2026-11-17T10:50:47.955281+00:00"
     },
     {
+      "doi": "10.1038/s41538-026-01219-2",
+      "title": "Multi-omics and explainable machine learning identify key enzymes associated with flavonoid biosynthesis in grape seeds",
+      "authors": "Jianxiang Liang, Yaru Luo, Lirui Liu, Chuni Zhou, Junnan Ding, Shiren Song, Bohan Yang",
+      "journal": "npj Science of Food",
+      "published": "2026-11-17",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01219-2",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-17T22:29:18.195868+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01606-2",
+      "title": "Machine learning-based plasma proteomics discovers biomarkers for the early diagnosis of Parkinson’s disease",
+      "authors": "Ruoyu Liu, Ying Kong, Liyuan Fan, Lanjun Li, Jing yuan, Ke Zhang, Minglei Liu, Tianyuan Yang, Yanpeng Yuan, Xiaojing Liu, Jie Qin, Yuming Xu, Jing-Hua Yang, Jing Yang",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-11-17",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01606-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-17T22:29:18.195868+00:00"
+    },
+    {
       "doi": "10.1038/s41467-026-79358-z",
       "title": "A map of multi-omics quantitative trait loci in a Chinese population reveals regulatory variations and disease links",
       "authors": "Peng Yang, Shuhua Li, Qiwen Zheng, Xinxuan Liu, Siyu Pan, Yaning Zhang, Tianzi Liu, Sin Man Lam, Hongen Kang, Xiuli Zhu, Shiqi Lin, Zhanjie Fang, Yin-Ying Wang, Jian Wang, Guanghou Shui, Fan Liu, Changqing Zeng, Peilin Jia",
@@ -95,6 +150,23 @@
       "link": "https://doi.org/10.1038/s41467-026-79358-z",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-17T10:50:47.955281+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78313-2",
+      "title": "Gut microbiota GABA regulation by intestinal pH osmolality and microbial consumption",
+      "authors": "Kun Ye, Serafina Plüss, Claudia Moresi, Selma Aslani, Denisa Mujezinovic, Fabián A. Cornejo, Christophe Lacroix, Markus Arnoldini, Benoit Pugin",
+      "journal": "Nature Communications",
+      "published": "2026-11-17",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78313-2",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-17T22:29:18.195868+00:00"
     },
     {
       "doi": "10.1038/s42255-026-01662-1",
@@ -1352,25 +1424,6 @@
       "firstSeen": "2026-11-05T21:07:48.074597+00:00"
     },
     {
-      "doi": "10.1021/acs.est.6c07743",
-      "title": "Multi-Omics Gut Microbiome Species Communities and Functional Modules Linking Metal Exposures to Children’s Neurodevelopmental Health in a Canadian Birth Cohort",
-      "authors": "Yidan Zhang, Yike Shen, Yihan Fan, Anthony Gagnon, Virginie Gillet, Jonathan Posner, Jean-Philippe Bellenger, Andrea Baccarelli, Larissa Takser, Feng Gao",
-      "journal": "Environmental Science & Technology",
-      "published": "2026-11-05",
-      "year": "2026",
-      "tags": [
-        "Microbiome",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1021/acs.est.6c07743",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-11-05T09:38:27.886233+00:00"
-    },
-    {
       "doi": "10.1021/acs.est.6c06150",
       "title": "From Nontargeted Analysis to Toxicity: Revealing the Disinfection Byproduct Exposome",
       "authors": "Di Zhang, Qiming Shen, Tingting Zhao, Xing-Fang Li",
@@ -1505,6 +1558,25 @@
       "link": "https://doi.org/10.1038/s41522-026-01187-1",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-04T20:51:00.258288+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c07743",
+      "title": "Multi-Omics Gut Microbiome Species Communities and Functional Modules Linking Metal Exposures to Children’s Neurodevelopmental Health in a Canadian Birth Cohort",
+      "authors": "Yidan Zhang, Yike Shen, Yihan Fan, Anthony Gagnon, Virginie Gillet, Jonathan Posner, Jean-Philippe Bellenger, Andrea Baccarelli, Larissa Takser, Feng Gao",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-11-04",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c07743",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-05T09:38:27.886233+00:00"
     },
     {
       "doi": "10.1038/s44383-026-00042-8",
@@ -2125,6 +2197,23 @@
       "firstSeen": "2026-11-04T09:28:47.129569+00:00"
     },
     {
+      "doi": "10.1016/j.neuron.2026.10.019",
+      "title": "A cell-type-resolved proteomic atlas reveals intra- and intercellular signaling in Alzheimer’s disease",
+      "authors": "Xue Zhang, Jiyuan Yang, Kaiwen Yu, Him K. Shrestha, Ying Zhou, Yun Jiao, Ju Wang, Ping-Chung Chen, Zhen Wang, Xiaokang Ren, Huan Sun, Danting Liu, Jay M. Yarbro, Zhiping Wu, Kiara Harper, Liusheng He, Zuo-Fei Yuan, Jie Xu, Xusheng Wang, Anthony A. High, Gang Yu, Jiyang Yu, Zhexing Wen, Junmin Peng",
+      "journal": "Neuron",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.neuron.2026.10.019",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-17T22:29:18.195868+00:00"
+    },
+    {
       "doi": "10.1016/j.molp.2026.09.011",
       "title": "From DNA to RNA to protein: pQTL mapping and proteome-wide association study reveal protein-level drivers of soybean traits",
       "authors": "Delin Li, Zhan Li, Shiyu Guo, Qi Wang, Xinkang Feng, Hao Zhang, James C. Schnable, Ying-Hui Li, Li-Juan Qiu",
@@ -2599,6 +2688,23 @@
       "link": "https://doi.org/10.1016/j.crmeth.2026.101593",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cmet.2026.10.014",
+      "title": "Diet-microbiome interaction shapes stress susceptibility via a gut-brain neurometabolic circuit",
+      "authors": "Youying Zhang, Ruizhe Nie, Zixin Chen, Xuanyao Li, Zemin Li, Yuanlong Hou, Chunyu Li, Guangbo Kang, Ying Shan, Yunqian Xu, Tong Zhang, Jiajie Li, Siqi Yu, Xuanshuang Zhang, Zhengqi Lian, Jian Chen, Xinyao Zhou, Yonggui Yuan, Yu Fu, Xiaowei Xu, Xueli Zhang, Haiping Hao, Xiao Zheng",
+      "journal": "Cell Metabolism",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cmet.2026.10.014",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-17T22:29:18.195868+00:00"
     },
     {
       "doi": "10.1016/j.chom.2026.08.016",
