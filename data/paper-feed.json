@@ -1,12 +1,65 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T22:29:18.195868+00:00",
+  "checkedAt": "2026-11-18T10:21:12.383566+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-63655-0",
+      "title": "Multiomics investigation of iron-responsive idiopathic anemia in hybrid (Ictalurus punctatus × I. furcatus) catfish",
+      "authors": "Caitlin E. Older, Fernando Y. Yamamoto, Bradley M. Richardson, Mona L. Kirby, J. Grant Reifers, Penelope M. Goodman, Monica L. Wood, Todd Byars, Matt J. Griffin, David J. Wise, Alvin Camus, Geoffrey C. Waldbieser",
+      "journal": "Scientific Reports",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-63655-0",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-18T10:21:12.383566+00:00"
+    },
+    {
+      "doi": "10.1038/d41586-026-03710-y",
+      "title": "At-home microbiome tests are taking off. Can they be trusted?",
+      "authors": "Amber Dance",
+      "journal": "Nature",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/d41586-026-03710-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-18T10:21:12.383566+00:00"
+    },
+    {
+      "doi": "10.1038/s44161-026-00937-w",
+      "title": "Author Correction: Comprehensive m6A landscape from direct RNA sequencing reveals SYNPO2L RNA isoform regulation mechanisms in heart failure",
+      "authors": "Zhihan Xu, Chi Tian, Jun Wei Chan, Wikie Tew, Galvin L. Q. Tang, Rujie Qi, Zheyi Tao, Daniel G. R. Yim, Liang Cui, Danh Anh Tuan Luu, Junedh M. Amrute, Vinay Tergaonkar, Chang Jie Mick Lee, Roger S. Y. Foo",
+      "journal": "Nature Cardiovascular Research",
+      "published": "2026-11-17",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s44161-026-00937-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-18T10:21:12.383566+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-80427-y",
       "title": "Integrated placental metabolomic and lipidomic profiling reveals class-specific lipid remodelling in severe preeclampsia",
@@ -12705,227 +12758,6 @@
       "link": "https://doi.org/10.1038/s41467-026-74694-6",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s42255-026-01562-4",
-      "title": "Intestinal cGAS–STING–IFN signalling promotes obesity by downregulating microbiota-derived IAA in male mice",
-      "authors": "Jiangming Deng, Wen Meng, Yuanqin Yang, Ting Xiao, Zhangliu Jin, Jing Wang, Qing-xin Li, Lingxiang Xie, Jingyi Hu, Rong Song, Yibo Hu, Yi Chu, Qing Li, Ping Jin, Zheng Wang, Irene XY Wu, Feng Liu, Yang Xiao",
-      "journal": "Nature Metabolism",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s42255-026-01562-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66454-9",
-      "title": "Oral and rectal microbiome composition in intracranial aneurysm patients: a 16 S rRNA amplicon sequencing study",
-      "authors": "Laura Couvreur, Joke Groven, Idan Jeger, Philippe G. Jorens, Tomas Menovsky, Sabine Chapelle, Christine Lammens, Annelies Mondelaers, Basil Britto Xavier",
-      "journal": "Scientific Reports",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66454-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66375-7",
-      "title": "Insecticidal metabolites from Serratia marcescens associated with the fall armyworm (Spodoptera frugiperda): molecular identification, metabolomic profiling and molecular docking insights",
-      "authors": "Kreema A. El-Lebody, Ramy E. El-Ansary, Shaimaa A. Nour, Rasha G. Salim, Mohamed M. Elsebaie, Ghada M. El-Sayed",
-      "journal": "Scientific Reports",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66375-7",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65366-y",
-      "title": "Microbiome modelling for post-mortem interval estimation across species and climates: swine analogues in a British summer and external validation in human donors from the USA",
-      "authors": "Andrea Bonicelli, Peter A. Cross, Lavinia Iancu, M. Eric Benbow, Noemi Procopio",
-      "journal": "Scientific Reports",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65366-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64807-y",
-      "title": "Functional enrichment of immune targeted gut microbiota in post-infectious myalgic encephalomyelitis/chronic fatigue syndrome",
-      "authors": "Kathryn E. McCauley, Carlotta Vizioli, Ayaan Ahmed, Shreni Mistry, Andrew S. Burns, Mariam Quiñones, Avindra Nath, Brian Walitt, Jennifer J. Barb",
-      "journal": "Scientific Reports",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64807-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64013-w",
-      "title": "A coupled hydrologic modeling and multi-omics analysis reveals that inflow magnitude shapes cyanobacterial structure and function",
-      "authors": "Daniel L. Roelke, Crista M. Kieley, Smita Pal, Sierra E. Cagle, Jessica M. Labonté",
-      "journal": "Scientific Reports",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64013-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-60580-0",
-      "title": "Multi-omics reveals the sesquiterpenoid (−)-globulol induces lethal autolysis in Staphylococcus aureus through coordinated disruption of cell wall synthesis and metabolite homeostasis",
-      "authors": "Chunyan Ye, Xue Zhang, Xianfang He, Kazi Sabnam Siddiqua, Yi Wu, Wen TingChi, Qiong Yi, Lu Wang",
-      "journal": "Scientific Reports",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-60580-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-08038-w",
-      "title": "A Proteomic Resource of Human iPSC-derived Neurons Exposed to Neurotropic Viruses",
-      "authors": "Ziyi Li, Negin P. Martin, Jacob Epstein, Shih-Heng Chen, Ying Hao, Daniel M. Ramos, Erika Lara, Kate M. Andersh, Paige Jarreau, Cory Weller, Marianita Santiana, Benjamin Jin, Caroline B. Pantazis, Luigi Ferrucci, Mike A. Nalls, Mark R. Cookson, Andrew B. Singleton, Yue Andy Qi, Jerrel L. Yakel",
-      "journal": "Scientific Data",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-08038-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41596-026-01448-5",
-      "title": "Author Correction: Considerations for the design of impactful citizen-science projects in microbiome research",
-      "authors": "Sarah Ahannach, Sandra Condori-Catachura, Jelle Dillen, Caroline Dricot, Thies Gehrmann, Stijn Wittouck, Josiane Marie Kenfack, Wannes Van Beeck, Ilke De Boeck, Tom Eilers, Monica Ticlla, Agustina Santullo Latorre, Wenke Smets, Jari Temmermans, Enya Arconada Nuin, Sandra Van Puyvelde, Irina Spacova, Veronique Verhoeven, Sarah Lebeer",
-      "journal": "Nature Protocols",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41596-026-01448-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-15T23:06:44.396695+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01136-y",
-      "title": "The pulmonary microbiome: unlocking mechanistic insights and novel therapeutic horizons in pulmonary fibrosis",
-      "authors": "Mengna Jiang, Hongyi Xu, Jiang Qiu, Yueyuan Jin, Jiaxin Liu, Zuming Chen, Anqi Wu, Zhenzhong Ge, Fengxu Wang, Demin Cheng, Xinyuan Zhao",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01136-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01133-1",
-      "title": "Gut microbiota-derived 3-indoleacrylic acid mediates ferulic acid protection against aflatoxin B1 hepatotoxicity via AhR-ferroptosis inhibition in animals",
-      "authors": "Qianqian Wang, Yanan Wang, Gaigai Wang, Xin Fang, Yutong Fu, Zixin Li, Yongpeng Guo, Jinglin Ma, Lirong Hu, Xiangfang Zeng, Qiugang Ma, Matthew Koci, Lihong Zhao",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01133-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01130-4",
-      "title": "Global analysis of infant gut microbiota revealed distinctive maturation dynamics across lifestyles",
-      "authors": "Robert Bücking, Greta Pasquali, Ulrike Löber, Claudia Buss, Dorothee Viemann, Víctor Hugo Jarquín-Díaz, Sofia Kirke Forslund-Startceva",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01130-4",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76889-3",
-      "title": "Plasma proteomics defines two reproducible subphenotypes of sepsis-associated acute kidney injury with distinct outcomes",
-      "authors": "Matthieu Legrand, Hanh Nguyen, Carolyn S. Calfee, Yingying Lu, Michael Harhay, Kathleen Liu, David Chen, Juliane Bernholz, Michael Matthay, Alexandre Mebazaa, Peter Pickkers, Ernesto Rojas, Alexendar R. Perez",
-      "journal": "Nature Communications",
-      "published": "2026-08-19",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76889-3",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
