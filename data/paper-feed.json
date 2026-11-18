@@ -1,12 +1,65 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T10:21:12.383566+00:00",
+  "checkedAt": "2026-11-18T22:07:42.615520+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41698-026-01789-0",
+      "title": "A feasibility study for resolving cellular populations in precision cancer medicine by integrating single-cell multiomics",
+      "authors": "Cathy Yan, Erin Pleasance, Melissa McConechy, Jessica Nelson, Yaoqing Shen, Diane L. Trinh, Dan Jin, Melanie L. Bailey, Janessa Laskin, Marco A. Marra",
+      "journal": "npj Precision Oncology",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41698-026-01789-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-18T22:07:42.615520+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-81423-y",
+      "title": "Comparative metagenomic survey of gut microbiome composition and metabolic potential in wild and conservation-area saiga antelopes (Saiga tatarica)",
+      "authors": "Nurlubek Katkenov, Almagul Kushugulova, Samat Kozhakhmetov, Zharkyn Jarmukhanov, Elizaveta Vinogradova, Zhussipbek Mukhatayev, Madiyar Nurgaziyev, Artur Kovenskiy, Nurislam Mukhanbetzhanov, Kaissar Kushaliyev, Utegen Taubaev, Biljana Radojicic, Abylai Sansyzbay",
+      "journal": "Scientific Reports",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-81423-y",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-18T22:07:42.615520+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78330-7",
+      "title": "Effects of heat stress on honey bee physiology and gut microbiome under laboratory conditions",
+      "authors": "Lauren Baugus, Hunter K. Walt, Asmita Gautam, Liping Yang, Priyadarshini Chakrabarti",
+      "journal": "Scientific Reports",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome",
+        "Proteomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78330-7",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-18T22:07:42.615520+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-63655-0",
       "title": "Multiomics investigation of iron-responsive idiopathic anemia in hybrid (Ictalurus punctatus × I. furcatus) catfish",
@@ -27,8 +80,44 @@
       "firstSeen": "2026-11-18T10:21:12.383566+00:00"
     },
     {
+      "doi": "10.1038/s41538-026-01210-x",
+      "title": "The Gut Microbiota/Gut Brain/BDNF Axis Mediates Ginsenoside Re’s Neuroprotection in Parkinson’s Disease",
+      "authors": "Mengjie Tang, Fangyuan Zhang, Ziqi Liang, Jing Tian, Dean Guo, Jiyu Gong, Wenyi Gao, Zizhao Yang",
+      "journal": "npj Science of Food",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01210-x",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-18T22:07:42.615520+00:00"
+    },
+    {
+      "doi": "10.1038/s41531-026-01628-w",
+      "title": "Multi-omic integration identifies sex-dependent molecular targets in Parkinson’s disease",
+      "authors": "Joo-Yeon Lee, Jimin Lee, Seokho Lee, Jung Han Yoon, Don Gueu Park, Joohon Sung",
+      "journal": "npj Parkinson's Disease",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41531-026-01628-w",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-18T22:07:42.615520+00:00"
+    },
+    {
       "doi": "10.1038/d41586-026-03710-y",
-      "title": "At-home microbiome tests are taking off. Can they be trusted?",
+      "title": "Microbiome home tests are taking off. Can they be trusted?",
       "authors": "Amber Dance",
       "journal": "Nature",
       "published": "2026-11-18",
