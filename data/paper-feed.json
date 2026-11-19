@@ -1,12 +1,82 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-19T10:29:37.792548+00:00",
+  "checkedAt": "2026-11-19T22:17:19.521666+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s43856-026-02009-3",
+      "title": "Metabolic and gut microbiome responses to personalized nutrition during metformin therapy in prediabetes and early‑stage type 2 diabetes: a randomized clinical trial",
+      "authors": "Zehra I. Uluturk, Anastasia Godneva, Sienna Walsh, Mallory Ledger, Eliza Chalmers, Jennifer R. Snaith, Tien-Ming Hng, Renee Richens, Krisztina Toth, Jennifer Evans, Jian Tan, Laurence Macia, Mark Danta, Eran Elinav, Eran Segal, Jerry R. Greenfield, Dorit Samocha-Bonet",
+      "journal": "Communications Medicine",
+      "published": "2026-11-19",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s43856-026-02009-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-19T22:17:19.521666+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-81065-0",
+      "title": "Integrated multi-omics analyses reveal candidate astrocytic signalling responses shared across pharmacologically distinct psychoactive compounds",
+      "authors": "Megan R. Greener, Joseph L. Horder, Stewart G. Martin, Madeleine V. King, Sandra Martínez‐Jarquín, Dong-Hyun Kim, Mattéa J. Finelli, Graham K. Sheridan, Andrew V. Benest, Sarah J. Storr",
+      "journal": "Scientific Reports",
+      "published": "2026-11-19",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-81065-0",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-19T22:17:19.521666+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-80327-1",
+      "title": "The regulatory effects of astaxanthin on immune function and gut microbiota in a fatigue model of rats",
+      "authors": "Ru Bai, Jiayi Wang, Lijun Wu",
+      "journal": "Scientific Reports",
+      "published": "2026-11-19",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80327-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-19T22:17:19.521666+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-78265-z",
+      "title": "LncRNA495810 promotes mitochondrial function and podocyte damage in diabetic nephropathy podocytes by impairing TFAM mRNA stability through hnRNPA2B1-dependent m6A modification",
+      "authors": "Xuxia Li, Zhaoying Hao, Panfeng Wang, Jin’e Du, Haili Wu, Huiqin Guo",
+      "journal": "Scientific Reports",
+      "published": "2026-11-19",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-78265-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-19T22:17:19.521666+00:00"
+    },
     {
       "doi": "10.1038/s41514-026-00566-4",
       "title": "Organ-specific proteomic aging in Chinese adults: 20-year clinical outcomes and metabolomic underpinnings",
@@ -42,6 +112,23 @@
       "link": "https://doi.org/10.1038/s41514-026-00553-9",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-19T10:29:37.792548+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79487-5",
+      "title": "Disturbance increases soil microbiome functional redundancy but decreases capacity for insurance via winnowed environmental responsiveness",
+      "authors": "Samuel E. Barnett, Ashley Shade",
+      "journal": "Nature Communications",
+      "published": "2026-11-19",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79487-5",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-19T22:17:19.521666+00:00"
     },
     {
       "doi": "10.1038/s41698-026-01789-0",
