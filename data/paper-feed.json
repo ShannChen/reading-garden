@@ -1,12 +1,48 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T22:07:42.615520+00:00",
+  "checkedAt": "2026-11-19T10:29:37.792548+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41514-026-00566-4",
+      "title": "Organ-specific proteomic aging in Chinese adults: 20-year clinical outcomes and metabolomic underpinnings",
+      "authors": "Jonathan K. L. Mak, Suhas Krishnamoorthy, Xiaowen Zhang, Shih-Yi Lin, Hou-Feng Zheng, Juulia Jylhävä, Sara Hägg, Kathryn C. B. Tan, Annie W. C. Kung, Ching-Lung Cheung",
+      "journal": "npj Aging",
+      "published": "2026-11-19",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Proteomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41514-026-00566-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-19T10:29:37.792548+00:00"
+    },
+    {
+      "doi": "10.1038/s41514-026-00553-9",
+      "title": "Plasma proteomics characterizes vascular aging and prioritizes functionally supported candidate proteins",
+      "authors": "Hanchen Liu, He Li, Wenqian Zhang, Jianmin Liu, Jianfeng Feng, Yu Zhou, Yong Cao, Jia You, Pengfei Yang",
+      "journal": "npj Aging",
+      "published": "2026-11-19",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41514-026-00553-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-19T10:29:37.792548+00:00"
+    },
     {
       "doi": "10.1038/s41698-026-01789-0",
       "title": "A feasibility study for resolving cellular populations in precision cancer medicine by integrating single-cell multiomics",
@@ -78,6 +114,23 @@
       "link": "https://doi.org/10.1038/s41598-026-63655-0",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-18T10:21:12.383566+00:00"
+    },
+    {
+      "doi": "10.1038/s41597-026-08822-8",
+      "title": "A Genome-Resolved Microbiome Collection of 109 Prokaryotic Genomes from Driftwood Metagenomes",
+      "authors": "Arunmozhi Bharathi Achudhan, Rajnish Narayanan, Honglae Sohn, Thirumurthy Madhavan",
+      "journal": "Scientific Data",
+      "published": "2026-11-18",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08822-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-19T10:29:37.792548+00:00"
     },
     {
       "doi": "10.1038/s41538-026-01210-x",
@@ -2269,6 +2322,23 @@
       "link": "https://doi.org/10.1016/j.xcrm.2026.103137",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-06T20:28:28.960784+00:00"
+    },
+    {
+      "doi": "10.1016/j.tplants.2026.10.017",
+      "title": "The plant microbiome: a shield against agrochemical phytotoxicity",
+      "authors": "Xin Wen, Fang Wang, Leilei Xiang, Yuhao Fu, Gerd Dercon, Willie J.G.M. Peijnenburg, Matthias C. Rillig",
+      "journal": "Trends in Plant Science",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.tplants.2026.10.017",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-19T10:29:37.792548+00:00"
     },
     {
       "doi": "10.1016/j.tim.2026.09.007",
@@ -12624,229 +12694,6 @@
       "link": "https://doi.org/10.1038/s41540-026-00805-0",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s42003-026-10819-3",
-      "title": "C. trachomatis modulates host lipid metabolism through METTL14–m6A–PPARα axis for reproduction",
-      "authors": "Wenbo Lei, Qiulin Huang, Yating Wen, Yewei Yang, Hongrong Wu, Zhongyu Li",
-      "journal": "Communications Biology",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s42003-026-10819-3",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s42003-026-10774-z",
-      "title": "High-resolution multi-omics defines respiratory microbiome and host signatures of COVID-19 severity",
-      "authors": "Deyvid Amgarten, Fernanda de Mello Malta, Raquel Riyuzo de Almeida Franco, Ana Laura Boechat, Ana Carolina dos Santos Soares, Erick Gustavo Dorlass, Ana Paula Moreira Salles, Pedro Henrique Sebe Rodrigues, Noelly Maria Zimpel Trecenti, Tania Mangolini, Bruno Martinez de Farias, Raquel Emma Hurtado Castillo, Rodrigo de Souza Reis, Welliton de Souza, Ketti Gleyzer de Oliveira, Roberta Sitnik, Fernando Spilki, Arlene dos Santos Pinto, Alexandre R. Marra, Tatiana Ferreira de Almeida, Murilo Castro Cervato, João Renato Rebello Pinho",
-      "journal": "Communications Biology",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Microbiome",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s42003-026-10774-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41698-026-01665-x",
-      "title": "AI-assisted multi-omics and virtual screening identify the IGF2BP2-SGMS2 axis for PDAC precision immunotherapy",
-      "authors": "Yutong Chen, Leye Yan, Xiaomeng Zheng, Xinyue Liang, Jianxun Cai, Yu Zhang, Weiyu Zhang",
-      "journal": "npj Precision Oncology",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41698-026-01665-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66631-w",
-      "title": "Comparative gut microbiota and predicted functions associated with antibiotic resistance in Thai indigenous Pradu Hang Dam and commercial chickens",
-      "authors": "Songphon Buddhasiri, Pakpoom Tadee, Nattinee Kittiwan, Ben Pascoe, Prapas Patchanee",
-      "journal": "Scientific Reports",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66631-w",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41575-026-01254-0",
-      "title": "Phase I trial of faecal microbiome transplantation for food allergy",
-      "authors": "Katrina Ray",
-      "journal": "Nature Reviews Gastroenterology & Hepatology",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41575-026-01254-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01083-0",
-      "title": "Ultrasound‑assisted extraction, multi‑omics, and bioactivities of phenolic acids from Amomum tsao-ko: a functional food perspective",
-      "authors": "Hongbo Fu, Lina Xiong, Yan Li, Mengli Ma, Bingyue Lu",
-      "journal": "npj Science of Food",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01083-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01069-y",
-      "title": "Montmorillonite loaded with zinc oxide alleviates colonic inflammation in mice by modifying gut microbiota and their metabolites",
-      "authors": "Jiefeng Li, Wei Fang, Chuanqi Wang, Yuqin Zhang, Hengtong Fang, Jingjing Shi, Jing Zhang",
-      "journal": "npj Science of Food",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01069-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01020-1",
-      "title": "Arugula nanovesicles counteract diet-induced obesity and modulate gut inflammation and microbiota in vivo",
-      "authors": "Lorenza d’Adduzio, Davide Marangon, Electra Brunialti, Alessandro Villa, Ivan Cruz-Chamorro, Paolo Ciana, Aldo Laganà, Carmela Maria Montone, Marco Calvigioni, Emilia Ghelardi, Antonio Carrillo-Vico, Anna Laura Capriotti, Carlotta Bollati, Davide Lecca, Carmen Lammi",
-      "journal": "npj Science of Food",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01020-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01111-7",
-      "title": "Longitudinal culture-enriched metagenomics reveals persistence and sharing of culturable infant gut and breast milk microbiota",
-      "authors": "Shaopu Wang, Ghjuvan Grimaud, Emilene da Silva Morais, Alicja Warda, Patrick Boyaval, C. Anthony Ryan, Sofia D. Forssten, Henna-Maria Kailanto, Eugene M. Dempsey, Catherine Stanton, R. Paul Ross",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01111-7",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76951-0",
-      "title": "Epigenetic–epitranscriptomic crosstalk through TaHAG1–TaNSUN2 coordinates thermotolerance in wheat",
-      "authors": "Debiao Liu, Yi Pei, Jingchen Lin, Xinran Wu, Jinpeng Li, Qun Yang, Zehui Liu, Wei Chu, Danyang Zhao, Chenji Zhang, Lei Zhang, Xiao Peng, Xiaoyu Liu, Huitao An, Wanghongan Jia, Mingming Xin, Yingyin Yao, Huiru Peng, Zhongfu Ni, Qixin Sun, Zhaorong Hu",
-      "journal": "Nature Communications",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76951-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76867-9",
-      "title": "Impact of the anti-inflammatory macrolide glasmacinal on the gut microbiota of healthy adults: an open-label trial",
-      "authors": "Tsegaye Sewunet, Mohammad Razavi, Kate Hanrott, Virginia Norris, Jennifer Kricker, Christian G. Giske",
-      "journal": "Nature Communications",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76867-9",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76349-y",
-      "title": "ibSLS as a biobank for democratizing access to multi-omics data and biospecimens from spaceflight research",
-      "authors": "Akihito Otsuki, Yuichi Aoki, Risa Okada, Liam Baird, Daisuke Kamimura, Dai Shiba, Eiji Hishinuma, Seizo Koshiba, Fumiki Katsuoka, Kengo Kinoshita, Takafumi Suzuki, Akira Uruno, Masayuki Yamamoto",
-      "journal": "Nature Communications",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76349-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-74694-6",
-      "title": "Semi-supervised Omics Factor Analysis (SOFA) disentangles known and latent sources of variation in multi-omic data",
-      "authors": "Tümay Capraz, Harald Vöhringer, Klaus Sebastian Augusto Kruger Serrano, Ricardo Omar Ramirez Flores, Julio Saez-Rodriguez, Wolfgang Huber",
-      "journal": "Nature Communications",
-      "published": "2026-08-20",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-74694-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
