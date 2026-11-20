@@ -1,12 +1,63 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-19T22:17:19.521666+00:00",
+  "checkedAt": "2026-11-20T10:10:22.322571+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s43587-026-01298-6",
+      "title": "Author Correction: m6A epitranscriptomic regulation of tissue homeostasis during primate aging",
+      "authors": "Zeming Wu, Mingming Lu, Di Liu, Yue Shi, Jie Ren, Si Wang, Ying Jing, Sheng Zhang, Qian Zhao, Hongyu Li, Zihui Yu, Zunpeng Liu, Shijia Bi, Tuo Wei, Yun-Gui Yang, Jingfa Xiao, Juan Carlos Izpisua Belmonte, Jing Qu, Weiqi Zhang, Weimin Ci, Guang-Hui Liu",
+      "journal": "Nature Aging",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1038/s43587-026-01298-6",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T10:10:22.322571+00:00"
+    },
+    {
+      "doi": "10.1038/s41538-026-01243-2",
+      "title": "Garcinol alleviates colitis in association with changes in the gut microbiota and bile acid-FXR signaling axis",
+      "authors": "Zhuoqi Lou, Tao Chen, Liya Pan, Linye Pan, Yifan Zeng, Ziyuan Zhou, Jiali Ni, Shuwen Jiang, Zihao Yan, Zebao He, Bing Ruan",
+      "journal": "npj Science of Food",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41538-026-01243-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T10:10:22.322571+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c15788",
+      "title": "Distinct Phyllosphere Microbiome-Linked Stress Pathways of Conventional and Biodegradable Plastics in Vallisneria natans",
+      "authors": "Beibei Hao, Xiaoke Zhang, Yujing Han, Bin He, Haoping Wu",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c15788",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-20T10:10:22.322571+00:00"
+    },
     {
       "doi": "10.1038/s43856-026-02009-3",
       "title": "Metabolic and gut microbiome responses to personalized nutrition during metformin therapy in prediabetes and early‑stage type 2 diabetes: a randomized clinical trial",
@@ -12576,210 +12627,6 @@
       ],
       "link": "https://doi.org/10.1021/acs.est.6c03403",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aed6318",
-      "title": "Mitochondrial profiling across macrophage states reveals inhibition of IL-4/IL-13 reprogramming by the integrated stress response",
-      "authors": "Joan Blanco-Fernandez, Miriam Lisci, Mads M. Foged, Chloé Chapuis, Tim Pflästerer, Tatjana Kleele, Alexis A. Jourdain",
-      "journal": "Science Advances",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aed6318",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aec5478",
-      "title": "Reconstructing pathogen-specific antibody binding epitopes and age-dependent immune signatures from proteomic-scale peptide libraries",
-      "authors": "Everlyn Kamau, Nikolina Walas, Minlu Zhang, Kathy Kamath, Jack Reifert, John Shon, Shahjahan Ali, Md Ziaur Rahman, Abul K. Shoab, Syeda L. Famida, Salma Akther, Md Saheen Hossen, Palash Mutsuddi, Mahbubur Rahman, Jessica A. Grembi, Andrew N. Mertens, Richelle C. Charles, Daniel T. Leung, Stephen Luby, Audrie Lin, Benjamin F. Arnold",
-      "journal": "Science Advances",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aec5478",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aec5063",
-      "title": "Large-scale proteomics to identify novel biomarkers linking social determinants of health to heart failure risk",
-      "authors": "Diego Ramonfaur, Rani Zierath, Yimin Yang, Victoria Lamberson, Brian Claggett, Tiffany M. Powell-Wiley, Tammy Leonard, Anna Kucharska-Newton, Keenan A. Walker, Patricia P. Chang, Nrupen Bhavsar, Ganga Bey, Kenneth Butler, Chiadi Ndumele, Josef Coresh, Bing Yu, James S. Floyd, Michelle C. Odden, Amil M. Shah",
-      "journal": "Science Advances",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aec5063",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1126/sciadv.aeb1346",
-      "title": "Geneformer-guided multiomics integration identifies Pbx1 as a network hub of hematopoietic stem cell aging",
-      "authors": "Hiroshi Kobayashi, Shintaro Watanuki, Yusuke Shiozawa, Motohiko Oshima, Shuhei Koide, Naoya Takayama, Takayuki Morikawa, Miho Haraguchi, Shinpei Tamaki, Takayoshi Asakura, Toshio Miyata, Atsushi Iwama, Seishi Ogawa, Keiyo Takubo",
-      "journal": "Science Advances",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1126/sciadv.aeb1346",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:09:19.049538+00:00"
-    },
-    {
-      "doi": "10.1038/s42255-026-01601-0",
-      "title": "A proteomic atlas of obesity and weight loss",
-      "authors": "Natasha D. Suriani, Matthew J. Watt",
-      "journal": "Nature Metabolism",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s42255-026-01601-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s42255-026-01599-5",
-      "title": "Multi-organ proteomic atlas of obesity regression in male mice",
-      "authors": "Felix Boel, Ellen Gammelmark Klinggaard, Vyacheslav Akimov, Daniel Hansen, M. L. Uthpala, Babukrishna Maniyadath, Flora Reincke Fuglsang, Marc Pielies Avellí, Simon Rasmussen, Kim Ravnskjær, Susanne Mandrup, Blagoy Blagoev",
-      "journal": "Nature Metabolism",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s42255-026-01599-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67717-1",
-      "title": "Evaluation of procedures for normalizing and analyzing SomaScan proteomics assay",
-      "authors": "Michael C. B. Galanakis, Medha Srikantapuram, Steen Ladelund, Jose M. G. Izarzugaza, Kristian M. Bendtsen, Lasse Maretty, Milan Geybels, Dirk Valkenborg",
-      "journal": "Scientific Reports",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67717-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66403-6",
-      "title": "Impact of Infant Feeding Mode on Gut Microbiome Composition in Early Life: Evidence from an Egyptian Cohort",
-      "authors": "Shorok ELHindi, Salah Abdalla, Marwa M. Azab, Mahmoud M. Bendary",
-      "journal": "Scientific Reports",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66403-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66320-8",
-      "title": "Correction: Quantitative Proteomics Reveals the Defense Response of Wheat against Puccinia striiformis f. sp. tritici",
-      "authors": "Yuheng Yang, Yang Yu, Chaowei Bi, Zhensheng Kang",
-      "journal": "Scientific Reports",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66320-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64969-9",
-      "title": "Faecal microbiota composition associates with systemic inflammatory marker and cytokine profiles in periparturient dairy cattle",
-      "authors": "Lisa Arnalot, Marine Milhes, Blandine Gausseres, Elise Vanbergue, Amy Sweeny, Andrew Free, Asma Zened, Gilles Foucras",
-      "journal": "Scientific Reports",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64969-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-62221-y",
-      "title": "Serum metabolomic signal in dry eye disease in a family aware twin cohort",
-      "authors": "Leif Hynnekleiv, Pirro G. Hysi, Chris J. Hammond, Tor Paaske Utheim, Michael Riegler, Jelle Vehof, Hugo Lewi Hammer",
-      "journal": "Scientific Reports",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-62221-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41540-026-00805-0",
-      "title": "Serum metabolomics identifies phenylalanine and carnitine-associated vulnerabilities in colorectal cancer",
-      "authors": "Ruiting Ma, Yan Liu, Kejian Liu, Haidong Cheng, Mingxing Hou",
-      "journal": "npj Systems Biology and Applications",
-      "published": "2026-08-21",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41540-026-00805-0",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
