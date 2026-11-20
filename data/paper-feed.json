@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-20T10:10:22.322571+00:00",
+  "checkedAt": "2026-11-20T21:52:23.177762+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,91 @@
       "firstSeen": "2026-11-20T10:10:22.322571+00:00"
     },
     {
+      "doi": "10.1038/s42003-026-11400-8",
+      "title": "Multi-omics profiling reveals AR7 ameliorates rotenone-induced Parkinson’s disease via gut-serum-brain axis modulation",
+      "authors": "Jialong Chen, Zhefan Xie, He Zhang, Xiaotong Lin, Lifei Xing, Aikebaier Yasen, Mayire Rexiati, Yang Yang, Liling Wang, Chunlai Fu, Xin Liu",
+      "journal": "Communications Biology",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s42003-026-11400-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T21:52:23.177762+00:00"
+    },
+    {
+      "doi": "10.1038/s41698-026-01774-7",
+      "title": "AI-driven multi-omics identifies SPP1⁺ tumor-associated macrophages as a therapeutic target and predicts lymph node metastasis in papillary thyroid cancer",
+      "authors": "Jing Sun, Jiaxuan Huai, Weixiong Zhu, Zhaokai Zhou, Yingjian Wang, Shaohui Xu, Tianyu Zhao, Yongjie Wang, Xiqiao Zhou, Shencun Fang, Jianpeng Zhang, Yinde Huang, Run Shi",
+      "journal": "npj Precision Oncology",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41698-026-01774-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T21:52:23.177762+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-80752-2",
+      "title": "Development and validation of a multi-omics model for early glaucoma diagnosis and prediction in high-risk populations",
+      "authors": "Jia Meng, XueTao Huang, MingYuan Yang, Chaofeng Yuan",
+      "journal": "Scientific Reports",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80752-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T21:52:23.177762+00:00"
+    },
+    {
+      "doi": "10.1038/s41588-026-02810-9",
+      "title": "Multiancestry genome-wide association and integrative multiomics analyses implicate key pathways in endometriosis",
+      "authors": "Lindsay A. Guare, Jagyashila Das, Lannawill Caruth, Ananya Rajagopalan, Alexis T. Akerele, James Jaworski, Leah Kottyan, Ashley J. Mulford, Elisa Moreno, Ben M. Brumpton, Craig Teerlink, Julie Lynch, Tzu-Ting Chen, Yen-Feng Lin, Penn Medicine Biobank, The eMERGE Network, Noemie Elhadad, Gail P. Jarvik, Yuan Luo, Wei-Qi Wei, Chunhua Weng, VA Million Veteran Program, Danielle Candelieri-Surette, Global Biobank Meta-analysis Initiative, Marija Simona Dombrovska, Andrew C. Hill, Shinichi Namba, Yukinori Okada, Vita Rovite, Alan R. Sanders, Yue Shi, Yuya Shirai, Jonathan Shortt, Yuji Yamamoto, Kyong-Mi Chang, Sinead B. Chapman, Todd Edwards, Suneeta Senapati, Digna R. Velez Edwards, Wei Zhou, Shefali Setia-Verma",
+      "journal": "Nature Genetics",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41588-026-02810-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T21:52:23.177762+00:00"
+    },
+    {
+      "doi": "10.1038/s41564-026-02529-7",
+      "title": "Inside the gut microbiome of manatees",
+      "authors": "",
+      "journal": "Nature Microbiology",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41564-026-02529-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T21:52:23.177762+00:00"
+    },
+    {
       "doi": "10.1038/s41538-026-01243-2",
       "title": "Garcinol alleviates colitis in association with changes in the gut microbiota and bile acid-FXR signaling axis",
       "authors": "Zhuoqi Lou, Tao Chen, Liya Pan, Linye Pan, Yifan Zeng, Ziyuan Zhou, Jiali Ni, Shuwen Jiang, Zihao Yan, Zebao He, Bing Ruan",
@@ -40,6 +125,23 @@
       "link": "https://doi.org/10.1038/s41538-026-01243-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-20T10:10:22.322571+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-78791-4",
+      "title": "Endocrine, nutritional and metabolic diseases drive cancer risk through subtype-specific and shared proteomic mediators",
+      "authors": "Jie Wu, Yi Yao, Yuxin Chu, Liang Chen, Luojun Chen, Lulu Chen, Cai Zhang, Fuben Liao, Songjiang He, Bin Xu, Xiao Shi, Zheming Liu, Kehan Song",
+      "journal": "Nature Communications",
+      "published": "2026-11-20",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-78791-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-20T21:52:23.177762+00:00"
     },
     {
       "doi": "10.1021/acs.est.6c15788",
