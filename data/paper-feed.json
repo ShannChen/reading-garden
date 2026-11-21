@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-20T21:52:23.177762+00:00",
+  "checkedAt": "2026-11-21T09:57:33.732697+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-80937-9",
+      "title": "Systemic immune and metabolomic responses to oral hyaluronic acid in a randomized placebo-controlled clinical study",
+      "authors": "Romana Šínová, Vratislav Berka, Lukáš Kubala, Petra Ovesná, Matěj Šimek",
+      "journal": "Scientific Reports",
+      "published": "2026-11-21",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80937-9",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-21T09:57:33.732697+00:00"
+    },
     {
       "doi": "10.1038/s43587-026-01298-6",
       "title": "Author Correction: m6A epitranscriptomic regulation of tissue homeostasis during primate aging",
@@ -12678,57 +12695,6 @@
       ],
       "link": "https://doi.org/10.1038/s41467-026-77040-y",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-64675-6",
-      "title": "Prospective observational study of the impact of early-life feeding on gut microbiome development in caesarean-delivered infants: associations with clinician-confirmed illness",
-      "authors": "Kexin Zhang, Kit Ying Tsoi, Chee Yong Goh, Tim-Fat Shum, B. N. V. Premkrishnan, Ellis Kam Lun Hon, Daniel Cheung Sing Chiu, Jan Knol, Christophe Lay, Jia Chi Chiou",
-      "journal": "Scientific Reports",
-      "published": "2026-08-22",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-64675-6",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41531-026-01542-1",
-      "title": "Comparative proteomic analysis of environmental and genetic models of Parkinson’s disease highlights the role of purine metabolism",
-      "authors": "Pablo Reina-Gonzalez, Müberra Fatma Cesur, Aiesha Anchan, Abdulla Abu-Salah, Tunahan Çakır, Emir Malovic, Souvarish Sarkar",
-      "journal": "npj Parkinson's Disease",
-      "published": "2026-08-22",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41531-026-01542-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1021/acs.est.6c03403",
-      "title": "Restoration of Gut Microbiota Vertical Transmission by Bifidobacterium Mitigates Pollutant-Induced Intergenerational Obesity",
-      "authors": "Sinuo Tian, Fang Zhao, Zhiyuan Meng, Wei Sun, Miaomiao Teng, Wentao Zhu, Cheng Li, Sen Yan",
-      "journal": "Environmental Science & Technology",
-      "published": "2026-08-22",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1021/acs.est.6c03403",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
