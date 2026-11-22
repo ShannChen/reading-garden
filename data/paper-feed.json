@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-22T09:55:44.562235+00:00",
+  "checkedAt": "2026-11-22T20:45:57.695027+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-80914-2",
+      "title": "Distinct gut and lung microbiota profiles in a naturally occurring equine model of asthma",
+      "authors": "Laurence Leduc, Marcio Costa, Rachel Gervais, Antoine Symoens, Robert Dickson, Mathilde Leclère",
+      "journal": "Scientific Reports",
+      "published": "2026-11-22",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80914-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-22T20:45:57.695027+00:00"
+    },
     {
       "doi": "10.1038/s41467-026-79465-x",
       "title": "The genetic and proteomic determinants of pediatric stature development and their link to adult height and type 2 diabetes",
