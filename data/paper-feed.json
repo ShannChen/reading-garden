@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-21T20:35:23.229877+00:00",
+  "checkedAt": "2026-11-22T09:55:44.562235+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41467-026-79465-x",
+      "title": "The genetic and proteomic determinants of pediatric stature development and their link to adult height and type 2 diabetes",
+      "authors": "N. Fragoso-Bargas, AE Lupu, I. Campillo-Pereda, Y. Huang, J. Sundfjord, R. Karimi, T. Lind, JC Holm, LA Holm, A. Havdahl, OA Andreassen, S. O’Rahilly, P. Sole-Navais, B. Jacobsson, E. Bratland, G. Davey Smith, PB Juliusson, KK Ong, T. Hansen, PR Njølstad, M. Vaudel, S. Johansson",
+      "journal": "Nature Communications",
+      "published": "2026-11-22",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79465-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-22T09:55:44.562235+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-80937-9",
       "title": "Systemic immune and metabolomic responses to oral hyaluronic acid in a randomized placebo-controlled clinical study",
