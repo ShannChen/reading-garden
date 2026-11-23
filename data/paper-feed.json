@@ -1,12 +1,46 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-22T20:45:57.695027+00:00",
+  "checkedAt": "2026-11-23T10:54:58.027859+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44161-026-00953-w",
+      "title": "Author Correction: Temporal proteomics maps concealed-stage remodeling and reveals early mitochondrial alteration as an intervention target in a model of PKP2-arrhythmogenic cardiomyopathy",
+      "authors": "Jonathan S. Achter, Mikkel Svenningsen, John Mulvey, Giorgia Bertoli, Emily Meyer, Gautham Yepuri, Mingliang Zhang, Ravichandran Ramasamy, Mario Delmar, Alicia Lundby",
+      "journal": "Nature Cardiovascular Research",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s44161-026-00953-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-23T10:54:58.027859+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01205-2",
+      "title": "Subacute ruminal acidosis tolerance: phenotyping and nutritional management through host–microbiome interaction insights",
+      "authors": "Xinyi Zhang, Jianrong Ren, Jingyi Xu, Shengjun Zhai, Ziyi Zhao, Yiyang Sun, Shixi Liu, Junhu Yao, Xinyi Li, Shengru Wu",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01205-2",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-23T10:54:58.027859+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-80914-2",
       "title": "Distinct gut and lung microbiota profiles in a naturally occurring equine model of asthma",
@@ -3535,7 +3569,7 @@
     {
       "doi": "10.1038/s44161-026-00894-4",
       "title": "Temporal proteomics maps concealed-stage remodeling and reveals early mitochondrial alteration as an intervention target in a model of PKP2-arrhythmogenic cardiomyopathy",
-      "authors": "Jonathan S. Achter, Mikkel Svenningsen, John Mulvey, Giorgia Bertoli, Emily Meyer, Gautam Yepuri, Mingliang Zhang, Ravichandran Ramasamy, Mario Delmar, Alicia Lundby",
+      "authors": "Jonathan S. Achter, Mikkel Svenningsen, John Mulvey, Giorgia Bertoli, Emily Meyer, Guatham Yepuri, Mingliang Zhang, Ravichandran Ramasamy, Mario Delmar, Alicia Lundby",
       "journal": "Nature Cardiovascular Research",
       "published": "2026-10-29",
       "year": "2026",
@@ -12533,201 +12567,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41467-026-76763-2",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-68066-9",
-      "title": "Metabolomics analysis of placenta associated with preterm birth and the function of candidate metabolites on decidual senescence",
-      "authors": "Yiwen Liu, Yan Yan, Zheng Bian, Runjie Zhang",
-      "journal": "Scientific Reports",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-68066-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67431-y",
-      "title": "Multiomics and Confocal Raman mapping of Stegodyphus sarasinorum venom gland biomolecules with antioxidant and cytotoxic activities",
-      "authors": "Veena Venugopal, Rajesh Unnathpadi, Teja Bolisetti, Biji Pullithadathil, Sudhir Rama Varma, Valiya Parambil Sivadasan Binitha, Kodangattil Narayanan Jayaraj, Arunaksharan Narayanankutty, Malamal Koyakottil Rohit, Yasovardhanan Shibu Vardhanan, Rajdeep Das, Anthyalam Parambil Ajaykumar",
-      "journal": "Scientific Reports",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67431-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67357-5",
-      "title": "Significant alteration of gut microbiota in patients with symptomatic uncomplicated diverticular disease",
-      "authors": "Fumiaki Ishibashi, Tsumugi Jono, Yuki Kasai, Takaomi Kessoku, Haruka Yokota, Yoshiki Tanaka, Yo Ishihara, Kosuke Tanaka, Kota Takahashi, Kosuke Seita, Takayuki Kato, Eiji Sakai, Takeo Kurihashi, Machiko Nakatogawa, Shunsuke Oyamada, Haruki Usuda, Koichiro Wada, Seiji Futagami, Jonathan Wei Jie Lee, Kok-Ann Gwee, Antonio Tursi, Atsushi Nakajima",
-      "journal": "Scientific Reports",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67357-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-08148-5",
-      "title": "A longitudinal plasma metabolomics dataset of sepsis-associated liver injury across multiple clinical time points",
-      "authors": "Huan Liu, Jing Yang, Dong Leng, Yihui Wang, Enqiang Mao, Erzhen Chen, Ying Chen, Zhitao Yang",
-      "journal": "Scientific Data",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-08148-5",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41575-026-01246-0",
-      "title": "The microbial mirror: how a disrupted microbiome forecasts disease and why policy must act",
-      "authors": "Antonio Gasbarrini, Gianluca Ianiro, Giovanni Gasbarrini",
-      "journal": "Nature Reviews Gastroenterology & Hepatology",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41575-026-01246-0",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41556-026-02038-z",
-      "title": "DREAMS illuminates spatial DNA and RNA modification landscapes",
-      "authors": "Yan Peng, Liang Xue, Yujie Zhang, Shuangshuang Feng, Yiting Lu, Houyu Zhang, Mingjie Dong, Chenyang Wang, Meng Bao, Waleed Alam, Yueyang Li, Wuyunhan Ma, Sifei Yu, Lei Zhang, Jie Yin, Jiuming He, Magdalena J. Koziol",
-      "journal": "Nature Cell Biology",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41556-026-02038-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01085-y",
-      "title": "Siraitia grosvenorii residue water extract granules regulate fat deposition via intestinal microbiota and its metabolites",
-      "authors": "Xiaoqing Xu, Dandan Guo, Yuqing Zhou, Jinlin Huang, Jiali Jiang, Pishun Li, Zhao-Ying Liu",
-      "journal": "npj Science of Food",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01085-y",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-00976-4",
-      "title": "Integrated proteomics and metabolomics reveal how functional protein supplementation enhances salt tolerance in Zygosaccharomyces rouxii",
-      "authors": "Dingkang Wang, Yu Jiang, Dan Li, Xiaoru Chen, Jing Huang, Bin Ma, Shiyu Liu, Yanqin Rong, Hongfei Yu, Yongjie Zhang",
-      "journal": "npj Science of Food",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Proteomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-00976-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01132-2",
-      "title": "L-arginine alleviates polycystic ovary syndrome restore ovulation and androgen levels by regulating gut microbiota",
-      "authors": "Diliqingna Dilimulati, Meili Cai, Yicheng Gao, Yuqin Zhang, Xuyang Jia, Xiaowen Shao, Lie Du, Jiangfan Zhu, Xiaojing Lin, Haibing Chen, Qi Liu, Manna Zhang, Shen Qu",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01132-2",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-77176-x",
-      "title": "Author Correction: Host macrophages/monocytes promote malaria transmission by modulating mosquito microbiota via SR-A-mediated phagocytosis",
-      "authors": "Biao He, Meilin Li, Shuai Guo, Jiaqin Fang, Yongling Fan, Nie Tan, Taiping Liu, Jianyong Li, Feng Zhu, Jian Zhang, Wenyue Xu",
-      "journal": "Nature Communications",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-77176-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-15T23:06:44.396695+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-77040-y",
-      "title": "Plasma metabolomic signatures enable the diagnosis and prognosis of chronic obstructive pulmonary disease",
-      "authors": "Chen Li, Jie Yao, Fan Wu, Leqing Zhu, Xiaowen Zhang, Lanzhu Peng, Jieda Cui, Su Fang, Li Lin, Wanli Peng, Miao Lei, Mingmeng Fang, Cuihua Wang, Bin Chen, Zongzheng Gui, Xianju Wang, Yubei Jin, Biying Zhu, Chunyan Lu, Qi Wan, Xiaohui Wu, Gaoying Tang, Xinru Ran, Wei Rao, Lei Wang, Yumin Zhou, Pixin Ran, Wenxiang Hu",
-      "journal": "Nature Communications",
-      "published": "2026-08-24",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-77040-y",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
