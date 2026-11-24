@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-23T10:54:58.027859+00:00",
+  "checkedAt": "2026-11-24T01:43:30.833196+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,74 @@
       "firstSeen": "2026-11-23T10:54:58.027859+00:00"
     },
     {
+      "doi": "10.1038/s42003-026-11347-w",
+      "title": "Strain-resolved HiFi assemblies reveal seep microbiome adaptive divergence and interactions with viruses",
+      "authors": "Hai-Li Ran, Ming Yang, Zhi-Heng Zhou, Ji-Wei Li, Pei-Yuan Qian, Zhaoming Gao",
+      "journal": "Communications Biology",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s42003-026-11347-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T01:43:30.833196+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-81177-7",
+      "title": "Systematic evaluation of SPE cartridges in a 12-second SPE-IM-MS workflow for untargeted intracellular metabolomics",
+      "authors": "Prajakta Naval, Daniel Brunnsåker, Erik Y. Bjurström, Ievgeniia A. Tiukova, Ross D. King",
+      "journal": "Scientific Reports",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-81177-7",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-24T01:43:30.833196+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-80627-6",
+      "title": "Immune-metabolic plasma proteomic signatures distinguish asymptomatic from symptomatic SARS-CoV-2 infection and predict post-COVID sequelae",
+      "authors": "Ayesha Syed Mamoor Alam, Robin Martens, Sepehr Golriz Khatami, Rieke Baumkötter, Thomas Köck, Michael Mülleder, Markus Schepers, Alexander K. Schuster, Manfred E. Beutel, Karl Lackner, Thomas Münzel, Vincent Ten Cate, Markus Ralser, Philipp S. Wild",
+      "journal": "Scientific Reports",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80627-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-24T01:43:30.833196+00:00"
+    },
+    {
+      "doi": "10.1038/s41590-026-02723-z",
+      "title": "HIV finds shelter in the microbiome",
+      "authors": "Francesc Català-Moll, Roger Paredes",
+      "journal": "Nature Immunology",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41590-026-02723-z",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T01:43:30.833196+00:00"
+    },
+    {
       "doi": "10.1038/s41522-026-01205-2",
       "title": "Subacute ruminal acidosis tolerance: phenotyping and nutritional management through host–microbiome interaction insights",
       "authors": "Xinyi Zhang, Jianrong Ren, Jingyi Xu, Shengjun Zhai, Ziyi Zhao, Yiyang Sun, Shixi Liu, Junhu Yao, Xinyi Li, Shengru Wu",
@@ -40,6 +108,40 @@
       "link": "https://doi.org/10.1038/s41522-026-01205-2",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-23T10:54:58.027859+00:00"
+    },
+    {
+      "doi": "10.1038/s41522-026-01193-3",
+      "title": "Aspergillus neoalliaceus suppresses Saposhnikovia divaricata root rot through functional reprogramming of the rhizosphere microbiome",
+      "authors": "Yanzhe Ding, Yuqi Zhao, Chongbo Sun, Limin Yang, Zhuo Sun, Hongmei Lin, Yunhe Wang, Jian Zhang, Zhongming Han",
+      "journal": "npj Biofilms and Microbiomes",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41522-026-01193-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T01:43:30.833196+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c05747",
+      "title": "Nontargeted Metabolomics Reveal Multi-Pathway Disruption from BPA Exposure in the Freshwater Snail Planorbella pilsbryi",
+      "authors": "David WG McNabney, Karyn B Robichaud, Maria Villella, Stacey A Robinson, Ève AM Gilroy",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-11-23",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c05747",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-24T01:43:30.833196+00:00"
     },
     {
       "doi": "10.1038/s41598-026-80914-2",
@@ -12448,126 +12550,6 @@
       ],
       "link": "https://doi.org/10.1021/acs.est.6c05759",
       "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s44284-026-00512-1",
-      "title": "Art as inquiry in the microbiome-informed city",
-      "authors": "Diedre Brown, Elizabeth Hénaff",
-      "journal": "Nature Cities",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s44284-026-00512-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43018-026-01241-z",
-      "title": "Author Correction: Low-protein diet enhances antitumor immunity in pancreatic cancer through microbiota-derived UDP-galactose",
-      "authors": "Yueying Chen, Fulin Nian, Shengdi Wu, Tianli Yuan, Yifan Ma, Junyang Cao, Yuxiao Zhang, Wenfeng Liu, Wenqing Tang, Danying Zhang, Zi Li, Wei Lu, Fengwanni Wang, Xiulong Xia, Zhanju Liu, Si Zhang, Xizhong Shen, Xiaoming Hu, Ling Dong",
-      "journal": "Nature Cancer",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s43018-026-01241-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-15T23:06:44.396695+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67915-x",
-      "title": "Multi-omics and experimental validation reveal the mechanism of Oenothera biennis against type 2 diabetes",
-      "authors": "Ying Xun, Lili Chen, Lang Chen, Yu Fu, Xiang Wu, Xiaoli Wang, Yan Wang, Liang Tang",
-      "journal": "Scientific Reports",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67915-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41597-026-08116-z",
-      "title": "Paired Gut Microbiota and Serum Metabolome Datasets across Body-Size Classes in SPF Macrobrachium rosenbergii",
-      "authors": "Yiming Qi, Peimin Liu, Lihai Ye, Miuying Cai, Zhenglong Xia, Jiongying Yu, Qiang Sheng, Qiongying Tang, Quanxin Gao, Shaokui Yi",
-      "journal": "Scientific Data",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41597-026-08116-z",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01066-1",
-      "title": "From metabolomics dark matter to bioactivity: a computational framework for prioritizing food-derived bioactive compounds",
-      "authors": "Pranav Gupta, Michael Gunning, Selena Ahmed, Ilias Tagkopoulos",
-      "journal": "npj Science of Food",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01066-1",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76929-y",
-      "title": "Next-generation multiplexed targeted proteomics quantifies post-translational modifications in disease and compound-protein interactions with high throughput",
-      "authors": "Steven R. Shuken, Geordon A. Frere, Charlotte R. Beard, Christopher D. McGann, Jesse D. Canterbury, Nathan R. Zuniga, Brandon M. Gassaway, Shane L. Dawson, Kean Hean Ooi, João A. Paulo, M. Windy McNerney, Steven P. Gygi, Qing Yu",
-      "journal": "Nature Communications",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76929-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-76763-2",
-      "title": "An atlas of colonization factors in the human gut microbiome reveals ecological strategies and inflammatory bowel disease signatures",
-      "authors": "Jin-Xin Meng, Wen-Di Li, Wei-Fu Tao, Shuyu Tu, Jinsong Gao, Xinya Zhao, Jialei Li, Jianan Wu, Chang Liu, Yanan Zhang, Shu Jeffrey Zhu",
-      "journal": "Nature Communications",
-      "published": "2026-08-25",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-76763-2",
-      "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
