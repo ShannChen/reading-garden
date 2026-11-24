@@ -1,12 +1,66 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-24T01:43:30.833196+00:00",
+  "checkedAt": "2026-11-24T12:38:44.855368+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s44560-026-00005-w",
+      "title": "Germline structural variation across urologic cancers reveals a global multi-omic impact on disease-relevant genes",
+      "authors": "Fengju Chen, Luis F. Paulin, Yiqun Zhang, Fritz J. Sedlazeck, Chad J. Creighton",
+      "journal": "Nature Progress Oncology",
+      "published": "2026-11-24",
+      "year": "2026",
+      "tags": [
+        "Multiomics"
+      ],
+      "groups": [
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s44560-026-00005-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T12:38:44.855368+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-81094-9",
+      "title": "A streamlined workflow for nanopore-based full-length 16S rRNA gene profiling of low-biomass clinical specimens: application to the seminal microbiome",
+      "authors": "Hisanori Taniguchi, Yoshiyuki Matsuo, Tatsuya Nakano, Yoshiharu Nakaoka, Yoshiharu Morimoto, Hidefumi Kinoshita",
+      "journal": "Scientific Reports",
+      "published": "2026-11-24",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-81094-9",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-24T12:38:44.855368+00:00"
+    },
+    {
+      "doi": "10.1021/acs.est.6c11079",
+      "title": "Humic and Fulvic Acids Elicit Distinct Multi-Organ and Microbial Responses after Chronic Oral Exposure",
+      "authors": "Xin-Yuan Li, Xiao-Yan Zou, Xin-Lei Wang, Jing-Xi Gong, Ai-Jun Miao",
+      "journal": "Environmental Science & Technology",
+      "published": "2026-11-24",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1021/acs.est.6c11079",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-24T12:38:44.855368+00:00"
+    },
     {
       "doi": "10.1038/s44161-026-00953-w",
       "title": "Author Correction: Temporal proteomics maps concealed-stage remodeling and reveals early mitochondrial alteration as an intervention target in a model of PKP2-arrhythmogenic cardiomyopathy",
