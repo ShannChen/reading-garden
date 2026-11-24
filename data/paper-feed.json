@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-24T12:38:44.855368+00:00",
+  "checkedAt": "2026-11-24T23:31:29.495585+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
@@ -25,6 +25,23 @@
       "firstSeen": "2026-11-24T12:38:44.855368+00:00"
     },
     {
+      "doi": "10.1038/s41598-026-81265-8",
+      "title": "Behavioral flexibility, gut microbiome composition, and individual variability in oral oxycodone self-administration",
+      "authors": "Claire M. Corbett, Alexis E. O’Shall, Mark Niedringhaus, Elizabeth A. West",
+      "journal": "Scientific Reports",
+      "published": "2026-11-24",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-81265-8",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T23:31:29.495585+00:00"
+    },
+    {
       "doi": "10.1038/s41598-026-81094-9",
       "title": "A streamlined workflow for nanopore-based full-length 16S rRNA gene profiling of low-biomass clinical specimens: application to the seminal microbiome",
       "authors": "Hisanori Taniguchi, Yoshiyuki Matsuo, Tatsuya Nakano, Yoshiharu Nakaoka, Yoshiharu Morimoto, Hidefumi Kinoshita",
@@ -40,6 +57,40 @@
       "link": "https://doi.org/10.1038/s41598-026-81094-9",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-24T12:38:44.855368+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79867-3",
+      "title": "Comprehensive proteomic profiling reveals signatures consistent with metabolic reprogramming and altered apoptotic priming in proteasome inhibitor-resistant multiple myeloma cells",
+      "authors": "Tadeusz Kubicki, Kinga Bednarek, Magdalena Kostrzewska-Poczekaj, Magdalena Luczak, Lydia Visser, Monique Lodewijk, Krzysztof Żyłka, Lidia Gil, Małgorzata Jarmuż-Szymczak, Dominik Dytfeld",
+      "journal": "Scientific Reports",
+      "published": "2026-11-24",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79867-3",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T23:31:29.495585+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79232-y",
+      "title": "Gut microbiota-derived phenylacetylglutamine exacerbates aortic aneurysm and dissection via activating macrophage integrin β1 in male mice",
+      "authors": "Huanhuan Cao, Yanghui Chen, Xiaoyi Liu, Chenwei Lin, Qi Zhang, Jun Yang, Ke Li, Shusi Ding, Qiutong Wu, Jie Chen, Yiwen Fu, Xingxian Liu, Chao Jiang, Rui Zhan, Guangyuan Song, Lin Zeng, Zhe Zhao, Qing Wang, Xiaoyu Hu, Lixin Wang, Dao Wen Wang, Lemin Zheng",
+      "journal": "Nature Communications",
+      "published": "2026-11-24",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79232-y",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-24T23:31:29.495585+00:00"
     },
     {
       "doi": "10.1021/acs.est.6c11079",
@@ -2873,6 +2924,23 @@
       "firstSeen": "2026-10-15T18:23:32.551007+00:00"
     },
     {
+      "doi": "10.1016/j.omtn.2026.103195",
+      "title": "Root and Alveolar Bone Resorption: A Structured Narrative Review of Transcriptomic and Proteomic Evidence",
+      "authors": "Parham Motamedi, Zofia Wicik, Sara Ahmadova, Marek Postula, Ewa Czochrowska, Maciej Rafał Czerniuk, Farah Asa’ad, Ceren Eyileten",
+      "journal": "Molecular Therapy Nucleic Acids",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.omtn.2026.103195",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T23:31:29.495585+00:00"
+    },
+    {
       "doi": "10.1016/j.omtn.2026.103170",
       "title": "RNA Modifications in Cancer Therapy Resistance: Mechanisms and Therapeutic Targeting",
       "authors": "Ying Feng, Jun Zhang, Jing Yu",
@@ -3398,6 +3466,23 @@
       "link": "https://doi.org/10.1016/j.cmet.2026.10.014",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-17T22:29:18.195868+00:00"
+    },
+    {
+      "doi": "10.1016/j.chom.2026.11.003",
+      "title": "Vagus nerve stimulation ameliorates epilepsy via a gut microbiota-butyrate-vagal axis",
+      "authors": "Long Zeng, Junjie Zou, Yuting Xu, Jingjing Kong, Qingshan Xiao, Zizhang Cheng, Minghan Xie, Yuhui Wan, Anbo Zhang, Yunhao Luo, Yuhan Huang, Yanjuan Ye, Jine Yuan, Shan Xue, Xizhong Zhou, Peihua Cao, Zhaohua Zhu, Tao Xie, Haitao Sun, Yanwu Guo",
+      "journal": "Cell Host & Microbe",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.chom.2026.11.003",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-24T23:31:29.495585+00:00"
     },
     {
       "doi": "10.1016/j.chom.2026.08.016",
