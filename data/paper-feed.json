@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-24T23:31:29.495585+00:00",
+  "checkedAt": "2026-11-25T11:28:19.905994+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s43016-026-01471-5",
+      "title": "Field-informed synthetic microbiome engineering for soil health and sustainable agriculture",
+      "authors": "Yuting Liang, Haowei Ni, Yujuan Wang, Meitong Jiang, Jizhong Zhou, Jiabao Zhang",
+      "journal": "Nature Food",
+      "published": "2026-11-25",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s43016-026-01471-5",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-25T11:28:19.905994+00:00"
+    },
     {
       "doi": "10.1038/s44560-026-00005-w",
       "title": "Germline structural variation across urologic cancers reveals a global multi-omic impact on disease-relevant genes",
@@ -12604,91 +12621,6 @@
       ],
       "link": "https://doi.org/10.1038/s41522-026-01090-9",
       "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-68073-w",
-      "title": "Proteomic remodeling of the chicken spleen during astrovirus infection reveals coordinated interferon activation and stromal restructuring",
-      "authors": "Joanna Sajewicz-Krukowska, Wojciech Rożek, Agata Malinowska, Katarzyna Domańska-Blicharz",
-      "journal": "Scientific Reports",
-      "published": "2026-08-26",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-68073-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01070-5",
-      "title": "Gut microbiota disorder-associated sphingomyelin: a key role in non-alcoholic fatty liver disease under aflatoxin B1 exposure",
-      "authors": "Junya Zeng, Xinyu Liu, Xinyu Feng, Mengmeng Wang, Li Chen, Qi Wang, Kehe Huang, Xingxiang Chen, Fang Gan",
-      "journal": "npj Science of Food",
-      "published": "2026-08-26",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01070-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01138-w",
-      "title": "Leveraging the salivary microbiome profile to stratify REM sleep behavior disorder and synucleinopathies",
-      "authors": "Daisuke Hisamatsu, Hiroaki Masuoka, Haruka Takeshige-Amano, Taku Hatano, Takashi Ogawa, Kazuo Yamashiro, Rina Kurokawa, Yo Mabuchi, Yuna Naraoka, Takashi Asada, Wataru Suda, Chihiro Akazawa, Nobutaka Hattori",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-26",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01138-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-77106-x",
-      "title": "The Caenorhabditis elegans microbiome impacts microsporidia infection through nutrient limitation and spore inactivation",
-      "authors": "Hala Tamim El Jarkass, Stefanie Castelblanco, Winnie Zhao, Manpreet Kaur, Yin Chen Wan, Abigail E. Ellis, Ryan D. Sheldon, Barbara Pees, Katja Dierking, Evan C. Lien, Nick O. Burton, Gerard D. Wright, Aaron W. Reinke",
-      "journal": "Nature Communications",
-      "published": "2026-08-26",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-77106-x",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1021/acs.est.6c05759",
-      "title": "Adaptive Evolution Reveals Metabolic Plasticity and Functional Redundancy in an Anaerobic Microbiome under Extreme Ammonia Stress",
-      "authors": "Luca Francescato, Gabriele Ghiotto, Maria Chiara Valerin, Nicola De Bernardini, Sofia Fraulini, Annalisa Sandon, Laura Treu, Maria Cristina Lavagnolo, Stefano Campanaro",
-      "journal": "Environmental Science & Technology",
-      "published": "2026-08-26",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1021/acs.est.6c05759",
-      "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
