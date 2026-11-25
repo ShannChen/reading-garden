@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-25T11:28:19.905994+00:00",
+  "checkedAt": "2026-11-25T23:09:35.482713+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/scitranslmed.adz7369",
+      "title": "Multiplex proteomics of cerebrospinal fluid reveals markers of clinical and neuropathological heterogeneity in Lewy body dementia",
+      "authors": "Lenora Higginbotham, Saima Rathore, Anantharaman Shantaraman, Qi Guo, Edward J. Fox, Pritha Bagchi, Fang Wu, Marisa N. Denkinger, Davron Hanley, Nicholas J. Ashton, Erik C. B. Johnson, James J. Lah, Allan I. Levey, Nicholas T. Seyfried",
+      "journal": "Science Translational Medicine",
+      "published": "2026-11-25",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/scitranslmed.adz7369",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-25T23:09:35.482713+00:00"
+    },
     {
       "doi": "10.1038/s43016-026-01471-5",
       "title": "Field-informed synthetic microbiome engineering for soil health and sustainable agriculture",
@@ -23,6 +40,57 @@
       "link": "https://doi.org/10.1038/s43016-026-01471-5",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-25T11:28:19.905994+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-81223-4",
+      "title": "Large-scale discovery of novel plant and soil microbiome diversity enabled by a curriculum-embedded research framework",
+      "authors": "Dagan Sade, Michal Stolarsky Ben-Nun, Shahar Rezenman, Maor Knafo, Vered Zavaro, Matan Naydis, Elizabeta Yakubovich, Yardena David, Julia Gilkshtein, Orly Izsak, Shira Carmel, Carmit Pion, Nataly Kucherenko, Racheli Bardo, Aurelie Lachish-Zalait, Noam Shental, Oded Keynan, Ziv Reich",
+      "journal": "Scientific Reports",
+      "published": "2026-11-25",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-81223-4",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-25T23:09:35.482713+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-80907-1",
+      "title": "LC-MS metabolomics and bioactivity profiling of Zaleya pentandra and Sesuvium sesuvioides (Aizoaceae)",
+      "authors": "Tehmina Saleem Khan, Alyaa Nasr, Ming Zhang, Zemin Fang, Tianxiang Luo, Peng Wang, Guo-Ping Zhu",
+      "journal": "Scientific Reports",
+      "published": "2026-11-25",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-80907-1",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-25T23:09:35.482713+00:00"
+    },
+    {
+      "doi": "10.1038/s41467-026-79554-x",
+      "title": "A small RNA regulates iron homeostasis and host mucus colonization in Bacteroides thetaiotaomicron",
+      "authors": "Thomas Guest, Ryan T. Fansler, Gianluca Prezza, Gohar Mädler, Hannah Schlauch, Wenhan Zhu, Alexander J. Westermann",
+      "journal": "Nature Communications",
+      "published": "2026-11-25",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41467-026-79554-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-25T23:09:35.482713+00:00"
     },
     {
       "doi": "10.1038/s44560-026-00005-w",
@@ -2924,6 +2992,23 @@
       "firstSeen": "2026-11-05T21:07:48.074597+00:00"
     },
     {
+      "doi": "10.1016/j.tibs.2026.11.004",
+      "title": "Biochemical dialog between roots and the surrounding microbiome during stress",
+      "authors": "Welder A. da Silva, Moab T. de Andrade, Wagner L. Araújo",
+      "journal": "Trends in Biochemical Sciences",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.tibs.2026.11.004",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-25T23:09:35.482713+00:00"
+    },
+    {
       "doi": "10.1016/j.stemcr.2026.103117",
       "title": "Microbiota-derived SCFAs modulate Socs36E-mediated feedback to regulate intestinal stem cell proliferation upon Atg4 loss in Drosophila",
       "authors": "Ping Wang, Xianhao Li, Wendong Liu, Jiewei Wang, Li Hua Jin",
@@ -3636,6 +3721,40 @@
       "link": "https://doi.org/10.1016/j.cell.2026.10.012",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-12T21:29:46.773949+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.08.054",
+      "title": "Single-cell visual proteomics of a minimal bacterium reveals structural coordination of gene expression machineries",
+      "authors": "Joseph M. Dobbs, Rasmus K. Jensen, Julia Mahamid",
+      "journal": "Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.08.054",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
+    },
+    {
+      "doi": "10.1016/j.cell.2026.08.034",
+      "title": "Phosphate backbone epitranscriptomics: Discovery of natural RNA phosphorothioates and their writer machinery",
+      "authors": "Alexander Maman, Yuko Nobe, Kristin A. Fluke, Katrin Weidenbach, Alexandra N. Harte, Brett W. Burkhart, Jakub Nowak, Priyadarshini Mukherjee, Deepak Kumar Choudhary, Anatoly Kustanovich, Ronit Nir, Katharina Vogl, Kiall Suazo, Danijela Radovanović, Donna Matzov, Walter Rossmanith, Jordan L. Meier, Moran Shalev-Benami, Dina Grohmann, Kylie D. Allen, Eric Westhof, Sebastian Glatt, Ruth A. Schmitz, Thomas J. Santangelo, Masato Taoka, Schraga Schwartz",
+      "journal": "Cell",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Epitranscriptomics"
+      ],
+      "groups": [
+        "epitranscriptomics"
+      ],
+      "link": "https://doi.org/10.1016/j.cell.2026.08.034",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
       "doi": "10.1016/j.ccell.2026.09.014",
@@ -12023,40 +12142,6 @@
       "link": "https://doi.org/10.1016/j.cell.2026.09.009",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.cell.2026.08.054",
-      "title": "Single-cell visual proteomics of a minimal bacterium reveals structural coordination of gene expression machineries",
-      "authors": "Joseph M. Dobbs, Rasmus K. Jensen, Julia Mahamid",
-      "journal": "Cell",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1016/j.cell.2026.08.054",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:57:24.148531+00:00"
-    },
-    {
-      "doi": "10.1016/j.cell.2026.08.034",
-      "title": "Phosphate backbone epitranscriptomics: Discovery of natural RNA phosphorothioates and their writer machinery",
-      "authors": "Alexander Maman, Yuko Nobe, Kristin A. Fluke, Katrin Weidenbach, Alexandra N. Harte, Brett W. Burkhart, Jakub Nowak, Priyadarshini Mukherjee, Deepak Kumar Choudhary, Anatoly Kustanovich, Ronit Nir, Katharina Vogl, Kiall Suazo, Danijela Radovanović, Donna Matzov, Walter Rossmanith, Jordan L. Meier, Moran Shalev-Benami, Dina Grohmann, Kylie D. Allen, Eric Westhof, Sebastian Glatt, Ruth A. Schmitz, Thomas J. Santangelo, Masato Taoka, Schraga Schwartz",
-      "journal": "Cell",
-      "published": "2026-09",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1016/j.cell.2026.08.034",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     },
     {
       "doi": "10.1038/s41598-026-69416-3",
