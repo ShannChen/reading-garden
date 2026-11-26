@@ -1,12 +1,51 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-26T11:05:27.137363+00:00",
+  "checkedAt": "2026-11-26T23:05:30.024647+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-82153-x",
+      "title": "Integrated proteomics and metabolomics elucidate the mechanism of leaf development inhibition in cigar tobacco under calcium and magnesium deficiencies",
+      "authors": "Dexin Chen, Tongjing Yan, Hongkun Lv, Xiaohua Xiang, Dong Guo, Changjian Xia",
+      "journal": "Scientific Reports",
+      "published": "2026-11-26",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Proteomics",
+        "Multiomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "proteomics",
+        "multiomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-82153-x",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-26T23:05:30.024647+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-82067-8",
+      "title": "Towards precision diagnostics of sleep loss through quantitative NMR metabolomics",
+      "authors": "Abhishek Cukkemane, Kevin Bochinsky, Denise Lange, Eva Hennecke, Anna L. Foerges, Simone Beer, Andreas Bauer, Daniel Aeschbach, Dieter Willbold, Gabi Kastenmüller, Alexander Drzezga, Jens Jordan, David Elmenhorst, Eva-Maria Elmenhorst",
+      "journal": "Scientific Reports",
+      "published": "2026-11-26",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-82067-8",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-26T23:05:30.024647+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-81347-7",
       "title": "Temporal molecular features of hepatic injury in mice infected with Echinococcus multilocularis revealed by DIA-based quantitative proteomics",
@@ -23,6 +62,23 @@
       "link": "https://doi.org/10.1038/s41598-026-81347-7",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-26T11:05:27.137363+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-79686-6",
+      "title": "Integrated metabolomics and network pharmacology reveal candidate bioactive compounds of the endemic cliff plant Taihangia rupestris var. ciliata",
+      "authors": "Zengfang Shi, Haiyu Chen, Guoshuai Zhang, Jin Pei, Jun Zhu, Rui Zeng, Yonggui Ma, Bashir Ahmad, Linfang Huang",
+      "journal": "Scientific Reports",
+      "published": "2026-11-26",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-79686-6",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-26T23:05:30.024647+00:00"
     },
     {
       "doi": "10.1126/scitranslmed.adz7369",
@@ -3041,6 +3097,23 @@
       "link": "https://doi.org/10.1016/j.stemcr.2026.103117",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-15T18:23:32.551007+00:00"
+    },
+    {
+      "doi": "10.1016/j.patter.2026.101731",
+      "title": "Target-driven optimization of feature representation and model selection for microbiome sequencing data with ritme",
+      "authors": "Anja Adamov, Christian L. Müller, Nicholas A. Bokulich",
+      "journal": "Patterns",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.patter.2026.101731",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-26T23:05:30.024647+00:00"
     },
     {
       "doi": "10.1016/j.omtn.2026.103195",
