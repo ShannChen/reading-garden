@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-25T23:09:35.482713+00:00",
+  "checkedAt": "2026-11-26T11:05:27.137363+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41598-026-81347-7",
+      "title": "Temporal molecular features of hepatic injury in mice infected with Echinococcus multilocularis revealed by DIA-based quantitative proteomics",
+      "authors": "Rongdong He, Zhihao Song, Yilizhati Azhati, Guzinayi Abudukadi, Mirizhati Nuermaimaiti, Aliya Tulading, Maiwulanjiang Maimaiti, Chunhui Lv, Mingjuan Wang, Repikaiti Yasheng, Huicheng Zeng, Guliziran Keranmu, Tuerhongjiang Tuxun, Hao Wen",
+      "journal": "Scientific Reports",
+      "published": "2026-11-26",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-81347-7",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-26T11:05:27.137363+00:00"
+    },
     {
       "doi": "10.1126/scitranslmed.adz7369",
       "title": "Multiplex proteomics of cerebrospinal fluid reveals markers of clinical and neuropathological heterogeneity in Lewy body dementia",
@@ -12481,230 +12498,6 @@
         "metabolomics"
       ],
       "link": "https://doi.org/10.1038/s41538-026-01114-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s44294-026-00163-6",
-      "title": "Multi-omics investigation of metabolomic and microbial features in bacterial vaginosis",
-      "authors": "Hana Shabana, Faruk Dube, Emilia Lahtinen, Emelie Bergman Røthe, Lars Engstrand, Luisa Warchavchik Hugerth, Ina Schuppe-Koistinen, Kenny A. Rodriguez-Wallberg",
-      "journal": "npj Women's Health",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Metabolomics",
-        "Microbiome",
-        "Multiomics"
-      ],
-      "groups": [
-        "metabolomics",
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s44294-026-00163-6",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-68371-3",
-      "title": "Cardiovascular risk stratification in the community based on a proteomics panel identified by machine learning survival analysis",
-      "authors": "Everton Santana, Ella Wils, Evangelos Ntalianis, Nicholas Cauwenberghs, Tatiana Kuznetsova",
-      "journal": "Scientific Reports",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-68371-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-68084-7",
-      "title": "Integrating early-life gut microbiota with maternal–infant clinical data to classify mild head-circumference restriction at one month",
-      "authors": "Manting Chen, Meiqun Xiao, Meiying Lu, Dongyan Zhu, Ying Liao, QingQing Xiang, Tao Zhou, Mengying Wang, Liya Ma, Qiying Song",
-      "journal": "Scientific Reports",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-68084-7",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67894-z",
-      "title": "DMFF: a deep learning-based multi-omics fusion framework for survival prediction and subtype classification in breast cancer",
-      "authors": "Shumei Zhang, Yue Zhang, Dandan Zhang, Qiutong Wang, Wen Yang",
-      "journal": "Scientific Reports",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67894-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67858-3",
-      "title": "Plasma proteomic signatures associated with ulcerative colitis risk in overweight/obesity individuals: a UK Biobank study",
-      "authors": "Shujian Wu, Yifen Lin, Hualin Duan, Aimin Xu",
-      "journal": "Scientific Reports",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67858-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67317-z",
-      "title": "Metabolomic and biochemometric profiling of Tecoma stans with mechanistic insights of its in vitro cytotoxic activity",
-      "authors": "Ahmed Sekkien, Noha Swilam, Dalia Adel Al-Mahdy, Maha R. A. Abdollah, Mohamed Mohey Elmazar, Meselhy R. Meselhy, Muhammad A. Alsherbiny",
-      "journal": "Scientific Reports",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Metabolomics"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67317-z",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-66121-z",
-      "title": "Altered tonsillar microbiome in children with Down syndrome and obstructive sleep apnea",
-      "authors": "E. Woods, D. Jones, O. Gorden, N. Nusbacher, J. Kofonow, G. Dumont, D. N. Frank, N. R. Friedman, B. W. Herrmann, C. Lozupone, M. R. Verneris",
-      "journal": "Scientific Reports",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-66121-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65600-7",
-      "title": "Single-nucleotide resolution mapping of m6A in zebrafish early embryonic development identifies developmental stage-associated modification dynamics during the maternal-to-zygotic transition",
-      "authors": "Alex Wardale, Yong Peng, Ruiqi Ge, Tor Erik Jørgensen, Steinar Daae Johansen, Chuan He, Igor Babiak",
-      "journal": "Scientific Reports",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Epitranscriptomics"
-      ],
-      "groups": [
-        "epitranscriptomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65600-7",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41579-026-01359-y",
-      "title": "The gut microbiota in malnutrition",
-      "authors": "Paula T. Littlejohn, Ravi Holani, Bruce A. Vallance, B. Brett Finlay",
-      "journal": "Nature Reviews Microbiology",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41579-026-01359-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41564-026-02496-z",
-      "title": "Author Correction: Multikingdom and functional gut microbiota markers for autism spectrum disorder",
-      "authors": "Qi Su, Oscar W. H. Wong, Wenqi Lu, Yating Wan, Lin Zhang, Wenye Xu, Moses K. T. Li, Chengyu Liu, Chun Pan Cheung, Jessica Y. L. Ching, Pui Kuan Cheong, Ting Fan Leung, Sandra Chan, Patrick Leung, Francis K. L. Chan, Siew C. Ng",
-      "journal": "Nature Microbiology",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41564-026-02496-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-15T23:06:44.396695+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01105-x",
-      "title": "Polarity-aware knowledge graph reveals diet–microbiome–health mechanisms with relevance to muscle, immune and metabolic aging",
-      "authors": "Jianfu Li, Ellen Bu, Andrew Lian, Yiming Li, Cui Tao",
-      "journal": "npj Science of Food",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01105-x",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01077-y",
-      "title": "Integrative multi-omics investigation of gut carboxylic metabolites in the gut-skin axis of IBD and AD comorbidity",
-      "authors": "Luhao Wang, Linjie Ye, Xiaofei Huang, Jianqin Yu, Xiaolong Chen, Lusheng Wang, Rongrong Jing",
-      "journal": "npj Science of Food",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01077-y",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01090-9",
-      "title": "ProSci-246 with dietary guidance alters gut microbiota and metabolism in childhood obesity: a randomized trial",
-      "authors": "Xuan Shi, Weiwei Hu, Cuicui Ma, Lili Yang, Fengnan Lian, Yuying Zhang, Teng Ma, Lai-Yu Kwok, Ruifang Guo, Zhihong Sun, Heping Zhang",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-27",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01090-9",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
