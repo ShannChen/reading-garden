@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-26T23:05:30.024647+00:00",
+  "checkedAt": "2026-11-27T11:00:21.721864+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/sciadv.aeg8071",
+      "title": "Skeletal muscle proteomics reveals metabolic phenotype–specific adaptations to exercise training in health, obesity, and type 2 diabetes",
+      "authors": "Farina L. Schlabs, Jeppe Kjærgaard, Rikke Kruse, Dimitrius Santiago P.S.F. Guimarães, Nigel Kurgan, Frederic Schrøder Wenzel Arendrup, Maria Houborg Petersen, Niels Ørtenblad, Martin Eisemann de Almeida, Anders H. Lund, Kei Sakamoto, Juleen R. Zierath, Anna Krook, Kurt Højlund, Atul S. Deshmukh",
+      "journal": "Science Advances",
+      "published": "2026-11-27",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aeg8071",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-27T11:00:21.721864+00:00"
+    },
     {
       "doi": "10.1038/s41598-026-82153-x",
       "title": "Integrated proteomics and metabolomics elucidate the mechanism of leaf development inhibition in cigar tobacco under calcium and magnesium deficiencies",
@@ -12522,57 +12539,6 @@
       "link": "https://doi.org/10.1038/s41467-026-77187-8",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41587-026-03260-8",
-      "title": "Megascale microbiome analysis with DartUniFrac",
-      "authors": "Jianshu Zhao, Daniel McDonald, Igor Sfiligoi, Manuel E. Lladser, Lucas Patel, Yuhan Weng, Lora Khatib, Samuel Degregori, Antonio Gonzalez, Catherine A. Lozupone, Rob Knight",
-      "journal": "Nature Biotechnology",
-      "published": "2026-08-28",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41587-026-03260-8",
-      "matchSource": "Title, abstract and metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41540-026-00820-1",
-      "title": "Multi-omics analysis reveals extracellular matrix influences glioma progression via remodeling the immune microenvironment",
-      "authors": "Yan Fang, Jiayao Sun, Yanyan Yang, Pengfei Li, Weimin Ni",
-      "journal": "npj Systems Biology and Applications",
-      "published": "2026-08-28",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41540-026-00820-1",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
-    },
-    {
-      "doi": "10.1038/s41538-026-01114-w",
-      "title": "Lactiplantibacillus plantarum J26 supplementation improves adiposity-related outcomes in adults with metabolic syndrome via remodeling the gut microbiota",
-      "authors": "Jiahong Zheng, Mengtao Yang, Jie Zhuang, Hongguang Li, Yue Li, Yanmei Wu, Jiali Zhang, Jiedong Chen, Mengchu Li, Chen Wang, Huilian Zhu, Zhaoyan Liu",
-      "journal": "npj Science of Food",
-      "published": "2026-08-28",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41538-026-01114-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
     }
   ]
 }
