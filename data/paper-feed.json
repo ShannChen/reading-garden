@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-27T11:00:21.721864+00:00",
+  "checkedAt": "2026-11-27T22:46:28.361406+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1126/sciadv.aeh0765",
+      "title": "Nanos remodels Drosophila germ granules into multiphase condensates for germ cell specification",
+      "authors": "Kwan Yin Lee, Harathi Jonnagaddala, Marcus D. Kilwein, Akira Nakamura, Marian Kalocsay, Elizabeth R. Gavis",
+      "journal": "Science Advances",
+      "published": "2026-11-27",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1126/sciadv.aeh0765",
+      "matchSource": "Title, abstract and metadata subjects",
+      "firstSeen": "2026-11-27T22:46:28.361406+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aeg8071",
       "title": "Skeletal muscle proteomics reveals metabolic phenotype–specific adaptations to exercise training in health, obesity, and type 2 diabetes",
@@ -23,6 +40,40 @@
       "link": "https://doi.org/10.1126/sciadv.aeg8071",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-11-27T11:00:21.721864+00:00"
+    },
+    {
+      "doi": "10.1038/s44325-026-00163-0",
+      "title": "Potential mediating role of metabolomic signatures in the association between periodontal disease and cardiovascular disease",
+      "authors": "Wenpan Xian, Feixiang Wang, Jianguo Ke, Jia Li, Churen Zhang, Hanwen Zhou, Qiaoling Cai, Yan Wang, Sicheng Li",
+      "journal": "npj Cardiovascular Health",
+      "published": "2026-11-27",
+      "year": "2026",
+      "tags": [
+        "Metabolomics"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1038/s44325-026-00163-0",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-27T22:46:28.361406+00:00"
+    },
+    {
+      "doi": "10.1038/s41598-026-82065-w",
+      "title": "Olink proteomics reveals early molecular changes in scalp psoriasis after guselkumab treatment",
+      "authors": "Yuting Zhu, Wei Chen, Ningning Shen, Qiang Dong",
+      "journal": "Scientific Reports",
+      "published": "2026-11-27",
+      "year": "2026",
+      "tags": [
+        "Proteomics"
+      ],
+      "groups": [
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41598-026-82065-w",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-27T22:46:28.361406+00:00"
     },
     {
       "doi": "10.1038/s41598-026-82153-x",
@@ -1055,7 +1106,7 @@
     },
     {
       "doi": "10.1038/s41467-026-78313-2",
-      "title": "Gut microbiota GABA regulation by intestinal pH osmolality and microbial consumption",
+      "title": "Gut microbiota GABA regulation by intestinal pH, osmolality, and microbial consumption",
       "authors": "Kun Ye, Serafina Plüss, Claudia Moresi, Selma Aslani, Denisa Mujezinovic, Fabián A. Cornejo, Christophe Lacroix, Markus Arnoldini, Benoit Pugin",
       "journal": "Nature Communications",
       "published": "2026-11-17",
