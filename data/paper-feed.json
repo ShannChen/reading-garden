@@ -1,12 +1,32 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-27T22:46:28.361406+00:00",
+  "checkedAt": "2026-11-28T10:38:18.979625+00:00",
   "lastCompleteCheck": "2026-10-05T05:57:24.148531+00:00",
   "partial": true,
   "failedQueries": 3,
   "source": "Crossref",
   "windowDays": 90,
   "papers": [
+    {
+      "doi": "10.1038/s41597-026-08457-9",
+      "title": "Comprehensive Metabolomic and Proteomic Dataset on Gut Microbiota-Host Interactions in Anti-Aging",
+      "authors": "Liying Wang, Shiyu Xia, Guiling Fu, Hui Zhou, Zuobin Zhu, Hui Shi",
+      "journal": "Scientific Data",
+      "published": "2026-11-28",
+      "year": "2026",
+      "tags": [
+        "Metabolomics",
+        "Microbiome",
+        "Proteomics"
+      ],
+      "groups": [
+        "metabolomics",
+        "proteomics"
+      ],
+      "link": "https://doi.org/10.1038/s41597-026-08457-9",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-28T10:38:18.979625+00:00"
+    },
     {
       "doi": "10.1126/sciadv.aeh0765",
       "title": "Nanos remodels Drosophila germ granules into multiphase condensates for germ cell specification",
@@ -3097,6 +3117,23 @@
       "link": "https://doi.org/10.1016/j.tplants.2026.10.017",
       "matchSource": "Title and available metadata subjects",
       "firstSeen": "2026-11-19T10:29:37.792548+00:00"
+    },
+    {
+      "doi": "10.1016/j.tim.2026.11.003",
+      "title": "Infective competence of the human microbiome in chronic disease",
+      "authors": "Alejandra Escobar-Zepeda, Luis F. Delgado, Mary K. Johnson, Elisabeth Letellier, Robert D. Finn, Paul Wilmes",
+      "journal": "Trends in Microbiology",
+      "published": "2026-11",
+      "year": "2026",
+      "tags": [
+        "Microbiome"
+      ],
+      "groups": [
+        "metabolomics"
+      ],
+      "link": "https://doi.org/10.1016/j.tim.2026.11.003",
+      "matchSource": "Title and available metadata subjects",
+      "firstSeen": "2026-11-28T10:38:18.979625+00:00"
     },
     {
       "doi": "10.1016/j.tim.2026.09.007",
@@ -12454,142 +12491,6 @@
       "link": "https://doi.org/10.1038/s41598-026-68589-1",
       "matchSource": "Title, abstract and metadata subjects",
       "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s43856-026-01880-4",
-      "title": "Integrated transcriptomic and proteomic analysis reveals innate and adaptive immune dynamics in systemic autoinflammatory diseases",
-      "authors": "Matthijs van Wijngaarden, Rogier T. A. van Wijck, Djo Hasan, Sigrid M. A. Swagemakers, Immunome Project Consortium for Autoinflammatory Disorders (ImmunAID), Sigrid M. A. Swagemakers, Peter J. van der Spek, Rogier T. A. van Wijck, Peter D. Katsikis, Paul Régnier, Vassili Soumelis, Bruno Fautrel, David Saadoun, Peter J. van der Spek",
-      "journal": "Communications Medicine",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s43856-026-01880-4",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-68920-w",
-      "title": "Longitudinal serum proteomics identifies candidate immune, coagulation, and metabolic signatures associated with post-treatment Lyme disease",
-      "authors": "John B. Miller, Taekyung Ryu, David Kirchner, Jin Hyeok Kim, Robert N. Cole, Alison W. Rebman, Brittany L. Adler, John N. Aucott, Chan Hyun Na",
-      "journal": "Scientific Reports",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Proteomics"
-      ],
-      "groups": [
-        "proteomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-68920-w",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-67268-5",
-      "title": "Gut microbiome profiles in locally advanced rectal cancer after total neoadjuvant therapy: comparisons with healthy controls and associations with survival",
-      "authors": "Mahmoud Al-Masri, Luay Abu-Qatouseh, Rula M Darwish, Yasmin Safi, Eyad Atwa, Mohammad Almasri, Zaid Al-Amoush, Ola Ramadan, Osama Alayyan, Rama Almasri, Fawzi Abuhijla, Mohammad A A Al-Najjar",
-      "journal": "Scientific Reports",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-67268-5",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41598-026-65639-6",
-      "title": "Terrestrial isopods shape carbon cycling through gut microbiota in variable environments",
-      "authors": "Yang Wang, Junxian Wang, Weiting Zhang, Zaixing Huang, Michael Urynowicz, Huan He, Gordana Medunić, Hongguang Guo, Fang-Jing Liu, P. Gopinathan",
-      "journal": "Scientific Reports",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41598-026-65639-6",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01143-z",
-      "title": "Development and genome-level microevolution of peri-implant microbiome during surface colonization",
-      "authors": "Yuchen Zhang, Yuguang Yang, Yibing Liu, Emily Ming-Chieh Lu, David Moyes, Sadia Ambreen Niazi, Qin Zhou",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01143-z",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41522-026-01101-9",
-      "title": "Gut biogeographical microbiome in dyspepsia links duodenal ecology and opportunistic pathogens with plasma biomarkers",
-      "authors": "Sunil Nagpal, Harish Hooda, Tanushree Saini, Tarini S. Ghosh, Uma Nahar, Vishal Sharma, Anupam Kumar Singh, Usha Dutta, Sharmila S. Mande, Bhupesh Taneja",
-      "journal": "npj Biofilms and Microbiomes",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41522-026-01101-9",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-77219-3",
-      "title": "Gut microbiota-activated PLCγ2 monocytes drive atrial fibrillation",
-      "authors": "Pinfang Kang, Dimin Wang, Peng Teng, Wenjie Diao, Yi Zhao, Qing Chen, Ying Tang, Ziyi Chen, Meiyang Xu, Zhengyu Sun, Wenjuan Wu, Hongju Wang, Jinjin Meng, Weidong Li, Bi Tang, Liang Ma",
-      "journal": "Nature Communications",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Microbiome"
-      ],
-      "groups": [
-        "metabolomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-77219-3",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T05:54:49.731087+00:00"
-    },
-    {
-      "doi": "10.1038/s41467-026-77187-8",
-      "title": "Distinct multi-omics signatures of clinical subgroups of type 2 diabetes define heterogeneous responses to an insulin sensitizer",
-      "authors": "Zehui Cao, Ruolan Zhang, Haonan Chen, Naixin Zhang, Qiaochu Chen, Yuanbang Mai, Xintong Yao, Qingwang Chen, Jiaqi Li, Desi Pan, Linong Ji, Weiping Jia, Xianping Lu, Antonio Vidal-Puig, Leming Shi, Yan Zheng, Yuanting Zheng",
-      "journal": "Nature Communications",
-      "published": "2026-08-29",
-      "year": "2026",
-      "tags": [
-        "Multiomics"
-      ],
-      "groups": [
-        "multiomics"
-      ],
-      "link": "https://doi.org/10.1038/s41467-026-77187-8",
-      "matchSource": "Title and available metadata subjects",
-      "firstSeen": "2026-10-05T06:04:47.799429+00:00"
     }
   ]
 }
